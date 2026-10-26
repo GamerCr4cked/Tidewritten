@@ -2,7 +2,7 @@
    UnsaidPages — Dark Warm Theme
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
   --bg-primary: #07131d;
@@ -2088,7 +2088,6 @@ body::before {
 /* ============================================
    TIDEWRITTEN — ABYSSAL GLOW DESIGN SYSTEM
    ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 :root {
   --bg-primary:#07131d;--bg-secondary:#0a1a25;--bg-card:#0c202b;--bg-card-hover:#102b38;
   --border:#173342;--border-light:#244958;--text-primary:#e5f7fb;--text-secondary:#9ab7c4;--text-muted:#668493;
