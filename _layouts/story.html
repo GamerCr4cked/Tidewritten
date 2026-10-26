@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.story_title }} — UnsaidPages</title>
+  <title>{{ page.story_title }} — Tidewritten</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F4D6;</text></svg>">
@@ -13,17 +13,11 @@
 </head>
 <body class="story-page">
   <div class="reading-progress" id="readingProgress"></div>
-  <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+  
   <div class="site-wrapper">
     <header class="site-header">
-      <div class="header-brand">
-        <a href="{{ '/' | relative_url }}" class="brand-link" id="brandLink">UnsaidPages</a>
-        <div class="header-dropdown" id="headerDropdown">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/stories' | relative_url }}">Stories</a>
-          <a href="{{ '/coming-soon' | relative_url }}">Coming Soon</a>
-        </div>
-      </div>
+      <a href="{{ '/' | relative_url }}" class="brand-link" aria-label="Tidewritten home"><span class="brand-mark" aria-hidden="true">≈</span><span class="brand-word">Tidewritten</span></a>
+      <nav class="site-nav" aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/stories' | relative_url }}">Stories</a><a href="{{ '/coming-soon' | relative_url }}">On the horizon</a></nav>
     </header>
 
     <div class="chapter-nav" id="chapterNav">
@@ -106,7 +100,7 @@
     </div>
 
     <div class="site-footer">
-      <em>UnsaidPages — stories that were felt, not just written.</em>
+      <em>Tidewritten — stories that were felt, not just written.</em>
     </div>
   </div>
 
@@ -401,7 +395,7 @@
     // ============================================
     // SHARE BUTTONS
     // ============================================
-    const storyTitle = '{{ page.story_title }} — UnsaidPages';
+    const storyTitle = '{{ page.story_title }} — Tidewritten';
     const storyUrl = window.location.href;
 
     // Native Share (OS share menu — works on mobile + desktop Chrome/Edge)
