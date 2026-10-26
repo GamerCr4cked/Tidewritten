@@ -3,13 +3,18 @@ layout: default
 title: Stories — Tidewritten
 ---
 
-<div class="home-header">
-  <h1>Stories <span class="story-count">{{ site.pages | where: "layout", "story" | where_exp: "item", "item.translation != true" | size }}</span></h1>
-  <p>Follow the feeling. Find the story that stays.</p>
-</div>
+<section class="home-header stories-hero">
+  <div class="stories-hero-copy">
+    <p class="stories-eyebrow"><span class="stories-eyebrow-dot"></span> THE TIDEWRITTEN LIBRARY</p>
+    <h1>Stories <span class="story-count">{{ site.pages | where: "layout", "story" | where_exp: "item", "item.translation != true" | size }}</span></h1>
+    <p class="stories-hero-subtitle">Find a world to get lost in.</p>
+    <p class="stories-hero-description">Explore stories across languages, genres, and moods. Every story has a feeling worth following.</p>
+  </div>
+  <div class="stories-hero-art" aria-hidden="true"><span class="stories-orbit stories-orbit-one"></span><span class="stories-orbit stories-orbit-two"></span><span class="stories-orb"></span><span class="stories-art-caption">EVERY STORY LEAVES A TRACE</span></div>
+</section>
 
 <button class="search-trigger" id="searchTrigger">
-  🔍 Search stories...
+  Search the collection...
   <kbd>Ctrl+K</kbd>
 </button>
 
@@ -18,15 +23,16 @@ title: Stories — Tidewritten
   <div class="search-box">
     <div class="search-input-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" class="search-input" id="searchInput" placeholder="Search story names, descriptions..." autocomplete="off">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search titles, descriptions, or genres..." autocomplete="off">
       <button class="search-close" id="searchClose">Esc</button>
     </div>
     <div class="search-results" id="searchResults">
-      <div class="search-hint">Type to search across all stories</div>
+      <div class="search-hint">Start typing to discover a story</div>
     </div>
   </div>
 </div>
 
+<div class="stories-browse-label"><span>EXPLORE THE COLLECTION</span><span>Choose a genre</span></div>
 <div class="nav-tabs" id="navTabs">
   <button class="nav-tab active" data-filter="all">All Stories</button>
   <button class="nav-tab" data-filter="school-life">School Life</button>
@@ -72,7 +78,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
     </div>
     <h3><span class="mood-emoji">🦋</span> Nayi Chidiya</h3>
-    <p class="card-desc">10th class ka ek ladka. 7th class ki ek ladki. Door se dekhta tha, dheere dheere karib aaya — par bola kuch nahi. Chhote chhote moments, badi si feelings. 5 chapters. School life. One-sided pyaar ki shuruat.</p>
+    <p class="card-desc">A tenth-grade boy and a seventh-grade girl. He watches from a distance and slowly grows closer, but never says what he feels. Small moments, growing emotions, and the beginning of a one-sided love. 5 chapters.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -88,7 +94,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
     </div>
     <h3><span class="mood-emoji">😄</span> Nayi Chidiya — S2</h3>
-    <p class="card-desc">Ek saal baad, wahi school, wahi canteen — par ab dono badal chuke hain. Door se dekhna band, ab dosti shuru. Hansi hai, mazaak hai, aur beech me kuch aisa jo dono ko samajh nahi aa raha. 5 chapters. Dosti aur thoda sa kuch aur.</p>
+    <p class="card-desc">A year later, the same school and the same canteen—but both have changed. Watching from a distance gives way to friendship, laughter, and feelings neither quite understands. 5 chapters.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -104,7 +110,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
     </div>
     <h3><span class="mood-emoji">💕</span> Nayi Chidiya — S3</h3>
-    <p class="card-desc">12th aur 9th. Same campus, par ab dono karib aa chuke hain. Rooftop scenes, lambi baatein, aur wo feelings jo ab chhupaayi nahi ja rahi. 7 chapters. Romance shuru — sachcha wala.</p>
+    <p class="card-desc">In twelfth and ninth grade, they share the same campus and have grown closer. Rooftop conversations, long talks, and feelings that are becoming impossible to hide. 7 chapters.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -119,7 +125,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Drama</span>
     </div>
     <h3><span class="mood-emoji">💔</span> The Last Message</h3>
-    <p class="card-desc">Aryan aur Kavya. Ek random chat se shuru hua, "goodnight stupid" tak pahuncha — aur phir ek din, bas silence. Na fight, na reason. Sirf ek last message aur bohot saare sawaal. 8 chapters. Real feelings.</p>
+    <p class="card-desc">Aryan and Kavya began with a random chat and reached the point of saying “goodnight, stupid.” Then, one day, came silence. No fight. No explanation. Just one last message and a thousand questions. 8 chapters.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -135,7 +141,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
     </div>
     <h3><span class="mood-emoji">🤝</span> Phir Milenge</h3>
-    <p class="card-desc">College. Dosti. Aur dheere dheere kuch aur. Do log jo pehle ajnabi the, phir best friends bane, aur phir — feelings aa gayi. 6 chapters. College romance. Dosti se pyaar tak ka safar.</p>
+    <p class="card-desc">College, friendship, and the slow arrival of something more. Two strangers become best friends, only to discover feelings neither expected. 6 chapters. A campus romance about the journey from friendship to love.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -151,7 +157,7 @@ title: Stories — Tidewritten
       <span class="tag mood">Emotional</span>
     </div>
     <h3><span class="mood-emoji">🖤</span> Phir Milenge — S2</h3>
-    <p class="card-desc">Distance aa gayi. Silence badh gayi. Aur beech me kuch aisa hua jisne sab kuch badal diya. Season 1 ki khushi Season 2 me dard ban gayi. 6 chapters. Drama. Tootna.</p>
+    <p class="card-desc">Distance grows. Silence deepens. Then something happens that changes everything, turning Season 1’s happiness into Season 2’s heartbreak. 6 chapters of drama and fractured trust.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -166,7 +172,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
     </div>
     <h3><span class="mood-emoji">🌅</span> Phir Milenge — S3</h3>
-    <p class="card-desc">2 saal baad. Wahi sheher, wahi raaste — par ab dono badal chuke hain. Purane zakhm hain, naye sawaal hain, aur ek mauka hai sab theek karne ka. 6 chapters. Healing aur dobara shuruat.</p>
+    <p class="card-desc">Two years later, the same city and familiar roads—but both have changed. Old wounds remain, new questions emerge, and one chance offers the possibility of making things right. 6 chapters about healing and beginning again.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -181,7 +187,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
     </div>
     <h3><span class="mood-emoji">❤️‍🩹</span> Zinda</h3>
-    <p class="card-desc">Ek ladka jo sirf jeeta tha — same routine, same silence, har din. Phir ek ladki aayi uski zindagi me — dheere dheere, bina shor ke. 18 chapters. Office romance. Slow burn.</p>
+    <p class="card-desc">A man moves through life on the same routine, surrounded by the same silence, day after day. Then someone enters his life quietly, changing things little by little. 18 chapters. An office romance and a slow burn.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -196,7 +202,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Heartbreak</span>
     </div>
     <h3><span class="mood-emoji">😶</span> Wahi Face</h3>
-    <p class="card-desc">8th class. Last bench. Ek ladka jo dekhta rehta tha par bol nahi paata tha. Ek ladki jo apni duniya me busy thi. Beech me — chhote moments aur badi feelings. 5 chapters. Real story. School life.</p>
+    <p class="card-desc">Eighth grade. The last bench. A boy who keeps looking but cannot find the words, and a girl absorbed in her own world. Between them are small moments and feelings that grow quietly. 5 chapters. A school-life story inspired by real events.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -212,7 +218,7 @@ title: Stories — Tidewritten
       <span class="tag mood">Emotional</span>
     </div>
     <h3><span class="mood-emoji">💔</span> Split</h3>
-    <p class="card-desc">Broker ki galti se ek flat me do ajnabi. Ek freelancer, ek content writer. Dheere dheere dosti hui, phir kuch aur. Par kuch cheezein waise nahi hoti jaise dikhti hain. 14 chapters. Roommate romance.</p>
+    <p class="card-desc">A broker’s mistake puts two strangers in the same apartment: a freelancer and a content writer. Friendship slowly becomes something more, but not everything is what it seems. 14 chapters. A roommate romance.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -229,7 +235,7 @@ title: Stories — Tidewritten
       <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">Comedy</span>
     </div>
     <h3><span class="mood-emoji">🖥️</span> Offline</h3>
-    <p class="card-desc">Ek Discord server. Teen owners. Ek ladki jo "hi" bol ke ek ladke ki duniya badal gayi. Dosti, bakchodi, late night calls — aur beech me kuch aisa jo kisine expect nahi kiya. 10 chapters. Friendship aur pyaar. Based on a true story.</p>
+    <p class="card-desc">One Discord server. Three owners. One girl whose simple “hi” changes a boy’s world. Friendship, chaotic banter, late-night calls, and something no one expected. 10 chapters. A story of friendship and love, based on real events.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -245,7 +251,7 @@ title: Stories — Tidewritten
       <span class="tag mood">Heartbreak</span>
     </div>
     <h3><span class="mood-emoji">💻</span> The Last Login</h3>
-    <p class="card-desc">ThorSMP se shuru hui dosti, Alone Hosting ka peak, aur phir Bunny ke aane se aaya wo drift. Ek suspended ID, ek badla hua persona, aur ek aakhri umeed. 8 chapters. Real story of loss and hope.</p>
+    <p class="card-desc">A friendship that began on ThorSMP, the rise of Alone Hosting, and the distance that followed Bunny’s arrival. A suspended account, a changed persona, and one last hope. 8 chapters. A real story of loss and hope.</p>
     <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
     <div class="card-footer">
       <span class="card-lang"></span>
@@ -258,7 +264,7 @@ title: Stories — Tidewritten
       <span class="tag" style="opacity:0.5">???</span>
     </div>
     <h3>Coming Soon</h3>
-    <p class="card-desc">Nayi kahani jald hi aayegi…</p>
+    <p class="card-desc">A new story is on its way…</p>
     <div class="card-footer">
       <span class="card-lang">—</span>
       <span class="read-link">Soon</span>
