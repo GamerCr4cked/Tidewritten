@@ -2405,3 +2405,102 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 @media (prefers-reduced-motion: reduce) {
   .stories-orb { animation: none; }
 }
+
+
+/* Tidewritten story library — book-cover card redesign */
+.stories-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 390px), 1fr));
+  gap: 22px;
+}
+.stories-grid .story-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 23px 22px 20px calc(32% + 24px);
+  border-radius: 16px;
+  border: 1px solid rgba(106, 210, 221, .16);
+  background: linear-gradient(135deg, rgba(10, 28, 42, .98), rgba(8, 17, 30, .98));
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .12);
+  isolation: isolate;
+}
+[data-theme="light"] .stories-grid .story-card {
+  background: linear-gradient(135deg, #ffffff, #f0f8fa);
+  border-color: rgba(22, 123, 139, .16);
+}
+.stories-grid .story-card::after {
+  content: attr(data-cover-title);
+  position: absolute;
+  z-index: -1;
+  inset: 0 auto 0 0;
+  width: 29%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  padding: 18px 13px 20px;
+  overflow: hidden;
+  color: rgba(255,255,255,.96);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(16px, 1.5vw, 22px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -.35px;
+  text-shadow: 0 2px 14px rgba(0,0,0,.35);
+  background:
+    radial-gradient(ellipse at 70% 20%, rgba(255,255,255,.28), transparent 30%),
+    radial-gradient(ellipse at 10% 75%, rgba(39,231,224,.25), transparent 38%),
+    linear-gradient(155deg, #0d6978 0%, #12374f 45%, #111b32 100%);
+  border-right: 1px solid rgba(132,235,240,.2);
+  box-shadow: inset -10px 0 24px rgba(0,0,0,.12);
+  transition: filter .25s ease, width .25s ease;
+}
+.stories-grid .story-card::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 29%;
+  right: auto;
+  width: 2px;
+  height: auto;
+  opacity: .75;
+  background: linear-gradient(180deg, transparent, rgba(88,238,232,.65), transparent);
+}
+.stories-grid .story-card:nth-child(5n + 2)::after {
+  background: radial-gradient(ellipse at 70% 20%, rgba(255,255,255,.25), transparent 32%), linear-gradient(155deg, #77435e, #402c52 52%, #17233d);
+}
+.stories-grid .story-card:nth-child(5n + 3)::after {
+  background: radial-gradient(ellipse at 65% 25%, rgba(255,255,255,.22), transparent 30%), linear-gradient(155deg, #2b7669, #17464e 50%, #14263b);
+}
+.stories-grid .story-card:nth-child(5n + 4)::after {
+  background: radial-gradient(ellipse at 70% 20%, rgba(255,255,255,.25), transparent 32%), linear-gradient(155deg, #91633c, #5a3b38 52%, #24223b);
+}
+.stories-grid .story-card:nth-child(5n)::after {
+  background: radial-gradient(ellipse at 70% 20%, rgba(255,255,255,.22), transparent 32%), linear-gradient(155deg, #405b91, #293b63 52%, #151d34);
+}
+.stories-grid .story-card > * {
+  position: relative;
+  z-index: 1;
+}
+.stories-grid .story-card .card-genre { gap: 5px; margin-bottom: 13px; }
+.stories-grid .story-card .tag { font-size: 9px; padding: 4px 7px; letter-spacing: .55px; }
+.stories-grid .story-card h3 { font-size: clamp(17px, 1.5vw, 21px); line-height: 1.28; margin-bottom: 10px; }
+.stories-grid .story-card .mood-emoji { display: none; }
+.stories-grid .story-card .card-desc { font-size: 12px; line-height: 1.65; max-height: 5em; }
+.stories-grid .story-card .desc-toggle { margin: 5px 0 13px; padding: 0; background: transparent; border: 0; color: var(--accent); cursor: pointer; }
+.stories-grid .story-card .card-footer { padding-top: 12px; margin-top: auto; }
+.stories-grid .story-card .read-link { letter-spacing: .25px; }
+.stories-grid .story-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(72, 226, 232, .42);
+  box-shadow: 0 20px 44px rgba(0,0,0,.24), 0 0 24px rgba(54,228,232,.07);
+}
+.stories-grid .story-card:hover::after { filter: brightness(1.16) saturate(1.08); }
+@media (max-width: 520px) {
+  .stories-grid { grid-template-columns: minmax(0, 1fr); gap: 15px; }
+  .stories-grid .story-card { min-height: 270px; padding: 19px 15px 17px calc(31% + 16px); }
+  .stories-grid .story-card::after { width: 28%; padding: 14px 9px 16px; font-size: 16px; }
+  .stories-grid .story-card::before { left: 28%; }
+  .stories-grid .story-card h3 { font-size: 17px; }
+  .stories-grid .story-card .tag { font-size: 8px; }
+}
