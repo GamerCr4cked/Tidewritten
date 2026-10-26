@@ -2089,13 +2089,13 @@ body::before {
    TIDEWRITTEN — ABYSSAL GLOW DESIGN SYSTEM
    ============================================ */
 :root {
-  --bg-primary:#07131d;--bg-secondary:#0a1a25;--bg-card:#0c202b;--bg-card-hover:#102b38;
+  --bg-primary:#07131d;--bg-secondary:#0a1a25;--bg-card:#0c202b;--bg-card-hover:#102b38;--bg-bubble-her:rgba(139,221,232,.09);--bg-bubble-him:rgba(54,228,232,.07);
   --border:#173342;--border-light:#244958;--text-primary:#e5f7fb;--text-secondary:#9ab7c4;--text-muted:#668493;
   --accent:#36e4e8;--accent-hover:#9afbff;--accent-subtle:rgba(54,228,232,.09);--accent-glow:rgba(54,228,232,.18);
   --dialogue-her:#8bdde8;--dialogue-her-dark:rgba(139,221,232,.12);--dialogue-him:#36e4e8;--dialogue-him-dark:rgba(54,228,232,.1);--highlight:#9afbff;
 }
 [data-theme="light"]{
-  --bg-primary:#f2fbfc;--bg-secondary:#e5f4f6;--bg-card:#fff;--bg-card-hover:#f6feff;
+  --bg-primary:#f2fbfc;--bg-secondary:#e5f4f6;--bg-card:#fff;--bg-card-hover:#f6feff;--bg-bubble-her:rgba(8,127,145,.08);--bg-bubble-him:rgba(8,127,145,.06);
   --border:#d0e5e9;--border-light:#c2dce1;--text-primary:#102630;--text-secondary:#496672;--text-muted:#708b95;
   --accent:#087f91;--accent-hover:#075d6b;--accent-subtle:rgba(8,127,145,.08);--accent-glow:rgba(8,127,145,.13);
   --dialogue-her:#087f91;--dialogue-her-dark:rgba(8,127,145,.1);--dialogue-him:#087f91;--dialogue-him-dark:rgba(8,127,145,.08);--highlight:#087f91;
