@@ -36,7 +36,7 @@ description: Immersive light novels and emotional stories about the moments that
     </a>
     <a href="{{ '/library/' | relative_url }}" class="collection-card collection-horizon">
       <span class="collection-index">02 — THE FULL COLLECTION</span><span class="horizon-orbit" aria-hidden="true"><span></span></span>
-      <div class="collection-card-bottom"><span class="collection-icon" aria-hidden="true">〰</span><h3>Explore the Library</h3><p>Browse the current light-novel editions, open a volume directly, and discover the stories being adapted next.</p><span class="collection-count">Browse all available stories <span aria-hidden="true">→</span></span></div>
+      <div class="collection-card-bottom"><span class="collection-icon" aria-hidden="true">〰</span><h3>Explore the Library</h3><p>Browse the available light-novel editions, explore series, and open a volume to begin reading.</p><span class="collection-count">Browse all available stories <span aria-hidden="true">→</span></span></div>
     </a>
   </div>
 </section>

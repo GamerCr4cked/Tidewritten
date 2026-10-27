@@ -1,0 +1,39 @@
+---
+layout: default
+title: About — Tidewritten
+description: Learn what Tidewritten is, what you can read here, and what the name stands for.
+permalink: /about/
+---
+
+<style>
+  .info-page{max-width:980px;margin:0 auto;padding:34px 0 64px}
+  .info-hero{padding:clamp(28px,5vw,54px);border:1px solid var(--border);border-radius:24px;background:radial-gradient(ellipse at 85% 0%,var(--accent-glow),transparent 42%),var(--bg-secondary);margin-bottom:22px}
+  .info-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:12px}
+  .info-hero h1{font-size:clamp(34px,6vw,54px);line-height:1.1;letter-spacing:-.04em;margin-bottom:16px}
+  .info-hero h1 span{color:var(--accent)}
+  .info-hero p{max-width:680px;color:var(--text-secondary);font-size:16px}
+  .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:14px;margin:20px 0}
+  .info-card{padding:23px;border:1px solid var(--border);border-radius:17px;background:var(--bg-card)}
+  .info-card .info-icon{font-size:22px;margin-bottom:12px;display:block}
+  .info-card h2{font-size:18px;margin-bottom:8px}
+  .info-card p{font-size:14px;color:var(--text-secondary)}
+  .info-note{padding:20px 22px;border-left:2px solid var(--accent);background:var(--accent-subtle);border-radius:0 12px 12px 0;color:var(--text-secondary);font-size:14px}
+  .info-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+  .info-actions a{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border:1px solid var(--border-light);border-radius:999px;color:var(--text-primary);text-decoration:none;font-size:13px;font-weight:600}
+  .info-actions a:hover{border-color:var(--accent);color:var(--accent)}
+</style>
+
+<main class="info-page">
+  <section class="info-hero">
+    <p class="info-eyebrow">A LITTLE ABOUT THIS PLACE</p>
+    <h1>Welcome to <span>Tidewritten.</span></h1>
+    <p>A home for emotional stories, immersive light-novel editions, complicated friendships, quiet romance, and the moments that keep echoing after the final line.</p>
+    <div class="info-actions"><a href="{{ '/library/' | relative_url }}">Explore the Library ↗</a><a href="{{ '/reading-guide/' | relative_url }}">How to read here →</a></div>
+  </section>
+  <section class="info-grid" aria-label="About Tidewritten">
+    <article class="info-card"><span class="info-icon" aria-hidden="true">📚</span><h2>Stories first</h2><p>Tidewritten is built around reading: follow a series, open a volume, and give each story room to breathe.</p></article>
+    <article class="info-card"><span class="info-icon" aria-hidden="true">🌊</span><h2>Why “Tidewritten”?</h2><p>A tide comes and goes, but it leaves traces behind. The name reflects the feelings, memories, and small moments that stories leave with us.</p></article>
+    <article class="info-card"><span class="info-icon" aria-hidden="true">✨</span><h2>Different kinds of stories</h2><p>Expect friendship, romance, growing up, distance, mystery, and speculative ideas. Each series has its own mood and reading journey.</p></article>
+  </section>
+  <div class="info-note">Tidewritten is a creative reading project. Story characters and events may be fictional or adapted for storytelling; a story’s emotional truth does not mean every event is a real-life account.</div>
+</main>
