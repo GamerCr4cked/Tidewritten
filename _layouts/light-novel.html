@@ -68,6 +68,13 @@
       document.getElementById("larger").addEventListener("click", () => { size += 1; apply(); });
       document.getElementById("reset").addEventListener("click", () => { size = 19; apply(); });
       apply();
+      const historySlug = location.pathname.split("/").filter(Boolean).pop() || "";
+      try {
+        let history = JSON.parse(localStorage.getItem("readingHistory") || "[]");
+        history = history.filter(item => item.url !== location.pathname);
+        history.unshift({ slug: historySlug, url: location.pathname, title: document.title.replace(/ · Tidewritten$/, ""), time: Date.now() });
+        localStorage.setItem("readingHistory", JSON.stringify(history.slice(0, 5)));
+      } catch (e) {}
       const progress = document.getElementById("progress");
       const updateProgress = () => { const max = document.documentElement.scrollHeight - innerHeight; progress.style.width = (max > 0 ? Math.min(100, scrollY / max * 100) : 0) + "%"; };
       addEventListener("scroll", updateProgress, { passive: true }); addEventListener("resize", updateProgress); updateProgress();
