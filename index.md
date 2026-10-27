@@ -153,7 +153,7 @@ description: Immersive light novels and emotional stories about the moments that
       var ago='Recently read';
       if(h.time){var m=Math.max(0,Math.floor((Date.now()-h.time)/60000));ago=m<1?'Just now':m<60?m+'m ago':m<1440?Math.floor(m/60)+'h ago':Math.floor(m/1440)+'d ago';}
       var routes={
-        'notun-pakhi':"{{ '/stories/notun-pakhi.html' | relative_url }}",
+        'notun-pakhi':"{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}",
         'notun-pakhi-s2':"{{ '/stories/the-little-bird-returns/' | relative_url }}",
         'notun-pakhi-s3':"{{ '/stories/where-our-story-begins/' | relative_url }}",
         'phir-milenge':"{{ '/stories/somewhere-between-friends-and-love/' | relative_url }}",
@@ -167,9 +167,24 @@ description: Immersive light novels and emotional stories about the moments that
         'split':"{{ '/stories/the-other-side-of-us/' | relative_url }}",
         'x-prismat':"{{ '/stories/prismat-fragments-of-the-fallen-sky/' | relative_url }}"
       };
+      var titles={
+        'notun-pakhi':'The Girl by the School Gate',
+        'notun-pakhi-s2':'When the Little Bird Returned',
+        'notun-pakhi-s3':'Where Our Story Begins',
+        'phir-milenge':'Somewhere Between Friends and Love',
+        'phir-milenge-s2':'The Silence Between Us',
+        'phir-milenge-s3':'When We Meet Again',
+        'the-last-message':'The Words We Never Sent',
+        'wahi-bench':'The Face I Never Forgot',
+        'zinda':'Teaching Me How to Live',
+        'offline':'When Everyone Went Offline',
+        'the-last-login':'The Account That Never Came Back',
+        'split':'The Other Side of Us',
+        'x-prismat':'Prismat: Fragments of the Fallen Sky'
+      };
       var target=routes[String(h.slug||'')]||h.url||h.path||'{{ "/library/" | relative_url }}';
       if(!/^\//.test(target))target='{{ "/" | relative_url }}'+target;
-      return '<a href="'+safe(target)+'" class="recent-item"><span class="recent-title">'+safe(h.title||'Untitled story')+'</span><span class="recent-time">'+safe(ago)+' ↗</span></a>';
+      return '<a href="'+safe(target)+'" class="recent-item"><span class="recent-title">'+safe(titles[String(h.slug||'')]||h.title||'Untitled story')+'</span><span class="recent-time">'+safe(ago)+' ↗</span></a>';
     }).join('');
     section.style.display='';
   }catch(e){}
