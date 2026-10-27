@@ -49,14 +49,12 @@ permalink: /library/
   <div class="series-grid">
     <div class="series-card">
       <div class="series-art" aria-hidden="true"><span class="series-art-mark">小鳥</span></div>
-      <div class="series-badges"><span class="series-badge">Coming of Age</span><span class="series-badge muted">School Life</span><span class="series-badge muted">3 Volumes</span></div>
+      <div class="series-badges"><span class="series-badge">Coming of Age</span><span class="series-badge muted">School Life</span><span class="series-badge muted">1 Volume</span></div>
       <h3>The Little Bird Chronicles</h3>
       <p class="series-desc">At Seiran Academy, a quiet high-school student and a younger girl grow from strangers into something meaningful through small conversations, shared routines, and the courage to be honest.</p>
-      <div class="series-card-foot"><span>Read a volume</span><strong>Complete series →</strong></div>
+      <div class="series-card-foot"><span>Read Volume 1</span><strong>Open story →</strong></div>
       <div style="display:grid;gap:9px;margin-top:15px">
         <a href="{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 1 · <em>The Girl by the School Gate</em> ↗</a>
-        <a href="{{ '/stories/the-little-bird-returns/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 2 · <em>When the Little Bird Returned</em> ↗</a>
-        <a href="{{ '/stories/where-our-story-begins/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 3 · <em>Where Our Story Begins</em> ↗</a>
       </div>
     </div>
     <div class="series-card">
@@ -143,6 +141,7 @@ permalink: /library/
     const openChooser = () => {
       const seriesTitle = card.querySelector("h3")?.textContent.trim() || "This series";
       const links = [...card.querySelectorAll('a[href]')];
+      if (links.length === 1) { window.location.href = links[0].href; return; }
       title.textContent = "Choose a volume";
       document.getElementById("volumeDialogDescription").textContent = seriesTitle;
       options.replaceChildren();
