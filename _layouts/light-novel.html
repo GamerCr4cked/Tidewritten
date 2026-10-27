@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&display=swap" rel="stylesheet">
   <style>
-    :root{color-scheme:dark;--bg:#08131d;--panel:#102330;--text:#e7edf0;--muted:#9aadb8;--line:#29414d;--accent:#8edbd4;--measure:720px;--reader-size:19px}
+    :root{color-scheme:dark;--bg:#08131d;--panel:#102330;--text:#e7edf0;--muted:#9aadb8;--line:#29414d;--accent:#8edbd4;--measure:720px;--reader-size:19px}[data-theme="light"]{color-scheme:light;--bg:#f2f8f8;--panel:#fff;--text:#20343c;--muted:#5f737a;--line:#cbdcde;--accent:#087f91}[data-theme="light"] body{background:radial-gradient(ellipse at 50% -10%,#dceff0 0,transparent 45%),var(--bg)}[data-theme="light"] .brand{color:#234a52}[data-theme="light"] .tagline{color:#526970}[data-theme="light"] .reader-tools{background:rgba(242,248,248,.92)}[data-theme="light"] .tool-buttons button{background:#fff;color:var(--text)}[data-theme="light"] .progress-track{background:#d6e4e6}[data-theme="light"] .story-content em{color:#087f91}[data-theme="light"] .story-content strong{color:#102630}[data-theme="light"] .story-content blockquote{color:#45656b}.top-actions{display:flex;align-items:center;gap:14px}.theme-toggle{width:36px;height:36px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--text);display:grid;place-items:center;cursor:pointer;font-size:17px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#173849 0,transparent 45%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.7}
     a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.topbar{max-width:1120px;margin:auto;padding:22px 28px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-size:13px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#c8e8e7}.back{font-size:13px;color:var(--muted)}
     .hero{max-width:900px;margin:45px auto 42px;padding:40px 28px 54px;text-align:center;position:relative}.eyebrow{color:var(--accent);font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:700}.hero h1{font-family:"Literata",serif;font-weight:500;font-size:clamp(38px,7vw,68px);line-height:1.1;letter-spacing:-.035em;margin:18px auto 18px;max-width:780px}.tagline{max-width:620px;margin:0 auto;color:#b4c5ce;font-family:"Literata",serif;font-size:clamp(17px,2.4vw,21px);font-style:italic}.hero-rule{width:72px;height:1px;background:var(--accent);margin:30px auto 0;opacity:.8}
@@ -23,7 +23,7 @@
 <body>
   <header class="topbar">
     <a class="brand" href="{{ '/' | relative_url }}">Tidewritten</a>
-    <a class="back" href="{{ '/library/' | relative_url }}">← Back to Library</a>
+    <div class="top-actions"><a class="back" href="{{ '/library/' | relative_url }}">← Back to Library</a><button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Toggle light/dark theme">☼</button></div>
   </header>
   <section class="hero">
     <div class="eyebrow">{{ page.series | escape }} · Volume {{ page.volume }}</div>
@@ -53,6 +53,13 @@
   <script>
     (() => {
       const root = document.documentElement;
+      const themeButton = document.getElementById("themeToggle");
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "light" || savedTheme === "dark") root.setAttribute("data-theme", savedTheme);
+      else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) root.setAttribute("data-theme", "light");
+      const paintTheme = () => { const light = root.getAttribute("data-theme") === "light"; themeButton.textContent = light ? "☾" : "☼"; themeButton.setAttribute("aria-label", light ? "Switch to dark theme" : "Switch to light theme"); };
+      paintTheme();
+      themeButton.addEventListener("click", () => { const light = root.getAttribute("data-theme") === "light"; root.setAttribute("data-theme", light ? "dark" : "light"); localStorage.setItem("theme", light ? "dark" : "light"); paintTheme(); });
       const key = "tidewritten-reader-size";
       let size = Number(localStorage.getItem(key)) || 19;
       const apply = () => { size = Math.max(16, Math.min(25, size)); root.style.setProperty("--reader-size", size + "px"); localStorage.setItem(key, String(size)); };
