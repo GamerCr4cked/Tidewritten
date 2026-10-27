@@ -62,7 +62,22 @@ description: Immersive light novels and emotional stories about the moments that
     list.innerHTML=history.slice(0,4).map(function(h){
       var ago='Recently read';
       if(h.time){var m=Math.max(0,Math.floor((Date.now()-h.time)/60000));ago=m<1?'Just now':m<60?m+'m ago':m<1440?Math.floor(m/60)+'h ago':Math.floor(m/1440)+'d ago';}
-      var target=h.url||h.path||(h.slug?('{{ "/" | relative_url }}stories/'+encodeURIComponent(String(h.slug))+'/'):'{{ "/library/" | relative_url }}');
+      var routes={
+        'notun-pakhi':'/stories/the-girl-by-the-school-gate/',
+        'notun-pakhi-s2':'/stories/the-little-bird-returns/',
+        'notun-pakhi-s3':'/stories/where-our-story-begins/',
+        'phir-milenge':'/stories/somewhere-between-friends-and-love/',
+        'phir-milenge-s2':'/stories/the-silence-between-us/',
+        'phir-milenge-s3':'/stories/when-we-meet-again/',
+        'the-last-message':'/stories/the-words-we-never-sent/',
+        'wahi-bench':'/stories/the-face-i-never-forgot/',
+        'zinda':'/stories/teaching-me-how-to-live/',
+        'offline':'/stories/when-everyone-went-offline/',
+        'the-last-login':'/stories/the-account-that-never-came-back/',
+        'split':'/stories/the-other-side-of-us/',
+        'x-prismat':'/stories/prismat-fragments-of-the-fallen-sky/'
+      };
+      var target=routes[String(h.slug||'')]||h.url||h.path||'{{ "/library/" | relative_url }}';
       if(!/^\//.test(target))target='{{ "/" | relative_url }}'+target;
       return '<a href="'+safe(target)+'" class="recent-item"><span class="recent-title">'+safe(h.title||'Untitled story')+'</span><span class="recent-time">'+safe(ago)+' ↗</span></a>';
     }).join('');
