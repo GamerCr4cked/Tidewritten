@@ -18,10 +18,61 @@ permalink: /library/
   .series-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:18px}
   .series-card{display:flex;flex-direction:column;min-height:330px;position:relative;overflow:hidden;text-decoration:none!important;color:inherit!important;border:1px solid var(--lib-line);border-radius:22px;background:linear-gradient(155deg,rgba(18,47,61,.96),rgba(9,24,35,.98));padding:24px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
   .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:34px;height:34px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
-  .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 110%,rgba(156,228,220,.3),transparent 50%),linear-gradient(135deg,#173d4a,#0b1b29)}
-  .series-art:before,.series-art:after{content:"";position:absolute;border:1px solid rgba(174,235,226,.25);border-radius:50%;width:170px;height:170px;left:50%;top:60%;transform:translate(-50%,-50%) rotate(-20deg)}
-  .series-art:after{width:230px;height:230px;top:78%;border-color:rgba(174,235,226,.13)}
-  .series-art-mark{position:absolute;inset:0;display:grid;place-items:center;font-size:43px;color:#b9f1e9;text-shadow:0 0 26px rgba(156,228,220,.4)}
+  .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#173d4a,#0b1b29)}
+  .series-art:before,.series-art:after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(224,247,246,.16);border-radius:50%;width:170px;height:170px;left:70%;top:70%;transform:translate(-50%,-50%);z-index:-1}
+  .series-art:after{width:230px;height:230px;left:70%;top:75%;border-color:rgba(224,247,246,.09)}
+  .art-orb,.art-horizon,.art-symbol,.art-detail{position:absolute;display:block;pointer-events:none}
+  .art-orb{width:42px;height:42px;border-radius:50%;right:16%;top:18%;background:rgba(218,244,239,.76);box-shadow:0 0 28px rgba(196,241,236,.22)}
+  .art-horizon{left:-5%;right:-5%;height:60%;bottom:-30%;border-radius:50% 50% 0 0;background:rgba(4,19,32,.58);transform:rotate(-4deg)}
+  .art-symbol{left:38%;top:30%;width:56px;height:42px;transform:translate(-50%,-50%);filter:drop-shadow(0 5px 12px rgba(0,0,0,.18))}
+  .art-detail{left:0;right:0;bottom:15%;height:1px;background:linear-gradient(90deg,transparent,rgba(228,249,246,.38),transparent)}
+  /* The artwork is built entirely from CSS shapes and gradients: no image assets or text overlays. */
+  .art-little-bird{background:radial-gradient(ellipse at 78% 22%,rgba(205,233,226,.18),transparent 25%),linear-gradient(155deg,#203b59,#477f91 58%,#142c42)}
+  .art-little-bird .art-orb{width:27px;height:27px;right:19%;top:18%;background:#d9e8df;box-shadow:0 0 0 8px rgba(217,232,223,.07),0 0 24px rgba(217,232,223,.25)}
+  .art-little-bird .art-horizon{height:52%;bottom:-24%;background:linear-gradient(170deg,#315e70,#112a41)}
+  .art-little-bird .art-symbol{left:44%;top:43%;width:43px;height:22px;background:#e6f3ed;clip-path:polygon(0 48%,24% 20%,42% 37%,68% 0,56% 42%,100% 54%,61% 62%,43% 100%,35% 60%,12% 72%);transform:rotate(-7deg)}
+  .art-little-bird .art-detail{left:13%;right:13%;bottom:25%;transform:rotate(-5deg)}
+  .art-phir-milenge{background:radial-gradient(ellipse at 75% 26%,rgba(255,198,151,.3),transparent 30%),linear-gradient(145deg,#26314d,#a76c70 64%,#f0b58b)}
+  .art-phir-milenge .art-orb{width:38px;height:38px;right:17%;top:15%;background:#ffd8a6;box-shadow:0 0 32px rgba(255,197,142,.32)}
+  .art-phir-milenge .art-horizon{height:38%;bottom:-12%;border-radius:0;background:repeating-linear-gradient(174deg,transparent 0 12px,rgba(255,225,194,.3) 13px 14px),#202b40;transform:none}
+  .art-phir-milenge .art-symbol{left:39%;top:56%;width:78px;height:31px;background:linear-gradient(#e4bda2,#e4bda2) 0 0/100% 2px no-repeat,linear-gradient(#e4bda2,#e4bda2) 0 100%/100% 2px no-repeat;clip-path:polygon(0 0,100% 0,88% 100%,12% 100%)}
+  .art-phir-milenge .art-symbol:before{content:"";position:absolute;inset:5px 9px;background:repeating-linear-gradient(90deg,#18263a 0 10px,#f2c59b 11px 13px)}
+  .art-words{background:radial-gradient(ellipse at 50% 100%,rgba(136,196,205,.2),transparent 48%),repeating-linear-gradient(115deg,transparent 0 27px,rgba(205,233,238,.055) 28px 29px),linear-gradient(135deg,#10283d,#466b7b)}
+  .art-words .art-orb{width:5px;height:5px;right:23%;top:18%;box-shadow:-160px 40px 0 rgba(230,246,244,.55),-90px -3px 0 rgba(230,246,244,.35),-35px 54px 0 rgba(230,246,244,.4)}
+  .art-words .art-horizon{display:none}
+  .art-words .art-symbol{left:50%;top:51%;width:62px;height:43px;border:1px solid rgba(227,242,239,.85);background:rgba(13,35,52,.5);transform:translate(-50%,-50%) rotate(-8deg);border-radius:2px}
+  .art-words .art-symbol:before{content:"";position:absolute;left:0;right:0;top:0;height:24px;background:linear-gradient(145deg,transparent 49%,rgba(227,242,239,.75) 50%,transparent 52%),linear-gradient(215deg,transparent 49%,rgba(227,242,239,.75) 50%,transparent 52%)}
+  .art-face{background:radial-gradient(ellipse at 52% 48%,rgba(211,177,184,.2),transparent 32%),linear-gradient(135deg,#202b43,#72596e 65%,#b68b8a)}
+  .art-face .art-orb{width:19px;height:19px;right:24%;top:18%;background:#f2d3b5;opacity:.8}
+  .art-face .art-horizon{height:34%;bottom:-16%;background:#20263a}
+  .art-face .art-symbol{left:50%;top:45%;width:33px;height:49px;border-radius:48% 48% 42% 42%;border:1px solid rgba(250,224,208,.72);background:linear-gradient(90deg,rgba(250,224,208,.08),rgba(250,224,208,.25));clip-path:polygon(30% 0,70% 0,100% 36%,78% 80%,50% 100%,22% 80%,0 36%)}
+  .art-face .art-symbol:after{content:"";position:absolute;width:5px;height:5px;border-radius:50%;left:8px;top:19px;background:#f7d8bd;box-shadow:12px 0 0 #f7d8bd}
+  .art-other-side{background:linear-gradient(135deg,#183c49,#345e65 50%,#182a43)}
+  .art-other-side .art-orb{width:60px;height:60px;right:16%;top:10%;border:1px solid rgba(218,241,228,.6);background:transparent;box-shadow:inset 0 0 0 9px rgba(218,241,228,.04),0 0 30px rgba(128,219,200,.13)}
+  .art-other-side .art-horizon{height:65%;bottom:-36%;background:linear-gradient(90deg,#152b3d,#254c57)}
+  .art-other-side .art-symbol{left:45%;top:51%;width:58px;height:45px;border:1px solid rgba(213,241,230,.65);background:linear-gradient(90deg,transparent 48%,rgba(213,241,230,.6) 49% 51%,transparent 52%),linear-gradient(transparent 48%,rgba(213,241,230,.6) 49% 51%,transparent 52%);box-shadow:0 0 0 8px rgba(213,241,230,.035)}
+  .art-teaching{background:linear-gradient(145deg,#29475a,#78949a 52%,#d1b49c)}
+  .art-teaching .art-orb{width:32px;height:32px;right:20%;top:16%;background:#ffe1b7;box-shadow:0 0 26px rgba(255,222,175,.3)}
+  .art-teaching .art-horizon{height:32%;bottom:-13%;background:repeating-linear-gradient(90deg,transparent 0 36px,rgba(19,43,55,.32) 37px 39px),#203b4a;border-radius:0;transform:none}
+  .art-teaching .art-symbol{left:38%;top:45%;width:8px;height:42px;background:#203847;border-radius:5px;box-shadow:10px 10px 0 -2px #203847}
+  .art-teaching .art-symbol:before{content:"";position:absolute;width:15px;height:15px;border-radius:50%;background:#203847;left:-4px;top:-12px}
+  .art-offline{background:radial-gradient(ellipse at 50% 100%,rgba(89,191,195,.2),transparent 48%),linear-gradient(135deg,#101d35,#25465c)}
+  .art-offline .art-orb{width:7px;height:7px;right:18%;top:20%;background:#9be7df;box-shadow:-170px 22px 0 #9be7df,-128px -5px 0 rgba(155,231,223,.5),-72px 42px 0 rgba(155,231,223,.7),-22px 4px 0 rgba(155,231,223,.35)}
+  .art-offline .art-horizon{height:43%;bottom:-22%;background:repeating-linear-gradient(90deg,rgba(8,19,34,.8) 0 24px,transparent 25px 33px),linear-gradient(#1b3448,#0d1c30);border-radius:0;transform:none}
+  .art-offline .art-symbol{left:50%;top:44%;width:37px;height:27px;border:2px solid #a3e7e0;border-radius:4px;box-shadow:0 0 18px rgba(91,220,214,.25)}
+  .art-offline .art-symbol:before{content:"";position:absolute;width:10px;height:7px;border:2px solid #a3e7e0;border-bottom:0;border-radius:7px 7px 0 0;left:11px;top:-11px}
+  .art-account{background:linear-gradient(135deg,#1c2a43,#395c72 55%,#17263d)}
+  .art-account .art-orb{width:46px;height:46px;right:18%;top:17%;background:transparent;border:1px solid rgba(220,241,241,.7);box-shadow:0 0 0 8px rgba(220,241,241,.05)}
+  .art-account .art-horizon{height:37%;bottom:-20%;background:#111e32}
+  .art-account .art-symbol{left:47%;top:47%;width:47px;height:35px;border:1px solid rgba(219,241,238,.8);border-radius:5px;background:repeating-linear-gradient(0deg,transparent 0 7px,rgba(219,241,238,.15) 8px 9px)}
+  .art-account .art-symbol:before{content:"";position:absolute;left:7px;right:7px;top:7px;height:4px;background:#9be5df;box-shadow:0 9px 0 rgba(155,229,223,.5),0 18px 0 rgba(155,229,223,.25)}
+  .art-prismat{background:radial-gradient(ellipse at 50% 50%,rgba(135,116,255,.25),transparent 40%),linear-gradient(135deg,#10172f,#38285d 60%,#122c49)}
+  .art-prismat .art-orb{width:6px;height:6px;right:18%;top:20%;background:#a9e7ff;box-shadow:-165px 38px 0 #b9a8ff,-120px -6px 0 #a9e7ff,-55px 48px 0 #b9a8ff,-15px -12px 0 #a9e7ff}
+  .art-prismat .art-horizon{display:none}
+  .art-prismat .art-symbol{left:50%;top:50%;width:32px;height:39px;background:linear-gradient(135deg,#d4c8ff,#7edff3 55%,#8067d7);clip-path:polygon(50% 0,100% 35%,82% 100%,20% 86%,0 30%);filter:drop-shadow(0 0 13px rgba(157,143,255,.65))}
+  .art-prismat .art-symbol:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 45%,rgba(255,255,255,.7) 46% 49%,transparent 50%)}
+  .art-prismat .art-detail{height:70px;top:22%;bottom:auto;left:50%;right:auto;width:70px;border:1px solid rgba(190,177,255,.2);border-radius:50%;transform:translateX(-50%);background:transparent}
+  @media(max-width:600px){.series-art{height:100px}}
   .series-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
   .series-badge{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--lib-line);border-radius:99px;padding:5px 9px;color:var(--lib-accent)}
   .series-badge.muted{color:var(--lib-muted)}
@@ -59,7 +110,17 @@ permalink: /library/
       {% else %}
         <div class="series-card" data-volume-series role="button" tabindex="0" aria-label="Choose a volume from {{ series_group.name | escape }}">
       {% endif %}
-          <div class="series-art" aria-hidden="true"><span class="series-art-mark">{% if series_group.name contains "Little Bird" %}小鳥{% elsif series_group.name contains "Phir Milenge" %}再会{% elsif series_group.name contains "Prismat" %}七星{% else %}潮{% endif %}</span></div>
+          {% assign art_class = "art-words" %}
+          {% if series_group.name contains "Little Bird" %}{% assign art_class = "art-little-bird" %}
+          {% elsif series_group.name contains "Phir Milenge" %}{% assign art_class = "art-phir-milenge" %}
+          {% elsif series_group.name contains "Face I Never Forgot" %}{% assign art_class = "art-face" %}
+          {% elsif series_group.name contains "Other Side of Us" %}{% assign art_class = "art-other-side" %}
+          {% elsif series_group.name contains "Teaching Me How to Live" %}{% assign art_class = "art-teaching" %}
+          {% elsif series_group.name contains "Everyone Went Offline" %}{% assign art_class = "art-offline" %}
+          {% elsif series_group.name contains "Account That Never Came Back" %}{% assign art_class = "art-account" %}
+          {% elsif series_group.name contains "Prismat" %}{% assign art_class = "art-prismat" %}
+          {% endif %}
+          <div class="series-art {{ art_class }}" aria-hidden="true"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span></div>
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
             <span class="series-badge muted">{% if volume_count == 1 %}Standalone{% else %}{{ volume_count }} Volumes{% endif %}</span>
