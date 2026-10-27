@@ -35,30 +35,29 @@ description: Immersive light novels and emotional stories about the moments that
 
   <section class="home-section start-section" id="start-reading">
     <div class="home-section-heading">
-      <div><p class="home-eyebrow">PICK YOUR CURRENT</p><h2>Where will you <em>drift?</em></h2></div>
-      <p>Different worlds, different feelings. Start with whatever catches your eye.</p>
+      <div><p class="home-eyebrow">A STORY FOR THIS MOMENT</p><h2>Let the tide <em>choose.</em></h2></div>
+      <p>A little surprise from the library, picked at random. Stay for a chapter—or follow the feeling.</p>
     </div>
-    <div class="float-story-grid">
-      <a class="float-story-card bird-card" href="{{ '/stories/notun-pakhi.html' | relative_url }}">
-        <span class="story-card-top"><span>01 / SERIES</span><span class="story-card-arrow">↗</span></span>
-        <span class="story-art bird-art" aria-hidden="true"><span class="bird-moon"></span><span class="bird-orbit"></span><span class="bird-star star-one">✦</span><span class="bird-star star-two">✧</span><span class="bird-horizon"></span></span>
-        <span class="story-card-copy"><span class="story-type">QUIET ROMANCE · GROWING UP</span><strong>The Little Bird Chronicles</strong><span class="story-summary">Quiet school days, a returning friend, and the courage to say what matters.</span><span class="story-card-cta">Start with Volume 1 <span aria-hidden="true">→</span></span></span>
+    <div class="random-story-stage" id="randomStoryStage" aria-live="polite" aria-atomic="true">
+      <a class="random-story-card" id="randomStoryCard" href="{{ '/library/' | relative_url }}">
+        <span class="random-story-art" id="randomStoryArt" aria-hidden="true"><span class="random-art-orb"></span><span class="random-art-ring"></span><span class="random-art-line"></span></span>
+        <span class="random-story-copy">
+          <span class="random-story-kicker" id="randomStoryKicker">A RANDOM PICK FROM THE LIBRARY</span>
+          <strong id="randomStoryTitle">Finding your next story…</strong>
+          <span class="random-story-summary" id="randomStorySummary">A small story might be just what you need.</span>
+          <span class="random-story-cta">Discover this story <span aria-hidden="true">↗</span></span>
+        </span>
+        <span class="random-story-index" id="randomStoryIndex" aria-hidden="true">01</span>
       </a>
-      <a class="float-story-card prismat-card" href="{{ '/stories/prismat-fragments-of-the-fallen-sky/' | relative_url }}">
-        <span class="story-card-top"><span>02 / SCI-FI</span><span class="story-card-arrow">↗</span></span>
-        <span class="story-art prismat-art" aria-hidden="true"><span class="prism-core"></span><span class="prism-orbit orbit-one"></span><span class="prism-orbit orbit-two"></span><span class="prism-star">✧</span></span>
-        <span class="story-card-copy"><span class="story-type">MYSTERY · SPECULATIVE</span><strong>Prismat: Fragments of the Fallen Sky</strong><span class="story-summary">A distant instrument observes reality—and begins to decide what reality should be.</span><span class="story-card-cta">Enter the unknown <span aria-hidden="true">→</span></span></span>
-      </a>
-      <a class="float-story-card unsent-card" href="{{ '/stories/the-words-we-never-sent/' | relative_url }}">
-        <span class="story-card-top"><span>03 / STORY</span><span class="story-card-arrow">↗</span></span>
-        <span class="story-art unsent-art" aria-hidden="true"><span class="letter letter-back"></span><span class="letter letter-front"><span>…</span></span><span class="letter-glow"></span><span class="unsent-star">✦</span></span>
-        <span class="story-card-copy"><span class="story-type">MEMORIES · UNSAID WORDS</span><strong>The Words We Never Sent</strong><span class="story-summary">Some messages stay in drafts. Some feelings stay long after the moment passes.</span><span class="story-card-cta">Read the story <span aria-hidden="true">→</span></span>
-      </a>
+    </div>
+    <div class="random-story-controls">
+      <span><span class="random-live-dot" aria-hidden="true"></span> A new pick every 5 seconds</span>
+      <button type="button" id="randomStoryNext">Surprise me ↗</button>
     </div>
     <div class="library-float-bar">
       <span class="library-float-icon" aria-hidden="true">〰</span>
-      <div><strong>Not sure where to begin?</strong><p>The full library brings the available series and volumes together in one place.</p></div>
-      <a href="{{ '/library/' | relative_url }}">Browse everything <span aria-hidden="true">↗</span></a>
+      <div><strong>Want to choose for yourself?</strong><p>Browse the full collection and find the series or volume that feels right.</p></div>
+      <a href="{{ '/library/' | relative_url }}">Browse the library <span aria-hidden="true">↗</span></a>
     </div>
   </section>
 
