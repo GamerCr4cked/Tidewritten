@@ -108,7 +108,8 @@ description: Immersive light novels and emotional stories about the moments that
     {title:'When Everyone Went Offline',url:"{{ '/stories/when-everyone-went-offline/' | relative_url }}",genre:'ONLINE FRIENDSHIP · DIGITAL LIFE',summary:'A Minecraft server became a home for four people—and silence changes what home means.',art:'stars'},
     {title:'The Words We Never Sent',url:"{{ '/stories/the-words-we-never-sent/' | relative_url }}",genre:'CONTEMPORARY DRAMA · ONLINE FRIENDSHIP',summary:'They never promised forever. They only made it feel possible, until the words ran out.',art:'letter'},
     {title:'One Can of Coffee and a Broken Pen',url:"{{ '/stories/the-student-council-president-hates-everyone-vol-1/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 1',summary:'A terrifying student council president, a boy who refuses to chase her, and one can of coffee too many.',art:'sunset'},
-    {title:'The Things We Never Said',url:"{{ '/stories/the-student-council-president-hates-everyone-vol-2/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 2',summary:'Dating does not prepare them for old names, missing memories, and truths that arrive too late.',art:'letter'}
+    {title:'The Things We Never Said',url:"{{ '/stories/the-student-council-president-hates-everyone-vol-2/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 2',summary:'Dating does not prepare them for old names, missing memories, and truths that arrive too late.',art:'letter'},
+    {title:"The President's Last Rule",url:"{{ '/stories/the-student-council-president-hates-everyone-vol-3/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · FINAL VOL.',summary:'The secrets are finally explained, old wounds begin to heal, and the president makes one last rule for a happy future.',art:'sunset'}
 
   ];
   var current=-1,timer=null,paused=false,reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
