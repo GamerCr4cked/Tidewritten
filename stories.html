@@ -1,397 +1,60 @@
 ---
 layout: default
-title: Stories — Tidewritten
+title: Light Novel Library — Tidewritten
+description: Browse Tidewritten's English light-novel editions, organized by series and volume.
+permalink: /stories/
 ---
 
-<section class="home-header stories-hero">
-  <div class="stories-hero-copy">
-    <p class="stories-eyebrow"><span class="stories-eyebrow-dot"></span> THE TIDEWRITTEN LIBRARY</p>
-    <h1>Stories <span class="story-count">{{ site.pages | where: "layout", "story" | where_exp: "item", "item.translation != true" | size }}</span></h1>
-    <p class="stories-hero-subtitle">Find a world to get lost in.</p>
-    <p class="stories-hero-description">Explore stories across languages, genres, and moods. Every story has a feeling worth following.</p>
-  </div>
-  <div class="stories-hero-art" aria-hidden="true"><span class="stories-orbit stories-orbit-one"></span><span class="stories-orbit stories-orbit-two"></span><span class="stories-orb"></span><span class="stories-art-caption">EVERY STORY LEAVES A TRACE</span></div>
-</section>
+<style>
+  .novel-library{--lib-line:rgba(160,218,215,.16);--lib-text:#e9f1f2;--lib-muted:#a1b6bf;--lib-accent:#9ce4dc;color:var(--lib-text);padding:10px 0 48px}
+  .novel-hero{position:relative;overflow:hidden;border:1px solid var(--lib-line);border-radius:26px;padding:clamp(30px,6vw,68px);background:radial-gradient(ellipse at 85% 10%,rgba(100,188,195,.18),transparent 38%),linear-gradient(135deg,#102b39,#0b1925 70%);margin-bottom:30px}
+  .novel-hero:after{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(156,228,220,.13);border-radius:50%;right:-70px;top:-80px;box-shadow:0 0 0 32px rgba(156,228,220,.025),0 0 0 66px rgba(156,228,220,.02);pointer-events:none}
+  .novel-kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--lib-accent);font-weight:700;margin:0 0 14px}
+  .novel-hero h1{font-size:clamp(34px,6vw,60px);line-height:1.08;letter-spacing:-.04em;margin:0 0 18px;max-width:720px}
+  .novel-hero p:not(.novel-kicker){color:#bfd0d6;max-width:610px;font-size:16px;line-height:1.8;margin:0}
+  .novel-section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:36px 0 16px}
+  .novel-section-head h2{font-size:22px;margin:0;letter-spacing:-.02em}
+  .novel-section-head p{font-size:12px;color:var(--lib-muted);margin:0}
+  .series-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:18px}
+  .series-card{display:flex;flex-direction:column;min-height:330px;position:relative;overflow:hidden;text-decoration:none!important;color:inherit!important;border:1px solid var(--lib-line);border-radius:22px;background:linear-gradient(155deg,rgba(18,47,61,.96),rgba(9,24,35,.98));padding:24px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+  .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}
+  .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 110%,rgba(156,228,220,.3),transparent 50%),linear-gradient(135deg,#173d4a,#0b1b29)}
+  .series-art:before,.series-art:after{content:"";position:absolute;border:1px solid rgba(174,235,226,.25);border-radius:50%;width:170px;height:170px;left:50%;top:60%;transform:translate(-50%,-50%) rotate(-20deg)}
+  .series-art:after{width:230px;height:230px;top:78%;border-color:rgba(174,235,226,.13)}
+  .series-art-mark{position:absolute;inset:0;display:grid;place-items:center;font-size:43px;color:#b9f1e9;text-shadow:0 0 26px rgba(156,228,220,.4)}
+  .series-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .series-badge{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--lib-line);border-radius:99px;padding:5px 9px;color:var(--lib-accent)}
+  .series-badge.muted{color:var(--lib-muted)}
+  .series-card h3{font-size:23px;line-height:1.25;letter-spacing:-.025em;margin:0 0 10px}
+  .series-card .series-desc{font-size:14px;line-height:1.75;color:#b5c7ce;margin:0 0 22px}
+  .series-card-foot{margin-top:auto;border-top:1px solid var(--lib-line);padding-top:16px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:12px;color:var(--lib-muted)}
+  .series-card-foot strong{color:var(--lib-accent);font-weight:600}
+  .library-note{border:1px dashed var(--lib-line);border-radius:16px;padding:18px 20px;color:var(--lib-muted);font-size:13px;line-height:1.7;margin-top:22px}
+  @media(max-width:600px){.novel-hero{border-radius:20px}.series-card{min-height:0}.series-art{height:100px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}}
+  @media(prefers-reduced-motion:reduce){.series-card{transition:none}.series-card:hover{transform:none}}
+</style>
 
-<button class="search-trigger" id="searchTrigger">
-  Search the collection...
-  <kbd>Ctrl+K</kbd>
-</button>
+<div class="novel-library">
+  <section class="novel-hero">
+    <p class="novel-kicker">Tidewritten · The Light Novel Library</p>
+    <h1>Find a story.<br>Stay for the feeling.</h1>
+    <p>English light-novel editions, reimagined with Japanese settings, school life, changing seasons, quiet streets, and the little moments that stay with us. Browse by series, then choose a volume when a series grows.</p>
+  </section>
 
-<!-- Search Overlay -->
-<div class="search-overlay" id="searchOverlay">
-  <div class="search-box">
-    <div class="search-input-wrap">
-      <span class="search-icon">🔍</span>
-      <input type="text" class="search-input" id="searchInput" placeholder="Search titles, descriptions, or genres..." autocomplete="off">
-      <button class="search-close" id="searchClose">Esc</button>
-    </div>
-    <div class="search-results" id="searchResults">
-      <div class="search-hint">Start typing to discover a story</div>
-    </div>
-  </div>
-</div>
-
-<div class="stories-browse-label"><span>EXPLORE THE COLLECTION</span><span>Choose a genre</span></div>
-<div class="nav-tabs" id="navTabs">
-  <button class="nav-tab active" data-filter="all">All Stories</button>
-  <button class="nav-tab" data-filter="school-life">School Life</button>
-  <button class="nav-tab" data-filter="college-life">College Life</button>
-  <button class="nav-tab" data-filter="romance">Romance</button>
-  <button class="nav-tab" data-filter="emotional">Emotional</button>
-  <button class="nav-tab" data-filter="drama">Drama</button>
-  <button class="nav-tab" data-filter="heartbreak">Heartbreak</button>
-  <button class="nav-tab" data-filter="comedy">Comedy</button>
-  <button class="nav-tab" data-filter="friendship">Friendship</button>
-  <button class="nav-tab" data-filter="feel-good">Feel-Good</button>
-  <button class="nav-tab" data-filter="tragedy">Tragedy</button>
-  <button class="nav-tab" data-filter="thriller">Thriller</button>
-  <button class="nav-tab" data-filter="mystery">Mystery</button>
-  <button class="nav-tab" data-filter="horror">Horror</button>
-  <button class="nav-tab" data-filter="suspense">Suspense</button>
-  <button class="nav-tab" data-filter="action">Action</button>
-  <button class="nav-tab" data-filter="fantasy">Fantasy</button>
-  <button class="nav-tab" data-filter="one-shot">One-Shot</button>
-</div>
-
-<div class="stories-grid" id="storiesGrid">
-
-  <a href="{{ '/stories/x-prismat' | relative_url }}" class="story-card" data-tags="action fantasy thriller mystery" data-langs="en" data-cover-title="X-Prismat: The Fragmented Sky">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">Action</span>
-      <span class="tag" style="background: rgba(201, 160, 220, 0.1); color: #c9a0dc; border-color: rgba(201, 160, 220, 0.15);">Fantasy</span>
-      <span class="tag mood">Thriller</span>
-    </div>
-    <h3><span class="mood-emoji">⚡</span> X-Prismat: The Fragmented Sky</h3>
-    <p class="card-desc">A meteor from millions of years ago. Seven fragments. Seven souls chosen by fate. 16 chapters. Sci-Fi action and supernatural journey.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/notun-pakhi' | relative_url }}" class="story-card" data-tags="school-life emotional romance" data-langs="hi-Latn" data-trans="bn" data-cover-title="Nayi Chidiya">
-    <div class="card-genre">
-      <span class="tag">School Life</span>
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
-    </div>
-    <h3><span class="mood-emoji">🦋</span> Nayi Chidiya</h3>
-    <p class="card-desc">A tenth-grade boy and a seventh-grade girl. He watches from a distance and slowly grows closer, but never says what he feels. Small moments, growing emotions, and the beginning of a one-sided love. 5 chapters.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/notun-pakhi-s2' | relative_url }}" class="story-card" data-tags="school-life comedy friendship feel-good" data-langs="hi-Latn" data-trans="bn" data-cover-title="Nayi Chidiya — S2">
-    <div class="card-genre">
-      <span class="tag">School Life</span>
-      <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">Comedy</span>
-      <span class="tag" style="background: rgba(201, 160, 220, 0.1); color: #c9a0dc; border-color: rgba(201, 160, 220, 0.15);">Friendship</span>
-      <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
-    </div>
-    <h3><span class="mood-emoji">😄</span> Nayi Chidiya — S2</h3>
-    <p class="card-desc">A year later, the same school and the same canteen—but both have changed. Watching from a distance gives way to friendship, laughter, and feelings neither quite understands. 5 chapters.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/notun-pakhi-s3' | relative_url }}" class="story-card" data-tags="school-life romance emotional feel-good" data-langs="hi-Latn" data-cover-title="Nayi Chidiya — S3">
-    <div class="card-genre">
-      <span class="tag">School Life</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
-    </div>
-    <h3><span class="mood-emoji">💕</span> Nayi Chidiya — S3</h3>
-    <p class="card-desc">In twelfth and ninth grade, they share the same campus and have grown closer. Rooftop conversations, long talks, and feelings that are becoming impossible to hide. 7 chapters.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/the-last-message' | relative_url }}" class="story-card" data-tags="emotional heartbreak drama" data-langs="hi-Latn" data-cover-title="The Last Message">
-    <div class="card-genre">
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Heartbreak</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Drama</span>
-    </div>
-    <h3><span class="mood-emoji">💔</span> The Last Message</h3>
-    <p class="card-desc">Aryan and Kavya began with a random chat and reached the point of saying “goodnight, stupid.” Then, one day, came silence. No fight. No explanation. Just one last message and a thousand questions. 8 chapters.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/phir-milenge' | relative_url }}" class="story-card" data-tags="college-life romance friendship feel-good" data-langs="hi-Latn" data-cover-title="Phir Milenge">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">College Life</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
-      <span class="tag" style="background: rgba(201, 160, 220, 0.1); color: #c9a0dc; border-color: rgba(201, 160, 220, 0.15);">Friendship</span>
-      <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
-    </div>
-    <h3><span class="mood-emoji">🤝</span> Phir Milenge</h3>
-    <p class="card-desc">College, friendship, and the slow arrival of something more. Two strangers become best friends, only to discover feelings neither expected. 6 chapters. A campus romance about the journey from friendship to love.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/phir-milenge-s2' | relative_url }}" class="story-card" data-tags="college-life drama heartbreak emotional" data-langs="hi-Latn" data-cover-title="Phir Milenge — S2">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">College Life</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Drama</span>
-      <span class="tag mood">Heartbreak</span>
-      <span class="tag mood">Emotional</span>
-    </div>
-    <h3><span class="mood-emoji">🖤</span> Phir Milenge — S2</h3>
-    <p class="card-desc">Distance grows. Silence deepens. Then something happens that changes everything, turning Season 1’s happiness into Season 2’s heartbreak. 6 chapters of drama and fractured trust.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/phir-milenge-s3' | relative_url }}" class="story-card" data-tags="romance emotional feel-good" data-langs="hi-Latn" data-cover-title="Phir Milenge — S3">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
-    </div>
-    <h3><span class="mood-emoji">🌅</span> Phir Milenge — S3</h3>
-    <p class="card-desc">Two years later, the same city and familiar roads—but both have changed. Old wounds remain, new questions emerge, and one chance offers the possibility of making things right. 6 chapters about healing and beginning again.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/zinda' | relative_url }}" class="story-card" data-tags="romance emotional feel-good" data-langs="hi-Latn" data-cover-title="Zinda">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(72, 199, 142, 0.1); color: #48c78e; border-color: rgba(72, 199, 142, 0.15);">Feel-Good</span>
-    </div>
-    <h3><span class="mood-emoji">❤️‍🩹</span> Zinda</h3>
-    <p class="card-desc">A man moves through life on the same routine, surrounded by the same silence, day after day. Then someone enters his life quietly, changing things little by little. 18 chapters. An office romance and a slow burn.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/wahi-bench' | relative_url }}" class="story-card" data-tags="school-life emotional heartbreak" data-langs="hi-Latn" data-cover-title="Wahi Face">
-    <div class="card-genre">
-      <span class="tag">School Life</span>
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Heartbreak</span>
-    </div>
-    <h3><span class="mood-emoji">😶</span> Wahi Face</h3>
-    <p class="card-desc">Eighth grade. The last bench. A boy who keeps looking but cannot find the words, and a girl absorbed in her own world. Between them are small moments and feelings that grow quietly. 5 chapters. A school-life story inspired by real events.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/split' | relative_url }}" class="story-card" data-tags="romance drama heartbreak emotional" data-langs="hi-Latn" data-cover-title="Split">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Romance</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Drama</span>
-      <span class="tag mood">Heartbreak</span>
-      <span class="tag mood">Emotional</span>
-    </div>
-    <h3><span class="mood-emoji">💔</span> Split</h3>
-    <p class="card-desc">A broker’s mistake puts two strangers in the same apartment: a freelancer and a content writer. Friendship slowly becomes something more, but not everything is what it seems. 14 chapters. A roommate romance.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/offline' | relative_url }}" class="story-card" data-tags="emotional heartbreak friendship drama comedy" data-langs="hi-Latn" data-cover-title="Offline">
-    <div class="card-genre">
-      <span class="tag mood">Emotional</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Heartbreak</span>
-      <span class="tag" style="background: rgba(201, 160, 220, 0.1); color: #c9a0dc; border-color: rgba(201, 160, 220, 0.15);">Friendship</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Drama</span>
-      <span class="tag" style="background: rgba(109, 179, 242, 0.12); color: #6db3f2; border-color: rgba(109, 179, 242, 0.15);">Comedy</span>
-    </div>
-    <h3><span class="mood-emoji">🖥️</span> Offline</h3>
-    <p class="card-desc">One Discord server. Three owners. One girl whose simple “hi” changes a boy’s world. Friendship, chaotic banter, late-night calls, and something no one expected. 10 chapters. A story of friendship and love, based on real events.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <a href="{{ '/stories/the-last-login' | relative_url }}" class="story-card" data-tags="friendship drama emotional heartbreak" data-langs="hi-Latn" data-cover-title="The Last Login">
-    <div class="card-genre">
-      <span class="tag" style="background: rgba(201, 160, 220, 0.1); color: #c9a0dc; border-color: rgba(201, 160, 220, 0.15);">Friendship</span>
-      <span class="tag" style="background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.15);">Drama</span>
-      <span class="tag mood">Emotional</span>
-      <span class="tag mood">Heartbreak</span>
-    </div>
-    <h3><span class="mood-emoji">💻</span> The Last Login</h3>
-    <p class="card-desc">A friendship that began on ThorSMP, the rise of Alone Hosting, and the distance that followed Bunny’s arrival. A suspended account, a changed persona, and one last hope. 8 chapters. A real story of loss and hope.</p>
-    <button class="desc-toggle" onclick="event.preventDefault();event.stopPropagation();this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show Less ▴':'Read More ▾'">Read More ▾</button>
-    <div class="card-footer">
-      <span class="card-lang"></span>
-      <span class="read-link">Read Story →</span>
-    </div>
-  </a>
-
-  <div class="story-card coming-soon" data-tags="school-life college-life romance emotional drama heartbreak comedy friendship feel-good tragedy thriller mystery horror suspense action fantasy one-shot">
-    <div class="card-genre">
-      <span class="tag" style="opacity:0.5">???</span>
-    </div>
-    <h3>Coming Soon</h3>
-    <p class="card-desc">A new story is on its way…</p>
-    <div class="card-footer">
-      <span class="card-lang">—</span>
-      <span class="read-link">Soon</span>
-    </div>
+  <div class="novel-section-head">
+    <h2>Series collection</h2>
+    <p>1 series · 1 volume available</p>
   </div>
 
+  <div class="series-grid">
+    <a class="series-card" href="{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}" aria-label="Read The Little Bird Chronicles, Volume One: The Girl by the School Gate">
+      <div class="series-art" aria-hidden="true"><span class="series-art-mark">小鳥</span></div>
+      <div class="series-badges"><span class="series-badge">Coming of Age</span><span class="series-badge muted">School Life</span><span class="series-badge muted">Volume 1</span></div>
+      <h3>The Little Bird Chronicles</h3>
+      <p class="series-desc">At Seiran Academy, a quiet high-school student begins noticing a younger girl in the school courtyard. Small conversations teach him that caring about someone also means respecting the life and choices that belong to them.</p>
+      <div class="series-card-foot"><span>Volume 1 · <em>The Girl by the School Gate</em></span><strong>Read volume →</strong></div>
+    </a>
+  </div>
+
+  <div class="library-note"><strong>More stories are being adapted.</strong> This library shows the new light-novel editions only. The original story files are being kept separately while each series is rewritten and reviewed.</div>
 </div>
-
-<script>
-  // ---- Tag Filter ----
-  document.querySelectorAll('.nav-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      const filter = tab.dataset.filter;
-      document.querySelectorAll('.story-card').forEach(card => {
-        if (filter === 'all') {
-          card.style.display = '';
-        } else {
-          card.style.display = card.dataset.tags.includes(filter) ? '' : 'none';
-        }
-      });
-    });
-  });
-
-  // ---- Search ----
-  const searchOverlay = document.getElementById('searchOverlay');
-  const searchInput = document.getElementById('searchInput');
-  const searchResults = document.getElementById('searchResults');
-
-  // Build search index from story cards
-  const searchIndex = [];
-  document.querySelectorAll('.story-card:not(.coming-soon)').forEach(card => {
-    searchIndex.push({
-      title: card.querySelector('h3')?.textContent || '',
-      desc: card.querySelector('.card-desc')?.textContent || '',
-      tags: card.dataset.tags || '',
-      url: card.href || ''
-    });
-  });
-
-  function openSearch() {
-    searchOverlay.classList.add('active');
-    searchInput.value = '';
-    searchInput.focus();
-    searchResults.innerHTML = '<div class="search-hint">Type to search across all stories</div>';
-  }
-
-  function closeSearch() {
-    searchOverlay.classList.remove('active');
-  }
-
-  function doSearch(query) {
-    if (!query.trim()) {
-      searchResults.innerHTML = '<div class="search-hint">Type to search across all stories</div>';
-      return;
-    }
-    const q = query.toLowerCase();
-    const matches = searchIndex.filter(s =>
-      s.title.toLowerCase().includes(q) ||
-      s.desc.toLowerCase().includes(q) ||
-      s.tags.toLowerCase().includes(q)
-    );
-
-    if (matches.length === 0) {
-      searchResults.innerHTML = '<div class="search-no-result">No stories found for "' + query + '"</div>';
-      return;
-    }
-
-    searchResults.innerHTML = matches.map(s => {
-      // Find matching snippet
-      let snippet = s.desc;
-      const idx = snippet.toLowerCase().indexOf(q);
-      if (idx !== -1) {
-        const start = Math.max(0, idx - 30);
-        const end = Math.min(snippet.length, idx + q.length + 50);
-        snippet = (start > 0 ? '...' : '') +
-          snippet.substring(start, idx) +
-          '<mark>' + snippet.substring(idx, idx + q.length) + '</mark>' +
-          snippet.substring(idx + q.length, end) +
-          (end < snippet.length ? '...' : '');
-      } else if (s.title.toLowerCase().includes(q)) {
-        const ti = s.title.toLowerCase().indexOf(q);
-        snippet = s.title.substring(0, ti) +
-          '<mark>' + s.title.substring(ti, ti + q.length) + '</mark>' +
-          s.title.substring(ti + q.length);
-      }
-      return '<a href="' + s.url + '" class="search-result">' +
-        '<div class="result-title">' + s.title + '</div>' +
-        '<div class="result-match">' + snippet + '</div>' +
-        '</a>';
-    }).join('');
-  }
-
-  document.getElementById('searchTrigger').addEventListener('click', openSearch);
-  document.getElementById('searchClose').addEventListener('click', closeSearch);
-  searchOverlay.addEventListener('click', function(e) {
-    if (e.target === searchOverlay) closeSearch();
-  });
-  searchInput.addEventListener('input', function() { doSearch(this.value); });
-
-  // Ctrl+K to open, Esc to close
-  document.addEventListener('keydown', function(e) {
-    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-      e.preventDefault();
-      openSearch();
-    }
-    if (e.key === 'Escape' && searchOverlay.classList.contains('active')) {
-      closeSearch();
-    }
-  });
-
-  // ---- Dynamic Language Display (all available languages) ----
-  var langMap = {
-    'hi-Latn': 'Hindi-Latin',
-    'bn-Latn': 'Bangla-Latin',
-    'en': 'English',
-    'hi': 'Hindi',
-    'bn': 'Bangla',
-    'ur': 'Urdu',
-    'ur-Latn': 'Urdu-Latin'
-  };
-  document.querySelectorAll('.story-card[data-langs]').forEach(function(card) {
-    var langs = (card.dataset.langs || '').split(',').filter(Boolean);
-    var trans = (card.dataset.trans || '').split(',').filter(Boolean);
-    var all = langs.concat(trans).map(function(code) { return langMap[code.trim()] || code.trim(); });
-    var el = card.querySelector('.card-lang');
-    if (el && all.length) el.textContent = all.join(' | ');
-  });
-</script>
