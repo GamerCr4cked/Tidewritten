@@ -302,3 +302,45 @@ permalink: /library/
 
   <div class="library-note"><strong>More stories are being adapted.</strong> This library shows the new light-novel editions only. The original story files are being kept separately while each series is rewritten and reviewed.</div>
 </div>
+
+<script>
+(() => {
+  const dialog = document.getElementById("volumeDialog");
+  if (!dialog) return;
+  const title = document.getElementById("volumeDialogTitle");
+  const description = document.getElementById("volumeDialogDescription");
+  const options = document.getElementById("volumeOptions");
+  const close = () => dialog.close();
+  document.getElementById("closeVolumeDialog").addEventListener("click", close);
+  dialog.addEventListener("click", event => { if (event.target === dialog) close(); });
+  document.querySelectorAll("[data-volume-series]").forEach(card => {
+    const openChooser = () => {
+      const seriesTitle = card.querySelector("h3")?.textContent.trim() || "This series";
+      const links = [...card.querySelectorAll('a[href]')];
+      title.textContent = "Choose a volume";
+      description.textContent = seriesTitle;
+      options.replaceChildren();
+      links.forEach((link, index) => {
+        const option = document.createElement("a");
+        option.className = "volume-option";
+        option.href = link.href;
+        const label = document.createElement("small");
+        label.textContent = "Volume " + (index + 1);
+        const name = document.createElement("strong");
+        name.textContent = link.textContent.replace(/↗/g, "").replace(/^Volume\s*\d+\s*·\s*/i, "").trim();
+        option.append(label, name);
+        options.append(option);
+      });
+      if (!links.length) return;
+      if (typeof dialog.showModal === "function") dialog.showModal();
+      else {
+        const choice = window.prompt("Choose a volume:\n" + links.map((a, i) => (i + 1) + ". " + a.textContent.trim()).join("\n"));
+        const index = Number(choice) - 1;
+        if (Number.isInteger(index) && links[index]) window.location.href = links[index].href;
+      }
+    };
+    card.addEventListener("click", event => { if (!event.target.closest("a")) openChooser(); });
+    card.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openChooser(); } });
+  });
+})();
+</script>
