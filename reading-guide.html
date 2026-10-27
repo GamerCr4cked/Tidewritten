@@ -1,0 +1,39 @@
+---
+layout: default
+title: Reading Guide — Tidewritten
+description: A quick guide to navigating Tidewritten, reading series, and using reader features.
+permalink: /reading-guide/
+---
+
+<style>
+  .info-page{max-width:980px;margin:0 auto;padding:34px 0 64px}
+  .info-hero{padding:clamp(28px,5vw,54px);border:1px solid var(--border);border-radius:24px;background:radial-gradient(ellipse at 85% 0%,var(--accent-glow),transparent 42%),var(--bg-secondary);margin-bottom:22px}
+  .info-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:12px}
+  .info-hero h1{font-size:clamp(34px,6vw,54px);line-height:1.1;letter-spacing:-.04em;margin-bottom:16px}
+  .info-hero h1 span{color:var(--accent)}
+  .info-hero p{max-width:680px;color:var(--text-secondary);font-size:16px}
+  .guide-list{display:grid;gap:12px;margin-top:22px}
+  .guide-item{display:grid;grid-template-columns:48px 1fr;gap:16px;padding:22px;border:1px solid var(--border);border-radius:16px;background:var(--bg-card)}
+  .guide-number{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:var(--accent-subtle);color:var(--accent);font-weight:700}
+  .guide-item h2{font-size:17px;margin-bottom:5px}
+  .guide-item p{font-size:14px;color:var(--text-secondary)}
+  .guide-link{color:var(--accent);text-decoration:none;font-weight:600}
+  .guide-link:hover{text-decoration:underline}
+  .guide-note{margin-top:18px;padding:20px 22px;border-left:2px solid var(--accent);background:var(--accent-subtle);border-radius:0 12px 12px 0;color:var(--text-secondary);font-size:14px}
+</style>
+
+<main class="info-page">
+  <section class="info-hero">
+    <p class="info-eyebrow">YOUR READER'S GUIDE</p>
+    <h1>Make yourself <span>at home.</span></h1>
+    <p>Everything you need to find a story, follow a series, and make the reading experience your own.</p>
+  </section>
+  <section class="guide-list" aria-label="How to use Tidewritten">
+    <article class="guide-item"><span class="guide-number">01</span><div><h2>Find a story</h2><p>Start on <a class="guide-link" href="{{ '/' | relative_url }}">Home</a> for featured picks, or visit the <a class="guide-link" href="{{ '/library/' | relative_url }}">Library</a> to browse the available light-novel editions by series.</p></div></article>
+    <article class="guide-item"><span class="guide-number">02</span><div><h2>Choose a volume</h2><p>Series pages group related volumes together. Use the volume selector and previous/next navigation where available to move through a series in order.</p></div></article>
+    <article class="guide-item"><span class="guide-number">03</span><div><h2>Set your theme</h2><p>Use the theme control in the top navigation to switch between dark and light appearance.</p></div></article>
+    <article class="guide-item"><span class="guide-number">04</span><div><h2>Return to a story</h2><p>The home page can show recently opened stories on the same browser when reading history is available. This feature uses browser-local storage, so it may not follow you to another device or browser.</p></div></article>
+    <article class="guide-item"><span class="guide-number">05</span><div><h2>Read at your own pace</h2><p>Some stories explore romance, loss, friendship, uncertainty, or heavier personal experiences. Check a story’s opening and context if you want to know its tone before starting.</p></div></article>
+  </section>
+  <div class="guide-note">Need the bigger picture? Visit <a class="guide-link" href="{{ '/about/' | relative_url }}">About Tidewritten</a> to learn what this project is, or see the <a class="guide-link" href="{{ '/creator/' | relative_url }}">Creator page</a> for the public project details.</div>
+</main>
