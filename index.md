@@ -39,7 +39,7 @@ description: Immersive light novels and emotional stories about the moments that
       <p>Different worlds, different feelings. Start with whatever catches your eye.</p>
     </div>
     <div class="float-story-grid">
-      <a class="float-story-card bird-card" href="{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}">
+      <a class="float-story-card bird-card" href="{{ '/stories/notun-pakhi.html' | relative_url }}">
         <span class="story-card-top"><span>01 / SERIES</span><span class="story-card-arrow">↗</span></span>
         <span class="story-art bird-art" aria-hidden="true"><span class="bird-moon"></span><span class="bird-orbit"></span><span class="bird-star star-one">✦</span><span class="bird-star star-two">✧</span><span class="bird-horizon"></span></span>
         <span class="story-card-copy"><span class="story-type">QUIET ROMANCE · GROWING UP</span><strong>The Little Bird Chronicles</strong><span class="story-summary">Quiet school days, a returning friend, and the courage to say what matters.</span><span class="story-card-cta">Start with Volume 1 <span aria-hidden="true">→</span></span></span>
@@ -92,7 +92,7 @@ description: Immersive light novels and emotional stories about the moments that
       var ago='Recently read';
       if(h.time){var m=Math.max(0,Math.floor((Date.now()-h.time)/60000));ago=m<1?'Just now':m<60?m+'m ago':m<1440?Math.floor(m/60)+'h ago':Math.floor(m/1440)+'d ago';}
       var routes={
-        'notun-pakhi':"{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}",
+        'notun-pakhi':"{{ '/stories/notun-pakhi.html' | relative_url }}",
         'notun-pakhi-s2':"{{ '/stories/the-little-bird-returns/' | relative_url }}",
         'notun-pakhi-s3':"{{ '/stories/where-our-story-begins/' | relative_url }}",
         'phir-milenge':"{{ '/stories/somewhere-between-friends-and-love/' | relative_url }}",
