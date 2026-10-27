@@ -1,0 +1,55 @@
+{
+  "Suresh": {
+    "initials": "S",
+    "role": "Main Character",
+    "color": "#6db3f2",
+    "lightColor": "#3a7fcc",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "15 → 17" },
+      { "label": "Class", "value": "10th → 12th" },
+      { "label": "Type", "value": "Introvert, awkward" }
+    ],
+    "bio": "Ek average ladka jo apni feelings express nahi kar paata. Dheere dheere kisi ke karib aata hai — par bol nahi paata."
+  },
+  "Akhi": {
+    "initials": "A",
+    "role": "Main Character",
+    "color": "#f4a0b5",
+    "lightColor": "#c4728a",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "12 → 14" },
+      { "label": "Nickname", "value": "Nayi Chidiya" },
+      { "label": "Class", "value": "7th → 9th" },
+      { "label": "Type", "value": "Confident, seedhi baat" }
+    ],
+    "bio": "Chhoti par confident ladki. Apne kaam me busy rehti hai. Sabse normally baat karti hai — bina kisi pretense ke."
+  },
+  "Riya": {
+    "initials": "R",
+    "role": "Akhi ki Best Friend",
+    "color": "#48c78e",
+    "lightColor": "#2e8b63",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "Same as Akhi" },
+      { "label": "Class", "value": "Same as Akhi" },
+      { "label": "Type", "value": "Chulbuli, mazaakiya" }
+    ],
+    "bio": "Akhi ki best friend. Hamesha mazaak udati hai par dil se supportive. Sab kuch notice karti hai."
+  },
+  "Rahul": {
+    "initials": "Ra",
+    "role": "Suresh ka Best Friend",
+    "color": "#f0a050",
+    "lightColor": "#c07830",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "Same as Suresh" },
+      { "label": "Class", "value": "Same as Suresh" },
+      { "label": "Type", "value": "Loud, funny, wingman" }
+    ],
+    "bio": "Suresh ka close dost. Hamesha push karta hai baat karne ke liye. Khud ki love life zero hai."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Arhan": {
+    "initials": "A",
+    "role": "Main Character",
+    "color": "#6db3f2",
+    "lightColor": "#3a7fcc",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "18 → 22" },
+      { "label": "College", "value": "BSc Student" },
+      { "label": "Passion", "value": "Photography" },
+      { "label": "Type", "value": "Introvert, loyal" }
+    ],
+    "bio": "Ek introvert ladka jo college me pehli baar kisi se itna connected hua. Photography uska sahara hai."
+  },
+  "Inaya": {
+    "initials": "I",
+    "role": "Main Character",
+    "color": "#f4a0b5",
+    "lightColor": "#c4728a",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "18 → 22" },
+      { "label": "College", "value": "BSc Student" },
+      { "label": "Passion", "value": "Writing" },
+      { "label": "Type", "value": "Extrovert, emotional" }
+    ],
+    "bio": "Seedhi baat karne wali ladki. Dil pe le leti hai sab kuch. College me Arhan ke sabse karib hai."
+  },
+  "Vikram": {
+    "initials": "V",
+    "role": "Arhan ka Best Friend",
+    "color": "#48c78e",
+    "lightColor": "#2e8b63",
+    "align": "left",
+    "details": [
+      { "label": "Age", "value": "18 → 22" },
+      { "label": "College", "value": "Same as Arhan" },
+      { "label": "Type", "value": "Loyal, practical" }
+    ],
+    "bio": "Arhan ka roommate aur best friend. Practical hai, par jab zarurat hoti hai emotional bhi ho jaata hai."
+  },
+  "Meera": {
+    "initials": "Me",
+    "role": "Inaya ki Friend",
+    "color": "#a78bfa",
+    "lightColor": "#7c5cbf",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "18 → 22" },
+      { "label": "College", "value": "Same batch" },
+      { "label": "Type", "value": "Sweet, supportive" }
+    ],
+    "bio": "Inaya ki college friend. Dono ki baat sunti hai bina judge kiye. Neutral rehti hai."
+  },
+  "Rehan": {
+    "initials": "Re",
+    "role": "Inaya ka School Friend",
+    "color": "#fbbf24",
+    "lightColor": "#b08a10",
+    "align": "right",
+    "details": [
+      { "label": "Age", "value": "20" },
+      { "label": "Connection", "value": "School friend" },
+      { "label": "Type", "value": "Charming, friendly" }
+    ],
+    "bio": "Inaya ka purana school friend. Summer me reconnect hua. Charming hai aur caring dikha hai."
+  }
+}

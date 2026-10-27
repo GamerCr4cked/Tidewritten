@@ -6,6 +6,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 exclude:
+  - bin
   - README.md
   - Gemfile
   - Gemfile.lock
