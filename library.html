@@ -43,81 +43,45 @@ permalink: /library/
 
   <div class="novel-section-head">
     <h2>Series collection</h2>
-    <p>9 series · 11 volumes available</p>
+    <p>{{ grouped_series | size }} series · {{ novel_pages | size }} volumes available</p>
   </div>
 
   <div class="series-grid">
-    <div class="series-card" data-volume-series role="button" tabindex="0" aria-label="Open The Little Bird Chronicles">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">小鳥</span></div>
-      <div class="series-badges"><span class="series-badge">Coming of Age</span><span class="series-badge muted">School Life</span><span class="series-badge muted">1 Volume</span></div>
-      <h3>The Little Bird Chronicles</h3>
-      <p class="series-desc">At Seiran Academy, a quiet high-school student and a younger girl grow from strangers into something meaningful through small conversations, shared routines, and the courage to be honest.</p>
-      <div class="series-card-foot"><span>Read Volume 1</span><strong>Open story →</strong></div>
-      <div style="display:grid;gap:9px;margin-top:15px">
-        <a href="{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 1 · <em>The Girl by the School Gate</em> ↗</a>
-      </div>
-    </div>
-    <div class="series-card" data-volume-series role="button" tabindex="0" aria-label="Choose a volume from The Phir Milenge Trilogy">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">再会</span></div>
-      <div class="series-badges"><span class="series-badge">Contemporary Romance</span><span class="series-badge muted">Healing</span><span class="series-badge muted">3 Volumes</span></div>
-      <h3>The Phir Milenge Trilogy</h3>
-      <p class="series-desc">Akito and Mio move from friendship to first love, through betrayal and silence, and toward a second chance that must be built on honesty rather than nostalgia.</p>
-      <div class="series-card-foot"><span>Read a volume</span><strong>Three-part story →</strong></div>
-      <div style="display:grid;gap:9px;margin-top:15px">
-        <a href="{{ '/stories/somewhere-between-friends-and-love/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 1 · <em>Somewhere Between Friends and Love</em> ↗</a>
-        <a href="{{ '/stories/the-silence-between-us/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 2 · <em>The Silence Between Us</em> ↗</a>
-        <a href="{{ '/stories/when-we-meet-again/' | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume 3 · <em>When We Meet Again</em> ↗</a>
-      </div>
-    </div>
-    <a class="series-card" href="{{ '/stories/the-other-side-of-us/' | relative_url }}" aria-label="Read The Other Side of Us">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">分岐</span></div>
-      <div class="series-badges"><span class="series-badge">Contemporary Drama</span><span class="series-badge muted">Roommates</span><span class="series-badge muted">Standalone</span></div>
-      <h3>The Other Side of Us</h3>
-      <p class="series-desc">A double-booked apartment forces two strangers to share a home. Comfort becomes affection, but honesty means accepting that not every love story ends in a relationship.</p>
-      <div class="series-card-foot"><span>Standalone light novel</span><strong>Read story →</strong></div>
-    </a>
-    <a class="series-card" href="{{ '/stories/teaching-me-how-to-live/' | relative_url }}" aria-label="Read Teaching Me How to Live">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">日々</span></div>
-      <div class="series-badges"><span class="series-badge">Workplace Romance</span><span class="series-badge muted">Slow Burn</span><span class="series-badge muted">Standalone</span></div>
-      <h3>Teaching Me How to Live</h3>
-      <p class="series-desc">A man who has reduced life to a timetable meets the woman who reminds him that ordinary moments can be worth living for.</p>
-      <div class="series-card-foot"><span>Standalone light novel</span><strong>Read story →</strong></div>
-    </a>
-    <a class="series-card" href="{{ '/stories/when-everyone-went-offline/' | relative_url }}" aria-label="Read When Everyone Went Offline">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">不在</span></div>
-      <div class="series-badges"><span class="series-badge">Online Friendship</span><span class="series-badge muted">Digital Life</span><span class="series-badge muted">Standalone</span></div>
-      <h3>When Everyone Went Offline</h3>
-      <p class="series-desc">A tiny Minecraft community becomes a home for three friends. When one friend returns with a familiar username but no recognition, the others must learn to live with an unanswered goodbye.</p>
-      <div class="series-card-foot"><span>Standalone light novel</span><strong>Read story →</strong></div>
-    </a>
-    <a class="series-card" href="{{ '/stories/the-account-that-never-came-back/' | relative_url }}" aria-label="Read The Account That Never Came Back">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">再起</span></div>
-      <div class="series-badges"><span class="series-badge">Gaming Community</span><span class="series-badge muted">Friendship</span><span class="series-badge muted">Standalone</span></div>
-      <h3>The Account That Never Came Back</h3>
-      <p class="series-desc">After a suspended account turns a close friend into a stranger, two friends make one last appeal—and discover that restoring an account is only the beginning of repairing trust.</p>
-      <div class="series-card-foot"><span>Standalone light novel</span><strong>Read story →</strong></div>
-    </a>
-    <a class="series-card" href="{{ '/stories/prismat-fragments-of-the-fallen-sky/' | relative_url }}" aria-label="Read Prismat: Fragments of the Fallen Sky">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">七星</span></div>
-      <div class="series-badges"><span class="series-badge">Science Fiction</span><span class="series-badge muted">Supernatural Action</span><span class="series-badge muted">Volume 1</span></div>
-      <h3>Prismat</h3>
-      <p class="series-desc">Seven ancient fragments choose seven wielders. As the alien warlord Grax closes in, the team must learn to trust one another—and rescue a friend turned against them.</p>
-      <div class="series-card-foot"><span>Volume 1 · <em>Fragments of the Fallen Sky</em></span><strong>Read volume →</strong></div>
-    </a>
-    <a class="series-card" href="{{ '/stories/the-words-we-never-sent/' | relative_url }}" aria-label="Read The Words We Never Sent, Volume One">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">言葉</span></div>
-      <div class="series-badges"><span class="series-badge">Contemporary Drama</span><span class="series-badge muted">Online Friendship</span><span class="series-badge muted">Volume 1</span></div>
-      <h3>The Words We Never Sent</h3>
-      <p class="series-desc">A friendship that begins with a meme becomes part of two students' everyday lives. When one of them starts pulling away, the other is left to understand an ending that never comes with an explanation.</p>
-      <div class="series-card-foot"><span>Volume 1 · <em>The Words We Never Sent</em></span><strong>Read volume →</strong></div>
-    </a>
-    <a class="series-card" href="{{ '/stories/the-face-i-never-forgot/' | relative_url }}" aria-label="Read The Face I Never Forgot, Volume One">
-      <div class="series-art" aria-hidden="true"><span class="series-art-mark">初恋</span></div>
-      <div class="series-badges"><span class="series-badge">Coming of Age</span><span class="series-badge muted">First Love</span><span class="series-badge muted">Volume 1</span></div>
-      <h3>The Face I Never Forgot</h3>
-      <p class="series-desc">A quiet middle-school student spends a year noticing the girl by the window, then gathers the courage to confess. Years later, he returns to the classroom that first taught him how memories remain.</p>
-      <div class="series-card-foot"><span>Volume 1 · <em>The Face I Never Forgot</em></span><strong>Read volume →</strong></div>
-    </a>
+    {% assign novel_pages = site.pages | where: "layout", "light-novel" | sort: "series" %}
+    {% assign grouped_series = novel_pages | group_by: "series" %}
+    {% for series_group in grouped_series %}
+      {% assign volumes = series_group.items | sort: "volume" %}
+      {% assign first_volume = volumes | first %}
+      {% assign volume_count = volumes | size %}
+      {% if volume_count == 1 %}
+        <a class="series-card" href="{{ first_volume.url | relative_url }}" aria-label="Read {{ series_group.name | escape }}">
+      {% else %}
+        <div class="series-card" data-volume-series role="button" tabindex="0" aria-label="Choose a volume from {{ series_group.name | escape }}">
+      {% endif %}
+          <div class="series-art" aria-hidden="true"><span class="series-art-mark">{% if series_group.name contains "Little Bird" %}小鳥{% elsif series_group.name contains "Phir Milenge" %}再会{% elsif series_group.name contains "Prismat" %}七星{% else %}潮{% endif %}</span></div>
+          <div class="series-badges">
+            <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
+            <span class="series-badge muted">{% if volume_count == 1 %}Standalone{% else %}{{ volume_count }} Volumes{% endif %}</span>
+          </div>
+          <h3>{{ series_group.name | escape }}</h3>
+          <p class="series-desc">{{ first_volume.tagline | default: "A story carried by the tide." | escape }}</p>
+          <div class="series-card-foot">
+            <span>{% if volume_count == 1 %}One volume{% else %}{{ volume_count }} volumes{% endif %}</span>
+            <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
+          </div>
+          {% if volume_count > 1 %}
+            <div style="display:grid;gap:9px;margin-top:15px">
+              {% for volume_page in volumes %}
+                <a href="{{ volume_page.url | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume {{ volume_page.volume }} · <em>{{ volume_page.title | escape }}</em> ↗</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+      {% if volume_count == 1 %}
+        </a>
+      {% else %}
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 
   <dialog class="volume-dialog" id="volumeDialog" aria-labelledby="volumeDialogTitle">
