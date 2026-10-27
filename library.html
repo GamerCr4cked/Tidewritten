@@ -17,6 +17,8 @@ permalink: /library/
   .novel-section-head p{font-size:12px;color:var(--lib-muted);margin:0}
   .series-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:18px}
   .series-card{display:flex;flex-direction:column;min-height:330px;position:relative;overflow:hidden;text-decoration:none!important;color:inherit!important;border:1px solid var(--lib-line);border-radius:22px;background:linear-gradient(155deg,rgba(18,47,61,.96),rgba(9,24,35,.98));padding:24px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+  .series-card{animation:library-arrive .45s ease-out both}
+  .series-card:nth-child(2){animation-delay:.05s}.series-card:nth-child(3){animation-delay:.1s}.series-card:nth-child(4){animation-delay:.15s}
   .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:34px;height:34px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
   .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#173d4a,#0b1b29)}
   .series-art:before,.series-art:after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(224,247,246,.16);border-radius:50%;width:170px;height:170px;left:70%;top:70%;transform:translate(-50%,-50%);z-index:-1}
@@ -26,17 +28,21 @@ permalink: /library/
   .art-horizon{left:-5%;right:-5%;height:60%;bottom:-30%;border-radius:50% 50% 0 0;background:rgba(4,19,32,.58);transform:rotate(-4deg)}
   .art-symbol{left:38%;top:30%;width:56px;height:42px;transform:translate(-50%,-50%);filter:drop-shadow(0 5px 12px rgba(0,0,0,.18))}
   .art-detail{left:0;right:0;bottom:15%;height:1px;background:linear-gradient(90deg,transparent,rgba(228,249,246,.38),transparent)}
+  .art-detail{animation:detail-glide 9s ease-in-out infinite}
+  @keyframes library-arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes orb-drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  @keyframes detail-glide{0%,100%{opacity:.45;transform:translateX(-2%)}50%{opacity:.85;transform:translateX(2%)}}
   /* The artwork is built entirely from CSS shapes and gradients: no image assets or text overlays. */
   .art-little-bird{background:radial-gradient(ellipse at 78% 22%,rgba(205,233,226,.18),transparent 25%),linear-gradient(155deg,#203b59,#477f91 58%,#142c42)}
   .art-little-bird .art-orb{width:27px;height:27px;right:19%;top:18%;background:#d9e8df;box-shadow:0 0 0 8px rgba(217,232,223,.07),0 0 24px rgba(217,232,223,.25)}
   .art-little-bird .art-horizon{height:52%;bottom:-24%;background:linear-gradient(170deg,#315e70,#112a41)}
   .art-little-bird .art-symbol{left:44%;top:43%;width:43px;height:22px;background:#e6f3ed;clip-path:polygon(0 48%,24% 20%,42% 37%,68% 0,56% 42%,100% 54%,61% 62%,43% 100%,35% 60%,12% 72%);transform:rotate(-7deg)}
   .art-little-bird .art-detail{left:13%;right:13%;bottom:25%;transform:rotate(-5deg)}
-  .art-phir-milenge{background:radial-gradient(ellipse at 75% 26%,rgba(255,198,151,.3),transparent 30%),linear-gradient(145deg,#26314d,#a76c70 64%,#f0b58b)}
-  .art-phir-milenge .art-orb{width:38px;height:38px;right:17%;top:15%;background:#ffd8a6;box-shadow:0 0 32px rgba(255,197,142,.32)}
-  .art-phir-milenge .art-horizon{height:38%;bottom:-12%;border-radius:0;background:repeating-linear-gradient(174deg,transparent 0 12px,rgba(255,225,194,.3) 13px 14px),#202b40;transform:none}
-  .art-phir-milenge .art-symbol{left:39%;top:56%;width:78px;height:31px;background:linear-gradient(#e4bda2,#e4bda2) 0 0/100% 2px no-repeat,linear-gradient(#e4bda2,#e4bda2) 0 100%/100% 2px no-repeat;clip-path:polygon(0 0,100% 0,88% 100%,12% 100%)}
-  .art-phir-milenge .art-symbol:before{content:"";position:absolute;inset:5px 9px;background:repeating-linear-gradient(90deg,#18263a 0 10px,#f2c59b 11px 13px)}
+  .art-meet-again{background:radial-gradient(ellipse at 75% 26%,rgba(255,198,151,.3),transparent 30%),linear-gradient(145deg,#26314d,#a76c70 64%,#f0b58b)}
+  .art-meet-again .art-orb{width:38px;height:38px;right:17%;top:15%;background:#ffd8a6;box-shadow:0 0 32px rgba(255,197,142,.32);animation:orb-drift 7s ease-in-out infinite}
+  .art-meet-again .art-horizon{height:38%;bottom:-12%;border-radius:0;background:repeating-linear-gradient(174deg,transparent 0 12px,rgba(255,225,194,.3) 13px 14px),#202b40;transform:none}
+  .art-meet-again .art-symbol{left:39%;top:56%;width:78px;height:31px;background:linear-gradient(#e4bda2,#e4bda2) 0 0/100% 2px no-repeat,linear-gradient(#e4bda2,#e4bda2) 0 100%/100% 2px no-repeat;clip-path:polygon(0 0,100% 0,88% 100%,12% 100%)}
+  .art-meet-again .art-symbol:before{content:"";position:absolute;inset:5px 9px;background:repeating-linear-gradient(90deg,#18263a 0 10px,#f2c59b 11px 13px)}
   .art-words{background:radial-gradient(ellipse at 50% 100%,rgba(136,196,205,.2),transparent 48%),repeating-linear-gradient(115deg,transparent 0 27px,rgba(205,233,238,.055) 28px 29px),linear-gradient(135deg,#10283d,#466b7b)}
   .art-words .art-orb{width:5px;height:5px;right:23%;top:18%;box-shadow:-160px 40px 0 rgba(230,246,244,.55),-90px -3px 0 rgba(230,246,244,.35),-35px 54px 0 rgba(230,246,244,.4)}
   .art-words .art-horizon{display:none}
@@ -90,7 +96,7 @@ permalink: /library/
   .series-card-foot strong{color:var(--lib-accent);font-weight:600}
   .library-note{border:1px dashed var(--lib-line);border-radius:16px;padding:18px 20px;color:var(--lib-muted);font-size:13px;line-height:1.7;margin-top:22px}
   @media(max-width:600px){.novel-hero{border-radius:20px}.series-card{min-height:0}.series-art{height:100px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}}
-  @media(prefers-reduced-motion:reduce){.series-card{transition:none}.series-card:hover{transform:none}}
+  @media(prefers-reduced-motion:reduce){.series-card{transition:none;animation:none}.series-card:hover{transform:none}.art-orb,.art-detail{animation:none}}
 </style>
 
 <div class="novel-library">
@@ -120,7 +126,7 @@ permalink: /library/
       {% endif %}
           {% assign art_class = "art-words" %}
           {% if series_group.name contains "Little Bird" %}{% assign art_class = "art-little-bird" %}
-          {% elsif series_group.name contains "Phir Milenge" %}{% assign art_class = "art-phir-milenge" %}
+          {% elsif series_group.name contains "Meet Again" %}{% assign art_class = "art-meet-again" %}
           {% elsif series_group.name contains "Face I Never Forgot" %}{% assign art_class = "art-face" %}
           {% elsif series_group.name contains "Other Side of Us" %}{% assign art_class = "art-other-side" %}
           {% elsif series_group.name contains "Teaching Me How to Live" %}{% assign art_class = "art-teaching" %}
@@ -158,7 +164,7 @@ permalink: /library/
     </div>
   </dialog>
 
-  <div class="library-note"><strong>More stories are being adapted.</strong> This library shows the new light-novel editions only. The original story files are being kept separately while each series is rewritten and reviewed.</div>
+  <div class="library-note"><strong>A growing collection.</strong> Explore Tidewritten’s light-novel editions in one place. Original stories remain preserved separately, while revised editions are added here as each series is ready.</div>
 </div></div>
 <script>
 (() => {
