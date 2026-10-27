@@ -20,7 +20,7 @@
       <a href="{{ '/' | relative_url }}" class="brand-link" aria-label="Tidewritten home"><span class="brand-mark" aria-hidden="true">≈</span><span class="brand-word">Tidewritten</span></a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}aria-current="page"{% endif %}>Home</a>
-        <a href="{{ '/stories' | relative_url }}" {% if page.url == '/stories.html' or page.url == '/stories/' %}aria-current="page"{% endif %}>Stories</a>
+        <a href="{{ '/library/' | relative_url }}" {% if page.url == '/library.html' or page.url == '/library/' %}aria-current="page"{% endif %}>Library</a>
         <a href="{{ '/coming-soon' | relative_url }}" {% if page.url == '/coming-soon.html' or page.url == '/coming-soon/' %}aria-current="page"{% endif %}>On the horizon</a>
       </nav>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" title="Toggle theme"><span class="theme-toggle-icon" aria-hidden="true">◐</span></button>
@@ -31,7 +31,7 @@
     <footer class="site-footer">
       <span class="footer-wave" aria-hidden="true">〰</span>
       <p><strong>Tidewritten</strong> <span>— some feelings leave a tide behind.</span></p>
-      <a href="{{ '/stories' | relative_url }}">Find your next story <span aria-hidden="true">↗</span></a>
+      <a href="{{ '/stories' | relative_url }}">Browse the Library <span aria-hidden="true">↗</span></a>
     </footer>
   </div>
   <script>
