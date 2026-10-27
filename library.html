@@ -1,0 +1,60 @@
+---
+layout: default
+title: Library — Tidewritten
+description: Browse Tidewritten's English light-novel editions, organized by series and volume.
+permalink: /library/
+---
+
+<style>
+  .novel-library{--lib-line:rgba(160,218,215,.16);--lib-text:#e9f1f2;--lib-muted:#a1b6bf;--lib-accent:#9ce4dc;color:var(--lib-text);padding:10px 0 48px}
+  .novel-hero{position:relative;overflow:hidden;border:1px solid var(--lib-line);border-radius:26px;padding:clamp(30px,6vw,68px);background:radial-gradient(ellipse at 85% 10%,rgba(100,188,195,.18),transparent 38%),linear-gradient(135deg,#102b39,#0b1925 70%);margin-bottom:30px}
+  .novel-hero:after{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(156,228,220,.13);border-radius:50%;right:-70px;top:-80px;box-shadow:0 0 0 32px rgba(156,228,220,.025),0 0 0 66px rgba(156,228,220,.02);pointer-events:none}
+  .novel-kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--lib-accent);font-weight:700;margin:0 0 14px}
+  .novel-hero h1{font-size:clamp(34px,6vw,60px);line-height:1.08;letter-spacing:-.04em;margin:0 0 18px;max-width:720px}
+  .novel-hero p:not(.novel-kicker){color:#bfd0d6;max-width:610px;font-size:16px;line-height:1.8;margin:0}
+  .novel-section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:36px 0 16px}
+  .novel-section-head h2{font-size:22px;margin:0;letter-spacing:-.02em}
+  .novel-section-head p{font-size:12px;color:var(--lib-muted);margin:0}
+  .series-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:18px}
+  .series-card{display:flex;flex-direction:column;min-height:330px;position:relative;overflow:hidden;text-decoration:none!important;color:inherit!important;border:1px solid var(--lib-line);border-radius:22px;background:linear-gradient(155deg,rgba(18,47,61,.96),rgba(9,24,35,.98));padding:24px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+  .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}
+  .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 110%,rgba(156,228,220,.3),transparent 50%),linear-gradient(135deg,#173d4a,#0b1b29)}
+  .series-art:before,.series-art:after{content:"";position:absolute;border:1px solid rgba(174,235,226,.25);border-radius:50%;width:170px;height:170px;left:50%;top:60%;transform:translate(-50%,-50%) rotate(-20deg)}
+  .series-art:after{width:230px;height:230px;top:78%;border-color:rgba(174,235,226,.13)}
+  .series-art-mark{position:absolute;inset:0;display:grid;place-items:center;font-size:43px;color:#b9f1e9;text-shadow:0 0 26px rgba(156,228,220,.4)}
+  .series-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .series-badge{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--lib-line);border-radius:99px;padding:5px 9px;color:var(--lib-accent)}
+  .series-badge.muted{color:var(--lib-muted)}
+  .series-card h3{font-size:23px;line-height:1.25;letter-spacing:-.025em;margin:0 0 10px}
+  .series-card .series-desc{font-size:14px;line-height:1.75;color:#b5c7ce;margin:0 0 22px}
+  .series-card-foot{margin-top:auto;border-top:1px solid var(--lib-line);padding-top:16px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:12px;color:var(--lib-muted)}
+  .series-card-foot strong{color:var(--lib-accent);font-weight:600}
+  .library-note{border:1px dashed var(--lib-line);border-radius:16px;padding:18px 20px;color:var(--lib-muted);font-size:13px;line-height:1.7;margin-top:22px}
+  @media(max-width:600px){.novel-hero{border-radius:20px}.series-card{min-height:0}.series-art{height:100px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}}
+  @media(prefers-reduced-motion:reduce){.series-card{transition:none}.series-card:hover{transform:none}}
+</style>
+
+<div class="novel-library">
+  <section class="novel-hero">
+    <p class="novel-kicker">Tidewritten · The Light Novel Library</p>
+    <h1>Find a story.<br>Stay for the feeling.</h1>
+    <p>English light-novel editions, reimagined with Japanese settings, school life, changing seasons, quiet streets, and the little moments that stay with us. Browse by series, then choose a volume when a series grows.</p>
+  </section>
+
+  <div class="novel-section-head">
+    <h2>Series collection</h2>
+    <p>1 series · 1 volume available</p>
+  </div>
+
+  <div class="series-grid">
+    <a class="series-card" href="{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}" aria-label="Read The Little Bird Chronicles, Volume One: The Girl by the School Gate">
+      <div class="series-art" aria-hidden="true"><span class="series-art-mark">小鳥</span></div>
+      <div class="series-badges"><span class="series-badge">Coming of Age</span><span class="series-badge muted">School Life</span><span class="series-badge muted">Volume 1</span></div>
+      <h3>The Little Bird Chronicles</h3>
+      <p class="series-desc">At Seiran Academy, a quiet high-school student begins noticing a younger girl in the school courtyard. Small conversations teach him that caring about someone also means respecting the life and choices that belong to them.</p>
+      <div class="series-card-foot"><span>Volume 1 · <em>The Girl by the School Gate</em></span><strong>Read volume →</strong></div>
+    </a>
+  </div>
+
+  <div class="library-note"><strong>More stories are being adapted.</strong> This library shows the new light-novel editions only. The original story files are being kept separately while each series is rewritten and reviewed.</div>
+</div>
