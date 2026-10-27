@@ -7,8 +7,7 @@ kramdown:
   input: GFM
 exclude:
   - bin
-  - stories/Direct\ Messages*
-  - bin
+  - "stories/Direct Messages*"
   - README.md
   - Gemfile
   - Gemfile.lock
