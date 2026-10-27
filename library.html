@@ -17,7 +17,7 @@ permalink: /library/
   .novel-section-head p{font-size:12px;color:var(--lib-muted);margin:0}
   .series-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:18px}
   .series-card{display:flex;flex-direction:column;min-height:330px;position:relative;overflow:hidden;text-decoration:none!important;color:inherit!important;border:1px solid var(--lib-line);border-radius:22px;background:linear-gradient(155deg,rgba(18,47,61,.96),rgba(9,24,35,.98));padding:24px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
-  .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:34px;height:34px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
+  .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:34px;height:34px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
   .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 110%,rgba(156,228,220,.3),transparent 50%),linear-gradient(135deg,#173d4a,#0b1b29)}
   .series-art:before,.series-art:after{content:"";position:absolute;border:1px solid rgba(174,235,226,.25);border-radius:50%;width:170px;height:170px;left:50%;top:60%;transform:translate(-50%,-50%) rotate(-20deg)}
   .series-art:after{width:230px;height:230px;top:78%;border-color:rgba(174,235,226,.13)}
@@ -71,11 +71,7 @@ permalink: /library/
             <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
           </div>
           {% if volume_count > 1 %}
-            <div style="display:grid;gap:9px;margin-top:15px">
-              {% for volume_page in volumes %}
-                <a href="{{ volume_page.url | relative_url }}" style="color:var(--lib-accent);text-decoration:none;font-size:13px">Volume {{ volume_page.volume }} · <em>{{ volume_page.title | escape }}</em> ↗</a>
-              {% endfor %}
-            </div>
+            <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
           {% endif %}
       {% if volume_count == 1 %}
         </a>
@@ -280,27 +276,29 @@ permalink: /library/
   document.querySelectorAll("[data-volume-series]").forEach(card => {
     const openChooser = () => {
       const seriesTitle = card.querySelector("h3")?.textContent.trim() || "This series";
-      const links = [...card.querySelectorAll('a[href]')];
+      let volumes = [];
+      try { volumes = JSON.parse(card.querySelector(".volume-data")?.textContent || "[]"); } catch (error) {}
+      if (volumes.length === 1) { window.location.href = volumes[0].url; return; }
       title.textContent = "Choose a volume";
       description.textContent = seriesTitle;
       options.replaceChildren();
-      links.forEach((link, index) => {
+      volumes.forEach(volume => {
         const option = document.createElement("a");
         option.className = "volume-option";
-        option.href = link.href;
+        option.href = volume.url;
         const label = document.createElement("small");
-        label.textContent = "Volume " + (index + 1);
+        label.textContent = "Volume " + volume.number;
         const name = document.createElement("strong");
-        name.textContent = link.textContent.replace(/↗/g, "").replace(/^Volume\s*\d+\s*·\s*/i, "").trim();
+        name.textContent = volume.title;
         option.append(label, name);
         options.append(option);
       });
-      if (!links.length) return;
+      if (!volumes.length) return;
       if (typeof dialog.showModal === "function") dialog.showModal();
       else {
-        const choice = window.prompt("Choose a volume:\n" + links.map((a, i) => (i + 1) + ". " + a.textContent.trim()).join("\n"));
+        const choice = window.prompt("Choose a volume:\n" + volumes.map((v, i) => (i + 1) + ". Vol. " + v.number + " — " + v.title).join("\n"));
         const index = Number(choice) - 1;
-        if (Number.isInteger(index) && links[index]) window.location.href = links[index].href;
+        if (Number.isInteger(index) && volumes[index]) window.location.href = volumes[index].url;
       }
     };
     card.addEventListener("click", event => { if (!event.target.closest("a")) openChooser(); });
