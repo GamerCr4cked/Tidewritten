@@ -2709,3 +2709,36 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
  .random-story-card{transition:none}
  .random-art-orb{animation:none}
 }
+
+
+/* Resume-reading suggestion */
+.reading-resume-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 0 0 34px;
+  padding: 24px 58px 24px 25px;
+  border: 1px solid rgba(142, 219, 212, 0.28);
+  border-radius: 18px;
+  background: radial-gradient(ellipse at 0% 0%, rgba(142,219,212,.10), transparent 58%), var(--bg-card);
+  box-shadow: 0 12px 36px rgba(0,0,0,.12);
+}
+.reading-resume-card[hidden] { display: none; }
+.reading-resume-copy { min-width: 0; }
+.reading-resume-kicker { display:block; margin-bottom:7px; color:var(--accent); font-size:9px; font-weight:700; letter-spacing:.18em; }
+.reading-resume-copy h2 { margin:0 0 5px; color:var(--text-primary); font-family:'Playfair Display',serif; font-size:clamp(19px,3vw,25px); line-height:1.25; }
+.reading-resume-copy p { margin:0 0 4px; color:var(--text-secondary); font-size:14px; }
+.reading-resume-chapter { display:block; color:var(--text-muted); font-size:12px; line-height:1.5; }
+.reading-resume-link { flex:none; display:inline-flex; align-items:center; gap:9px; padding:10px 14px; border:1px solid rgba(142,219,212,.28); border-radius:999px; color:var(--accent); font-size:12px; font-weight:700; text-decoration:none; transition:background .2s,border-color .2s; }
+.reading-resume-link:hover { background:var(--accent-subtle); border-color:var(--accent); text-decoration:none; }
+.reading-resume-dismiss { position:absolute; top:10px; right:12px; width:28px; height:28px; border:0; border-radius:50%; background:transparent; color:var(--text-muted); font-size:21px; line-height:1; cursor:pointer; }
+.reading-resume-dismiss:hover { background:var(--accent-subtle); color:var(--text-primary); }
+@media(max-width:600px) {
+  .reading-resume-card { align-items:flex-start; flex-direction:column; gap:14px; padding:21px 46px 21px 19px; }
+  .reading-resume-link { align-self:flex-start; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .reading-resume-link { transition:none; }
+}
