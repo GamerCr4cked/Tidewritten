@@ -28,6 +28,16 @@
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" title="Toggle theme"><span class="theme-toggle-icon" aria-hidden="true">◐</span></button>
     </header>
     <main class="content-area">
+      <aside class="reading-resume-card" id="readingResumeCard" aria-label="Continue reading" hidden>
+        <div class="reading-resume-copy">
+          <span class="reading-resume-kicker">YOUR READING THREAD</span>
+          <h2>Pick up where you left off</h2>
+          <p id="readingResumeStory"></p>
+          <span class="reading-resume-chapter" id="readingResumeChapter"></span>
+        </div>
+        <a class="reading-resume-link" id="readingResumeLink" href="#">Continue reading <span aria-hidden="true">↗</span></a>
+        <button class="reading-resume-dismiss" id="readingResumeDismiss" type="button" aria-label="Dismiss reading suggestion" title="Dismiss">×</button>
+      </aside>
       {{ content }}
     </main>
     <footer class="site-footer">
@@ -38,6 +48,23 @@
   </div>
   <script>
     (function(){
+      var resumeCard=document.getElementById('readingResumeCard');
+      if(resumeCard){
+        try{
+          var saved=JSON.parse(localStorage.getItem('tidewritten-reading-progress-v1')||'null');
+          if(saved&&saved.url&&saved.title){
+            var story=document.getElementById('readingResumeStory');
+            var chapter=document.getElementById('readingResumeChapter');
+            var link=document.getElementById('readingResumeLink');
+            story.textContent=saved.title;
+            chapter.textContent=saved.chapterTitle||'Continue from your last position';
+            link.href=saved.url+'?resume=1';
+            resumeCard.hidden=false;
+            var dismiss=document.getElementById('readingResumeDismiss');
+            dismiss.addEventListener('click',function(){resumeCard.hidden=true;});
+          }
+        }catch(e){}
+      }
       var toggle=document.getElementById('themeToggle');
       if(!toggle)return;
       function paint(){var light=document.documentElement.getAttribute('data-theme')==='light';toggle.innerHTML='<span class="theme-toggle-icon" aria-hidden="true">'+(light?'☼':'◐')+'</span>';toggle.setAttribute('aria-label',light?'Switch to dark theme':'Switch to light theme');}
