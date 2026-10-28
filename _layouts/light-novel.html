@@ -158,7 +158,7 @@
       const saveReadingProgress = () => {
         try {
           const heading = currentChapter();
-          const chapterTitle = heading ? heading.textContent.replace(/\\s+/g, " ").trim() : "Reading";
+          const chapterTitle = heading ? heading.textContent.replace(/\s+/g, " ").trim() : "Reading";
           const record = {
             url: location.pathname,
             title: document.title.replace(/ · Tidewritten$/, ""),
