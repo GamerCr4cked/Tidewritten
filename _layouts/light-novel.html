@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.html_lang | default: 'en' | escape }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,12 +19,55 @@
     .reader-shell{max-width:var(--measure);margin:0 auto;padding:38px 26px 80px}.volume-navigation{display:flex;justify-content:space-between;gap:14px;margin:44px 0 12px;padding-top:22px;border-top:1px solid var(--line)}.volume-nav-link{display:flex;flex-direction:column;gap:4px;max-width:48%;padding:12px 15px;border:1px solid var(--line);border-radius:12px;color:var(--text);background:var(--panel)}.volume-nav-link span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}.volume-nav-link strong{font-size:13px;font-weight:600}.volume-nav-link.next{margin-left:auto;text-align:right}.volume-nav-link[hidden]{display:none}.volume-note{text-align:center;color:var(--muted);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:42px}.story-content{font-family:"Literata",Georgia,serif;font-size:var(--reader-size);line-height:1.95;overflow-wrap:anywhere}.story-content p{margin:0 0 1.45em}.story-content h2{font-family:"DM Sans",sans-serif;font-weight:500;line-height:1.2;font-size:clamp(24px,4vw,34px);letter-spacing:-.025em;margin:76px 0 28px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}.story-content h2:first-child{margin-top:0}.story-content h2 .chapter-number{display:block;color:var(--accent);font-family:"DM Sans",sans-serif;font-size:10px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px}.story-content em{color:#c5e5e2}.story-content strong{font-weight:600;color:#f1f6f5}.story-content blockquote{margin:2em 0;padding:2px 0 2px 22px;border-left:2px solid var(--accent);color:#b7d0d2;font-style:italic}.story-content hr{border:0;border-top:1px solid rgba(142,219,212,.16);margin:2.5em auto;width:42%}.endnote{margin-top:72px;padding-top:28px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:13px}.endnote .end-mark{color:var(--accent);letter-spacing:.28em;text-transform:uppercase;font-size:10px;margin-bottom:12px}.footer{border-top:1px solid rgba(142,219,212,.12);text-align:center;padding:25px 20px 40px;color:var(--muted);font-size:12px}
     @media(max-width:600px){.topbar{padding:18px 18px}.hero{margin:25px auto 28px;padding:28px 20px 40px}.tools-inner{padding:9px 14px}.reader-shell{padding:30px 21px 58px}.story-content{line-height:1.85}.tools-label{font-size:10px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  
+    .top-actions{position:relative;display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+    .language-picker{position:relative;z-index:20}
+    .translate-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:36px;padding:0 11px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--text);font:600 12px "DM Sans",sans-serif;cursor:pointer;transition:border-color .18s,background .18s}
+    .translate-toggle:hover,.translate-toggle[aria-expanded="true"]{border-color:var(--accent)}
+    .translate-globe{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+    .translate-chevron{font-size:15px;line-height:1;transform:translateY(-2px);transition:transform .18s}
+    .translate-toggle[aria-expanded="true"] .translate-chevron{transform:translateY(2px) rotate(180deg)}
+    .language-menu{position:absolute;top:calc(100% + 9px);right:0;width:220px;padding:7px;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-shadow:0 16px 42px rgba(0,0,0,.28);z-index:30}
+    .language-menu[hidden]{display:none}
+    .language-menu-heading{padding:9px 10px 7px;color:var(--muted);font-size:9px;font-weight:700;letter-spacing:.15em}
+    .language-option{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px;border-radius:9px;color:var(--text);font-size:13px;text-decoration:none}
+    .language-option:hover{background:rgba(142,219,212,.09);text-decoration:none}
+    .language-option.is-selected{background:rgba(142,219,212,.14);color:var(--accent);font-weight:700}
+    .language-option small{display:block;margin-top:2px;color:var(--muted);font-size:10px;font-weight:500}
+    .language-check{visibility:hidden;color:var(--accent);font-size:14px}
+    .language-option.is-selected .language-check{visibility:visible}
+    [data-theme="light"] .language-option:hover{background:rgba(8,127,145,.07)}
+    [data-theme="light"] .language-option.is-selected{background:rgba(8,127,145,.11);color:var(--accent)}
+    @media(max-width:600px){.top-actions{gap:7px}.back{font-size:11px}.translate-toggle{gap:6px;padding:0 9px;font-size:11px}.language-menu{width:205px}}
+
   </style>
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="{{ '/' | relative_url }}">Tidewritten</a>
-    <div class="top-actions"><a class="back" href="{{ '/library/' | relative_url }}">← Back to Library</a><button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Toggle light/dark theme">☼</button></div>
+    {% assign original_story_url = page.translation_of | default: page.url %}
+    {% assign story_translations = site.pages | where: "translation_of", original_story_url | sort: "language_label" %}
+    <div class="top-actions">
+      <a class="back" href="{{ '/library/' | relative_url }}">← Back to Library</a>
+      <div class="language-picker" id="languagePicker">
+        <button class="translate-toggle" id="translateToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="languageMenu">
+          <svg class="translate-globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg>
+          <span>Translate</span><span class="translate-chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="language-menu" id="languageMenu" role="menu" hidden>
+          <div class="language-menu-heading">STORY LANGUAGE</div>
+          <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}>
+            <span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span>
+          </a>
+          {% for translation_page in story_translations %}
+          <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}>
+            <span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Toggle light/dark theme">☼</button>
+    </div>
   </header>
   <section class="hero">
     <div class="eyebrow">{{ page.series | escape }} · Volume {{ page.volume }}</div>
@@ -56,6 +99,32 @@
     (() => {
       const root = document.documentElement;
       const themeButton = document.getElementById("themeToggle");
+    // Story language menu: each translation is a separate Jekyll page.
+    (() => {
+      const picker = document.getElementById("languagePicker");
+      const button = document.getElementById("translateToggle");
+      const menu = document.getElementById("languageMenu");
+      if (!picker || !button || !menu) return;
+      const closeMenu = () => {
+        menu.hidden = true;
+        button.setAttribute("aria-expanded", "false");
+      };
+      button.addEventListener("click", () => {
+        const opening = menu.hidden;
+        menu.hidden = !opening;
+        button.setAttribute("aria-expanded", String(opening));
+      });
+      document.addEventListener("click", event => {
+        if (!picker.contains(event.target)) closeMenu();
+      });
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape") {
+          closeMenu();
+          button.focus();
+        }
+      });
+    })();
+
       const savedTheme = localStorage.getItem("theme");
       if (savedTheme === "light" || savedTheme === "dark") root.setAttribute("data-theme", savedTheme);
       else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) root.setAttribute("data-theme", "light");
@@ -78,7 +147,7 @@
       } catch (e) {}
       // Jekyll discovers every published volume in this series automatically.
       const volumes = [
-        {% assign series_pages = site.pages | where: "layout", "light-novel" | where: "series", page.series | sort: "volume" %}
+        {% assign series_pages = site.pages | where: "layout", "light-novel" | where: "series", page.series | where_exp: "p", "p.translation_of == nil" | sort: "volume" %}
         {% for volume_page in series_pages %}
           { number: {{ volume_page.volume | jsonify }}, title: {{ volume_page.title | jsonify }}, url: {{ volume_page.url | relative_url | jsonify }} }{% unless forloop.last %},{% endunless %}
         {% endfor %}
