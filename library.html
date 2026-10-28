@@ -106,7 +106,7 @@ permalink: /library/
     <p>English light-novel editions shaped by distinct worlds, online friendships, quiet turning points, and the little moments that stay with us. Browse by series, then choose a volume when a series grows.</p>
   </section>
 
-  {% assign novel_pages = site.pages | where: "layout", "light-novel" | sort: "series" %}
+  {% assign novel_pages = site.pages | where: "layout", "light-novel" | where_exp: "p", "p.translation_of == nil" | sort: "series" %}
   {% assign grouped_series = novel_pages | group_by: "series" %}
 
   <div class="novel-section-head">
