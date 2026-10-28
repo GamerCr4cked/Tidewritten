@@ -1,4 +1,7 @@
 ---
+permalink: /home/
+---
+---
 layout: default
 title: Tidewritten
 description: Immersive light novels and emotional stories about the moments that stay with you.
