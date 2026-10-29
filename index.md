@@ -164,7 +164,7 @@ permalink: /home/
         'phir-milenge-s3':"{{ '/book/Meet-Again-Trilogy-Vol.3' | relative_url }}",
         'the-last-message':"{{ '/book/The-Words-We-Never-Sent-Vol.1' | relative_url }}",
         'wahi-bench':"{{ '/book/Before-the-Feelings-Fade-Vol.1' | relative_url }}",
-        'zinda':"{{ '/book/Teaching-Me-how-to-Live-Vol.1' | relative_url }}",
+        'zinda':"{{ '/book/Teaching-Me-How-to-Live-Vol.1' | relative_url }}",
         'offline':"{{ '/book/When-Everyone-Went-Offline-Vol.1' | relative_url }}",
         'the-last-login':"{{ '/book/The-Account-That-Never-Came-Back-Vol.1' | relative_url }}",
         'split':"{{ '/book/The-Other-Side-of-Us-Vol.1' | relative_url }}",
