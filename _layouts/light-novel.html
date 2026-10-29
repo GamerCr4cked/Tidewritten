@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0b1823">
   <title>{{ page.title | escape }} · Tidewritten</title>
   <meta name="description" content="{{ page.tagline | escape }}">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+  <link rel="icon" type="image/png" href="{{ '/icon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&display=swap" rel="stylesheet">
@@ -65,7 +65,9 @@
           <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}>
             <span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span>
           </a>
-          {% for translation_page in story_translations %}
+          {% assign translation_groups = story_translations | group_by: "language" %}
+          {% for language_group in translation_groups %}
+          {% assign translation_page = language_group.items | first %}
           <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}>
             <span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span>
           </a>
