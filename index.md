@@ -94,23 +94,23 @@ permalink: /home/
   var art=document.getElementById('randomStoryArt');
   var next=document.getElementById('randomStoryNext');
   var stories=[
-    {title:'The Girl by the School Gate',url:"{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 1',summary:'One small encounter at a Japanese school gate becomes the beginning of a story that stays.',art:'bird'},
-    {title:'When the Little Bird Returned',url:"{{ '/stories/the-little-bird-returns/' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 2',summary:'A year changes the school, the routine, and the people waiting by the gate.',art:'bird'},
-    {title:'Where Our Story Begins',url:"{{ '/stories/where-our-story-begins/' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 3',summary:'Three years of glances and small promises lead to one honest truth.',art:'bird'},
-    {title:'Somewhere Between Friends and Love',url:"{{ '/stories/somewhere-between-friends-and-love/' | relative_url }}",genre:'MEET AGAIN TRILOGY · VOL. 1',summary:'A quiet college student’s carefully ordered life changes when a late arrival takes the empty seat beside him.',art:'sunset'},
-    {title:'The Silence Between Us',url:"{{ '/stories/the-silence-between-us/' | relative_url }}",genre:'MEET AGAIN TRILOGY · VOL. 2',summary:'Distance is only part of the problem when two people stop telling each other the truth.',art:'letter'},
-    {title:'When We Meet Again',url:"{{ '/stories/when-we-meet-again/' | relative_url }}",genre:'MEET AGAIN TRILOGY · VOL. 3',summary:'After two years apart, a second chance asks whether growth can become forgiveness.',art:'sunset'},
-    {title:'Prismat: Fragments of the Fallen Sky',url:"{{ '/stories/prismat-fragments-of-the-fallen-sky/' | relative_url }}",genre:'PRISMAT · VOL. 1',summary:'Seven impossible signals begin rewriting the evidence—and the question becomes what Earth is being measured for.',art:'prism'},
-    {title:'The Other Side of Us',url:"{{ '/stories/the-other-side-of-us/' | relative_url }}",genre:'CONTEMPORARY DRAMA · ROOMMATES',summary:'One flat, two strangers, and a shared address that was never supposed to become a home.',art:'orbit'},
-    {title:'The Face I Never Forgot',url:"{{ '/stories/the-face-i-never-forgot/' | relative_url }}",genre:'SCHOOL LIFE · FIRST LOVE',summary:'He spent a year finding reasons to speak to her—and one night finding the courage to be honest.',art:'face'},
-    {title:'The Messages We Mistook',url:"{{ '/stories/the-face-i-never-forgot-vol-2/' | relative_url }}",genre:'THE FACE I NEVER FORGOT · VOL. 2',summary:'Two years later, friendship feels ordinary—until one careful message makes Sota face the hope he never admitted.',art:'face'},
-    {title:'Teaching Me How to Live',url:"{{ '/stories/teaching-me-how-to-live/' | relative_url }}",genre:'WORKPLACE ROMANCE · SLOW BURN',summary:'A stranger at a bus stop reminds a man who lives by timetables that life can still surprise him.',art:'horizon'},
-    {title:'The Account That Never Came Back',url:"{{ '/stories/the-account-that-never-came-back/' | relative_url }}",genre:'ONLINE FRIENDSHIP · GAMING',summary:'A suspended account, a missing friend, and a gaming community trying to reconnect the pieces.',art:'stars'},
-    {title:'When Everyone Went Offline',url:"{{ '/stories/when-everyone-went-offline/' | relative_url }}",genre:'ONLINE FRIENDSHIP · DIGITAL LIFE',summary:'A Minecraft server became a home for four people—and silence changes what home means.',art:'stars'},
-    {title:'The Words We Never Sent',url:"{{ '/stories/the-words-we-never-sent/' | relative_url }}",genre:'CONTEMPORARY DRAMA · ONLINE FRIENDSHIP',summary:'They never promised forever. They only made it feel possible, until the words ran out.',art:'letter'},
-    {title:'One Can of Coffee and a Broken Pen',url:"{{ '/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 1',summary:'A terrifying student council president, a boy who refuses to chase her, and one can of coffee too many.',art:'sunset'},
-    {title:'The Things We Never Said',url:"{{ '/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 2',summary:'Dating does not prepare them for old names, missing memories, and truths that arrive too late.',art:'letter'},
-    {title:"The President's Last Rule",url:"{{ '/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3/' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · FINAL VOL.',summary:'The secrets are finally explained, old wounds begin to heal, and the president makes one last rule for a happy future.',art:'sunset'}
+    {title:'The Girl by the School Gate',url:"{{ '/book/The-Little-Bird-Chronicles-Vol.1' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 1',summary:'One small encounter at a Japanese school gate becomes the beginning of a story that stays.',art:'bird'},
+    {title:'When the Little Bird Returned',url:"{{ '/book/The-Little-Bird-Chronicles-Vol.2' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 2',summary:'A year changes the school, the routine, and the people waiting by the gate.',art:'bird'},
+    {title:'Where Our Story Begins',url:"{{ '/book/The-Little-Bird-Chronicles-Vol.3' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 3',summary:'Three years of glances and small promises lead to one honest truth.',art:'bird'},
+    {title:'Somewhere Between Friends and Love',url:"{{ '/book/Meet-Again-Trilogy-Vol.1' | relative_url }}",genre:'MEET AGAIN TRILOGY · VOL. 1',summary:'A quiet college student’s carefully ordered life changes when a late arrival takes the empty seat beside him.',art:'sunset'},
+    {title:'The Silence Between Us',url:"{{ '/book/Meet-Again-Trilogy-Vol.2' | relative_url }}",genre:'MEET AGAIN TRILOGY · VOL. 2',summary:'Distance is only part of the problem when two people stop telling each other the truth.',art:'letter'},
+    {title:'When We Meet Again',url:"{{ '/book/Meet-Again-Trilogy-Vol.3' | relative_url }}",genre:'MEET AGAIN TRILOGY · VOL. 3',summary:'After two years apart, a second chance asks whether growth can become forgiveness.',art:'sunset'},
+    {title:'Prismat: Fragments of the Fallen Sky',url:"{{ '/book/Prismat-Vol.1' | relative_url }}",genre:'PRISMAT · VOL. 1',summary:'Seven impossible signals begin rewriting the evidence—and the question becomes what Earth is being measured for.',art:'prism'},
+    {title:'The Other Side of Us',url:"{{ '/book/The-Other-Side-of-Us-Vol.1' | relative_url }}",genre:'CONTEMPORARY DRAMA · ROOMMATES',summary:'One flat, two strangers, and a shared address that was never supposed to become a home.',art:'orbit'},
+    {title:'The Face I Never Forgot',url:"{{ '/book/Before-the-Feelings-Fade-Vol.1' | relative_url }}",genre:'SCHOOL LIFE · FIRST LOVE',summary:'He spent a year finding reasons to speak to her—and one night finding the courage to be honest.',art:'face'},
+    {title:'The Messages We Mistook',url:"{{ '/book/Before-the-Feelings-Fade-Vol.2' | relative_url }}",genre:'THE FACE I NEVER FORGOT · VOL. 2',summary:'Two years later, friendship feels ordinary—until one careful message makes Sota face the hope he never admitted.',art:'face'},
+    {title:'Teaching Me How to Live',url:"{{ '/book/Teaching-Me-how-to-Live-Vol.1' | relative_url }}",genre:'WORKPLACE ROMANCE · SLOW BURN',summary:'A stranger at a bus stop reminds a man who lives by timetables that life can still surprise him.',art:'horizon'},
+    {title:'The Account That Never Came Back',url:"{{ '/book/The-Account-That-Never-Came-Back-Vol.1' | relative_url }}",genre:'ONLINE FRIENDSHIP · GAMING',summary:'A suspended account, a missing friend, and a gaming community trying to reconnect the pieces.',art:'stars'},
+    {title:'When Everyone Went Offline',url:"{{ '/book/When-Everyone-Went-Offline-Vol.1' | relative_url }}",genre:'ONLINE FRIENDSHIP · DIGITAL LIFE',summary:'A Minecraft server became a home for four people—and silence changes what home means.',art:'stars'},
+    {title:'The Words We Never Sent',url:"{{ '/book/The-Words-We-Never-Sent-Vol.1' | relative_url }}",genre:'CONTEMPORARY DRAMA · ONLINE FRIENDSHIP',summary:'They never promised forever. They only made it feel possible, until the words ran out.',art:'letter'},
+    {title:'One Can of Coffee and a Broken Pen',url:"{{ '/book/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 1',summary:'A terrifying student council president, a boy who refuses to chase her, and one can of coffee too many.',art:'sunset'},
+    {title:'The Things We Never Said',url:"{{ '/book/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · VOL. 2',summary:'Dating does not prepare them for old names, missing memories, and truths that arrive too late.',art:'letter'},
+    {title:"The President's Last Rule",url:"{{ '/book/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3' | relative_url }}",genre:'STUDENT COUNCIL ROM-COM · FINAL VOL.',summary:'The secrets are finally explained, old wounds begin to heal, and the president makes one last rule for a happy future.',art:'sunset'}
 
   ];
   var current=-1,timer=null,paused=false,reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -156,19 +156,19 @@ permalink: /home/
       var ago='Recently read';
       if(h.time){var m=Math.max(0,Math.floor((Date.now()-h.time)/60000));ago=m<1?'Just now':m<60?m+'m ago':m<1440?Math.floor(m/60)+'h ago':Math.floor(m/1440)+'d ago';}
       var routes={
-        'notun-pakhi':"{{ '/stories/the-girl-by-the-school-gate/' | relative_url }}",
-        'notun-pakhi-s2':"{{ '/stories/the-little-bird-returns/' | relative_url }}",
-        'notun-pakhi-s3':"{{ '/stories/where-our-story-begins/' | relative_url }}",
-        'phir-milenge':"{{ '/stories/somewhere-between-friends-and-love/' | relative_url }}",
-        'phir-milenge-s2':"{{ '/stories/the-silence-between-us/' | relative_url }}",
-        'phir-milenge-s3':"{{ '/stories/when-we-meet-again/' | relative_url }}",
-        'the-last-message':"{{ '/stories/the-words-we-never-sent/' | relative_url }}",
-        'wahi-bench':"{{ '/stories/the-face-i-never-forgot/' | relative_url }}",
-        'zinda':"{{ '/stories/teaching-me-how-to-live/' | relative_url }}",
-        'offline':"{{ '/stories/when-everyone-went-offline/' | relative_url }}",
-        'the-last-login':"{{ '/stories/the-account-that-never-came-back/' | relative_url }}",
-        'split':"{{ '/stories/the-other-side-of-us/' | relative_url }}",
-        'x-prismat':"{{ '/stories/prismat-fragments-of-the-fallen-sky/' | relative_url }}"
+        'notun-pakhi':"{{ '/book/The-Little-Bird-Chronicles-Vol.1' | relative_url }}",
+        'notun-pakhi-s2':"{{ '/book/The-Little-Bird-Chronicles-Vol.2' | relative_url }}",
+        'notun-pakhi-s3':"{{ '/book/The-Little-Bird-Chronicles-Vol.3' | relative_url }}",
+        'phir-milenge':"{{ '/book/Meet-Again-Trilogy-Vol.1' | relative_url }}",
+        'phir-milenge-s2':"{{ '/book/Meet-Again-Trilogy-Vol.2' | relative_url }}",
+        'phir-milenge-s3':"{{ '/book/Meet-Again-Trilogy-Vol.3' | relative_url }}",
+        'the-last-message':"{{ '/book/The-Words-We-Never-Sent-Vol.1' | relative_url }}",
+        'wahi-bench':"{{ '/book/Before-the-Feelings-Fade-Vol.1' | relative_url }}",
+        'zinda':"{{ '/book/Teaching-Me-how-to-Live-Vol.1' | relative_url }}",
+        'offline':"{{ '/book/When-Everyone-Went-Offline-Vol.1' | relative_url }}",
+        'the-last-login':"{{ '/book/The-Account-That-Never-Came-Back-Vol.1' | relative_url }}",
+        'split':"{{ '/book/The-Other-Side-of-Us-Vol.1' | relative_url }}",
+        'x-prismat':"{{ '/book/Prismat-Vol.1' | relative_url }}"
       };
       var titles={
         'notun-pakhi':'The Girl by the School Gate',

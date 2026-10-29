@@ -79,7 +79,8 @@
   </header>
   <section class="hero">
     <div class="eyebrow">{{ page.series | escape }} · Volume {{ page.volume }}</div>
-    <h1>{{ page.title | escape }}</h1>
+    <h1>{{ page.series | escape }} Vol.{{ page.volume }}</h1>
+    {% if page.book_title %}<p class="book-title">{{ page.book_title | escape }}</p>{% elsif page.title and page.title != page.series %}<p class="book-title">{{ page.title | escape }}</p>{% endif %}
     {% if page.book_title and page.book_title != page.title %}<p class="book-title">{{ page.book_title | escape }}</p>{% endif %}
     <p class="tagline">{{ page.tagline | escape }}</p>
     <div class="hero-rule"></div>

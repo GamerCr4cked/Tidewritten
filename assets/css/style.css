@@ -2728,7 +2728,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
   border-radius: 18px;
   background: radial-gradient(ellipse at 0% 0%, rgba(142,219,212,.12), transparent 58%), var(--bg-card);
   box-shadow: 0 14px 42px rgba(0,0,0,.24);
-  transition: width .22s ease, height .22s ease, padding .22s ease, border-radius .22s ease, background .22s ease;
+  transition: width .18s ease, padding .18s ease, border-radius .18s ease, background .18s ease;
 }
 .reading-resume-card[hidden] { display: none; }
 .reading-resume-copy { min-width: 0; }
@@ -2736,7 +2736,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .reading-resume-copy h2 { margin:0 0 5px; color:var(--text-primary); font-family:'Playfair Display',serif; font-size:clamp(19px,3vw,24px); line-height:1.25; }
 .reading-resume-copy p { margin:0 0 4px; color:var(--text-secondary); font-size:14px; overflow-wrap:anywhere; }
 .reading-resume-chapter { display:block; color:var(--text-muted); font-size:12px; line-height:1.5; overflow-wrap:anywhere; }
-.reading-resume-link { flex:none; display:inline-flex; align-items:center; gap:9px; padding:10px 13px; border:1px solid rgba(142,219,212,.28); border-radius:999px; color:var(--accent); font-size:12px; font-weight:700; text-decoration:none; white-space:nowrap; transition:background .2s,border-color .2s; }
+.reading-resume-link { position:absolute; right:0; bottom:0; flex:none; display:inline-flex; align-items:center; gap:9px; padding:10px 13px; border:1px solid rgba(142,219,212,.28); border-radius:999px; color:var(--accent); font-size:12px; font-weight:700; text-decoration:none; white-space:nowrap; transition:background .2s,border-color .2s; }
 .reading-resume-link:hover { background:var(--accent-subtle); border-color:var(--accent); text-decoration:none; }
 .reading-resume-dismiss { position:absolute; top:8px; right:8px; width:28px; height:28px; border:0; border-radius:50%; background:transparent; color:var(--text-muted); font-size:21px; line-height:1; cursor:pointer; }
 .reading-resume-dismiss:hover { background:var(--accent-subtle); color:var(--text-primary); }
@@ -2762,12 +2762,15 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
     border: 0;
     border-radius: 50%;
     font-size: 0;
+    right: 0;
+    bottom: 0;
   }
   .reading-resume-card:not(:hover):not(:focus-within) .reading-resume-link span { font-size: 25px; }
+  .reading-resume-card:hover .reading-resume-link, .reading-resume-card:focus-within .reading-resume-link { right: 0; bottom: 0; }
 }
 @media(max-width:600px) {
   .reading-resume-card { right:12px; bottom:12px; width:min(340px,calc(100vw - 24px)); align-items:flex-start; flex-direction:column; gap:13px; padding:21px 44px 20px 18px; }
-  .reading-resume-link { align-self:flex-start; }
+  .reading-resume-link { align-self:flex-start; position:relative; right:auto; bottom:auto; }
 }
 @media(prefers-reduced-motion:reduce) { .reading-resume-card, .reading-resume-link { transition:none; } }
 
