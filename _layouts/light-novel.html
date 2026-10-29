@@ -27,9 +27,9 @@
     a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
     .reader-panel{position:fixed;top:14px;left:14px;z-index:25;width:var(--control-width);padding:9px;border:1px solid color-mix(in srgb,var(--line) 90%,transparent);border-radius:16px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 8px 28px rgba(0,0,0,.16)}
-    .brand{display:block;margin-bottom:9px;font-family:"Cinzel",serif;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#c8e8e7}
-    .panel-back{display:block;margin-bottom:8px;color:var(--muted);font-size:13px}
-    .language-picker{position:relative;margin-bottom:9px}
+    .brand{display:block;position:relative;margin:0 auto 9px;padding:2px 0 7px;text-align:center;font-family:"Cinzel",serif;font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;line-height:1.35;color:var(--accent);background:linear-gradient(100deg,#8edbd4 0%,#f0f7ed 48%,#8edbd4 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0 0 18px rgba(142,219,212,.12)}.brand::after{content:"";position:absolute;bottom:0;left:22%;width:56%;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+    .panel-back{display:block;margin:0 auto 8px;text-align:center;color:var(--muted);font-size:13px}
+    .language-picker{position:relative;margin:0 auto 9px}
     .translate-toggle{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;min-height:36px;padding:0 10px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);font:600 12px "DM Sans",sans-serif;cursor:pointer;transition:border-color .18s}
     .translate-toggle:hover,.translate-toggle[aria-expanded="true"]{border-color:var(--accent)}
     .translate-leading{display:flex;align-items:center;gap:8px}
@@ -47,8 +47,8 @@
     .language-option.is-selected .language-check{visibility:visible}
     [data-theme="light"] .language-option:hover{background:rgba(8,127,145,.07)}
     [data-theme="light"] .language-option.is-selected{background:rgba(8,127,145,.11);color:var(--accent)}
-    .panel-divider{height:1px;background:var(--line);margin:8px 0}
-    .text-size-label,.progress-label{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+    .panel-divider{height:1px;background:var(--line);margin:8px auto;width:82%}
+    .text-size-label,.progress-label{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-align:center}
     .tool-buttons{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:6px}
     .tool-buttons button{width:42px;height:36px;display:grid;place-items:center;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:9px;padding:0;cursor:pointer;font:600 13px/1 "DM Sans",sans-serif}
     .tool-buttons button:hover{border-color:var(--accent);color:var(--accent)}
@@ -57,7 +57,7 @@
     .reset-row button{border:0;background:transparent;color:var(--muted);padding:5px 10px;border-radius:8px;font:500 12px "DM Sans",sans-serif;cursor:pointer}
     .reset-row button:hover{background:var(--panel);color:var(--accent)}
     .reading-progress{margin-top:8px}
-    .progress-label{display:flex;justify-content:space-between;gap:8px;letter-spacing:.04em;text-transform:none;font-size:11px}
+    .progress-label{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:5px;letter-spacing:.04em;text-transform:none;font-size:11px}
     .reading-percentage{color:var(--accent);font-variant-numeric:tabular-nums;font-weight:700}
     .progress-track{height:4px;margin-top:8px;border-radius:99px;background:var(--line);overflow:hidden}
     .progress-fill{height:100%;width:0;border-radius:99px;background:var(--accent);transition:width .12s linear}
@@ -93,8 +93,8 @@
     .reading-edge-fade{position:fixed;left:0;right:0;height:54px;pointer-events:none;z-index:4}
     .reading-edge-fade-top{top:0;background:linear-gradient(to bottom,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
     .reading-edge-fade-bottom{bottom:0;background:linear-gradient(to top,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
-    @media(min-width:601px){.reader-panel{width:180px;padding:9px;border-radius:12px}}
-    @media(max-width:900px) and (min-width:601px){.reader-panel{left:10px;top:10px;width:180px}.hero h1{font-size:clamp(30px,4vw,48px)}}
+    @media(min-width:601px){.reader-panel{width:135px;padding:9px;border-radius:12px}.reader-panel .translate-toggle{padding:0 7px;gap:4px}.reader-panel .translate-leading{gap:5px}.reader-panel .translate-globe{width:14px;height:14px}}
+    @media(max-width:900px) and (min-width:601px){.reader-panel{left:10px;top:10px;width:135px}.hero h1{font-size:clamp(30px,4vw,48px)}}
     @media(max-width:600px){
       :root{--control-width:min(250px,calc(100vw - 28px))}
       .reader-panel{top:10px;left:10px;width:var(--control-width);padding:10px 12px;border-radius:14px}
@@ -179,7 +179,6 @@
     <div class="eyebrow">{{ page.series | escape }} · Volume {{ page.volume }}</div>
     <h1>{{ page.series | escape }} Vol.{{ page.volume }}</h1>
     {% if page.book_title %}<p class="book-title">{{ page.book_title | escape }}</p>{% elsif page.title and page.title != page.series %}<p class="book-title">{{ page.title | escape }}</p>{% endif %}
-    {% if page.book_title and page.book_title != page.title %}<p class="book-title">{{ page.book_title | escape }}</p>{% endif %}
     <p class="tagline">{{ page.tagline | escape }}</p>
     <div class="hero-rule"></div>
   </section>
