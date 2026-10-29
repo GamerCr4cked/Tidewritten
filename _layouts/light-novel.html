@@ -94,6 +94,7 @@
     .reading-edge-fade-top{top:0;background:linear-gradient(to bottom,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
     .reading-edge-fade-bottom{bottom:0;background:linear-gradient(to top,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
     @media(min-width:1200px){.reader-shell{max-width:var(--measure);transform:translateX(calc(var(--control-width) / 2));}}
+    @media(max-width:1199px) and (min-width:901px){.reader-shell{margin-left:calc(var(--control-width) + 34px);margin-right:20px}.hero{margin-left:calc(var(--control-width) + 24px);margin-right:16px;padding-left:16px;padding-right:16px}}
     @media(max-width:900px) and (min-width:601px){:root{--control-width:190px}.reader-panel{left:10px;top:10px;width:var(--control-width);padding:11px}.reader-shell{margin-left:calc(var(--control-width) + 34px);margin-right:18px;padding-left:12px;padding-right:12px}.hero{margin-left:calc(var(--control-width) + 24px);margin-right:12px;padding-left:14px;padding-right:14px}.hero h1{font-size:clamp(30px,4vw,48px)}}
     @media(max-width:600px){
       :root{--control-width:min(250px,calc(100vw - 28px))}
