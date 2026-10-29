@@ -11,28 +11,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&display=swap" rel="stylesheet">
   <style>
-    :root{color-scheme:dark;--bg:#08131d;--panel:#102330;--text:#e7edf0;--muted:#9aadb8;--line:#29414d;--accent:#8edbd4;--measure:720px;--reader-size:19px}[data-theme="light"]{color-scheme:light;--bg:#f2f8f8;--panel:#fff;--text:#20343c;--muted:#5f737a;--line:#cbdcde;--accent:#087f91}[data-theme="light"] body{background:radial-gradient(ellipse at 50% -10%,#dceff0 0,transparent 45%),var(--bg)}[data-theme="light"] .brand{color:#234a52}[data-theme="light"] .tagline{color:#526970}[data-theme="light"] .reader-tools{background:rgba(242,248,248,.92)}[data-theme="light"] .tool-buttons button{background:#fff;color:var(--text)}[data-theme="light"] .story-content em{color:#087f91}[data-theme="light"] .story-content strong{color:#102630}[data-theme="light"] .story-content blockquote{color:#45656b}.top-actions{display:flex;align-items:center;gap:14px}.theme-toggle{width:36px;height:36px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--text);display:grid;place-items:center;cursor:pointer;font-size:17px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#173849 0,transparent 45%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.7}
-    a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.topbar{position:sticky;top:0;z-index:20;width:100%;max-width:none;margin:0;padding:14px max(18px,calc((100vw - 1064px)/2));display:flex;align-items:center;justify-content:space-between;gap:16px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent)}.brand{font-size:13px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#c8e8e7}.back{font-size:13px;color:var(--muted)}
-    .hero{max-width:900px;margin:45px auto 42px;padding:40px 28px 54px;text-align:center;position:relative}.eyebrow{color:var(--accent);font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:700}.hero h1{font-family:"Literata",serif;font-weight:500;font-size:clamp(38px,7vw,68px);line-height:1.1;letter-spacing:-.035em;margin:18px auto 18px;max-width:780px}.book-title{max-width:620px;margin:0 auto 12px;color:var(--accent);font-family:"DM Sans",sans-serif;font-size:clamp(13px,2vw,16px);font-weight:600;letter-spacing:.02em}.tagline{max-width:620px;margin:0 auto;color:#b4c5ce;font-family:"Literata",serif;font-size:clamp(17px,2.4vw,21px);font-style:italic}.hero-rule{width:72px;height:1px;background:var(--accent);margin:30px auto 0;opacity:.8}
-    .reader-tools{position:fixed;top:14px;right:14px;z-index:8;display:flex;flex-direction:column;align-items:center;gap:8px;padding:9px 7px;border:1px solid rgba(142,219,212,.22);border-radius:14px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);box-shadow:0 8px 28px rgba(0,0,0,.16)}.reading-percentage{min-width:36px;text-align:center;color:var(--accent);font:700 11px/1.3 "DM Sans",sans-serif;font-variant-numeric:tabular-nums}.tool-buttons{display:flex;flex-direction:column;align-items:center;gap:6px}.tool-buttons button{width:34px;height:34px;display:grid;place-items:center;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:9px;padding:0;cursor:pointer;font:600 13px/1 "DM Sans",sans-serif}.tool-buttons button:hover{border-color:var(--accent);color:var(--accent)}.tool-buttons button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-    .reader-shell{max-width:var(--measure);margin:0 auto;padding:38px 26px 80px}.volume-navigation{display:flex;justify-content:space-between;gap:14px;margin:44px 0 12px;padding-top:22px;border-top:1px solid var(--line)}.volume-nav-link{display:flex;flex-direction:column;gap:4px;max-width:48%;padding:12px 15px;border:1px solid var(--line);border-radius:12px;color:var(--text);background:var(--panel)}.volume-nav-link span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}.volume-nav-link strong{font-size:13px;font-weight:600}.volume-nav-link.next{margin-left:auto;text-align:right}.volume-nav-link[hidden]{display:none}.volume-note{text-align:center;color:var(--muted);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:42px}.story-content{font-family:"Literata",Georgia,serif;font-size:var(--reader-size);line-height:1.95;overflow-wrap:anywhere}.story-content p{margin:0 0 1.45em}.story-content h2{font-family:"DM Sans",sans-serif;font-weight:500;line-height:1.2;font-size:clamp(24px,4vw,34px);letter-spacing:-.025em;margin:76px 0 28px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}.story-content h2:first-child{margin-top:0}.story-content h2 .chapter-number{display:block;color:var(--accent);font-family:"DM Sans",sans-serif;font-size:10px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px}.story-content em{color:#c5e5e2}.story-content strong{font-weight:600;color:#f1f6f5}.story-content blockquote{margin:2em 0;padding:2px 0 2px 22px;border-left:2px solid var(--accent);color:#b7d0d2;font-style:italic}.story-content hr{border:0;border-top:1px solid rgba(142,219,212,.16);margin:2.5em auto;width:42%}.endnote{margin-top:72px;padding-top:28px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:13px}.endnote .end-mark{color:var(--accent);letter-spacing:.28em;text-transform:uppercase;font-size:10px;margin-bottom:12px}.footer{border-top:1px solid rgba(142,219,212,.12);text-align:center;padding:25px 20px 40px;color:var(--muted);font-size:12px}
-    @media(max-width:600px){.topbar{padding:18px 18px}.hero{margin:25px auto 28px;padding:28px 20px 40px}.reader-tools{top:10px;right:10px;gap:6px;padding:7px 5px}.tool-buttons button{width:31px;height:31px}.reader-shell{padding:30px 21px 58px}.story-content{line-height:1.85}}
-
-    .reading-edge-fade{position:fixed;left:0;right:0;height:54px;pointer-events:none;z-index:4}
-    .reading-edge-fade-top{top:0;background:linear-gradient(to bottom,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
-    .reading-edge-fade-bottom{bottom:0;background:linear-gradient(to top,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-  
-    .top-actions{position:relative;display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
-    .language-picker{position:relative;z-index:20}
-    .translate-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:36px;padding:0 11px;border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--text);font:600 12px "DM Sans",sans-serif;cursor:pointer;transition:border-color .18s,background .18s}
+    :root{color-scheme:dark;--bg:#08131d;--panel:#102330;--text:#e7edf0;--muted:#9aadb8;--line:#29414d;--accent:#8edbd4;--measure:720px;--reader-size:19px;--control-width:220px}
+    [data-theme="light"]{color-scheme:light;--bg:#f2f8f8;--panel:#fff;--text:#20343c;--muted:#5f737a;--line:#cbdcde;--accent:#087f91}
+    [data-theme="light"] body{background:radial-gradient(ellipse at 50% -10%,#dceff0 0,transparent 45%),var(--bg)}
+    [data-theme="light"] .brand{color:#234a52}
+    [data-theme="light"] .tagline{color:#526970}
+    [data-theme="light"] .reader-tools,[data-theme="light"] .reader-panel,[data-theme="light"] .mobile-reader-menu{background:rgba(242,248,248,.94)}
+    [data-theme="light"] .tool-buttons button{background:#fff;color:var(--text)}
+    [data-theme="light"] .story-content em{color:#087f91}
+    [data-theme="light"] .story-content strong{color:#102630}
+    [data-theme="light"] .story-content blockquote{color:#45656b}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 50% -10%,#173849 0,transparent 45%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.7}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .reader-panel{position:fixed;top:14px;left:14px;z-index:25;width:var(--control-width);padding:14px;border:1px solid color-mix(in srgb,var(--line) 90%,transparent);border-radius:16px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 8px 28px rgba(0,0,0,.16)}
+    .brand{display:block;margin-bottom:14px;font-size:13px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#c8e8e7}
+    .panel-back{display:block;margin-bottom:12px;color:var(--muted);font-size:13px}
+    .language-picker{position:relative;margin-bottom:14px}
+    .translate-toggle{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;min-height:36px;padding:0 10px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);font:600 12px "DM Sans",sans-serif;cursor:pointer;transition:border-color .18s}
     .translate-toggle:hover,.translate-toggle[aria-expanded="true"]{border-color:var(--accent)}
+    .translate-leading{display:flex;align-items:center;gap:8px}
     .translate-globe{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-    .translate-chevron{font-size:15px;line-height:1;transform:translateY(-2px);transition:transform .18s}
-    .translate-toggle[aria-expanded="true"] .translate-chevron{transform:translateY(2px) rotate(180deg)}
-    .language-menu{position:absolute;top:calc(100% + 9px);right:0;width:220px;padding:7px;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-shadow:0 16px 42px rgba(0,0,0,.28);z-index:30}
-    .language-menu[hidden]{display:none}
+    .translate-chevron{font-size:15px;line-height:1;transition:transform .18s}
+    .translate-toggle[aria-expanded="true"] .translate-chevron{transform:rotate(180deg)}
+    .language-menu{position:absolute;top:calc(100% + 8px);left:0;width:100%;padding:7px;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-shadow:0 16px 42px rgba(0,0,0,.28);z-index:40}
+    .language-menu[hidden],.mobile-reader-menu[hidden]{display:none}
     .language-menu-heading{padding:9px 10px 7px;color:var(--muted);font-size:9px;font-weight:700;letter-spacing:.15em}
     .language-option{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px;border-radius:9px;color:var(--text);font-size:13px;text-decoration:none}
     .language-option:hover{background:rgba(142,219,212,.09);text-decoration:none}
@@ -42,41 +47,134 @@
     .language-option.is-selected .language-check{visibility:visible}
     [data-theme="light"] .language-option:hover{background:rgba(8,127,145,.07)}
     [data-theme="light"] .language-option.is-selected{background:rgba(8,127,145,.11);color:var(--accent)}
-    @media(max-width:600px){.top-actions{gap:7px}.back{font-size:11px}.translate-toggle{gap:6px;padding:0 9px;font-size:11px}.language-menu{width:205px}}
-
+    .panel-divider{height:1px;background:var(--line);margin:13px 0}
+    .text-size-label,.progress-label{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+    .tool-buttons{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:9px}
+    .tool-buttons button{width:42px;height:36px;display:grid;place-items:center;border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:9px;padding:0;cursor:pointer;font:600 13px/1 "DM Sans",sans-serif}
+    .tool-buttons button:hover{border-color:var(--accent);color:var(--accent)}
+    .tool-buttons button:focus-visible,.theme-toggle:focus-visible,.mobile-menu-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    .reset-row{display:flex;justify-content:center;margin-top:7px}
+    .reset-row button{border:0;background:transparent;color:var(--muted);padding:5px 10px;border-radius:8px;font:500 12px "DM Sans",sans-serif;cursor:pointer}
+    .reset-row button:hover{background:var(--panel);color:var(--accent)}
+    .reading-progress{margin-top:13px}
+    .progress-label{display:flex;justify-content:space-between;gap:8px;letter-spacing:.04em;text-transform:none;font-size:11px}
+    .reading-percentage{color:var(--accent);font-variant-numeric:tabular-nums;font-weight:700}
+    .progress-track{height:4px;margin-top:8px;border-radius:99px;background:var(--line);overflow:hidden}
+    .progress-fill{height:100%;width:0;border-radius:99px;background:var(--accent);transition:width .12s linear}
+    .theme-toggle{position:fixed;top:14px;right:16px;z-index:26;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--text);display:grid;place-items:center;cursor:pointer;font-size:18px;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+    .mobile-progress{display:none}
+    .mobile-menu-toggle{display:none}
+    .hero{max-width:900px;margin:45px auto 42px;padding:40px 28px 54px;text-align:center;position:relative}
+    .eyebrow{color:var(--accent);font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:700}
+    .hero h1{font-family:"Literata",serif;font-weight:500;font-size:clamp(38px,7vw,68px);line-height:1.1;letter-spacing:-.035em;margin:18px auto;max-width:780px}
+    .book-title{max-width:620px;margin:0 auto 12px;color:var(--accent);font-family:"DM Sans",sans-serif;font-size:clamp(13px,2vw,16px);font-weight:600;letter-spacing:.02em}
+    .tagline{max-width:620px;margin:0 auto;color:#b4c5ce;font-family:"Literata",serif;font-size:clamp(17px,2.4vw,21px);font-style:italic}
+    .hero-rule{width:72px;height:1px;background:var(--accent);margin:30px auto 0;opacity:.8}
+    .reader-shell{max-width:var(--measure);margin:0 auto;padding:38px 26px 80px}
+    .volume-navigation{display:flex;justify-content:space-between;gap:14px;margin:44px 0 12px;padding-top:22px;border-top:1px solid var(--line)}
+    .volume-nav-link{display:flex;flex-direction:column;gap:4px;max-width:48%;padding:12px 15px;border:1px solid var(--line);border-radius:12px;color:var(--text);background:var(--panel)}
+    .volume-nav-link span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    .volume-nav-link strong{font-size:13px;font-weight:600}
+    .volume-nav-link.next{margin-left:auto;text-align:right}
+    .volume-nav-link[hidden]{display:none}
+    .volume-note{text-align:center;color:var(--muted);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:42px}
+    .story-content{font-family:"Literata",Georgia,serif;font-size:var(--reader-size);line-height:1.95;overflow-wrap:anywhere}
+    .story-content p{margin:0 0 1.45em}
+    .story-content h2{font-family:"DM Sans",sans-serif;font-weight:500;line-height:1.2;font-size:clamp(24px,4vw,34px);letter-spacing:-.025em;margin:76px 0 28px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}
+    .story-content h2:first-child{margin-top:0}
+    .story-content h2 .chapter-number{display:block;color:var(--accent);font-family:"DM Sans",sans-serif;font-size:10px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px}
+    .story-content em{color:#c5e5e2}
+    .story-content strong{font-weight:600;color:#f1f6f5}
+    .story-content blockquote{margin:2em 0;padding:2px 0 2px 22px;border-left:2px solid var(--accent);color:#b7d0d2;font-style:italic}
+    .story-content hr{border:0;border-top:1px solid rgba(142,219,212,.16);margin:2.5em auto;width:42%}
+    .endnote{margin-top:72px;padding-top:28px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:13px}
+    .endnote .end-mark{color:var(--accent);letter-spacing:.28em;text-transform:uppercase;font-size:10px;margin-bottom:12px}
+    .footer{border-top:1px solid rgba(142,219,212,.12);text-align:center;padding:25px 20px 40px;color:var(--muted);font-size:12px}
+    .reading-edge-fade{position:fixed;left:0;right:0;height:54px;pointer-events:none;z-index:4}
+    .reading-edge-fade-top{top:0;background:linear-gradient(to bottom,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
+    .reading-edge-fade-bottom{bottom:0;background:linear-gradient(to top,var(--bg) 0%,color-mix(in srgb,var(--bg) 72%,transparent) 42%,transparent 100%)}
+    @media(min-width:1200px){.reader-shell{max-width:var(--measure);transform:translateX(calc(var(--control-width) / 2));}}
+    @media(max-width:900px) and (min-width:601px){:root{--control-width:190px}.reader-panel{left:10px;top:10px;width:var(--control-width);padding:11px}.reader-shell{margin-left:calc(var(--control-width) + 34px);margin-right:18px;padding-left:12px;padding-right:12px}.hero{margin-left:calc(var(--control-width) + 24px);margin-right:12px;padding-left:14px;padding-right:14px}.hero h1{font-size:clamp(30px,4vw,48px)}}
+    @media(max-width:600px){
+      :root{--control-width:min(250px,calc(100vw - 28px))}
+      .reader-panel{top:10px;left:10px;width:var(--control-width);padding:10px 12px;border-radius:14px}
+      .brand{margin:0;font-size:12px;letter-spacing:.18em;line-height:22px}
+      .panel-back,.language-picker,.panel-divider,.text-size-label,.tool-buttons,.reset-row,.reading-progress{display:none}
+      .mobile-menu-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:4px;padding:5px 0 0;border:0;border-top:1px solid var(--line);background:transparent;color:var(--muted);font:500 11px "DM Sans",sans-serif;cursor:pointer}
+      .mobile-reader-menu{position:absolute;top:calc(100% + 7px);left:0;right:0;padding:12px;border:1px solid var(--line);border-radius:14px;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(16px);box-shadow:0 14px 35px rgba(0,0,0,.25)}
+      .mobile-reader-menu .panel-back{display:block;margin:0 0 12px}
+      .mobile-reader-menu .language-picker{display:block;margin:0 0 12px}
+      .mobile-reader-menu .tool-buttons{display:flex;margin-top:0}
+      .mobile-reader-menu .reset-row{display:flex}
+      .mobile-reader-menu .text-size-label{display:block;margin-bottom:8px}
+      .mobile-reader-menu .reading-progress{display:block}
+      .theme-toggle{top:10px;right:10px;width:40px;height:40px}
+      .mobile-progress{display:block;position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:24;padding:3px 8px;border:1px solid color-mix(in srgb,var(--line) 75%,transparent);border-radius:999px;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(10px);color:var(--accent);font:700 11px/1.5 "DM Sans",sans-serif;font-variant-numeric:tabular-nums;pointer-events:none}
+      .hero{margin:88px auto 28px;padding:28px 20px 40px}
+      .hero h1{font-size:clamp(32px,8vw,48px)}
+      .reader-shell{padding:26px 21px 58px}
+      .story-content{line-height:1.85}
+      .story-content h2{scroll-margin-top:72px}
+      .reading-edge-fade{height:38px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
 <body>
   <div class="reading-edge-fade reading-edge-fade-top" aria-hidden="true"></div>
   <div class="reading-edge-fade reading-edge-fade-bottom" aria-hidden="true"></div>
-  <header class="topbar">
+  {% assign original_story_url = page.translation_of | default: page.url %}
+  {% assign story_translations = site.pages | where: "translation_of", original_story_url | sort: "language_label" %}
+  <aside class="reader-panel" aria-label="Reader controls">
     <a class="brand" href="{{ '/' | relative_url }}">Tidewritten</a>
-    {% assign original_story_url = page.translation_of | default: page.url %}
-    {% assign story_translations = site.pages | where: "translation_of", original_story_url | sort: "language_label" %}
-    <div class="top-actions">
-      <a class="back" href="{{ '/library/' | relative_url }}">← Back to Library</a>
-      <div class="language-picker" id="languagePicker">
-        <button class="translate-toggle" id="translateToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="languageMenu">
-          <svg class="translate-globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg>
-          <span>Translate</span><span class="translate-chevron" aria-hidden="true">⌄</span>
-        </button>
-        <div class="language-menu" id="languageMenu" role="menu" hidden>
+    <a class="panel-back" href="{{ '/library/' | relative_url }}">← Back to Library</a>
+    <div class="language-picker" id="languagePicker">
+      <button class="translate-toggle" id="translateToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="languageMenu">
+        <span class="translate-leading"><svg class="translate-globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg><span>Translate</span></span><span class="translate-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="language-menu" id="languageMenu" role="menu" hidden>
+        <div class="language-menu-heading">STORY LANGUAGE</div>
+        <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}><span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span></a>
+        {% assign translation_groups = story_translations | group_by: "language" %}
+        {% for language_group in translation_groups %}
+        {% assign translation_page = language_group.items | first %}
+        <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}><span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span></a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="panel-divider"></div>
+    <div class="text-size-label">Text size</div>
+    <div class="tool-buttons">
+      <button type="button" id="larger" aria-label="Increase text size" title="Increase text size">A+</button>
+      <button type="button" id="smaller" aria-label="Decrease text size" title="Decrease text size">A−</button>
+    </div>
+    <div class="reset-row"><button type="button" id="reset" aria-label="Reset text size" title="Reset text size">Reset</button></div>
+    <div class="reading-progress">
+      <div class="progress-label"><span>Reading progress</span><span class="reading-percentage" id="readingPercentage">0%</span></div>
+      <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="readingProgressFill"></div></div>
+    </div>
+    <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="mobileReaderMenu"><span>Reading controls</span><span class="translate-chevron" aria-hidden="true">⌄</span></button>
+    <div class="mobile-reader-menu" id="mobileReaderMenu" hidden>
+      <a class="panel-back" href="{{ '/library/' | relative_url }}">← Back to Library</a>
+      <div class="language-picker" id="mobileLanguagePicker">
+        <button class="translate-toggle" id="mobileTranslateToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="mobileLanguageMenu"><span class="translate-leading"><svg class="translate-globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg><span>Translate</span></span><span class="translate-chevron" aria-hidden="true">⌄</span></button>
+        <div class="language-menu" id="mobileLanguageMenu" role="menu" hidden>
           <div class="language-menu-heading">STORY LANGUAGE</div>
-          <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}>
-            <span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span>
-          </a>
-          {% assign translation_groups = story_translations | group_by: "language" %}
+          <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}><span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span></a>
           {% for language_group in translation_groups %}
           {% assign translation_page = language_group.items | first %}
-          <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}>
-            <span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span>
-          </a>
+          <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}><span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span></a>
           {% endfor %}
         </div>
       </div>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Toggle light/dark theme">☼</button>
+      <div class="text-size-label">Text size</div>
+      <div class="tool-buttons"><button type="button" id="mobileLarger" aria-label="Increase text size">A+</button><button type="button" id="mobileSmaller" aria-label="Decrease text size">A−</button></div>
+      <div class="reset-row"><button type="button" id="mobileReset" aria-label="Reset text size">Reset</button></div>
+      <div class="reading-progress"><div class="progress-label"><span>Reading progress</span><span class="reading-percentage" id="mobileReadingPercentage">0%</span></div><div class="progress-track" aria-hidden="true"><div class="progress-fill" id="mobileReadingProgressFill"></div></div></div>
     </div>
-  </header>
+  </aside>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Toggle light/dark theme">☼</button>
+  <div class="mobile-progress" id="mobileProgress" aria-label="Reading progress">0%</div>
   <section class="hero">
     <div class="eyebrow">{{ page.series | escape }} · Volume {{ page.volume }}</div>
     <h1>{{ page.series | escape }} Vol.{{ page.volume }}</h1>
@@ -85,14 +183,7 @@
     <p class="tagline">{{ page.tagline | escape }}</p>
     <div class="hero-rule"></div>
   </section>
-  <aside class="reader-tools" aria-label="Reading controls">
-    <div class="reading-percentage" id="readingPercentage" aria-live="off">0%</div>
-    <div class="tool-buttons">
-      <button type="button" id="larger" aria-label="Increase text size" title="Increase text size">A+</button>
-      <button type="button" id="smaller" aria-label="Decrease text size" title="Decrease text size">A−</button>
-      <button type="button" id="reset" aria-label="Reset text size" title="Reset text size">↺</button>
-    </div>
-  </aside>
+
   <main class="reader-shell">
     <div class="volume-note">{{ page.genre | escape }} <span aria-hidden="true">·</span> {{ page.reading_note | default: "A light-novel edition" | escape }}</div>
     <article class="story-content" id="story-content">
@@ -106,31 +197,32 @@
     (() => {
       const root = document.documentElement;
       const themeButton = document.getElementById("themeToggle");
-    // Story language menu: each translation is a separate Jekyll page.
-    (() => {
-      const picker = document.getElementById("languagePicker");
-      const button = document.getElementById("translateToggle");
-      const menu = document.getElementById("languageMenu");
+    // Language menus are separate from the mobile reader-controls dropdown.
+    const wireLanguageMenu = (pickerId, buttonId, menuId) => {
+      const picker = document.getElementById(pickerId);
+      const button = document.getElementById(buttonId);
+      const menu = document.getElementById(menuId);
       if (!picker || !button || !menu) return;
-      const closeMenu = () => {
-        menu.hidden = true;
-        button.setAttribute("aria-expanded", "false");
-      };
-      button.addEventListener("click", () => {
-        const opening = menu.hidden;
-        menu.hidden = !opening;
-        button.setAttribute("aria-expanded", String(opening));
-      });
-      document.addEventListener("click", event => {
-        if (!picker.contains(event.target)) closeMenu();
-      });
-      document.addEventListener("keydown", event => {
-        if (event.key === "Escape") {
-          closeMenu();
-          button.focus();
-        }
-      });
-    })();
+      const closeMenu = () => { menu.hidden = true; button.setAttribute("aria-expanded", "false"); };
+      button.addEventListener("click", () => { const opening = menu.hidden; menu.hidden = !opening; button.setAttribute("aria-expanded", String(opening)); });
+      document.addEventListener("click", event => { if (!picker.contains(event.target)) closeMenu(); });
+      document.addEventListener("keydown", event => { if (event.key === "Escape") { closeMenu(); button.focus(); } });
+    };
+    wireLanguageMenu("languagePicker", "translateToggle", "languageMenu");
+    wireLanguageMenu("mobileLanguagePicker", "mobileTranslateToggle", "mobileLanguageMenu");
+    const mobileMenuButton = document.getElementById("mobileMenuToggle");
+    const mobileMenu = document.getElementById("mobileReaderMenu");
+    mobileMenuButton.addEventListener("click", () => {
+      const opening = mobileMenu.hidden;
+      mobileMenu.hidden = !opening;
+      mobileMenuButton.setAttribute("aria-expanded", String(opening));
+    });
+    document.addEventListener("click", event => {
+      if (!mobileMenu.hidden && !document.querySelector(".reader-panel").contains(event.target)) {
+        mobileMenu.hidden = true;
+        mobileMenuButton.setAttribute("aria-expanded", "false");
+      }
+    });
 
       const savedTheme = localStorage.getItem("theme");
       if (savedTheme === "light" || savedTheme === "dark") root.setAttribute("data-theme", savedTheme);
@@ -141,9 +233,10 @@
       const key = "tidewritten-reader-size";
       let size = Number(localStorage.getItem(key)) || 19;
       const apply = () => { size = Math.max(16, Math.min(25, size)); root.style.setProperty("--reader-size", size + "px"); localStorage.setItem(key, String(size)); };
-      document.getElementById("smaller").addEventListener("click", () => { size -= 1; apply(); });
-      document.getElementById("larger").addEventListener("click", () => { size += 1; apply(); });
-      document.getElementById("reset").addEventListener("click", () => { size = 19; apply(); });
+      const changeSize = delta => { size += delta; apply(); };
+      ["larger","mobileLarger"].forEach(id => document.getElementById(id).addEventListener("click", () => changeSize(1)));
+      ["smaller","mobileSmaller"].forEach(id => document.getElementById(id).addEventListener("click", () => changeSize(-1)));
+      ["reset","mobileReset"].forEach(id => document.getElementById(id).addEventListener("click", () => { size = 19; apply(); }));
       apply();
       const progressKey = "tidewritten-reading-progress-v1";
       const story = document.getElementById("story-content");
@@ -220,11 +313,11 @@
       };
       setVolumeLink("previousVolume", previous);
       setVolumeLink("nextVolume", next);
-      const progress = document.getElementById("readingPercentage");
       const updateProgress = () => {
         const max = document.documentElement.scrollHeight - innerHeight;
         const percent = max > 0 ? Math.min(100, Math.max(0, Math.round(scrollY / max * 100))) : 100;
-        progress.textContent = percent + "%";
+        ["readingPercentage","mobileReadingPercentage","mobileProgress"].forEach(id => { const el = document.getElementById(id); if (el) el.textContent = percent + "%"; });
+        ["readingProgressFill","mobileReadingProgressFill"].forEach(id => { const el = document.getElementById(id); if (el) el.style.width = percent + "%"; });
       };
       addEventListener("scroll", updateProgress, { passive: true }); addEventListener("resize", updateProgress); updateProgress();
     })();
