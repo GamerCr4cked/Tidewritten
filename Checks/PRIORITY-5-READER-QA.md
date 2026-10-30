@@ -36,14 +36,17 @@ The protected `bin/` folder was not opened, read, edited, or used as a source. N
 
 ### Resume hover animation issue
 
-The desktop resume card previously relied directly on CSS `:hover` while animating its own width, padding, shape, and child-link geometry. The compact launcher and expanded card also switch child visibility and link dimensions during the same hover state. This combination can cause unstable hover transitions in some pointer positions.
+The previous design changed the card's width, padding, shape, and CTA placement together while relying on the hover state that those geometry changes could interrupt. Its internal content also appeared/disappeared abruptly, and the action link was positioned independently of the copy.
 
-**Fix prepared on the working branch:**
-- CSS now uses an explicit `.is-hover-expanded` state for the compact/expanded desktop selectors instead of making the card's size transition depend directly on `:hover`.
-- The default layout adds pointer-enter/pointer-leave handling for hover-capable desktop screens and delays collapse briefly, reducing state flicker while the card is animating.
-- Keyboard focus styling/expansion through `:focus-within` remains supported.
-- The touch-sized expand/collapse behaviour is kept separate.
-- This is a code-level mitigation. It still needs to be confirmed on the live website with the task list below.
+**Redesign prepared on the working branch:**
+- The collapsed state is a compact circular launcher anchored at the bottom-right.
+- Hovering morphs the circle into a rounded reading card using coordinated width, height, and border-radius transitions with a smooth easing curve.
+- The internal hierarchy is now structured as a top utility row (reading-thread label and dismiss control), a story-information block (prompt, story title, chapter), and a dedicated Continue reading action.
+- The inner sections fade and slide into place after the outer shape begins expanding, avoiding an abrupt content pop-in.
+- Pointer enter/leave uses an explicit `.is-hover-expanded` state and a short delayed collapse to reduce hover flicker.
+- Keyboard focus expansion remains supported; touch devices retain a tap-to-expand interaction.
+- Reduced-motion preferences disable the transitions.
+- This is a source-level redesign and still needs live browser verification.
 
 ## Known outstanding audit items
 
@@ -60,7 +63,7 @@ The desktop resume card previously relied directly on CSS `:hover` while animati
 
 Use the live site: **https://tidewritten.gc.run.place**
 
-### Task 1 — Resume widget animation (highest priority)
+### Task 1 — Circular resume-widget redesign (highest priority)
 
 1. Open a story and scroll to roughly 30–50% of the page.
 2. Wait a few seconds so the reading position has time to save.
@@ -71,7 +74,7 @@ Use the live site: **https://tidewritten.gc.run.place**
 7. Repeat with quick movements and slow movements. Watch for flicker, repeated collapsing/expanding, sudden jumps, or the pointer losing the hover state while it is still over the card.
 8. Click **Continue reading** and confirm the same story opens near the saved position.
 
-**Pass criteria:** expansion and collapse each happen once per entry/exit; the card does not flicker or rapidly resize; controls remain clickable; Continue reading restores the saved position.
+**Pass criteria:** the circle expands smoothly into the complete card; the inner sections appear in a deliberate sequence; there is no flicker, clipping, abrupt content pop-in, or accidental collapse; all controls remain clickable; Continue reading restores the saved position.
 
 ### Task 2 — Reading progress and resume correctness
 
