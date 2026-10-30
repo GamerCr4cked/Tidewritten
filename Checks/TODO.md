@@ -281,7 +281,7 @@ Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance chec
 - [x] Verified both translation front matters contain exactly one `book_title`, correct Volume One metadata, correct `translation_of` mapping, and the correct language labels.
 - [x] Verified both editions retain the Volume Two continuation link to `The Things We Never Said`.
 - [x] No files under `bin/` were inspected or modified.
-- [ ] Confirm the latest Pages workflow for the final translation commit: [workflow run 41012224919](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41012224919) was still waiting when checked. Do not treat deployment as confirmed until it succeeds.
+- [x] Confirmed the Pages workflow for the final translation-content commit succeeded: [workflow run 41012224919](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41012224919). The subsequent TODO-only documentation commit has its own workflow run pending at the time of this note.
 
 **Rewritten files:**
 - `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
