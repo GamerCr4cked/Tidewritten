@@ -44,7 +44,7 @@ The baseline audit found **26 files with zero opening `<p>` tags**: 10 English s
 - [x] Jekyll build and GitHub Pages deployment succeeded for the Priority 1 formatting changes: [workflow run 41004873527](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41004873527).
 - [ ] Rendered-reader visual review remains in Priority 5.
 
-A separate pre-existing markup issue was observed in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags). It was not changed during Priority 1 and should be investigated during Priority 3 structural review.
+A pre-existing markup issue in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags) was investigated and fixed during Priority 3. The final italicized epilogue paragraph was missing its closing `</p>` before the Volume Two continuation link.
 
 
 - [x] **Mixed-script Banglish audit:** Rechecked all 8 listed Banglish files. Four files required corrections; the other four had no Bengali Unicode in their prose during the final audit.
@@ -120,9 +120,15 @@ Do not rewrite or paraphrase prose. Preserve every word, punctuation mark, headi
 
 Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, and chapter structure. Do not change prose just to make formatting uniform.
 
+### Initial structural validation — 2026-10-30
+
+- [x] Checked all 25 listed files for paragraph-tag balance, nesting depth, and duplicate HTML IDs. All 25 now have balanced paragraph tags, maximum paragraph nesting depth of 1, and no duplicate IDs.
+- [x] Fixed the missing `</p>` in the final epilogue paragraph of `stories/before-the-feelings-fade-vol-1.html`; its Banglish and Hinglish counterparts already had the correct closure.
+- [ ] Continue reviewing paragraph/dialogue boundaries, scene breaks, inline formatting, and chapter structure across the remaining files; this initial structural validation does not complete the full Priority 3 review.
+
 ### English story sources — 7
 
-- [ ] `stories/before-the-feelings-fade-vol-1.html`
+- [x] `stories/before-the-feelings-fade-vol-1.html` — corrected the unclosed final epilogue paragraph; verified balanced paragraph nesting.
 - [ ] `stories/before-the-feelings-fade-vol-2.html`
 - [ ] `stories/the-little-bird-chronicles-vol-1.html`
 - [ ] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-1.html`
