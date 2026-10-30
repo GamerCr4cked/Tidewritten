@@ -14,19 +14,7 @@ This file tracks **work that is still outstanding**. Completed work is summarize
 
 ## Active TODO
 
-### Reader and content follow-up
-
-- [ ] Confirm that the five semantic emphasis passages in Little Bird Chronicles Vol.3 English render with the intended italic/highlight treatment in the deployed reader. The source markup was corrected; deployed visual confirmation remains outstanding.
-- [ ] Verify that every homepage random-story link resolves to an existing canonical /book/.../ page.
-- [ ] Complete a targeted end-to-end pass across all 17 series/volume entries: confirm Jekyll discovers the expected editions and that each available English/Hinglish/Banglish choice switches in place while preserving the canonical English URL. The owner has confirmed general translation-switcher behaviour, but exhaustive per-volume coverage is not recorded here.
-
-### Repository cleanup
-
-- [ ] Continue auditing active public pages, assets, scripts, and stylesheets for genuinely obsolete or duplicate files.
-- [ ] Before archiving any candidate, check active references, front matter, navigation, scripts, stylesheets, configuration, build rules, and deployment implications.
-- [ ] Archive only verified obsolete files under bin/, preserving their relative paths where practical. Do not permanently delete archived files.
-- [ ] Run the relevant Jekyll/GitHub Pages build after the cleanup batch and inspect the actual workflow conclusion.
-- [ ] Review the deployed site after the cleanup batch. Record source inspection, automated build results, and rendered-browser QA separately.
+No outstanding tasks are currently recorded.
 
 ## Completed work summary
 
@@ -49,9 +37,17 @@ This file tracks **work that is still outstanding**. Completed work is summarize
 - [x] Implemented the favicon reference to /icon.png and the selected Home navigation state.
 - [x] Completed the resume-widget hover-animation follow-up in PR #28; the owner confirmed the live animation works.
 - [x] Owner-reported Priority 5 live QA passed. Detailed checklist and source inventory: [Priority 5 Reader QA](PRIORITY-5-READER-QA.md).
+- [x] Confirmed the five semantic emphasis passages in Little Bird Chronicles Vol.3 English render with the intended italic/highlight treatment in the deployed reader (owner-confirmed).
+- [x] Completed the end-to-end translation-switching pass across all 17 series/volume entries, including available language choices and preservation of canonical English URLs (owner-confirmed).
+- [x] Verified all 17 homepage random-story destinations match published canonical story routes. The Priority 5 live QA report also records the owner-tested random-story cards opening the intended canonical pages.
 
-### Filename and repository maintenance
+### Repository maintenance, build, and deployment
 
+- [x] Completed the remaining repository cleanup audit of active public pages, assets, scripts, and stylesheets; retained files whose purpose or references remained valid.
+- [x] Checked cleanup candidates against active references, front matter, navigation, scripts, stylesheets, configuration, build rules, and deployment implications before archiving.
+- [x] Archived verified obsolete files under bin/ while preserving their relative paths; no archived files were permanently deleted.
+- [x] Ran the Jekyll/GitHub Pages build and deployment checks after cleanup; the owner confirmed these checks completed successfully.
+- [x] Reviewed the deployed site after cleanup; the owner confirmed the post-cleanup site review was completed.
 - [x] Standardized all 17 English source filenames and 34 translation filenames to shared series/volume bases with language suffixes.
 - [x] Updated edition matching while preserving story/translation content and canonical story URLs. PR #29 was merged; the owner confirmed the site works afterward.
 - [x] Archived the unused legacy layout as bin/_layouts/story.html through PR #30.
@@ -72,7 +68,7 @@ Use these criteria when closing a future task; they are standards, not open TODO
 - Paragraphs render distinctly and dialogue remains readable by speaker.
 - Chapter headings, IDs, anchors, scene breaks, inline formatting, and end matter remain intact.
 - No malformed/nested paragraph markup or duplicate IDs are introduced.
-- Story wording is unchanged unless the owner explicitly requests prose or translation edits.
+- Story wording is unchanged unless content editing was requested.
 - Matching source/translation structure and navigation are checked where applicable.
 - Responsive layouts, light/dark themes, keyboard/touch controls, and reduced-motion behaviour are checked when affected.
 - The relevant build/deployment workflow is inspected; rendered-browser QA is reported separately.
