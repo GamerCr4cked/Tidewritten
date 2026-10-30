@@ -29,9 +29,22 @@
 
 ### Paragraph markup findings
 
-The current source audit found **26 files with zero opening `<p>` tags**: 10 English stories, 8 Banglish translations, and 8 Hinglish translations. A further **25 files contain paragraph markup** (7 English stories, 9 Banglish translations, and 9 Hinglish translations) and still require structural review. These are source-markup counts, not a substitute for checking the rendered reader.
+The baseline audit found **26 files with zero opening `<p>` tags**: 10 English stories, 8 Banglish translations, and 8 Hinglish translations. **Priority 1 has now added semantic paragraph markup to all 26 files.** All 51 published story/translation HTML files now contain paragraph markup. The other **25 files** (7 English stories, 9 Banglish translations, and 9 Hinglish translations) already had paragraph markup before this work and remain on the structural-review list. Source-markup counts do not replace checking the rendered reader.
 
 ### Additional findings
+
+
+### Priority 1 completion — 2026-10-30
+
+- [x] Added semantic `<p>` elements to all 26 files that previously had zero paragraph tags (10 English, 8 Banglish, 8 Hinglish).
+- [x] Kept chapter headings, existing scene-break markers, front matter, and story wording unchanged.
+- [x] Wrapped standalone volume-continuation anchors in `<p class="volume-continuation">` where present.
+- [x] Verified all 26 edited files have balanced opening and closing paragraph tags, no nested paragraph tags, and no duplicate chapter IDs.
+- [x] Verified all 51 published story/translation files now contain at least one paragraph tag.
+- [ ] Rendered-reader visual review and Jekyll/Pages deployment verification remain in Priority 5.
+
+A separate pre-existing markup issue was observed in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags). It was not changed during Priority 1 and should be investigated during Priority 3 structural review.
+
 
 - [ ] **Mixed-script Banglish:** 8 Banglish files contain Bengali-script characters inside otherwise Romanized Banglish prose. Find and correct each accidental mixed-script word while preserving the intended Romanized Bangla wording:
   - `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
@@ -53,38 +66,38 @@ Do not rewrite or paraphrase prose. Preserve every word, punctuation mark, headi
 
 ### English story sources — 10
 
-- [ ] `stories/meet-again-trilogy-vol-1.html`
-- [ ] `stories/meet-again-trilogy-vol-2.html`
-- [ ] `stories/meet-again-trilogy-vol-3.html`
-- [ ] `stories/prismat-fragments-of-the-fallen-sky.html`
-- [ ] `stories/teaching-me-how-to-live.html`
-- [ ] `stories/the-account-that-never-came-back.html`
-- [ ] `stories/the-little-bird-chronicles-vol-2.html`
-- [ ] `stories/the-little-bird-chronicles-vol-3.html`
-- [ ] `stories/the-other-side-of-us.html`
-- [ ] `stories/when-everyone-went-offline.html`
+- [x] `stories/meet-again-trilogy-vol-1.html`
+- [x] `stories/meet-again-trilogy-vol-2.html`
+- [x] `stories/meet-again-trilogy-vol-3.html`
+- [x] `stories/prismat-fragments-of-the-fallen-sky.html`
+- [x] `stories/teaching-me-how-to-live.html`
+- [x] `stories/the-account-that-never-came-back.html`
+- [x] `stories/the-little-bird-chronicles-vol-2.html`
+- [x] `stories/the-little-bird-chronicles-vol-3.html`
+- [x] `stories/the-other-side-of-us.html`
+- [x] `stories/when-everyone-went-offline.html`
 
 ### Banglish translations — 8
 
-- [ ] `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/Meet-Again_Trilogy-Vol.2-RomanizedBangla.html`
-- [ ] `translation/banglish/Meet-Again_Trilogy-Vol.3-RomanizedBangla.html`
-- [ ] `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/Teaching-Me-How-to-Live-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/When-Everyone-Went-Offline-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/Meet-Again_Trilogy-Vol.2-RomanizedBangla.html`
+- [x] `translation/banglish/Meet-Again_Trilogy-Vol.3-RomanizedBangla.html`
+- [x] `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/Teaching-Me-How-to-Live-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/When-Everyone-Went-Offline-Vol.1-RomanizedBangla.html`
 
 ### Hinglish translations — 8
 
-- [ ] `translation/hinglish/Meet-Again_Trilogy-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/Meet-Again_Trilogy-Vol.2-RomanizedHindi.html`
-- [ ] `translation/hinglish/Meet-Again_Trilogy-Vol.3-RomanizedHindi.html`
-- [ ] `translation/hinglish/Prismat-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/Teaching-Me-How-to-Live-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Other-Side-of-Us-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/When-Everyone-Went-Offline-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/Meet-Again_Trilogy-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/Meet-Again_Trilogy-Vol.2-RomanizedHindi.html`
+- [x] `translation/hinglish/Meet-Again_Trilogy-Vol.3-RomanizedHindi.html`
+- [x] `translation/hinglish/Prismat-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/Teaching-Me-How-to-Live-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Other-Side-of-Us-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/When-Everyone-Went-Offline-Vol.1-RomanizedHindi.html`
 
 ## Priority 2 — Correct mixed-script Banglish
 
