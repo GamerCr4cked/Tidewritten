@@ -179,6 +179,15 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 
 ## Priority 5 — Reader, navigation, and deployment QA
 
+### Resume widget hover-animation follow-up — 2026-10-30
+
+- [x] Audited the resume widget's desktop hover selectors and found that the card's changing geometry and child-link dimensions were tied directly to `:hover`, a plausible source of hover-state flicker.
+- [x] Prepared a targeted mitigation on branch `fix/reading-resume-hover-animation`: explicit `.is-hover-expanded` state, pointer handlers, and a short delayed collapse.
+- [x] Preserved keyboard `:focus-within` expansion and the separate touch-sized interaction.
+- [x] Added the full source-level inventory and owner-facing live QA checklist in [`Checks/PRIORITY-5-READER-QA.md`](PRIORITY-5-READER-QA.md).
+- [ ] Merge and deploy the change, then confirm the hover animation in a real desktop browser.
+- [ ] Complete the remaining live tasks in `Checks/PRIORITY-5-READER-QA.md`; source inspection alone is not a PASS.
+
 ### Static QA pass — 2026-10-30
 
 - [x] Re-read `Checks/Notes.md` and this TODO before making changes.
