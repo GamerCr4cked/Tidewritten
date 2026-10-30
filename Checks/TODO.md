@@ -9,7 +9,7 @@
 
 - [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish, including Prologue, Chapters 1–7, and Epilogue.
 - [x] **Phase 2 — Chapter-title restoration:** Current audit covers all 34 published translation HTML files (17 Banglish + 17 Hinglish). Chapter-heading sequences were checked against the corresponding English story files; the previously corrected original English titles remain in place.
-- [ ] **Phase 3 — Story formatting and content QA:** Main outstanding work. Fix missing paragraph markup, correct mixed-script Banglish typos, and perform structural/rendered-reader QA.
+- [ ] **Phase 3 — Story formatting and content QA:** Priority 1 paragraph markup is complete. Remaining work: correct mixed-script Banglish, perform structural/content comparisons, and complete rendered-reader QA.
 - [x] **Phase 4 — Reading experience implementation:** Shared reader contains reading progress, reading-position save/restore, text-size controls, theme control, translation switching, and responsive controls. Manual browser QA is still pending under Priority 5.
 - [x] **Phase 5 — Site polish implementation:** Favicon references `/icon.png`; the shared navigation marks Home selected for `/home/`. Manual responsive/theme QA is still pending under Priority 5.
 
@@ -41,7 +41,8 @@ The baseline audit found **26 files with zero opening `<p>` tags**: 10 English s
 - [x] Wrapped standalone volume-continuation anchors in `<p class="volume-continuation">` where present.
 - [x] Verified all 26 edited files have balanced opening and closing paragraph tags, no nested paragraph tags, and no duplicate chapter IDs.
 - [x] Verified all 51 published story/translation files now contain at least one paragraph tag.
-- [ ] Rendered-reader visual review and Jekyll/Pages deployment verification remain in Priority 5.
+- [x] Jekyll build and GitHub Pages deployment succeeded for the Priority 1 formatting changes: [workflow run 41004873527](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41004873527).
+- [ ] Rendered-reader visual review remains in Priority 5.
 
 A separate pre-existing markup issue was observed in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags). It was not changed during Priority 1 and should be investigated during Priority 3 structural review.
 
@@ -195,7 +196,8 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 ### Build and deployment
 
 - [x] Latest recorded Pages workflow for commit `c9672dbfdd16eb7f9467c3a2f5ca5bf05fed703f` succeeded.
-- [ ] After the formatting and romanization changes, run the Jekyll build and inspect the complete GitHub Actions result.
+- [x] Run the Jekyll build and inspect the complete GitHub Actions result for the Priority 1 formatting changes: [workflow run 41004873527](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41004873527).
+- [ ] After the remaining Phase 3 content changes, run the Jekyll build again and inspect the complete GitHub Actions result.
 - [ ] Verify the deployed pages visually; a successful workflow alone does not complete reader QA.
 - [ ] Recheck all changed story and translation pages after deployment.
 
