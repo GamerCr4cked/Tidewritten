@@ -194,9 +194,9 @@
       {{ content }}
     </article>
     <nav class="volume-navigation" id="volumeNavigation" aria-label="Volume navigation"><a class="volume-nav-link" id="previousVolume" hidden><span>← Previous volume</span><strong></strong></a><a class="volume-nav-link next" id="nextVolume" hidden><span>Next volume →</span><strong></strong></a></nav>
-    <div class="endnote"><div class="end-mark">End of Volume {{ page.volume }}</div><p>{{ page.closing_note | default: "Every tide leaves a story on the shore." | escape }}</p></div>
+    <div class="endnote"><div class="end-mark">End of Volume {{ page.volume }}</div><p>{{ page.closing_note | default: "End of volume." | escape }}</p></div>
   </main>
-  <footer class="footer">Tidewritten · Stories carried by the tide.</footer>
+  <footer class="footer">Tidewritten · Light novels and original stories.</footer>
   <script>
     (() => {
       const root = document.documentElement;

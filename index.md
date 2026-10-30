@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tidewritten
-description: Immersive light novels and emotional stories about the moments that stay with you.
+description: Browse original light novels across romance, coming-of-age, friendship, drama, and speculative fiction.
 permalink: /home/
 ---
 
@@ -13,70 +13,63 @@ permalink: /home/
       <span class="float-speck speck-a">✦</span><span class="float-speck speck-b">·</span><span class="float-speck speck-c">✧</span>
     </div>
     <div class="float-hero-copy">
-      <p class="home-eyebrow"><span></span> A PLACE FOR STORIES THAT STAY</p>
-      <h1 id="home-title">Some feelings<br>leave a <em>tide</em> behind.</h1>
-      <p class="home-lede">Romance, friendship, distance, and the little moments that somehow mean everything. Find a story, settle in, and stay a while.</p>
+      <p class="home-eyebrow"><span></span> ORIGINAL LIGHT NOVELS &amp; STORIES</p>
+      <h1 id="home-title">Explore stories<br>across <em>genres.</em></h1>
+      <p class="home-lede">Browse original light novels featuring romance, friendship, coming-of-age, contemporary drama, and speculative fiction. Choose a series or start with a standalone volume.</p>
       <div class="home-buttons">
-        <a class="home-button home-button-primary" href="{{ '/library/' | relative_url }}">Explore the library <span aria-hidden="true">↗</span></a>
-        <a class="home-button home-button-quiet" href="#start-reading">Find a story <span aria-hidden="true">↓</span></a>
+        <a class="home-button home-button-primary" href="{{ '/library/' | relative_url }}">Browse the Library <span aria-hidden="true">↗</span></a>
+        <a class="home-button home-button-quiet" href="#start-reading">Featured titles <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="home-whisper"><span class="whisper-line"></span> Read slowly. Feel deeply. Come back whenever you like.</div>
+      
     </div>
     <div class="float-hero-art" aria-hidden="true">
       <div class="float-water">
         <span class="water-layer layer-one"></span><span class="water-layer layer-two"></span><span class="water-layer layer-three"></span><span class="water-light"></span>
       </div>
-      <span class="float-label label-top">a little more than words</span>
-      <span class="float-label label-bottom">somewhere between then & now</span>
+      
+      
       <span class="float-dot dot-one"></span><span class="float-dot dot-two"></span><span class="float-dot dot-three"></span>
-      <div class="art-caption"><span></span> Every story leaves a little behind</div>
+      <div class="art-caption"><span></span> TIDEWRITTEN READING COLLECTION</div>
     </div>
-    <div class="hero-scroll-cue"><span>01</span><span class="scroll-line"></span><span>KEEP DRIFTING</span></div>
+    <div class="hero-scroll-cue"><span>01</span><span class="scroll-line"></span><span>EXPLORE THE COLLECTION</span></div>
   </section>
 
   <section class="home-section start-section" id="start-reading">
     <div class="home-section-heading">
-      <div><p class="home-eyebrow">A STORY FOR THIS MOMENT</p><h2>Let the tide <em>choose.</em></h2></div>
-      <p>A little surprise from the library, picked at random. Stay for a chapter—or follow the feeling.</p>
+      <div><p class="home-eyebrow">FEATURED TITLES</p><h2>Explore the <em>collection.</em></h2></div>
+      <p>Browse a rotating selection of volumes from the Tidewritten catalogue.</p>
     </div>
     <div class="random-story-stage" id="randomStoryStage" aria-live="polite" aria-atomic="true">
       <a class="random-story-card" id="randomStoryCard" href="{{ '/library/' | relative_url }}">
         <span class="random-story-art" id="randomStoryArt" aria-hidden="true"><span class="random-art-orb"></span><span class="random-art-ring"></span><span class="random-art-line"></span></span>
         <span class="random-story-copy">
-          <span class="random-story-kicker" id="randomStoryKicker">A RANDOM PICK FROM THE LIBRARY</span>
+          <span class="random-story-kicker" id="randomStoryKicker">FEATURED TITLE</span>
           <strong id="randomStoryTitle">Finding your next story…</strong>
-          <span class="random-story-summary" id="randomStorySummary">A small story might be just what you need.</span>
-          <span class="random-story-cta">Discover this story <span aria-hidden="true">↗</span></span>
+          <span class="random-story-summary" id="randomStorySummary">Select this title to view its volume.</span>
+          <span class="random-story-cta">View volume <span aria-hidden="true">↗</span></span>
         </span>
         <span class="random-story-index" id="randomStoryIndex" aria-hidden="true">01</span>
       </a>
     </div>
     <div class="random-story-controls">
-      <span><span class="random-live-dot" aria-hidden="true"></span> A new pick every 5 seconds</span>
-      <button type="button" id="randomStoryNext">Surprise me ↗</button>
+      <span><span class="random-live-dot" aria-hidden="true"></span> Featured title updates every 5 seconds</span>
+      <button type="button" id="randomStoryNext">Show another title ↗</button>
     </div>
     <div class="library-float-bar">
       <span class="library-float-icon" aria-hidden="true">〰</span>
-      <div><strong>Want to choose for yourself?</strong><p>Browse the full collection and find the series or volume that feels right.</p></div>
-      <a href="{{ '/library/' | relative_url }}">Browse the library <span aria-hidden="true">↗</span></a>
+      <div><strong>Browse the full catalogue</strong><p>View all available series and select a volume to read.</p></div>
+      <a href="{{ '/library/' | relative_url }}">View all series <span aria-hidden="true">↗</span></a>
     </div>
   </section>
 
-  <section class="home-quote">
-    <span class="quote-orb quote-orb-one" aria-hidden="true"></span><span class="quote-orb quote-orb-two" aria-hidden="true"></span>
-    <span class="home-quote-mark" aria-hidden="true">“</span>
-    <p>Not every story needs to be true<br>to make you <em>feel something real.</em></p>
-    <span class="home-quote-foot">A SMALL THOUGHT FROM TIDEWRITTEN</span>
-  </section>
-
   <section class="recently-read-section home-recent" id="recentlyRead" style="display:none;">
-    <div class="home-section-heading recent-heading"><div><p class="home-eyebrow">YOUR READING TRAIL</p><h2>Back to <em>your tide.</em></h2></div><p>Pick up a story you opened recently on this browser.</p></div>
+    <div class="home-section-heading recent-heading"><div><p class="home-eyebrow">READING HISTORY</p><h2>Continue <em>reading.</em></h2></div><p>Reopen a title from your recent reading history on this browser.</p></div>
     <div class="recently-read-list" id="recentlyReadList"></div>
   </section>
 
   <section class="home-end-card">
     <span class="end-orb end-orb-one" aria-hidden="true"></span><span class="end-orb end-orb-two" aria-hidden="true"></span>
-    <div><p class="home-eyebrow">TAKE YOUR TIME</p><h2>There's no one right<br>way to <em>feel a story.</em></h2><p>Make a cup of something warm. Find a comfortable spot. Let the words do their thing.</p></div>
+    <div><p class="home-eyebrow">TIDEWRITTEN</p><h2>A reading library<br>for <em>every genre.</em></h2><p>Browse the catalogue, review the reading guide, or learn more about the project.</p></div>
     <div class="home-end-links"><a href="{{ '/about/' | relative_url }}">About Tidewritten <span>↗</span></a><a href="{{ '/reading-guide/' | relative_url }}">Reader's guide <span>↗</span></a></div>
   </section>
 </div>

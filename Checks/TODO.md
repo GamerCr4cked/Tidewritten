@@ -36,7 +36,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Editorial standard:** Professional publishing-platform language; concise, specific, readable, and restrained. Use emotional or poetic language only when it is intentional story content, not as filler in the site's interface.
 
-## Phase 1 — Reader personalization
+## Phase 2 — Reader personalization
 
 **Goal:** Let readers adjust the reading environment to their preferences without compromising readability or the existing reader controls.
 
@@ -53,7 +53,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Design inspiration supplied by the site owner:** [eBook collection managers and reader apps reference](https://images.openai.com/static-rsc-4/XelBomhaxUmYUI0ouebZuqpPOZxY_Wlmw8_ufjs_he81Q8HY5ySjNkhwDE8CvTfsWpBEyFWVuwwWLRY-73X-XsPpgaDCWMSsQrbwaXJWt9lAKQhZJjWd1RJbYPyHk2wTbGx0ozQh2Pkh_7QjA-uFO7Rnw2XDtlFV0r_4N8kQXvo?purpose=inline).
 
-## Phase 2 — Library evolution
+## Phase 3 — Library evolution
 
 **Goal:** Make the Library easier to explore as the catalogue grows.
 
@@ -70,7 +70,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Design inspiration supplied by the site owner:** [BookOrbit dashboard reference](https://images.openai.com/static-rsc-4/gkT3M4zz8uFmbAmUNdgcxjsv3gVyyM8dWx2m8C_Uc_wSYJEjsTl7C3oCvdarBGedcAFKaDBLJsyjyV7Oi_1q--xgTYaDU3c9JC_x6prI_V59pd11MZ-2F_LtUADNcCVimTCrq27522bw-vY7rbf7d--aYn7VcM9onyJ_Rq_x_dA?purpose=inline).
 
-## Phase 3 — Reading statistics
+## Phase 4 — Reading statistics
 
 **Goal:** Give readers a useful, private overview of their reading activity.
 
@@ -87,7 +87,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Design inspiration supplied by the site owner:** [Japanese light-novel publication/listing reference](https://images.openai.com/static-rsc-4/fiGEAIk-K4mq6U33dQPa0gAQ41pezPzxOZcSjEQCHwMEWgzgb9cR5exbW4ym5LZWq3nKGUrDq2KjTh0nuaB1JIIRtMqsf45yIGIx2tQIqsIn8kStoywh6wBNBxyaRN8jS4EqeZr2Em9qrA75kVk1OqjVdtmyEXWJDpM6Fn340-g?purpose=inline).
 
-## Phase 4 — Story presentation
+## Phase 5 — Story presentation
 
 **Goal:** Give every series a stronger identity and make each volume feel like a distinct light-novel release.
 
@@ -103,7 +103,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Design inspiration supplied by the site owner:** [Awwwards desktop design reference](https://images.openai.com/static-rsc-4/r9nA6rLDZS-UtAxthQ8akPSRLsaijppy4NfOGpmXtV6rjXXTE7R7wEQnNqA7TsqMzTp68gFYEndYglOs20wgwEMSUzNdLqIBNgDBcdP-N_wzcKrUCkTqMf4mhxU8hWmPdgi-vibsahV3OZAeIQ-pQFw2xjF0fVlPSCSgmEX78qw?purpose=inline).
 
-## Phase 5 — Tidewritten identity
+## Phase 6 — Tidewritten identity
 
 **Goal:** Complete the site's editorial identity and supporting pages.
 
