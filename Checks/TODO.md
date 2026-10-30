@@ -179,6 +179,18 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 
 ## Priority 5 — Reader, navigation, and deployment QA
 
+### Static QA pass — 2026-10-30
+
+- [x] Re-read `Checks/Notes.md` and this TODO before making changes.
+- [x] Confirmed the latest Council Vol.1 translation-content workflow and its subsequent documentation workflows completed successfully.
+- [x] Static-inspected the shared light-novel layout, default layout, global stylesheet, home page, Library source, favicon references, language-switching code, reading-progress logic, resume widget, and volume-navigation logic. This is source-level inspection, not rendered-browser verification.
+- [x] Fixed a confirmed JavaScript fallback bug in `_layouts/light-novel.html`: `currentChapter()` referenced an undefined `chapterHeadings` identifier when no chapter heading had yet crossed the 170px threshold. It now uses the local list returned by `getChapterHeadings()`, so the saved reading-progress record can correctly fall back to the first chapter.
+- [x] Confirmed the source includes the favicon reference to `/icon.png`, the Home selected-state condition for `/home/`, and a random-story list with canonical `/book/...` routes.
+- [x] Confirmed the resume widget has a fixed bottom-right position on desktop and a compact expandable affordance on touch-sized screens in the stylesheet.
+- [ ] Manual rendered-reader QA remains pending: the available tools in this session could not load the live custom domain in a browser, so I have not claimed that desktop/mobile screenshots, interaction flows, theme contrast, or live navigation were visually tested.
+- [ ] After the layout fix, verify the GitHub Pages workflow succeeds before considering the code fix deployed.
+
+
 ### Shared reader and translation switching
 
 - [x] Shared `_layouts/light-novel.html` includes English, Hinglish, and Banglish language options based on each story's available translation pages.
