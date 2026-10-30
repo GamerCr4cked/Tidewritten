@@ -56,7 +56,7 @@ A pre-existing markup issue in `stories/before-the-feelings-fade-vol-1.html` (89
   - `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html`
   - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
   - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html`
-- [ ] **Remaining paragraph-count discrepancy:** Before the Feelings Fade Vol.2 has 298 source paragraphs versus 280 in each translation; this still needs chapter-by-chapter editorial review.
+- [x] **Before the Feelings Fade Vol.2 translation audit:** Compared all 10 chapters in English, Hinglish, and Banglish using the two-chapter-per-batch strategy. The 298-versus-280 paragraph-count difference is explained by paragraph grouping; both translations contain the reviewed narrative sequence, with no missing chapter, scene, or complete passage identified. No story text was changed. See [the full audit report](BEFORE-THE-FEELINGS-FADE-VOL2-TRANSLATION-AUDIT.md).
 - [x] **Council Vol.1 paragraph-count discrepancy resolved by a full translation rewrite:** the English source has 1,183 paragraphs; the rewritten Hinglish edition has 1,186 and the rewritten Banglish edition has 1,192. Chapter structure and scene-break counts match; the small paragraph-count differences are translation-specific segmentation, not the earlier 501/504-paragraph compressed drafts.
 - [x] The latest recorded Pages workflow for the Phase 2 audit commit completed successfully: [workflow run 41001971301](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41001971301). This confirms that commit's Pages build/deployment workflow, not the visual correctness of every page.
 
