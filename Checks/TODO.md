@@ -9,7 +9,7 @@
 
 - [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish, including Prologue, Chapters 1–7, and Epilogue.
 - [x] **Phase 2 — Chapter-title restoration:** Current audit covers all 34 published translation HTML files (17 Banglish + 17 Hinglish). Chapter-heading sequences were checked against the corresponding English story files; the previously corrected original English titles remain in place.
-- [ ] **Phase 3 — Story formatting and content QA:** Priority 1 paragraph markup, Priority 2 mixed-script Banglish corrections, and Priority 3 structural review are complete. Priority 4 source/translation comparisons and Priority 5 rendered-reader QA remain.
+- [ ] **Phase 3 — Story formatting and content QA:** Priorities 1–4 (paragraph markup, mixed-script Banglish corrections, structural review, and source/translation comparison) are complete. Priority 5 rendered-reader QA remains.
 - [x] **Phase 4 — Reading experience implementation:** Shared reader contains reading progress, reading-position save/restore, text-size controls, theme control, translation switching, and responsive controls. Manual browser QA is still pending under Priority 5.
 - [x] **Phase 5 — Site polish implementation:** Favicon references `/icon.png`; the shared navigation marks Home selected for `/home/`. Manual responsive/theme QA is still pending under Priority 5.
 
@@ -166,12 +166,15 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 - [x] Confirm all 34 translation files map to the intended canonical English story URL.
 - [x] Check chapter heading sequences across the published source/translation sets; the audited sequences correspond.
 - [x] Check chapter IDs for duplicates; none were found in the audited files.
-- [ ] Compare Before the Feelings Fade Vol.2 paragraph boundaries chapter-by-chapter; source has 298 paragraphs and each translation has 280. Treat the count difference as a review flag, not an automatic formatting defect.
-- [ ] Compare Council Vol.1 paragraph boundaries chapter-by-chapter; source has 1,183 paragraphs, Banglish 504, and Hinglish 501. Determine whether the difference is paragraph grouping or missing boundaries without changing translated wording.
-- [ ] Compare all remaining source/translation pairs for missing or merged paragraphs, dialogue separation, scene breaks, epigraphs, and closing notes.
-- [ ] Recheck Council Vol.2 and Vol.3 structure and endings in all three language versions.
-- [ ] Recheck the Meet Again trilogy's final chapter title remains exactly `Meet Again` in English, Hinglish, and Banglish.
-- [ ] Verify The Council Vol.2 continuation text links to canonical Vol.3 in all three languages; verify the rendered link after build.
+- [x] Compared all 17 English story sources against their 34 published translations (17 Banglish + 17 Hinglish), chapter by chapter. All 17 pairs have matching chapter-heading counts and corresponding heading text; Before the Feelings Fade Vol.1 differs only in `CHAPTER` capitalization in translation headings.
+- [x] Compared per-chapter paragraph counts, scene-break (`<hr>`) counts, and blockquote/epigraph counts across all 17 pairs. Scene-break and blockquote counts match throughout; Council Vol.2 now has 24 chapter separators in all three editions.
+- [x] Reviewed paragraph grouping and dialogue separation in the two largest discrepancy cases. Before the Feelings Fade Vol.2 translations group some adjacent source paragraphs (298 English vs 280 in each translation). Council Vol.1 translations use more consolidated narrative paragraphs (1,183 English vs 504 Banglish and 501 Hinglish); inspected representative chapter passages and confirmed dialogue turns remain separated by speaker. These are structural/pacing differences, not evidence by themselves of missing chapters or text.
+- [x] Recorded the remaining small paragraph-count differences for editorial awareness: Meet Again Vol.2 (77/76/76), Prismat Vol.1 (119/117/117), Little Bird Vol.2 (168/167/167), and Council Vol.2 (1,959/1,954/1,956; differences are limited to a few paragraphs across Chapters 12, 14, 16, 18, and 21). Other 12 source/translation sets have matching total paragraph counts.
+- [x] Compared the other 12 source/translation sets: Before the Feelings Fade Vol.1 (89/89/89), Meet Again Vol.1 (127/127/127), Meet Again Vol.3 (111/111/111), Teaching Me How to Live (116/116/116), The Account That Never Came Back (65/65/65), Little Bird Vol.1 (187/187/187), Little Bird Vol.3 (207/207/207), The Other Side of Us (97/97/97), Council Vol.3 (489/489/489), The Words We Never Sent (90/90/90), and When Everyone Went Offline (77/77/77). (Council Vol.1 and Vol.2 and Before the Feelings Fade Vol.2 are recorded separately above.)
+- [x] Rechecked Council Vol.2/Vol.3 structure and endings in English, Banglish, and Hinglish. Vol.2 has the same final chapter heading and continuation link to `/book/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3/` in all three editions; Vol.3 ends with its epilogue and `END OF VOLUME THREE`, with no Volume Four link.
+- [x] Rechecked the Meet Again trilogy's final chapter heading is exactly `Meet Again` in all three English volumes and their Hinglish/Banglish translations.
+- [x] Confirmed the Meet Again Vol.1 and Vol.2 continuation links point to Vol.2 and Vol.3 respectively in all three languages; Vol.3 has no next-volume link.
+- [x] No prose or paragraph boundaries were changed during Priority 4. Where translated paragraph grouping differs, it was retained rather than mechanically split; any decision to enforce source-level pacing should be a separate editorial request.
 
 ## Priority 5 — Reader, navigation, and deployment QA
 
