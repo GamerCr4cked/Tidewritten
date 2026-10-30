@@ -338,12 +338,13 @@
       const story = document.getElementById("story-content");
       const getChapterHeadings = () => story ? Array.from(story.querySelectorAll("h2[id^='chapter-']")) : [];
       const currentChapter = () => {
+        const headings = getChapterHeadings();
         let active = null;
-        for (const heading of getChapterHeadings()) {
+        for (const heading of headings) {
           if (heading.getBoundingClientRect().top <= 170) active = heading;
           else break;
         }
-        return active || chapterHeadings[0] || null;
+        return active || headings[0] || null;
       };
       const saveReadingProgress = () => {
         try {
