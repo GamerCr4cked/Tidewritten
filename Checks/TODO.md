@@ -135,3 +135,14 @@ Use series-and-volume-based filenames for every existing translation source. Pre
 - [x] The Council Volume 2 Banglish translation is complete.
 
 The translation filename migration and reader-switching QA above are separate from translation prose completion.
+
+
+## Priority 7 — Council end-of-volume text redirects
+
+These are the inline text links at the end of a volume, not the reader's Prev/Next buttons.
+
+- [x] Verify Volume One's end-of-volume text link points to the canonical Volume Two page in the main, Hinglish, and Banglish files.
+- [x] Fix Volume Two's end-of-volume text redirect so it is a clickable link to the canonical Volume Three page in the main, Hinglish, and Banglish files.
+- [ ] Verify the rendered links work after the Jekyll build/deployment.
+- [ ] When creating Council Vol.3 translations, preserve the final-volume ending without adding a misleading next-volume link.
+
