@@ -1,31 +1,57 @@
-# Tidewritten Website — TODO
+# Tidewritten Website — TODO & Audit
 
-> Scope: published story pages and their translation pages only. Do not inspect, edit, reformat, move, or use anything under `bin/` for this work. See [Notes.md](Notes.md) for project rules.
+> Last full source audit: 2026-10-30  
+> Audited branch: `main`  
+> Scope: published story pages, translation pages, shared reader, Library, site navigation, and relevant assets/configuration.  
+> Protected scope: never inspect, edit, move, rename, delete, or otherwise use anything under `bin/`. See [Notes.md](Notes.md) before every related task.
 
-## Current project phases
+## Current status
 
-- [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish. All seven chapters, Prologue, and Epilogue are translated; the work was committed in two-chapter batches and the original English chapter titles are preserved.
-- [x] **Phase 2 — Chapter-title restoration:** Audited all 33 published Hinglish and Banglish translation files against their matching English source headings. Restored altered chapter titles in 16 files (8 stories × 2 languages); unchanged titles, chapter numbering, IDs, and translated prose were preserved.
-- [ ] **Phase 3 — Story formatting and content QA:** Fix collapsed paragraphs, check structural HTML consistency, compare chapter order/content against source files, and review every reader page.
-- [x] **Phase 4 — Reading experience:** Reading progress, restore-reading prompt, reader controls, theme behaviour, translation switching architecture, and related reading UX work.
-- [x] **Phase 5 — Final polish:** Site-wide visual and navigation polish, including favicon and home navigation state.
+- [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish, including Prologue, Chapters 1–7, and Epilogue.
+- [x] **Phase 2 — Chapter-title restoration:** Current audit covers all 34 published translation HTML files (17 Banglish + 17 Hinglish). Chapter-heading sequences were checked against the corresponding English story files; the previously corrected original English titles remain in place.
+- [ ] **Phase 3 — Story formatting and content QA:** Main outstanding work. Fix missing paragraph markup, correct mixed-script Banglish typos, and perform structural/rendered-reader QA.
+- [x] **Phase 4 — Reading experience implementation:** Shared reader contains reading progress, reading-position save/restore, text-size controls, theme control, translation switching, and responsive controls. Manual browser QA is still pending under Priority 5.
+- [x] **Phase 5 — Site polish implementation:** Favicon references `/icon.png`; the shared navigation marks Home selected for `/home/`. Manual responsive/theme QA is still pending under Priority 5.
 
-Phase completion is tracked separately from the detailed file-level QA lists below. Do not mark Phases 1–3 complete until their acceptance checks are actually verified.
+## Audit summary — 2026-10-30
 
-### Phase 2 audit record
+### Published content inventory
 
-- [x] Compared every available translation's chapter headings with its corresponding English source.
-- [x] Restored original English titles in both languages for Before the Feelings Fade Vol.2, Meet Again Trilogy Vols.1–3, Prismat, Teaching Me How to Live, The Words We Never Sent, and When Everyone Went Offline.
-- [x] Confirmed chapter identifiers and numbering were not changed by the title restoration.
-- [x] Left all translated story prose and `bin/` untouched.
-- [ ] Verify the updated headings in the deployed reader after the next successful Pages deployment.
+- [x] Confirmed 17 English story source files under `stories/`.
+- [x] Confirmed 17 Banglish translation files under `translation/banglish/`.
+- [x] Confirmed 17 Hinglish translation files under `translation/hinglish/`.
+- [x] Audited 51 published story/translation HTML files in total.
+- [x] Confirmed every translation file has a `translation_of` mapping to its canonical English story URL.
+- [x] Confirmed translation pages are excluded from independent Library entries by the `translation_of == nil` filter.
+- [x] Confirmed chapter heading sequences and chapter IDs are present and unique in the audited files; no duplicate HTML IDs were found.
+- [x] Confirmed the current translation filenames use the `-RomanizedBangla` and `-RomanizedHindi` suffix conventions.
+- [x] Confirmed `bin/` was not opened or used as a source.
 
+### Paragraph markup findings
 
-## Priority 1 — Fix collapsed story paragraphs
+The current source audit found **26 files with zero opening `<p>` tags**: 10 English stories, 8 Banglish translations, and 8 Hinglish translations. A further **25 files contain paragraph markup** (7 English stories, 9 Banglish translations, and 9 Hinglish translations) and still require structural review. These are source-markup counts, not a substitute for checking the rendered reader.
 
-These files were audited on 2026-10-29 and had no HTML `<p>` tags in their story content. Their source uses blank-line-separated text, but HTML collapses ordinary newlines, causing the reading view to look like a wall of text.
+### Additional findings
 
-### Main stories — 10 files
+- [ ] **Mixed-script Banglish:** 8 Banglish files contain Bengali-script characters inside otherwise Romanized Banglish prose. Find and correct each accidental mixed-script word while preserving the intended Romanized Bangla wording:
+  - `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/The-Little-Bird-Chronicles-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/The-Little-Bird-Chronicles-Vol.3-RomanizedBangla.html`
+  - `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html`
+- [ ] **Paragraph-count discrepancy requiring comparison:** Before the Feelings Fade Vol.2 has 298 source paragraphs versus 280 in each translation. Council Vol.1 has 1,183 source paragraphs versus 504 Banglish and 501 Hinglish paragraphs. These differences may reflect intentional paragraph grouping, but must be compared chapter-by-chapter before any formatting edits.
+- [x] The latest recorded Pages workflow for the Phase 2 audit commit completed successfully: [workflow run 41001971301](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41001971301). This confirms that commit's Pages build/deployment workflow, not the visual correctness of every page.
+
+---
+
+## Priority 1 — Add semantic paragraph markup to files with zero paragraphs
+
+Do not rewrite or paraphrase prose. Preserve every word, punctuation mark, heading, chapter ID, inline tag, scene break, and order. Do not blindly wrap existing markup or create nested paragraphs.
+
+### English story sources — 10
 
 - [ ] `stories/meet-again-trilogy-vol-1.html`
 - [ ] `stories/meet-again-trilogy-vol-2.html`
@@ -38,33 +64,41 @@ These files were audited on 2026-10-29 and had no HTML `<p>` tags in their story
 - [ ] `stories/the-other-side-of-us.html`
 - [ ] `stories/when-everyone-went-offline.html`
 
-### Banglish translations — 8 files
+### Banglish translations — 8
 
-- [ ] `translation/banglish/prismat-fragments-of-the-fallen-sky.html`
-- [ ] `translation/banglish/somewhere-between-friends-and-love.html`
-- [ ] `translation/banglish/teaching-me-how-to-live.html`
-- [ ] `translation/banglish/the-account-that-never-came-back.html`
-- [ ] `translation/banglish/the-other-side-of-us.html`
-- [ ] `translation/banglish/the-silence-between-us.html`
-- [ ] `translation/banglish/when-everyone-went-offline.html`
-- [ ] `translation/banglish/when-we-meet-again.html`
+- [ ] `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/Meet-Again_Trilogy-Vol.2-RomanizedBangla.html`
+- [ ] `translation/banglish/Meet-Again_Trilogy-Vol.3-RomanizedBangla.html`
+- [ ] `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/Teaching-Me-How-to-Live-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/When-Everyone-Went-Offline-Vol.1-RomanizedBangla.html`
 
-### Hinglish translations — 8 files
+### Hinglish translations — 8
 
-- [ ] `translation/hinglish/prismat-fragments-of-the-fallen-sky.html`
-- [ ] `translation/hinglish/somewhere-between-friends-and-love.html`
-- [ ] `translation/hinglish/teaching-me-how-to-live.html`
-- [ ] `translation/hinglish/the-account-that-never-came-back.html`
-- [ ] `translation/hinglish/the-other-side-of-us.html`
-- [ ] `translation/hinglish/the-silence-between-us.html`
-- [ ] `translation/hinglish/when-everyone-went-offline.html`
-- [ ] `translation/hinglish/when-we-meet-again.html`
+- [ ] `translation/hinglish/Meet-Again_Trilogy-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/Meet-Again_Trilogy-Vol.2-RomanizedHindi.html`
+- [ ] `translation/hinglish/Meet-Again_Trilogy-Vol.3-RomanizedHindi.html`
+- [ ] `translation/hinglish/Prismat-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/Teaching-Me-How-to-Live-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Other-Side-of-Us-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/When-Everyone-Went-Offline-Vol.1-RomanizedHindi.html`
 
-## Priority 2 — Review files that already have paragraph markup
+## Priority 2 — Correct mixed-script Banglish
 
-These files were not classified as missing all paragraph tags. They still need a visual/structural review for inconsistent spacing, dialogue, chapter headings, and scene breaks. Do not rewrite prose just to change formatting.
+- [ ] Inspect every Bengali-script occurrence in the 8 files listed under “Mixed-script Banglish”.
+- [ ] Replace accidental Bengali-script fragments with natural Romanized Bangla.
+- [ ] Preserve modern, conversational Banglish; do not formalize the language or change story meaning.
+- [ ] Confirm no Bengali Unicode remains in the Banglish story prose after corrections.
+- [ ] Re-read the affected paragraphs in context to catch awkward transliteration introduced by correction.
 
-### Main stories
+## Priority 3 — Structural review of files that already contain paragraphs
+
+Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, and chapter structure. Do not change prose just to make formatting uniform.
+
+### English story sources — 7
 
 - [ ] `stories/before-the-feelings-fade-vol-1.html`
 - [ ] `stories/before-the-feelings-fade-vol-2.html`
@@ -74,120 +108,106 @@ These files were not classified as missing all paragraph tags. They still need a
 - [ ] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-3.html`
 - [ ] `stories/the-words-we-never-sent.html`
 
-### Banglish translations
+### Banglish translations — 9
 
-- [ ] `translation/banglish/the-face-i-never-forgot.html`
-- [ ] `translation/banglish/the-girl-by-the-school-gate.html`
-- [ ] `translation/banglish/the-little-bird-returns.html`
-- [ ] `translation/banglish/the-messages-we-mistook.html`
-- [ ] `translation/banglish/the-student-council-president-hates-everyone-vol-1.html`
-- [ ] `translation/banglish/the-student-council-president-hates-everyone-vol-2.html`
-- [ ] `translation/banglish/the-words-we-never-sent.html`
-- [ ] `translation/banglish/where-our-story-begins.html`
+- [ ] `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/Before-the-Feelings-Fade-Vol.2-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Little-Bird-Chronicles-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Little-Bird-Chronicles-Vol.2-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Little-Bird-Chronicles-Vol.3-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-RomanizedBangla.html`
+- [ ] `translation/banglish/The-Words-We-Never-Sent-Vol.1-RomanizedBangla.html`
 
-### Hinglish translations
+### Hinglish translations — 9
 
-- [ ] `translation/hinglish/the-face-i-never-forgot.html`
-- [ ] `translation/hinglish/the-girl-by-the-school-gate.html`
-- [ ] `translation/hinglish/the-little-bird-returns.html`
-- [ ] `translation/hinglish/the-messages-we-mistook.html`
-- [ ] `translation/hinglish/the-student-council-president-hates-everyone-vol-1.html`
-- [ ] `translation/hinglish/the-student-council-president-hates-everyone-vol-2.html`
-- [ ] `translation/hinglish/the-words-we-never-sent.html`
-- [ ] `translation/hinglish/where-our-story-begins.html`
+- [ ] `translation/hinglish/Before-the-Feelings-Fade-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/Before-the-Feelings-Fade-Vol.2-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Little-Bird-Chronicles-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Little-Bird-Chronicles-Vol.2-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Little-Bird-Chronicles-Vol.3-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-RomanizedHindi.html`
+- [ ] `translation/hinglish/The-Words-We-Never-Sent-Vol.1-RomanizedHindi.html`
 
-## Priority 3 — Reader and formatting QA
+## Priority 4 — Compare source and translation structure
 
-- [ ] Check every listed story and translation in the actual reader after formatting.
-- [ ] Ensure paragraphs have clear separation and readable line length.
-- [ ] Preserve dialogue as distinct paragraphs; do not merge separate speakers into one paragraph.
-- [ ] Preserve intentional scene breaks, chapter titles, subheadings, italics, bold, and other meaningful inline markup.
-- [ ] Check that chapter navigation and the table of contents still work after edits.
-- [ ] Check that all translations retain the same chapter order and intended story structure as their source where applicable.
-- [ ] Confirm the language switcher links to the correct translation file, and do not invent translations that do not exist.
-- [ ] Check desktop and mobile layouts, light/dark themes, and the floating reader controls.
-- [ ] Run the site's available checks/build and inspect the GitHub Actions result before calling a change deployed.
+- [x] Confirm all 34 translation files map to the intended canonical English story URL.
+- [x] Check chapter heading sequences across the published source/translation sets; the audited sequences correspond.
+- [x] Check chapter IDs for duplicates; none were found in the audited files.
+- [ ] Compare Before the Feelings Fade Vol.2 paragraph boundaries chapter-by-chapter; resolve the 18-paragraph difference only where a real boundary is missing.
+- [ ] Compare Council Vol.1 paragraph boundaries chapter-by-chapter; resolve the large source/translation paragraph-count difference without changing translated wording.
+- [ ] Compare all remaining source/translation pairs for missing or merged paragraphs, dialogue separation, scene breaks, epigraphs, and closing notes.
+- [ ] Recheck Council Vol.2 and Vol.3 structure and endings in all three language versions.
+- [ ] Recheck the Meet Again trilogy's final chapter title remains exactly `Meet Again` in English, Hinglish, and Banglish.
+- [ ] Verify The Council Vol.2 continuation text links to canonical Vol.3 in all three languages; verify the rendered link after build.
 
-## Priority 4 — Meet Again trilogy chapter titles
+## Priority 5 — Reader, navigation, and deployment QA
 
-The last chapter titles in all three volumes were requested to be `Meet Again` rather than `Phir Milenge...`. The title edits were committed on 2026-10-29:
+### Shared reader and translation switching
 
-- [x] `stories/meet-again-trilogy-vol-1.html` — final chapter title set to `Meet Again`
-- [x] `stories/meet-again-trilogy-vol-2.html` — final chapter title set to `Meet Again`
-- [x] `stories/meet-again-trilogy-vol-3.html` — final chapter title set to `Meet Again`
+- [x] Shared `_layouts/light-novel.html` includes English, Hinglish, and Banglish language options based on each story's available translation pages.
+- [x] Language switching is implemented as an in-place fetch while retaining the canonical English URL.
+- [x] Per-story/volume language preference storage is implemented.
+- [x] Translation fetch failure retains the current reader content and offers navigation to the selected translation page as a fallback.
+- [x] Direct translation-page visits are implemented to normalize to the canonical story URL.
+- [ ] Test language switching on every story/volume with available translations.
+- [ ] Test independent language preferences across different stories and volumes, including refresh and back/forward navigation.
+- [ ] Test that chapter, scroll position, theme, text size, and controls remain stable after switching.
+- [ ] Test failed fetch and missing translation behaviour without a blank reader or stale selected-language indicator.
+- [ ] Verify direct translation URLs normalize correctly in the deployed site.
 
-These are recorded as committed edits; verify the latest deployment workflow separately before considering them live.
+### Reading experience
 
-## Counting note
+- [x] Reading progress percentage and progress indicator are present.
+- [x] Reading position save/restore logic is present.
+- [x] Reader text-size controls and reset are present.
+- [x] Theme toggle and edge fade elements are present.
+- [x] Previous/next volume navigation is generated from the English series volumes.
+- [ ] Test save/restore prompt and reading position in a real browser.
+- [ ] Test controls and edge fades at desktop and mobile widths, in both themes.
+- [ ] Verify volume navigation appears only where a previous/next volume exists and links to the correct volume.
 
-The paragraph-markup audit identified **26 files with zero paragraph tags**: 10 main stories, 8 Banglish translations, and 8 Hinglish translations. A separate set of **23 files** already had paragraph tags and was placed in the review list above. This is a markup audit, not a guarantee that every listed or unlisted page is otherwise flawless.
+### Site navigation and assets
 
+- [x] `_layouts/default.html` and `_layouts/light-novel.html` reference `/icon.png` as the favicon.
+- [x] Shared site navigation sets `aria-current="page"` for Home when the page URL is `/home/`.
+- [x] Library filters out translation pages and groups English editions by series and volume.
+- [ ] Test Home selected state and all navigation links on the deployed site.
+- [ ] Test Library series grouping, single-volume direct opening, and multi-volume chooser on desktop/mobile.
+- [ ] Confirm the homepage's random-story links all resolve to existing canonical story pages.
 
-## Priority 5 — Translation filename migration
+### Build and deployment
 
-Use series-and-volume-based filenames for every existing translation source. Preserve each file's front matter, generated permalink, translation content, chapter IDs, and `translation_of` mapping.
+- [x] Latest recorded Pages workflow for commit `c9672dbfdd16eb7f9467c3a2f5ca5bf05fed703f` succeeded.
+- [ ] After the formatting and romanization changes, run the Jekyll build and inspect the complete GitHub Actions result.
+- [ ] Verify the deployed pages visually; a successful workflow alone does not complete reader QA.
+- [ ] Recheck all changed story and translation pages after deployment.
 
-- [x] Confirm the exact series slug convention, including the owner's example `Meet-Again_Trilogy`.
-- [x] Rename all existing Hinglish translation files with the `-RomanizedHindi.html` suffix.
-- [x] Rename all existing Banglish translation files with the `-RomanizedBangla.html` suffix.
-- [x] Verify each renamed file still maps to the correct English story and volume using its preserved `translation_of`, `series`, and `volume` front matter.
-- [x] Verify no translation appears as an independent Library entry; `library.html` filters out pages with `translation_of` set.
-- [x] Verify no translation content or front matter was lost during the rename; all 32 renamed paths reuse their original Git blob contents.
+## Completed historical work
 
-## Priority 6 — In-place translation switching and language memory
+- [x] Council Vol.2 Hinglish and Banglish translations completed.
+- [x] Council Vol.3 Hinglish and Banglish translations completed.
+- [x] Restored original English chapter titles in 16 translation files during Phase 2.
+- [x] Meet Again Trilogy final chapter titles set to `Meet Again` in all three English volumes.
+- [x] Migrated 32 translation files to the Romanized language suffix naming convention.
+- [x] Translation pages excluded from independent Library entries.
+- [x] Implemented canonical-URL in-place translation switching and per-story/volume language memory.
+- [x] Implemented shared reader title stack and Council Vol.2 continuation link corrections.
+- [x] Implemented reader progress, restore-reading support, text-size controls, theme behaviour, and edge fades.
+- [x] Implemented the favicon and Home navigation selected state.
 
-- [x] Add the in-place translation-loading architecture to the shared `_layouts/light-novel.html` reader.
-- [x] Add per-story/volume localStorage preference handling to the shared reader.
-- [x] Add language-option metadata for English, Hinglish, and Banglish in the desktop and mobile menus.
-- [ ] Verify switching languages leaves the canonical story URL unchanged.
-- [ ] Verify each story/volume remembers its own language independently across navigation and refreshes.
-- [ ] Verify direct visits to legacy translation URLs normalize to the canonical English story URL.
-- [ ] Verify chapter position, scroll position, theme, text size, and reader controls remain stable after switching.
-- [ ] Verify missing/unavailable translations safely fall back to English.
-- [ ] Test translation loading failures without losing the currently displayed story.
-- [ ] Test all available translations on desktop and mobile.
-- [ ] Run the Jekyll build and inspect the GitHub Actions deployment result.
+## Acceptance rules
 
-## Translation completion note
+A formatting task is complete only after:
+- [ ] Paragraphs render separately and dialogue remains separated by speaker.
+- [ ] Scene breaks, chapter headings, inline formatting, and chapter IDs remain intact.
+- [ ] No nested/malformed paragraph markup or duplicate IDs are introduced.
+- [ ] Story wording is unchanged unless an explicit prose-edit request exists.
+- [ ] Source/translation structure has been checked where a matching translation exists.
+- [ ] The reader has been checked at desktop and mobile sizes and in light/dark themes.
+- [ ] The relevant build/deployment workflow has completed successfully.
 
-- [x] The Council Volume 2 Hinglish translation is complete.
-- [x] The Council Volume 2 Banglish translation is complete.
-- [x] The Council Volume 3 Hinglish translation is complete.
-- [x] The Council Volume 3 Banglish translation is complete.
-
-The translation filename migration and reader-switching QA above are separate from translation prose completion.
-
-
-## Priority 7 — Council end-of-volume text redirects
-
-These are the inline text links at the end of a volume, not the reader's Prev/Next buttons.
-
-- [x] Verify Volume One's end-of-volume text link points to the canonical Volume Two page in the main, Hinglish, and Banglish files.
-- [x] Fix Volume Two's end-of-volume text redirect so it is a clickable link to the canonical Volume Three page in the main, Hinglish, and Banglish files.
-- [ ] Verify the rendered links work after the Jekyll build/deployment.
-- [x] Council Vol.3 Hinglish and Banglish translations preserve the final-volume ending without adding a misleading next-volume link.
-
-
-
-## Priority 8 — Shared reader title and translation-link reliability
-
-This is a shared-layout change and applies to every English story plus every available translation, not only the Council series.
-
-- [x] Remove the duplicate large volume heading from the shared reader hero; promote the existing series-and-volume eyebrow to the single main heading.
-- [x] Increase the first series-and-volume heading from the small eyebrow treatment to the former main-title size.
-- [x] Keep the book title (the smaller title beneath the series heading) unchanged.
-- [x] Add a navigation fallback so a translation choice still opens its translation page if the in-place fetch fails; translation pages are expected to normalize back to the canonical English story URL.
-- [ ] Verify Hinglish and Banglish options are visible and selectable for stories that have those translations.
-- [ ] Verify both language options load in place without changing the canonical URL under normal conditions.
-- [ ] Verify the fallback opens the chosen translation if in-place loading fails, then returns to the canonical story URL with that language selected.
-- [ ] Check the new single-heading hierarchy and sizing on desktop/mobile and in light/dark themes.
-- [ ] Run the Jekyll build and inspect the GitHub Actions result before considering the change deployed.
-
-## Priority 9 — Reader title stack and Council Vol.2 continuation links
-
-- [x] Increase the series title from 12px to 14px (+2px).
-- [x] Arrange the shared reader heading in this order: series title, volume number, decorative ornamental divider, then the book title.
-- [x] Apply the shared heading design to all English stories and translations through `_layouts/light-novel.html`.
-- [x] Standardize the Council Vol.2 continuation anchor in the English, Hinglish, and Banglish source files; use one complete clickable link and the exact Vol.3 permalink with its trailing slash.
-- [ ] Verify the rendered continuation link in all three deployed pages after the GitHub Pages build.
-- [ ] Verify the title stack at desktop/mobile widths and in both themes.
+Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance checks are verified.
