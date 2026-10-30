@@ -9,13 +9,32 @@ This file is the current roadmap and completion record for Tidewritten. Active w
 - **Previous implementation and maintenance roadmap:** completed. The historical phases below summarize the original Priorities 1–6, translation/content work, reader QA, filename standardization, and repository cleanup.
 - **Published content inventory at the last full audit:** 17 canonical English volumes, 17 Hinglish translations, and 17 Banglish translations — 51 published HTML pages.
 - **Reader and site polish:** implemented. The site owner reported that the Priority 5 live checks passed, including navigation, Library/volume navigation, reader controls, translation switching, themes, responsive behaviour, and accessibility. This is owner-reported browser QA, not an independent browser test.
-- **New roadmap:** five future phases have been added. They are proposals awaiting implementation, not features already present.
+- **New roadmap:** six future phases have been added. They are proposals awaiting implementation, not features already present.
 
 ---
 
 # Active roadmap — next development cycle
 
-These are the next planned phases. Keep them as separate, reviewable milestones; do not implement all five as one large redesign. Preserve the existing Tidewritten cyan/aquatic identity and the light-novel reading-first experience.
+These are the next planned phases. Keep them as separate, reviewable milestones; do not implement all six as one large redesign. Preserve the existing Tidewritten cyan/aquatic identity and the light-novel reading-first experience.
+
+## Phase 1 — Professional editorial copy and site-wide tone
+
+**Goal:** Replace overly dramatic, sentimental, or slogan-like interface copy with concise, polished, professional writing that reflects a credible reading platform. This applies to the website's interface and promotional microcopy, not to the creative prose of the stories themselves.
+
+- [ ] Audit all public-facing pages and shared layouts for short promotional sentences, taglines, headings, captions, helper text, empty states, notices, and other microcopy.
+- [ ] Identify wording that relies on melodramatic emotional phrasing or generic sentimental slogans, such as "read slowly, feel slowly", "Romance, friendship, distance, and the little moments that somehow mean everything", and "Find a story, settle in, and stay a while".
+- [ ] Rewrite the identified interface copy in a professional, editorial, confident, and welcoming voice.
+- [ ] Make copy informative and purposeful: explain what a page, feature, collection, or action offers instead of using emotional language to manufacture atmosphere.
+- [ ] Keep headings concise and descriptive; use clear labels for navigation, buttons, controls, notices, and calls to action.
+- [ ] Maintain a consistent editorial voice across Home, Library, series/volume pages, About, reading guidance, and any other public-facing pages.
+- [ ] Remove repetitive filler, vague claims, excessive adjectives, forced poetic phrasing, and copy that sounds like generic AI-generated marketing text.
+- [ ] Preserve Tidewritten's identity and warmth through restrained, deliberate wording; professional must not mean cold, corporate, or unnecessarily formal.
+- [ ] Do not rewrite story narration, dialogue, chapter titles, author notes, or other creative content as part of this interface-copy phase. Story text is edited only under a separately approved content task.
+- [ ] Preserve the meaning and functionality of all notices, accessibility instructions, attribution, and legal/credit text while improving clarity.
+- [ ] Review the revised copy in context on desktop and mobile to ensure it fits the layout, communicates clearly, and does not create awkward wrapping or duplicate messages.
+- [ ] Record representative before/after examples and verify that no targeted dramatic placeholder copy remains in the active public interface.
+
+**Editorial standard:** Professional publishing-platform language; concise, specific, readable, and restrained. Use emotional or poetic language only when it is intentional story content, not as filler in the site's interface.
 
 ## Phase 1 — Reader personalization
 
