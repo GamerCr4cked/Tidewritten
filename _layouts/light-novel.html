@@ -214,7 +214,6 @@
     const canonicalStoryUrl = {{ original_story_url | relative_url | jsonify }};
     const canonicalStoryPath = new URL(canonicalStoryUrl, location.href).pathname;
     const initialLanguage = {{ page.language | default: "english" | jsonify }};
-    const initialHtmlLanguage = {{ page.html_lang | default: "en" | jsonify }};
     const languagePreferenceKey = "tidewritten-language:" + canonicalStoryPath;
     const storyArticle = document.getElementById("story-content");
     const languageOptions = Array.from(document.querySelectorAll(".language-option"));
@@ -296,7 +295,7 @@
     }
     try {
       const savedLanguage = localStorage.getItem(languagePreferenceKey);
-      const preferredLanguage = languageOptionFor(savedLanguage) ? savedLanguage : initialLanguage;
+      const preferredLanguage = languageOptionFor(savedLanguage) ? savedLanguage : (languageOptionFor("english") ? "english" : initialLanguage);
       if (preferredLanguage !== initialLanguage) setReaderLanguage(preferredLanguage, { persist: false });
       else markLanguageSelected(initialLanguage);
     } catch (e) {
