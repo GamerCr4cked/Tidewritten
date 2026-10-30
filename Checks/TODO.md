@@ -56,7 +56,8 @@ A pre-existing markup issue in `stories/before-the-feelings-fade-vol-1.html` (89
   - `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html`
   - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
   - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html`
-- [ ] **Paragraph-count discrepancy requiring comparison:** Before the Feelings Fade Vol.2 has 298 source paragraphs versus 280 in each translation. Council Vol.1 has 1,183 source paragraphs versus 504 Banglish and 501 Hinglish paragraphs. These differences may reflect intentional paragraph grouping, but must be compared chapter-by-chapter before any formatting edits.
+- [ ] **Remaining paragraph-count discrepancy:** Before the Feelings Fade Vol.2 has 298 source paragraphs versus 280 in each translation; this still needs chapter-by-chapter editorial review.
+- [x] **Council Vol.1 paragraph-count discrepancy resolved by a full translation rewrite:** the English source has 1,183 paragraphs; the rewritten Hinglish edition has 1,186 and the rewritten Banglish edition has 1,192. Chapter structure and scene-break counts match; the small paragraph-count differences are translation-specific segmentation, not the earlier 501/504-paragraph compressed drafts.
 - [x] The latest recorded Pages workflow for the Phase 2 audit commit completed successfully: [workflow run 41001971301](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41001971301). This confirms that commit's Pages build/deployment workflow, not the visual correctness of every page.
 
 ---
@@ -264,5 +265,24 @@ Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance chec
 - [ ] Verify the Jekyll build and deployment after the rewrite is complete.
 
 **Batch 1 files:**
+- `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
+- `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
+
+
+## Council Vol.1 translation rewrite — completed 2026-10-30
+
+- [x] Rewrote both published translations directly against the English source, using six two-chapter batches: Chapters 1–2, 3–4, 5–6, 7–8, 9–10, and 11–12.
+- [x] Separately retranslated and checked the Prologue, Interlude, Epilogue, and Afterword in both languages.
+- [x] Preserved the original English chapter/section titles, heading IDs, chapter order, scene breaks, character names, and the Volume Two continuation link.
+- [x] Corrected duplicate/incorrect `book_title` front-matter entries in both translations; the canonical volume title is now `One Can of Coffee and a Broken Pen`.
+- [x] Verified all expected sections are present in both translations: Prologue, Chapters 1–12, Interlude, Epilogue, and Afterword.
+- [x] Verified paragraph tags are balanced: Hinglish 1,186 opening/closing pairs; Banglish 1,192 opening/closing pairs. English source: 1,183 pairs.
+- [x] Verified all 15 scene-break separators are present in each edition, all HTML IDs are unique, and no Bengali Unicode remains in Banglish prose or Devanagari Unicode in Hinglish prose.
+- [x] Verified both translation front matters contain exactly one `book_title`, correct Volume One metadata, correct `translation_of` mapping, and the correct language labels.
+- [x] Verified both editions retain the Volume Two continuation link to `The Things We Never Said`.
+- [x] No files under `bin/` were inspected or modified.
+- [ ] Confirm the latest Pages workflow for the final translation commit: [workflow run 41012224919](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41012224919) was still waiting when checked. Do not treat deployment as confirmed until it succeeds.
+
+**Rewritten files:**
 - `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
 - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
