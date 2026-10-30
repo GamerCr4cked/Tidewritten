@@ -9,7 +9,7 @@
 
 - [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish, including Prologue, Chapters 1–7, and Epilogue.
 - [x] **Phase 2 — Chapter-title restoration:** Current audit covers all 34 published translation HTML files (17 Banglish + 17 Hinglish). Chapter-heading sequences were checked against the corresponding English story files; the previously corrected original English titles remain in place.
-- [ ] **Phase 3 — Story formatting and content QA:** Priorities 1–4 (paragraph markup, mixed-script Banglish corrections, structural review, and source/translation comparison) are complete. Priority 5 rendered-reader QA remains.
+- [x] **Phase 3 — Story formatting and content QA:** Priorities 1–4 and Priority 5 rendered-reader QA have been completed; see the Priority 5 live QA report.
 - [x] **Phase 4 — Reading experience implementation:** Shared reader contains reading progress, reading-position save/restore, text-size controls, theme control, translation switching, and responsive controls. Manual browser QA is still pending under Priority 5.
 - [x] **Phase 5 — Site polish implementation:** Favicon references `/icon.png`; the shared navigation marks Home selected for `/home/`. Manual responsive/theme QA is still pending under Priority 5.
 
@@ -42,7 +42,7 @@ The baseline audit found **26 files with zero opening `<p>` tags**: 10 English s
 - [x] Verified all 26 edited files have balanced opening and closing paragraph tags, no nested paragraph tags, and no duplicate chapter IDs.
 - [x] Verified all 51 published story/translation files now contain at least one paragraph tag.
 - [x] Jekyll build and GitHub Pages deployment succeeded for the Priority 1 formatting changes: [workflow run 41004873527](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41004873527).
-- [ ] Rendered-reader visual review remains in Priority 5.
+- [x] Rendered-reader visual review completed by the site owner; all seven Priority 5 areas were reported working.
 
 A pre-existing markup issue in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags) was investigated and fixed during Priority 3. The final italicized epilogue paragraph was missing its closing `</p>` before the Volume Two continuation link.
 
@@ -197,7 +197,7 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 - [x] Fixed a confirmed JavaScript fallback bug in `_layouts/light-novel.html`: `currentChapter()` referenced an undefined `chapterHeadings` identifier when no chapter heading had yet crossed the 170px threshold. It now uses the local list returned by `getChapterHeadings()`, so the saved reading-progress record can correctly fall back to the first chapter.
 - [x] Confirmed the source includes the favicon reference to `/icon.png`, the Home selected-state condition for `/home/`, and a random-story list with canonical `/book/...` routes.
 - [x] Confirmed the resume widget has a fixed bottom-right position on desktop and a compact expandable affordance on touch-sized screens in the stylesheet.
-- [ ] Manual rendered-reader QA remains pending: the available tools in this session could not load the live custom domain in a browser, so I have not claimed that desktop/mobile screenshots, interaction flows, theme contrast, or live navigation were visually tested.
+- [x] Manual rendered-reader QA was completed by the site owner on the deployed site. The owner confirmed the resume widget, progress/resume, homepage/navigation, Library/volumes, reader controls, translation switcher, themes, responsiveness, and accessibility all work. This is owner-reported testing, not independently captured browser evidence.
 - [ ] After the layout fix, verify the GitHub Pages workflow succeeds before considering the code fix deployed.
 
 
@@ -221,17 +221,17 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 - [x] Reader text-size controls and reset are present.
 - [x] Theme toggle and edge fade elements are present.
 - [x] Previous/next volume navigation is generated from the English series volumes.
-- [ ] Test save/restore prompt and reading position in a real browser.
-- [ ] Test controls and edge fades at desktop and mobile widths, in both themes.
-- [ ] Verify volume navigation appears only where a previous/next volume exists and links to the correct volume.
+- [x] Site owner confirmed save/restore prompt and reading position work in the deployed site.
+- [x] Site owner confirmed reader controls, edge fades, responsive behavior, and both themes work.
+- [x] Site owner confirmed Library and volume navigation work.
 
 ### Site navigation and assets
 
 - [x] `_layouts/default.html` and `_layouts/light-novel.html` reference `/icon.png` as the favicon.
 - [x] Shared site navigation sets `aria-current="page"` for Home when the page URL is `/home/`.
 - [x] Library filters out translation pages and groups English editions by series and volume.
-- [ ] Test Home selected state and all navigation links on the deployed site.
-- [ ] Test Library series grouping, single-volume direct opening, and multi-volume chooser on desktop/mobile.
+- [x] Site owner confirmed Home selected state and global navigation work.
+- [x] Site owner confirmed Library grouping and volume navigation work.
 - [ ] Confirm the homepage's random-story links all resolve to existing canonical story pages.
 
 ### Build and deployment
