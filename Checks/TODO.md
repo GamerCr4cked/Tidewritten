@@ -21,6 +21,8 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Replace overly dramatic, sentimental, or slogan-like interface copy with concise, polished, professional writing that reflects a credible reading platform. This applies to the website's interface and promotional microcopy, not to the creative prose of the stories themselves.
 
+**Current progress (2026-10-30):** Source-level copy review and revisions are in progress on `phase1/editorial-copy-audit`. Home featured-volume descriptions, Home closing callout, About, Creator, and reading-history guidance have been refined. Desktop/mobile layout review and the final scan for remaining targeted phrases are still pending; do not mark this phase complete until those checks are recorded.
+
 - [ ] Audit all public-facing pages and shared layouts for short promotional sentences, taglines, headings, captions, helper text, empty states, notices, and other microcopy.
 - [ ] Identify wording that relies on melodramatic emotional phrasing or generic sentimental slogans, such as "read slowly, feel slowly", "Romance, friendship, distance, and the little moments that somehow mean everything", and "Find a story, settle in, and stay a while".
 - [ ] Rewrite the identified interface copy in a professional, editorial, confident, and welcoming voice.
