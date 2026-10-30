@@ -226,3 +226,11 @@ A formatting task is complete only after:
 - [ ] The relevant build/deployment workflow has completed successfully.
 
 Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance checks are verified.
+
+
+### Little Bird Chronicles Vol.3 — English emphasis fix (2026-10-30)
+
+- [x] Replaced the five literal Markdown-style `*...*` wrappers in the English source with semantic HTML `<em>...</em>` markup.
+- [x] Confirmed the corresponding five passages already use `<em>` in both Hinglish and Banglish translations; their text and formatting were left unchanged.
+- [x] Preserved all English wording, paragraph boundaries, chapter structure, and IDs. No files under `bin/` were accessed.
+- [ ] Confirm the English edition renders with the same italic/highlight treatment as both translations in the deployed reader.
