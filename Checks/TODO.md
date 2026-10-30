@@ -3,7 +3,7 @@
 > Last full source audit: 2026-10-30  
 > Audited branch: `main`  
 > Scope: published story pages, translation pages, shared reader, Library, site navigation, and relevant assets/configuration.  
-> Protected scope: never inspect, edit, move, rename, delete, or otherwise use anything under `bin/`. See [Notes.md](Notes.md) before every related task.
+> Scope note: `bin/` is off-limits during ordinary development. During an explicitly requested cleanup, it may be used only as an archive destination for verified obsolete files; do not permanently delete archived files. See [Notes.md](Notes.md).
 
 ## Current status
 
@@ -318,3 +318,15 @@ Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance chec
 - [x] Preserved all story/translation HTML blobs, front matter, prose, and existing canonical `/book/...` URLs during the file moves.
 - [ ] Verify all 51 pages are discovered by Jekyll, all 17 story groups expose the expected available languages, and GitHub Pages build/deployment succeeds.
 - [ ] Verify in the live reader that English/Hinglish/Banglish switching remains in place, keeps the canonical URL, and works for every available volume.
+
+
+## Repository cleanup — 2026-10-30
+
+- [x] Archived the unused legacy `_layouts/story.html` as `bin/_layouts/story.html` through PR #30; original file content was preserved.
+- [x] Verified the current published reader uses `_layouts/light-novel.html`; no active `layout: story` declarations were found in the current published story sources.
+- [x] Kept `coming-soon.html`: it is a standalone placeholder page and has not been proven obsolete.
+- [x] Kept both homepage sources: `index.html` redirects `/` to `/home/`, while `index.md` generates `/home/`.
+- [ ] Continue auditing remaining pages, assets, scripts, and styles for safe archive candidates.
+- [ ] Run a Jekyll build and review the GitHub Pages deployment after the cleanup batch.
+
+No story prose or translation text was changed during this cleanup.
