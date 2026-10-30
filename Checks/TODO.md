@@ -17,7 +17,7 @@ This file tracks **work that is still outstanding**. Completed work is summarize
 ### Reader and content follow-up
 
 - [ ] Confirm that the five semantic emphasis passages in Little Bird Chronicles Vol.3 English render with the intended italic/highlight treatment in the deployed reader. The source markup was corrected; deployed visual confirmation remains outstanding.
-- [ ] Verify that every homepage random-story link resolves to an existing canonical /book/.../ page.
+- [x] Verify that all 17 homepage random-story destinations match published canonical story routes. The Priority 5 live QA report also records the owner-tested random-story cards opening the intended canonical pages.
 - [ ] Complete a targeted end-to-end pass across all 17 series/volume entries: confirm Jekyll discovers the expected editions and that each available English/Hinglish/Banglish choice switches in place while preserving the canonical English URL. The owner has confirmed general translation-switcher behaviour, but exhaustive per-volume coverage is not recorded here.
 
 ### Repository cleanup
