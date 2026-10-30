@@ -29,14 +29,19 @@
     </header>
     <main class="content-area">
       <aside class="reading-resume-card" id="readingResumeCard" aria-label="Continue reading" hidden>
-        <div class="reading-resume-copy">
+        <div class="reading-resume-topline">
           <span class="reading-resume-kicker">YOUR READING THREAD</span>
+          <button class="reading-resume-dismiss" id="readingResumeDismiss" type="button" aria-label="Dismiss reading suggestion" title="Dismiss">×</button>
+        </div>
+        <div class="reading-resume-copy">
           <h2>Pick up where you left off</h2>
           <p id="readingResumeStory"></p>
           <span class="reading-resume-chapter" id="readingResumeChapter"></span>
         </div>
-        <a class="reading-resume-link" id="readingResumeLink" href="#">Continue reading <span aria-hidden="true">↗</span></a>
-        <button class="reading-resume-dismiss" id="readingResumeDismiss" type="button" aria-label="Dismiss reading suggestion" title="Dismiss">×</button>
+        <a class="reading-resume-link" id="readingResumeLink" href="#">
+          <span class="reading-resume-link-label">Continue reading</span>
+          <span class="reading-resume-link-icon" aria-hidden="true">↗</span>
+        </a>
       </aside>
       {{ content }}
     </main>
@@ -60,6 +65,25 @@
             chapter.textContent=saved.chapterTitle||'Continue from your last position';
             link.href=saved.url+'?resume=1';
             resumeCard.hidden=false;
+            // Keep hover expansion state under our control instead of relying on :hover
+            // while the card itself is changing size. A short close delay prevents the
+            // pointer from bouncing between the collapsed launcher and expanded panel.
+            var hoverMedia=window.matchMedia&&window.matchMedia('(hover: hover) and (min-width: 601px)');
+            var hoverCloseTimer=null;
+            if(hoverMedia&&hoverMedia.matches){
+              resumeCard.addEventListener('pointerenter',function(event){
+                if(event.pointerType==='touch')return;
+                window.clearTimeout(hoverCloseTimer);
+                resumeCard.classList.add('is-hover-expanded');
+              });
+              resumeCard.addEventListener('pointerleave',function(event){
+                if(event.pointerType==='touch')return;
+                window.clearTimeout(hoverCloseTimer);
+                hoverCloseTimer=window.setTimeout(function(){
+                  resumeCard.classList.remove('is-hover-expanded');
+                },180);
+              });
+            }
             var dismiss=document.getElementById('readingResumeDismiss');
             var resumeLink=document.getElementById('readingResumeLink');
             dismiss.addEventListener('click',function(){resumeCard.hidden=true;});
