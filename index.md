@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tidewritten
+title: Home
 description: Browse original light novels across romance, coming-of-age, friendship, drama, and speculative fiction.
 permalink: /home/
 ---
