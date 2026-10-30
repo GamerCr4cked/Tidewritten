@@ -48,14 +48,25 @@ The previous design changed the card's width, padding, shape, and CTA placement 
 - Reduced-motion preferences disable the transitions.
 - This is a source-level redesign and still needs live browser verification.
 
-## Known outstanding audit items
+## Live QA results — 2026-10-30
 
-- Manual rendered-reader QA is not yet complete.
-- Verify the resume hover animation after the working branch is merged and deployed.
-- Test reading progress and resume restoration using a real browser; do not clear local storage during testing.
-- Test all available translation choices and persistence on stories with translations, plus English-only stories.
-- Check the Library and all volume-navigation links in the live site.
-- Check dark/light theme contrast, mobile controls, and text/edge-fade layout.
+The site owner completed the following checks on the deployed site and reported that all tested behavior works correctly:
+
+- [x] Circular resume-widget animation and interaction.
+- [x] Reading progress, saved position, and resume restoration.
+- [x] Homepage, global navigation, Home selected state, and favicon.
+- [x] Library series grouping and volume navigation.
+- [x] Reader layout and controls.
+- [x] Translation switcher.
+- [x] Dark/light themes, responsive behavior, and accessibility checks.
+
+These are owner-reported live-browser results; no independent browser session or screenshots were available to this audit. No failure was reported.
+
+## Remaining audit notes
+
+- The owner-reported Priority 5 live QA is complete with all seven task areas passing.
+- The existing `Checks/TODO.md` records a separate editorial paragraph-count discrepancy in Before the Feelings Fade Vol.2 (298 source paragraphs vs. 280 in each translation); it is not part of this reader QA.
+- The existing TODO also records Council Vol.1 translation rewrite completion. Do not infer content completeness beyond the recorded checks without a fresh content audit.
 - The existing `Checks/TODO.md` records a separate editorial paragraph-count discrepancy in Before the Feelings Fade Vol.2 (298 source paragraphs vs. 280 in each translation); it is not part of this animation fix.
 - The existing TODO also records Council Vol.1 translation rewrite completion. Do not infer content completeness beyond the recorded checks without a fresh content audit.
 
@@ -78,75 +89,75 @@ Use the live site: **https://tidewritten.gc.run.place**
 
 ### Task 2 — Reading progress and resume correctness
 
-- [ ] Progress percentage changes while scrolling and stays within 0–100%.
-- [ ] Saved record identifies the expected story and chapter.
-- [ ] Homepage resume widget displays the correct story/chapter.
-- [ ] Continue reading restores the expected position.
-- [ ] Refreshing the story does not break restoration.
-- [ ] The widget does not cover important page controls or block links.
-- [ ] Dismiss closes the widget for the current page view.
-- [ ] No local storage was cleared as part of testing.
+- [x] Progress percentage changes while scrolling and stays within 0–100%.
+- [x] Saved record identifies the expected story and chapter.
+- [x] Homepage resume widget displays the correct story/chapter.
+- [x] Continue reading restores the expected position.
+- [x] Refreshing the story does not break restoration.
+- [x] The widget does not cover important page controls or block links.
+- [x] Dismiss closes the widget for the current page view.
+- [x] No local storage was cleared as part of testing.
 
 ### Task 3 — Homepage and global navigation
 
-- [ ] Homepage loads without layout errors.
-- [ ] Home remains visibly selected while on the homepage, not only on hover.
-- [ ] Favicon displays `icon.png` (use Ctrl+Shift+R if the browser caches the old icon).
-- [ ] Random-story cards open the intended canonical story pages.
-- [ ] Library, About, Creator, and Reading Guide links work.
-- [ ] Theme toggle works and the chosen theme remains consistent after navigation/refresh.
+- [x] Homepage loads without layout errors.
+- [x] Home remains visibly selected while on the homepage, not only on hover.
+- [x] Favicon displays `icon.png`.
+- [x] Random-story cards open the intended canonical story pages.
+- [x] Library, About, Creator, and Reading Guide links work.
+- [x] Theme toggle works and the chosen theme remains consistent after navigation/refresh.
 
 ### Task 4 — Library and volume navigation
 
 Test one multi-volume series and one single-volume story.
 
-- [ ] Library groups stories by series, not by language edition.
-- [ ] Hinglish and Banglish translations do not appear as separate Library entries.
-- [ ] Multi-volume series opens the correct volume chooser.
-- [ ] Single-volume series opens directly where intended.
-- [ ] Titles and volume numbers are correct.
-- [ ] Previous/Next links appear only when the adjacent volume exists.
-- [ ] The final volume has no broken Next link.
-- [ ] Every tested volume link opens the correct story.
+- [x] Library groups stories by series, not by language edition.
+- [x] Hinglish and Banglish translations do not appear as separate Library entries.
+- [x] Multi-volume series opens the correct volume chooser.
+- [x] Single-volume series opens directly where intended.
+- [x] Titles and volume numbers are correct.
+- [x] Previous/Next links appear only when the adjacent volume exists.
+- [x] The final volume has no broken Next link.
+- [x] Every tested volume link opens the correct story.
 
 ### Task 5 — Reader layout and controls
 
 Prefer **The Little Bird Chronicles — Vol. 1**.
 
-- [ ] Paragraphs have clear separation; dialogue remains readable.
-- [ ] Chapter headings, scene breaks, emphasis, and end matter look correct.
-- [ ] Reading progress does not cover the top of the story text.
-- [ ] Percentage indicator is visible and sensible.
-- [ ] A+, A−, and Reset controls work and do not overlap.
-- [ ] Theme toggle does not overlap story text or reader controls.
-- [ ] Top/bottom edge fades are subtle and do not reduce readability.
-- [ ] Previous/Next volume controls are correct.
+- [x] Paragraphs have clear separation; dialogue remains readable.
+- [x] Chapter headings, scene breaks, emphasis, and end matter look correct.
+- [x] Reading progress does not cover the top of the story text.
+- [x] Percentage indicator is visible and sensible.
+- [x] A+, A−, and Reset controls work and do not overlap.
+- [x] Theme toggle does not overlap story text or reader controls.
+- [x] Top/bottom edge fades are subtle and do not reduce readability.
+- [x] Previous/Next volume controls are correct.
 
 ### Task 6 — Translation switcher
 
 On a story with all available editions:
 
-- [ ] English (Original), Hinglish, and Banglish options appear when available.
-- [ ] Selected language is visibly highlighted.
-- [ ] Switching languages updates prose without changing the canonical URL.
-- [ ] Switching back to English restores the original prose.
-- [ ] Original story title, character names, and chapter titles remain correct.
-- [ ] No duplicate headings, stale prose, or mixed-language fragments appear unexpectedly.
-- [ ] Chapter and approximate scroll position are preserved after switching.
-- [ ] Language preference persists after refresh and remains independent per story/volume.
-- [ ] On an English-only story, English is selected and unavailable translations are not offered.
+- [x] English (Original), Hinglish, and Banglish options appear when available.
+- [x] Selected language is visibly highlighted.
+- [x] Switching languages updates prose without changing the canonical URL.
+- [x] Switching back to English restores the original prose.
+- [x] Original story title, character names, and chapter titles remain correct.
+- [x] No duplicate headings, stale prose, or mixed-language fragments appear unexpectedly.
+- [x] Chapter and approximate scroll position are preserved after switching.
+- [x] Language preference persists after refresh and remains independent per story/volume.
+- [x] On an English-only story, English is selected and unavailable translations are not offered.
 
 ### Task 7 — Theme, responsive layout, and accessibility
 
-- [ ] Dark theme is readable and all controls remain visible.
-- [ ] Light theme is readable and all controls adapt to it.
-- [ ] Switching theme does not reset chapter or reading position.
-- [ ] Test at desktop width and a narrow mobile viewport (Chrome DevTools device mode is acceptable).
-- [ ] No horizontal page scrolling on mobile.
-- [ ] Mobile Reading controls and translation menu open/close correctly.
-- [ ] Resume widget is usable on touch screens and does not cover essential controls.
-- [ ] Keyboard focus can reach and operate the resume widget and reader controls.
-- [ ] Reduced-motion preference does not introduce awkward animation.
+- [x] Dark theme is readable and all controls remain visible.
+- [x] Light theme is readable and all controls adapt to it.
+- [x] Switching theme does not reset chapter or reading position.
+- [x] Desktop width and a narrow mobile viewport tested.
+- [x] No horizontal page scrolling on mobile.
+- [x] Mobile Reading controls and translation menu open/close correctly.
+- [x] Resume widget is usable on touch screens and does not cover essential controls.
+- [x] Keyboard focus can reach and operate the resume widget and reader controls.
+- [x] Reduced-motion preference does not introduce awkward animation.
 
 ## Report results back
 
@@ -174,4 +185,4 @@ Problems and reproduction steps:
 Screenshot(s):
 ```
 
-**Status:** source-level audit recorded; manual live verification is still pending. Do not mark the tasks passed until they have been checked on the deployed site.
+**Status:** all seven Priority 5 task areas were reported passing by the site owner on the deployed site on 2026-10-30. This report records owner-reported results, not independently captured browser evidence.
