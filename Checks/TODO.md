@@ -102,3 +102,36 @@ These are recorded as committed edits; verify the latest deployment workflow sep
 ## Counting note
 
 The paragraph-markup audit identified **26 files with zero paragraph tags**: 10 main stories, 8 Banglish translations, and 8 Hinglish translations. A separate set of **23 files** already had paragraph tags and was placed in the review list above. This is a markup audit, not a guarantee that every listed or unlisted page is otherwise flawless.
+
+
+## Priority 5 — Translation filename migration
+
+Use series-and-volume-based filenames for every existing translation source. Preserve each file's front matter, generated permalink, translation content, chapter IDs, and `translation_of` mapping.
+
+- [ ] Confirm the exact series slug convention, including the owner's example `Meet-Again_Trilogy`.
+- [ ] Rename all existing Hinglish translation files with the `-RomanizedHindi.html` suffix.
+- [ ] Rename all existing Banglish translation files with the `-RomanizedBangla.html` suffix.
+- [ ] Verify each renamed file still maps to the correct English story and volume.
+- [ ] Verify no translation appears as an independent Library entry.
+- [ ] Verify no translation content or front matter was lost during the rename.
+
+## Priority 6 — In-place translation switching and language memory
+
+- [x] Add the in-place translation-loading architecture to the shared `_layouts/light-novel.html` reader.
+- [x] Add per-story/volume localStorage preference handling to the shared reader.
+- [x] Add language-option metadata for English, Hinglish, and Banglish in the desktop and mobile menus.
+- [ ] Verify switching languages leaves the canonical story URL unchanged.
+- [ ] Verify each story/volume remembers its own language independently across navigation and refreshes.
+- [ ] Verify direct visits to legacy translation URLs normalize to the canonical English story URL.
+- [ ] Verify chapter position, scroll position, theme, text size, and reader controls remain stable after switching.
+- [ ] Verify missing/unavailable translations safely fall back to English.
+- [ ] Test translation loading failures without losing the currently displayed story.
+- [ ] Test all available translations on desktop and mobile.
+- [ ] Run the Jekyll build and inspect the GitHub Actions deployment result.
+
+## Translation completion note
+
+- [x] The Council Volume 2 Hinglish translation is complete.
+- [x] The Council Volume 2 Banglish translation is complete.
+
+The translation filename migration and reader-switching QA above are separate from translation prose completion.
