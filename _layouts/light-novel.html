@@ -331,10 +331,10 @@
       apply();
       const progressKey = "tidewritten-reading-progress-v1";
       const story = document.getElementById("story-content");
-      const chapterHeadings = story ? Array.from(story.querySelectorAll("h2[id^='chapter-']")) : [];
+      const getChapterHeadings = () => story ? Array.from(story.querySelectorAll("h2[id^='chapter-']")) : [];
       const currentChapter = () => {
         let active = null;
-        for (const heading of chapterHeadings) {
+        for (const heading of getChapterHeadings()) {
           if (heading.getBoundingClientRect().top <= 170) active = heading;
           else break;
         }
