@@ -1,17 +1,18 @@
 # Tidewritten Website — Project Notes & Working Rules
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
 
 These notes capture the project rules and preferences that should guide future Tidewritten website work. If a task-specific request from the site owner explicitly changes a rule, follow the newer request for that task.
 
-## 1. Scope and protected folders
+## 1. Scope and archive folders
 
-- **Never use `bin/` as a source for story audits, formatting fixes, translations, or new website content.**
-- Do not inspect, edit, rename, move, delete, or otherwise touch `bin/` unless the owner explicitly asks for that work.
-- Treat `bin/` as out of scope, even if it contains files with similar story names or older content.
-- A future rename from `bin/` to `.bin/` may be considered to signal that it is internal/ignored, but **do not rename it automatically**. First check references, scripts, links, build configuration, and deployment behaviour, then ask for approval. Renaming a directory can break paths.
-- Work only with the public website sources and relevant site files, including `stories/`, `translation/banglish/`, `translation/hinglish/`, and relevant layout, stylesheet, script, configuration, and asset files outside `bin/`.
-- Keep work limited to the files relevant to the request. Do not make unrelated cleanups.
+- `bin/` is not a source for story audits, formatting fixes, translations, or new website content.
+- During ordinary development, do not inspect, edit, rename, move, delete, or otherwise use anything under `bin/`.
+- **During an explicitly requested repository-cleanup task, `bin/` may be used as an archive destination** for verified obsolete files. Verify references and build/deployment implications first; preserve files rather than permanently deleting them.
+- Do not archive uncertain files. Keep them in place until their purpose and references are understood.
+- Preserve original relative paths under `bin/` where practical (for example, `_layouts/example.html` becomes `bin/_layouts/example.html`).
+- Never permanently delete archived files unless the owner separately and explicitly requests permanent deletion.
+- Work only with relevant public website sources and keep changes limited to the cleanup scope.
 
 ## 2. Story text and paragraph formatting
 
@@ -101,7 +102,7 @@ These notes capture the project rules and preferences that should guide future T
 - Clearly distinguish an audit finding from a completed fix.
 - Summarize changed file paths and the purpose of each change.
 - Mention important limitations or checks that remain unfinished.
-- Do not touch `bin/` as part of an ordinary story or translation task.
+- Do not touch `bin/` as part of an ordinary story or translation task. The explicit cleanup exception in Section 1 applies only to repository-cleanup work.
 
 
 ## 10. Translation architecture — canonical URLs and persistent language
