@@ -5,12 +5,21 @@
 ## Current project phases
 
 - [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish. All seven chapters, Prologue, and Epilogue are translated; the work was committed in two-chapter batches and the original English chapter titles are preserved.
-- [ ] **Phase 2 — Chapter-title restoration:** Audit every available translation and restore the exact original English chapter titles wherever they were translated or altered.
+- [x] **Phase 2 — Chapter-title restoration:** Audited all 33 published Hinglish and Banglish translation files against their matching English source headings. Restored altered chapter titles in 16 files (8 stories × 2 languages); unchanged titles, chapter numbering, IDs, and translated prose were preserved.
 - [ ] **Phase 3 — Story formatting and content QA:** Fix collapsed paragraphs, check structural HTML consistency, compare chapter order/content against source files, and review every reader page.
 - [x] **Phase 4 — Reading experience:** Reading progress, restore-reading prompt, reader controls, theme behaviour, translation switching architecture, and related reading UX work.
 - [x] **Phase 5 — Final polish:** Site-wide visual and navigation polish, including favicon and home navigation state.
 
 Phase completion is tracked separately from the detailed file-level QA lists below. Do not mark Phases 1–3 complete until their acceptance checks are actually verified.
+
+### Phase 2 audit record
+
+- [x] Compared every available translation's chapter headings with its corresponding English source.
+- [x] Restored original English titles in both languages for Before the Feelings Fade Vol.2, Meet Again Trilogy Vols.1–3, Prismat, Teaching Me How to Live, The Words We Never Sent, and When Everyone Went Offline.
+- [x] Confirmed chapter identifiers and numbering were not changed by the title restoration.
+- [x] Left all translated story prose and `bin/` untouched.
+- [ ] Verify the updated headings in the deployed reader after the next successful Pages deployment.
+
 
 ## Priority 1 — Fix collapsed story paragraphs
 
