@@ -29,14 +29,19 @@
     </header>
     <main class="content-area">
       <aside class="reading-resume-card" id="readingResumeCard" aria-label="Continue reading" hidden>
-        <div class="reading-resume-copy">
+        <div class="reading-resume-topline">
           <span class="reading-resume-kicker">YOUR READING THREAD</span>
+          <button class="reading-resume-dismiss" id="readingResumeDismiss" type="button" aria-label="Dismiss reading suggestion" title="Dismiss">×</button>
+        </div>
+        <div class="reading-resume-copy">
           <h2>Pick up where you left off</h2>
           <p id="readingResumeStory"></p>
           <span class="reading-resume-chapter" id="readingResumeChapter"></span>
         </div>
-        <a class="reading-resume-link" id="readingResumeLink" href="#">Continue reading <span aria-hidden="true">↗</span></a>
-        <button class="reading-resume-dismiss" id="readingResumeDismiss" type="button" aria-label="Dismiss reading suggestion" title="Dismiss">×</button>
+        <a class="reading-resume-link" id="readingResumeLink" href="#">
+          <span class="reading-resume-link-label">Continue reading</span>
+          <span class="reading-resume-link-icon" aria-hidden="true">↗</span>
+        </a>
       </aside>
       {{ content }}
     </main>
