@@ -4,7 +4,7 @@
 
 ## Current project phases
 
-- [ ] **Phase 1 — Translation completion:** Finish The Council Vol.3 in both Hinglish and Banglish, following the required two-chapter batches and preserving original English chapter titles.
+- [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish. All seven chapters, Prologue, and Epilogue are translated; the work was committed in two-chapter batches and the original English chapter titles are preserved.
 - [ ] **Phase 2 — Chapter-title restoration:** Audit every available translation and restore the exact original English chapter titles wherever they were translated or altered.
 - [ ] **Phase 3 — Story formatting and content QA:** Fix collapsed paragraphs, check structural HTML consistency, compare chapter order/content against source files, and review every reader page.
 - [x] **Phase 4 — Reading experience:** Reading progress, restore-reading prompt, reader controls, theme behaviour, translation switching architecture, and related reading UX work.
@@ -143,6 +143,8 @@ Use series-and-volume-based filenames for every existing translation source. Pre
 
 - [x] The Council Volume 2 Hinglish translation is complete.
 - [x] The Council Volume 2 Banglish translation is complete.
+- [x] The Council Volume 3 Hinglish translation is complete.
+- [x] The Council Volume 3 Banglish translation is complete.
 
 The translation filename migration and reader-switching QA above are separate from translation prose completion.
 
@@ -154,7 +156,7 @@ These are the inline text links at the end of a volume, not the reader's Prev/Ne
 - [x] Verify Volume One's end-of-volume text link points to the canonical Volume Two page in the main, Hinglish, and Banglish files.
 - [x] Fix Volume Two's end-of-volume text redirect so it is a clickable link to the canonical Volume Three page in the main, Hinglish, and Banglish files.
 - [ ] Verify the rendered links work after the Jekyll build/deployment.
-- [ ] When creating Council Vol.3 translations, preserve the final-volume ending without adding a misleading next-volume link.
+- [x] Council Vol.3 Hinglish and Banglish translations preserve the final-volume ending without adding a misleading next-volume link.
 
 
 
