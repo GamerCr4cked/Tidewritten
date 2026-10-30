@@ -102,3 +102,21 @@ These notes capture the project rules and preferences that should guide future T
 - Summarize changed file paths and the purpose of each change.
 - Mention important limitations or checks that remain unfinished.
 - Do not touch `bin/` as part of an ordinary story or translation task.
+
+
+## 10. Translation architecture — canonical URLs and persistent language
+
+- Translation source files live under `translation/hinglish/` and `translation/banglish/`, but their physical filenames must identify the original series and volume rather than only the translated book title.
+- Use the canonical series-and-volume identifier as the filename base. Append `-RomanizedHindi` for Hinglish files and `-RomanizedBangla` for Banglish files. Example: `Meet-Again_Trilogy-Vol.1-RomanizedHindi.html`.
+- Keep the original English story URL as the canonical browser URL for every language. Switching languages must not navigate, reload the page, or change the address bar.
+- Load the selected translation file dynamically and replace the reader content in place. The translation file's generated URL is an internal fetch source, not a navigation destination.
+- Remember the selected language independently for each story/volume using localStorage. A preference for one volume must not overwrite another volume's preference.
+- Default to English (Original) when no preference exists. If a stored language is not available for that story/volume, use English.
+- Keep the selected language indicator synchronized in desktop and mobile language menus.
+- Preserve the current chapter and approximate reading position when replacing story content. Preserve the reader's theme, text size, controls, and canonical URL.
+- When loading translated content, update language-specific reader metadata where present (tagline, genre/volume note, closing note, and document language) without changing the original story identity or Library entry.
+- If a translation fails to load, keep the currently displayed content and restore its selected-language indicator and preference. Never leave the reader blank.
+- Existing translation pages may remain published for backward compatibility, but direct visits to them should normalize to the canonical English story URL while retaining the selected language view.
+- Do not change translated prose, chapter titles, or story metadata unrelated to language switching while renaming files.
+- When renaming a translation source file, preserve its front matter and permalink unless a separate URL migration is explicitly requested. Update all internal file references and verify Jekyll still discovers the page.
+- Only mark the migration complete after all existing translations have been mapped, renamed without content loss, and tested in the deployed reader.
