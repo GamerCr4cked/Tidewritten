@@ -9,7 +9,7 @@
 
 - [x] **Phase 1 — Translation completion:** The Council Vol.3 is complete in both Hinglish and Banglish, including Prologue, Chapters 1–7, and Epilogue.
 - [x] **Phase 2 — Chapter-title restoration:** Current audit covers all 34 published translation HTML files (17 Banglish + 17 Hinglish). Chapter-heading sequences were checked against the corresponding English story files; the previously corrected original English titles remain in place.
-- [ ] **Phase 3 — Story formatting and content QA:** Priority 1 paragraph markup is complete. Remaining work: correct mixed-script Banglish, perform structural/content comparisons, and complete rendered-reader QA.
+- [ ] **Phase 3 — Story formatting and content QA:** Priority 1 paragraph markup, Priority 2 mixed-script Banglish corrections, and Priority 3 structural review are complete. Priority 4 source/translation comparisons and Priority 5 rendered-reader QA remain.
 - [x] **Phase 4 — Reading experience implementation:** Shared reader contains reading progress, reading-position save/restore, text-size controls, theme control, translation switching, and responsive controls. Manual browser QA is still pending under Priority 5.
 - [x] **Phase 5 — Site polish implementation:** Favicon references `/icon.png`; the shared navigation marks Home selected for `/home/`. Manual responsive/theme QA is still pending under Priority 5.
 
@@ -124,49 +124,50 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 
 - [x] Checked all 25 listed files for paragraph-tag balance, nesting depth, and duplicate HTML IDs. All 25 now have balanced paragraph tags, maximum paragraph nesting depth of 1, and no duplicate IDs.
 - [x] Fixed the missing `</p>` in the final epilogue paragraph of `stories/before-the-feelings-fade-vol-1.html`; its Banglish and Hinglish counterparts already had the correct closure.
-- [ ] Continue reviewing paragraph/dialogue boundaries, scene breaks, inline formatting, and chapter structure across the remaining files; this initial structural validation does not complete the full Priority 3 review.
+- [x] Completed the semantic structural pass across all 25 files: reviewed chapter/part heading order, paragraph grouping and dialogue boundaries, blockquotes, inline emphasis/strong markup, scene-break placement, end matter, and continuation links where present. The mechanical checks also found no empty paragraphs, block-level elements nested inside paragraphs, or paragraph-tag imbalance.
+- [x] Compared Council Vol.2 chapter-end separators against English; restored the 11 missing `<hr>` chapter separators in each of the Banglish and Hinglish translations. Both translations now have 24 separators, matching the 24 in English.
 
 ### English story sources — 7
 
 - [x] `stories/before-the-feelings-fade-vol-1.html` — corrected the unclosed final epilogue paragraph; verified balanced paragraph nesting.
-- [ ] `stories/before-the-feelings-fade-vol-2.html`
-- [ ] `stories/the-little-bird-chronicles-vol-1.html`
-- [ ] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-1.html`
-- [ ] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-2.html`
-- [ ] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-3.html`
-- [ ] `stories/the-words-we-never-sent.html`
+- [x] `stories/before-the-feelings-fade-vol-2.html`
+- [x] `stories/the-little-bird-chronicles-vol-1.html`
+- [x] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-1.html`
+- [x] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-2.html`
+- [x] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-3.html`
+- [x] `stories/the-words-we-never-sent.html`
 
 ### Banglish translations — 9
 
-- [ ] `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/Before-the-Feelings-Fade-Vol.2-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Little-Bird-Chronicles-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Little-Bird-Chronicles-Vol.2-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Little-Bird-Chronicles-Vol.3-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-RomanizedBangla.html`
-- [ ] `translation/banglish/The-Words-We-Never-Sent-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/Before-the-Feelings-Fade-Vol.2-RomanizedBangla.html`
+- [x] `translation/banglish/The-Little-Bird-Chronicles-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/The-Little-Bird-Chronicles-Vol.2-RomanizedBangla.html`
+- [x] `translation/banglish/The-Little-Bird-Chronicles-Vol.3-RomanizedBangla.html`
+- [x] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html`
+- [x] `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-RomanizedBangla.html`
+- [x] `translation/banglish/The-Words-We-Never-Sent-Vol.1-RomanizedBangla.html`
 
 ### Hinglish translations — 9
 
-- [ ] `translation/hinglish/Before-the-Feelings-Fade-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/Before-the-Feelings-Fade-Vol.2-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Little-Bird-Chronicles-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Little-Bird-Chronicles-Vol.2-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Little-Bird-Chronicles-Vol.3-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-RomanizedHindi.html`
-- [ ] `translation/hinglish/The-Words-We-Never-Sent-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/Before-the-Feelings-Fade-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/Before-the-Feelings-Fade-Vol.2-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Little-Bird-Chronicles-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Little-Bird-Chronicles-Vol.2-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Little-Bird-Chronicles-Vol.3-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-RomanizedHindi.html`
+- [x] `translation/hinglish/The-Words-We-Never-Sent-Vol.1-RomanizedHindi.html`
 
 ## Priority 4 — Compare source and translation structure
 
 - [x] Confirm all 34 translation files map to the intended canonical English story URL.
 - [x] Check chapter heading sequences across the published source/translation sets; the audited sequences correspond.
 - [x] Check chapter IDs for duplicates; none were found in the audited files.
-- [ ] Compare Before the Feelings Fade Vol.2 paragraph boundaries chapter-by-chapter; resolve the 18-paragraph difference only where a real boundary is missing.
-- [ ] Compare Council Vol.1 paragraph boundaries chapter-by-chapter; resolve the large source/translation paragraph-count difference without changing translated wording.
+- [ ] Compare Before the Feelings Fade Vol.2 paragraph boundaries chapter-by-chapter; source has 298 paragraphs and each translation has 280. Treat the count difference as a review flag, not an automatic formatting defect.
+- [ ] Compare Council Vol.1 paragraph boundaries chapter-by-chapter; source has 1,183 paragraphs, Banglish 504, and Hinglish 501. Determine whether the difference is paragraph grouping or missing boundaries without changing translated wording.
 - [ ] Compare all remaining source/translation pairs for missing or merged paragraphs, dialogue separation, scene breaks, epigraphs, and closing notes.
 - [ ] Recheck Council Vol.2 and Vol.3 structure and endings in all three language versions.
 - [ ] Recheck the Meet Again trilogy's final chapter title remains exactly `Meet Again` in English, Hinglish, and Banglish.
