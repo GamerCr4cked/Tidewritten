@@ -112,6 +112,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [ ] Establish and document a consistent visual identity and design system, including typography, colors, spacing, components, and interaction states.
 - [ ] Create a polished custom 404 page that fits the Tidewritten visual identity and provides useful navigation back to the Library/Home.
 - [ ] Review existing About/Creator/Reading Guide pages before adding or replacing pages; reuse or improve existing content instead of creating duplicates.
+- [x] Standardize browser document titles as `Page Name | Tidewritten`, including `Home | Tidewritten`, and remove duplicate site-name suffixes.
 - [ ] Check page titles, metadata, navigation state, accessibility, and responsive layouts.
 
 ## Roadmap-wide implementation rules
