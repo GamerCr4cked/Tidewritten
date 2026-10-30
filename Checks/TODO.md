@@ -186,8 +186,8 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 - [x] Added sequenced content reveal, explicit pointer state with delayed collapse, keyboard focus support, touch expansion, and reduced-motion handling.
 - [x] Preserved keyboard `:focus-within` expansion and the separate touch-sized interaction.
 - [x] Added the full source-level inventory and owner-facing live QA checklist in [`Checks/PRIORITY-5-READER-QA.md`](PRIORITY-5-READER-QA.md).
-- [ ] Merge and deploy the change, then confirm the hover animation in a real desktop browser.
-- [ ] Complete the remaining live tasks in `Checks/PRIORITY-5-READER-QA.md`; source inspection alone is not a PASS.
+- [x] PR #28 merged and deployed; the site owner confirmed the circular resume animation works in the live site.
+- [x] Site owner completed all remaining live QA tasks in `Checks/PRIORITY-5-READER-QA.md` and reported that all areas work correctly.
 
 ### Static QA pass — 2026-10-30
 
