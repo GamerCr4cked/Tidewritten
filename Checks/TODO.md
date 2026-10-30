@@ -47,7 +47,7 @@ The baseline audit found **26 files with zero opening `<p>` tags**: 10 English s
 A separate pre-existing markup issue was observed in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags). It was not changed during Priority 1 and should be investigated during Priority 3 structural review.
 
 
-- [ ] **Mixed-script Banglish:** 8 Banglish files contain Bengali-script characters inside otherwise Romanized Banglish prose. Find and correct each accidental mixed-script word while preserving the intended Romanized Bangla wording:
+- [x] **Mixed-script Banglish audit:** Rechecked all 8 listed Banglish files. Four files required corrections; the other four had no Bengali Unicode in their prose during the final audit.
   - `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
   - `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
   - `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
@@ -102,11 +102,19 @@ Do not rewrite or paraphrase prose. Preserve every word, punctuation mark, headi
 
 ## Priority 2 — Correct mixed-script Banglish
 
-- [ ] Inspect every Bengali-script occurrence in the 8 files listed under “Mixed-script Banglish”.
-- [ ] Replace accidental Bengali-script fragments with natural Romanized Bangla.
-- [ ] Preserve modern, conversational Banglish; do not formalize the language or change story meaning.
-- [ ] Confirm no Bengali Unicode remains in the Banglish story prose after corrections.
-- [ ] Re-read the affected paragraphs in context to catch awkward transliteration introduced by correction.
+- [x] Inspected Bengali-script occurrences across all 8 listed files.
+- [x] Replaced accidental mixed-script fragments with natural Romanized Bangla in the four affected files.
+- [x] Kept the existing conversational Banglish wording and meaning; only the mixed-script fragments were transliterated.
+- [x] Re-fetched and scanned all 8 listed files; no Bengali Unicode remains in their story prose.
+- [x] Reviewed the corrected lines in context; replacements retain the intended Romanized Bangla wording.
+
+### Priority 2 completion — 2026-10-30
+
+- [x] Corrected mixed-script Banglish in `translation/banglish/The-Little-Bird-Chronicles-Vol.3-RomanizedBangla.html` (`rakhলাম` → `rakhlam`).
+- [x] Corrected mixed-script Banglish in `translation/banglish/The-Other-Side-of-Us-Vol.1-RomanizedBangla.html` (`khোঁj` → `khoj`).
+- [x] Corrected mixed-script Banglish in `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html` (`bolলেন` → `bollen`; `korলেন` → `korlen`).
+- [x] Corrected mixed-script Banglish in `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-RomanizedBangla.html` (`duটো` → `duto`; `Taratarি` → `Taratari`; `bolলেন` → `bollen`; `katাও` → `katao`; `bhabলো` → `bhablo`).
+- [x] Final Unicode scan of all 8 Priority 2 files found zero Bengali-script characters in the story prose.
 
 ## Priority 3 — Structural review of files that already contain paragraphs
 
