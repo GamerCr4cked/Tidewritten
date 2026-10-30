@@ -252,3 +252,17 @@ Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance chec
 - [x] Confirmed the corresponding five passages already use `<em>` in both Hinglish and Banglish translations; their text and formatting were left unchanged.
 - [x] Preserved all English wording, paragraph boundaries, chapter structure, and IDs. No files under `bin/` were accessed.
 - [ ] Confirm the English edition renders with the same italic/highlight treatment as both translations in the deployed reader.
+
+
+## Council Vol.1 translation rewrite — in progress
+
+- [ ] Rewrite the Hinglish and Banglish editions directly against the English source, using a strict two-chapter-per-batch workflow.
+- [x] Batch 1: Chapters 1–2 rewritten in both languages; original English chapter headings and IDs retained.
+- [x] Removed duplicate/incorrect `book_title` front-matter entries from both translation files; retained the canonical volume title, `One Can of Coffee and a Broken Pen`.
+- [ ] Continue with each remaining pair of chapters, then separately audit the Prologue, Epilogue, and Afterword against the English source.
+- [ ] Final audit: verify no omitted passages, correct names/pronouns, natural modern Hinglish/Banglish, paragraph/dialogue structure, matching chapter IDs and scene breaks, and valid Vol.2 continuation link.
+- [ ] Verify the Jekyll build and deployment after the rewrite is complete.
+
+**Batch 1 files:**
+- `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
+- `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
