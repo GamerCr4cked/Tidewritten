@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Library — Tidewritten
-description: Browse Tidewritten's English light-novel editions, organized by series and volume.
+description: Browse the Tidewritten light-novel catalogue by series and volume.
 permalink: /library/
 ---
 
@@ -101,9 +101,9 @@ permalink: /library/
 
 <div class="novel-library">
   <section class="novel-hero">
-    <p class="novel-kicker">Tidewritten · The Light Novel Library</p>
-    <h1>Find a story.<br>Stay for the feeling.</h1>
-    <p>English light-novel editions shaped by distinct worlds, online friendships, quiet turning points, and the little moments that stay with us. Browse by series, then choose a volume when a series grows.</p>
+    <p class="novel-kicker">TIDEWRITTEN · LIGHT NOVEL CATALOGUE</p>
+    <h1>Browse light novels<br>by <em>series.</em></h1>
+    <p>Explore the English editions in the Tidewritten catalogue. Select a series to open a standalone volume or choose from its available volumes.</p>
   </section>
 
   {% assign novel_pages = site.pages | where: "layout", "light-novel" | where_exp: "p", "p.translation_of == nil" | sort: "series" %}
@@ -141,7 +141,7 @@ permalink: /library/
             <span class="series-badge muted">{% if volume_count == 1 %}Standalone{% else %}{{ volume_count }} Volumes{% endif %}</span>
           </div>
           <h3>{{ series_group.name | escape }}</h3>
-          <p class="series-desc">{{ first_volume.tagline | default: "A story carried by the tide." | escape }}</p>
+          <p class="series-desc">{{ first_volume.tagline | default: "Light-novel series." | escape }}</p>
           <div class="series-card-foot">
             <span>{% if volume_count == 1 %}One volume{% else %}{{ volume_count }} volumes{% endif %}</span>
             <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
@@ -159,12 +159,12 @@ permalink: /library/
 
   <dialog class="volume-dialog" id="volumeDialog" aria-labelledby="volumeDialogTitle">
     <div class="volume-dialog-inner">
-      <div class="volume-dialog-head"><div><h2 id="volumeDialogTitle">Choose a volume</h2><p id="volumeDialogDescription">Select where you would like to begin.</p></div><button class="volume-dialog-close" id="closeVolumeDialog" type="button" aria-label="Close volume chooser">×</button></div>
+      <div class="volume-dialog-head"><div><h2 id="volumeDialogTitle">Choose a volume</h2><p id="volumeDialogDescription">Choose a volume to open.</p></div><button class="volume-dialog-close" id="closeVolumeDialog" type="button" aria-label="Close volume chooser">×</button></div>
       <div class="volume-options" id="volumeOptions"></div>
     </div>
   </dialog>
 
-  <div class="library-note"><strong>Find your next read.</strong> Explore the stories below by series and volume, and settle into a new world.</div>
+  <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume.</div>
 </div></div>
 <script>
 (() => {
