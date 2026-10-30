@@ -94,7 +94,12 @@ The reader associates editions by the common filename base, with translation_of 
 - Use meaningful heading order, accessible names, visible focus states, sufficient contrast, and reduced-motion support.
 - Avoid decorative changes that make reading harder or obscure text.
 
-## 6. Navigation, chapter titles, and links
+## 6. Page titles, navigation, chapter titles, and links
+
+- Browser document titles use the format `Page Name | Tidewritten` across standard pages and story-reader pages.
+- Keep page front-matter titles as the page name only; the shared layout appends the site name exactly once.
+- The homepage document title is `Home | Tidewritten`. Do not use `Tidewritten | Tidewritten` or include the site name in a page's own title.
+- When changing the story-reader title suffix, update reading-history title cleanup so saved titles do not retain the site suffix.
 
 - Keep chapter headings, IDs, anchors, table-of-contents entries, and navigation links synchronized when a heading changes.
 - Do not alter titles or chapter names merely to make naming uniform.
