@@ -65,7 +65,7 @@
     .mobile-progress{display:none}
     .mobile-menu-toggle{display:none}
     .hero{max-width:900px;margin:45px auto 42px;padding:40px 28px 54px;text-align:center;position:relative}
-    .hero .eyebrow{color:var(--accent);font-size:12px;letter-spacing:.24em;text-transform:uppercase;font-weight:700}
+    .hero .eyebrow{color:var(--accent);font-size:14px;letter-spacing:.24em;text-transform:uppercase;font-weight:700}
     .book-title{max-width:620px;margin:0 auto 12px;color:var(--accent);font-family:"DM Sans",sans-serif;font-size:clamp(13px,2vw,16px);font-weight:600;letter-spacing:.02em}
     .tagline{max-width:620px;margin:0 auto;color:#b4c5ce;font-family:"Literata",serif;font-size:clamp(17px,2.4vw,21px);font-style:italic}
     .hero-rule{width:72px;height:1px;background:var(--accent);margin:30px auto 0;opacity:.8}
@@ -175,8 +175,8 @@
   <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Toggle light/dark theme">☼</button>
   <div class="mobile-progress" id="mobileProgress" aria-label="Reading progress">0%</div>
   <section class="hero">
-    <h1 class="eyebrow">{{ page.series | escape }} · Volume {{ page.volume }}</h1>
-    {% if page.book_title %}<p class="book-title">{{ page.book_title | escape }}</p>{% elsif page.title and page.title != page.series %}<p class="book-title">{{ page.title | escape }}</p>{% endif %}
+    <h1 class="eyebrow">{% if page.book_title %}{{ page.series | escape }} <span aria-hidden="true">—</span> {{ page.book_title | escape }}{% elsif page.title and page.title != page.series %}{{ page.series | escape }} <span aria-hidden="true">—</span> {{ page.title | escape }}{% else %}{{ page.series | escape }}{% endif %}</h1>
+    <p class="book-title">Volume {{ page.volume }}</p>
     <p class="tagline">{{ page.tagline | escape }}</p>
     <div class="hero-rule"></div>
   </section>
