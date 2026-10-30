@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1823">
-  <title>{{ page.title | escape }} · Tidewritten</title>
+  <title>{{ page.title | escape }} | Tidewritten</title>
   <meta name="description" content="{{ page.tagline | escape }}">
   <link rel="icon" type="image/png" href="{{ '/icon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -357,7 +357,7 @@
           const chapterTitle = heading ? heading.textContent.replace(/\s+/g, " ").trim() : "Reading";
           const record = {
             url: location.pathname,
-            title: document.title.replace(/ · Tidewritten$/, ""),
+            title: document.title.replace(/ \| Tidewritten$/, ""),
             scrollY: Math.max(0, window.scrollY),
             chapterId: heading ? heading.id : "",
             chapterTitle,
