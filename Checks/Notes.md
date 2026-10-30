@@ -1,124 +1,145 @@
-# Tidewritten Website — Project Notes & Working Rules
+# Tidewritten — Project Notes & Working Rules
 
-Last updated: 2026-10-30
+_Last updated: 2026-10-30_
 
-These notes capture the project rules and preferences that should guide future Tidewritten website work. If a task-specific request from the site owner explicitly changes a rule, follow the newer request for that task.
+This is the reference for maintaining Tidewritten. A newer, explicit task-specific instruction from the site owner takes precedence for that task. The current action list lives in [TODO.md](TODO.md); detailed QA evidence belongs in the dedicated reports.
 
-## 1. Scope and archive folders
+## 1. Project overview and source-of-truth paths
 
-- `bin/` is not a source for story audits, formatting fixes, translations, or new website content.
-- During ordinary development, do not inspect, edit, rename, move, delete, or otherwise use anything under `bin/`.
-- **During an explicitly requested repository-cleanup task, `bin/` may be used as an archive destination** for verified obsolete files. Verify references and build/deployment implications first; preserve files rather than permanently deleting them.
-- Do not archive uncertain files. Keep them in place until their purpose and references are understood.
-- Preserve original relative paths under `bin/` where practical (for example, `_layouts/example.html` becomes `bin/_layouts/example.html`).
+| Path | Purpose |
+|---|---|
+| stories/ | Canonical English story and volume pages |
+| translation/hinglish/ | Hinglish editions |
+| translation/banglish/ | Banglish editions |
+| _layouts/default.html | Shared site shell and navigation |
+| _layouts/light-novel.html | Shared light-novel reader |
+| assets/ | Stylesheets, scripts, images, and other public assets |
+| Checks/ | TODO, working notes, and audit reports |
+| bin/ | Archive destination only under the explicit cleanup exception below |
+
+The Library is series-based. It lists canonical English series/volume entries, not separate translation entries. Multi-volume series expose volume navigation; a single-volume story opens directly.
+
+The shared reader is _layouts/light-novel.html. When a problem affects multiple story pages, inspect the shared layout and its assets before editing individual story files.
+
+## 2. Protected folders and cleanup/archive policy
+
+- During ordinary development, do not inspect, edit, rename, move, delete, or otherwise use anything under bin/.
+- During an explicitly requested repository-cleanup task, bin/ may be used **only as an archive destination** for files verified to be obsolete or unused.
+- Before archiving, inspect active references and relevant front matter, navigation, scripts, stylesheets, configuration, build rules, and deployment implications.
+- Preserve the original relative path under bin/ where practical; for example, _layouts/legacy.html becomes bin/_layouts/legacy.html.
 - Never permanently delete archived files unless the owner separately and explicitly requests permanent deletion.
-- Work only with relevant public website sources and keep changes limited to the cleanup scope.
+- If a candidate's purpose or references are uncertain, leave it in place and document the uncertainty.
+- Archived files are not a source of truth for active story prose, translation audits, or new website content.
 
-## 2. Story text and paragraph formatting
+## 3. Story content and HTML formatting
 
-- The site uses HTML story files. **Plain newlines and blank lines in HTML do not reliably create visible paragraph breaks.** Use semantic HTML paragraphs (`<p>...</p>`) for prose.
-- Keep each narrative paragraph distinct. Do not turn an entire chapter into one giant paragraph.
-- Keep dialogue readable: generally one speaker's utterance per paragraph, with action beats attached only when they belong together.
-- Preserve intentional blank-space scene breaks. If a scene break is represented by a marker or dedicated element, retain its meaning and style it consistently.
-- Preserve chapter titles, subheadings, epigraphs, italics, bold, emphasis, inline links, and any other meaningful HTML.
-- Do not wrap text already inside paragraph elements a second time. Avoid invalid nested `<p>` elements.
-- Do not run a blind global replacement over an entire story. Review the HTML structure and make small, content-preserving edits.
-- **Do not rewrite, paraphrase, translate, delete, or invent story prose when the task is only formatting.** Text changes require an explicit request.
-- Preserve punctuation, spelling, language, names, and the author's wording unless the owner specifically requests copy-editing.
-- Watch for existing tags, chapter headings, scene markers, and inline formatting so automated paragraph wrapping does not damage markup.
-- Review both the source file and rendered reader after changes; source markup alone cannot prove the visual result is correct.
+- Preserve story wording, punctuation, spelling, names, language, chapter titles, and authorial intent unless the owner explicitly requests a content edit or translation.
+- A formatting-only task must not paraphrase, shorten, invent, or delete story prose.
+- Use semantic HTML paragraphs (<p>...</p>) for prose. Plain newlines and blank lines in HTML do not reliably create visible paragraph spacing.
+- Keep narrative paragraphs distinct. Dialogue should generally use one speaker's utterance per paragraph; attach action beats only where they belong together.
+- Preserve intentional scene breaks, headings, subheadings, epigraphs, blockquotes, inline emphasis, links, anchors, and end matter.
+- Do not create nested paragraphs or place block-level elements inside paragraphs.
+- Avoid blind whole-file replacements. Inspect the structure and make small, reviewed changes.
+- Do not force translated paragraph counts to match the English source mechanically. Compare scene sequence, dialogue turns, and meaning; language-specific paragraph grouping may be legitimate.
+- After formatting changes, inspect both source markup and the rendered reader. Source inspection alone does not establish visual correctness.
 
-## 3. Language and translation rules
+## 4. Translation language, workflow, and naming
 
-- Main published story files are under `stories/`.
-- Banglish translation files are under `translation/banglish/`.
-- Hinglish translation files are under `translation/hinglish/`.
-- Do not assume every story has every language. Only work with translations that actually exist in the public folders.
-- Keep the correct language and transliteration style of each translation. Do not convert Banglish into Hinglish or vice versa.
-- When formatting a translation, apply the same paragraph/dialogue/scene-break structure as appropriate, without changing its translated wording.
-- Where a corresponding source exists, check chapter order and scene structure for consistency, but do not fabricate missing chapters or translations.
-- Check language-switch links and filenames carefully. Similar story titles do not always imply that two files are matching translations.
-- Keep translations' formatting consistent with the main reader design while allowing the actual text and language to differ.
+### Language and translation style
 
-## 4. Reader layout and website design
+- Work only with translations that actually exist in the public translation folders; do not assume every volume has every language.
+- Keep Banglish and Hinglish distinct. Do not convert one transliteration style into the other.
+- Use natural, modern conversational Hinglish and Banglish rather than overly formal transliteration.
+- Do not change story titles, character names, or original chapter/section titles when translating, unless explicitly requested.
+- When translating substantial content, use the owner's requested **two-chapter-per-batch** workflow. After chapter batches, separately check any Prologue, Interlude, Epilogue, Afterword, or other additional sections.
+- Compare against the matching English source. Check completeness, names/pronouns, dialogue turns, scene order, IDs, headings, and continuation links; do not rely on paragraph counts alone.
 
-- The shared light-novel layout is `_layouts/light-novel.html`; check it when the same rendering problem affects multiple published story pages.
-- The layout renders story content inside the story-content article. Content inserted as raw HTML must contain the markup needed for visible paragraph and structural formatting.
-- Do not duplicate a story title if the layout already displays it.
-- Keep the story text as the main focus, with the floating reader controls positioned to the left on desktop and the circular theme toggle at the top-right as previously requested.
-- The desktop floating controls panel should remain at the previously requested reduced size (about three-quarters of its former panel size) **without scaling down the controls inside it**; keep the inner controls centered.
-- The `TIDEWRITTEN` brand styling uses Cinzel and an aqua gradient underline as previously requested.
-- Preserve the established visual identity, responsive behaviour, theme toggle, navigation, and reader controls unless the task explicitly asks to change them.
-- Check the layout at both desktop and mobile sizes, and in light and dark themes where available.
-- Avoid introducing an unrelated redesign while fixing a text-formatting issue.
+### Canonical filename pattern
 
-## 5. Chapter titles and navigation
+Use a shared series-and-volume filename base across the three editions:
 
-- Chapter titles should be accurate and consistent with the owner's requested wording.
-- For the Meet Again Trilogy, the final chapter title in each of the three volumes should be **Meet Again**, not a `Phir Milenge...` variant.
-- Keep chapter IDs, anchors, navigation links, and table-of-contents entries in sync when chapter headings change.
-- Do not alter story titles or chapter names elsewhere just to make naming more uniform unless requested.
+- English: Series-Vol.N-English.html
+- Hinglish: Series-Vol.N-RomanizedHindi.html
+- Banglish: Series-Vol.N-RomanizedBangla.html
 
-## 6. Editing and Git workflow
+Example:
+- stories/Meet-Again-Trilogy-Vol.1-English.html
+- translation/hinglish/Meet-Again-Trilogy-Vol.1-RomanizedHindi.html
+- translation/banglish/Meet-Again-Trilogy-Vol.1-RomanizedBangla.html
 
-- Inspect the current version of each file before editing; never assume a stale copy is still current.
-- Make the smallest safe change that fulfils the request.
-- Keep unrelated files and existing user work untouched.
-- Use clear commit messages that describe the actual changes.
-- When updating the same file more than once, fetch its latest version/SHA before the next write.
-- Prefer grouping related documentation or formatting edits into a single coherent commit where the available workflow supports it.
-- Do not claim that a change is deployed just because it was committed or pushed.
-- Check the relevant GitHub Actions workflow and its conclusion. Report whether it succeeded, failed, or is still running.
-- If the workflow is still running, say that deployment has not yet been confirmed.
-- Never invent commit hashes, workflow results, links, or file contents.
+The reader associates editions by the common filename base, with translation_of as a fallback. Preserve translation front matter and canonical mapping when renaming or editing files.
 
-## 7. TODO and QA process
+### Translation switching and canonical URLs
 
-- Use `Checks/TODO.md` to track file-level formatting and review tasks.
-- Mark a task complete only after the corresponding edit has actually been made and checked.
-- For each formatting fix, check:
-  - [ ] Paragraphs render separately.
-  - [ ] Dialogue stays separated by speaker.
-  - [ ] Scene breaks and headings remain intact.
-  - [ ] No nested or malformed paragraph tags were introduced.
-  - [ ] Chapter navigation and table of contents still work.
-  - [ ] Story wording has not changed unintentionally.
-  - [ ] The page remains readable on desktop and mobile.
-  - [ ] Relevant build/deployment checks have been reviewed.
-- A file having at least one `<p>` tag does not prove all of its paragraphs are correct. The audit list is a starting point, not a substitute for visual review.
-- Keep counts explicit about what was measured. “Zero paragraph tags” is a narrower claim than “the whole story is broken.”
+- The English story URL remains the canonical browser URL for every language view.
+- Switching languages must replace reader content in place without navigation, reload, or address-bar changes.
+- Translation page URLs are internal fetch sources, not destinations for the language-switch action.
+- Remember language preference independently per story/volume using localStorage. Default to English when no preference exists or a saved language is unavailable.
+- Keep desktop and mobile selected-language indicators synchronized.
+- Preserve the current chapter and approximate scroll position, theme, text size, controls, and canonical URL when switching.
+- Update language-specific metadata where available (such as tagline, genre/volume note, closing note, and document language) without changing story identity or Library grouping.
+- If a translation fetch fails, keep the currently displayed content and restore the previous selected-language indicator and preference. Never leave a blank reader.
+- Direct visits to translation pages should normalize to the canonical English story URL while retaining the selected language view, as implemented.
+- Only expose language choices that actually exist for the current story/volume.
 
-## 8. Asset, link, and accessibility care
+## 5. Reader experience and visual design
 
-- Do not remove or rename assets just because they appear unused without checking references.
-- Preserve valid relative paths and internal links.
-- Use meaningful headings in logical order and keep interactive controls understandable.
-- Avoid unnecessary decorative changes that make reading harder or reduce contrast.
-- Test links affected by a change where practical.
+- Preserve Tidewritten's cyan/aquatic visual identity and established design language.
+- Keep story text as the primary focus; do not introduce chat-bubble presentation or character-detail cards.
+- Preserve the existing reader controls and their intended placement: desktop floating controls to the left, the theme toggle at the top-right, and responsive mobile controls.
+- Keep the desktop floating panel compact (about three-quarters of its former size) without scaling down the controls inside it; keep inner controls centered.
+- Preserve the Cinzel-based TIDEWRITTEN brand treatment and aqua gradient underline.
+- Maintain reading progress, save/restore, text-size controls, theme controls, edge fades, and previous/next volume navigation unless the owner requests a change.
+- Check desktop and mobile layouts, both themes, and touch interaction when a change can affect presentation.
+- Use meaningful heading order, accessible names, visible focus states, sufficient contrast, and reduced-motion support.
+- Avoid decorative changes that make reading harder or obscure text.
 
-## 9. Communication and reporting
+## 6. Navigation, chapter titles, and links
 
-- Be precise about what was inspected, edited, committed, and verified.
-- Clearly distinguish an audit finding from a completed fix.
-- Summarize changed file paths and the purpose of each change.
-- Mention important limitations or checks that remain unfinished.
-- Do not touch `bin/` as part of an ordinary story or translation task. The explicit cleanup exception in Section 1 applies only to repository-cleanup work.
+- Keep chapter headings, IDs, anchors, table-of-contents entries, and navigation links synchronized when a heading changes.
+- Do not alter titles or chapter names merely to make naming uniform.
+- For the Meet Again Trilogy, the final chapter title in each of the three English volumes and their translations is **Meet Again**, not a Phir Milenge... variant.
+- Preserve canonical /book/... story routes and verify internal links affected by a change.
+- The root redirect and generated homepage are separate responsibilities: index.html redirects / to /home/, while index.md generates /home/. Do not remove either without proving its role is replaced.
 
+## 7. GitHub and implementation workflow
 
-## 10. Translation architecture — canonical URLs and persistent language
+1. Fetch the latest target-branch version of every file before editing; do not rely on stale copies.
+2. Make the smallest coherent change and leave unrelated user work untouched.
+3. Use a dedicated branch and a clear commit message. Open a pull request for review rather than assuming a push is a merge.
+4. When editing a file more than once, fetch its latest content and SHA before the next write.
+5. Preserve story/translation content and canonical URLs during file moves unless a migration is explicitly requested.
+6. Inspect the relevant GitHub Actions workflow and report its actual conclusion.
+7. A commit, open PR, merged PR, successful build, and deployed website are different states. Never describe one as another.
+8. A successful build does not prove visual correctness. Distinguish source-level inspection, automated build, owner-reported browser QA, and independently performed browser QA.
+9. Do not invent commit hashes, PR status, workflow results, or test outcomes.
 
-- Translation source files live under `translation/hinglish/` and `translation/banglish/`, but their physical filenames must identify the original series and volume rather than only the translated book title.
-- Use one shared series-and-volume filename base in all three folders. English files end in `-English.html`; Hinglish files end in `-RomanizedHindi.html`; Banglish files end in `-RomanizedBangla.html`. Example: `stories/Meet-Again-Trilogy-Vol.1-English.html`, `translation/hinglish/Meet-Again-Trilogy-Vol.1-RomanizedHindi.html`, and `translation/banglish/Meet-Again-Trilogy-Vol.1-RomanizedBangla.html`.
-- The shared reader derives the matching edition group from the source filename (the common base before the language suffix). Keep the `translation_of` front matter and canonical English URL unchanged; it remains the fallback association and canonical URL source.
-- Keep the original English story URL as the canonical browser URL for every language. Switching languages must not navigate, reload the page, or change the address bar.
-- Load the selected translation file dynamically and replace the reader content in place. The translation file's generated URL is an internal fetch source, not a navigation destination.
-- Remember the selected language independently for each story/volume using localStorage. A preference for one volume must not overwrite another volume's preference.
-- Default to English (Original) when no preference exists. If a stored language is not available for that story/volume, use English.
-- Keep the selected language indicator synchronized in desktop and mobile language menus.
-- Preserve the current chapter and approximate reading position when replacing story content. Preserve the reader's theme, text size, controls, and canonical URL.
-- When loading translated content, update language-specific reader metadata where present (tagline, genre/volume note, closing note, and document language) without changing the original story identity or Library entry.
-- If a translation fails to load, keep the currently displayed content and restore its selected-language indicator and preference. Never leave the reader blank.
-- Existing translation pages may remain published for backward compatibility, but direct visits to them should normalize to the canonical English story URL while retaining the selected language view.
-- Do not change translated prose, chapter titles, or story metadata unrelated to language switching while renaming files.
-- When renaming a translation source file, preserve its front matter and permalink unless a separate URL migration is explicitly requested. Update all internal file references and verify Jekyll still discovers the page.
-- Only mark the migration complete after all existing translations have been mapped, renamed without content loss, and tested in the deployed reader.
+## 8. QA acceptance criteria
+
+### Story and translation changes
+
+- Paragraph tags are balanced and not nested.
+- No block-level elements are placed inside paragraphs.
+- No duplicate IDs are introduced; chapter IDs and anchors remain valid.
+- Chapter/section order, headings, scene breaks, dialogue turns, and end matter remain intact.
+- Story wording is unchanged unless content editing was requested.
+- Matching translation mappings and continuation links are checked where applicable.
+
+### Reader and site changes
+
+- Navigation, Library grouping, volume links, and canonical URLs remain correct.
+- Available language choices match the editions that exist for that volume.
+- Language switching preserves reading position and reader settings and fails safely.
+- Controls work with keyboard and touch; reduced-motion behaviour remains respected.
+- Responsive layout and light/dark themes are checked where affected.
+- Relevant Jekyll/GitHub Pages workflow is successful and its result is recorded.
+- Rendered-browser QA is recorded separately from source inspection and build status.
+
+## 9. TODO maintenance and reporting
+
+- Checks/TODO.md is the current action list, not a chronological transcript of every task.
+- Keep completed work in a concise completion summary or a dedicated audit report; remove stale unchecked items when a later verified completion supersedes them.
+- Mark an item complete only after the change and its required verification have happened.
+- Keep detailed inventories and evidence in dedicated reports rather than duplicating them in the TODO.
+- Every task report should identify files inspected/changed, what was archived or retained if cleanup was requested, verification performed, unresolved checks, and relevant PR/workflow links.
+- State explicitly when browser testing was owner-reported or unavailable.
