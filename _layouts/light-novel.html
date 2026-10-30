@@ -237,7 +237,10 @@
       const option = languageOptionFor(language);
       if (!option || !storyArticle) return;
       const requestId = ++languageRequest;
-      const targetUrl = new URL(option.href, location.href).href;
+      const targetUrlObject = new URL(option.href, location.href);
+      // Translation HTML is versioned per Jekyll build so an older cached response cannot replace current story content.
+      targetUrlObject.searchParams.set("twv", {{ site.time | date: "%s" | jsonify }});
+      const targetUrl = targetUrlObject.href;
       const position = preserveReaderPosition();
       markLanguageSelected(language);
       if (options.persist !== false) {
@@ -245,7 +248,7 @@
       }
       if (language === activeLanguage) return;
       try {
-        const response = await fetch(targetUrl, { credentials: "same-origin", cache: "force-cache" });
+        const response = await fetch(targetUrl, { credentials: "same-origin", cache: "no-store" });
         if (!response.ok) throw new Error("Translation request failed: " + response.status);
         const translatedDocument = new DOMParser().parseFromString(await response.text(), "text/html");
         const translatedArticle = translatedDocument.querySelector("#story-content");
