@@ -2,6 +2,16 @@
 
 > Scope: published story pages and their translation pages only. Do not inspect, edit, reformat, move, or use anything under `bin/` for this work. See [Notes.md](Notes.md) for project rules.
 
+## Current project phases
+
+- [ ] **Phase 1 — Translation completion:** Finish The Council Vol.3 in both Hinglish and Banglish, following the required two-chapter batches and preserving original English chapter titles.
+- [ ] **Phase 2 — Chapter-title restoration:** Audit every available translation and restore the exact original English chapter titles wherever they were translated or altered.
+- [ ] **Phase 3 — Story formatting and content QA:** Fix collapsed paragraphs, check structural HTML consistency, compare chapter order/content against source files, and review every reader page.
+- [x] **Phase 4 — Reading experience:** Reading progress, restore-reading prompt, reader controls, theme behaviour, translation switching architecture, and related reading UX work.
+- [x] **Phase 5 — Final polish:** Site-wide visual and navigation polish, including favicon and home navigation state.
+
+Phase completion is tracked separately from the detailed file-level QA lists below. Do not mark Phases 1–3 complete until their acceptance checks are actually verified.
+
 ## Priority 1 — Fix collapsed story paragraphs
 
 These files were audited on 2026-10-29 and had no HTML `<p>` tags in their story content. Their source uses blank-line-separated text, but HTML collapses ordinary newlines, causing the reading view to look like a wall of text.
@@ -146,3 +156,18 @@ These are the inline text links at the end of a volume, not the reader's Prev/Ne
 - [ ] Verify the rendered links work after the Jekyll build/deployment.
 - [ ] When creating Council Vol.3 translations, preserve the final-volume ending without adding a misleading next-volume link.
 
+
+
+## Priority 8 — Shared reader title and translation-link reliability
+
+This is a shared-layout change and applies to every English story plus every available translation, not only the Council series.
+
+- [x] Remove the duplicate large volume heading from the shared reader hero; promote the existing series-and-volume eyebrow to the single main heading.
+- [x] Increase the first series-and-volume heading from the small eyebrow treatment to the former main-title size.
+- [x] Keep the book title (the smaller title beneath the series heading) unchanged.
+- [x] Add a navigation fallback so a translation choice still opens its translation page if the in-place fetch fails; translation pages are expected to normalize back to the canonical English story URL.
+- [ ] Verify Hinglish and Banglish options are visible and selectable for stories that have those translations.
+- [ ] Verify both language options load in place without changing the canonical URL under normal conditions.
+- [ ] Verify the fallback opens the chosen translation if in-place loading fails, then returns to the canonical story URL with that language selected.
+- [ ] Check the new single-heading hierarchy and sizing on desktop/mobile and in light/dark themes.
+- [ ] Run the Jekyll build and inspect the GitHub Actions result before considering the change deployed.
