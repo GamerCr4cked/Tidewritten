@@ -107,7 +107,8 @@ These notes capture the project rules and preferences that should guide future T
 ## 10. Translation architecture — canonical URLs and persistent language
 
 - Translation source files live under `translation/hinglish/` and `translation/banglish/`, but their physical filenames must identify the original series and volume rather than only the translated book title.
-- Use the canonical series-and-volume identifier as the filename base. Append `-RomanizedHindi` for Hinglish files and `-RomanizedBangla` for Banglish files. Example: `Meet-Again_Trilogy-Vol.1-RomanizedHindi.html`.
+- Use one shared series-and-volume filename base in all three folders. English files end in `-English.html`; Hinglish files end in `-RomanizedHindi.html`; Banglish files end in `-RomanizedBangla.html`. Example: `stories/Meet-Again-Trilogy-Vol.1-English.html`, `translation/hinglish/Meet-Again-Trilogy-Vol.1-RomanizedHindi.html`, and `translation/banglish/Meet-Again-Trilogy-Vol.1-RomanizedBangla.html`.
+- The shared reader derives the matching edition group from the source filename (the common base before the language suffix). Keep the `translation_of` front matter and canonical English URL unchanged; it remains the fallback association and canonical URL source.
 - Keep the original English story URL as the canonical browser URL for every language. Switching languages must not navigate, reload the page, or change the address bar.
 - Load the selected translation file dynamically and replace the reader content in place. The translation file's generated URL is an internal fetch source, not a navigation destination.
 - Remember the selected language independently for each story/volume using localStorage. A preference for one volume must not overwrite another volume's preference.

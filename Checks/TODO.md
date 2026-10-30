@@ -44,12 +44,12 @@ The baseline audit found **26 files with zero opening `<p>` tags**: 10 English s
 - [x] Jekyll build and GitHub Pages deployment succeeded for the Priority 1 formatting changes: [workflow run 41004873527](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41004873527).
 - [x] Rendered-reader visual review completed by the site owner; all seven Priority 5 areas were reported working.
 
-A pre-existing markup issue in `stories/before-the-feelings-fade-vol-1.html` (89 opening paragraph tags versus 88 closing tags) was investigated and fixed during Priority 3. The final italicized epilogue paragraph was missing its closing `</p>` before the Volume Two continuation link.
+A pre-existing markup issue in `stories/Before-the-Feelings-Fade-Vol.1-English.html` (89 opening paragraph tags versus 88 closing tags) was investigated and fixed during Priority 3. The final italicized epilogue paragraph was missing its closing `</p>` before the Volume Two continuation link.
 
 
 - [x] **Mixed-script Banglish audit:** Rechecked all 8 listed Banglish files. Four files required corrections; the other four had no Bengali Unicode in their prose during the final audit.
   - `translation/banglish/Before-the-Feelings-Fade-Vol.1-RomanizedBangla.html`
-  - `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
+  - `translation/banglish/Meet-Again-Trilogy-Vol.1-RomanizedBangla.html`
   - `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
   - `translation/banglish/The-Little-Bird-Chronicles-Vol.1-RomanizedBangla.html`
   - `translation/banglish/The-Little-Bird-Chronicles-Vol.3-RomanizedBangla.html`
@@ -68,22 +68,22 @@ Do not rewrite or paraphrase prose. Preserve every word, punctuation mark, headi
 
 ### English story sources — 10
 
-- [x] `stories/meet-again-trilogy-vol-1.html`
-- [x] `stories/meet-again-trilogy-vol-2.html`
-- [x] `stories/meet-again-trilogy-vol-3.html`
-- [x] `stories/prismat-fragments-of-the-fallen-sky.html`
-- [x] `stories/teaching-me-how-to-live.html`
-- [x] `stories/the-account-that-never-came-back.html`
-- [x] `stories/the-little-bird-chronicles-vol-2.html`
-- [x] `stories/the-little-bird-chronicles-vol-3.html`
-- [x] `stories/the-other-side-of-us.html`
-- [x] `stories/when-everyone-went-offline.html`
+- [x] `stories/Meet-Again-Trilogy-Vol.1-English.html`
+- [x] `stories/Meet-Again-Trilogy-Vol.2-English.html`
+- [x] `stories/Meet-Again-Trilogy-Vol.3-English.html`
+- [x] `stories/Prismat-Vol.1-English.html`
+- [x] `stories/Teaching-Me-How-to-Live-Vol.1-English.html`
+- [x] `stories/The-Account-That-Never-Came-Back-Vol.1-English.html`
+- [x] `stories/The-Little-Bird-Chronicles-Vol.2-English.html`
+- [x] `stories/The-Little-Bird-Chronicles-Vol.3-English.html`
+- [x] `stories/The-Other-Side-of-Us-Vol.1-English.html`
+- [x] `stories/When-Everyone-Went-Offline-Vol.1-English.html`
 
 ### Banglish translations — 8
 
-- [x] `translation/banglish/Meet-Again_Trilogy-Vol.1-RomanizedBangla.html`
-- [x] `translation/banglish/Meet-Again_Trilogy-Vol.2-RomanizedBangla.html`
-- [x] `translation/banglish/Meet-Again_Trilogy-Vol.3-RomanizedBangla.html`
+- [x] `translation/banglish/Meet-Again-Trilogy-Vol.1-RomanizedBangla.html`
+- [x] `translation/banglish/Meet-Again-Trilogy-Vol.2-RomanizedBangla.html`
+- [x] `translation/banglish/Meet-Again-Trilogy-Vol.3-RomanizedBangla.html`
 - [x] `translation/banglish/Prismat-Vol.1-RomanizedBangla.html`
 - [x] `translation/banglish/Teaching-Me-How-to-Live-Vol.1-RomanizedBangla.html`
 - [x] `translation/banglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedBangla.html`
@@ -92,9 +92,9 @@ Do not rewrite or paraphrase prose. Preserve every word, punctuation mark, headi
 
 ### Hinglish translations — 8
 
-- [x] `translation/hinglish/Meet-Again_Trilogy-Vol.1-RomanizedHindi.html`
-- [x] `translation/hinglish/Meet-Again_Trilogy-Vol.2-RomanizedHindi.html`
-- [x] `translation/hinglish/Meet-Again_Trilogy-Vol.3-RomanizedHindi.html`
+- [x] `translation/hinglish/Meet-Again-Trilogy-Vol.1-RomanizedHindi.html`
+- [x] `translation/hinglish/Meet-Again-Trilogy-Vol.2-RomanizedHindi.html`
+- [x] `translation/hinglish/Meet-Again-Trilogy-Vol.3-RomanizedHindi.html`
 - [x] `translation/hinglish/Prismat-Vol.1-RomanizedHindi.html`
 - [x] `translation/hinglish/Teaching-Me-How-to-Live-Vol.1-RomanizedHindi.html`
 - [x] `translation/hinglish/The-Account-That-Never-Came-Back-Vol.1-RomanizedHindi.html`
@@ -124,19 +124,19 @@ Review paragraph boundaries, dialogue, scene breaks, headings, inline markup, an
 ### Initial structural validation — 2026-10-30
 
 - [x] Checked all 25 listed files for paragraph-tag balance, nesting depth, and duplicate HTML IDs. All 25 now have balanced paragraph tags, maximum paragraph nesting depth of 1, and no duplicate IDs.
-- [x] Fixed the missing `</p>` in the final epilogue paragraph of `stories/before-the-feelings-fade-vol-1.html`; its Banglish and Hinglish counterparts already had the correct closure.
+- [x] Fixed the missing `</p>` in the final epilogue paragraph of `stories/Before-the-Feelings-Fade-Vol.1-English.html`; its Banglish and Hinglish counterparts already had the correct closure.
 - [x] Completed the semantic structural pass across all 25 files: reviewed chapter/part heading order, paragraph grouping and dialogue boundaries, blockquotes, inline emphasis/strong markup, scene-break placement, end matter, and continuation links where present. The mechanical checks also found no empty paragraphs, block-level elements nested inside paragraphs, or paragraph-tag imbalance.
 - [x] Compared Council Vol.2 chapter-end separators against English; restored the 11 missing `<hr>` chapter separators in each of the Banglish and Hinglish translations. Both translations now have 24 separators, matching the 24 in English.
 
 ### English story sources — 7
 
-- [x] `stories/before-the-feelings-fade-vol-1.html` — corrected the unclosed final epilogue paragraph; verified balanced paragraph nesting.
-- [x] `stories/before-the-feelings-fade-vol-2.html`
-- [x] `stories/the-little-bird-chronicles-vol-1.html`
-- [x] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-1.html`
-- [x] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-2.html`
-- [x] `stories/the-student-council-president-hates-everyone-except-apparently-me-vol-3.html`
-- [x] `stories/the-words-we-never-sent.html`
+- [x] `stories/Before-the-Feelings-Fade-Vol.1-English.html` — corrected the unclosed final epilogue paragraph; verified balanced paragraph nesting.
+- [x] `stories/Before-the-Feelings-Fade-Vol.2-English.html`
+- [x] `stories/The-Little-Bird-Chronicles-Vol.1-English.html`
+- [x] `stories/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-English.html`
+- [x] `stories/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.2-English.html`
+- [x] `stories/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.3-English.html`
+- [x] `stories/The-Words-We-Never-Sent-Vol.1-English.html`
 
 ### Banglish translations — 9
 
@@ -308,3 +308,13 @@ Do not mark Phase 3 complete until all Phase 3 content fixes and acceptance chec
 **Rewritten files:**
 - `translation/hinglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedHindi.html`
 - `translation/banglish/The-Student-Council-President-Hates-Everyone-Except-Apparently-Me-Vol.1-RomanizedBangla.html`
+
+
+## Priority 6 — Standardize story source filenames
+
+- [x] Renamed all 17 English story source files to the shared `Series-Vol.N-English.html` pattern.
+- [x] Normalized the six Meet Again Trilogy translation filenames to the same hyphenated series base; all 34 translations now match the English filename base and language suffix.
+- [x] Updated the shared reader to associate editions by the common source filename base, with a `translation_of` fallback.
+- [x] Preserved all story/translation HTML blobs, front matter, prose, and existing canonical `/book/...` URLs during the file moves.
+- [ ] Verify all 51 pages are discovered by Jekyll, all 17 story groups expose the expected available languages, and GitHub Pages build/deployment succeeds.
+- [ ] Verify in the live reader that English/Hinglish/Banglish switching remains in place, keeps the canonical URL, and works for every available volume.

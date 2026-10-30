@@ -123,7 +123,12 @@
   <div class="reading-edge-fade reading-edge-fade-top" aria-hidden="true"></div>
   <div class="reading-edge-fade reading-edge-fade-bottom" aria-hidden="true"></div>
   {% assign original_story_url = page.translation_of | default: page.url %}
-  {% assign story_translations = site.pages | where: "translation_of", original_story_url | sort: "language_label" %}
+  {% assign source_filename = page.path | split: "/" | last | remove: ".html" %}
+  {% assign story_file_base = source_filename | remove: "-English" | remove: "-RomanizedHindi" | remove: "-RomanizedBangla" %}
+  {% assign story_translations = site.pages | where_exp: "p", "p.path contains story_file_base" | where_exp: "p", "p.translation_of != nil" | sort: "language_label" %}
+  {% if story_translations.size == 0 %}
+    {% assign story_translations = site.pages | where: "translation_of", original_story_url | sort: "language_label" %}
+  {% endif %}
   <aside class="reader-panel" aria-label="Reader controls">
     <a class="brand" href="{{ '/' | relative_url }}">Tidewritten</a>
     <a class="panel-back" href="{{ '/library/' | relative_url }}">← Back to Library</a>
