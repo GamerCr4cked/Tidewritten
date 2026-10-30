@@ -171,3 +171,12 @@ This is a shared-layout change and applies to every English story plus every ava
 - [ ] Verify the fallback opens the chosen translation if in-place loading fails, then returns to the canonical story URL with that language selected.
 - [ ] Check the new single-heading hierarchy and sizing on desktop/mobile and in light/dark themes.
 - [ ] Run the Jekyll build and inspect the GitHub Actions result before considering the change deployed.
+
+## Priority 9 — Reader title stack and Council Vol.2 continuation links
+
+- [x] Increase the series title from 12px to 14px (+2px).
+- [x] Arrange the shared reader heading in this order: series title, volume number, decorative ornamental divider, then the book title.
+- [x] Apply the shared heading design to all English stories and translations through `_layouts/light-novel.html`.
+- [x] Standardize the Council Vol.2 continuation anchor in the English, Hinglish, and Banglish source files; use one complete clickable link and the exact Vol.3 permalink with its trailing slash.
+- [ ] Verify the rendered continuation link in all three deployed pages after the GitHub Pages build.
+- [ ] Verify the title stack at desktop/mobile widths and in both themes.
