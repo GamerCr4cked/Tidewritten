@@ -134,11 +134,11 @@
       </button>
       <div class="language-menu" id="languageMenu" role="menu" hidden>
         <div class="language-menu-heading">STORY LANGUAGE</div>
-        <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}><span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span></a>
+        <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" data-language="english" data-language-label="English (Original)" data-html-lang="en" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}><span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span></a>
         {% assign translation_groups = story_translations | group_by: "language" %}
         {% for language_group in translation_groups %}
         {% assign translation_page = language_group.items | first %}
-        <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}><span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span></a>
+        <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" data-language="{{ translation_page.language | escape }}" data-language-label="{{ translation_page.language_label | default: translation_page.language | escape }}" data-html-lang="{{ translation_page.html_lang | default: "en" | escape }}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}><span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span></a>
         {% endfor %}
       </div>
     </div>
@@ -160,10 +160,10 @@
         <button class="translate-toggle" id="mobileTranslateToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="mobileLanguageMenu"><span class="translate-leading"><svg class="translate-globe" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg><span>Translate</span></span><span class="translate-chevron" aria-hidden="true">⌄</span></button>
         <div class="language-menu" id="mobileLanguageMenu" role="menu" hidden>
           <div class="language-menu-heading">STORY LANGUAGE</div>
-          <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}><span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span></a>
+          <a class="language-option{% unless page.translation_of %} is-selected{% endunless %}" data-language="english" data-language-label="English (Original)" data-html-lang="en" href="{{ original_story_url | relative_url }}" role="menuitem"{% unless page.translation_of %} aria-current="page"{% endunless %}><span>English <small>Original</small></span><span class="language-check" aria-hidden="true">✓</span></a>
           {% for language_group in translation_groups %}
           {% assign translation_page = language_group.items | first %}
-          <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}><span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span></a>
+          <a class="language-option{% if translation_page.url == page.url %} is-selected{% endif %}" data-language="{{ translation_page.language | escape }}" data-language-label="{{ translation_page.language_label | default: translation_page.language | escape }}" data-html-lang="{{ translation_page.html_lang | default: "en" | escape }}" href="{{ translation_page.url | relative_url }}" role="menuitem"{% if translation_page.url == page.url %} aria-current="page"{% endif %}><span>{{ translation_page.language_label | default: translation_page.language | escape }}</span><span class="language-check" aria-hidden="true">✓</span></a>
           {% endfor %}
         </div>
       </div>
@@ -209,6 +209,99 @@
     };
     wireLanguageMenu("languagePicker", "translateToggle", "languageMenu");
     wireLanguageMenu("mobileLanguagePicker", "mobileTranslateToggle", "mobileLanguageMenu");
+
+    // Translation content is loaded into the canonical story page; language choices never navigate.
+    const canonicalStoryUrl = {{ original_story_url | relative_url | jsonify }};
+    const canonicalStoryPath = new URL(canonicalStoryUrl, location.href).pathname;
+    const initialLanguage = {{ page.language | default: "english" | jsonify }};
+    const initialHtmlLanguage = {{ page.html_lang | default: "en" | jsonify }};
+    const languagePreferenceKey = "tidewritten-language:" + canonicalStoryPath;
+    const storyArticle = document.getElementById("story-content");
+    const languageOptions = Array.from(document.querySelectorAll(".language-option"));
+    const languageOptionFor = language => languageOptions.find(option => option.dataset.language === language);
+    const markLanguageSelected = language => {
+      languageOptions.forEach(option => {
+        const selected = option.dataset.language === language;
+        option.classList.toggle("is-selected", selected);
+        if (selected) option.setAttribute("aria-current", "page");
+        else option.removeAttribute("aria-current");
+      });
+    };
+    const preserveReaderPosition = () => {
+      const heading = Array.from(storyArticle.querySelectorAll("h2[id]"))
+        .filter(item => item.getBoundingClientRect().top <= 170).pop();
+      return { scrollY: window.scrollY, chapterId: heading?.id || "", headingOffset: heading?.getBoundingClientRect().top ?? 0 };
+    };
+    let activeLanguage = initialLanguage;
+    let languageRequest = 0;
+    const setReaderLanguage = async (language, options = {}) => {
+      const option = languageOptionFor(language);
+      if (!option || !storyArticle) return;
+      const requestId = ++languageRequest;
+      const targetUrl = new URL(option.href, location.href).href;
+      const position = preserveReaderPosition();
+      markLanguageSelected(language);
+      if (options.persist !== false) {
+        try { localStorage.setItem(languagePreferenceKey, language); } catch (e) {}
+      }
+      if (language === activeLanguage) return;
+      try {
+        const response = await fetch(targetUrl, { credentials: "same-origin", cache: "force-cache" });
+        if (!response.ok) throw new Error("Translation request failed: " + response.status);
+        const translatedDocument = new DOMParser().parseFromString(await response.text(), "text/html");
+        const translatedArticle = translatedDocument.querySelector("#story-content");
+        if (!translatedArticle) throw new Error("The selected translation has no story content.");
+        if (requestId !== languageRequest) return;
+        storyArticle.innerHTML = translatedArticle.innerHTML;
+        const copyText = (selector, targetSelector) => {
+          const source = translatedDocument.querySelector(selector);
+          const target = document.querySelector(targetSelector);
+          if (source && target) target.innerHTML = source.innerHTML;
+        };
+        copyText(".tagline", ".hero .tagline");
+        copyText(".volume-note", ".volume-note");
+        copyText(".endnote p", ".endnote p");
+        document.documentElement.lang = option.dataset.htmlLang || "en";
+        activeLanguage = language;
+        requestAnimationFrame(() => {
+          const restoredHeading = position.chapterId && document.getElementById(position.chapterId);
+          if (restoredHeading) window.scrollTo({ top: window.scrollY + restoredHeading.getBoundingClientRect().top - position.headingOffset, behavior: "auto" });
+          else window.scrollTo({ top: position.scrollY, behavior: "auto" });
+          updateProgress();
+          saveReadingProgress();
+        });
+      } catch (error) {
+        if (requestId === languageRequest) {
+          markLanguageSelected(activeLanguage);
+          try { if (options.persist !== false) localStorage.setItem(languagePreferenceKey, activeLanguage); } catch (e) {}
+          console.error("Tidewritten could not load the selected language.", error);
+          window.alert("This translation could not be loaded. Your previous reading language has been kept.");
+        }
+      }
+    };
+    languageOptions.forEach(option => option.addEventListener("click", event => {
+      event.preventDefault();
+      setReaderLanguage(option.dataset.language);
+      document.getElementById("languageMenu").hidden = true;
+      document.getElementById("translateToggle").setAttribute("aria-expanded", "false");
+      document.getElementById("mobileLanguageMenu").hidden = true;
+      document.getElementById("mobileTranslateToggle").setAttribute("aria-expanded", "false");
+    }));
+    // Old direct translation links are kept compatible, then normalized to the original story URL.
+    if (initialLanguage !== "english") {
+      try {
+        if (!localStorage.getItem(languagePreferenceKey)) localStorage.setItem(languagePreferenceKey, initialLanguage);
+      } catch (e) {}
+      history.replaceState(null, "", canonicalStoryUrl);
+    }
+    try {
+      const savedLanguage = localStorage.getItem(languagePreferenceKey);
+      const preferredLanguage = languageOptionFor(savedLanguage) ? savedLanguage : initialLanguage;
+      if (preferredLanguage !== initialLanguage) setReaderLanguage(preferredLanguage, { persist: false });
+      else markLanguageSelected(initialLanguage);
+    } catch (e) {
+      markLanguageSelected(initialLanguage);
+    }
     const mobileMenuButton = document.getElementById("mobileMenuToggle");
     const mobileMenu = document.getElementById("mobileReaderMenu");
     mobileMenuButton.addEventListener("click", () => {
