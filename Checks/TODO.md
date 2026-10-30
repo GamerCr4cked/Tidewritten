@@ -108,12 +108,12 @@ The paragraph-markup audit identified **26 files with zero paragraph tags**: 10 
 
 Use series-and-volume-based filenames for every existing translation source. Preserve each file's front matter, generated permalink, translation content, chapter IDs, and `translation_of` mapping.
 
-- [ ] Confirm the exact series slug convention, including the owner's example `Meet-Again_Trilogy`.
-- [ ] Rename all existing Hinglish translation files with the `-RomanizedHindi.html` suffix.
-- [ ] Rename all existing Banglish translation files with the `-RomanizedBangla.html` suffix.
-- [ ] Verify each renamed file still maps to the correct English story and volume.
+- [x] Confirm the exact series slug convention, including the owner's example `Meet-Again_Trilogy`.
+- [x] Rename all existing Hinglish translation files with the `-RomanizedHindi.html` suffix.
+- [x] Rename all existing Banglish translation files with the `-RomanizedBangla.html` suffix.
+- [x] Verify each renamed file still maps to the correct English story and volume using its preserved `translation_of`, `series`, and `volume` front matter.
 - [ ] Verify no translation appears as an independent Library entry.
-- [ ] Verify no translation content or front matter was lost during the rename.
+- [x] Verify no translation content or front matter was lost during the rename; all 32 renamed paths reuse their original Git blob contents.
 
 ## Priority 6 — In-place translation switching and language memory
 
