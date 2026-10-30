@@ -112,7 +112,7 @@ Use series-and-volume-based filenames for every existing translation source. Pre
 - [x] Rename all existing Hinglish translation files with the `-RomanizedHindi.html` suffix.
 - [x] Rename all existing Banglish translation files with the `-RomanizedBangla.html` suffix.
 - [x] Verify each renamed file still maps to the correct English story and volume using its preserved `translation_of`, `series`, and `volume` front matter.
-- [ ] Verify no translation appears as an independent Library entry.
+- [x] Verify no translation appears as an independent Library entry; `library.html` filters out pages with `translation_of` set.
 - [x] Verify no translation content or front matter was lost during the rename; all 32 renamed paths reuse their original Git blob contents.
 
 ## Priority 6 — In-place translation switching and language memory
