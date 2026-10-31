@@ -94,7 +94,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Use meaningful heading order, accessible names, visible focus states, sufficient contrast, and reduced-motion support.
 - Avoid decorative changes that make reading harder or obscure text.
 
-- Reader personalization is implemented in the shared `_layouts/light-novel.html` reader. Its collapsible Reading appearance controls are available in the desktop floating panel and mobile reader-controls menu.
+- Reader personalization is implemented in the shared `_layouts/light-novel.html` reader. Its **Customize** dropdown is available in the desktop floating panel and mobile reader-controls menu, using the same trigger treatment and chevron interaction as Translate.
 - Personalization options include the Ocean, Midnight, and Pearl reader palettes; a custom accent color; Literata, Georgia, or system-serif story typography; four line-spacing presets; and four reading-width presets.
 - Store these settings together under the versioned `tidewritten-reader-preferences-v1` localStorage key. Keep the existing light/dark mode key (`theme`), text-size key (`tidewritten-reader-size`), language preference key, reading-progress record, and reading history separate.
 - The Reset appearance action restores the reader-palette, accent, font, line-spacing, and width defaults. It does not clear reading progress, reading history, language preference, base light/dark mode, or the separate text-size setting.
