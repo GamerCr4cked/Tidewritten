@@ -116,6 +116,14 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [ ] Establish consistent cover dimensions, image optimization, alt text, and responsive behaviour.
 - [ ] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
 - [ ] Ensure cover links, series identity, volume numbering, and Library grouping remain correct.
+- [ ] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback.
+- [ ] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation.
+- [ ] Add validated optional illustration rendering; do not alter story prose or guess chapter placement.
+- [ ] Populate accurate series descriptions and volume synopses from story content or owner-approved copy.
+- [ ] Create and optimize approved cover assets using the documented 2:3 / 1200 × 1800 / WebP specification.
+- [ ] Verify missing-image fallbacks, canonical routes, translation switching, accessibility, desktop/mobile layouts, and rendered browser behaviour.
+
+**Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. The decisions are documented; implementation and asset population remain open.
 
 **Design inspiration supplied by the site owner:** [Awwwards desktop design reference](https://images.openai.com/static-rsc-4/r9nA6rLDZS-UtAxthQ8akPSRLsaijppy4NfOGpmXtV6rjXXTE7R7wEQnNqA7TsqMzTp68gFYEndYglOs20wgwEMSUzNdLqIBNgDBcdP-N_wzcKrUCkTqMf4mhxU8hWmPdgi-vibsahV3OZAeIQ-pQFw2xjF0fVlPSCSgmEX78qw?purpose=inline).
 

@@ -183,3 +183,17 @@ The reader associates editions by the common filename base, with translation_of 
 - Version 1 completion records are discarded during migration because the previous end-position-only rule could count fast-scrolling as reading. Aggregate reading time and daily activity are preserved. Version 2 completion records are then accumulated under the stricter rule.
 - Statistics remain in browser localStorage. Clearing statistics must not clear the separate reading position, recent history, language choice, theme, text size, or appearance preferences.
 - The statistics dashboard explains these rules and provides a dedicated clear action. Do not present this as cross-device or account-synced data.
+
+
+## 12. Story presentation (Phase 5)
+
+- Follow [Phase-5-Story-Presentation-Spec.md](Phase-5-Story-Presentation-Spec.md) for cover dimensions, asset paths, front matter, localization, illustrations, accessibility, and implementation order.
+- Extend the existing CSS-built Library series art as a graceful fallback; do not create a second Library or separate translation cards.
+- Canonical covers use portrait 2:3 artwork, target 1200 × 1800 px, WebP, and an optimization goal near 300 KB where quality permits. Use semantic HTML for title and volume lettering.
+- Store covers in `assets/images/covers/` and optional illustrations in `assets/images/illustrations/`; use stable lowercase kebab-case series/volume filenames.
+- Optional front matter: `cover_image`, `cover_alt`, `series_description`, `synopsis`, `author_note`, and `illustrations`. All fields remain optional; pages without them must render exactly as a valid existing page.
+- Put the canonical series description on the first canonical volume (normally Volume 1); localized translations may supply translated copy but must not create new Library entries.
+- Keep volume synopsis separate from the existing tagline. Localize synopsis, series description, author note, alt text, and captions when a translation provides them; fall back to English metadata when it does not.
+- Author notes are optional, authored content and must be escaped as plain text. Do not invent author notes or rewrite existing story content.
+- Illustration records must include image and alt text; support captions and validated placement. If chapter-relative placement cannot be validated against real chapter IDs, use a separate supplementary gallery instead of guessing.
+- Do not mark any Phase 5 feature complete until the shared rendering, fallback behaviour, asset checks, canonical navigation, language switching, accessibility, responsive layout, and required browser QA are verified.
