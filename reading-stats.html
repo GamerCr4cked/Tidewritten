@@ -75,7 +75,7 @@ permalink: /reading-stats/
   document.getElementById('statVolumes').textContent=volumes;
   var activity=document.getElementById('activityList');
   var days=[];
-  for(var i=6;i>=0;i--){var d=new Date();d.setDate(d.getDate()-i);var date=d.toISOString().slice(0,10);days.push({date:date,ms:Number((stats.activity||{})[date])||0});}
+  for(var i=6;i>=0;i--){var d=new Date();d.setDate(d.getDate()-i);var date=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');days.push({date:date,ms:Number((stats.activity||{})[date])||0});}
   activity.innerHTML=days.map(function(item){var label=new Date(item.date+'T12:00:00').toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric'});return '<div class="activity-row"><span>'+label+'</span><span>'+Math.floor(item.ms/60000)+' min</span></div>';}).join('');
   var milestones=[{label:'First chapter completed',earned:chapters>=1},{label:'10 chapters completed',earned:chapters>=10},{label:'25 chapters completed',earned:chapters>=25},{label:'First volume completed',earned:volumes>=1},{label:'5 hours of active reading',earned:(Number(stats.totalReadingMs)||0)>=18000000}];
   document.getElementById('milestoneList').innerHTML=milestones.map(function(item){return '<div class="milestone-row '+(item.earned?'is-earned':'')+'"><span>'+item.label+'</span><span>'+(item.earned?'Achieved':'Not yet')+'</span></div>';}).join('');
