@@ -258,7 +258,7 @@ permalink: /library/
   const cards = Array.from(grid?.querySelectorAll(".series-card") || []);
   cards.forEach(card => {
     const cover = card.querySelector(".series-art-image");
-    if (cover) cover.addEventListener("error", () => { cover.hidden = true; }, { once: true });
+    if (cover) cover.addEventListener("error", () => { cover.hidden = true; cover.closest(".series-art")?.classList.remove("has-cover"); }, { once: true });
   });
   const search = document.getElementById("librarySearch");
   const genre = document.getElementById("libraryGenre");
