@@ -123,6 +123,8 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [ ] Create and optimize approved cover assets using the documented 2:3 / 1200 × 1800 / WebP specification.
 - [ ] Verify missing-image fallbacks, canonical routes, translation switching, accessibility, desktop/mobile layouts, and rendered browser behaviour.
 
+**Metadata population update (2026-10-31):** Meet Again Trilogy descriptions and synopses were merged in PR #54. Before the Feelings Fade series metadata is now prepared in this branch: one series description and separate Vol.1/Vol.2 synopses, based on the canonical English story pages. The story bodies are unchanged. Continue with the remaining canonical series in separate reviewable batches; do not mark this item complete until the full catalogue has been reviewed.
+
 **Implementation progress (2026-10-31):** Reader metadata and author-note support (PR #50), Library cover integration (PR #51), and optional illustration rendering (PR #52) are all merged into `main`. The reusable presentation architecture is in place, but the features remain pending final build, asset, accessibility, route, translation-switching, and rendered desktop/mobile QA. No cover or illustration assets have been populated, and story-grounded descriptions/synopses still need to be written.
 
 **Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. Architecture and initial rendering paths are in place; story-grounded metadata, approved artwork, asset population, and final QA remain open.
