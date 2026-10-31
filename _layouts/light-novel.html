@@ -66,7 +66,7 @@
     .reader-settings-mobile{display:none}
     @media(min-width:601px){
       .reader-settings{position:relative}
-      .reader-settings[open] .reader-settings-grid{position:absolute;top:0;left:calc(100% + 10px);z-index:50;width:260px;grid-template-columns:1fr 1fr;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--bg);box-shadow:0 16px 42px rgba(0,0,0,.28)}
+      .reader-settings[open] .reader-settings-grid{position:absolute;top:calc(100% + 8px);left:0;z-index:50;width:260px;max-height:70vh;overflow-y:auto;grid-template-columns:1fr 1fr;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--bg);box-shadow:0 16px 42px rgba(0,0,0,.28)}
       .reader-settings-grid label:first-child,.reader-settings-grid label:nth-child(2),.reader-settings-reset{grid-column:1/-1}
     }
     .panel-divider{height:1px;background:var(--line);margin:8px auto;width:82%}
@@ -390,6 +390,34 @@
       const readerFonts = { literata: '"Literata",Georgia,serif', georgia: 'Georgia,"Times New Roman",serif', system: 'ui-serif,Georgia,serif' };
       const preferenceControls = Array.from(document.querySelectorAll("[data-reader-pref]"));
       const validAccent = value => /^#[0-9a-f]{6}$/i.test(value);
+      const parseHexColor = value => {
+        const match = /^#([0-9a-f]{6})$/i.exec(value || "");
+        return match ? [parseInt(match[1].slice(0,2),16),parseInt(match[1].slice(2,4),16),parseInt(match[1].slice(4,6),16)] : null;
+      };
+      const colorLuminance = rgb => {
+        const channels = rgb.map(value => { const c=value/255; return c<=.04045?c/12.92:Math.pow((c+.055)/1.055,2.4); });
+        return .2126*channels[0]+.7152*channels[1]+.0722*channels[2];
+      };
+      const contrastRatio = (first, second) => {
+        const a=colorLuminance(first),b=colorLuminance(second);
+        return (Math.max(a,b)+.05)/(Math.min(a,b)+.05);
+      };
+      const accentWithReadableContrast = value => {
+        const source=parseHexColor(value);
+        if (!source) return value;
+        const styles=getComputedStyle(root);
+        const backgrounds=["--bg","--panel"].map(name=>parseHexColor(styles.getPropertyValue(name).trim())).filter(Boolean);
+        if (!backgrounds.length) return value;
+        const lightMode=root.getAttribute("data-theme")==="light";
+        const target=lightMode?0:255;
+        for(let step=0;step<=20;step++){
+          const amount=step/20;
+          const candidate=source.map(channel=>Math.round(channel+(target-channel)*amount));
+          if(backgrounds.every(background=>contrastRatio(candidate,background)>=4.5))
+            return "#"+candidate.map(channel=>channel.toString(16).padStart(2,"0")).join("");
+        }
+        return "#"+source.map(channel=>channel.toString(16).padStart(2,"0")).join("");
+      };
       const syncPreferenceControls = preferences => {
         preferenceControls.forEach(control => {
           const key = control.dataset.readerPref;
@@ -399,7 +427,7 @@
       const applyReaderPreferences = preferences => {
         root.setAttribute("data-reader-theme", preferences.theme);
         if (preferences.accent === "default") { root.style.removeProperty("--accent"); root.style.removeProperty("--accent-subtle"); }
-        else { root.style.setProperty("--accent", preferences.accent); root.style.setProperty("--accent-subtle", "color-mix(in srgb," + preferences.accent + " 13%,transparent)"); }
+        else { const readableAccent = accentWithReadableContrast(preferences.accent); root.style.setProperty("--accent", readableAccent); root.style.setProperty("--accent-subtle", "color-mix(in srgb," + readableAccent + " 13%,transparent)"); }
         root.style.setProperty("--reader-font-family", readerFonts[preferences.font]);
         root.style.setProperty("--reader-line-height", preferences.line);
         root.style.setProperty("--measure", preferences.width + "px");
