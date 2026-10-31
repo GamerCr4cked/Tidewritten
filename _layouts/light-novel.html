@@ -64,6 +64,11 @@
     .reader-settings-reset{width:100%;padding:7px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--muted);font:600 10px "DM Sans",sans-serif;cursor:pointer}
     .reader-settings-reset:hover{border-color:var(--accent);color:var(--accent)}
     .reader-settings-mobile{display:none}
+    @media(min-width:601px){
+      .reader-settings{position:relative}
+      .reader-settings[open] .reader-settings-grid{position:absolute;top:0;left:calc(100% + 10px);z-index:50;width:260px;grid-template-columns:1fr 1fr;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--bg);box-shadow:0 16px 42px rgba(0,0,0,.28)}
+      .reader-settings-grid label:first-child,.reader-settings-grid label:nth-child(2),.reader-settings-reset{grid-column:1/-1}
+    }
     .panel-divider{height:1px;background:var(--line);margin:8px auto;width:82%}
     .text-size-label,.progress-label{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-align:center}
     .tool-buttons{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:6px}
@@ -372,31 +377,32 @@
       else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) root.setAttribute("data-theme", "light");
       const paintTheme = () => { const light = root.getAttribute("data-theme") === "light"; themeButton.textContent = light ? "☾" : "☼"; themeButton.setAttribute("aria-label", light ? "Switch to dark theme" : "Switch to light theme"); };
       paintTheme();
-      themeButton.addEventListener("click", () => { const light = root.getAttribute("data-theme") === "light"; root.setAttribute("data-theme", light ? "dark" : "light"); localStorage.setItem("theme", light ? "dark" : "light"); paintTheme(); });
+      themeButton.addEventListener("click", () => { const light = root.getAttribute("data-theme") === "light"; root.setAttribute("data-theme", light ? "dark" : "light"); localStorage.setItem("theme", light ? "dark" : "light"); paintTheme(); if (typeof applyReaderPreferences === "function") applyReaderPreferences(readerPreferences); });
       const readerPreferenceKey = "tidewritten-reader-preferences-v1";
-      const defaultReaderPreferences = { theme: "ocean", accent: "#8edbd4", font: "literata", line: "1.95", width: "720" };
+      const defaultReaderPreferences = { theme: "ocean", accent: "default", font: "literata", line: "1.95", width: "720" };
       const readerPreferenceOptions = {
         theme: ["ocean", "midnight", "pearl"],
         font: ["literata", "georgia", "system"],
         line: ["1.7", "1.85", "1.95", "2.15"],
         width: ["640", "720", "820", "920"]
       };
+      const defaultAccents = { ocean: { dark: "#8edbd4", light: "#087f91" }, midnight: { dark: "#a8b9ff", light: "#536fc4" }, pearl: { dark: "#e6bd79", light: "#9b6d2e" } };
       const readerFonts = { literata: '"Literata",Georgia,serif', georgia: 'Georgia,"Times New Roman",serif', system: 'ui-serif,Georgia,serif' };
       const preferenceControls = Array.from(document.querySelectorAll("[data-reader-pref]"));
       const validAccent = value => /^#[0-9a-f]{6}$/i.test(value);
       const syncPreferenceControls = preferences => {
         preferenceControls.forEach(control => {
           const key = control.dataset.readerPref;
-          if (key in preferences) control.value = preferences[key];
+          if (key in preferences) control.value = key === "accent" ? (preferences.accent === "default" ? defaultAccents[preferences.theme][root.getAttribute("data-theme") === "light" ? "light" : "dark"] : preferences.accent) : preferences[key];
         });
       };
       const applyReaderPreferences = preferences => {
         root.setAttribute("data-reader-theme", preferences.theme);
-        root.style.setProperty("--accent", preferences.accent);
+        if (preferences.accent === "default") { root.style.removeProperty("--accent"); root.style.removeProperty("--accent-subtle"); }
+        else { root.style.setProperty("--accent", preferences.accent); root.style.setProperty("--accent-subtle", "color-mix(in srgb," + preferences.accent + " 13%,transparent)"); }
         root.style.setProperty("--reader-font-family", readerFonts[preferences.font]);
         root.style.setProperty("--reader-line-height", preferences.line);
         root.style.setProperty("--measure", preferences.width + "px");
-        root.style.setProperty("--accent-subtle", "color-mix(in srgb," + preferences.accent + " 13%,transparent)");
         syncPreferenceControls(preferences);
       };
       const saveReaderPreferences = preferences => {
@@ -410,7 +416,7 @@
           Object.keys(readerPreferenceOptions).forEach(key => {
             if (readerPreferenceOptions[key].includes(String(stored[key]))) result[key] = String(stored[key]);
           });
-          if (validAccent(stored.accent)) result.accent = stored.accent;
+          if (stored.accent === "default" || validAccent(stored.accent)) result.accent = stored.accent;
           return result;
         } catch (error) { return { ...defaultReaderPreferences }; }
       };
