@@ -136,13 +136,16 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Complete the site's editorial identity and supporting pages.
 
-- [ ] Create a proper About page explaining Tidewritten and the reading experience.
-- [ ] Create a dedicated editorial/credits page.
-- [ ] Establish and document a consistent visual identity and design system, including typography, colors, spacing, components, and interaction states.
-- [ ] Create a polished custom 404 page that fits the Tidewritten visual identity and provides useful navigation back to the Library/Home.
-- [ ] Review existing About/Creator/Reading Guide pages before adding or replacing pages; reuse or improve existing content instead of creating duplicates.
+- [x] Refine the existing About page to explain the catalogue structure, reading experience, and visual direction without creating a duplicate page.
+- [x] Add a dedicated Editorial & Credits page with project-maintainer credit, editorial principles, and platform acknowledgements.
+- [x] Review the existing Creator and Reading Guide pages and retain their separate purposes; do not duplicate their content in new pages.
+- [x] Document the current visual identity and design system, including color tokens, typography, layout, components, and interaction requirements in [Design-System.md](Design-System.md).
+- [x] Add a custom root-level 404 page with clear routes back to the Library and Home.
+- [x] Link About and Editorial & Credits from the shared site footer.
 - [x] Standardize browser document titles as `Page Name | Tidewritten`, including `Home | Tidewritten`, and remove duplicate site-name suffixes.
-- [ ] Check page titles, metadata, navigation state, accessibility, and responsive layouts.
+- [ ] Verify all Phase 6 page routes, metadata, navigation state, accessibility, dark/light themes, and responsive layouts in a successful Jekyll build and rendered-browser QA.
+
+**Implementation update (2026-10-31):** Initial Phase 6 content and structure are implemented on branch `phase-6-tidewritten-identity`: About page refined, Editorial & Credits page added, design-system documentation added, custom 404 page added, and footer links updated. Source-level review is not a substitute for build or browser verification.
 
 ## Roadmap-wide implementation rules
 
