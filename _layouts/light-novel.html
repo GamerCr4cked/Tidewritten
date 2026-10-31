@@ -170,7 +170,7 @@
       .story-content h2{scroll-margin-top:72px}
       .reading-edge-fade{height:38px}
     }
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
   </style>
 </head>
 <body>
@@ -696,7 +696,7 @@
         range.setStartAfter(heading);
         if (nextHeading) range.setEndBefore(nextHeading);
         else range.setEnd(story, story.childNodes.length);
-        return (range.toString().match(/\\b[\\w’'-]+\\b/g) || []).length;
+        return (range.toString().match(/\b[\w’'-]+\b/g) || []).length;
       };
       const requiredChapterReadingMs = (heading, nextHeading) => {
         const estimatedMs = chapterWordCount(heading, nextHeading) / 220 * 60000;
@@ -708,10 +708,10 @@
         if (completed[heading.id]) return;
         const chapterTime = Number((stats.chapterReadingMs[canonicalVolumePath] || {})[heading.id]) || 0;
         if (chapterTime < requiredChapterReadingMs(heading, nextHeading)) return;
-        completed[heading.id] = { title: heading.textContent.replace(/\\s+/g, " ").trim(), completedAt: Date.now() };
+        completed[heading.id] = { title: heading.textContent.replace(/\s+/g, " ").trim(), completedAt: Date.now() };
         const headings = chapterHeadings();
         if (headings.length && headings.every(item => completed[item.id])) {
-          stats.volumes[canonicalVolumePath] = { title: document.title.replace(/ \\| Tidewritten$/, ""), series: {{ page.series | jsonify }}, volume: {{ page.volume | jsonify }}, completedAt: Date.now(), chapterCount: headings.length };
+          stats.volumes[canonicalVolumePath] = { title: document.title.replace(/ \| Tidewritten$/, ""), series: {{ page.series | jsonify }}, volume: {{ page.volume | jsonify }}, completedAt: Date.now(), chapterCount: headings.length };
         }
         saveStats();
       };
