@@ -112,7 +112,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Add shared-reader and Library support for concise series descriptions.
 - [x] Add shared-reader and Library support for volume-specific synopses.
 - [x] Provide an optional, localized author-note section in the shared reader.
-- [ ] Support additional illustrations where they genuinely improve the reading experience.
+- [x] Support optional additional illustrations without changing story prose or chapter structure.
 - [ ] Establish consistent cover dimensions, image optimization, alt text, and responsive behaviour.
 - [x] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
 - [x] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers.
