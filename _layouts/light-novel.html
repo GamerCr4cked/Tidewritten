@@ -515,7 +515,8 @@
         const now = Date.now();
         const elapsed = Math.max(0, Math.min(15000, now - lastCheckpointAt));
         if (!document.hidden && document.hasFocus() && now - lastActivityAt <= 60000 && elapsed > 0) {
-          const localDate = new Date(now);\n          const day = localDate.getFullYear() + "-" + String(localDate.getMonth() + 1).padStart(2, "0") + "-" + String(localDate.getDate()).padStart(2, "0");
+          const localDate = new Date(now);
+          const day = localDate.getFullYear() + "-" + String(localDate.getMonth() + 1).padStart(2, "0") + "-" + String(localDate.getDate()).padStart(2, "0");
           stats.totalReadingMs = (Number(stats.totalReadingMs) || 0) + elapsed;
           stats.activity[day] = (Number(stats.activity[day]) || 0) + elapsed;
           saveStats();
