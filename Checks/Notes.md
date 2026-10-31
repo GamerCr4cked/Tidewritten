@@ -100,7 +100,15 @@ The reader associates editions by the common filename base, with translation_of 
 - The Reset appearance action restores the reader-palette, accent, font, line-spacing, and width defaults. It does not clear reading progress, reading history, language preference, base light/dark mode, or the separate text-size setting.
 - Default accent colors are selected for contrast in each reader palette and light/dark mode. A user-selected custom accent persists when switching palette or mode.
 
-## 6. Page titles, navigation, chapter titles, and links
+## 6. Library discovery controls
+
+- Keep the catalogue series-based; translations must not become independent Library cards or volumes.
+- Build the Library search and filters from canonical English series/volume metadata.
+- Derive available edition filters from translation pages mapped through `translation_of`; do not assume an edition exists.
+- Show a completed status only when the source metadata identifies a final volume or the series identity explicitly defines its complete volume count. Use “Status not set” when publication status is unknown; do not label unknown series as ongoing.
+- Do not expose “recently updated” sorting based on the bulk filename-standardization commit timestamp. Add explicit, maintained content-update metadata before presenting update recency to readers.
+
+## 7. Page titles, navigation, chapter titles, and links
 
 - Browser document titles use the format `Page Name | Tidewritten` across standard pages and story-reader pages.
 - Keep page front-matter titles as the page name only; the shared layout appends the site name exactly once.
@@ -113,7 +121,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Preserve canonical /book/... story routes and verify internal links affected by a change.
 - The root redirect and generated homepage are separate responsibilities: index.html redirects / to /home/, while index.md generates /home/. Do not remove either without proving its role is replaced.
 
-## 7. GitHub and implementation workflow
+## 8. GitHub and implementation workflow
 
 1. Fetch the latest target-branch version of every file before editing; do not rely on stale copies.
 2. Make the smallest coherent change and leave unrelated user work untouched.
@@ -125,7 +133,7 @@ The reader associates editions by the common filename base, with translation_of 
 8. A successful build does not prove visual correctness. Distinguish source-level inspection, automated build, owner-reported browser QA, and independently performed browser QA.
 9. Do not invent commit hashes, PR status, workflow results, or test outcomes.
 
-## 8. QA acceptance criteria
+## 9. QA acceptance criteria
 
 ### Story and translation changes
 
@@ -146,7 +154,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Relevant Jekyll/GitHub Pages workflow is successful and its result is recorded.
 - Rendered-browser QA is recorded separately from source inspection and build status.
 
-## 9. TODO maintenance and reporting
+## 10. TODO maintenance and reporting
 
 - Checks/TODO.md is the current action list, not a chronological transcript of every task.
 - Keep completed work in a concise completion summary or a dedicated audit report; remove stale unchecked items when a later verified completion supersedes them.

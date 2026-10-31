@@ -94,6 +94,17 @@ permalink: /library/
   .series-card .series-desc{font-size:14px;line-height:1.75;color:#b5c7ce;margin:0 0 22px}
   .series-card-foot{margin-top:auto;border-top:1px solid var(--lib-line);padding-top:16px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:12px;color:var(--lib-muted)}
   .series-card-foot strong{color:var(--lib-accent);font-weight:600}
+  .library-tools{border:1px solid var(--lib-line);border-radius:18px;background:rgba(10,29,41,.72);padding:18px;margin:0 0 22px}
+  .library-search-label{display:block;color:var(--lib-accent);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin:0 0 8px}
+  .library-search,.library-filter-row select{width:100%;min-height:42px;border:1px solid rgba(160,218,215,.24);border-radius:10px;background:#0b1d29;color:#e9f1f2;padding:9px 12px;font:inherit;outline:none}
+  .library-search:focus,.library-filter-row select:focus{border-color:var(--lib-accent);box-shadow:0 0 0 3px rgba(156,228,220,.12)}
+  .library-filter-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}
+  .library-filter-row label{display:grid;gap:7px;color:var(--lib-muted);font-size:11px;font-weight:600}
+  .library-reset{margin-top:13px;border:1px solid rgba(156,228,220,.28);border-radius:9px;padding:8px 12px;background:rgba(156,228,220,.07);color:var(--lib-accent);font:inherit;font-size:12px;cursor:pointer}
+  .library-empty{border:1px dashed var(--lib-line);border-radius:14px;padding:22px;text-align:center;color:var(--lib-muted)}
+  .series-card[hidden]{display:none!important}
+  @media(max-width:760px){.library-filter-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:440px){.library-filter-row{grid-template-columns:1fr}}
   .library-note{border:1px dashed var(--lib-line);border-radius:16px;padding:18px 20px;color:var(--lib-muted);font-size:13px;line-height:1.7;margin-top:22px}
   @media(max-width:600px){.novel-hero{border-radius:20px}.series-card{min-height:0}.series-art{height:100px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}}
   @media(prefers-reduced-motion:reduce){.series-card{transition:none;animation:none}.series-card:hover{transform:none}.art-orb,.art-detail{animation:none}}
@@ -111,18 +122,65 @@ permalink: /library/
 
   <div class="novel-section-head">
     <h2>Series collection</h2>
-    <p>{{ grouped_series | size }} series · {{ novel_pages | size }} volumes available</p>
+    <p><span id="libraryResultCount">{{ grouped_series | size }} series</span> · {{ novel_pages | size }} volumes available</p>
   </div>
 
-  <div class="series-grid">
+  <section class="library-tools" aria-label="Search and filter the Library">
+    <label class="library-search-label" for="librarySearch">Search the Library</label>
+    <input id="librarySearch" class="library-search" type="search" placeholder="Search series, titles, or descriptions" autocomplete="off">
+    <div class="library-filter-row">
+      <label>Genre
+        <select id="libraryGenre"><option value="">All genres</option></select>
+      </label>
+      <label>Publication status
+        <select id="libraryStatus">
+          <option value="">All statuses</option>
+          <option value="completed">Completed</option>
+          <option value="standalone">Standalone</option>
+          <option value="unspecified">Not specified</option>
+        </select>
+      </label>
+      <label>Available edition
+        <select id="libraryLanguage">
+          <option value="">All editions</option>
+          <option value="english">English</option>
+          <option value="hinglish">Hinglish</option>
+          <option value="banglish">Banglish</option>
+        </select>
+      </label>
+      <label>Sort by
+        <select id="librarySort">
+          <option value="title">Series name</option>
+          <option value="volumes">Volume count</option>
+        </select>
+      </label>
+    </div>
+    <button type="button" class="library-reset" id="libraryReset">Clear filters</button>
+  </section>
+
+  <div class="series-grid" id="seriesGrid">
     {% for series_group in grouped_series %}
       {% assign volumes = series_group.items | sort: "volume" %}
       {% assign first_volume = volumes | first %}
       {% assign volume_count = volumes | size %}
+      {% assign series_status = "unspecified" %}
       {% if volume_count == 1 %}
-        <a class="series-card" href="{{ first_volume.url | relative_url }}" aria-label="Read {{ series_group.name | escape }}">
+        {% assign series_status = "standalone" %}
       {% else %}
-        <div class="series-card" data-volume-series role="button" tabindex="0" aria-label="Choose a volume from {{ series_group.name | escape }}">
+        {% for status_volume in volumes %}
+          {% if status_volume.reading_note contains "Final volume" %}
+            {% assign series_status = "completed" %}
+          {% endif %}
+        {% endfor %}
+        {% if series_group.name contains "Meet Again Trilogy" and volume_count >= 3 %}
+          {% assign series_status = "completed" %}
+        {% endif %}
+      {% endif %}
+      {% assign series_genres = volumes | map: "genre" | join: " | " %}
+      {% if volume_count == 1 %}
+        <a class="series-card" href="{{ first_volume.url | relative_url }}" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Read {{ series_group.name | escape }}">
+      {% else %}
+        <div class="series-card" data-volume-series role="button" tabindex="0" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Choose a volume from {{ series_group.name | escape }}">
       {% endif %}
           {% assign art_class = "art-words" %}
           {% if series_group.name contains "Little Bird" %}{% assign art_class = "art-little-bird" %}
@@ -138,7 +196,8 @@ permalink: /library/
           <div class="series-art {{ art_class }}" aria-hidden="true"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span></div>
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
-            <span class="series-badge muted">{% if volume_count == 1 %}Standalone{% else %}{{ volume_count }} Volumes{% endif %}</span>
+            <span class="series-badge muted">{{ volume_count }} Volumes</span>
+            <span class="series-badge muted">{% case series_status %}{% when "completed" %}Completed{% when "standalone" %}Standalone{% else %}Status not set{% endcase %}</span>
           </div>
           <h3>{{ series_group.name | escape }}</h3>
           <p class="series-desc">{{ first_volume.tagline | default: "Light-novel series." | escape }}</p>
@@ -146,9 +205,7 @@ permalink: /library/
             <span>{% if volume_count == 1 %}One volume{% else %}{{ volume_count }} volumes{% endif %}</span>
             <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
           </div>
-          {% if volume_count > 1 %}
-            <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
-          {% endif %}
+          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
       {% if volume_count == 1 %}
         </a>
       {% else %}
@@ -164,10 +221,74 @@ permalink: /library/
     </div>
   </dialog>
 
-  <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume.</div>
+  <p class="library-empty" id="libraryEmpty" hidden>No series match these search and filter settings. Try changing a filter or clearing your search.</p>
+  <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume. Edition filters reflect translations currently published for each volume.</div>
 </div></div>
 <script>
 (() => {
+  const grid = document.getElementById("seriesGrid");
+  const cards = Array.from(grid?.querySelectorAll(".series-card") || []);
+  const search = document.getElementById("librarySearch");
+  const genre = document.getElementById("libraryGenre");
+  const status = document.getElementById("libraryStatus");
+  const language = document.getElementById("libraryLanguage");
+  const sort = document.getElementById("librarySort");
+  const count = document.getElementById("libraryResultCount");
+  const empty = document.getElementById("libraryEmpty");
+  const reset = document.getElementById("libraryReset");
+
+  const genreOptions = new Set();
+  cards.forEach(card => (card.dataset.genres || "").split(" | ").forEach(group => group.split(" · ").forEach(item => {
+    const value = item.trim();
+    if (value) genreOptions.add(value);
+  })));
+  Array.from(genreOptions).sort((a,b)=>a.localeCompare(b)).forEach(value => {
+    const option = document.createElement("option");
+    option.value = value.toLocaleLowerCase();
+    option.textContent = value;
+    genre.append(option);
+  });
+
+  const editionsFor = card => {
+    try { return JSON.parse(card.querySelector(".volume-data")?.textContent || "[]").flatMap(volume => volume.languages || ["English"]); }
+    catch (error) { return ["English"]; }
+  };
+  const applyFilters = () => {
+    const query = search.value.trim().toLocaleLowerCase();
+    let visible = 0;
+    cards.forEach(card => {
+      const text = [card.dataset.seriesName, card.textContent].join(" ").toLocaleLowerCase();
+      const genres = (card.dataset.genres || "").toLocaleLowerCase();
+      const languages = editionsFor(card).map(value => value.toLocaleLowerCase());
+      const matches = (!query || text.includes(query))
+        && (!genre.value || genres.includes(genre.value))
+        && (!status.value || card.dataset.status === status.value)
+        && (!language.value || languages.includes(language.value));
+      card.hidden = !matches;
+      if (matches) visible++;
+    });
+    count.textContent = visible + (visible === 1 ? " series" : " series");
+    empty.hidden = visible !== 0;
+  };
+  const sortCards = () => {
+    const sorted = [...cards].sort((a,b) => {
+      if (sort.value === "volumes") {
+        const av = Number((a.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
+        const bv = Number((b.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
+        return bv-av || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
+      }
+      return a.dataset.seriesName.localeCompare(b.dataset.seriesName);
+    });
+    sorted.forEach(card => grid.append(card));
+  };
+  [search,genre,status,language].forEach(control => control.addEventListener(control === search ? "input" : "change",applyFilters));
+  sort.addEventListener("change",sortCards);
+  reset.addEventListener("click",() => {
+    search.value = ""; genre.value = ""; status.value = ""; language.value = ""; sort.value = "title";
+    sortCards(); applyFilters(); search.focus();
+  });
+  applyFilters();
+
   const dialog = document.getElementById("volumeDialog");
   if (!dialog) return;
   const title = document.getElementById("volumeDialogTitle");
