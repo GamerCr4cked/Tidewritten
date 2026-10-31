@@ -91,6 +91,15 @@
     .volume-number{margin:0 auto;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.title-divider{display:flex;align-items:center;justify-content:center;gap:13px;width:min(230px,55%);margin:19px auto 17px;color:var(--accent);font-size:20px;line-height:1}.title-divider::before,.title-divider::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--accent))}.title-divider::after{background:linear-gradient(90deg,var(--accent),transparent)}.book-title{max-width:620px;margin:0 auto 12px;color:var(--accent);font-family:"Literata",Georgia,serif;font-size:clamp(17px,2.5vw,22px);font-weight:500;letter-spacing:.015em}
     .tagline{max-width:620px;margin:0 auto;color:#b4c5ce;font-family:"Literata",serif;font-size:clamp(17px,2.4vw,21px);font-style:italic}
     .hero-rule{width:72px;height:1px;background:var(--accent);margin:30px auto 0;opacity:.8}
+    .volume-introduction{display:grid;grid-template-columns:minmax(110px,168px) minmax(0,1fr);align-items:start;gap:26px;max-width:760px;margin:0 auto 48px;padding:22px;border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--panel) 62%,transparent)}
+    .volume-introduction[hidden],.author-note-section[hidden]{display:none}
+    .volume-cover{width:100%;margin:0;aspect-ratio:2/3;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:var(--bg);box-shadow:0 10px 26px rgba(0,0,0,.18)}
+    .volume-cover img{display:block;width:100%;height:100%;object-fit:cover}
+    .volume-introduction-copy{display:grid;gap:20px;min-width:0}
+    .presentation-block h2,.author-note-section h2{margin:0 0 8px;color:var(--accent);font:700 10px/1.4 "DM Sans",sans-serif;letter-spacing:.16em;text-transform:uppercase}
+    .presentation-block p{margin:0;color:var(--text);font-family:"Literata",Georgia,serif;font-size:15px;line-height:1.8;overflow-wrap:anywhere}
+    .author-note-section{max-width:720px;margin:54px auto 36px;padding:22px 24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}
+    .author-note-copy{margin:0;color:var(--muted);font-family:"Literata",Georgia,serif;font-size:15px;line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere}
     .reader-shell{max-width:var(--measure);margin:0 auto;padding:38px 26px 80px}
     .volume-navigation{display:flex;justify-content:space-between;gap:14px;margin:44px 0 12px;padding-top:22px;border-top:1px solid var(--line)}
     .volume-nav-link{display:flex;flex-direction:column;gap:4px;max-width:48%;padding:12px 15px;border:1px solid var(--line);border-radius:12px;color:var(--text);background:var(--panel)}
@@ -136,6 +145,10 @@
       .mobile-progress{display:block;position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:24;padding:3px 8px;border:1px solid color-mix(in srgb,var(--line) 75%,transparent);border-radius:999px;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(10px);color:var(--accent);font:700 11px/1.5 "DM Sans",sans-serif;font-variant-numeric:tabular-nums;pointer-events:none}
       .hero{margin:88px auto 28px;padding:28px 20px 40px}
 
+      .volume-introduction{grid-template-columns:minmax(0,1fr);gap:18px;margin:0 auto 34px;padding:18px}
+      .volume-cover{width:min(42vw,150px);margin:0 auto}
+      .volume-introduction-copy{gap:16px}
+      .author-note-section{margin:40px auto 28px;padding:18px 12px}
       .reader-shell{padding:26px 21px 58px}
       .story-content{line-height:var(--reader-line-height)}
       .story-content h2{scroll-margin-top:72px}
@@ -237,9 +250,30 @@
 
   <main class="reader-shell">
     <div class="volume-note">{{ page.genre | escape }} <span aria-hidden="true">·</span> {{ page.reading_note | default: "A light-novel edition" | escape }}</div>
+    <section class="volume-introduction" id="volumeIntroduction" aria-label="Volume introduction" hidden>
+      {% if page.cover_image %}
+      <figure class="volume-cover" id="volumeCover">
+        <img src="{{ page.cover_image | relative_url | escape }}" alt="{{ page.cover_alt | default: '' | escape }}" loading="eager" decoding="async">
+      </figure>
+      {% endif %}
+      <div class="volume-introduction-copy">
+        <section class="presentation-block" id="seriesDescriptionSection" data-presentation-section hidden>
+          <h2>About the series</h2>
+          <p id="seriesDescription">{{ page.series_description | escape }}</p>
+        </section>
+        <section class="presentation-block" id="volumeSynopsisSection" data-presentation-section hidden>
+          <h2>About this volume</h2>
+          <p id="volumeSynopsis">{{ page.synopsis | escape }}</p>
+        </section>
+      </div>
+    </section>
     <article class="story-content" id="story-content">
       {{ content }}
     </article>
+    <section class="author-note-section" id="authorNoteSection" data-presentation-section hidden aria-labelledby="authorNoteHeading">
+      <h2 id="authorNoteHeading">Author's note</h2>
+      <p class="author-note-copy" id="authorNote">{{ page.author_note | escape }}</p>
+    </section>
     <nav class="volume-navigation" id="volumeNavigation" aria-label="Volume navigation"><a class="volume-nav-link" id="previousVolume" hidden><span>← Previous volume</span><strong></strong></a><a class="volume-nav-link next" id="nextVolume" hidden><span>Next volume →</span><strong></strong></a></nav>
     <div class="endnote"><div class="end-mark">End of Volume {{ page.volume }}</div><p>{{ page.closing_note | default: "End of volume." | escape }}</p></div>
   </main>
@@ -261,6 +295,27 @@
     };
     wireLanguageMenu("languagePicker", "translateToggle", "languageMenu");
     wireLanguageMenu("mobileLanguagePicker", "mobileTranslateToggle", "mobileLanguageMenu");
+
+    const volumeCoverImage = document.querySelector("#volumeCover img");
+    if (volumeCoverImage) {
+      volumeCoverImage.addEventListener("error", () => {
+        const cover = volumeCoverImage.closest(".volume-cover");
+        if (cover) cover.hidden = true;
+        const intro = document.getElementById("volumeIntroduction");
+        if (intro && !intro.querySelector(".presentation-block:not([hidden])")) intro.hidden = true;
+      }, { once: true });
+    }
+    const initialIntroduction = document.getElementById("volumeIntroduction");
+    if (initialIntroduction) {
+      const hasCover = Boolean(volumeCoverImage);
+      const hasDescription = Boolean(document.getElementById("seriesDescription")?.textContent.trim());
+      const hasSynopsis = Boolean(document.getElementById("volumeSynopsis")?.textContent.trim());
+      initialIntroduction.hidden = !(hasCover || hasDescription || hasSynopsis);
+    }
+    ["seriesDescriptionSection", "volumeSynopsisSection", "authorNoteSection"].forEach(id => {
+      const section = document.getElementById(id);
+      if (section) section.hidden = !section.querySelector("p")?.textContent.trim();
+    });
 
     // Translation content is loaded into the canonical story page; language choices never navigate.
     const canonicalStoryUrl = {{ original_story_url | relative_url | jsonify }};
@@ -315,6 +370,38 @@
         copyText(".tagline", ".hero .tagline");
         copyText(".volume-note", ".volume-note");
         copyText(".endnote p", ".endnote p");
+
+        // Optional presentation metadata is localized per edition and falls back to English.
+        const presentationFallbacks = {
+          seriesDescription: document.getElementById("seriesDescription")?.textContent || "",
+          volumeSynopsis: document.getElementById("volumeSynopsis")?.textContent || "",
+          authorNote: document.getElementById("authorNote")?.textContent || "",
+          coverAlt: document.querySelector("#volumeCover img")?.getAttribute("alt") || ""
+        };
+        const updatePresentationField = (selector, targetId, fallback) => {
+          const target = document.getElementById(targetId);
+          if (!target) return;
+          const source = translatedDocument.querySelector(selector);
+          const value = source ? source.textContent : fallback;
+          target.textContent = value;
+          const section = target.closest("[data-presentation-section]");
+          if (section) section.hidden = !value.trim();
+        };
+        updatePresentationField("#seriesDescription", "seriesDescription", presentationFallbacks.seriesDescription);
+        updatePresentationField("#volumeSynopsis", "volumeSynopsis", presentationFallbacks.volumeSynopsis);
+        updatePresentationField("#authorNote", "authorNote", presentationFallbacks.authorNote);
+        const coverImage = document.querySelector("#volumeCover img");
+        if (coverImage) {
+          const translatedCover = translatedDocument.querySelector("#volumeCover img");
+          coverImage.alt = translatedCover ? translatedCover.alt : presentationFallbacks.coverAlt;
+        }
+        const volumeIntroduction = document.getElementById("volumeIntroduction");
+        if (volumeIntroduction) {
+          const hasCover = Boolean(coverImage && !document.getElementById("volumeCover").hidden);
+          const hasDescription = Boolean(document.getElementById("seriesDescription")?.textContent.trim());
+          const hasSynopsis = Boolean(document.getElementById("volumeSynopsis")?.textContent.trim());
+          volumeIntroduction.hidden = !(hasCover || hasDescription || hasSynopsis);
+        }
         document.documentElement.lang = option.dataset.htmlLang || "en";
         activeLanguage = language;
         requestAnimationFrame(() => {
