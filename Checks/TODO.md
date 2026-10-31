@@ -137,15 +137,15 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 **Goal:** Complete the site's editorial identity and supporting pages.
 
 - [x] Refine the existing About page to explain the catalogue structure, reading experience, and visual direction without creating a duplicate page.
-- [x] Add a dedicated Editorial & Credits page with project-maintainer credit, editorial principles, and platform acknowledgements.
-- [x] Review the existing Creator and Reading Guide pages and retain their separate purposes; do not duplicate their content in new pages.
+- [x] Consolidate the project overview, creator/maintainer profile, reading guide, editorial principles, and credits/acknowledgements into one About page at `/about/`.
+- [x] Redirect the former `/creator/`, `/reading-guide/`, and `/editorial/` routes to `/about/` to preserve existing links and bookmarks.
 - [x] Document the current visual identity and design system, including color tokens, typography, layout, components, and interaction requirements in [Design-System.md](Design-System.md).
 - [x] Add a custom root-level 404 page with clear routes back to the Library and Home.
-- [x] Link About and Editorial & Credits from the shared site footer.
+- [x] Simplify the shared navigation and footer to link to the single About page rather than separate Creator, Reading Guide, and Editorial & Credits pages.
 - [x] Standardize browser document titles as `Page Name | Tidewritten`, including `Home | Tidewritten`, and remove duplicate site-name suffixes.
 - [ ] Verify all Phase 6 page routes, metadata, navigation state, accessibility, dark/light themes, and responsive layouts in a successful Jekyll build and rendered-browser QA.
 
-**Implementation update (2026-10-31):** Initial Phase 6 content and structure are implemented on branch `phase-6-tidewritten-identity`: About page refined, Editorial & Credits page added, design-system documentation added, custom 404 page added, and footer links updated. Source-level review is not a substitute for build or browser verification.
+**Implementation update (2026-10-31):** The initial Phase 6 identity work was merged in PR #60. Follow-up consolidation is implemented on branch `merge-project-info-pages`: the About page now contains the project overview, creator/maintainer details, reading guide, editorial principles, and credits; former Creator, Reading Guide, and Editorial routes redirect to `/about/`; and the shared navigation/footer now expose a single About link. Design-system documentation and the custom 404 page remain in place. Source-level review is not a substitute for build or browser verification.
 
 ## Roadmap-wide implementation rules
 
