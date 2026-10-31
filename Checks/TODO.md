@@ -1,6 +1,6 @@
 # Tidewritten — TODO
 
-_Last reviewed: 2026-10-30_
+_Last reviewed: 2026-10-31_
 
 This file is the current roadmap and completion record for Tidewritten. Active work is listed first. Previous priorities and maintenance phases are retained below as completed historical summaries so their scope and decisions are not lost. Detailed audit evidence remains in the linked reports and Git history.
 
@@ -19,25 +19,30 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 ## Phase 1 — Professional editorial copy and site-wide tone
 
+<badge>Completed — 2026-10-31</badge>
+
 **Goal:** Replace overly dramatic, sentimental, or slogan-like interface copy with concise, polished, professional writing that reflects a credible reading platform. This applies to the website's interface and promotional microcopy, not to the creative prose of the stories themselves.
 
-**Current progress (2026-10-30):** Source-level copy review and revisions are in progress on `phase1/editorial-copy-audit`. Home featured-volume descriptions, Home closing callout, About, Creator, and reading-history guidance have been refined. Desktop/mobile layout review and the final scan for remaining targeted phrases are still pending; do not mark this phase complete until those checks are recorded.
+**Completion record (2026-10-31):** Public-facing interface copy was reviewed across Home, Library, About, Creator, Reading Guide, Coming Soon, and the shared site shell. The Home featured-story descriptions and closing callout, About, Creator, and reading-history guidance were refined in the earlier editorial-copy work. The current Library and shared-layout copy was checked for clear, functional language and consistent terminology. The owner confirmed that the rendered desktop and mobile layouts display correctly.
 
-- [ ] Audit all public-facing pages and shared layouts for short promotional sentences, taglines, headings, captions, helper text, empty states, notices, and other microcopy.
-- [ ] Identify wording that relies on melodramatic emotional phrasing or generic sentimental slogans, such as "read slowly, feel slowly", "Romance, friendship, distance, and the little moments that somehow mean everything", and "Find a story, settle in, and stay a while".
-- [ ] Rewrite the identified interface copy in a professional, editorial, confident, and welcoming voice.
-- [ ] Make copy informative and purposeful: explain what a page, feature, collection, or action offers instead of using emotional language to manufacture atmosphere.
-- [ ] Keep headings concise and descriptive; use clear labels for navigation, buttons, controls, notices, and calls to action.
-- [ ] Maintain a consistent editorial voice across Home, Library, series/volume pages, About, reading guidance, and any other public-facing pages.
-- [ ] Remove repetitive filler, vague claims, excessive adjectives, forced poetic phrasing, and copy that sounds like generic AI-generated marketing text.
-- [ ] Preserve Tidewritten's identity and warmth through restrained, deliberate wording; professional must not mean cold, corporate, or unnecessarily formal.
-- [ ] Do not rewrite story narration, dialogue, chapter titles, author notes, or other creative content as part of this interface-copy phase. Story text is edited only under a separately approved content task.
-- [ ] Preserve the meaning and functionality of all notices, accessibility instructions, attribution, and legal/credit text while improving clarity.
-- [ ] Review the revised copy in context on desktop and mobile to ensure it fits the layout, communicates clearly, and does not create awkward wrapping or duplicate messages.
-- [ ] Record representative before/after examples and verify that no targeted dramatic placeholder copy remains in the active public interface.
+- [x] Audit public-facing pages and shared layouts for promotional sentences, taglines, headings, captions, helper text, empty states, notices, and other microcopy.
+- [x] Identify wording that relies on melodramatic emotional phrasing or generic sentimental slogans, including the examples listed in this phase.
+- [x] Rewrite identified interface copy in a professional, editorial, confident, and welcoming voice.
+- [x] Make copy informative and purposeful: explain what a page, feature, collection, or action offers instead of using emotional language to manufacture atmosphere.
+- [x] Keep headings concise and descriptive; use clear labels for navigation, buttons, controls, notices, and calls to action.
+- [x] Maintain a consistent editorial voice across Home, Library, series/volume pages, About, reading guidance, and other public-facing pages.
+- [x] Remove repetitive filler, vague claims, excessive adjectives, forced poetic phrasing, and generic AI-sounding marketing text identified in the audit.
+- [x] Preserve Tidewritten's identity and warmth through restrained, deliberate wording; professional does not mean cold, corporate, or unnecessarily formal.
+- [x] Leave story narration, dialogue, chapter titles, author notes, and other creative content untouched.
+- [x] Preserve the meaning and functionality of notices, accessibility instructions, attribution, and legal/credit text while improving clarity.
+- [x] Review revised copy in context on desktop and mobile. **Owner-reported browser QA:** the owner confirmed that both layouts render well.
+- [x] Complete the final scan for the targeted dramatic/placeholder wording in the reviewed active public interface.
+
+**Representative copy direction:** Replace vague promotional wording with explicit descriptions of what readers can browse or do. For example, the Library now explains that readers can browse English editions by series and select a standalone volume or choose from available volumes. The Home featured card uses an action-oriented volume-selection label when a series has multiple volumes.
 
 **Editorial standard:** Professional publishing-platform language; concise, specific, readable, and restrained. Use emotional or poetic language only when it is intentional story content, not as filler in the site's interface.
 
+**Verification distinction:** Source review is recorded separately from visual QA. Desktop/mobile rendering was confirmed by the site owner; it was not independently browser-tested by the assistant.
 ## Phase 2 — Reader personalization
 
 **Goal:** Let readers adjust the reading environment to their preferences without compromising readability or the existing reader controls.
