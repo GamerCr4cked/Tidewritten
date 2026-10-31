@@ -47,7 +47,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Let readers adjust the reading environment to their preferences without compromising readability or the existing reader controls.
 
-**Current progress (2026-10-31):** The shared reader now has collapsible personalization controls on desktop and mobile. The five preference categories, device-local persistence, defaults, and reset action are implemented on branch `feature/reader-personalization`. Automated browser/build verification and owner-reported live checks remain pending; do not mark this phase complete until those checks are recorded.
+**Current progress (2026-10-31):** The shared reader personalization controls are merged in PR #42. The owner reports that 12 of 13 checks passed, including desktop controls, all palettes, light/dark compatibility, custom accent, typography, spacing, width, persistence, reset, and existing reader controls. Mobile controls/rendering are explicitly deferred by the owner. Keep the mobile check open; this phase is not closed yet.
 
 - [x] Add selectable reader themes (Ocean, Midnight, and Pearl palettes).
 - [x] Add customizable accent colors with theme- and mode-aware default contrast.
@@ -66,16 +66,20 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Make the Library easier to explore as the catalogue grows.
 
-- [ ] Add search across canonical series and volume metadata.
-- [ ] Add filters for genre.
-- [ ] Add filters for publication/completion status.
-- [ ] Add filters for available language editions.
-- [ ] Add a recently updated volumes area or sorting option.
-- [ ] Add clear series completion indicators, distinguishing completed series from ongoing or incomplete publication.
+**Current progress (2026-10-31):** Initial Library discovery controls are implemented on branch `feature/library-evolution`. Search, genre/status/edition filters, sorting by series name or volume count, and explicit status labels are in place. This is a partial implementation; updated-volume sorting, stronger cover artwork, and series/volume descriptions remain open. Publication status is shown as “Status not set” when the source metadata does not establish completion, rather than guessing that a series is ongoing.
+
+- [x] Add search across canonical series and volume metadata.
+- [x] Add filters for genre.
+- [x] Add filters for publication/completion status.
+- [x] Add filters for available language editions.
+- [ ] Add a recently updated volumes area or sorting option. The current Git history reports the same bulk filename-standardization timestamp for all canonical story files, so it is not a reliable content-update date; add explicit, maintained update metadata before exposing this sort.
+- [x] Add clear series completion indicators where the current story metadata explicitly identifies a final volume; use “Status not set” when completion cannot be established.
 - [ ] Improve series cover artwork and ensure each cover represents the series rather than creating duplicate entries for translations.
-- [ ] Preserve series-based grouping; translations must never appear as separate series or volumes.
+- [x] Preserve series-based grouping; translations must never appear as separate series or volumes.
 - [ ] Ensure search, filters, sorting, and cover layouts work on narrow mobile screens and with keyboard navigation.
 - [ ] Verify every Library result and volume destination resolves to its canonical story route.
+
+**Implementation note:** Language availability is derived from each translation page's `translation_of` mapping, so the Library filter reflects published editions rather than assumed support. Status labels currently use explicit final-volume notes and the named Meet Again Trilogy; unconfirmed series are not labelled “Ongoing” without owner-supplied publication status.
 
 **Design inspiration supplied by the site owner:** [BookOrbit dashboard reference](https://images.openai.com/static-rsc-4/gkT3M4zz8uFmbAmUNdgcxjsv3gVyyM8dWx2m8C_Uc_wSYJEjsTl7C3oCvdarBGedcAFKaDBLJsyjyV7Oi_1q--xgTYaDU3c9JC_x6prI_V59pd11MZ-2F_LtUADNcCVimTCrq27522bw-vY7rbf7d--aYn7VcM9onyJ_Rq_x_dA?purpose=inline).
 
