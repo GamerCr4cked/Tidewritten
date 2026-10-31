@@ -44,24 +44,31 @@
     .language-menu[hidden],.mobile-reader-menu[hidden]{display:none}
     .language-menu-heading{padding:9px 10px 7px;color:var(--muted);font-size:9px;font-weight:700;letter-spacing:.15em}
     .language-option{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px;border-radius:9px;color:var(--text);font-size:13px;text-decoration:none}
-    .language-option:hover{background:rgba(142,219,212,.09);text-decoration:none}
+    .language-option{transition:background-color .18s,color .18s}
+    .language-option:hover{background:var(--accent-subtle);color:var(--accent);text-decoration:none}
     .language-option.is-selected{background:rgba(142,219,212,.14);color:var(--accent);font-weight:700}
     .language-option small{display:block;margin-top:2px;color:var(--muted);font-size:10px;font-weight:500}
     .language-check{visibility:hidden;color:var(--accent);font-size:14px}
     .language-option.is-selected .language-check{visibility:visible}
-    [data-theme="light"] .language-option:hover{background:rgba(8,127,145,.07)}
+    [data-theme="light"] .language-option:hover{background:var(--accent-subtle);color:var(--accent)}
     [data-theme="light"] .language-option.is-selected{background:rgba(8,127,145,.11);color:var(--accent)}
     .reader-settings{position:relative;margin:9px 0}
     .reader-settings summary{list-style:none}
     .reader-settings summary::-webkit-details-marker{display:none}
     .reader-settings[open] summary .translate-chevron{transform:rotate(180deg)}
     .reader-settings-grid{display:grid;gap:8px;padding:10px 2px 2px}
+    .reader-settings-text-size{grid-column:1/-1;display:grid;gap:6px;padding:4px 0}
+    .reader-settings-text-size .tool-buttons{margin-top:0}
+    .reader-settings-text-size .reset-row{margin-top:0}
     .reader-settings-grid label{display:grid;gap:4px;color:var(--muted);font-size:10px;font-weight:600}
     .reader-settings-grid select{width:100%;min-width:0;min-height:32px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:500 11px "DM Sans",sans-serif}
     .reader-settings-grid input[type="color"]{width:100%;height:32px;padding:3px;border:1px solid var(--line);border-radius:8px;background:var(--panel);cursor:pointer}
+    .reader-settings-grid select,.reader-settings-grid input[type="color"]{transition:border-color .18s,background-color .18s,box-shadow .18s}
+    .reader-settings-grid select:hover,.reader-settings-grid input[type="color"]:hover{border-color:var(--accent);background-color:var(--accent-subtle)}
     .reader-settings-grid select:focus-visible,.reader-settings-grid input:focus-visible,.reader-settings summary:focus-visible,.reader-settings-reset:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
     .reader-settings-reset{width:100%;padding:7px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--muted);font:600 10px "DM Sans",sans-serif;cursor:pointer}
-    .reader-settings-reset:hover{border-color:var(--accent);color:var(--accent)}
+    .reader-settings-reset{transition:border-color .18s,background-color .18s,color .18s}
+    .reader-settings-reset:hover{border-color:var(--accent);background:var(--accent-subtle);color:var(--accent)}
     .reader-settings-mobile{display:none}
     @media(min-width:601px){
       .reader-settings{position:relative}
@@ -201,16 +208,18 @@
         <label>Story font<select data-reader-pref="font"><option value="literata">Literata</option><option value="georgia">Georgia</option><option value="system">System serif</option></select></label>
         <label>Line spacing<select data-reader-pref="line"><option value="1.7">Compact</option><option value="1.85">Comfortable</option><option value="1.95">Default</option><option value="2.15">Relaxed</option></select></label>
         <label>Reading width<select data-reader-pref="width"><option value="640">Narrow</option><option value="720">Default</option><option value="820">Wide</option><option value="920">Extra wide</option></select></label>
+        <div class="reader-settings-text-size">
+          <div class="text-size-label">Text size</div>
+          <div class="tool-buttons">
+            <button type="button" id="larger" aria-label="Increase text size" title="Increase text size">A+</button>
+            <button type="button" id="smaller" aria-label="Decrease text size" title="Decrease text size">A−</button>
+          </div>
+          <div class="reset-row"><button type="button" id="reset" aria-label="Reset text size" title="Reset text size">Reset</button></div>
+        </div>
         <button class="reader-settings-reset" type="button" data-reader-reset>Reset appearance</button>
       </div>
     </details>
     <div class="panel-divider"></div>
-    <div class="text-size-label">Text size</div>
-    <div class="tool-buttons">
-      <button type="button" id="larger" aria-label="Increase text size" title="Increase text size">A+</button>
-      <button type="button" id="smaller" aria-label="Decrease text size" title="Decrease text size">A−</button>
-    </div>
-    <div class="reset-row"><button type="button" id="reset" aria-label="Reset text size" title="Reset text size">Reset</button></div>
     <div class="reading-progress">
       <div class="progress-label"><span>Reading progress</span><span class="reading-percentage" id="readingPercentage">0%</span></div>
       <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="readingProgressFill"></div></div>
@@ -237,12 +246,14 @@
           <label>Story font<select data-reader-pref="font"><option value="literata">Literata</option><option value="georgia">Georgia</option><option value="system">System serif</option></select></label>
           <label>Line spacing<select data-reader-pref="line"><option value="1.7">Compact</option><option value="1.85">Comfortable</option><option value="1.95">Default</option><option value="2.15">Relaxed</option></select></label>
           <label>Reading width<select data-reader-pref="width"><option value="640">Narrow</option><option value="720">Default</option><option value="820">Wide</option><option value="920">Extra wide</option></select></label>
+          <div class="reader-settings-text-size">
+            <div class="text-size-label">Text size</div>
+            <div class="tool-buttons"><button type="button" id="mobileLarger" aria-label="Increase text size">A+</button><button type="button" id="mobileSmaller" aria-label="Decrease text size">A−</button></div>
+            <div class="reset-row"><button type="button" id="mobileReset" aria-label="Reset text size">Reset</button></div>
+          </div>
           <button class="reader-settings-reset" type="button" data-reader-reset>Reset appearance</button>
         </div>
       </details>
-      <div class="text-size-label">Text size</div>
-      <div class="tool-buttons"><button type="button" id="mobileLarger" aria-label="Increase text size">A+</button><button type="button" id="mobileSmaller" aria-label="Decrease text size">A−</button></div>
-      <div class="reset-row"><button type="button" id="mobileReset" aria-label="Reset text size">Reset</button></div>
       <div class="reading-progress"><div class="progress-label"><span>Reading progress</span><span class="reading-percentage" id="mobileReadingPercentage">0%</span></div><div class="progress-track" aria-hidden="true"><div class="progress-fill" id="mobileReadingProgressFill"></div></div></div>
     </div>
   </aside>
