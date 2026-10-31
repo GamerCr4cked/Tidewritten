@@ -109,21 +109,23 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 - [ ] Create custom cover art for every series.
 - [ ] Create volume-specific cover designs where appropriate.
-- [ ] Add a concise series introduction and description.
-- [ ] Add volume-specific descriptions or synopses where useful.
-- [ ] Provide a place for author notes.
+- [x] Add shared-reader and Library support for concise series descriptions.
+- [x] Add shared-reader and Library support for volume-specific synopses.
+- [x] Provide an optional, localized author-note section in the shared reader.
 - [ ] Support additional illustrations where they genuinely improve the reading experience.
 - [ ] Establish consistent cover dimensions, image optimization, alt text, and responsive behaviour.
-- [ ] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
-- [ ] Ensure cover links, series identity, volume numbering, and Library grouping remain correct.
-- [ ] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback.
-- [ ] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation.
-- [ ] Add validated optional illustration rendering; do not alter story prose or guess chapter placement.
+- [x] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
+- [x] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers.
+- [x] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback.
+- [x] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (PR #51).
+- [x] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (PR in progress; build and browser QA pending).
 - [ ] Populate accurate series descriptions and volume synopses from story content or owner-approved copy.
 - [ ] Create and optimize approved cover assets using the documented 2:3 / 1200 × 1800 / WebP specification.
 - [ ] Verify missing-image fallbacks, canonical routes, translation switching, accessibility, desktop/mobile layouts, and rendered browser behaviour.
 
-**Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. The decisions are documented; implementation and asset population remain open.
+**Implementation progress (2026-10-31):** The shared-reader metadata and author-note paths were implemented in PR #50, and Library cover integration was merged in PR #51. Optional illustration rendering is being added in a separate reader-focused PR; no illustration assets or story metadata have been populated yet. Jekyll build and rendered desktop/mobile QA remain outstanding.
+
+**Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. Architecture and initial rendering paths are in place; story-grounded metadata, approved artwork, asset population, and final QA remain open.
 
 **Design inspiration supplied by the site owner:** [Awwwards desktop design reference](https://images.openai.com/static-rsc-4/r9nA6rLDZS-UtAxthQ8akPSRLsaijppy4NfOGpmXtV6rjXXTE7R7wEQnNqA7TsqMzTp68gFYEndYglOs20wgwEMSUzNdLqIBNgDBcdP-N_wzcKrUCkTqMf4mhxU8hWmPdgi-vibsahV3OZAeIQ-pQFw2xjF0fVlPSCSgmEX78qw?purpose=inline).
 
