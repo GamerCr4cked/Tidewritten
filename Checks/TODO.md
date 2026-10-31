@@ -57,6 +57,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Add adjustable paragraph/content width.
 - [x] Save reader preferences per device using a dedicated versioned localStorage key.
 - [x] Define sensible defaults and a reset-to-default option.
+- [x] Make desktop and mobile Customize dropdowns dismiss on outside click and Escape, matching Translate menu behaviour.
 - [x] Keep preferences independent from site-wide navigation and existing reader controls.
 - [x] Keep preferences independent from each story's saved reading position and language preference.
 - [ ] Test desktop, mobile, keyboard/touch controls, both base themes and reader palettes, and reduced-motion/accessibility behaviour.

@@ -310,6 +310,26 @@
     wireLanguageMenu("languagePicker", "translateToggle", "languageMenu");
     wireLanguageMenu("mobileLanguagePicker", "mobileTranslateToggle", "mobileLanguageMenu");
 
+    // Match Translate's dismissal behaviour for both desktop and mobile Customize menus.
+    const readerSettingsMenus = Array.from(document.querySelectorAll(".reader-settings"));
+    const closeReaderSettings = (menu, restoreFocus = false) => {
+      if (!menu.open) return;
+      menu.open = false;
+      if (restoreFocus) menu.querySelector("summary")?.focus();
+    };
+    document.addEventListener("click", event => {
+      readerSettingsMenus.forEach(menu => {
+        if (menu.open && !menu.contains(event.target)) closeReaderSettings(menu);
+      });
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key !== "Escape") return;
+      const openMenus = readerSettingsMenus.filter(menu => menu.open);
+      if (!openMenus.length) return;
+      event.preventDefault();
+      openMenus.forEach(menu => closeReaderSettings(menu, true));
+    });
+
     const volumeCoverImage = document.querySelector("#volumeCover img");
     if (volumeCoverImage) {
       const hideMissingCover = () => {
