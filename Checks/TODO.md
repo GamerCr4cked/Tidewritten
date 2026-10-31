@@ -48,7 +48,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Let readers adjust the reading environment to their preferences without compromising readability or the existing reader controls.
 
-**Current progress (2026-10-31):** The shared reader personalization controls are merged in PR #42. A follow-up source audit strengthened reduced-motion handling; mobile, keyboard/touch, and full accessibility QA remain open. See [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md). The owner reports that 12 of 13 checks passed, including desktop controls, all palettes, light/dark compatibility, custom accent, typography, spacing, width, persistence, reset, and existing reader controls. Mobile controls/rendering are explicitly deferred by the owner. Keep the mobile check open; this phase is not closed yet.
+**Current progress (2026-10-31):** The shared reader personalization controls are merged in PR #42, and the reduced-motion/statistics follow-up is merged in PR #62. The owner has now confirmed the mobile Customize controls, touch and keyboard operation, palettes, and reduced-motion behaviour work in the browser. Phase 2 browser QA is complete (owner-reported). See [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md).
 
 - [x] Add selectable reader themes (Ocean, Midnight, and Pearl palettes).
 - [x] Add customizable accent colors with theme- and mode-aware default contrast.
@@ -60,8 +60,8 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Make desktop and mobile Customize dropdowns dismiss on outside click and Escape, matching Translate menu behaviour.
 - [x] Keep preferences independent from site-wide navigation and existing reader controls.
 - [x] Keep preferences independent from each story's saved reading position and language preference.
-- [ ] Test desktop, mobile, keyboard/touch controls, both base themes and reader palettes, and reduced-motion/accessibility behaviour.
-- [ ] Run the repository's relevant build/check workflow and review the resulting diff before closing the phase.
+- [x] Owner-reported browser QA: mobile Customize controls, touch and keyboard operation, all palettes, base themes, and reduced-motion behaviour work as expected.
+- [x] Review the merged implementation and its GitHub Pages workflow (PR #62; merged as `a428916e043a8855f9284c0a9061d858e9182725`).
 
 **Implementation notes:** The light/dark mode toggle and text-size controls remain separate and retain their existing storage keys. Reset appearance changes only the reader palette, accent, story font, line spacing, and reading width; it does not clear reading progress, reading history, or language preference.
 ## Phase 3 — Library evolution
@@ -80,7 +80,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Improve the CSS-built cover artwork with distinct series-specific designs and title treatments; keep one cover per canonical series, with translations represented only as editions.
 - [x] Preserve series-based grouping; translations must never appear as separate series or volumes.
 - [x] Implement narrow-screen filter/card/dialog layouts, visible keyboard focus, a 44px dialog-close target, Enter/Space activation, dialog focus entry/return, and live result announcements.
-- [ ] Complete rendered mobile and keyboard browser QA at narrow viewport sizes; source-level responsive and interaction checks are complete, but no rendered browser session or Jekyll build is available in this environment.
+- [x] Owner-reported browser QA: mobile Library filters, the volume chooser, and keyboard focus behaviour work as expected.
 - [x] Audit all 17 canonical English volume routes for uniqueness and verify each series/volume selection is built from its canonical `permalink`; verify translation mapping remains tied to those canonical routes.
 
 **Implementation note:** Language availability is derived from each translation page's `translation_of` mapping, so the Library filter reflects published editions rather than assumed support. Status labels currently use explicit final-volume notes and the named Meet Again Trilogy; unconfirmed series are not labelled “Ongoing” without owner-supplied publication status.
@@ -91,7 +91,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Give readers a useful, private overview of their reading activity.
 
-**Source-audit finding (2026-10-31):** The chapter word-count, chapter-title normalization, and volume-title cleanup regular expressions were double-escaped in the reader source. A follow-up fix is prepared in PR for this cycle; see [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md). The owner/browser behaviour checks below remain open.
+**Source-audit finding (2026-10-31):** The chapter word-count, chapter-title normalization, and volume-title cleanup regular expressions were double-escaped in the reader source. They were corrected in PR #62, merged as `a428916e043a8855f9284c0a9061d858e9182725`. The owner has confirmed fast-scroll prevention, genuine chapter completion, migration, and clearing statistics work in the browser. See [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md).
 
 - [x] Track total reading time using visible/focused-page checkpoints and a 60-second recent-activity window; cap each 15-second checkpoint.
 - [x] Track completed chapters only after the reader reaches the chapter end and meets a minimum active-reading-time threshold (word-count estimate, 15-second floor, 90-second cap).
@@ -102,7 +102,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Keep statistics in a separate versioned localStorage record; no account or remote sync.
 - [x] Add a confirmed clear action scoped to statistics only.
 - [x] Explain local storage fields, qualified completion rules, and active-time logic on the dashboard.
-- [ ] Owner/browser QA: verify fast-scrolling cannot complete chapters, genuine reading followed by reaching chapter ends does complete them, migration preserves total time/activity while requalifying completion counts, and refresh/navigation plus responsive presentation remain correct.
+- [x] Owner-reported browser QA: fast-scroll prevention, genuine chapter completion, migration, and clearing statistics work as expected.
 
 **Design inspiration supplied by the site owner:** [Japanese light-novel publication/listing reference](https://images.openai.com/static-rsc-4/fiGEAIk-K4mq6U33dQPa0gAQ41pezPzxOZcSjEQCHwMEWgzgb9cR5exbW4ym5LZWq3nKGUrDq2KjTh0nuaB1JIIRtMqsf45yIGIx2tQIqsIn8kStoywh6wBNBxyaRN8jS4EqeZr2Em9qrA75kVk1OqjVdtmyEXWJDpM6Fn340-g?purpose=inline).
 
@@ -145,9 +145,9 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Add a custom root-level 404 page with clear routes back to the Library and Home.
 - [x] Simplify the shared navigation and footer to link to the single About page rather than separate Creator, Reading Guide, and Editorial & Credits pages.
 - [x] Standardize browser document titles as `Page Name | Tidewritten`, including `Home | Tidewritten`, and remove duplicate site-name suffixes.
-- [ ] Verify all Phase 6 page routes, metadata, navigation state, accessibility, dark/light themes, and responsive layouts in a successful Jekyll build and rendered-browser QA.
+- [x] Owner-reported browser QA: About page, legacy redirects, custom 404, navigation states, themes, and responsive layouts work as expected.
 
-**Implementation update (2026-10-31):** The Phase 6 source review and remaining owner/browser checks are recorded in [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md). The initial Phase 6 identity work was merged in PR #60. Follow-up consolidation was merged into `main` in PR #61: the About page contains the project overview, creator/maintainer details, reading guide, editorial principles, and credits; former Creator, Reading Guide, and Editorial routes redirect to `/about/`; and the shared navigation/footer expose a single About link. Design-system documentation and the custom 404 page remain in place. Source-level review is not a substitute for rendered-browser verification.
+**Implementation and QA update (2026-10-31):** The Phase 6 identity work was merged in PRs #60 and #61. The owner has now confirmed the About page, legacy redirects, custom 404, navigation, themes, and responsive layouts work in the browser. This is owner-reported browser QA. Detailed source findings and verification distinctions are recorded in [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md).
 
 ## Roadmap-wide implementation rules
 
