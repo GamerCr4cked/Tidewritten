@@ -44,6 +44,7 @@ Create a distinct visual identity for each of the 10 canonical series.
 - Keep important subjects within a central safe area so artwork remains legible when cropped into Library cards and smaller placements.
 - Prefer artwork without baked-in title, volume number, or author lettering. Keep those elements as semantic HTML.
 - Confirm the final series concepts and assets before treating this task as complete.
+- **Progress:** Owner-approved series-level artwork has been created and pushed for all 10 series. These initial covers represent Volume 1; individual designs for the remaining seven volumes are still pending.
 
 ## 2. Create volume-specific cover designs where appropriate
 
@@ -52,6 +53,7 @@ Give each canonical volume its own release identity while retaining the visual l
 - Review the actual contents and synopsis of each of the 17 canonical English volumes before deciding whether a distinct volume scene or motif is appropriate.
 - Make volume differences meaningful: vary the scene, lighting, symbol, season, or focal subject only when supported by that volume.
 - Ensure the volume remains recognizable as part of its series; do not make related volumes look like unrelated titles.
+- **Progress:** Volume-specific artwork beyond the initial Volume 1 series covers has not yet been produced.
 - Do not create separate cover records or Library entries for Hinglish and Banglish editions. All editions of a volume use the same canonical cover asset.
 - Check that the cover does not reveal major plot twists or important surprises.
 - Keep volume titles and numbering as real page text, not as the only information embedded in artwork.
@@ -69,6 +71,7 @@ Prepare all cover files and metadata for reliable display across the Library and
 - Keep all artwork responsive, preserve intrinsic aspect ratio, reserve layout space, and avoid content shift.
 - Use the existing CSS-built series artwork whenever cover metadata or an image file is missing; never show a broken-image icon or blank cover region.
 - Ensure the Library remains series-based and uses the first available canonical volume cover for each series card.
+- **Progress:** The 10 initial WebP assets are in `assets/images/covers/`; all 10 canonical English Volume 1 pages reference the matching file. Reader and Library image-error fallbacks are implemented on the cover-integration branch.
 
 ## 4. Populate and optimize the approved cover assets
 
@@ -82,6 +85,7 @@ Create, review, and add the final artwork to the repository.
 - Populate `cover_image` and edition-appropriate `cover_alt` metadata on the canonical volume pages and their translations, preserving the same cover path across editions.
 - Check for missing files, duplicate filenames, invalid paths, inconsistent dimensions, and unreferenced assets.
 - Keep optional artwork genuinely optional; do not make existing story pages dependent on every cover being present.
+- **Progress:** Initial 10 covers are wired into canonical English Volume 1 metadata. Missing assets continue to use CSS-built artwork; translations inherit the canonical cover during in-place language switching.
 
 ## 5. Verify the finished story presentation
 
