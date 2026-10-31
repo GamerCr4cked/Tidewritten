@@ -91,15 +91,15 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 **Goal:** Give readers a useful, private overview of their reading activity.
 
 - [x] Track total reading time using visible/focused-page checkpoints and a 60-second recent-activity window; cap each 15-second checkpoint.
-- [x] Track completed chapters when the reader passes the next detected chapter heading.
-- [x] Track a volume only after all detected chapter IDs in that canonical volume are complete.
+- [x] Track completed chapters only after the reader reaches the chapter end and meets a minimum active-reading-time threshold (word-count estimate, 15-second floor, 90-second cap).
+- [x] Track a volume only after all detected chapter IDs in that canonical volume meet both end-position and active-time requirements.
 - [x] Reuse the existing recently opened story history and show the last seven local activity days.
 - [x] Add non-competitive milestones for chapter, volume, and active-reading totals.
-- [x] Opening a page does not complete a chapter; chapter completion is based on passing its next heading, with the final chapter completed at the end of the story article.
+- [x] Reaching a chapter end without spending the required active time does not complete it; the final chapter also requires both qualified reading time and reaching the story end.
 - [x] Keep statistics in a separate versioned localStorage record; no account or remote sync.
 - [x] Add a confirmed clear action scoped to statistics only.
-- [x] Explain local storage fields, completion rules, and active-time logic on the dashboard.
-- [ ] Test storage behaviour, refresh/navigation persistence, and responsive presentation in a rendered browser; source-level implementation is present, but browser QA is still pending.
+- [x] Explain local storage fields, qualified completion rules, and active-time logic on the dashboard.
+- [ ] Owner/browser QA: verify fast-scrolling cannot complete chapters, genuine reading followed by reaching chapter ends does complete them, migration preserves total time/activity while requalifying completion counts, and refresh/navigation plus responsive presentation remain correct.
 
 **Design inspiration supplied by the site owner:** [Japanese light-novel publication/listing reference](https://images.openai.com/static-rsc-4/fiGEAIk-K4mq6U33dQPa0gAQ41pezPzxOZcSjEQCHwMEWgzgb9cR5exbW4ym5LZWq3nKGUrDq2KjTh0nuaB1JIIRtMqsf45yIGIx2tQIqsIn8kStoywh6wBNBxyaRN8jS4EqeZr2Em9qrA75kVk1OqjVdtmyEXWJDpM6Fn340-g?purpose=inline).
 
