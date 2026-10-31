@@ -8,7 +8,7 @@ This file is the current roadmap and completion record for Tidewritten. Active w
 
 - **Previous implementation and maintenance roadmap:** completed. The historical phases below summarize the original Priorities 1–6, translation/content work, reader QA, filename standardization, and repository cleanup.
 - **Published content inventory at the last full audit:** 17 canonical English volumes, 17 Hinglish translations, and 17 Banglish translations — 51 published HTML pages.
-- **Library genre taxonomy:** all 17 canonical English volumes and their published translations are being standardized to a controlled set of established genres; the Library filter is being changed to exact genre matching. Source/build/browser verification remains pending.
+- **Library genre taxonomy:** genre metadata is standardized across all 17 canonical English volumes and 34 published translations using a controlled set of established genres. The Library filter now compares complete genre labels. JavaScript syntax and source metadata checks passed; Jekyll build and rendered-browser verification remain pending in PR #44.
 - **Reader and site polish:** implemented. The site owner reported that the Priority 5 live checks passed, including navigation, Library/volume navigation, reader controls, translation switching, themes, responsive behaviour, and accessibility. This is owner-reported browser QA, not an independent browser test.
 - **New roadmap:** six future phases have been added. They are proposals awaiting implementation, not features already present.
 
