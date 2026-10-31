@@ -107,6 +107,9 @@ The reader associates editions by the common filename base, with translation_of 
 - Use the same genre labels and capitalization everywhere; separate multiple genres with the middle dot (·). Keep each volume's classifications specific to its actual story.
 - Translation editions must mirror the matching English volume's genre metadata exactly; translations do not define separate Library genres.
 - The Library genre filter must compare complete normalized genre labels, not substring matches, so one genre cannot accidentally match part of another.
+- Use one CSS-built cover artwork per canonical series card; do not create cover entries for translation editions. Each series should have a distinct visual treatment, while the series title remains available as normal text outside the decorative artwork.
+- `content_updated` is optional canonical-volume front matter in ISO `YYYY-MM-DD` format. Set it only when the story content itself is meaningfully updated. Do not infer it from filename changes, bulk commits, translation metadata, genre edits, formatting-only maintenance, or build/deployment dates. The Library's Recently updated sort must remain disabled until at least one trustworthy date exists; for a series, use the newest dated volume. Never fabricate update dates.
+- Library multi-volume cards must remain keyboard-operable as buttons (Enter/Space), announce their dialog relationship and expanded state, move focus into the volume chooser, and return focus to the invoking card when the chooser closes. Keep tap targets at least 44px where practical and preserve responsive single-column layouts on narrow screens.
 
 - Keep the catalogue series-based; translations must not become independent Library cards or volumes.
 - Build the Library search and filters from canonical English series/volume metadata.

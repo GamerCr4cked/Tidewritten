@@ -19,8 +19,8 @@ permalink: /library/
   .series-card{display:flex;flex-direction:column;min-height:330px;position:relative;overflow:hidden;text-decoration:none!important;color:inherit!important;border:1px solid var(--lib-line);border-radius:22px;background:linear-gradient(155deg,rgba(18,47,61,.96),rgba(9,24,35,.98));padding:24px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
   .series-card{animation:library-arrive .45s ease-out both}
   .series-card:nth-child(2){animation-delay:.05s}.series-card:nth-child(3){animation-delay:.1s}.series-card:nth-child(4){animation-delay:.15s}
-  .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:34px;height:34px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
-  .series-art{height:118px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#173d4a,#0b1b29)}
+  .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:44px;height:44px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover,.volume-option:focus-visible{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option:focus-visible{outline:2px solid #9ce4dc;outline-offset:3px}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
+  .series-art{height:184px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#173d4a,#0b1b29)}
   .series-art:before,.series-art:after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(224,247,246,.16);border-radius:50%;width:170px;height:170px;left:70%;top:70%;transform:translate(-50%,-50%);z-index:-1}
   .series-art:after{width:230px;height:230px;left:70%;top:75%;border-color:rgba(224,247,246,.09)}
   .art-orb,.art-horizon,.art-symbol,.art-detail{position:absolute;display:block;pointer-events:none}
@@ -29,10 +29,18 @@ permalink: /library/
   .art-symbol{left:38%;top:30%;width:56px;height:42px;transform:translate(-50%,-50%);filter:drop-shadow(0 5px 12px rgba(0,0,0,.18))}
   .art-detail{left:0;right:0;bottom:15%;height:1px;background:linear-gradient(90deg,transparent,rgba(228,249,246,.38),transparent)}
   .art-detail{animation:detail-glide 9s ease-in-out infinite}
+  .art-cover-copy{position:absolute;z-index:2;left:17px;right:14px;bottom:15px;display:grid;gap:5px;color:#f3fbfa;text-shadow:0 2px 12px rgba(0,0,0,.7);pointer-events:none}
+  .art-cover-copy small{font-size:8px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(235,250,247,.78)}
+  .art-cover-copy strong{display:block;max-width:92%;font-size:clamp(14px,1.6vw,19px);line-height:1.12;font-weight:650;letter-spacing:-.025em}
   @keyframes library-arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
   @keyframes orb-drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
   @keyframes detail-glide{0%,100%{opacity:.45;transform:translateX(-2%)}50%{opacity:.85;transform:translateX(2%)}}
-  /* The artwork is built entirely from CSS shapes and gradients: no image assets or text overlays. */
+  /* Series cover artwork uses CSS shapes and gradients; its title is a semantic text overlay inside the decorative cover. */
+  .art-before-feelings{background:radial-gradient(ellipse at 78% 18%,rgba(255,220,177,.34),transparent 27%),linear-gradient(150deg,#35465d,#9b7880 55%,#e0b79c)}
+  .art-before-feelings .art-orb{width:35px;height:35px;right:18%;top:15%;background:#ffe3bd;box-shadow:0 0 30px rgba(255,222,187,.4)}
+  .art-before-feelings .art-horizon{height:44%;bottom:-21%;background:linear-gradient(170deg,#715c70,#29384a)}
+  .art-before-feelings .art-symbol{left:40%;top:47%;width:58px;height:42px;border:1px solid rgba(255,237,220,.8);background:linear-gradient(135deg,rgba(255,244,226,.35),rgba(255,244,226,.05));transform:rotate(-7deg)}
+  .art-before-feelings .art-symbol:before{content:"";position:absolute;left:10px;right:10px;top:11px;height:1px;background:rgba(255,244,226,.8);box-shadow:0 7px 0 rgba(255,244,226,.48),0 14px 0 rgba(255,244,226,.28)}
   .art-little-bird{background:radial-gradient(ellipse at 78% 22%,rgba(205,233,226,.18),transparent 25%),linear-gradient(155deg,#203b59,#477f91 58%,#142c42)}
   .art-little-bird .art-orb{width:27px;height:27px;right:19%;top:18%;background:#d9e8df;box-shadow:0 0 0 8px rgba(217,232,223,.07),0 0 24px rgba(217,232,223,.25)}
   .art-little-bird .art-horizon{height:52%;bottom:-24%;background:linear-gradient(170deg,#315e70,#112a41)}
@@ -48,6 +56,11 @@ permalink: /library/
   .art-words .art-horizon{display:none}
   .art-words .art-symbol{left:50%;top:51%;width:62px;height:43px;border:1px solid rgba(227,242,239,.85);background:rgba(13,35,52,.5);transform:translate(-50%,-50%) rotate(-8deg);border-radius:2px}
   .art-words .art-symbol:before{content:"";position:absolute;left:0;right:0;top:0;height:24px;background:linear-gradient(145deg,transparent 49%,rgba(227,242,239,.75) 50%,transparent 52%),linear-gradient(215deg,transparent 49%,rgba(227,242,239,.75) 50%,transparent 52%)}
+  .art-unsent-words{background:radial-gradient(ellipse at 75% 18%,rgba(171,218,227,.2),transparent 24%),linear-gradient(145deg,#101e32,#31566a 58%,#17283e)}
+  .art-unsent-words .art-orb{width:7px;height:7px;right:19%;top:18%;background:#d5f1ed;box-shadow:-145px 42px 0 rgba(213,241,237,.65),-85px -6px 0 rgba(213,241,237,.4),-25px 55px 0 rgba(213,241,237,.5)}
+  .art-unsent-words .art-horizon{display:none}
+  .art-unsent-words .art-symbol{left:49%;top:47%;width:58px;height:42px;border:1px solid rgba(221,244,239,.82);background:rgba(8,24,38,.36);transform:translate(-50%,-50%) rotate(-7deg)}
+  .art-unsent-words .art-symbol:before{content:"";position:absolute;left:9px;right:9px;top:10px;height:1px;background:rgba(221,244,239,.8);box-shadow:0 7px 0 rgba(221,244,239,.5),0 14px 0 rgba(221,244,239,.3)}
   .art-face{background:radial-gradient(ellipse at 52% 48%,rgba(211,177,184,.2),transparent 32%),linear-gradient(135deg,#202b43,#72596e 65%,#b68b8a)}
   .art-face .art-orb{width:19px;height:19px;right:24%;top:18%;background:#f2d3b5;opacity:.8}
   .art-face .art-horizon{height:34%;bottom:-16%;background:#20263a}
@@ -86,11 +99,11 @@ permalink: /library/
   .art-student-council-romcom .art-symbol:before{content:"";position:absolute;left:4px;right:4px;top:7px;height:2px;background:#8e6175;box-shadow:0 5px 0 rgba(142,97,117,.45),0 10px 0 rgba(142,97,117,.3)}
   .art-student-council-romcom .art-detail{left:12%;right:12%;bottom:23%;transform:rotate(-8deg);background:linear-gradient(90deg,transparent,rgba(255,238,220,.62),transparent)}
 
-  @media(max-width:600px){.series-art{height:100px}}
+  @media(max-width:600px){.series-art{height:154px}}
   .series-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
   .series-badge{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--lib-line);border-radius:99px;padding:5px 9px;color:var(--lib-accent)}
   .series-badge.muted{color:var(--lib-muted)}
-  .series-card h3{font-size:23px;line-height:1.25;letter-spacing:-.025em;margin:0 0 10px}
+  .series-card h3{font-size:23px;line-height:1.25;letter-spacing:-.025em;margin:0 0 10px;overflow-wrap:anywhere}
   .series-card .series-desc{font-size:14px;line-height:1.75;color:#b5c7ce;margin:0 0 22px}
   .series-card-foot{margin-top:auto;border-top:1px solid var(--lib-line);padding-top:16px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:12px;color:var(--lib-muted)}
   .series-card-foot strong{color:var(--lib-accent);font-weight:600}
@@ -106,7 +119,7 @@ permalink: /library/
   @media(max-width:760px){.library-filter-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media(max-width:440px){.library-filter-row{grid-template-columns:1fr}}
   .library-note{border:1px dashed var(--lib-line);border-radius:16px;padding:18px 20px;color:var(--lib-muted);font-size:13px;line-height:1.7;margin-top:22px}
-  @media(max-width:600px){.novel-hero{border-radius:20px}.series-card{min-height:0}.series-art{height:100px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}}
+  @media(max-width:600px){.novel-hero{border-radius:20px;padding:26px 20px}.series-card{min-height:0;padding:19px}.series-art{height:154px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}.library-tools{padding:14px}.volume-dialog{width:calc(100vw - 24px);max-height:84vh}.volume-dialog-inner{padding:20px}}
   @media(prefers-reduced-motion:reduce){.series-card{transition:none;animation:none}.series-card:hover{transform:none}.art-orb,.art-detail{animation:none}}
 </style>
 
@@ -119,10 +132,12 @@ permalink: /library/
 
   {% assign novel_pages = site.pages | where: "layout", "light-novel" | where_exp: "p", "p.translation_of == nil" | sort: "series" %}
   {% assign grouped_series = novel_pages | group_by: "series" %}
+  {% assign dated_volumes = novel_pages | where_exp: "p", "p.content_updated" %}
+  {% assign dated_volume_count = dated_volumes | size %}
 
   <div class="novel-section-head">
     <h2>Series collection</h2>
-    <p><span id="libraryResultCount">{{ grouped_series | size }} series</span> · {{ novel_pages | size }} volumes available</p>
+    <p><span id="libraryResultCount" aria-live="polite" aria-atomic="true">{{ grouped_series | size }} series</span> · {{ novel_pages | size }} volumes available</p>
   </div>
 
   <section class="library-tools" aria-label="Search and filter the Library">
@@ -152,6 +167,7 @@ permalink: /library/
         <select id="librarySort">
           <option value="title">Series name</option>
           <option value="volumes">Volume count</option>
+          {% if dated_volume_count > 0 %}<option value="updated">Recently updated</option>{% else %}<option value="updated" disabled>Recently updated (dates unavailable)</option>{% endif %}
         </select>
       </label>
     </div>
@@ -180,10 +196,11 @@ permalink: /library/
       {% if volume_count == 1 %}
         <a class="series-card" href="{{ first_volume.url | relative_url }}" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Read {{ series_group.name | escape }}">
       {% else %}
-        <div class="series-card" data-volume-series role="button" tabindex="0" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Choose a volume from {{ series_group.name | escape }}">
+        <div class="series-card" data-volume-series role="button" tabindex="0" aria-haspopup="dialog" aria-controls="volumeDialog" aria-expanded="false" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Choose a volume from {{ series_group.name | escape }}">
       {% endif %}
           {% assign art_class = "art-words" %}
-          {% if series_group.name contains "Little Bird" %}{% assign art_class = "art-little-bird" %}
+          {% if series_group.name contains "Before the Feelings Fade" %}{% assign art_class = "art-before-feelings" %}
+          {% elsif series_group.name contains "Little Bird" %}{% assign art_class = "art-little-bird" %}
           {% elsif series_group.name contains "Meet Again" %}{% assign art_class = "art-meet-again" %}
           {% elsif series_group.name contains "Face I Never Forgot" %}{% assign art_class = "art-face" %}
           {% elsif series_group.name contains "Other Side of Us" %}{% assign art_class = "art-other-side" %}
@@ -192,8 +209,9 @@ permalink: /library/
           {% elsif series_group.name contains "Account That Never Came Back" %}{% assign art_class = "art-account" %}
           {% elsif series_group.name contains "Student Council President Hates Everyone" %}{% assign art_class = "art-student-council-romcom" %}
           {% elsif series_group.name contains "Prismat" %}{% assign art_class = "art-prismat" %}
+          {% elsif series_group.name contains "Words We Never Sent" %}{% assign art_class = "art-unsent-words" %}
           {% endif %}
-          <div class="series-art {{ art_class }}" aria-hidden="true"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span></div>
+          <div class="series-art {{ art_class }}" aria-hidden="true"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span><span class="art-cover-copy"><small>Tidewritten · Series edition</small><strong>{{ series_group.name | escape }}</strong></span></div>
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
             <span class="series-badge muted">{{ volume_count }} Volumes</span>
@@ -205,7 +223,7 @@ permalink: /library/
             <span>{% if volume_count == 1 %}One volume{% else %}{{ volume_count }} volumes{% endif %}</span>
             <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
           </div>
-          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"contentUpdated":{{ volume_page.content_updated | default: nil | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
       {% if volume_count == 1 %}
         </a>
       {% else %}
@@ -221,7 +239,7 @@ permalink: /library/
     </div>
   </dialog>
 
-  <p class="library-empty" id="libraryEmpty" hidden>No series match these search and filter settings. Try changing a filter or clearing your search.</p>
+  <p class="library-empty" id="libraryEmpty" role="status" aria-live="polite" hidden>No series match these search and filter settings. Try changing a filter or clearing your search.</p>
   <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume. Edition filters reflect translations currently published for each volume.</div>
 </div></div>
 <script>
@@ -274,12 +292,23 @@ permalink: /library/
     count.textContent = visible + (visible === 1 ? " series" : " series");
     empty.hidden = visible !== 0;
   };
+  const latestContentUpdate = card => {
+    try {
+      const dates = JSON.parse(card.querySelector(".volume-data")?.textContent || "[]")
+        .map(volume => volume.contentUpdated ? Date.parse(volume.contentUpdated) : NaN)
+        .filter(Number.isFinite);
+      return dates.length ? Math.max(...dates) : 0;
+    } catch (error) { return 0; }
+  };
   const sortCards = () => {
     const sorted = [...cards].sort((a,b) => {
       if (sort.value === "volumes") {
         const av = Number((a.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
         const bv = Number((b.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
         return bv-av || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
+      }
+      if (sort.value === "updated") {
+        return latestContentUpdate(b)-latestContentUpdate(a) || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
       }
       return a.dataset.seriesName.localeCompare(b.dataset.seriesName);
     });
@@ -299,12 +328,20 @@ permalink: /library/
   const description = document.getElementById("volumeDialogDescription");
   const options = document.getElementById("volumeOptions");
   const closeButton = document.getElementById("closeVolumeDialog");
-  const close = () => dialog.close();
+  let activeCard = null;
+  const close = () => { if (dialog.open) dialog.close(); };
   closeButton.addEventListener("click", close);
   dialog.addEventListener("click", event => { if (event.target === dialog) close(); });
+  dialog.addEventListener("close", () => {
+    if (activeCard) {
+      activeCard.setAttribute("aria-expanded", "false");
+      activeCard.focus();
+    }
+  });
 
   document.querySelectorAll("[data-volume-series]").forEach(card => {
     const openChooser = () => {
+      activeCard = card;
       let volumes = [];
       try {
         volumes = JSON.parse(card.querySelector(".volume-data")?.textContent || "[]");
@@ -329,7 +366,9 @@ permalink: /library/
         options.append(option);
       });
       if (typeof dialog.showModal === "function") {
+        card.setAttribute("aria-expanded", "true");
         dialog.showModal();
+        options.querySelector("a")?.focus();
       } else {
         const choice = window.prompt("Choose a volume:\\n" + volumes.map((v, i) => (i + 1) + ". Vol. " + v.number + " — " + v.title).join("\\n"));
         const index = Number(choice) - 1;
