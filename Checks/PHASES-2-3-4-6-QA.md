@@ -82,7 +82,7 @@ The owner tested the About page, legacy redirects, custom 404, navigation states
 - Base `main` commit: `87f75226bd280632cee84a9b51d4697796bc4a84`.
 - The pre-merge base workflow succeeded: [workflow run 41189517974](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41189517974).
 - PR #62 was merged into `main` at `a428916e043a8855f9284c0a9061d858e9182725`.
-- The Pages workflow for the merge commit was still **in progress** when this report was updated: [workflow run 41192642899](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41192642899). Its final conclusion is not yet recorded.
+- The Pages workflow for the merge commit completed successfully: [workflow run 41192642899](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41192642899).
 - The owner-reported rendered-browser checks above passed. No independent rendered-browser test or local Jekyll build is claimed.
 
 ## Files changed on the follow-up branch
@@ -93,4 +93,4 @@ The owner tested the About page, legacy redirects, custom 404, navigation states
 
 ## Acceptance status
 
-The owner has completed and confirmed the requested browser QA for Phases 2, 3, 4, and 6. PR #62 is merged. The Pages workflow for the merge commit was still running at report-update time; update the build result after it completes. Phase 3 Recently updated dates remain intentionally unavailable until reliable content-update dates are supplied.
+The owner has completed and confirmed the requested browser QA for Phases 2, 3, 4, and 6. PR #62 is merged, and the Pages workflow for its merge commit succeeded. Phase 3 Recently updated dates remain intentionally unavailable until reliable content-update dates are supplied.
