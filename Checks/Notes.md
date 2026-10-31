@@ -175,9 +175,11 @@ The reader associates editions by the common filename base, with translation_of 
 ## 11. Reading statistics (Phase 4)
 
 - Store statistics separately under `tidewritten-reading-stats-v1`; do not mix them with reader appearance, theme, language, reading-position, or recent-history keys.
-- The version 1 record contains aggregate active reading milliseconds, local-calendar-day activity totals, completed chapter records grouped by canonical volume path, and completed-volume records.
+- Statistics record version 2 contains aggregate active reading milliseconds, local-calendar-day activity totals, completed chapter records grouped by canonical volume path, completed-volume records, and per-chapter active reading milliseconds.
 - Translation editions share the English canonical volume path, so switching editions does not create duplicate volume statistics.
-- Only headings with IDs beginning `chapter-` are treated as chapters. A chapter is recorded when the next chapter heading reaches the reader's progress line; the final detected chapter is recorded when the story article reaches the viewport end. A volume is recorded only after all detected chapter IDs for that volume are complete.
-- Active reading time is checkpointed every 15 seconds and is counted only while the document is visible, focused, and the reader has interacted within the previous 60 seconds. Each checkpoint is capped at 15 seconds to avoid adding large idle gaps.
+- Only headings with IDs beginning `chapter-` are treated as chapters. Reaching a chapter boundary is necessary but not sufficient for completion: the reader must also accumulate a minimum amount of active time while positioned in that chapter. The threshold is estimated as 25% of a 220-words-per-minute reading estimate, with a 15-second minimum and a 90-second cap. The final chapter uses the same qualification and must also reach the story end.
+- Active reading time is checkpointed every 15 seconds and is counted only while the document is visible, focused, and the reader has interacted within the previous 60 seconds. Each checkpoint is capped at 15 seconds to avoid adding large idle gaps. Chapter dwell time is attributed to the chapter at the reader's current position.
+- A volume is recorded only after every detected chapter has passed both the end-position and active-time checks.
+- Version 1 completion records are discarded during migration because the previous end-position-only rule could count fast-scrolling as reading. Aggregate reading time and daily activity are preserved. Version 2 completion records are then accumulated under the stricter rule.
 - Statistics remain in browser localStorage. Clearing statistics must not clear the separate reading position, recent history, language choice, theme, text size, or appearance preferences.
 - The statistics dashboard explains these rules and provides a dedicated clear action. Do not present this as cross-device or account-synced data.
