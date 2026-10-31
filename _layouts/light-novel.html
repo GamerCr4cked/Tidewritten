@@ -324,6 +324,13 @@
     const languagePreferenceKey = "tidewritten-language:" + canonicalStoryPath;
     const storyArticle = document.getElementById("story-content");
     const languageOptions = Array.from(document.querySelectorAll(".language-option"));
+    // Capture canonical English metadata once so later edition switches never use another translation as fallback.
+    const presentationFallbacks = {
+      seriesDescription: document.getElementById("seriesDescription")?.textContent || "",
+      volumeSynopsis: document.getElementById("volumeSynopsis")?.textContent || "",
+      authorNote: document.getElementById("authorNote")?.textContent || "",
+      coverAlt: document.querySelector("#volumeCover img")?.getAttribute("alt") || ""
+    };
     const languageOptionFor = language => languageOptions.find(option => option.dataset.language === language);
     const markLanguageSelected = language => {
       languageOptions.forEach(option => {
@@ -372,12 +379,6 @@
         copyText(".endnote p", ".endnote p");
 
         // Optional presentation metadata is localized per edition and falls back to English.
-        const presentationFallbacks = {
-          seriesDescription: document.getElementById("seriesDescription")?.textContent || "",
-          volumeSynopsis: document.getElementById("volumeSynopsis")?.textContent || "",
-          authorNote: document.getElementById("authorNote")?.textContent || "",
-          coverAlt: document.querySelector("#volumeCover img")?.getAttribute("alt") || ""
-        };
         const updatePresentationField = (selector, targetId, fallback) => {
           const target = document.getElementById(targetId);
           if (!target) return;
@@ -393,7 +394,7 @@
         const coverImage = document.querySelector("#volumeCover img");
         if (coverImage) {
           const translatedCover = translatedDocument.querySelector("#volumeCover img");
-          coverImage.alt = translatedCover ? translatedCover.alt : presentationFallbacks.coverAlt;
+          coverImage.alt = translatedCover && translatedCover.alt.trim() ? translatedCover.alt : presentationFallbacks.coverAlt;
         }
         const volumeIntroduction = document.getElementById("volumeIntroduction");
         if (volumeIntroduction) {
