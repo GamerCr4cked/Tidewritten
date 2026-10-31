@@ -362,8 +362,7 @@
       const galleryGrid = document.getElementById("illustrationGalleryGrid");
       if (!gallery || !galleryGrid || !storyArticle) return;
       storyArticle.querySelectorAll("[data-tw-illustration]").forEach(node => node.remove());
-      const beforeStory = document.getElementById("reader-shell-before-story-illustration");
-      if (beforeStory) beforeStory.remove();
+      document.querySelectorAll("[data-tw-before-story-illustration]").forEach(node => node.remove());
       galleryGrid.replaceChildren();
       gallery.hidden = true;
       const validImagePath = value => typeof value === "string" && value.startsWith("/assets/images/illustrations/") && !value.includes("..") && !value.startsWith("//");
@@ -390,7 +389,7 @@
         const figure = makeFigure(record);
         if (!figure) return;
         if (record.placement === "before-story") {
-          figure.id = "reader-shell-before-story-illustration";
+          figure.dataset.twBeforeStoryIllustration = "true";
           storyArticle.parentNode.insertBefore(figure, storyArticle);
           return;
         }
