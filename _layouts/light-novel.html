@@ -383,7 +383,7 @@
           const target = document.getElementById(targetId);
           if (!target) return;
           const source = translatedDocument.querySelector(selector);
-          const value = source ? source.textContent : fallback;
+          const value = source && source.textContent.trim() ? source.textContent : fallback;
           target.textContent = value;
           const section = target.closest("[data-presentation-section]");
           if (section) section.hidden = !value.trim();
