@@ -323,6 +323,7 @@
           else window.scrollTo({ top: position.scrollY, behavior: "auto" });
           updateProgress();
           saveReadingProgress();
+          updateCompletedChapters();
         });
       } catch (error) {
         if (requestId === languageRequest) {
@@ -473,7 +474,58 @@
       ["reset","mobileReset"].forEach(id => document.getElementById(id).addEventListener("click", () => { size = 19; apply(); }));
       apply();
       const progressKey = "tidewritten-reading-progress-v1";
+      // Phase 4 reading statistics are stored separately from reader preferences.
+      const statsKey = "tidewritten-reading-stats-v1";
+      const canonicalVolumePath = new URL(canonicalStoryUrl, location.href).pathname;
+      const loadStats = () => {
+        try {
+          const saved = JSON.parse(localStorage.getItem(statsKey) || "null");
+          if (saved && saved.version === 1) return saved;
+        } catch (error) {}
+        return { version: 1, totalReadingMs: 0, chapters: {}, volumes: {}, activity: {} };
+      };
+      let stats = loadStats();
+      const saveStats = () => { try { localStorage.setItem(statsKey, JSON.stringify(stats)); } catch (error) {} };
+      const chapterHeadings = () => Array.from(story.querySelectorAll("h2[id^='chapter-']"));
+      const completeChapter = heading => {
+        if (!heading || !heading.id) return;
+        const completed = stats.chapters[canonicalVolumePath] || (stats.chapters[canonicalVolumePath] = {});
+        if (completed[heading.id]) return;
+        completed[heading.id] = { title: heading.textContent.replace(/\\s+/g, " ").trim(), completedAt: Date.now() };
+        const headings = chapterHeadings();
+        if (headings.length && headings.every(item => completed[item.id])) {
+          stats.volumes[canonicalVolumePath] = { title: document.title.replace(/ \\| Tidewritten$/, ""), series: {{ page.series | jsonify }}, volume: {{ page.volume | jsonify }}, completedAt: Date.now(), chapterCount: headings.length };
+        }
+        saveStats();
+      };
+      const updateCompletedChapters = () => {
+        const headings = chapterHeadings();
+        headings.forEach((heading, index) => {
+          const next = headings[index + 1];
+          if (next && next.getBoundingClientRect().top <= Math.min(170, innerHeight * 0.22)) completeChapter(heading);
+        });
+        if (headings.length && story.getBoundingClientRect().bottom <= innerHeight + 24) completeChapter(headings[headings.length - 1]);
+      };
       const story = document.getElementById("story-content");
+      let lastActivityAt = Date.now();
+      let lastCheckpointAt = Date.now();
+      const markActivity = () => { lastActivityAt = Date.now(); };
+      ["pointerdown", "keydown", "touchstart", "wheel", "scroll"].forEach(type => addEventListener(type, markActivity, { passive: true }));
+      const checkpointReadingTime = () => {
+        const now = Date.now();
+        const elapsed = Math.max(0, Math.min(15000, now - lastCheckpointAt));
+        if (!document.hidden && document.hasFocus() && now - lastActivityAt <= 60000 && elapsed > 0) {
+          const localDate = new Date(now);
+          const day = localDate.getFullYear() + "-" + String(localDate.getMonth() + 1).padStart(2, "0") + "-" + String(localDate.getDate()).padStart(2, "0");
+          stats.totalReadingMs = (Number(stats.totalReadingMs) || 0) + elapsed;
+          stats.activity[day] = (Number(stats.activity[day]) || 0) + elapsed;
+          saveStats();
+        }
+        lastCheckpointAt = now;
+      };
+      window.setInterval(checkpointReadingTime, 15000);
+      document.addEventListener("visibilitychange", () => { checkpointReadingTime(); lastCheckpointAt = Date.now(); });
+
       const getChapterHeadings = () => story ? Array.from(story.querySelectorAll("h2[id^='chapter-']")) : [];
       const currentChapter = () => {
         const headings = getChapterHeadings();
@@ -506,13 +558,13 @@
       let saveTimer = null;
       addEventListener("scroll", () => {
         clearTimeout(saveTimer);
-        saveTimer = setTimeout(saveReadingProgress, 350);
+        saveTimer = setTimeout(() => { saveReadingProgress(); updateCompletedChapters(); }, 350);
       }, { passive: true });
       addEventListener("resize", () => {
         clearTimeout(saveTimer);
         saveTimer = setTimeout(saveReadingProgress, 350);
       }, { passive: true });
-      addEventListener("pagehide", saveReadingProgress);
+      addEventListener("pagehide", () => { checkpointReadingTime(); saveReadingProgress(); updateCompletedChapters(); });
       // A resume link explicitly requests restoration; ordinary visits never jump unexpectedly.
       const resumeRequested = new URLSearchParams(location.search).get("resume") === "1";
       if (resumeRequested) {

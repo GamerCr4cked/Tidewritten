@@ -171,3 +171,13 @@ The reader associates editions by the common filename base, with translation_of 
 - Keep detailed inventories and evidence in dedicated reports rather than duplicating them in the TODO.
 - Every task report should identify files inspected/changed, what was archived or retained if cleanup was requested, verification performed, unresolved checks, and relevant PR/workflow links.
 - State explicitly when browser testing was owner-reported or unavailable.
+
+## 11. Reading statistics (Phase 4)
+
+- Store statistics separately under `tidewritten-reading-stats-v1`; do not mix them with reader appearance, theme, language, reading-position, or recent-history keys.
+- The version 1 record contains aggregate active reading milliseconds, local-calendar-day activity totals, completed chapter records grouped by canonical volume path, and completed-volume records.
+- Translation editions share the English canonical volume path, so switching editions does not create duplicate volume statistics.
+- Only headings with IDs beginning `chapter-` are treated as chapters. A chapter is recorded when the next chapter heading reaches the reader's progress line; the final detected chapter is recorded when the story article reaches the viewport end. A volume is recorded only after all detected chapter IDs for that volume are complete.
+- Active reading time is checkpointed every 15 seconds and is counted only while the document is visible, focused, and the reader has interacted within the previous 60 seconds. Each checkpoint is capped at 15 seconds to avoid adding large idle gaps.
+- Statistics remain in browser localStorage. Clearing statistics must not clear the separate reading position, recent history, language choice, theme, text size, or appearance preferences.
+- The statistics dashboard explains these rules and provides a dedicated clear action. Do not present this as cross-device or account-synced data.
