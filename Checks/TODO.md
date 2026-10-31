@@ -74,10 +74,12 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Add filters for publication/completion status.
 - [x] Add filters for available language editions.
 - [x] Implement a Recently updated sort driven by optional `content_updated` volume metadata; keep it disabled until trustworthy story-content update dates are recorded. No dates were fabricated because the available Git history contains only bulk filename/metadata commits.
+- [ ] Populate `content_updated` dates only when the owner has reliable last-content-update dates; no trustworthy per-volume dates are currently available.
 - [x] Add clear series completion indicators where the current story metadata explicitly identifies a final volume; use “Status not set” when completion cannot be established.
 - [x] Improve the CSS-built cover artwork with distinct series-specific designs and title treatments; keep one cover per canonical series, with translations represented only as editions.
 - [x] Preserve series-based grouping; translations must never appear as separate series or volumes.
-- [x] Improve narrow-screen filter/card/dialog layouts, add visible keyboard focus, a 44px dialog-close target, Enter/Space activation, dialog focus entry/return, and live result announcements. Source-level responsive and keyboard checks passed; rendered-device/browser QA remains an owner-side verification.
+- [x] Implement narrow-screen filter/card/dialog layouts, visible keyboard focus, a 44px dialog-close target, Enter/Space activation, dialog focus entry/return, and live result announcements.
+- [ ] Complete rendered mobile and keyboard browser QA at narrow viewport sizes; source-level responsive and interaction checks are complete, but no rendered browser session or Jekyll build is available in this environment.
 - [x] Audit all 17 canonical English volume routes for uniqueness and verify each series/volume selection is built from its canonical `permalink`; verify translation mapping remains tied to those canonical routes.
 
 **Implementation note:** Language availability is derived from each translation page's `translation_of` mapping, so the Library filter reflects published editions rather than assumed support. Status labels currently use explicit final-volume notes and the named Meet Again Trilogy; unconfirmed series are not labelled “Ongoing” without owner-supplied publication status.
