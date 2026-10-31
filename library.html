@@ -196,7 +196,7 @@ permalink: /library/
           <div class="series-art {{ art_class }}" aria-hidden="true"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span></div>
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
-            <span class="series-badge muted">{% if volume_count == 1 %}Standalone{% else %}{{ volume_count }} Volumes{% endif %}</span>
+            <span class="series-badge muted">{{ volume_count }} Volumes</span>
             <span class="series-badge muted">{% case series_status %}{% when "completed" %}Completed{% when "standalone" %}Standalone{% else %}Status not set{% endcase %}</span>
           </div>
           <h3>{{ series_group.name | escape }}</h3>
@@ -273,8 +273,8 @@ permalink: /library/
   const sortCards = () => {
     const sorted = [...cards].sort((a,b) => {
       if (sort.value === "volumes") {
-        const av = Number((a.querySelector(".series-card-foot span")?.textContent.match(/\\d+/) || [0])[0]);
-        const bv = Number((b.querySelector(".series-card-foot span")?.textContent.match(/\\d+/) || [0])[0]);
+        const av = Number((a.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
+        const bv = Number((b.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
         return bv-av || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
       }
       return a.dataset.seriesName.localeCompare(b.dataset.seriesName);
