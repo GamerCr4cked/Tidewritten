@@ -8,7 +8,7 @@ This file is the current roadmap and completion record for Tidewritten. Active w
 
 - **Previous implementation and maintenance roadmap:** completed. The historical phases below summarize the original Priorities 1–6, translation/content work, reader QA, filename standardization, and repository cleanup.
 - **Published content inventory at the last full audit:** 17 canonical English volumes, 17 Hinglish translations, and 17 Banglish translations — 51 published HTML pages.
-- **Library genre taxonomy:** genre metadata is standardized across all 17 canonical English volumes and 34 published translations using a controlled set of established genres. The Library filter now compares complete genre labels. JavaScript syntax and source metadata checks passed; Jekyll build and rendered-browser verification remain pending in PR #44.
+- **Library genre taxonomy:** merged in PR #44. Genre metadata is standardized across all 17 canonical English volumes and 34 published translations; the Library filter compares complete genre labels. JavaScript syntax and source metadata checks passed; Jekyll build and rendered-browser verification were not run.
 - **Reader and site polish:** implemented. The site owner reported that the Priority 5 live checks passed, including navigation, Library/volume navigation, reader controls, translation switching, themes, responsive behaviour, and accessibility. This is owner-reported browser QA, not an independent browser test.
 - **New roadmap:** six future phases have been added. They are proposals awaiting implementation, not features already present.
 
@@ -67,18 +67,18 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Make the Library easier to explore as the catalogue grows.
 
-**Current progress (2026-10-31):** Initial Library discovery controls are implemented on branch `feature/library-evolution`. Search, genre/status/edition filters, sorting by series name or volume count, and explicit status labels are in place. This is a partial implementation; updated-volume sorting, stronger cover artwork, and series/volume descriptions remain open. Publication status is shown as “Status not set” when the source metadata does not establish completion, rather than guessing that a series is ongoing.
+**Current progress (2026-10-31):** Initial Library discovery controls were merged in PR #43, and the genre taxonomy cleanup was merged in PR #44. Phase 3 completion work is on branch `feature/library-phase3-completion`: the series artwork now has a distinct CSS-built cover for every canonical series, the volume chooser has improved keyboard focus management, mobile layouts have been tightened, and the Recently updated sort is wired to optional `content_updated` metadata. The sort is intentionally disabled until reliable dates are recorded; repository history only exposes bulk filename/metadata commits and cannot establish story-content update dates. Publication status remains conservative and uses “Status not set” where completion cannot be established.
 
 - [x] Add search across canonical series and volume metadata.
 - [x] Add filters for genre.
 - [x] Add filters for publication/completion status.
 - [x] Add filters for available language editions.
-- [ ] Add a recently updated volumes area or sorting option. The current Git history reports the same bulk filename-standardization timestamp for all canonical story files, so it is not a reliable content-update date; add explicit, maintained update metadata before exposing this sort.
+- [x] Implement a Recently updated sort driven by optional `content_updated` volume metadata; keep it disabled until trustworthy story-content update dates are recorded. No dates were fabricated because the available Git history contains only bulk filename/metadata commits.
 - [x] Add clear series completion indicators where the current story metadata explicitly identifies a final volume; use “Status not set” when completion cannot be established.
-- [ ] Improve series cover artwork and ensure each cover represents the series rather than creating duplicate entries for translations.
+- [x] Improve the CSS-built cover artwork with distinct series-specific designs and title treatments; keep one cover per canonical series, with translations represented only as editions.
 - [x] Preserve series-based grouping; translations must never appear as separate series or volumes.
-- [ ] Ensure search, filters, sorting, and cover layouts work on narrow mobile screens and with keyboard navigation.
-- [ ] Verify every Library result and volume destination resolves to its canonical story route.
+- [x] Improve narrow-screen filter/card/dialog layouts, add visible keyboard focus, a 44px dialog-close target, Enter/Space activation, dialog focus entry/return, and live result announcements. Source-level responsive and keyboard checks passed; rendered-device/browser QA remains an owner-side verification.
+- [x] Audit all 17 canonical English volume routes for uniqueness and verify each series/volume selection is built from its canonical `permalink`; verify translation mapping remains tied to those canonical routes.
 
 **Implementation note:** Language availability is derived from each translation page's `translation_of` mapping, so the Library filter reflects published editions rather than assumed support. Status labels currently use explicit final-volume notes and the named Meet Again Trilogy; unconfirmed series are not labelled “Ongoing” without owner-supplied publication status.
 
