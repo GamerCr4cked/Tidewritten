@@ -323,6 +323,7 @@
           else window.scrollTo({ top: position.scrollY, behavior: "auto" });
           updateProgress();
           saveReadingProgress();
+          updateCompletedChapters();
         });
       } catch (error) {
         if (requestId === languageRequest) {
