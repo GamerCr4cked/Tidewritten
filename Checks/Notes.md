@@ -99,6 +99,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Store these settings together under the versioned `tidewritten-reader-preferences-v1` localStorage key. Keep the existing light/dark mode key (`theme`), text-size key (`tidewritten-reader-size`), language preference key, reading-progress record, and reading history separate.
 - The Reset appearance action restores the reader-palette, accent, font, line-spacing, and width defaults. It does not clear reading progress, reading history, language preference, base light/dark mode, or the separate text-size setting.
 - Desktop and mobile Customize dropdowns close when a click occurs outside the open menu; Escape also closes the menu and returns focus to its trigger. Closing a menu does not change saved reader preferences.
+- Interactive controls inside the Translate and Customize dropdowns provide visible hover feedback using the active reader accent, including language choices, appearance selectors, the accent-color control, and Reset appearance.
 - Default accent colors are selected for contrast in each reader palette and light/dark mode. A user-selected custom accent persists when switching palette or mode.
 
 ## 6. Library discovery controls
