@@ -137,7 +137,6 @@ permalink: /library/
           <option value="">All statuses</option>
           <option value="completed">Completed</option>
           <option value="standalone">Standalone</option>
-          <option value="ongoing">Ongoing</option>
           <option value="unspecified">Not specified</option>
         </select>
       </label>
@@ -198,6 +197,7 @@ permalink: /library/
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
             <span class="series-badge muted">{% if volume_count == 1 %}Standalone{% else %}{{ volume_count }} Volumes{% endif %}</span>
+            <span class="series-badge muted">{% case series_status %}{% when "completed" %}Completed{% when "standalone" %}Standalone{% else %}Status not set{% endcase %}</span>
           </div>
           <h3>{{ series_group.name | escape }}</h3>
           <p class="series-desc">{{ first_volume.tagline | default: "Light-novel series." | escape }}</p>
