@@ -10,8 +10,8 @@ permalink: /reading-stats/
   <p class="stats-intro">A private overview of your reading on this browser. Your statistics are stored locally and are not sent to Tidewritten.</p>
   <div class="stats-grid" aria-live="polite">
     <article class="stats-card"><span>Reading time</span><strong id="statTime">0m</strong><small>Active reading time</small></article>
-    <article class="stats-card"><span>Chapters completed</span><strong id="statChapters">0</strong><small>Recorded at chapter end</small></article>
-    <article class="stats-card"><span>Volumes completed</span><strong id="statVolumes">0</strong><small>All detected chapters completed</small></article>
+    <article class="stats-card"><span>Chapters completed</span><strong id="statChapters">0</strong><small>End reached + reading time qualified</small></article>
+    <article class="stats-card"><span>Volumes completed</span><strong id="statVolumes">0</strong><small>Every chapter reading-qualified</small></article>
   </div>
   <section class="stats-section">
     <h2>Recent reading activity</h2>
@@ -28,8 +28,8 @@ permalink: /reading-stats/
   </section>
   <section class="stats-privacy">
     <h2>Privacy and storage</h2>
-    <p>Reading statistics are kept in this browser's local storage. They include total active reading time, daily time totals, completed chapter IDs and titles, and completed volume details. Chapter completion is recorded after you pass the next chapter heading; the final chapter is recorded when you reach the end of the story. A volume is complete when every detected chapter heading has been completed.</p>
-    <p>Time is counted only while this page is visible, focused, and you have interacted within the last 60 seconds. A page left idle does not keep adding time. Switching language editions uses the same canonical volume record.</p>
+    <p>Reading statistics are kept in this browser's local storage. They include total active reading time, daily time totals, completed chapter IDs and titles, and completed volume details. A chapter is recorded only after you reach its end and spend a minimum amount of active time in that chapter. The time threshold is estimated from its word count (about one-quarter of a 220-words-per-minute reading estimate), with a 15-second minimum and a 90-second cap. Simply scrolling to the end is not enough. A volume is complete only when every detected chapter meets this rule.</p>
+    <p>Time is counted only while this page is visible, focused, and you have interacted within the last 60 seconds. Chapter time is attributed to the chapter at the reader's current position. A page left idle does not keep adding time. Switching language editions uses the same canonical volume record. After this update, earlier chapter and volume completion totals are reset once because the previous rule could count fast-scrolling as reading; accumulated reading time and daily activity are preserved.</p>
     <button type="button" id="clearStats" class="stats-clear">Clear reading statistics</button>
     <p id="clearStatus" class="stats-muted" role="status"></p>
   </section>
@@ -64,7 +64,11 @@ permalink: /reading-stats/
 (function(){
   var key='tidewritten-reading-stats-v1';
   var read=function(name,fallback){try{return JSON.parse(localStorage.getItem(name)||'null')||fallback;}catch(e){return fallback;}};
-  var stats=read(key,{version:1,totalReadingMs:0,chapters:{},volumes:{},activity:{}});
+  var stats=read(key,{version:2,totalReadingMs:0,chapters:{},volumes:{},activity:{},chapterReadingMs:{}});
+  if(stats.version===1){
+    stats={version:2,totalReadingMs:Number(stats.totalReadingMs)||0,chapters:{},volumes:{},activity:stats.activity||{},chapterReadingMs:{}};
+    try{localStorage.setItem(key,JSON.stringify(stats));}catch(e){}
+  }
   var history=read('readingHistory',[]);
   var chapters=Object.values(stats.chapters||{}).reduce(function(total,volume){return total+Object.keys(volume||{}).length;},0);
   var volumes=Object.keys(stats.volumes||{}).length;
