@@ -102,6 +102,12 @@ The reader associates editions by the common filename base, with translation_of 
 
 ## 6. Library discovery controls
 
+- Use a controlled genre vocabulary across canonical English volumes and their translations: **Romance**, **Romantic Comedy**, **Drama**, **Mystery**, **Science Fiction**, **Slice of Life**, and **Coming-of-Age**.
+- Genre metadata must contain only established genre/subgenre classifications from that vocabulary. Treat settings (for example, school, college, workplace, or online), character dynamics (roommates), plot devices (second chances), and mood descriptors (bittersweet, healing, heartbreak) as descriptive metadata, not separate genres.
+- Use the same genre labels and capitalization everywhere; separate multiple genres with the middle dot (·). Keep each volume's classifications specific to its actual story.
+- Translation editions must mirror the matching English volume's genre metadata exactly; translations do not define separate Library genres.
+- The Library genre filter must compare complete normalized genre labels, not substring matches, so one genre cannot accidentally match part of another.
+
 - Keep the catalogue series-based; translations must not become independent Library cards or volumes.
 - Build the Library search and filters from canonical English series/volume metadata.
 - Derive available edition filters from translation pages mapped through `translation_of`; do not assume an edition exists.
