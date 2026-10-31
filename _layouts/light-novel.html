@@ -299,13 +299,15 @@
 
     const volumeCoverImage = document.querySelector("#volumeCover img");
     if (volumeCoverImage) {
-      volumeCoverImage.addEventListener("error", () => {
+      const hideMissingCover = () => {
         const cover = volumeCoverImage.closest(".volume-cover");
         if (cover) cover.hidden = true;
         const intro = document.getElementById("volumeIntroduction");
         if (intro) intro.classList.add("no-cover");
         if (intro && !intro.querySelector(".presentation-block:not([hidden])")) intro.hidden = true;
-      }, { once: true });
+      };
+      volumeCoverImage.addEventListener("error", hideMissingCover, { once: true });
+      if (volumeCoverImage.complete && volumeCoverImage.naturalWidth === 0) hideMissingCover();
     }
     const initialIntroduction = document.getElementById("volumeIntroduction");
     if (initialIntroduction) {
