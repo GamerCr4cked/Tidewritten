@@ -1,6 +1,6 @@
 # Tidewritten — Project Notes & Working Rules
 
-_Last updated: 2026-10-30_
+_Last updated: 2026-10-31_
 
 This is the reference for maintaining Tidewritten. A newer, explicit task-specific instruction from the site owner takes precedence for that task. The current action list lives in [TODO.md](TODO.md); detailed QA evidence belongs in the dedicated reports.
 
@@ -93,6 +93,12 @@ The reader associates editions by the common filename base, with translation_of 
 - Check desktop and mobile layouts, both themes, and touch interaction when a change can affect presentation.
 - Use meaningful heading order, accessible names, visible focus states, sufficient contrast, and reduced-motion support.
 - Avoid decorative changes that make reading harder or obscure text.
+
+- Reader personalization is implemented in the shared `_layouts/light-novel.html` reader. Its collapsible Reading appearance controls are available in the desktop floating panel and mobile reader-controls menu.
+- Personalization options include the Ocean, Midnight, and Pearl reader palettes; a custom accent color; Literata, Georgia, or system-serif story typography; four line-spacing presets; and four reading-width presets.
+- Store these settings together under the versioned `tidewritten-reader-preferences-v1` localStorage key. Keep the existing light/dark mode key (`theme`), text-size key (`tidewritten-reader-size`), language preference key, reading-progress record, and reading history separate.
+- The Reset appearance action restores the reader-palette, accent, font, line-spacing, and width defaults. It does not clear reading progress, reading history, language preference, base light/dark mode, or the separate text-size setting.
+- Default accent colors are selected for contrast in each reader palette and light/dark mode. A user-selected custom accent persists when switching palette or mode.
 
 ## 6. Page titles, navigation, chapter titles, and links
 
