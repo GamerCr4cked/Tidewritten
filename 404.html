@@ -1,0 +1,29 @@
+---
+layout: default
+title: Page not found
+description: The requested page could not be found. Browse the Tidewritten Library or return Home.
+permalink: /404.html
+---
+
+<style>
+  .not-found{max-width:760px;margin:0 auto;padding:clamp(42px,9vw,100px) 0;text-align:center}
+  .not-found-code{display:inline-block;margin-bottom:18px;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.22em}
+  .not-found h1{margin:0 0 14px;font-size:clamp(36px,7vw,62px);line-height:1.08;letter-spacing:-.045em}
+  .not-found p{max-width:520px;margin:0 auto;color:var(--text-secondary);font-size:15px;line-height:1.8}
+  .not-found-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:11px;margin-top:28px}
+  .not-found-actions a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 17px;border:1px solid var(--border-light);border-radius:999px;color:var(--text-primary);font-size:13px;font-weight:700;text-decoration:none;transition:border-color .18s,color .18s,background .18s}
+  .not-found-actions a.primary{border-color:var(--accent);background:var(--accent-subtle);color:var(--accent)}
+  .not-found-actions a:hover{border-color:var(--accent);color:var(--accent)}
+  .not-found-mark{width:76px;height:2px;margin:30px auto 0;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+</style>
+
+<main class="not-found" aria-labelledby="not-found-title">
+  <span class="not-found-code">ERROR 404</span>
+  <h1 id="not-found-title">This page isn't here.</h1>
+  <p>The address may be incorrect, or the page may have moved. Return to the Library to find a published title.</p>
+  <nav class="not-found-actions" aria-label="Page recovery">
+    <a class="primary" href="{{ '/library/' | relative_url }}">Browse the Library <span aria-hidden="true">↗</span></a>
+    <a href="{{ '/' | relative_url }}">Return Home</a>
+  </nav>
+  <div class="not-found-mark" aria-hidden="true"></div>
+</main>
