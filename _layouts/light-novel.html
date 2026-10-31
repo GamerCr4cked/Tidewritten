@@ -374,7 +374,7 @@
         const image = document.createElement("img");
         image.src = record.image;
         image.alt = record.alt;
-        image.loading = "lazy";
+        image.loading = record.placement === "before-story" ? "eager" : "lazy";
         image.decoding = "async";
         figure.appendChild(image);
         if (typeof record.caption === "string" && record.caption.trim()) {
