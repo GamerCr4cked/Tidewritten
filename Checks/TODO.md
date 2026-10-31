@@ -68,7 +68,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Make the Library easier to explore as the catalogue grows.
 
-**Current progress (2026-10-31):** Initial Library discovery controls were merged in PR #43, and the genre taxonomy cleanup was merged in PR #44. Phase 3 completion work is on branch `feature/library-phase3-completion`: the series artwork now has a distinct CSS-built cover for every canonical series, the volume chooser has improved keyboard focus management, mobile layouts have been tightened, and the Recently updated sort is wired to optional `content_updated` metadata. The sort is intentionally disabled until reliable dates are recorded; repository history only exposes bulk filename/metadata commits and cannot establish story-content update dates. Publication status remains conservative and uses “Status not set” where completion cannot be established.
+**Current progress (2026-10-31):** Initial Library discovery controls were merged in PR #43, and the genre taxonomy cleanup was merged in PR #44. Phase 3 completion work is merged into `main` in PR #45: the series artwork has a distinct CSS-built cover for every canonical series, the volume chooser has improved keyboard focus management, mobile layouts have been tightened, and the Recently updated sort is wired to optional `content_updated` metadata. The sort is intentionally disabled until reliable dates are recorded; repository history only exposes bulk filename/metadata commits and cannot establish story-content update dates. Publication status remains conservative and uses “Status not set” where completion cannot be established.
 
 - [x] Add search across canonical series and volume metadata.
 - [x] Add filters for genre.
@@ -90,6 +90,8 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 ## Phase 4 — Reading statistics
 
 **Goal:** Give readers a useful, private overview of their reading activity.
+
+**Source-audit finding (2026-10-31):** The chapter word-count, chapter-title normalization, and volume-title cleanup regular expressions were double-escaped in the reader source. A follow-up fix is prepared in PR for this cycle; see [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md). The owner/browser behaviour checks below remain open.
 
 - [x] Track total reading time using visible/focused-page checkpoints and a 60-second recent-activity window; cap each 15-second checkpoint.
 - [x] Track completed chapters only after the reader reaches the chapter end and meets a minimum active-reading-time threshold (word-count estimate, 15-second floor, 90-second cap).
@@ -145,7 +147,7 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 - [x] Standardize browser document titles as `Page Name | Tidewritten`, including `Home | Tidewritten`, and remove duplicate site-name suffixes.
 - [ ] Verify all Phase 6 page routes, metadata, navigation state, accessibility, dark/light themes, and responsive layouts in a successful Jekyll build and rendered-browser QA.
 
-**Implementation update (2026-10-31):** The initial Phase 6 identity work was merged in PR #60. Follow-up consolidation is implemented on branch `merge-project-info-pages`: the About page now contains the project overview, creator/maintainer details, reading guide, editorial principles, and credits; former Creator, Reading Guide, and Editorial routes redirect to `/about/`; and the shared navigation/footer now expose a single About link. Design-system documentation and the custom 404 page remain in place. Source-level review is not a substitute for build or browser verification.
+**Implementation update (2026-10-31):** The initial Phase 6 identity work was merged in PR #60. Follow-up consolidation was merged into `main` in PR #61: the About page contains the project overview, creator/maintainer details, reading guide, editorial principles, and credits; former Creator, Reading Guide, and Editorial routes redirect to `/about/`; and the shared navigation/footer expose a single About link. Design-system documentation and the custom 404 page remain in place. Source-level review is not a substitute for rendered-browser verification.
 
 ## Roadmap-wide implementation rules
 
