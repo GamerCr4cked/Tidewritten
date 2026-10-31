@@ -50,7 +50,7 @@ This is a source-level audit. The latest successful GitHub Pages workflow on the
 - Verify there is no horizontal overflow or clipped dialog content.
 
 ### Deliberately not completed
-- `content_updated` dates remain unpopulated because reliable last-content-update dates are not available. The Recently updated sort remains disabled until the owner supplies trustworthy dates.
+- Checked front matter on all 17 canonical English volume files: 0 currently define `content_updated`. Dates remain unpopulated because reliable last-content-update dates are not available. The Recently updated sort remains disabled until the owner supplies trustworthy dates.
 
 ## Phase 4 — Reading statistics
 
