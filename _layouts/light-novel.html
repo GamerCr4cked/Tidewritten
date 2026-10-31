@@ -341,14 +341,6 @@
     const languagePreferenceKey = "tidewritten-language:" + canonicalStoryPath;
     const storyArticle = document.getElementById("story-content");
     const languageOptions = Array.from(document.querySelectorAll(".language-option"));
-    // Capture canonical English metadata once so later edition switches never use another translation as fallback.
-    const presentationFallbacks = {
-      seriesDescription: document.getElementById("seriesDescription")?.textContent || "",
-      volumeSynopsis: document.getElementById("volumeSynopsis")?.textContent || "",
-      authorNote: document.getElementById("authorNote")?.textContent || "",
-      coverAlt: document.querySelector("#volumeCover img")?.getAttribute("alt") || "",
-      illustrations: readIllustrations(document)
-    };
     function readIllustrations(sourceDocument) {
       const data = sourceDocument.getElementById("readerIllustrationData");
       if (!data) return [];
@@ -357,6 +349,14 @@
         return Array.isArray(parsed) ? parsed : [];
       } catch (error) { return []; }
     }
+    // Capture canonical English metadata once so later edition switches never use another translation as fallback.
+    const presentationFallbacks = {
+      seriesDescription: document.getElementById("seriesDescription")?.textContent || "",
+      volumeSynopsis: document.getElementById("volumeSynopsis")?.textContent || "",
+      authorNote: document.getElementById("authorNote")?.textContent || "",
+      coverAlt: document.querySelector("#volumeCover img")?.getAttribute("alt") || "",
+      illustrations: readIllustrations(document)
+    };
     const renderIllustrations = records => {
       const gallery = document.getElementById("supplementaryIllustrations");
       const galleryGrid = document.getElementById("illustrationGalleryGrid");
