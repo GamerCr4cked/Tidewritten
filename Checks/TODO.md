@@ -109,25 +109,25 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 - [ ] Create custom cover art for every series.
 - [ ] Create volume-specific cover designs where appropriate.
-- [ ] Add shared-reader and Library support for concise series descriptions (implemented in merged PR #50; final browser QA pending).
-- [ ] Add shared-reader and Library support for volume-specific synopses (implemented in merged PRs #50–#51; final browser QA pending).
-- [ ] Provide an optional, localized author-note section in the shared reader (implemented in merged PR #50; final browser QA pending).
-- [ ] Support optional additional illustrations without changing story prose or chapter structure (implemented in merged PR #52; final browser QA pending).
+- [x] Add shared-reader and Library support for concise series descriptions (merged PR #50; rendered-browser QA pending).
+- [x] Add shared-reader and Library support for volume-specific synopses (merged PRs #50–#51; rendered-browser QA pending).
+- [x] Provide an optional, localized author-note section in the shared reader (merged PR #50; rendered-browser QA pending).
+- [x] Support optional additional illustrations without changing story prose or chapter structure (merged PR #52; rendered-browser QA pending).
 - [ ] Establish consistent cover dimensions, image optimization, alt text, and responsive behaviour.
 - [x] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
-- [ ] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers (implementation in merged PR #51; final browser QA pending).
-- [ ] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback (implemented in merged PR #50; final browser QA pending).
-- [ ] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (implemented in merged PR #51; final browser QA pending).
-- [ ] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (implemented in merged PR #52; final browser QA pending).
-- [ ] Populate accurate series descriptions and volume synopses from story content or owner-approved copy.
+- [x] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers (merged PR #51; rendered-browser QA pending).
+- [x] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback (merged PR #50; rendered-browser QA pending).
+- [x] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (merged PR #51; rendered-browser QA pending).
+- [x] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (merged PR #52; rendered-browser QA pending).
+- [x] Populate accurate series descriptions and volume synopses from story content for all 10 series and 17 canonical English volumes (PR #54, PR #55, and current metadata PR).
 - [ ] Create and optimize approved cover assets using the documented 2:3 / 1200 × 1800 / WebP specification.
 - [ ] Verify missing-image fallbacks, canonical routes, translation switching, accessibility, desktop/mobile layouts, and rendered browser behaviour.
 
-**Metadata population update (2026-10-31):** Meet Again Trilogy descriptions and synopses were merged in PR #54. Before the Feelings Fade series metadata is now prepared in this branch: one series description and separate Vol.1/Vol.2 synopses, based on the canonical English story pages. The story bodies are unchanged. Continue with the remaining canonical series in separate reviewable batches; do not mark this item complete until the full catalogue has been reviewed.
+**Metadata population update (2026-10-31):** Story-grounded series descriptions and volume synopses are now populated across all 10 canonical series and all 17 English volumes. Meet Again Trilogy metadata was merged in PR #54; Before the Feelings Fade metadata was merged in PR #55; the remaining eight series and 12 volumes are included in this branch. Series descriptions are placed on each series' first canonical volume only. Translations use the shared reader's English fallback where localized presentation copy is absent. Story bodies are preserved.
 
-**Implementation progress (2026-10-31):** Reader metadata and author-note support (PR #50), Library cover integration (PR #51), and optional illustration rendering (PR #52) are all merged into `main`. The reusable presentation architecture is in place, but the features remain pending final build, asset, accessibility, route, translation-switching, and rendered desktop/mobile QA. No cover or illustration assets have been populated, and story-grounded descriptions/synopses still need to be written.
+**Implementation progress (2026-10-31):** Reader metadata and author-note support (PR #50), Library cover integration (PR #51), and optional illustration rendering (PR #52) are merged into `main`. Story-grounded descriptions and synopses are now populated for all 10 series and 17 canonical volumes. Canonical cover and illustration assets have not been populated. Final build, asset, accessibility, route, translation-switching, and rendered desktop/mobile QA remain outstanding; see [Phase 5 status and QA](PHASE-5-PRESENTATION-QA.md).
 
-**Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. Architecture and initial rendering paths are in place; story-grounded metadata, approved artwork, asset population, and final QA remain open.
+**Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. Reader and Library rendering paths are merged; all canonical series descriptions and volume synopses are populated. Approved cover artwork, asset population, and final QA remain open.
 
 **Design inspiration supplied by the site owner:** [Awwwards desktop design reference](https://images.openai.com/static-rsc-4/r9nA6rLDZS-UtAxthQ8akPSRLsaijppy4NfOGpmXtV6rjXXTE7R7wEQnNqA7TsqMzTp68gFYEndYglOs20wgwEMSUzNdLqIBNgDBcdP-N_wzcKrUCkTqMf4mhxU8hWmPdgi-vibsahV3OZAeIQ-pQFw2xjF0fVlPSCSgmEX78qw?purpose=inline).
 
