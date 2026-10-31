@@ -109,21 +109,21 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 - [ ] Create custom cover art for every series.
 - [ ] Create volume-specific cover designs where appropriate.
-- [x] Add shared-reader and Library support for concise series descriptions.
-- [x] Add shared-reader and Library support for volume-specific synopses.
-- [x] Provide an optional, localized author-note section in the shared reader.
-- [x] Support optional additional illustrations without changing story prose or chapter structure.
+- [ ] Add shared-reader and Library support for concise series descriptions (implemented in merged PR #50; final browser QA pending).
+- [ ] Add shared-reader and Library support for volume-specific synopses (implemented in merged PRs #50–#51; final browser QA pending).
+- [ ] Provide an optional, localized author-note section in the shared reader (implemented in merged PR #50; final browser QA pending).
+- [ ] Support optional additional illustrations without changing story prose or chapter structure (implemented in merged PR #52; final browser QA pending).
 - [ ] Establish consistent cover dimensions, image optimization, alt text, and responsive behaviour.
 - [x] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
-- [x] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers.
-- [x] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback.
-- [x] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (PR #51).
-- [x] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (PR in progress; build and browser QA pending).
+- [ ] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers (implementation in merged PR #51; final browser QA pending).
+- [ ] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback (implemented in merged PR #50; final browser QA pending).
+- [ ] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (implemented in merged PR #51; final browser QA pending).
+- [ ] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (implemented in merged PR #52; final browser QA pending).
 - [ ] Populate accurate series descriptions and volume synopses from story content or owner-approved copy.
 - [ ] Create and optimize approved cover assets using the documented 2:3 / 1200 × 1800 / WebP specification.
 - [ ] Verify missing-image fallbacks, canonical routes, translation switching, accessibility, desktop/mobile layouts, and rendered browser behaviour.
 
-**Implementation progress (2026-10-31):** The shared-reader metadata and author-note paths were implemented in PR #50, and Library cover integration was merged in PR #51. Optional illustration rendering is being added in a separate reader-focused PR; no illustration assets or story metadata have been populated yet. Jekyll build and rendered desktop/mobile QA remain outstanding.
+**Implementation progress (2026-10-31):** Reader metadata and author-note support (PR #50), Library cover integration (PR #51), and optional illustration rendering (PR #52) are all merged into `main`. The reusable presentation architecture is in place, but the features remain pending final build, asset, accessibility, route, translation-switching, and rendered desktop/mobile QA. No cover or illustration assets have been populated, and story-grounded descriptions/synopses still need to be written.
 
 **Implementation specification:** [Phase 5 Story Presentation Specification](Phase-5-Story-Presentation-Spec.md). This defines the cover system, optional metadata schema, localization/fallback rules, illustration records, accessibility requirements, and implementation sequence. Architecture and initial rendering paths are in place; story-grounded metadata, approved artwork, asset population, and final QA remain open.
 
