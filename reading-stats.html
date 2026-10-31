@@ -64,7 +64,11 @@ permalink: /reading-stats/
 (function(){
   var key='tidewritten-reading-stats-v1';
   var read=function(name,fallback){try{return JSON.parse(localStorage.getItem(name)||'null')||fallback;}catch(e){return fallback;}};
-  var stats=read(key,{version:1,totalReadingMs:0,chapters:{},volumes:{},activity:{}});
+  var stats=read(key,{version:2,totalReadingMs:0,chapters:{},volumes:{},activity:{},chapterReadingMs:{}});
+  if(stats.version===1){
+    stats={version:2,totalReadingMs:Number(stats.totalReadingMs)||0,chapters:{},volumes:{},activity:stats.activity||{},chapterReadingMs:{}};
+    try{localStorage.setItem(key,JSON.stringify(stats));}catch(e){}
+  }
   var history=read('readingHistory',[]);
   var chapters=Object.values(stats.chapters||{}).reduce(function(total,volume){return total+Object.keys(volume||{}).length;},0);
   var volumes=Object.keys(stats.volumes||{}).length;
