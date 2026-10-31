@@ -11,14 +11,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&display=swap" rel="stylesheet">
   <style>
-    :root{color-scheme:dark;--bg:#08131d;--panel:#102330;--text:#e7edf0;--muted:#9aadb8;--line:#29414d;--accent:#8edbd4;--measure:720px;--reader-size:19px;--control-width:220px}
+    :root{color-scheme:dark;--bg:#08131d;--panel:#102330;--text:#e7edf0;--muted:#9aadb8;--line:#29414d;--accent:#8edbd4;--accent-subtle:color-mix(in srgb,var(--accent) 13%,transparent);--measure:720px;--reader-size:19px;--reader-font-family:"Literata",Georgia,serif;--reader-line-height:1.95;--control-width:220px}
+    [data-reader-theme="midnight"]{--bg:#0d1424;--panel:#172239;--text:#e8edf8;--muted:#a3aec6;--line:#35435f;--accent:#a8b9ff}
+    [data-reader-theme="midnight"][data-theme="light"]{--bg:#f1f3fb;--panel:#fff;--text:#27334e;--muted:#68748f;--line:#d3daec;--accent:#536fc4}
+    [data-reader-theme="pearl"]{--bg:#201e1a;--panel:#302c26;--text:#f0e9dc;--muted:#b7ad9e;--line:#51483b;--accent:#e6bd79}
+    [data-reader-theme="pearl"][data-theme="light"]{--bg:#f8f3e9;--panel:#fffdf8;--text:#40382e;--muted:#817565;--line:#e1d7c5;--accent:#9b6d2e}
     [data-theme="light"]{color-scheme:light;--bg:#f2f8f8;--panel:#fff;--text:#20343c;--muted:#5f737a;--line:#cbdcde;--accent:#087f91}
     [data-theme="light"] body{background:radial-gradient(ellipse at 50% -10%,#dceff0 0,transparent 45%),var(--bg)}
     [data-theme="light"] .brand{color:#234a52}
     [data-theme="light"] .tagline{color:#526970}
     [data-theme="light"] .reader-tools,[data-theme="light"] .reader-panel,[data-theme="light"] .mobile-reader-menu{background:rgba(242,248,248,.94)}
     [data-theme="light"] .tool-buttons button{background:#fff;color:var(--text)}
-    [data-theme="light"] .story-content em{color:#087f91}
+    [data-theme="light"] .story-content em{color:var(--accent)}
     [data-theme="light"] .story-content strong{color:#102630}
     [data-theme="light"] .story-content blockquote{color:#45656b}
     *{box-sizing:border-box}
@@ -47,6 +51,19 @@
     .language-option.is-selected .language-check{visibility:visible}
     [data-theme="light"] .language-option:hover{background:rgba(8,127,145,.07)}
     [data-theme="light"] .language-option.is-selected{background:rgba(8,127,145,.11);color:var(--accent)}
+    .reader-settings{margin:9px 0}
+    .reader-settings summary{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 9px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font:600 11px "DM Sans",sans-serif;cursor:pointer;list-style:none}
+    .reader-settings summary::-webkit-details-marker{display:none}
+    .reader-settings summary::after{content:"＋";color:var(--accent);font-size:12px}
+    .reader-settings[open] summary::after{content:"−"}
+    .reader-settings-grid{display:grid;gap:8px;padding:10px 2px 2px}
+    .reader-settings-grid label{display:grid;gap:4px;color:var(--muted);font-size:10px;font-weight:600}
+    .reader-settings-grid select{width:100%;min-width:0;min-height:32px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:500 11px "DM Sans",sans-serif}
+    .reader-settings-grid input[type="color"]{width:100%;height:32px;padding:3px;border:1px solid var(--line);border-radius:8px;background:var(--panel);cursor:pointer}
+    .reader-settings-grid select:focus-visible,.reader-settings-grid input:focus-visible,.reader-settings summary:focus-visible,.reader-settings-reset:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+    .reader-settings-reset{width:100%;padding:7px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--muted);font:600 10px "DM Sans",sans-serif;cursor:pointer}
+    .reader-settings-reset:hover{border-color:var(--accent);color:var(--accent)}
+    .reader-settings-mobile{display:none}
     .panel-divider{height:1px;background:var(--line);margin:8px auto;width:82%}
     .text-size-label,.progress-label{color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-align:center}
     .tool-buttons{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:6px}
@@ -77,7 +94,7 @@
     .volume-nav-link.next{margin-left:auto;text-align:right}
     .volume-nav-link[hidden]{display:none}
     .volume-note{text-align:center;color:var(--muted);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:42px}
-    .story-content{font-family:"Literata",Georgia,serif;font-size:var(--reader-size);line-height:1.95;overflow-wrap:anywhere}
+    .story-content{font-family:var(--reader-font-family);font-size:var(--reader-size);line-height:var(--reader-line-height);overflow-wrap:anywhere}
     .story-content p{margin:0 0 1.45em}
     .story-content h2{font-family:"DM Sans",sans-serif;font-weight:500;line-height:1.2;font-size:clamp(24px,4vw,34px);letter-spacing:-.025em;margin:76px 0 28px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}
     .story-content h2:first-child{margin-top:0}
@@ -98,10 +115,13 @@
       :root{--control-width:min(250px,calc(100vw - 28px))}
       .reader-panel{top:10px;left:10px;width:var(--control-width);padding:10px 12px;border-radius:14px}
       .brand{margin:0;font-size:12px;letter-spacing:.18em;line-height:22px}
-      .panel-back,.language-picker,.panel-divider,.text-size-label,.tool-buttons,.reset-row,.reading-progress{display:none}
+      .panel-back,.language-picker,.panel-divider,.text-size-label,.tool-buttons,.reset-row,.reading-progress,.reader-settings-desktop{display:none}
       .mobile-menu-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:4px;padding:5px 0 0;border:0;border-top:1px solid var(--line);background:transparent;color:var(--muted);font:500 11px "DM Sans",sans-serif;cursor:pointer}
       .mobile-reader-menu{position:absolute;top:calc(100% + 7px);left:0;right:0;padding:12px;border:1px solid var(--line);border-radius:14px;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(16px);box-shadow:0 14px 35px rgba(0,0,0,.25)}
       .mobile-reader-menu .panel-back{display:block;margin:0 0 12px}
+      .mobile-reader-menu .reader-settings-mobile{display:block;margin:0 0 12px}
+      .mobile-reader-menu .reader-settings-grid{grid-template-columns:1fr 1fr;gap:9px}
+      .mobile-reader-menu .reader-settings-grid label:first-child,.mobile-reader-menu .reader-settings-grid label:nth-child(2),.mobile-reader-menu .reader-settings-reset{grid-column:1/-1}
       .mobile-reader-menu .language-picker{display:block;margin:0 0 12px}
       .mobile-reader-menu .tool-buttons{display:flex;margin-top:0}
       .mobile-reader-menu .reset-row{display:flex}
@@ -146,6 +166,17 @@
         {% endfor %}
       </div>
     </div>
+    <details class="reader-settings reader-settings-desktop">
+      <summary>Reading appearance</summary>
+      <div class="reader-settings-grid">
+        <label>Reader theme<select data-reader-pref="theme"><option value="ocean">Ocean</option><option value="midnight">Midnight</option><option value="pearl">Pearl</option></select></label>
+        <label>Accent color<input type="color" data-reader-pref="accent" value="#8edbd4" aria-label="Choose accent color"></label>
+        <label>Story font<select data-reader-pref="font"><option value="literata">Literata</option><option value="georgia">Georgia</option><option value="system">System serif</option></select></label>
+        <label>Line spacing<select data-reader-pref="line"><option value="1.7">Compact</option><option value="1.85">Comfortable</option><option value="1.95">Default</option><option value="2.15">Relaxed</option></select></label>
+        <label>Reading width<select data-reader-pref="width"><option value="640">Narrow</option><option value="720">Default</option><option value="820">Wide</option><option value="920">Extra wide</option></select></label>
+        <button class="reader-settings-reset" type="button" data-reader-reset>Reset appearance</button>
+      </div>
+    </details>
     <div class="panel-divider"></div>
     <div class="text-size-label">Text size</div>
     <div class="tool-buttons">
@@ -171,6 +202,17 @@
           {% endfor %}
         </div>
       </div>
+      <details class="reader-settings reader-settings-mobile">
+        <summary>Reading appearance</summary>
+        <div class="reader-settings-grid">
+          <label>Reader theme<select data-reader-pref="theme"><option value="ocean">Ocean</option><option value="midnight">Midnight</option><option value="pearl">Pearl</option></select></label>
+          <label>Accent color<input type="color" data-reader-pref="accent" value="#8edbd4" aria-label="Choose accent color"></label>
+          <label>Story font<select data-reader-pref="font"><option value="literata">Literata</option><option value="georgia">Georgia</option><option value="system">System serif</option></select></label>
+          <label>Line spacing<select data-reader-pref="line"><option value="1.7">Compact</option><option value="1.85">Comfortable</option><option value="1.95">Default</option><option value="2.15">Relaxed</option></select></label>
+          <label>Reading width<select data-reader-pref="width"><option value="640">Narrow</option><option value="720">Default</option><option value="820">Wide</option><option value="920">Extra wide</option></select></label>
+          <button class="reader-settings-reset" type="button" data-reader-reset>Reset appearance</button>
+        </div>
+      </details>
       <div class="text-size-label">Text size</div>
       <div class="tool-buttons"><button type="button" id="mobileLarger" aria-label="Increase text size">A+</button><button type="button" id="mobileSmaller" aria-label="Decrease text size">A−</button></div>
       <div class="reset-row"><button type="button" id="mobileReset" aria-label="Reset text size">Reset</button></div>
@@ -331,6 +373,63 @@
       const paintTheme = () => { const light = root.getAttribute("data-theme") === "light"; themeButton.textContent = light ? "☾" : "☼"; themeButton.setAttribute("aria-label", light ? "Switch to dark theme" : "Switch to light theme"); };
       paintTheme();
       themeButton.addEventListener("click", () => { const light = root.getAttribute("data-theme") === "light"; root.setAttribute("data-theme", light ? "dark" : "light"); localStorage.setItem("theme", light ? "dark" : "light"); paintTheme(); });
+      const readerPreferenceKey = "tidewritten-reader-preferences-v1";
+      const defaultReaderPreferences = { theme: "ocean", accent: "#8edbd4", font: "literata", line: "1.95", width: "720" };
+      const readerPreferenceOptions = {
+        theme: ["ocean", "midnight", "pearl"],
+        font: ["literata", "georgia", "system"],
+        line: ["1.7", "1.85", "1.95", "2.15"],
+        width: ["640", "720", "820", "920"]
+      };
+      const readerFonts = { literata: '"Literata",Georgia,serif', georgia: 'Georgia,"Times New Roman",serif', system: 'ui-serif,Georgia,serif' };
+      const preferenceControls = Array.from(document.querySelectorAll("[data-reader-pref]"));
+      const validAccent = value => /^#[0-9a-f]{6}$/i.test(value);
+      const syncPreferenceControls = preferences => {
+        preferenceControls.forEach(control => {
+          const key = control.dataset.readerPref;
+          if (key in preferences) control.value = preferences[key];
+        });
+      };
+      const applyReaderPreferences = preferences => {
+        root.setAttribute("data-reader-theme", preferences.theme);
+        root.style.setProperty("--accent", preferences.accent);
+        root.style.setProperty("--reader-font-family", readerFonts[preferences.font]);
+        root.style.setProperty("--reader-line-height", preferences.line);
+        root.style.setProperty("--measure", preferences.width + "px");
+        root.style.setProperty("--accent-subtle", "color-mix(in srgb," + preferences.accent + " 13%,transparent)");
+        syncPreferenceControls(preferences);
+      };
+      const saveReaderPreferences = preferences => {
+        try { localStorage.setItem(readerPreferenceKey, JSON.stringify(preferences)); } catch (error) {}
+      };
+      const readReaderPreferences = () => {
+        try {
+          const stored = JSON.parse(localStorage.getItem(readerPreferenceKey) || "null");
+          if (!stored || typeof stored !== "object") return { ...defaultReaderPreferences };
+          const result = { ...defaultReaderPreferences };
+          Object.keys(readerPreferenceOptions).forEach(key => {
+            if (readerPreferenceOptions[key].includes(String(stored[key]))) result[key] = String(stored[key]);
+          });
+          if (validAccent(stored.accent)) result.accent = stored.accent;
+          return result;
+        } catch (error) { return { ...defaultReaderPreferences }; }
+      };
+      let readerPreferences = readReaderPreferences();
+      applyReaderPreferences(readerPreferences);
+      preferenceControls.forEach(control => control.addEventListener("input", () => {
+        const key = control.dataset.readerPref;
+        const value = control.value;
+        if (key === "accent" ? !validAccent(value) : !readerPreferenceOptions[key]?.includes(value)) return;
+        readerPreferences = { ...readerPreferences, [key]: value };
+        applyReaderPreferences(readerPreferences);
+        saveReaderPreferences(readerPreferences);
+      }));
+      document.querySelectorAll("[data-reader-reset]").forEach(button => button.addEventListener("click", () => {
+        readerPreferences = { ...defaultReaderPreferences };
+        applyReaderPreferences(readerPreferences);
+        saveReaderPreferences(readerPreferences);
+      }));
+
       const key = "tidewritten-reader-size";
       let size = Number(localStorage.getItem(key)) || 19;
       const apply = () => { size = Math.max(16, Math.min(25, size)); root.style.setProperty("--reader-size", size + "px"); localStorage.setItem(key, String(size)); };
