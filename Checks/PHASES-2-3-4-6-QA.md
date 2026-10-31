@@ -1,8 +1,8 @@
 # Phases 2, 3, 4, and 6 — Source Audit & QA Follow-up
 
 _Audit date: 2026-10-31_
-_Base: main at 87f75226bd280632cee84a9b51d4697796bc4a84_
-_Work branch: fix/phase-4-reading-statistics-threshold_
+_Base at audit: `87f75226bd280632cee84a9b51d4697796bc4a84`_
+_Merged PR: [#62](https://github.com/GamerCr4cked/Tidewritten/pull/62), merge commit `a428916e043a8855f9284c0a9061d858e9182725`_
 
 ## Scope and limitations
 
@@ -22,13 +22,8 @@ This is a source-level audit. The latest successful GitHub Pages workflow on the
 - Mobile controls are placed inside the responsive Reading controls menu.
 - The reduced-motion rule has been strengthened on this branch to suppress reader animations and transitions as well as smooth scrolling.
 
-### Still requires owner/browser QA
-- Open Customize on a narrow mobile viewport and verify all controls can be reached without clipping or being hidden behind the menu.
-- Test touch selection for every control and confirm menus close predictably.
-- Test keyboard navigation, focus visibility, Escape, and outside-click dismissal on desktop and mobile.
-- Test Ocean, Midnight, and Pearl in both base themes, including custom accent contrast.
-- Confirm reduced-motion removes nonessential motion without hiding state changes.
-- Confirm settings persist after refresh and remain independent from language, theme, text size, and reading position.
+### Owner-reported browser QA — passed
+The owner tested the mobile Customize controls, touch interaction, keyboard operation, palettes, and reduced-motion behaviour and confirmed they work. The source-level checks above were merged in PR #62. This is owner-reported browser QA, not an independent browser session.
 
 ## Phase 3 — Library evolution
 
@@ -42,12 +37,8 @@ This is a source-level audit. The latest successful GitHub Pages workflow on the
 - Multi-volume cards expose a keyboard-operable dialog trigger; Enter and Space open the chooser, focus moves to the first volume link, and closing the dialog returns focus to the invoking card.
 - Responsive CSS includes narrow filter, card, and dialog layouts and a reduced-motion rule.
 
-### Still requires owner/browser QA
-- Test search, genre, status, and edition filters in combination and confirm the live result count and empty state.
-- Test the volume chooser with keyboard only, including Escape, close button, backdrop, focus entry, and focus return.
-- Test one single-volume title and one multi-volume series.
-- Test at narrow mobile widths, both themes, and with touch.
-- Verify there is no horizontal overflow or clipped dialog content.
+### Owner-reported browser QA — passed
+The owner tested the mobile Library filters, volume chooser, and keyboard focus behaviour and confirmed they work. This is owner-reported browser QA, not an independent browser session.
 
 ### Deliberately not completed
 - Checked front matter on all 17 canonical English volume files: 0 currently define `content_updated`. Dates remain unpopulated because reliable last-content-update dates are not available. The Recently updated sort remains disabled until the owner supplies trustworthy dates.
@@ -70,14 +61,8 @@ Three regular expressions in the reader were double-escaped:
 
 The expressions now use the intended JavaScript regex escapes. A direct JavaScript behaviour check showed the old word-count regex matched 0 words in a normal sample, while the corrected regex matched 11; the corrected title expressions also normalized whitespace and removed the site suffix as intended.
 
-### Still requires owner/browser QA
-- Use a short chapter and a longer chapter to confirm their thresholds differ when the calculated estimate exceeds the 15-second floor.
-- Fast-scroll through a chapter and reach its end without enough active time; it must not be marked complete.
-- Spend the required active time in a chapter and reach its end; it should qualify.
-- Verify the final chapter also requires reaching the story end.
-- Test a v1 record: total time and daily activity must survive migration while old completion counts are requalified.
-- Test refresh, navigation, translation switching, and the Statistics dashboard.
-- Confirm clearing statistics does not clear reading position, recent history, language, theme, text size, or appearance settings.
+### Owner-reported browser QA — passed
+The owner tested fast-scroll prevention, genuine chapter completion, migration, and clearing statistics and confirmed they work. This is owner-reported browser QA, not an independent browser session.
 
 ## Phase 6 — Tidewritten identity
 
@@ -89,18 +74,16 @@ The expressions now use the intended JavaScript regex escapes. A direct JavaScri
 - The shared layout appends the site name once to page titles.
 - The site-wide fallback description has been changed from generic sentimental wording to a concise factual description.
 
-### Still requires owner/browser QA
-- Visit About and each legacy route; confirm the redirects land on the correct About page and anchor content is reachable.
-- Open a genuinely missing URL and confirm GitHub Pages serves the custom 404 page.
-- Verify Home, Library, Statistics, and About selected navigation states.
-- Check title and description metadata, keyboard navigation, dark/light themes, and responsive layouts.
+### Owner-reported browser QA — passed
+The owner tested the About page, legacy redirects, custom 404, navigation states, themes, and responsive layouts and confirmed they work. This is owner-reported browser QA, not an independent browser session.
 
 ## Build and deployment evidence
 
 - Base `main` commit: `87f75226bd280632cee84a9b51d4697796bc4a84`.
-- The latest GitHub Pages workflow for that base commit completed successfully: [workflow run 41189517974](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41189517974).
-- That workflow ran before the changes on this branch. A new successful workflow is required for this branch/PR before its build status can be called verified.
-- No local Jekyll build or independent rendered-browser test is claimed.
+- The pre-merge base workflow succeeded: [workflow run 41189517974](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41189517974).
+- PR #62 was merged into `main` at `a428916e043a8855f9284c0a9061d858e9182725`.
+- The Pages workflow for the merge commit was still **in progress** when this report was updated: [workflow run 41192642899](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41192642899). Its final conclusion is not yet recorded.
+- The owner-reported rendered-browser checks above passed. No independent rendered-browser test or local Jekyll build is claimed.
 
 ## Files changed on the follow-up branch
 
@@ -110,4 +93,4 @@ The expressions now use the intended JavaScript regex escapes. A direct JavaScri
 
 ## Acceptance status
 
-Implementation/source corrections are prepared. Phases 2, 3, 4, and 6 must remain open until the owner/browser checks above are completed and the branch has a successful Pages build. Phase 3 update dates remain intentionally unavailable pending reliable owner-supplied data.
+The owner has completed and confirmed the requested browser QA for Phases 2, 3, 4, and 6. PR #62 is merged. The Pages workflow for the merge commit was still running at report-update time; update the build result after it completes. Phase 3 Recently updated dates remain intentionally unavailable until reliable content-update dates are supplied.
