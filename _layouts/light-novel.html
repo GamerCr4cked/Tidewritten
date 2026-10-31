@@ -122,7 +122,7 @@
       .brand{margin:0;font-size:12px;letter-spacing:.18em;line-height:22px}
       .panel-back,.language-picker,.panel-divider,.text-size-label,.tool-buttons,.reset-row,.reading-progress,.reader-settings-desktop{display:none}
       .mobile-menu-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:4px;padding:5px 0 0;border:0;border-top:1px solid var(--line);background:transparent;color:var(--muted);font:500 11px "DM Sans",sans-serif;cursor:pointer}
-      .mobile-reader-menu{position:absolute;top:calc(100% + 7px);left:0;right:0;padding:12px;border:1px solid var(--line);border-radius:14px;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(16px);box-shadow:0 14px 35px rgba(0,0,0,.25)}
+      .mobile-reader-menu{position:absolute;top:calc(100% + 7px);left:0;right:0;max-height:min(70vh,520px);overflow-y:auto;overscroll-behavior:contain;padding:12px;border:1px solid var(--line);border-radius:14px;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(16px);box-shadow:0 14px 35px rgba(0,0,0,.25)}
       .mobile-reader-menu .panel-back{display:block;margin:0 0 12px}
       .mobile-reader-menu .reader-settings-mobile{display:block;margin:0 0 12px}
       .mobile-reader-menu .reader-settings-grid{grid-template-columns:1fr 1fr;gap:9px}
