@@ -109,17 +109,17 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 - [ ] Create custom cover art for every series.
 - [ ] Create volume-specific cover designs where appropriate.
-- [ ] Add shared-reader and Library support for concise series descriptions (implemented in merged PR #50; final browser QA pending).
-- [ ] Add shared-reader and Library support for volume-specific synopses (implemented in merged PRs #50–#51; final browser QA pending).
-- [ ] Provide an optional, localized author-note section in the shared reader (implemented in merged PR #50; final browser QA pending).
-- [ ] Support optional additional illustrations without changing story prose or chapter structure (implemented in merged PR #52; final browser QA pending).
+- [x] Add shared-reader and Library support for concise series descriptions (merged PR #50; rendered-browser QA pending).
+- [x] Add shared-reader and Library support for volume-specific synopses (merged PRs #50–#51; rendered-browser QA pending).
+- [x] Provide an optional, localized author-note section in the shared reader (merged PR #50; rendered-browser QA pending).
+- [x] Support optional additional illustrations without changing story prose or chapter structure (merged PR #52; rendered-browser QA pending).
 - [ ] Establish consistent cover dimensions, image optimization, alt text, and responsive behaviour.
 - [x] Keep cover art and illustrations optional enhancements; story text remains the primary focus.
-- [ ] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers (implementation in merged PR #51; final browser QA pending).
-- [ ] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback (implemented in merged PR #50; final browser QA pending).
-- [ ] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (implemented in merged PR #51; final browser QA pending).
-- [ ] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (implemented in merged PR #52; final browser QA pending).
-- [ ] Populate accurate series descriptions and volume synopses from story content or owner-approved copy.
+- [x] Preserve series identity, volume numbering, existing routes, and Library grouping while integrating covers (merged PR #51; rendered-browser QA pending).
+- [x] Implement optional localized front matter (`series_description`, `synopsis`, `author_note`, `cover_alt`) and shared-reader rendering with English fallback (merged PR #50; rendered-browser QA pending).
+- [x] Extend the existing Library series cards and volume chooser to use canonical volume covers while preserving series grouping and existing navigation (merged PR #51; rendered-browser QA pending).
+- [x] Implement optional illustration rendering with local-path validation, exact chapter-ID placement checks, and a supplementary-gallery fallback for unvalidated placement (merged PR #52; rendered-browser QA pending).
+- [x] Populate accurate series descriptions and volume synopses from story content for all 10 series and 17 canonical English volumes (PR #54, PR #55, and current metadata PR).
 - [ ] Create and optimize approved cover assets using the documented 2:3 / 1200 × 1800 / WebP specification.
 - [ ] Verify missing-image fallbacks, canonical routes, translation switching, accessibility, desktop/mobile layouts, and rendered browser behaviour.
 
