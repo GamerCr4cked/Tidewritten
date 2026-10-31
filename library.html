@@ -258,7 +258,11 @@ permalink: /library/
     let visible = 0;
     cards.forEach(card => {
       const text = [card.dataset.seriesName, card.textContent].join(" ").toLocaleLowerCase();
-      const genres = (card.dataset.genres || "").toLocaleLowerCase();
+      const genres = (card.dataset.genres || "")
+        .split(" | ")
+        .flatMap(group => group.split(" · "))
+        .map(value => value.trim().toLocaleLowerCase())
+        .filter(Boolean);
       const languages = editionsFor(card).map(value => value.toLocaleLowerCase());
       const matches = (!query || text.includes(query))
         && (!genre.value || genres.includes(genre.value))
