@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: An overview of Tidewritten, its light-novel catalogue, and its reading experience.
+description: Information about the Tidewritten project, its creator, reading features, editorial principles, and credits.
 permalink: /about/
 ---
 
@@ -11,32 +11,88 @@ permalink: /about/
   .info-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:12px}
   .info-hero h1{font-size:clamp(34px,6vw,54px);line-height:1.1;letter-spacing:-.04em;margin-bottom:16px}
   .info-hero h1 span{color:var(--accent)}
-  .info-hero p{max-width:700px;color:var(--text-secondary);font-size:16px}
-  .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin:20px 0}
-  .info-card{padding:23px;border:1px solid var(--border);border-radius:17px;background:var(--bg-card)}
-  .info-card h2{font-size:18px;margin-bottom:8px}
-  .info-card p{font-size:14px;color:var(--text-secondary)}
-  .info-note{padding:19px 21px;border-left:2px solid var(--accent);background:var(--accent-subtle);border-radius:0 12px 12px 0;color:var(--text-secondary);font-size:14px}
-  .info-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
-  .info-actions a{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border:1px solid var(--border-light);border-radius:999px;color:var(--text-primary);text-decoration:none;font-size:13px;font-weight:600}
-  .info-actions a:hover{border-color:var(--accent);color:var(--accent)}
+  .info-hero p{max-width:720px;color:var(--text-secondary);font-size:16px}
+  .info-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .info-actions a,.info-link{color:var(--accent);font-weight:600;text-decoration:none}
+  .info-actions a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;background:var(--bg-card);font-size:13px}
+  .info-actions a:hover,.info-link:hover{text-decoration:underline}
+  .info-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:14px}
+  .info-card,.info-section{padding:clamp(20px,3vw,28px);border:1px solid var(--border);border-radius:18px;background:var(--bg-card)}
+  .info-card h2,.info-section h2{font-size:19px;margin-bottom:9px}
+  .info-card p,.info-section p,.info-section li{color:var(--text-secondary);font-size:14px;line-height:1.8}
+  .info-section{margin-top:14px}
+  .info-section ul{padding-left:20px}
+  .info-section li+li{margin-top:5px}
+  .creator-credit{display:flex;align-items:flex-start;gap:18px}
+  .creator-mark{width:62px;height:62px;flex:0 0 62px;display:grid;place-items:center;border-radius:18px;background:var(--accent-subtle);border:1px solid var(--border-light);font-size:28px;color:var(--accent)}
+  .info-note{margin-top:14px;color:var(--text-muted);font-size:12px;line-height:1.7}
+  @media(max-width:700px){.info-grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){.info-page{padding-top:22px}.info-grid{grid-template-columns:1fr}.creator-credit{display:block}.creator-mark{margin-bottom:14px}}
 </style>
 
 <main class="info-page">
-  <section class="info-hero">
-    <p class="info-eyebrow">ABOUT THE PROJECT</p>
+  <header class="info-hero">
+    <p class="info-eyebrow">PROJECT INFORMATION</p>
     <h1>About <span>Tidewritten</span></h1>
-    <p>Tidewritten is an independent light-novel reading project. Its Library brings original stories together by series and volume, with available editions presented through a shared reading experience.</p>
+    <p>Tidewritten is an independent light-novel reading project. Its Library brings stories together by series and volume, with available language editions presented through a shared reading experience.</p>
     <div class="info-actions">
       <a href="{{ '/library/' | relative_url }}">Browse the Library ↗</a>
-      <a href="{{ '/reading-guide/' | relative_url }}">Reading Guide →</a>
-      <a href="{{ '/editorial/' | relative_url }}">Editorial &amp; Credits →</a>
+      <a href="#reading-guide">Reading guide ↓</a>
+      <a href="#credits">Editorial &amp; credits ↓</a>
     </div>
-  </section>
+  </header>
+
   <section class="info-grid" aria-label="About the Tidewritten project">
     <article class="info-card"><h2>A series-based Library</h2><p>Related books are grouped into series. A standalone title opens directly, while a multi-volume series provides volume selection and navigation between available volumes.</p></article>
     <article class="info-card"><h2>A focused reading experience</h2><p>Individual books use a long-form layout with adjustable text size, typography, line spacing, reading width, and display theme. Available language editions can be selected from the reader.</p></article>
     <article class="info-card"><h2>A distinct visual identity</h2><p>The interface uses an aquatic cyan palette, restrained gradients, and clear typography. Decorative elements support navigation and reading rather than competing with the story.</p></article>
   </section>
-  <p class="info-note">Tidewritten is an independent project. Story content should be understood according to the author and edition credited with each work; the site's interface and catalogue do not change a work's authorship.</p>
+
+  <section class="info-section" id="creator" aria-labelledby="creator-heading">
+    <h2 id="creator-heading">Creator &amp; maintainer</h2>
+    <div class="creator-credit">
+      <div class="creator-mark" aria-hidden="true">≈</div>
+      <div>
+        <h3>GamerCr4cked</h3>
+        <p>Creator and maintainer of the Tidewritten website and its public repository. This page shares the project handle and public project link; it is not intended as a personal biography or a contact form.</p>
+        <p><a class="info-link" href="https://github.com/GamerCr4cked/Tidewritten" target="_blank" rel="noopener noreferrer">View the public Tidewritten repository ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section" id="reading-guide" aria-labelledby="guide-heading">
+    <h2 id="guide-heading">Reading guide</h2>
+    <ul>
+      <li><strong>Find a story:</strong> Start on <a class="info-link" href="{{ '/' | relative_url }}">Home</a> for featured picks, or visit the <a class="info-link" href="{{ '/library/' | relative_url }}">Library</a> to browse available titles by series.</li>
+      <li><strong>Choose a volume:</strong> Series pages group related volumes. Use the volume selector and previous/next navigation where available to read in order.</li>
+      <li><strong>Set your theme:</strong> Use the theme control in the top navigation to switch between dark and light appearance.</li>
+      <li><strong>Customize the reader:</strong> On story pages, use Customize to adjust text size and available reading appearance settings. Use Translate to select an edition when one is available.</li>
+      <li><strong>Return to a story:</strong> Home can show recently opened stories when reading history is available. This history is stored in the current browser, so it may not be available on another device or in a different browser.</li>
+      <li><strong>Review story information:</strong> Stories may explore a range of themes. Check the opening and available story information if you want to understand a title's subject matter before reading.</li>
+    </ul>
+  </section>
+
+  <section class="info-section" id="editorial" aria-labelledby="editorial-heading">
+    <h2 id="editorial-heading">Editorial principles</h2>
+    <ul>
+      <li>Stories are organized by series and volume; language editions remain attached to the corresponding work.</li>
+      <li>Story wording, chapter titles, character names, and authorial intent are protected during site maintenance.</li>
+      <li>Translations are presented as editions of their source work and should preserve meaning, sequence, and tone.</li>
+      <li>Interface copy is concise and informative so the catalogue and reading experience remain the focus.</li>
+      <li>Story-specific authorship and rights belong to the respective work and its credited author or rights holder. Maintaining the platform does not imply ownership of story content.</li>
+    </ul>
+    <p class="info-note">Tidewritten is an independent project. Story content should be understood according to the author and edition credited with each work.</p>
+  </section>
+
+  <section class="info-section" id="credits" aria-labelledby="credits-heading">
+    <h2 id="credits-heading">Credits &amp; acknowledgements</h2>
+    <ul>
+      <li><strong>GamerCr4cked</strong> — project creator and website maintainer.</li>
+      <li><strong>GitHub Pages</strong> — website hosting and publication.</li>
+      <li><strong>Jekyll</strong> — static-site generation.</li>
+      <li><strong>Google Fonts</strong> — hosted typefaces used by the site's interface and reader.</li>
+    </ul>
+    <p>Additional work-specific acknowledgements should be shown with that work when its source information is available.</p>
+    <p>For implementation details and the public development history, consult the <a class="info-link" href="https://github.com/GamerCr4cked/Tidewritten" target="_blank" rel="noopener noreferrer">Tidewritten source repository ↗</a>.</p>
+  </section>
 </main>

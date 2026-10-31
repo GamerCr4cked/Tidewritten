@@ -89,8 +89,9 @@ The reader associates editions by the common filename base, with translation_of 
 - Preserve the existing reader controls and their intended placement: desktop floating controls to the left, the theme toggle at the top-right, and responsive mobile controls.
 - Keep the desktop floating panel compact (about three-quarters of its former size) without scaling down the controls inside it; keep inner controls centered.
 - Preserve the Cinzel-based TIDEWRITTEN brand treatment and aqua gradient underline.
-- Keep the shared site shell footer useful and concise; include links to the Library, About, and Editorial & Credits pages.
-- Maintain the About page as the project overview, Creator as the maintainer profile, Reading Guide as usage instructions, and Editorial & Credits as the source/acknowledgement record. Do not create overlapping duplicate pages.
+- Keep the shared site shell footer useful and concise; include links to the Library and the consolidated About page.
+- Keep one consolidated About page at `/about/` for the project overview, creator/maintainer information, reading guide, editorial principles, and credits/acknowledgements. Do not split these topics into separate public pages.
+- Preserve `/creator/`, `/reading-guide/`, and `/editorial/` as lightweight redirects to `/about/` so existing bookmarks and inbound links continue to work.
 - The current site visual tokens and typography inventory are documented in [Design-System.md](Design-System.md). Update that document when lasting design decisions change.
 - Maintain reading progress, save/restore, text-size controls, theme controls, edge fades, and previous/next volume navigation unless the owner requests a change.
 - Check desktop and mobile layouts, both themes, and touch interaction when a change can affect presentation.

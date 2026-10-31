@@ -1,40 +1,10 @@
 ---
 layout: default
 title: Creator
-description: Meet the creator behind Tidewritten and find the public project repository.
 permalink: /creator/
+sitemap: false
 ---
 
-<style>
-  .info-page{max-width:900px;margin:0 auto;padding:34px 0 64px}
-  .info-hero{padding:clamp(28px,5vw,54px);border:1px solid var(--border);border-radius:24px;background:radial-gradient(ellipse at 85% 0%,var(--accent-glow),transparent 42%),var(--bg-secondary);margin-bottom:22px}
-  .info-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:12px}
-  .info-hero h1{font-size:clamp(34px,6vw,54px);line-height:1.1;letter-spacing:-.04em;margin-bottom:16px}
-  .info-hero h1 span{color:var(--accent)}
-  .info-hero p{max-width:680px;color:var(--text-secondary);font-size:16px}
-  .creator-panel{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:start;padding:clamp(22px,4vw,34px);border:1px solid var(--border);border-radius:20px;background:var(--bg-card)}
-  .creator-mark{width:76px;height:76px;display:grid;place-items:center;border-radius:22px;background:var(--accent-subtle);border:1px solid var(--border-light);font-size:32px;color:var(--accent)}
-  .creator-panel h2{font-size:23px;margin-bottom:8px}
-  .creator-panel p{color:var(--text-secondary);font-size:14px;margin-bottom:12px}
-  .creator-link{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;text-decoration:none;font-size:14px}
-  .creator-link:hover{text-decoration:underline}
-  .creator-footnote{margin-top:18px;color:var(--text-muted);font-size:12px}
-  @media(max-width:520px){.creator-panel{grid-template-columns:1fr}.creator-mark{width:62px;height:62px;border-radius:18px}}
-</style>
-
-<main class="info-page">
-  <section class="info-hero">
-    <p class="info-eyebrow">CREATOR &amp; MAINTAINER</p>
-    <h1>About the <span>creator</span></h1>
-    <p>Tidewritten is an independent storytelling and reading project created and maintained by GamerCr4cked.</p>
-  </section>
-  <section class="creator-panel">
-    <div class="creator-mark" aria-hidden="true">≈</div>
-    <div>
-      <h2>GamerCr4cked</h2>
-      <p>Creator and maintainer of the Tidewritten website, which publishes original stories and light-novel editions in a series-and-volume catalogue.</p>
-      <a class="creator-link" href="https://github.com/GamerCr4cked/Tidewritten" target="_blank" rel="noopener noreferrer">View the public Tidewritten repository ↗</a>
-      <p class="creator-footnote">This page shares the creator’s project handle and public project link; it is not intended as a personal biography or a contact form.</p>
-    </div>
-  </section>
-</main>
+<meta http-equiv="refresh" content="0; url={{ '/about/' | relative_url }}">
+<p>This information has moved to <a href="{{ '/about/' | relative_url }}">About Tidewritten</a>.</p>
+<script>window.location.replace("{{ '/about/' | relative_url }}");</script>

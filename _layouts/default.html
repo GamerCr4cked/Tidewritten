@@ -23,8 +23,6 @@
         <a href="{{ '/library/' | relative_url }}" {% if page.url == '/library.html' or page.url == '/library/' %}aria-current="page"{% endif %}>Library</a>
         <a href="{{ '/reading-stats/' | relative_url }}" {% if page.url == '/reading-stats/' %}aria-current="page"{% endif %}>Statistics</a>
         <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about.html' or page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
-        <a href="{{ '/creator/' | relative_url }}" {% if page.url == '/creator.html' or page.url == '/creator/' %}aria-current="page"{% endif %}>Creator</a>
-        <a href="{{ '/reading-guide/' | relative_url }}" {% if page.url == '/reading-guide.html' or page.url == '/reading-guide/' %}aria-current="page"{% endif %}>Reading Guide</a>
       </nav>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" title="Toggle theme"><span class="theme-toggle-icon" aria-hidden="true">◐</span></button>
     </header>
@@ -52,7 +50,6 @@
       <nav class="footer-links" aria-label="Project links">
         <a href="{{ '/library/' | relative_url }}">Browse the Library <span aria-hidden="true">↗</span></a>
         <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/editorial/' | relative_url }}">Editorial &amp; Credits</a>
       </nav>
     </footer>
   </div>
