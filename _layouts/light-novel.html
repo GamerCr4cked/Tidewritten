@@ -480,17 +480,35 @@
       const loadStats = () => {
         try {
           const saved = JSON.parse(localStorage.getItem(statsKey) || "null");
-          if (saved && saved.version === 1) return saved;
+          if (saved && saved.version === 2) return saved;
+          if (saved && saved.version === 1) {
+            // Preserve accumulated time and activity, but re-qualify completions
+            // under the stricter reading-time rule introduced in version 2.
+            return { version: 2, totalReadingMs: Number(saved.totalReadingMs) || 0, chapters: {}, volumes: {}, activity: saved.activity || {}, chapterReadingMs: {} };
+          }
         } catch (error) {}
-        return { version: 1, totalReadingMs: 0, chapters: {}, volumes: {}, activity: {} };
+        return { version: 2, totalReadingMs: 0, chapters: {}, volumes: {}, activity: {}, chapterReadingMs: {} };
       };
       let stats = loadStats();
       const saveStats = () => { try { localStorage.setItem(statsKey, JSON.stringify(stats)); } catch (error) {} };
       const chapterHeadings = () => Array.from(story.querySelectorAll("h2[id^='chapter-']"));
-      const completeChapter = heading => {
+      const chapterWordCount = (heading, nextHeading) => {
+        const range = document.createRange();
+        range.setStartAfter(heading);
+        if (nextHeading) range.setEndBefore(nextHeading);
+        else range.setEnd(story, story.childNodes.length);
+        return (range.toString().match(/\\b[\\w’'-]+\\b/g) || []).length;
+      };
+      const requiredChapterReadingMs = (heading, nextHeading) => {
+        const estimatedMs = chapterWordCount(heading, nextHeading) / 220 * 60000;
+        return Math.max(15000, Math.min(90000, estimatedMs * 0.25));
+      };
+      const completeChapter = (heading, nextHeading) => {
         if (!heading || !heading.id) return;
         const completed = stats.chapters[canonicalVolumePath] || (stats.chapters[canonicalVolumePath] = {});
         if (completed[heading.id]) return;
+        const chapterTime = Number((stats.chapterReadingMs[canonicalVolumePath] || {})[heading.id]) || 0;
+        if (chapterTime < requiredChapterReadingMs(heading, nextHeading)) return;
         completed[heading.id] = { title: heading.textContent.replace(/\\s+/g, " ").trim(), completedAt: Date.now() };
         const headings = chapterHeadings();
         if (headings.length && headings.every(item => completed[item.id])) {
@@ -502,15 +520,24 @@
         const headings = chapterHeadings();
         headings.forEach((heading, index) => {
           const next = headings[index + 1];
-          if (next && next.getBoundingClientRect().top <= Math.min(170, innerHeight * 0.22)) completeChapter(heading);
+          if (next && next.getBoundingClientRect().top <= Math.min(170, innerHeight * 0.22)) completeChapter(heading, next);
         });
-        if (headings.length && story.getBoundingClientRect().bottom <= innerHeight + 24) completeChapter(headings[headings.length - 1]);
+        if (headings.length && story.getBoundingClientRect().bottom <= innerHeight + 24) completeChapter(headings[headings.length - 1], null);
       };
       const story = document.getElementById("story-content");
       let lastActivityAt = Date.now();
       let lastCheckpointAt = Date.now();
       const markActivity = () => { lastActivityAt = Date.now(); };
       ["pointerdown", "keydown", "touchstart", "wheel", "scroll"].forEach(type => addEventListener(type, markActivity, { passive: true }));
+      const chapterAtReaderPosition = () => {
+        const headings = chapterHeadings();
+        let active = headings[0] || null;
+        for (const heading of headings) {
+          if (heading.getBoundingClientRect().top <= 170) active = heading;
+          else break;
+        }
+        return active;
+      };
       const checkpointReadingTime = () => {
         const now = Date.now();
         const elapsed = Math.max(0, Math.min(15000, now - lastCheckpointAt));
@@ -519,6 +546,11 @@
           const day = localDate.getFullYear() + "-" + String(localDate.getMonth() + 1).padStart(2, "0") + "-" + String(localDate.getDate()).padStart(2, "0");
           stats.totalReadingMs = (Number(stats.totalReadingMs) || 0) + elapsed;
           stats.activity[day] = (Number(stats.activity[day]) || 0) + elapsed;
+          const heading = chapterAtReaderPosition();
+          if (heading) {
+            const chapterTimes = stats.chapterReadingMs[canonicalVolumePath] || (stats.chapterReadingMs[canonicalVolumePath] = {});
+            chapterTimes[heading.id] = (Number(chapterTimes[heading.id]) || 0) + elapsed;
+          }
           saveStats();
         }
         lastCheckpointAt = now;
