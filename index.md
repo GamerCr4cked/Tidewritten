@@ -72,8 +72,45 @@ permalink: /home/
     <div><p class="home-eyebrow">TIDEWRITTEN</p><h2>Explore the<br><em>catalogue.</em></h2><p>Browse available volumes, read the usage guide, or learn more about the project.</p></div>
     <div class="home-end-links"><a href="{{ '/about/' | relative_url }}">About Tidewritten <span>↗</span></a><a href="{{ '/reading-guide/' | relative_url }}">Reader's guide <span>↗</span></a></div>
   </section>
+  {% assign home_novel_pages = site.pages | where: "layout", "light-novel" | where_exp: "p", "p.translation_of == nil" | sort: "series" %}
+  {% assign home_grouped_series = home_novel_pages | group_by: "series" %}
+  <dialog class="home-volume-dialog" id="homeVolumeDialog" aria-labelledby="homeVolumeDialogTitle">
+    <div class="home-volume-dialog-inner">
+      <div class="home-volume-dialog-head">
+        <div><h2 id="homeVolumeDialogTitle">Choose a volume</h2><p id="homeVolumeDialogDescription">Choose a volume to open.</p></div>
+        <button class="home-volume-dialog-close" id="closeHomeVolumeDialog" type="button" aria-label="Close volume chooser">×</button>
+      </div>
+      <div class="home-volume-options" id="homeVolumeOptions"></div>
+    </div>
+  </dialog>
+  <script type="application/json" id="homeSeriesData">[
+    {% for series_group in home_grouped_series %}
+      {% assign home_volumes = series_group.items | sort: "volume" %}
+      {"name":{{ series_group.name | jsonify }},"volumes":[
+        {% for volume_page in home_volumes %}
+          {"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]</script>
+
 </div>
 
+
+  <style>
+    .home-volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}
+    .home-volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}
+    .home-volume-dialog-inner{padding:26px}
+    .home-volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}
+    .home-volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}
+    .home-volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}
+    .home-volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:34px;height:34px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}
+    .home-volume-options{display:grid;gap:10px}
+    .home-volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}
+    .home-volume-option:hover,.home-volume-option:focus-visible{border-color:#9ce4dc;background:rgba(156,228,220,.07);outline:none}
+    .home-volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
+    .home-volume-option strong{font-weight:500;font-size:14px}
+  </style>
 
 <script>
 (function(){
@@ -86,6 +123,49 @@ permalink: /home/
   var index=document.getElementById('randomStoryIndex');
   var art=document.getElementById('randomStoryArt');
   var next=document.getElementById('randomStoryNext');
+  var volumeDialog=document.getElementById('homeVolumeDialog');
+  var volumeDialogTitle=document.getElementById('homeVolumeDialogTitle');
+  var volumeDialogDescription=document.getElementById('homeVolumeDialogDescription');
+  var volumeOptions=document.getElementById('homeVolumeOptions');
+  var closeVolumeDialog=document.getElementById('closeHomeVolumeDialog');
+  var seriesByPath={};
+  try{
+    var seriesData=JSON.parse(document.getElementById('homeSeriesData').textContent||'[]');
+    seriesData.forEach(function(series){
+      series.volumes.forEach(function(volume){
+        var path=new URL(volume.url,window.location.href).pathname;
+        seriesByPath[path]=series;
+      });
+    });
+  }catch(error){console.error('Tidewritten volume data could not be loaded.',error);}
+  function openVolumeChooser(story){
+    var path=new URL(story.url,window.location.href).pathname;
+    var series=seriesByPath[path];
+    if(!series||!series.volumes||!series.volumes.length){window.location.href=story.url;return;}
+    if(series.volumes.length===1){window.location.href=series.volumes[0].url;return;}
+    volumeDialogTitle.textContent='Choose a volume';
+    volumeDialogDescription.textContent=series.name;
+    volumeOptions.replaceChildren();
+    series.volumes.forEach(function(volume){
+      var link=document.createElement('a');
+      link.className='home-volume-option';
+      link.href=volume.url;
+      var label=document.createElement('small');
+      label.textContent='Volume '+volume.number;
+      var name=document.createElement('strong');
+      name.textContent=volume.title;
+      link.append(label,name);
+      volumeOptions.append(link);
+    });
+    if(typeof volumeDialog.showModal==='function'){volumeDialog.showModal();}
+    else{
+      var choice=window.prompt('Choose a volume:\\n'+series.volumes.map(function(v,i){return (i+1)+'. Vol. '+v.number+' — '+v.title;}).join('\\n'));
+      var selected=Number(choice)-1;
+      if(Number.isInteger(selected)&&series.volumes[selected])window.location.href=series.volumes[selected].url;
+    }
+  }
+  if(closeVolumeDialog)closeVolumeDialog.addEventListener('click',function(){volumeDialog.close();});
+  if(volumeDialog)volumeDialog.addEventListener('click',function(event){if(event.target===volumeDialog)volumeDialog.close();});
   var stories=[
     {title:'The Girl by the School Gate',url:"{{ '/book/The-Little-Bird-Chronicles-Vol.1/' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 1',summary:'A school-gate encounter introduces a quiet romance set across the school year.',art:'bird'},
     {title:'When the Little Bird Returned',url:"{{ '/book/The-Little-Bird-Chronicles-Vol.2/' | relative_url }}",genre:'THE LITTLE BIRD CHRONICLES · VOL. 2',summary:'After a year apart, two students adjust to new routines and an unexpected reunion.',art:'bird'},
@@ -113,7 +193,11 @@ permalink: /home/
     card.href=s.url;title.textContent=s.title;summary.textContent=s.summary;kicker.textContent=s.genre;
     index.textContent=String(n+1).padStart(2,'0');
     art.className='random-story-art art-'+s.art;
-    card.setAttribute('aria-label','Read '+s.title);
+    var series=seriesByPath[new URL(s.url,window.location.href).pathname];
+    var hasChooser=!!(series&&series.volumes&&series.volumes.length>1);
+    card.setAttribute('aria-label',hasChooser?'Choose a volume from '+series.name:'Read '+s.title);
+    var cta=card.querySelector('.random-story-cta');
+    if(cta)cta.firstChild.textContent=hasChooser?'Choose a volume ':'View volume ';
   }
   function rotate(){
     if(paused||document.hidden)return;
@@ -129,6 +213,12 @@ permalink: /home/
   }
   function schedule(){window.clearInterval(timer);timer=window.setInterval(rotate,5000);}
   paint(choose());schedule();
+  card.addEventListener('click',function(event){
+    var story=stories[current];
+    if(!story)return;
+    event.preventDefault();
+    openVolumeChooser(story);
+  });
   if(next)next.addEventListener('click',function(){rotate();schedule();});
   stage.addEventListener('mouseenter',function(){paused=true;});
   stage.addEventListener('mouseleave',function(){paused=false;});
