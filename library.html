@@ -20,6 +20,7 @@ permalink: /library/
   .series-card{animation:library-arrive .45s ease-out both}
   .series-card:nth-child(2){animation-delay:.05s}.series-card:nth-child(3){animation-delay:.1s}.series-card:nth-child(4){animation-delay:.15s}
   .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:44px;height:44px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover,.volume-option:focus-visible{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option:focus-visible{outline:2px solid #9ce4dc;outline-offset:3px}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
+  .volume-option{display:grid;grid-template-columns:58px minmax(0,1fr);align-items:center;gap:14px}.volume-option.no-cover{grid-template-columns:minmax(0,1fr)}.volume-option img{display:block;width:58px;aspect-ratio:2/3;object-fit:cover;border:1px solid rgba(160,218,215,.2);border-radius:6px;background:#102b39}.volume-option-copy{display:grid;align-content:center;gap:6px;min-width:0}.volume-option-synopsis{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;color:#a1b6bf;font-size:12px;line-height:1.55}.series-art-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
   .series-art{height:184px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#173d4a,#0b1b29)}
   .series-art:before,.series-art:after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(224,247,246,.16);border-radius:50%;width:170px;height:170px;left:70%;top:70%;transform:translate(-50%,-50%);z-index:-1}
   .series-art:after{width:230px;height:230px;left:70%;top:75%;border-color:rgba(224,247,246,.09)}
@@ -211,19 +212,25 @@ permalink: /library/
           {% elsif series_group.name contains "Prismat" %}{% assign art_class = "art-prismat" %}
           {% elsif series_group.name contains "Words We Never Sent" %}{% assign art_class = "art-unsent-words" %}
           {% endif %}
-          <div class="series-art {{ art_class }}" aria-hidden="true"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span><span class="art-cover-copy"><small>Tidewritten · Series edition</small><strong>{{ series_group.name | escape }}</strong></span></div>
+          {% assign series_cover_volume = nil %}
+          {% for cover_candidate in volumes %}
+            {% if cover_candidate.cover_image and series_cover_volume == nil %}
+              {% assign series_cover_volume = cover_candidate %}
+            {% endif %}
+          {% endfor %}
+          <div class="series-art {{ art_class }}" aria-hidden="true">{% if series_cover_volume %}<img class="series-art-image" src="{{ series_cover_volume.cover_image | relative_url | escape }}" alt="" loading="lazy" decoding="async">{% endif %}<span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span><span class="art-cover-copy"><small>Tidewritten · Series edition</small><strong>{{ series_group.name | escape }}</strong></span></div>
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
             <span class="series-badge muted">{{ volume_count }} Volumes</span>
             <span class="series-badge muted">{% case series_status %}{% when "completed" %}Completed{% when "standalone" %}Standalone{% else %}Status not set{% endcase %}</span>
           </div>
           <h3>{{ series_group.name | escape }}</h3>
-          <p class="series-desc">{{ first_volume.tagline | default: "Light-novel series." | escape }}</p>
+          <p class="series-desc">{{ first_volume.series_description | default: first_volume.tagline | default: "Light-novel series." | escape }}</p>
           <div class="series-card-foot">
             <span>{% if volume_count == 1 %}One volume{% else %}{{ volume_count }} volumes{% endif %}</span>
             <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
           </div>
-          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"contentUpdated":{{ volume_page.content_updated | default: nil | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"coverImage":{{ volume_page.cover_image | relative_url | jsonify }},"coverAlt":{{ volume_page.cover_alt | default: "" | jsonify }},"synopsis":{{ volume_page.synopsis | default: "" | jsonify }},"contentUpdated":{{ volume_page.content_updated | default: nil | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
       {% if volume_count == 1 %}
         </a>
       {% else %}
@@ -246,6 +253,10 @@ permalink: /library/
 (() => {
   const grid = document.getElementById("seriesGrid");
   const cards = Array.from(grid?.querySelectorAll(".series-card") || []);
+  cards.forEach(card => {
+    const cover = card.querySelector(".series-art-image");
+    if (cover) cover.addEventListener("error", () => { cover.hidden = true; }, { once: true });
+  });
   const search = document.getElementById("librarySearch");
   const genre = document.getElementById("libraryGenre");
   const status = document.getElementById("libraryStatus");
@@ -358,11 +369,35 @@ permalink: /library/
         const option = document.createElement("a");
         option.className = "volume-option";
         option.href = volume.url;
+        if (volume.coverImage) {
+          const cover = document.createElement("img");
+          cover.src = volume.coverImage;
+          cover.alt = "";
+          cover.setAttribute("aria-hidden", "true");
+          cover.loading = "lazy";
+          cover.decoding = "async";
+          cover.addEventListener("error", () => {
+            cover.hidden = true;
+            option.classList.add("no-cover");
+          }, { once: true });
+          option.append(cover);
+        } else {
+          option.classList.add("no-cover");
+        }
+        const copy = document.createElement("span");
+        copy.className = "volume-option-copy";
         const label = document.createElement("small");
         label.textContent = "Volume " + volume.number;
         const name = document.createElement("strong");
         name.textContent = volume.title;
-        option.append(label, name);
+        copy.append(label, name);
+        if (volume.synopsis) {
+          const synopsis = document.createElement("span");
+          synopsis.className = "volume-option-synopsis";
+          synopsis.textContent = volume.synopsis;
+          copy.append(synopsis);
+        }
+        option.append(copy);
         options.append(option);
       });
       if (typeof dialog.showModal === "function") {
