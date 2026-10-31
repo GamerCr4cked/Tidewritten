@@ -20,7 +20,8 @@ permalink: /library/
   .series-card{animation:library-arrive .45s ease-out both}
   .series-card:nth-child(2){animation-delay:.05s}.series-card:nth-child(3){animation-delay:.1s}.series-card:nth-child(4){animation-delay:.15s}
   .series-card:hover{transform:translateY(-4px);border-color:rgba(156,228,220,.5);box-shadow:0 16px 45px rgba(0,0,0,.16)}.series-card[data-volume-series]{cursor:pointer}.series-card[data-volume-series]:focus-visible{outline:2px solid var(--lib-accent);outline-offset:4px}.series-card > div[style*="display:grid"]{display:none!important}.volume-dialog{position:fixed;inset:0;margin:auto;max-height:min(80vh,700px);overflow:auto;width:min(92vw,520px);border:1px solid rgba(156,228,220,.3);border-radius:22px;padding:0;background:#0d202c;color:#e9f1f2;box-shadow:0 24px 100px rgba(0,0,0,.55)}.volume-dialog::backdrop{background:rgba(2,9,15,.72);backdrop-filter:blur(5px)}.volume-dialog-inner{padding:26px}.volume-dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.volume-dialog h2{font-size:24px;line-height:1.25;margin:0 0 8px}.volume-dialog p{color:#a1b6bf;font-size:13px;margin:0 0 20px}.volume-dialog-close{border:1px solid rgba(160,218,215,.22);border-radius:50%;width:44px;height:44px;background:transparent;color:#e9f1f2;font-size:20px;cursor:pointer;flex:none}.volume-options{display:grid;gap:10px}.volume-option{display:block;border:1px solid rgba(160,218,215,.18);border-radius:12px;padding:14px 16px;color:#e9f1f2;text-decoration:none!important;background:rgba(255,255,255,.025)}.volume-option:hover,.volume-option:focus-visible{border-color:#9ce4dc;background:rgba(156,228,220,.07)}.volume-option:focus-visible{outline:2px solid #9ce4dc;outline-offset:3px}.volume-option small{display:block;color:#9ce4dc;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.volume-option strong{font-weight:500;font-size:14px}
-  .volume-option{display:grid;grid-template-columns:58px minmax(0,1fr);align-items:center;gap:14px}.volume-option.no-cover{grid-template-columns:minmax(0,1fr)}.volume-option img{display:block;width:58px;aspect-ratio:2/3;object-fit:cover;border:1px solid rgba(160,218,215,.2);border-radius:6px;background:#102b39}.volume-option-copy{display:grid;align-content:center;gap:6px;min-width:0}.volume-option-synopsis{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;color:#a1b6bf;font-size:12px;line-height:1.55}.series-art-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+  .volume-option{display:grid;grid-template-columns:58px minmax(0,1fr);align-items:center;gap:14px}.volume-option.no-cover{grid-template-columns:minmax(0,1fr)}.volume-option img{display:block;width:58px;aspect-ratio:2/3;object-fit:cover;border:1px solid rgba(160,218,215,.2);border-radius:6px;background:#102b39}
+  .volume-option-art-fallback{display:flex;width:58px;aspect-ratio:2/3;flex:none;align-items:flex-end;padding:6px;border:1px solid rgba(160,218,215,.2);border-radius:6px;overflow:hidden;background:radial-gradient(ellipse at 75% 18%,rgba(156,228,220,.24),transparent 34%),linear-gradient(145deg,#173d4a,#0b1b29 72%);color:#f3fbfa;font:600 8px/1.25 "DM Sans",sans-serif;text-shadow:0 1px 5px rgba(0,0,0,.7);overflow-wrap:anywhere}.volume-option-copy{display:grid;align-content:center;gap:6px;min-width:0}.volume-option-synopsis{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;color:#a1b6bf;font-size:12px;line-height:1.55}.series-art-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
   .series-art{height:184px;border-radius:15px;margin-bottom:22px;position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#173d4a,#0b1b29)}
   .series-art:before,.series-art:after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(224,247,246,.16);border-radius:50%;width:170px;height:170px;left:70%;top:70%;transform:translate(-50%,-50%);z-index:-1}
   .series-art:after{width:230px;height:230px;left:70%;top:75%;border-color:rgba(224,247,246,.09)}
@@ -369,6 +370,14 @@ permalink: /library/
         const option = document.createElement("a");
         option.className = "volume-option";
         option.href = volume.url;
+        const addCoverFallback = () => {
+          const fallback = document.createElement("span");
+          fallback.className = "volume-option-art-fallback";
+          fallback.setAttribute("aria-hidden", "true");
+          fallback.textContent = "TIDEWRITTEN · VOL. " + volume.number;
+          option.prepend(fallback);
+          option.classList.remove("no-cover");
+        };
         if (volume.coverImage) {
           const cover = document.createElement("img");
           cover.src = volume.coverImage;
@@ -377,12 +386,12 @@ permalink: /library/
           cover.loading = "lazy";
           cover.decoding = "async";
           cover.addEventListener("error", () => {
-            cover.hidden = true;
-            option.classList.add("no-cover");
+            cover.remove();
+            addCoverFallback();
           }, { once: true });
           option.append(cover);
         } else {
-          option.classList.add("no-cover");
+          addCoverFallback();
         }
         const copy = document.createElement("span");
         copy.className = "volume-option-copy";
