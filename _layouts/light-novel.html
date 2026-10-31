@@ -473,6 +473,7 @@
       ["reset","mobileReset"].forEach(id => document.getElementById(id).addEventListener("click", () => { size = 19; apply(); }));
       apply();
       const progressKey = "tidewritten-reading-progress-v1";
+      // Phase 4 reading statistics are stored separately from reader preferences.
       const story = document.getElementById("story-content");
       const getChapterHeadings = () => story ? Array.from(story.querySelectorAll("h2[id^='chapter-']")) : [];
       const currentChapter = () => {
