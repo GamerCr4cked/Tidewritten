@@ -47,19 +47,21 @@ These are the next planned phases. Keep them as separate, reviewable milestones;
 
 **Goal:** Let readers adjust the reading environment to their preferences without compromising readability or the existing reader controls.
 
-- [ ] Add selectable reader themes.
-- [ ] Add customizable accent colors that remain compatible with both light and dark themes and maintain accessible contrast.
-- [ ] Add font-family selection for story text.
-- [ ] Add adjustable line spacing.
-- [ ] Add adjustable paragraph/content width.
-- [ ] Save reader preferences per user/device so they persist between visits.
-- [ ] Define sensible defaults and a reset-to-default option.
-- [ ] Ensure preferences do not override site-wide navigation or make the reader difficult to use.
-- [ ] Keep preferences independent from each story's saved reading position and language preference.
-- [ ] Test desktop, mobile, keyboard/touch controls, both base themes, and reduced-motion/accessibility behaviour where applicable.
+**Current progress (2026-10-31):** The shared reader now has collapsible personalization controls on desktop and mobile. The five preference categories, device-local persistence, defaults, and reset action are implemented on branch `feature/reader-personalization`. Automated browser/build verification and owner-reported live checks remain pending; do not mark this phase complete until those checks are recorded.
 
-**Design inspiration supplied by the site owner:** [eBook collection managers and reader apps reference](https://images.openai.com/static-rsc-4/XelBomhaxUmYUI0ouebZuqpPOZxY_Wlmw8_ufjs_he81Q8HY5ySjNkhwDE8CvTfsWpBEyFWVuwwWLRY-73X-XsPpgaDCWMSsQrbwaXJWt9lAKQhZJjWd1RJbYPyHk2wTbGx0ozQh2Pkh_7QjA-uFO7Rnw2XDtlFV0r_4N8kQXvo?purpose=inline).
+- [x] Add selectable reader themes (Ocean, Midnight, and Pearl palettes).
+- [x] Add customizable accent colors with theme- and mode-aware default contrast.
+- [x] Add font-family selection for story text (Literata, Georgia, and system serif).
+- [x] Add adjustable line spacing.
+- [x] Add adjustable paragraph/content width.
+- [x] Save reader preferences per device using a dedicated versioned localStorage key.
+- [x] Define sensible defaults and a reset-to-default option.
+- [x] Keep preferences independent from site-wide navigation and existing reader controls.
+- [x] Keep preferences independent from each story's saved reading position and language preference.
+- [ ] Test desktop, mobile, keyboard/touch controls, both base themes and reader palettes, and reduced-motion/accessibility behaviour.
+- [ ] Run the repository's relevant build/check workflow and review the resulting diff before closing the phase.
 
+**Implementation notes:** The light/dark mode toggle and text-size controls remain separate and retain their existing storage keys. Reset appearance changes only the reader palette, accent, story font, line spacing, and reading width; it does not clear reading progress, reading history, or language preference.
 ## Phase 3 — Library evolution
 
 **Goal:** Make the Library easier to explore as the catalogue grows.
