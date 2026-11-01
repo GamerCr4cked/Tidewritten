@@ -2970,7 +2970,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 
 
 /* Homepage: prevent decorative overflow from widening the document at 100% zoom. */
-.content-area:has(.home-redesign){min-width:0;max-width:100%;overflow-x:clip}
+.content-area:has(.home-redesign){min-width:0;max-width:1240px;width:100%;overflow-x:clip}
 .home-redesign{min-width:0;max-width:100%;overflow-x:clip;overflow-y:visible}
 .home-redesign>*,.home-redesign .float-hero,.home-redesign .home-section,.home-redesign .home-end-card,.home-redesign .random-story-stage,.home-redesign .random-story-card{min-width:0}
 .home-redesign .random-story-copy,.home-redesign .random-story-summary{min-width:0;overflow-wrap:anywhere}
