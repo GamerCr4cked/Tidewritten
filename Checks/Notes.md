@@ -334,5 +334,6 @@ Do not mark Phase 7 complete until all three workstreams are implemented and rev
 - The shared `readingResumeCard` in `_layouts/default.html` is a resume-reading suggestion, not a link-sized click target when expanded.
 - On desktop widths (601px and above), pointer hover must expand the card and reveal its details plus the explicit **Continue reading** link. Use both pointer-event handling and CSS `:hover` as a fallback; do not gate the pointer listeners on the browser's primary-hover media query.
 - Keep the close delay on pointer leave so the card does not collapse while its animated bounds settle. Keyboard focus must also reveal the expanded content through `:focus-within`.
-- On touch devices, the first tap expands the collapsed launcher; the visible Continue reading action performs navigation. Dismiss remains a separate control.
-- Verify mouse hover, click after expansion, keyboard focus, touch tap-to-expand, and dismissal. Do not let the collapsed link overlay cause a desktop click to navigate before hover expansion.
+- The Continue reading anchor is always a normal navigation link. A single click, tap, or keyboard activation must open its saved volume immediately; do not intercept its first activation to expand the card.
+- On touch devices the compact launcher may remain collapsed until activated, but its link activation navigates immediately. Dismiss remains a separate control.
+- Verify mouse hover expansion, one-click navigation after expansion, one-tap navigation from the compact launcher, keyboard activation, and dismissal.
