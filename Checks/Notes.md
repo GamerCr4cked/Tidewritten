@@ -314,3 +314,16 @@ Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library imp
 ### Phase 7 completion gate
 
 Do not mark Phase 7 complete until all three workstreams are implemented and reviewed. Verify local persistence and migration/failure behaviour, canonical volume identity across all editions, Library search/filter/sort and card grouping, optional-asset fallbacks, keyboard/touch accessibility, reduced motion, responsive layouts, both themes, canonical navigation, and the relevant GitHub Pages workflow. Record rendered-browser QA separately from source inspection and build results.
+
+
+### Bookshelf index and homepage width
+
+- The shared navigation includes Bookshelf at `/bookshelf/`; mark it current on that route. At narrow widths, use a two-row header so links do not force document width.
+- `/bookshelf/` lists saved canonical volumes using canonical English light-novel pages as its metadata source. Never create edition-specific entries.
+- `assets/js/bookshelf.js` exposes `TidewrittenBookshelf.list()` as a read-only list of saved records. It returns copies and does not mutate storage.
+- Show records with a reading status or Favorite flag. A record with both appears once in All saved and in both relevant filtered views. Favorite remains independent of reading status.
+- Provide All saved, Currently Reading, Want to Read, Completed, and Favorites filters; title/series search; series sorting; and recently saved sorting.
+- Link known records directly to their canonical volume URL. Preserve records for volumes no longer in the catalogue and show them as unavailable instead of rendering broken links.
+- Keep empty and no-match states distinct. Show summary counts and explain browser-local storage. Do not add accounts, backend storage, or cross-device synchronization.
+- The homepage rotator CSS changed `.home-redesign` to `overflow:visible`, overriding its earlier containment. Clip horizontal overflow within the homepage while allowing vertical overflow to remain visible; constrain grid/flex children with `min-width:0`. Do not scale the page or require browser zoom changes.
+- Test homepage horizontal scrolling at 100% zoom and Bookshelf links, filters, and empty states at desktop/mobile widths and both themes.
