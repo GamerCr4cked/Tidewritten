@@ -337,3 +337,11 @@ Do not mark Phase 7 complete until all three workstreams are implemented and rev
 - The Continue reading anchor is always a normal navigation link. A single click, tap, or keyboard activation must open its saved volume immediately; do not intercept its first activation to expand the card.
 - On touch devices the compact launcher may remain collapsed until activated, but its link activation navigates immediately. Dismiss remains a separate control.
 - Verify mouse hover expansion, one-click navigation after expansion, one-tap navigation from the compact launcher, keyboard activation, and dismissal.
+
+### Library and Reading Statistics theme synchronization
+
+- The shared theme toggle changes the root `data-theme` attribute and persists the selected mode under the existing `theme` key. Pages using the shared shell must consume the global design tokens rather than defining independent fixed dark palettes.
+- Library content surfaces (series cards, hero panel, search/filter controls, tools panel, empty/note states, volume chooser dialog/options, and bookshelf controls) use `--bg-primary`, `--bg-secondary`, `--bg-card`, `--bg-card-hover`, `--border`, `--border-light`, `--text-primary`, `--text-secondary`, `--text-muted`, and `--accent` tokens.
+- Keep series-cover artwork and decorative cover fallbacks in their intentional artwork palettes; the surrounding cards, labels, controls, and chooser must still adapt to the selected theme.
+- Reading Statistics cards, activity rows, milestone rows, history links, privacy panel, and supporting text must use the same shared tokens. Do not use unrelated fallback variables such as `--text`, `--muted`, `--line`, or `--panel` as the page theme source.
+- Theme changes must not alter or reset statistics, bookshelf data, reading progress, or history. Verify each page in both modes and toggle the theme while the page is open.
