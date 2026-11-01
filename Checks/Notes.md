@@ -265,4 +265,41 @@ Use centered content columns, responsive side padding, consistent spacing, restr
 - Do not archive a document until its durable rules, current status, and useful findings have been consolidated into Notes/TODO and its references have been checked. Preserve archived records; never permanently delete them.
 - During normal development, do not inspect or use `bin/`. During an explicit cleanup only, it may be used as an archive destination. Never use it as a temporary workspace or source of truth.
 - Keep `Instructions.txt` at repository root as the assistant's project entry instructions. It points back to Notes/TODO for current project truth; it must not become a competing technical specification.
-- The repository is authoritative over conversation memory. Fetch latest files and branch state before editing; preserve owner changes; use a focused branch and PR; do not merge without explicit owner approval.
+- The repository is authoritative over conversation memory. Fetch latest files and branch state before editing; preserve owner changes; use a focused branch and PR.
+- **Default PR policy:** create a PR for substantial changes, review the complete diff, run the relevant checks/build/workflow, and merge it once those checks pass. The owner has explicitly delegated routine PR merging; do not wait for a separate approval or ask whether to merge.
+- Pause instead of merging only when the change is destructive/irreversible, materially ambiguous, has failing or unavailable required checks that cannot be responsibly assessed, or presents a security, privacy, or legal risk requiring owner direction.
+## 17. Personal Reading Experience (Phase 7)
+
+Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library improvements, and story presentation improvements.
+
+### Personal Bookshelf
+
+- Keep the first implementation account-free and browser-local. Do not add authentication, a server database, cloud sync, comments, social features, or external tracking as part of this phase.
+- Provide per-volume reading statuses: **Want to Read**, **Currently Reading**, and **Completed**. Keep **Favorite** as an independent toggle so favoriting does not replace a reading status.
+- Make saved status and favorites available from the Library and relevant volume/reader views where practical. The Library remains one card per canonical series; never create extra cards for status or language editions.
+- Store bookshelf data under a dedicated, versioned localStorage key. Do not mix it with reading statistics, reading position, recent history, language, theme, text size, or appearance preferences.
+- English, Hinglish, and Banglish views of the same volume must resolve to the same canonical English volume identity and share one bookshelf record.
+- Handle unavailable or malformed local data safely. Provide clear empty states and accessible controls. Explain that records are local to the current browser/profile and are not synced across devices.
+- Do not silently erase existing bookshelf records during migrations or reset unrelated reader data.
+
+### Library improvements
+
+- Improve discovery without changing the canonical series-based catalogue or creating duplicate cards for volumes/translations.
+- Review the existing search, genre, publication-status, and available-edition filters before changing them; preserve their current semantics and accessibility.
+- Add useful, deterministic sort options such as series title A–Z/Z–A. Only add recency or popularity sorting when reliable, explicitly maintained source metadata exists; never infer popularity or fabricate dates.
+- Integrate bookshelf status/favorite controls and filters without making the Library crowded. A series card should summarize its volumes' reading state without misrepresenting a mixed-status series.
+- Keep multi-volume selection, keyboard operation, focus management, responsive layouts, and existing canonical navigation intact.
+
+### Story presentation improvements
+
+- Refine the existing shared light-novel reader and current cover/synopsis/metadata support; do not build a parallel reader or duplicate presentation system.
+- Improve volume introductions and metadata hierarchy where useful, keeping series, volume, book title, synopsis, and chapter content distinct. Story text remains the primary focus.
+- Add optional chapter illustrations or supplementary galleries only when approved assets and accurate alt text/captions are supplied. Never invent illustrations, author notes, scenes, characters, or plot details.
+- Validate illustration paths and chapter-relative placement against actual chapter IDs. Use the supplementary-gallery fallback when placement cannot be verified.
+- Keep all optional presentation fields graceful: missing metadata or failed images must fall back to the existing CSS artwork/text-only presentation without broken-image icons, blank gaps, or layout shifts.
+- Localize reader-facing metadata when matching translated copy exists; otherwise use the established English fallback. Do not alter story prose, chapter titles, IDs, translation mappings, canonical URLs, or reader preference keys as incidental presentation work.
+- Preserve reading position, theme, language, text size, appearance preferences, progress, statistics, and previous/next navigation.
+
+### Phase 7 completion gate
+
+Do not mark Phase 7 complete until all three workstreams are implemented and reviewed. Verify local persistence and migration/failure behaviour, canonical volume identity across all editions, Library search/filter/sort and card grouping, optional-asset fallbacks, keyboard/touch accessibility, reduced motion, responsive layouts, both themes, canonical navigation, and the relevant GitHub Pages workflow. Record rendered-browser QA separately from source inspection and build results.
