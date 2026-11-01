@@ -327,3 +327,12 @@ Do not mark Phase 7 complete until all three workstreams are implemented and rev
 - Keep empty and no-match states distinct. Show summary counts and explain browser-local storage. Do not add accounts, backend storage, or cross-device synchronization.
 - The homepage rotator CSS changed `.home-redesign` to `overflow:visible`, overriding its earlier containment. Clip horizontal overflow within the homepage while allowing vertical overflow to remain visible; constrain grid/flex children with `min-width:0`. Do not scale the page or require browser zoom changes.
 - Test homepage horizontal scrolling at 100% zoom and Bookshelf links, filters, and empty states at desktop/mobile widths and both themes.
+
+
+### Floating reading-record interaction
+
+- The shared `readingResumeCard` in `_layouts/default.html` is a resume-reading suggestion, not a link-sized click target when expanded.
+- On desktop widths (601px and above), pointer hover must expand the card and reveal its details plus the explicit **Continue reading** link. Use both pointer-event handling and CSS `:hover` as a fallback; do not gate the pointer listeners on the browser's primary-hover media query.
+- Keep the close delay on pointer leave so the card does not collapse while its animated bounds settle. Keyboard focus must also reveal the expanded content through `:focus-within`.
+- On touch devices, the first tap expands the collapsed launcher; the visible Continue reading action performs navigation. Dismiss remains a separate control.
+- Verify mouse hover, click after expansion, keyboard focus, touch tap-to-expand, and dismissal. Do not let the collapsed link overlay cause a desktop click to navigate before hover expansion.

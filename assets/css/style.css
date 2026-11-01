@@ -2832,8 +2832,10 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
   cursor:pointer;
 }
 .reading-resume-dismiss:hover { background:var(--accent-subtle);color:var(--text-primary); }
-@media (hover:hover) and (min-width:601px) {
+@media (min-width:601px) {
   .reading-resume-card.is-hover-expanded,
+  .reading-resume-card.is-expanded,
+  .reading-resume-card:hover,
   .reading-resume-card:focus-within {
     width:min(360px,calc(100vw - 40px));
     height:208px;
@@ -2842,13 +2844,19 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
     box-shadow:0 18px 54px rgba(0,0,0,.3),inset 0 0 0 1px rgba(142,219,212,.08);
   }
   .reading-resume-card.is-hover-expanded .reading-resume-topline,
+  .reading-resume-card.is-expanded .reading-resume-topline,
+  .reading-resume-card:hover .reading-resume-topline,
   .reading-resume-card:focus-within .reading-resume-topline,
   .reading-resume-card.is-hover-expanded .reading-resume-copy,
+  .reading-resume-card.is-expanded .reading-resume-copy,
+  .reading-resume-card:hover .reading-resume-copy,
   .reading-resume-card:focus-within .reading-resume-copy {
     opacity:1;
     transform:translateY(0);
   }
   .reading-resume-card.is-hover-expanded .reading-resume-link,
+  .reading-resume-card.is-expanded .reading-resume-link,
+  .reading-resume-card:hover .reading-resume-link,
   .reading-resume-card:focus-within .reading-resume-link {
     position:relative;
     right:auto;
@@ -2864,8 +2872,12 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
     background:rgba(142,219,212,.06);
   }
   .reading-resume-card.is-hover-expanded .reading-resume-link-label,
+  .reading-resume-card.is-expanded .reading-resume-link-label,
+  .reading-resume-card:hover .reading-resume-link-label,
   .reading-resume-card:focus-within .reading-resume-link-label { opacity:1; }
   .reading-resume-card.is-hover-expanded .reading-resume-link-icon,
+  .reading-resume-card.is-expanded .reading-resume-link-icon,
+  .reading-resume-card:hover .reading-resume-link-icon,
   .reading-resume-card:focus-within .reading-resume-link-icon {
     width:auto;
     height:auto;
