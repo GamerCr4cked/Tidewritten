@@ -282,6 +282,17 @@ Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library imp
 - Handle unavailable or malformed local data safely. Provide clear empty states and accessible controls. Explain that records are local to the current browser/profile and are not synced across devices.
 - Do not silently erase existing bookshelf records during migrations or reset unrelated reader data.
 
+### Personal Bookshelf implementation
+
+- Shared browser-local module: `assets/js/bookshelf.js`.
+- Storage key: `tidewritten-personal-bookshelf-v1`; schema: `{ version: 1, books: { [canonicalVolumePath]: { status, favorite, updatedAt } } }`.
+- Valid statuses are `want-to-read`, `currently-reading`, and `completed`. A missing status is represented by `null`; `favorite` is always independent.
+- Use the canonical English volume path as the record key. The reader derives it from `page.translation_of` (or the English page URL); the Library supplies canonical English volume paths in its volume data. Language switching therefore shares one record.
+- Reader controls are rendered in the shared `_layouts/light-novel.html`; the Library displays series-level status/favorite summaries, offers status/favorite filters, and exposes per-volume controls in the multi-volume chooser. Single-volume series retain direct-open behavior; their controls are available on the reader page.
+- The store must never clear or rewrite other Tidewritten keys. Unknown schema versions, malformed records, inaccessible storage, and failed writes must fail closed; preserve existing raw data and revert an unsuccessful UI update.
+- Do not add account, backend, cloud-sync, social, comment, or external tracking features. Explain browser/profile-local storage in the Library and reader.
+- The current implementation has source-level and local storage harness checks; rendered browser interaction, keyboard/touch, and responsive QA must be recorded separately before closing Phase 7.1.
+
 ### Library improvements
 
 - Improve discovery without changing the canonical series-based catalogue or creating duplicate cards for volumes/translations.
