@@ -56,7 +56,15 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Remove the primary-hover media-query gate from pointer listeners.
 - [x] Add CSS `:hover` expansion as a fallback alongside pointer-state expansion.
 - [x] Keep keyboard focus expansion and touch-first tap-to-expand behavior.
-- [ ] Owner browser QA: verify desktop hover expands without navigation, Continue reading opens the saved volume, keyboard focus works, and touch first tap expands before the second tap navigates.
+- [x] Remove the touch-device click interceptor so Continue reading navigates on its first activation.
+- [ ] Owner browser QA: verify desktop hover expands without navigation, one click on Continue reading opens the saved volume, keyboard activation works, and one tap on the compact touch launcher opens the saved volume.
+
+### Theme consistency fix — Library and Reading Statistics
+
+- [x] Replace fixed dark surfaces and text colors on Library cards, tools, filters, volume chooser, and bookshelf controls with shared theme tokens.
+- [x] Make Reading Statistics cards, activity, milestones, history, and privacy panels follow shared theme tokens.
+- [x] Preserve decorative series-cover artwork while making surrounding UI theme-aware.
+- [ ] Owner browser QA: switch between Dark and Light on both pages; verify cards, controls, volume chooser, text contrast, and page background update without reload or data changes.
 
 ### 7.2 — Library improvements
 

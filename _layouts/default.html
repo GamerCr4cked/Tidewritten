@@ -87,14 +87,9 @@
               },180);
             });
             var dismiss=document.getElementById('readingResumeDismiss');
-            var resumeLink=document.getElementById('readingResumeLink');
             dismiss.addEventListener('click',function(){resumeCard.hidden=true;});
-            resumeLink.addEventListener('click',function(event){
-              if(window.matchMedia&&window.matchMedia('(hover: none)').matches&&!resumeCard.classList.contains('is-expanded')){
-                event.preventDefault();
-                resumeCard.classList.add('is-expanded');
-              }
-            });
+            // Keep Continue reading as a normal link: one activation must navigate
+            // immediately on mouse, keyboard, and touch without a preliminary expand tap.
           }
         }catch(e){}
       }
