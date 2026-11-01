@@ -332,7 +332,7 @@
         const bookshelf = window.TidewrittenBookshelf;
         const controls = document.getElementById("readerBookshelfControls");
         const path = bookshelfPanel.dataset.bookshelfPath;
-        controls.append(bookshelf.makeStatusControl(path, document.title.replace(/ \\| Tidewritten$/, "")), bookshelf.makeFavoriteButton(path));
+        controls.append(bookshelf.makeStatusControl(path, document.title.replace(" | Tidewritten", "")), bookshelf.makeFavoriteButton(path));
         document.getElementById("readerBookshelfUnavailable").hidden = bookshelf.writable;
       }
       const root = document.documentElement;
