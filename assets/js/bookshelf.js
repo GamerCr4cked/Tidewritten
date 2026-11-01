@@ -59,6 +59,7 @@
   };
   const setStatus = (path, status) => update(path, { status: STATUSES.includes(status) ? status : null });
   const toggleFavorite = path => update(path, { favorite: !get(path).favorite });
+  const list = () => Object.entries(load().books).map(([path, record]) => ({ path, ...record }));
   const summary = paths => {
     const records = paths.map(get);
     const counts = { "want-to-read": 0, "currently-reading": 0, completed: 0 };
@@ -99,7 +100,7 @@
     paint();
     return button;
   };
-  const api = { key: KEY, statuses: STATUSES, labels: LABELS, get, setStatus, toggleFavorite, summary, statusLabel, makeStatusControl, makeFavoriteButton, get writable() { load(); return writable; } };
+  const api = { key: KEY, statuses: STATUSES, labels: LABELS, get, list, setStatus, toggleFavorite, summary, statusLabel, makeStatusControl, makeFavoriteButton, get writable() { load(); return writable; } };
   window.TidewrittenBookshelf = api;
 
   document.addEventListener("tidewritten:bookshelf-change", () => {
