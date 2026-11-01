@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed rules and te
 
 ## Current status
 
-<badge>All current planned phases complete</badge>
+**Status:** All six established project phases are complete.
 
 The six established project phases have been implemented and the owner has reported the relevant live-site checks as passing. No currently confirmed blocker remains in the established roadmap. New work should be added here only when the owner requests or approves it.
 
