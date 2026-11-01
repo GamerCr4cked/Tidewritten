@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. Phase 7.1 is implemented; the owner reports all eight manual QA sections passing. A dedicated Bookshelf page/navigation and homepage overflow follow-up is being completed.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. The owner confirmed all 7.1 functionality and browser-QA items on 2026-11-01. Phase 7.2 and 7.3 remain upcoming.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -38,7 +38,7 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Missing and malformed/unsupported local data fails safely; raw unsupported data is preserved.
 - [x] Owner-reported browser QA: Reading statuses, Favorites, Library integration, Volume controls, Translation independence, Persistence, Responsive usability, and Data safety all passed (2026-11-01; owner-reported, not independently performed).
 
-**Implementation status:** Core implementation and local storage harness checks are complete. The owner reports all eight manual QA sections passing on the deployed site. Verify the dedicated Bookshelf page/navigation and homepage overflow follow-up on the deployed site before closing remaining 7.1 polish.
+**Implementation status:** Complete. Core implementation, local storage harness checks, dedicated Bookshelf page/navigation, homepage overflow fix, reading-record interaction fixes, and theme synchronization are complete. The owner confirmed on 2026-11-01 that all remaining 7.1 follow-up browser checks also pass. This is owner-reported QA, not an independently performed browser session.
 
 
 ### 7.1 follow-up — Dedicated Bookshelf and homepage overflow
@@ -49,7 +49,7 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Link available saved volumes directly to their canonical volume pages; retain unavailable records without broken links.
 - [x] Keep Favorite independent of reading status and update the page when bookshelf records change.
 - [x] Add homepage width containment without changing browser zoom or scaling the design.
-- [ ] Owner browser QA: confirm no horizontal page scroll at 100% zoom; verify Bookshelf navigation, saved-volume links, filters, and empty states at desktop/mobile widths and both themes.
+- [x] Owner-confirmed browser QA (2026-11-01): no horizontal page scroll at 100% zoom; Bookshelf navigation, saved-volume links, filters, and empty states verified at desktop/mobile widths and both themes.
 
 ### 7.1 follow-up — Reading-record hover interaction
 
@@ -57,14 +57,14 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Add CSS `:hover` expansion as a fallback alongside pointer-state expansion.
 - [x] Keep keyboard focus expansion and touch-first tap-to-expand behavior.
 - [x] Remove the touch-device click interceptor so Continue reading navigates on its first activation.
-- [ ] Owner browser QA: verify desktop hover expands without navigation, one click on Continue reading opens the saved volume, keyboard activation works, and one tap on the compact touch launcher opens the saved volume.
+- [x] Owner-confirmed browser QA (2026-11-01): desktop hover expansion, one-click Continue reading navigation, keyboard activation, and one-tap touch navigation verified.
 
 ### Theme consistency fix — Library and Reading Statistics
 
 - [x] Replace fixed dark surfaces and text colors on Library cards, tools, filters, volume chooser, and bookshelf controls with shared theme tokens.
 - [x] Make Reading Statistics cards, activity, milestones, history, and privacy panels follow shared theme tokens.
 - [x] Preserve decorative series-cover artwork while making surrounding UI theme-aware.
-- [ ] Owner browser QA: switch between Dark and Light on both pages; verify cards, controls, volume chooser, text contrast, and page background update without reload or data changes.
+- [x] Owner-confirmed browser QA (2026-11-01): Library and Reading Statistics verified in Dark and Light themes, including cards, controls, volume chooser, text contrast, and page backgrounds.
 
 ### 7.2 — Library improvements
 
