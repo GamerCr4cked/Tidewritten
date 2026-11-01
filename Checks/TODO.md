@@ -2,13 +2,87 @@
 
 _Last reviewed: 2026-11-01_
 
-This is the current roadmap and concise completion record. Detailed rules and technical conventions live in [Notes.md](Notes.md). The root [Instructions.txt](../Instructions.txt) defines how project work must be handled.
+This is the current roadmap and concise completion record. Detailed technical conventions live in [Notes.md](Notes.md), and the root [Instructions.txt](../Instructions.txt) defines the project workflow.
 
 ## Current status
 
-**Status:** All six established project phases are complete.
+**Status:** Phases 1–6 are complete. **Phase 7 — Personal Reading Experience** is approved and planned; implementation has not started.
 
-The six established project phases have been implemented and the owner has reported the relevant live-site checks as passing. No currently confirmed blocker remains in the established roadmap. New work should be added here only when the owner requests or approves it.
+Phase 7 combines the next three improvements into one milestone:
+1. Personal Bookshelf.
+2. Library improvements.
+3. Story presentation improvements.
+
+Estimated effort: approximately **5–9 focused development days**, plus owner review and any revisions. This is an estimate, not a deadline.
+
+## Active roadmap
+
+## Phase 7 — Personal Reading Experience
+
+**Goal:** Make Tidewritten more useful as a personal reading destination by connecting a lightweight bookshelf, better Library discovery, and a more polished story-reading presentation.
+
+### 7.1 — Personal Bookshelf
+
+- [ ] Add per-volume **Want to Read**, **Currently Reading**, and **Completed** statuses.
+- [ ] Add an independent **Favorite** toggle; favoriting must not replace the reading status.
+- [ ] Persist bookshelf records locally in the browser using a dedicated, versioned storage key.
+- [ ] Treat English, Hinglish, and Banglish editions of one volume as the same canonical book.
+- [ ] Surface status/favorite information in appropriate Library, volume, and reader views without creating duplicate cards.
+- [ ] Add clear empty states, accessible controls, and a concise explanation that bookshelf data is browser-local and not synced across devices.
+- [ ] Ensure bookshelf actions and migrations never clear reading progress, statistics, history, language, theme, text size, or appearance preferences.
+
+**Acceptance checks**
+- A status and favorite remain after reload in the same browser profile.
+- Changing edition does not create a second record.
+- A volume can be favorited while retaining any of the three reading statuses.
+- Missing, malformed, or older local data fails safely.
+- Keyboard, touch, focus, and narrow-screen behaviour are usable.
+
+### 7.2 — Library improvements
+
+- [ ] Inspect and refine the existing Library search and genre, publication-status, and available-edition filters; preserve their current correct behaviour.
+- [ ] Add useful deterministic title sorting (A–Z and Z–A).
+- [ ] Add bookshelf-status and favorite discovery/filtering where it fits the existing Library layout.
+- [ ] Show concise reading-state information on series cards without misrepresenting series containing volumes with different statuses.
+- [ ] Keep one Library card per canonical series, with the existing volume chooser for multi-volume series and direct opening for single-volume series.
+- [ ] Preserve accessible volume selection, keyboard operation, focus handling, and responsive layouts.
+- [ ] Keep Recently Updated disabled until trustworthy content_updated metadata exists. Do not invent dates or popularity rankings.
+
+**Acceptance checks**
+- Search, filters, sorting, and bookshelf filters work together without conflicting results.
+- Translations never appear as separate series/cards.
+- Series with mixed volume statuses are represented accurately.
+- Existing genre vocabulary, publication-status rules, canonical routes, and volume navigation remain intact.
+- Desktop, tablet, and mobile layouts remain clear and keyboard accessible.
+
+### 7.3 — Story presentation improvements
+
+- [ ] Review and refine the existing shared reader presentation rather than creating a second reader.
+- [ ] Improve the hierarchy and presentation of series descriptions, volume introductions/synopses, cover art, and optional metadata.
+- [ ] Keep story text primary and preserve the established light-novel reading experience.
+- [ ] Add optional chapter illustrations or a supplementary gallery only when approved assets, accurate alt text, and captions are available.
+- [ ] Validate every image path and any chapter-relative placement against real chapter IDs; use a supplementary gallery if placement cannot be verified.
+- [ ] Ensure missing metadata and failed optional images fall back cleanly to existing CSS artwork/text-only presentation.
+- [ ] Localize presentation metadata when translated copy exists, with the established English fallback otherwise.
+- [ ] Preserve story prose, original chapter titles, IDs, translation mappings, canonical URLs, reading position, progress, statistics, and reader preferences.
+
+**Acceptance checks**
+- Existing volumes without optional metadata render correctly.
+- No broken-image icons, blank cover regions, invented author notes, or unapproved artwork.
+- Reader hierarchy remains consistent across English, Hinglish, and Banglish.
+- Reading controls do not obstruct story text.
+- Both themes, responsive layouts, keyboard/touch operation, reduced motion, and navigation are checked.
+
+### Phase 7 final verification
+
+- [ ] Review the complete diff for unintended story, translation, route, or preference changes.
+- [ ] Test bookshelf persistence, canonical volume identity, and safe failure/migration behaviour.
+- [ ] Test Library search, filters, sorting, series grouping, and volume chooser together.
+- [ ] Test reader presentation and all optional-asset fallbacks.
+- [ ] Perform rendered-browser QA on desktop and mobile, in light and dark themes; record the actual devices/viewports checked.
+- [ ] Run relevant automated checks and confirm the GitHub Pages workflow result.
+- [ ] Record source inspection, automated checks, build/deployment, and browser QA as separate evidence.
+- [ ] Mark Phase 7 complete only after all three workstreams and their acceptance checks pass.
 
 ## Completed project history
 
@@ -41,11 +115,10 @@ The six established project phases have been implemented and the owner has repor
 - **Cover assets:** 17 WebP covers under `assets/images/covers/`; each canonical English volume references its corresponding asset. The seven additional Vol.2/Vol.3 covers are also mapped to the corresponding translations with localized alt text.
 - **Build/deployment:** GitHub Pages workflow [#495](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41292003337) completed successfully for commit `6a3b9185c5afa5ba9d3cb252fdf3b5046f5960a1`.
 - **Browser QA:** owner-reported live checks passed; the owner confirmed all covers and the complete presentation work on 2026-11-01. Browser/device/viewport details were not recorded. This is not an independently performed browser session.
-- **Outstanding known limitation:** Recently updated sorting remains disabled until reliable `content_updated` metadata is supplied. Optional illustration assets are not currently published.
+- **Outstanding existing limitations:** Recently Updated sorting remains disabled until reliable `content_updated` metadata is supplied. Optional illustration assets are not currently published.
 
 ## Roadmap maintenance
 
-- Add a task only when a new requirement, defect, or owner-approved improvement is identified.
+- Keep this file as the concise active roadmap and completion record; detailed technical conventions belong in Notes.md.
 - Mark work complete only after its deliverables and relevant verification have happened.
-- Keep detailed technical rules in Notes.md, not duplicated here.
 - Preserve story prose, chapter titles, IDs, canonical routes, translation behaviour, and reader functionality during future maintenance.
