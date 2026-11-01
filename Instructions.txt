@@ -91,8 +91,9 @@ GITHUB WORKFLOW
 - Fetch current file content and SHA before editing; re-fetch before sequential updates.
 - Review the full diff for unintended changes and verify moved files and references.
 - Run relevant checks/builds and inspect actual GitHub Actions results.
-- Commit with a clear message and open a PR for review.
-- Never merge a PR without explicit owner approval.
+- Commit with a clear message and open a PR for every substantial change.
+- After reviewing the complete diff and confirming the relevant automated checks/build/workflow pass, merge the PR without waiting for a separate owner approval. The owner has explicitly delegated routine PR merging as the default workflow.
+- Do not pause for approval merely to merge a routine, scoped, verified PR. Pause only when a genuinely destructive or irreversible action is involved, requirements are materially ambiguous, a required check fails, or a security/privacy/legal risk needs owner direction.
 - Distinguish commit, PR, merge, successful build, deployment, owner-reported browser QA, and independently performed browser QA.
 
 DOCUMENTATION
