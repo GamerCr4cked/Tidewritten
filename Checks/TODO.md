@@ -23,20 +23,22 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 ### 7.1 — Personal Bookshelf
 
-- [ ] Add per-volume **Want to Read**, **Currently Reading**, and **Completed** statuses.
-- [ ] Add an independent **Favorite** toggle; favoriting must not replace the reading status.
-- [ ] Persist bookshelf records locally in the browser using a dedicated, versioned storage key.
-- [ ] Treat English, Hinglish, and Banglish editions of one volume as the same canonical book.
-- [ ] Surface status/favorite information in appropriate Library, volume, and reader views without creating duplicate cards.
-- [ ] Add clear empty states, accessible controls, and a concise explanation that bookshelf data is browser-local and not synced across devices.
-- [ ] Ensure bookshelf actions and migrations never clear reading progress, statistics, history, language, theme, text size, or appearance preferences.
+- [x] Add per-volume **Want to Read**, **Currently Reading**, and **Completed** statuses.
+- [x] Add an independent **Favorite** toggle; favoriting must not replace the reading status.
+- [x] Persist bookshelf records locally in the browser using a dedicated, versioned storage key.
+- [x] Treat English, Hinglish, and Banglish editions of one volume as the same canonical book.
+- [x] Surface status/favorite information in appropriate Library, volume, and reader views without creating duplicate cards.
+- [x] Add clear empty states, accessible controls, and a concise explanation that bookshelf data is browser-local and not synced across devices.
+- [x] Ensure bookshelf actions and migrations never clear reading progress, statistics, history, language, theme, text size, or appearance preferences.
 
 **Acceptance checks**
-- A status and favorite remain after reload in the same browser profile.
-- Changing edition does not create a second record.
-- A volume can be favorited while retaining any of the three reading statuses.
-- Missing, malformed, or older local data fails safely.
-- Keyboard, touch, focus, and narrow-screen behaviour are usable.
+- [x] A status and favorite remain after reload in the same browser profile (local storage harness).
+- [x] Changing edition does not create a second record by design: all editions use the canonical English volume path.
+- [x] A volume can be favorited while retaining any of the three reading statuses (independent record fields).
+- [x] Missing and malformed/unsupported local data fails safely; raw unsupported data is preserved.
+- [ ] Rendered-browser QA: verify keyboard, touch, focus, and narrow-screen behaviour.
+
+**Implementation status:** Source implementation and local storage harness checks are complete. Rendered-browser QA has not been independently performed; keep 7.1 open until that interaction/layout check is recorded.
 
 ### 7.2 — Library improvements
 
