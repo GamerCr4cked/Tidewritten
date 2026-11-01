@@ -26,11 +26,13 @@
         return (cache = empty());
       }
       const books = {};
-      Object.entries(parsed.books).forEach(([path, record]) => {
-        if (typeof path === "string" && path.startsWith("/") && validRecord(record)) {
-          books[path] = { status: record.status || null, favorite: record.favorite, updatedAt: Number(record.updatedAt) || 0 };
+      for (const [path, record] of Object.entries(parsed.books)) {
+        if (typeof path !== "string" || !path.startsWith("/") || !validRecord(record)) {
+          writable = false;
+          return (cache = empty());
         }
-      });
+        books[path] = { status: record.status || null, favorite: record.favorite, updatedAt: Number(record.updatedAt) || 0 };
+      }
       return (cache = { version: 1, books });
     } catch (error) {
       writable = false;
@@ -41,7 +43,7 @@
   const save = () => {
     if (!writable) return false;
     try { localStorage.setItem(KEY, JSON.stringify(load())); return true; }
-    catch (error) { return false; }
+    catch (error) { writable = false; return false; }
   };
   const update = (path, changes) => {
     if (typeof path !== "string" || !path.startsWith("/") || !writable) return false;
