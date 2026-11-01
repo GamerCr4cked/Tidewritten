@@ -265,7 +265,9 @@ Use centered content columns, responsive side padding, consistent spacing, restr
 - Do not archive a document until its durable rules, current status, and useful findings have been consolidated into Notes/TODO and its references have been checked. Preserve archived records; never permanently delete them.
 - During normal development, do not inspect or use `bin/`. During an explicit cleanup only, it may be used as an archive destination. Never use it as a temporary workspace or source of truth.
 - Keep `Instructions.txt` at repository root as the assistant's project entry instructions. It points back to Notes/TODO for current project truth; it must not become a competing technical specification.
-- The repository is authoritative over conversation memory. Fetch latest files and branch state before editing; preserve owner changes; use a focused branch and PR; do not merge without explicit owner approval.
+- The repository is authoritative over conversation memory. Fetch latest files and branch state before editing; preserve owner changes; use a focused branch and PR.
+- **Default PR policy:** create a PR for substantial changes, review the complete diff, run the relevant checks/build/workflow, and merge it once those checks pass. The owner has explicitly delegated routine PR merging; do not wait for a separate approval or ask whether to merge.
+- Pause instead of merging only when the change is destructive/irreversible, materially ambiguous, has failing or unavailable required checks that cannot be responsibly assessed, or presents a security, privacy, or legal risk requiring owner direction.
 ## 17. Personal Reading Experience (Phase 7)
 
 Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library improvements, and story presentation improvements.
