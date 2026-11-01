@@ -56,7 +56,7 @@ The 17 canonical volumes have matching Hinglish and Banglish editions in the rep
 
 - Inspected the Phase 5 specification, current project notes, TODO, shared reader, and Library implementation.
 - Confirmed all 17 expected WebP filenames exist in `assets/images/covers/` on `main`.
-- Confirmed the seven added covers have 2:3 filenames and are below approximately 300 KB based on Git tree byte sizes; pixel dimensions and visual crop quality still require image-level QA.
+- Inspected the seven supplied WebP files from the owner's converted archive: each is 1024 × 1536 px (2:3) and approximately 181–285 KB. Reviewed the seven-cover contact sheet for obvious identity/composition mismatches; detailed small-card crop and per-image visual QA remains outstanding.
 - Added the seven volume-specific cover paths and localized alt text to 21 edition pages (7 English, 7 Hinglish, 7 Banglish) on the feature branch.
 - Shared reader and Library already consume `cover_image`, `cover_alt`, and synopsis metadata; no duplicate cover-rendering implementation was added.
 - Added `cover_image` and `cover_alt` to the 10 canonical English Volume 1 pages; confirmed all paths match the published asset filenames.

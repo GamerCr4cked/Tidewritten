@@ -53,7 +53,7 @@ Give each canonical volume its own release identity while retaining the visual l
 - Review the actual contents and synopsis of each of the 17 canonical English volumes before deciding whether a distinct volume scene or motif is appropriate.
 - Make volume differences meaningful: vary the scene, lighting, symbol, season, or focal subject only when supported by that volume.
 - Ensure the volume remains recognizable as part of its series; do not make related volumes look like unrelated titles.
-- **Progress:** Seven volume-specific WebP covers for Vol.2/Vol.3 of the four multi-volume series are now present in `assets/images/covers/`; their canonical and translated edition metadata is being integrated.
+- **Progress:** Seven volume-specific WebP covers for Vol.2/Vol.3 of the four multi-volume series are now present in `assets/images/covers/`; their canonical and translated edition metadata is integrated on the feature branch.
 - Do not create separate cover records or Library entries for Hinglish and Banglish editions. All editions of a volume use the same canonical cover asset.
 - Check that the cover does not reveal major plot twists or important surprises.
 - Keep volume titles and numbering as real page text, not as the only information embedded in artwork.
