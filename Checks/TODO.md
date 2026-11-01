@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. **Phase 7 — Personal Reading Experience** is approved and planned; implementation has not started.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. Phase 7.1 is implemented; the owner reports all eight manual QA sections passing. A dedicated Bookshelf page/navigation and homepage overflow follow-up is being completed.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -36,9 +36,20 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Changing edition does not create a second record by design: all editions use the canonical English volume path.
 - [x] A volume can be favorited while retaining any of the three reading statuses (independent record fields).
 - [x] Missing and malformed/unsupported local data fails safely; raw unsupported data is preserved.
-- [ ] Rendered-browser QA: verify keyboard, touch, focus, and narrow-screen behaviour.
+- [x] Owner-reported browser QA: Reading statuses, Favorites, Library integration, Volume controls, Translation independence, Persistence, Responsive usability, and Data safety all passed (2026-11-01; owner-reported, not independently performed).
 
-**Implementation status:** Source implementation and local storage harness checks are complete. Rendered-browser QA has not been independently performed; keep 7.1 open until that interaction/layout check is recorded.
+**Implementation status:** Core implementation and local storage harness checks are complete. The owner reports all eight manual QA sections passing on the deployed site. Verify the dedicated Bookshelf page/navigation and homepage overflow follow-up on the deployed site before closing remaining 7.1 polish.
+
+
+### 7.1 follow-up — Dedicated Bookshelf and homepage overflow
+
+- [x] Add a Bookshelf tab to the shared top navigation.
+- [x] Add a dedicated `/bookshelf/` page listing saved canonical volumes.
+- [x] Add All saved, Currently Reading, Want to Read, Completed, and Favorites views, with search and sorting.
+- [x] Link available saved volumes directly to their canonical volume pages; retain unavailable records without broken links.
+- [x] Keep Favorite independent of reading status and update the page when bookshelf records change.
+- [x] Add homepage width containment without changing browser zoom or scaling the design.
+- [ ] Owner browser QA: confirm no horizontal page scroll at 100% zoom; verify Bookshelf navigation, saved-volume links, filters, and empty states at desktop/mobile widths and both themes.
 
 ### 7.2 — Library improvements
 
