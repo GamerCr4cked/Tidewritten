@@ -1,0 +1,187 @@
+---
+layout: default
+title: Bookshelf
+description: Your saved Tidewritten volumes, reading statuses, and favorites on this browser.
+permalink: /bookshelf/
+---
+
+<div class="personal-bookshelf-page">
+  <section class="bookshelf-hero">
+    <p class="bookshelf-kicker">YOUR TIDEWRITTEN COLLECTION</p>
+    <h1>My Bookshelf</h1>
+    <p>Your saved volumes in one place. Open any title to continue reading or revisit a book you've marked for later. This bookshelf is stored in this browser and is not synced across devices.</p>
+  </section>
+  <div class="bookshelf-summary-row" aria-label="Bookshelf summary">
+    <div class="bookshelf-stat"><strong id="bookshelfTotal">0</strong><span>Saved volumes</span></div>
+    <div class="bookshelf-stat"><strong id="bookshelfReading">0</strong><span>Currently reading</span></div>
+    <div class="bookshelf-stat"><strong id="bookshelfWant">0</strong><span>Want to read</span></div>
+    <div class="bookshelf-stat"><strong id="bookshelfCompleted">0</strong><span>Completed</span></div>
+    <div class="bookshelf-stat"><strong id="bookshelfFavorites">0</strong><span>Favorites</span></div>
+  </div>
+  <p class="bookshelf-unavailable" id="bookshelfUnavailable" role="status" hidden>Bookshelf storage is unavailable or contains unreadable data. Existing data has been left untouched.</p>
+  <div class="bookshelf-toolbar">
+    <label class="bookshelf-search-label" for="bookshelfSearch">Find a saved volume
+      <input class="bookshelf-search" id="bookshelfSearch" type="search" placeholder="Search title or series…" autocomplete="off">
+    </label>
+    <label class="bookshelf-filter-label" for="bookshelfSort">Sort volumes
+      <select class="bookshelf-filter" id="bookshelfSort">
+        <option value="series">Series name (A–Z)</option>
+        <option value="series-desc">Series name (Z–A)</option>
+        <option value="recent">Recently saved</option>
+      </select>
+    </label>
+  </div>
+  <div class="bookshelf-tabs" role="group" aria-label="Filter bookshelf">
+    <button class="bookshelf-tab" type="button" data-shelf-filter="all" aria-pressed="true">All saved</button>
+    <button class="bookshelf-tab" type="button" data-shelf-filter="currently-reading" aria-pressed="false">Currently Reading</button>
+    <button class="bookshelf-tab" type="button" data-shelf-filter="want-to-read" aria-pressed="false">Want to Read</button>
+    <button class="bookshelf-tab" type="button" data-shelf-filter="completed" aria-pressed="false">Completed</button>
+    <button class="bookshelf-tab" type="button" data-shelf-filter="favorites" aria-pressed="false">Favorites</button>
+  </div>
+  <p class="bookshelf-result-line"><span id="bookshelfResultCount" aria-live="polite">0 saved volumes</span><span>Choose a volume to open it.</span></p>
+  <div class="bookshelf-grid" id="bookshelfGrid"></div>
+  <section class="bookshelf-empty" id="bookshelfEmpty" hidden>
+    <h2 id="bookshelfEmptyTitle">Your bookshelf is empty.</h2>
+    <p id="bookshelfEmptyText">Mark a volume as Want to Read, Currently Reading, Completed, or Favorite from the Library or a reader page. It will appear here automatically.</p>
+    <a href="{{ '/library/' | relative_url }}">Explore the Library ↗</a>
+  </section>
+  {% assign bookshelf_pages = site.pages | where: "layout", "light-novel" | where_exp: "p", "p.translation_of == nil" | sort: "series" %}
+  <script type="application/json" id="bookshelfCatalogue">[
+    {% for book in bookshelf_pages %}
+      {"path":{{ book.url | relative_url | jsonify }},"title":{{ book.title | jsonify }},"series":{{ book.series | default: book.title | jsonify }},"volume":{{ book.volume | default: 1 | jsonify }},"cover":{% if book.cover_image %}{{ book.cover_image | relative_url | jsonify }}{% else %}""{% endif %}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]</script>
+</div>
+<script src="{{ '/assets/js/bookshelf.js' | relative_url }}"></script>
+<script>
+(() => {
+  const api = window.TidewrittenBookshelf;
+  const unavailable = document.getElementById("bookshelfUnavailable");
+  const grid = document.getElementById("bookshelfGrid");
+  const empty = document.getElementById("bookshelfEmpty");
+  if (!api || !grid) {
+    if (unavailable) unavailable.hidden = false;
+    return;
+  }
+  if (unavailable) unavailable.hidden = api.writable;
+  let catalogue = [];
+  try { catalogue = JSON.parse(document.getElementById("bookshelfCatalogue")?.textContent || "[]"); }
+  catch (error) { console.error("The Tidewritten bookshelf catalogue could not be read.", error); }
+  const byPath = new Map(catalogue.map(book => [book.path, book]));
+  const labels = { "want-to-read": "Want to Read", "currently-reading": "Currently Reading", completed: "Completed" };
+  const search = document.getElementById("bookshelfSearch");
+  const sort = document.getElementById("bookshelfSort");
+  const count = document.getElementById("bookshelfResultCount");
+  const titleEmpty = document.getElementById("bookshelfEmptyTitle");
+  const textEmpty = document.getElementById("bookshelfEmptyText");
+  let activeFilter = "all";
+  let records = [];
+  const setText = (id, value) => { document.getElementById(id).textContent = String(value); };
+  const refresh = () => {
+    records = api.list().map(record => ({ ...record, book: byPath.get(record.path) || null })).filter(record => record.status || record.favorite);
+    setText("bookshelfTotal", records.length);
+    setText("bookshelfReading", records.filter(record => record.status === "currently-reading").length);
+    setText("bookshelfWant", records.filter(record => record.status === "want-to-read").length);
+    setText("bookshelfCompleted", records.filter(record => record.status === "completed").length);
+    setText("bookshelfFavorites", records.filter(record => record.favorite).length);
+    render();
+  };
+  const render = () => {
+    const query = search.value.trim().toLocaleLowerCase();
+    const sorted = [...records].sort((a,b) => {
+      if (sort.value === "recent") return (b.updatedAt || 0) - (a.updatedAt || 0);
+      const an = a.book?.series || a.book?.title || a.path;
+      const bn = b.book?.series || b.book?.title || b.path;
+      const compared = an.localeCompare(bn);
+      if (compared) return sort.value === "series-desc" ? -compared : compared;
+      return Number(a.book?.volume || 0) - Number(b.book?.volume || 0);
+    });
+    const visible = sorted.filter(record => {
+      const haystack = [record.book?.title, record.book?.series, record.path].join(" ").toLocaleLowerCase();
+      const matches = activeFilter === "all" || (activeFilter === "favorites" ? record.favorite : record.status === activeFilter);
+      return matches && (!query || haystack.includes(query));
+    });
+    grid.replaceChildren();
+    visible.forEach(record => {
+      const book = record.book;
+      const card = document.createElement(book ? "a" : "article");
+      card.className = "bookshelf-book";
+      if (book) card.href = book.path;
+      if (book?.cover) {
+        const cover = document.createElement("img");
+        cover.className = "bookshelf-cover";
+        cover.src = book.cover;
+        cover.alt = "";
+        cover.loading = "lazy";
+        cover.decoding = "async";
+        cover.addEventListener("error", () => {
+          const fallback = document.createElement("span");
+          fallback.className = "bookshelf-cover-fallback";
+          fallback.textContent = "TIDEWRITTEN";
+          cover.replaceWith(fallback);
+        }, { once: true });
+        card.append(cover);
+      } else {
+        const fallback = document.createElement("span");
+        fallback.className = "bookshelf-cover-fallback";
+        fallback.textContent = book ? "TIDEWRITTEN" : "UNAVAILABLE";
+        card.append(fallback);
+      }
+      const copy = document.createElement("span");
+      copy.className = "bookshelf-book-copy";
+      const series = document.createElement("span");
+      series.className = "bookshelf-series";
+      series.textContent = book?.series || "Saved volume";
+      const name = document.createElement("strong");
+      name.className = "bookshelf-book-title";
+      name.textContent = book?.title || "This volume is no longer in the published catalogue";
+      const volume = document.createElement("span");
+      volume.className = "bookshelf-volume";
+      volume.textContent = book ? "Volume " + book.volume : record.path;
+      const badges = document.createElement("span");
+      badges.className = "bookshelf-book-badges";
+      if (record.status) {
+        const badge = document.createElement("span");
+        badge.className = "bookshelf-book-badge";
+        badge.textContent = labels[record.status] || "Saved";
+        badges.append(badge);
+      }
+      if (record.favorite) {
+        const badge = document.createElement("span");
+        badge.className = "bookshelf-book-badge favorite";
+        badge.textContent = "★ Favorite";
+        badges.append(badge);
+      }
+      copy.append(series,name,volume,badges);
+      if (book) {
+        const hint = document.createElement("span");
+        hint.className = "bookshelf-open-hint";
+        hint.textContent = "Open volume ↗";
+        copy.append(hint);
+      }
+      card.append(copy);
+      grid.append(card);
+    });
+    count.textContent = visible.length + (visible.length === 1 ? " saved volume" : " saved volumes");
+    empty.hidden = visible.length !== 0;
+    if (!records.length) {
+      titleEmpty.textContent = "Your bookshelf is empty.";
+      textEmpty.textContent = "Mark a volume as Want to Read, Currently Reading, Completed, or Favorite from the Library or a reader page. It will appear here automatically.";
+    } else if (!visible.length) {
+      titleEmpty.textContent = "No matching volumes.";
+      textEmpty.textContent = "Try another bookshelf tab or change your search.";
+    }
+  };
+  document.querySelectorAll("[data-shelf-filter]").forEach(button => {
+    button.addEventListener("click", () => {
+      activeFilter = button.dataset.shelfFilter;
+      document.querySelectorAll("[data-shelf-filter]").forEach(tab => tab.setAttribute("aria-pressed", String(tab === button)));
+      render();
+    });
+  });
+  search.addEventListener("input", render);
+  sort.addEventListener("change", render);
+  document.addEventListener("tidewritten:bookshelf-change", refresh);
+  refresh();
+})();
+</script>
