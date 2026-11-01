@@ -48,7 +48,8 @@
     const current = get(path);
     load().books[path] = { ...current, ...changes, updatedAt: Date.now() };
     if (!save()) {
-      delete load().books[path];
+      if (current.status || current.favorite || current.updatedAt) load().books[path] = current;
+      else delete load().books[path];
       return false;
     }
     document.dispatchEvent(new CustomEvent("tidewritten:bookshelf-change", { detail: { path } }));
@@ -63,13 +64,13 @@
     return { counts, favorites: records.filter(record => record.favorite).length, total: records.length };
   };
   const statusLabel = status => LABELS[status] || "Not started";
-  const makeStatusControl = (path, compact = false) => {
+  const makeStatusControl = (path, bookTitle = "") => {
     const label = document.createElement("label");
     label.className = "bookshelf-status-control";
     const caption = document.createElement("span");
     caption.textContent = "Reading status";
     const select = document.createElement("select");
-    select.setAttribute("aria-label", "Reading status");
+    select.setAttribute("aria-label", bookTitle ? "Reading status for " + bookTitle : "Reading status");
     [["", "Not started"], ...STATUSES.map(status => [status, LABELS[status]])].forEach(([value, text]) => {
       const option = document.createElement("option");
       option.value = value;
