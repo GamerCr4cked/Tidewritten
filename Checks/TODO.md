@@ -1,6 +1,6 @@
 # Tidewritten — TODO
 
-_Last reviewed: 2026-10-31_
+_Last reviewed: 2026-11-01_
 
 This file is the current roadmap. The **History** section is a compact record of completed work; only the five tasks under **FINAL WORK** remain active. Detailed implementation rules and acceptance criteria are in [Notes.md](Notes.md) and the linked specifications.
 
@@ -53,7 +53,7 @@ Give each canonical volume its own release identity while retaining the visual l
 - Review the actual contents and synopsis of each of the 17 canonical English volumes before deciding whether a distinct volume scene or motif is appropriate.
 - Make volume differences meaningful: vary the scene, lighting, symbol, season, or focal subject only when supported by that volume.
 - Ensure the volume remains recognizable as part of its series; do not make related volumes look like unrelated titles.
-- **Progress:** Volume-specific artwork beyond the initial Volume 1 series covers has not yet been produced.
+- **Progress:** Seven volume-specific WebP covers for Vol.2/Vol.3 of the four multi-volume series are now present in `assets/images/covers/`; their canonical and translated edition metadata is integrated on the feature branch.
 - Do not create separate cover records or Library entries for Hinglish and Banglish editions. All editions of a volume use the same canonical cover asset.
 - Check that the cover does not reveal major plot twists or important surprises.
 - Keep volume titles and numbering as real page text, not as the only information embedded in artwork.
@@ -85,7 +85,7 @@ Create, review, and add the final artwork to the repository.
 - Populate `cover_image` and edition-appropriate `cover_alt` metadata on the canonical volume pages and their translations, preserving the same cover path across editions.
 - Check for missing files, duplicate filenames, invalid paths, inconsistent dimensions, and unreferenced assets.
 - Keep optional artwork genuinely optional; do not make existing story pages dependent on every cover being present.
-- **Progress:** Initial 10 covers are wired into canonical English Volume 1 metadata. Missing assets continue to use CSS-built artwork; translations inherit the canonical cover during in-place language switching.
+- **Progress:** The 10 initial Volume 1 covers and seven additional volume covers are wired into canonical English metadata. All 21 Hinglish/Banglish/English editions for the seven additional volumes now share the same canonical image path and carry edition-specific alt text.
 
 ## 5. Verify the finished story presentation
 

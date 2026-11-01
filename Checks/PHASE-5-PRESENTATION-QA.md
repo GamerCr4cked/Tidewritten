@@ -1,10 +1,10 @@
 # Phase 5 — Story Presentation Status & QA
 
-_Last updated: 2026-10-31_
+_Last updated: 2026-11-01_
 
 ## Current status
 
-Phase 5 is **partially implemented, not complete**. The shared reader and Library presentation architecture are merged, story-grounded presentation metadata is populated for the complete canonical catalogue, and 10 approved series-level Volume 1 WebP covers are now present on the working branch. Individual cover designs for the remaining seven volumes are still outstanding. Optional illustrations remain optional and no illustration assets are currently published. Final build and rendered-browser QA are outstanding.
+Phase 5 is **partially implemented, not complete**. The shared reader and Library presentation architecture are merged, story-grounded presentation metadata is populated for the complete canonical catalogue, and all 17 approved WebP volume covers are present on `main`. The seven additional volume covers are now connected to their English, Hinglish, and Banglish editions on the `feature/volume-specific-cover-metadata` branch. Optional illustrations remain optional and no illustration assets are currently published. Final build and rendered-browser QA are outstanding.
 
 ## Canonical catalogue metadata
 
@@ -38,16 +38,16 @@ The 17 canonical volumes have matching Hinglish and Banglish editions in the rep
 
 ## Metadata changes in this branch
 
-- Adds the remaining eight series descriptions and 12 volume synopses.
-- Updates `Checks/TODO.md` to distinguish merged implementation from outstanding asset and QA work.
-- Story bodies after YAML front matter were compared against `main` for all 12 story files changed by this branch; all were byte-for-byte unchanged.
-- The previously merged Meet Again Trilogy metadata (PR #54) and Before the Feelings Fade metadata (PR #55) are retained.
+- Adds `cover_image` and localized `cover_alt` to the seven additional canonical English volume pages and their 14 matching translations (21 edition files total).
+- Every edition of a volume points to the same root-relative canonical cover path; alt text is edition-specific.
+- Story bodies after YAML front matter are retained byte-for-byte by front-matter-only edits.
+- Existing synopsis, genre, translation mapping, route, and navigation metadata are retained.
 
 ## Asset inventory
 
-- `assets/images/covers/` now contains 10 approved series-level Volume 1 WebP covers on this branch. All 10 agreed filenames were fetched successfully from the repository before integration.
+- `assets/images/covers/` contains all 17 approved WebP covers: 10 initial Volume 1 covers and seven volume-specific Vol.2/Vol.3 covers. The seven new paths are `before-the-feelings-fade-vol-2.webp`, `meet-again-trilogy-vol-2.webp`, `meet-again-trilogy-vol-3.webp`, `the-little-bird-chronicles-vol-2.webp`, `the-little-bird-chronicles-vol-3.webp`, `the-student-council-president-hates-everyone-except-apparently-me-vol-2.webp`, and `the-student-council-president-hates-everyone-except-apparently-me-vol-3.webp`.
 - The 10 canonical English Volume 1 pages now reference their matching cover asset through `cover_image`; localized `cover_alt` text is supplied. In-place language switching retains the canonical cover and uses the English alt text when a translation does not provide its own localized cover metadata.
-- The initial artwork is series-level, not a complete set of 17 volume-specific covers. The remaining seven volumes in multi-volume series intentionally retain the existing CSS artwork/no-cover fallback until their individual covers are approved.
+- All 17 canonical volumes now have a matching cover path in English metadata. The seven new covers are also assigned in the corresponding Hinglish and Banglish pages with localized alternative text.
 - `assets/images/illustrations/` remains optional and no illustration assets are currently published.
 - The documented target remains portrait 2:3, 1200 × 1800 px, WebP, with an optimization goal near 300 KB where quality permits.
 - Illustrations are optional and should only be added when they contribute meaningful story context.
@@ -55,7 +55,10 @@ The 17 canonical volumes have matching Hinglish and Banglish editions in the rep
 ## Verification performed
 
 - Inspected the Phase 5 specification, current project notes, TODO, shared reader, and Library implementation.
-- Confirmed all 10 expected WebP files exist in `assets/images/covers/` on the repository's `main` branch.
+- Confirmed all 17 expected WebP filenames exist in `assets/images/covers/` on `main`.
+- Inspected the seven supplied WebP files from the owner's converted archive: each is 1024 × 1536 px (2:3) and approximately 181–285 KB. Reviewed the seven-cover contact sheet for obvious identity/composition mismatches; detailed small-card crop and per-image visual QA remains outstanding.
+- Added the seven volume-specific cover paths and localized alt text to 21 edition pages (7 English, 7 Hinglish, 7 Banglish) on the feature branch.
+- Shared reader and Library already consume `cover_image`, `cover_alt`, and synopsis metadata; no duplicate cover-rendering implementation was added.
 - Added `cover_image` and `cover_alt` to the 10 canonical English Volume 1 pages; confirmed all paths match the published asset filenames.
 - Added reader, Library volume-chooser, and existing series-card image-error fallbacks so missing assets do not leave broken-image icons or blank cover areas.
 - Enumerated all 17 canonical English story files and the corresponding 17 Hinglish and 17 Banglish translation files.
@@ -66,12 +69,11 @@ The 17 canonical volumes have matching Hinglish and Banglish editions in the rep
 
 ## Outstanding before Phase 5 can be closed
 
-1. Create and approve the remaining volume-specific cover artwork for the seven volumes not represented by the initial series-level covers; publish each approved asset and add matching metadata.
-2. Complete asset-level inspection for dimensions, file size, readability at card size, correct paths, and useful alt text. The 10 current assets have verified repository paths; independent rendered-image and crop QA remains outstanding.
-3. Run the Jekyll/GitHub Pages build and record the actual workflow/build result. The repository's `.github/workflows/` directory was not available through the repository contents endpoint during this audit, and a local clone/build could not be run because the execution environment could not resolve github.com.
-4. Perform rendered-browser QA on desktop and mobile, light and dark themes, and keyboard/touch input. Verify Library grouping, volume chooser thumbnails, single-volume direct-open behaviour, canonical routes, translation switching, image fallback, and no layout shift.
-5. Record browser QA separately from source inspection and build status. Do not mark Phase 5 complete until these checks pass.
+1. Independently inspect all 17 cover images for pixel dimensions, crop safety, readability at Library-card size, title accuracy, and visual artifacts; confirm localized alt text describes the actual artwork.
+2. Run the Jekyll/GitHub Pages build and record the actual workflow/build result.
+3. Perform rendered-browser QA on desktop and mobile, light and dark themes, and keyboard/touch input. Verify Library grouping, volume chooser thumbnails, single-volume direct-open behaviour, canonical routes, translation switching, image fallback, and no layout shift.
+4. Record browser QA separately from source inspection and build status. Do not mark Phase 5 complete until these checks pass.
 
 ## Explicit limitations
 
-No rendered-browser session was available for this pass. No Jekyll build result is claimed. No cover or illustration image files were created or published in this branch.
+No rendered-browser session or Jekyll build result is claimed for this pass. The 17 cover image files were already present on `main`; this branch changes only front matter and project QA documentation, not image binaries.
