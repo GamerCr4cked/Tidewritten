@@ -282,6 +282,14 @@ Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library imp
 - Handle unavailable or malformed local data safely. Provide clear empty states and accessible controls. Explain that records are local to the current browser/profile and are not synced across devices.
 - Do not silently erase existing bookshelf records during migrations or reset unrelated reader data.
 
+### Phase 7.1 completion record
+
+- **Status:** Complete as of 2026-11-01, based on explicit owner confirmation.
+- Scope includes the browser-local personal bookshelf, canonical volume identity across editions, Library/volume/reader integration, the dedicated `/bookshelf/` page, homepage horizontal-overflow correction, reading-record hover and single-activation navigation, and Library/Reading Statistics theme synchronization.
+- The owner confirmed all original Personal Bookshelf QA sections and all follow-up browser checks pass, including desktop/mobile layouts, both themes, Bookshelf links and filters, hover/click/keyboard/touch interactions, and homepage width at 100% zoom.
+- QA evidence is owner-reported. Do not describe it as an independently performed browser session or infer unreported device/browser versions.
+- Phase 7.1 is closed. Phase 7.2 (Library improvements) and Phase 7.3 (story presentation improvements) remain separate, unfinished workstreams. This completion does not close all of Phase 7.
+
 ### Personal Bookshelf implementation
 
 - Shared browser-local module: `assets/js/bookshelf.js`.
@@ -291,7 +299,7 @@ Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library imp
 - Reader controls are rendered in the shared `_layouts/light-novel.html`; the Library displays series-level status/favorite summaries, offers status/favorite filters, and exposes per-volume controls in the multi-volume chooser. Single-volume series retain direct-open behavior; their controls are available on the reader page.
 - The store must never clear or rewrite other Tidewritten keys. Unknown schema versions, malformed records, inaccessible storage, and failed writes must fail closed; preserve existing raw data and revert an unsuccessful UI update.
 - Do not add account, backend, cloud-sync, social, comment, or external tracking features. Explain browser/profile-local storage in the Library and reader.
-- The current implementation has source-level and local storage harness checks; rendered browser interaction, keyboard/touch, and responsive QA must be recorded separately before closing Phase 7.1.
+- The implementation has source-level and local storage harness checks. The owner confirmed on 2026-11-01 that rendered browser interaction, keyboard/touch, responsive layouts, homepage overflow, Bookshelf navigation/filters, and Library/Statistics theme synchronization all pass. Record this as owner-reported QA; it was not independently performed by the assistant.
 
 ### Library improvements
 
