@@ -2,12 +2,18 @@
 
 _Last reviewed: 2026-11-01_
 
-This file is the current roadmap. The **History** section is a compact record of completed work; only the five tasks under **FINAL WORK** remain active. Detailed implementation rules and acceptance criteria are in [Notes.md](Notes.md) and the linked specifications.
+This is the current roadmap and concise completion record. Detailed rules and technical conventions live in [Notes.md](Notes.md). The root [Instructions.txt](../Instructions.txt) defines how project work must be handled.
 
-## History — completed work
+## Current status
+
+**Status:** All six established project phases are complete.
+
+The six established project phases have been implemented and the owner has reported the relevant live-site checks as passing. No currently confirmed blocker remains in the established roadmap. New work should be added here only when the owner requests or approves it.
+
+## Completed project history
 
 1. Established the Tidewritten cyan/aquatic visual identity and professional editorial tone.
-2. Replaced generic promotional copy across the public-facing pages with concise, informative text.
+2. Replaced generic promotional copy across public-facing pages with concise, informative text.
 3. Organized the Library around canonical series and volumes, not translations.
 4. Implemented series search and genre, status, and available-edition filters.
 5. Added accessible volume selection for multi-volume series and direct opening for single-volume series.
@@ -24,93 +30,22 @@ This file is the current roadmap. The **History** section is a compact record of
 16. Completed and audited the published Hinglish and Banglish editions while preserving original chapter titles and story structure.
 17. Standardized all 51 story filenames and preserved canonical routes and translation mappings.
 18. Added optional series descriptions, volume synopses, localized author notes, cover integration, and illustration metadata support.
-19. Audited repository references and archived verified obsolete files during the explicitly requested cleanup; retained uncertain/required files.
-20. Established project notes, QA reports, and a maintained roadmap; owner-reported browser checks confirmed the completed phases.
+19. Audited repository references and archived verified obsolete files during the earlier explicitly requested cleanup; retained uncertain/required files.
+20. Established project notes, QA records, and a maintained roadmap.
+21. Completed Phase 5 story presentation: 17 canonical volume covers are present and assigned; shared reader/Library fallbacks and localized metadata are integrated.
+22. Completed source/build and owner-reported presentation checks. The owner confirmed on 2026-11-01 that all 17 covers and the complete presentation work on the live site.
 
----
+## Verification record
 
-# FINAL WORK
+- **Catalogue:** 10 canonical series, 17 English volumes, 17 Hinglish editions, and 17 Banglish editions.
+- **Cover assets:** 17 WebP covers under `assets/images/covers/`; each canonical English volume references its corresponding asset. The seven additional Vol.2/Vol.3 covers are also mapped to the corresponding translations with localized alt text.
+- **Build/deployment:** GitHub Pages workflow [#495](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41292003337) completed successfully for commit `6a3b9185c5afa5ba9d3cb252fdf3b5046f5960a1`.
+- **Browser QA:** owner-reported live checks passed; the owner confirmed all covers and the complete presentation work on 2026-11-01. Browser/device/viewport details were not recorded. This is not an independently performed browser session.
+- **Outstanding known limitation:** Recently updated sorting remains disabled until reliable `content_updated` metadata is supplied. Optional illustration assets are not currently published.
 
-**Goal:** Finish Tidewritten's visual story presentation with approved, consistent cover artwork and verify the complete experience without disrupting existing stories, translations, or reader behaviour.
+## Roadmap maintenance
 
-## 1. Create custom cover art for every series
-
-Create a distinct visual identity for each of the 10 canonical series.
-
-- Review each series' actual story content, setting, genre, tone, and established metadata before planning its artwork.
-- Develop a recognizable visual concept for each series; avoid generic or interchangeable covers.
-- Keep the series' volumes visually related through a shared palette, motif, or composition while allowing each volume to have its own scene or focal detail.
-- Use owner-approved concepts and do not invent story events, characters, or settings that are not supported by the source.
-- Keep important subjects within a central safe area so artwork remains legible when cropped into Library cards and smaller placements.
-- Prefer artwork without baked-in title, volume number, or author lettering. Keep those elements as semantic HTML.
-- Confirm the final series concepts and assets before treating this task as complete.
-- **Progress:** Owner-approved series-level artwork has been created and pushed for all 10 series. These initial covers represent Volume 1; individual designs for the remaining seven volumes are still pending.
-
-## 2. Create volume-specific cover designs where appropriate
-
-Give each canonical volume its own release identity while retaining the visual language of its series.
-
-- Review the actual contents and synopsis of each of the 17 canonical English volumes before deciding whether a distinct volume scene or motif is appropriate.
-- Make volume differences meaningful: vary the scene, lighting, symbol, season, or focal subject only when supported by that volume.
-- Ensure the volume remains recognizable as part of its series; do not make related volumes look like unrelated titles.
-- **Progress:** Seven volume-specific WebP covers for Vol.2/Vol.3 of the four multi-volume series are now present in `assets/images/covers/`; their canonical and translated edition metadata is integrated on the feature branch.
-- Do not create separate cover records or Library entries for Hinglish and Banglish editions. All editions of a volume use the same canonical cover asset.
-- Check that the cover does not reveal major plot twists or important surprises.
-- Keep volume titles and numbering as real page text, not as the only information embedded in artwork.
-
-## 3. Establish and apply consistent cover standards
-
-Prepare all cover files and metadata for reliable display across the Library and reader.
-
-- Use portrait 2:3 artwork with a source target of 1200 × 1800 px.
-- Publish covers as WebP; aim for approximately 300 KB or less where quality permits, without damaging important detail or typography.
-- Use stable lowercase kebab-case filenames: `{series-slug}-vol-{number}.webp`.
-- Store canonical covers in `assets/images/covers/`; do not hotlink external artwork.
-- Keep source/editable originals outside the public site unless publication is explicitly requested.
-- Set accurate, concise `cover_alt` text for meaningful images; use empty alt text only for genuinely decorative artwork.
-- Keep all artwork responsive, preserve intrinsic aspect ratio, reserve layout space, and avoid content shift.
-- Use the existing CSS-built series artwork whenever cover metadata or an image file is missing; never show a broken-image icon or blank cover region.
-- Ensure the Library remains series-based and uses the first available canonical volume cover for each series card.
-- **Progress:** The 10 initial WebP assets are in `assets/images/covers/`; all 10 canonical English Volume 1 pages reference the matching file. Reader and Library image-error fallbacks are implemented on the cover-integration branch.
-
-## 4. Populate and optimize the approved cover assets
-
-Create, review, and add the final artwork to the repository.
-
-- Confirm the series and volume concepts against the source stories and the approved visual direction before producing final assets.
-- Generate or create the approved artwork at the specified dimensions and export it as WebP.
-- Inspect each exported image for correct series/volume identity, crop safety, visual quality, and unintended text or artifacts.
-- Optimize file size without visibly degrading the artwork; record exceptions when a cover cannot reasonably meet the target.
-- Add assets under `assets/images/covers/` using the canonical filenames and stable paths.
-- Populate `cover_image` and edition-appropriate `cover_alt` metadata on the canonical volume pages and their translations, preserving the same cover path across editions.
-- Check for missing files, duplicate filenames, invalid paths, inconsistent dimensions, and unreferenced assets.
-- Keep optional artwork genuinely optional; do not make existing story pages dependent on every cover being present.
-- **Progress:** The 10 initial Volume 1 covers and seven additional volume covers are wired into canonical English metadata. All 21 Hinglish/Banglish/English editions for the seven additional volumes now share the same canonical image path and carry edition-specific alt text.
-
-## 5. Verify the finished story presentation
-
-Complete source, build, accessibility, and rendered-browser QA after the artwork and metadata are populated.
-
-- Verify every series card and volume cover, including crop behaviour and missing-image fallbacks.
-- Verify individual volume introductions, synopsis/description presentation, and optional author-note or illustration areas where populated.
-- Confirm canonical `/book/...` routes, series grouping, single-volume direct opening, multi-volume chooser links, and previous/next volume navigation.
-- Test English, Hinglish, and Banglish switching on volumes with available editions; confirm canonical URLs, reading position, and reader settings remain intact.
-- Check desktop and mobile layouts, light and dark themes, keyboard navigation, touch targets, visible focus, alt text, and reduced-motion behaviour.
-- Check image dimensions, file sizes, paths, metadata validity, and responsive image rendering.
-- Run the relevant site build and inspect the GitHub Pages workflow result.
-- Perform rendered-browser checks; record them separately from source inspection and automated build results.
-- Do not mark this task complete until all five work areas are verified and unresolved issues are documented.
-
----
-
-## Reference documents
-
-- [Story Presentation Specification](Phase-5-Story-Presentation-Spec.md) — cover design, dimensions, paths, metadata, localization, illustrations, accessibility, and implementation sequence.
-- [Phase 5 status and QA](PHASE-5-PRESENTATION-QA.md) — existing implementation status and outstanding verification.
-- [Phases 2, 3, 4, and 6 QA](PHASES-2-3-4-6-QA.md) — source findings, workflow evidence, and owner-reported browser QA.
-- [Priority 5 Reader QA](PRIORITY-5-READER-QA.md) — reader source inventory and owner-reported live checks.
-- [Before the Feelings Fade Vol.2 translation audit](BEFORE-THE-FEELINGS-FADE-VOL2-TRANSLATION-AUDIT.md) — detailed source/translation comparison.
-
-## Completion standard
-
-Only mark a FINAL WORK task complete after its deliverables and relevant checks are finished. Preserve story prose, chapter titles, IDs, canonical routes, translation behaviour, and existing reader functionality. Missing optional assets must continue to fall back gracefully. Record browser QA separately from source inspection and automated build verification. See [Notes.md](Notes.md) for the full project rules.
+- Add a task only when a new requirement, defect, or owner-approved improvement is identified.
+- Mark work complete only after its deliverables and relevant verification have happened.
+- Keep detailed technical rules in Notes.md, not duplicated here.
+- Preserve story prose, chapter titles, IDs, canonical routes, translation behaviour, and reader functionality during future maintenance.

@@ -1,6 +1,6 @@
 # Tidewritten — Project Notes & Working Rules
 
-_Last updated: 2026-10-31_
+_Last updated: 2026-11-01_
 
 This is the reference for maintaining Tidewritten. A newer, explicit task-specific instruction from the site owner takes precedence for that task. The current action list lives in [TODO.md](TODO.md); detailed QA evidence belongs in the dedicated reports.
 
@@ -92,7 +92,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Keep the shared site shell footer useful and concise; include links to the Library and the consolidated About page.
 - Keep one consolidated About page at `/about/` for the project overview, creator/maintainer information, reading guide, editorial principles, and credits/acknowledgements. Do not split these topics into separate public pages.
 - Preserve `/creator/`, `/reading-guide/`, and `/editorial/` as lightweight redirects to `/about/` so existing bookmarks and inbound links continue to work.
-- The current site visual tokens and typography inventory are documented in [Design-System.md](Design-System.md). Update that document when lasting design decisions change.
+- The current shared site color tokens and typography inventory are recorded in Section 13 below. Update this section when lasting design-system decisions change.
 - Maintain reading progress, save/restore, text-size controls, theme controls, edge fades, and previous/next volume navigation unless the owner requests a change.
 - Check desktop and mobile layouts, both themes, and touch interaction when a change can affect presentation.
 - Use meaningful heading order, accessible names, visible focus states, sufficient contrast, and reduced-motion support.
@@ -194,7 +194,7 @@ The reader associates editions by the common filename base, with translation_of 
 
 ## 12. Story presentation (Phase 5)
 
-- Follow [Phase-5-Story-Presentation-Spec.md](Phase-5-Story-Presentation-Spec.md) for cover dimensions, asset paths, front matter, localization, illustrations, accessibility, and implementation order.
+- Follow the consolidated cover and illustration standards in Section 14 below for dimensions, asset paths, front matter, localization, accessibility, and verification.
 - Extend the existing CSS-built Library series art as a graceful fallback; do not create a second Library or separate translation cards.
 - Canonical covers use portrait 2:3 artwork, target 1200 × 1800 px, WebP, and an optimization goal near 300 KB where quality permits. Use semantic HTML for title and volume lettering.
 - Store covers in `assets/images/covers/` and optional illustrations in `assets/images/illustrations/`; use stable lowercase kebab-case series/volume filenames.
@@ -204,3 +204,65 @@ The reader associates editions by the common filename base, with translation_of 
 - Author notes are optional, authored content and must be escaped as plain text. Do not invent author notes or rewrite existing story content.
 - Illustration records must include image and alt text; support captions and validated placement. If chapter-relative placement cannot be validated against real chapter IDs, use a separate supplementary gallery instead of guessing.
 - Do not mark any Phase 5 feature complete until the shared rendering, fallback behaviour, asset checks, canonical navigation, language switching, accessibility, responsive layout, and required browser QA are verified.
+
+
+## 13. Current design-system reference
+
+The shared site stylesheet is `assets/css/style.css`. Use existing CSS custom properties rather than introducing competing palettes.
+
+| Token | Dark theme | Light theme |
+|---|---|---|
+| `--bg-primary` | `#07131d` | `#f2fbfc` |
+| `--bg-secondary` | `#0a1a25` | `#e5f4f6` |
+| `--bg-card` | `#0c202b` | `#ffffff` |
+| `--bg-card-hover` | `#102b38` | `#f6feff` |
+| `--border` | `#173342` | `#d0e5e9` |
+| `--border-light` | `#244958` | `#c2dce1` |
+| `--text-primary` | `#e5f7fb` | `#102630` |
+| `--text-secondary` | `#9ab7c4` | `#496672` |
+| `--text-muted` | `#668493` | `#708b95` |
+| `--accent` | `#36e4e8` | `#087f91` |
+
+The site shell uses DM Sans, Manrope, Inter, Playfair Display, and JetBrains Mono. The reader uses Cinzel for the Tidewritten wordmark, DM Sans for controls, and Literata for story text, with Georgia/system-serif alternatives. Use sans-serif for interface elements and the selected serif for long-form prose. Keep display typography restrained.
+
+Use centered content columns, responsive side padding, consistent spacing, restrained radii/borders, clear keyboard focus, semantic landmarks, accessible names, sufficient contrast, and reduced-motion support. Practical minimum touch-target size is 44px where possible. Verify desktop, tablet, narrow mobile, and both themes when affected. Keep story text unobstructed.
+
+## 14. Story presentation and artwork standards
+
+- The Library remains one card per canonical series. Its card uses the first available canonical volume cover; translations never become separate cards or volumes.
+- Multi-volume series retain the volume chooser with per-volume thumbnails; single-volume series open directly.
+- The reader may show the current volume's cover and synopsis above chapter content without displacing the series/volume/book-title hierarchy. Story text remains primary.
+- Canonical cover art uses portrait 2:3 WebP. Source target: 1200 × 1800 px; current supplied covers may be 1024 × 1536 px where already approved. Aim for approximately 300 KB or less where quality permits; do not damage important detail to meet a byte target.
+- Store canonical covers in `assets/images/covers/` and optional illustrations in `assets/images/illustrations/`. Use lowercase kebab-case names such as `{series-slug}-vol-{number}.webp`. Use root-relative paths. Do not hotlink covers.
+- Keep title, volume number, and author lettering as semantic HTML rather than relying on text baked into artwork. Keep important subjects within a central crop-safe area.
+- Volumes in one series should share a recognizable visual language while remaining distinguishable. Do not invent scenes, characters, settings, or plot events; avoid revealing major twists.
+- Optional front matter: `cover_image`, `cover_alt`, `series_description`, `synopsis`, `author_note`, and `illustrations`. All remain optional and existing pages must continue to render when absent.
+- Put the canonical series description on the first canonical volume (normally Vol.1). Localized translations may provide localized descriptions; they do not create new Library entries.
+- Keep each volume synopsis separate from the existing tagline. Localize synopsis, series description, author note, cover alt text, and captions when supplied; otherwise use English metadata fallback.
+- Author notes must be owner/author-supplied, escaped as plain text, and never invented.
+- Illustration records require a root-relative image path and alt text; captions are optional. Initial placement may be `before-story`. Chapter-relative placement must match a real chapter ID exactly (for example `after-chapter:chapter-id`). If placement cannot be validated, use a separate supplementary gallery. Illustrations are optional and must not be added merely to fill space.
+- Missing metadata or failed images must fall back to the existing CSS-built series artwork/text-only introduction. Never show a broken-image icon or blank cover region. Reserve image layout space and preserve intrinsic ratio.
+- Meaningful images need accurate localized alt text; decorative images use empty alt text. Essential text must not exist only inside an image. Use semantic figure/figcaption where appropriate and lazy-load below-the-fold illustrations.
+- Do not change canonical routes, chapter IDs, translation mappings, reading position, or reader preference keys when changing presentation.
+
+## 15. Current repository and verified project status
+
+- Canonical English catalogue: 17 volumes across 10 series.
+- Published editions: 17 English, 17 Hinglish, and 17 Banglish story files (51 story/edition pages total).
+- Canonical cover assets: 17 WebP files in `assets/images/covers/`; all 17 canonical English volumes reference their matching cover. Seven additional Vol.2/Vol.3 covers also have matching paths and localized alt metadata in their Hinglish and Banglish editions.
+- The seven supplied additional covers were 1024 × 1536 px and approximately 181–285 KB at initial inspection. The owner subsequently confirmed that all 17 covers and the complete presentation were checked on the live site and working (owner-reported browser QA, 2026-11-01). Specific browser/device/viewport details were not recorded.
+- Phase 5 deployment evidence: GitHub Pages workflow run [#495](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41292003337) completed successfully for commit `6a3b9185c5afa5ba9d3cb252fdf3b5046f5960a1`. The tree is identical to the merged cover-metadata PR #66 tree. A successful workflow is build/deployment evidence, not independent browser QA.
+- Owner-reported browser QA for Phases 2, 3, 4, 5, and 6 is recorded as passing in the project history. Do not describe owner-reported checks as independently performed tests.
+- Phase 3 Recently updated sorting remains intentionally unavailable until trustworthy `content_updated` metadata exists.
+- Reading statistics are browser-local and are not account-synced or cross-device.
+- Optional illustration assets are not currently published; illustration support remains optional.
+- Detailed historical audit records are retained under `bin/Checks/` after the documentation consolidation. The only active Markdown files in `Checks/` are `TODO.md` and `Notes.md`.
+
+## 16. Documentation and cleanup policy
+
+- `Checks/Notes.md` is the authoritative current rules and technical reference. `Checks/TODO.md` is the concise active roadmap and completion summary.
+- Keep only `Checks/TODO.md` and `Checks/Notes.md` as active Markdown documents directly inside `Checks/`. During an explicitly requested cleanup, archive other obsolete/superseded `.md` documents under `bin/Checks/`, preserving their relative paths.
+- Do not archive a document until its durable rules, current status, and useful findings have been consolidated into Notes/TODO and its references have been checked. Preserve archived records; never permanently delete them.
+- During normal development, do not inspect or use `bin/`. During an explicit cleanup only, it may be used as an archive destination. Never use it as a temporary workspace or source of truth.
+- Keep `Instructions.txt` at repository root as the assistant's project entry instructions. It points back to Notes/TODO for current project truth; it must not become a competing technical specification.
+- The repository is authoritative over conversation memory. Fetch latest files and branch state before editing; preserve owner changes; use a focused branch and PR; do not merge without explicit owner approval.
