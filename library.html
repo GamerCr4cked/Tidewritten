@@ -122,6 +122,14 @@ permalink: /library/
   .series-card[hidden]{display:none!important}
   @media(max-width:760px){.library-filter-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media(max-width:440px){.library-filter-row{grid-template-columns:1fr}}
+  .series-bookshelf-summary{margin-top:12px;padding-top:10px;border-top:1px solid var(--lib-line);color:var(--lib-accent);font-size:11px;line-height:1.55}
+  .volume-option-row{display:grid;gap:8px;padding:10px;border:1px solid rgba(160,218,215,.13);border-radius:14px;background:rgba(255,255,255,.02)}
+  .volume-option-row .volume-option{border:0;padding:4px;background:transparent}
+  .volume-option-bookshelf{display:flex;align-items:end;gap:8px;flex-wrap:wrap;padding:0 4px 3px}
+  .volume-option-bookshelf .bookshelf-status-control{display:grid;gap:4px;color:#a1b6bf;font-size:10px}
+  .volume-option-bookshelf select{min-height:34px;max-width:175px;padding:6px 8px;border:1px solid rgba(160,218,215,.24);border-radius:8px;background:#0b1d29;color:#e9f1f2;font:inherit}
+  .bookshelf-favorite{min-height:34px;padding:6px 10px;border:1px solid rgba(160,218,215,.24);border-radius:8px;background:rgba(255,255,255,.025);color:#e9f1f2;font:600 11px "DM Sans",sans-serif;cursor:pointer}
+  .bookshelf-favorite[aria-pressed="true"]{border-color:#9ce4dc;color:#9ce4dc;background:rgba(156,228,220,.08)}
   .library-note{border:1px dashed var(--lib-line);border-radius:16px;padding:18px 20px;color:var(--lib-muted);font-size:13px;line-height:1.7;margin-top:22px}
   @media(max-width:600px){.novel-hero{border-radius:20px;padding:26px 20px}.series-card{min-height:0;padding:19px}.series-art{height:154px}.novel-section-head{align-items:start;flex-direction:column;gap:6px}.library-tools{padding:14px}.volume-dialog{width:calc(100vw - 24px);max-height:84vh}.volume-dialog-inner{padding:20px}}
   @media(prefers-reduced-motion:reduce){.series-card{transition:none;animation:none}.series-card:hover{transform:none}.art-orb,.art-detail{animation:none}}
@@ -167,9 +175,24 @@ permalink: /library/
           <option value="banglish">Banglish</option>
         </select>
       </label>
+      <label>Reading status
+        <select id="libraryBookshelfStatus">
+          <option value="">Any reading status</option>
+          <option value="want-to-read">Want to Read</option>
+          <option value="currently-reading">Currently Reading</option>
+          <option value="completed">Completed</option>
+        </select>
+      </label>
+      <label>Favorites
+        <select id="libraryFavorites">
+          <option value="">All books</option>
+          <option value="favorites">Favorites only</option>
+        </select>
+      </label>
       <label>Sort by
         <select id="librarySort">
-          <option value="title">Series name</option>
+          <option value="title">Series name (A–Z)</option>
+          <option value="title-desc">Series name (Z–A)</option>
           <option value="volumes">Volume count</option>
           {% if dated_volume_count > 0 %}<option value="updated">Recently updated</option>{% else %}<option value="updated" disabled>Recently updated (dates unavailable)</option>{% endif %}
         </select>
@@ -233,7 +256,7 @@ permalink: /library/
             <span>{% if volume_count == 1 %}One volume{% else %}{{ volume_count }} volumes{% endif %}</span>
             <strong>{% if volume_count == 1 %}Read story →{% else %}Choose a volume →{% endif %}</strong>
           </div>
-          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"coverImage":{{ volume_page.cover_image | relative_url | jsonify }},"coverAlt":{{ volume_page.cover_alt | default: "" | jsonify }},"synopsis":{{ volume_page.synopsis | default: "" | jsonify }},"contentUpdated":{{ volume_page.content_updated | default: nil | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+          <script type="application/json" class="volume-data">[{% for volume_page in volumes %}{% assign editions = site.pages | where: "translation_of", volume_page.url %}{"number":{{ volume_page.volume | jsonify }},"title":{{ volume_page.title | jsonify }},"url":{{ volume_page.url | relative_url | jsonify }},"path":{{ volume_page.url | relative_url | jsonify }},"genres":{{ volume_page.genre | jsonify }},"coverImage":{{ volume_page.cover_image | relative_url | jsonify }},"coverAlt":{{ volume_page.cover_alt | default: "" | jsonify }},"synopsis":{{ volume_page.synopsis | default: "" | jsonify }},"contentUpdated":{{ volume_page.content_updated | default: nil | jsonify }},"languages":["English"{% for edition in editions %}{% if edition.language_label %},{{ edition.language_label | jsonify }}{% endif %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
       {% if volume_count == 1 %}
         </a>
       {% else %}
@@ -250,10 +273,14 @@ permalink: /library/
   </dialog>
 
   <p class="library-empty" id="libraryEmpty" role="status" aria-live="polite" hidden>No series match these search and filter settings. Try changing a filter or clearing your search.</p>
-  <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume. Edition filters reflect translations currently published for each volume.</div>
+  <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume. Edition filters reflect translations currently published for each volume. Reading status and favorites are saved only in this browser profile; they are not synced across devices.</div><p class="library-empty" id="bookshelfUnavailable" role="status" hidden>Bookshelf storage is unavailable or contains unreadable data. Existing data has been left untouched.</p>
 </div></div>
+<script src="{{ '/assets/js/bookshelf.js' | relative_url }}"></script>
 <script>
 (() => {
+  const bookshelf = window.TidewrittenBookshelf;
+  const bookshelfUnavailable = document.getElementById("bookshelfUnavailable");
+  if (bookshelfUnavailable && bookshelf) bookshelfUnavailable.hidden = bookshelf.writable;
   const grid = document.getElementById("seriesGrid");
   const cards = Array.from(grid?.querySelectorAll(".series-card") || []);
   cards.forEach(card => {
@@ -265,6 +292,8 @@ permalink: /library/
   const status = document.getElementById("libraryStatus");
   const language = document.getElementById("libraryLanguage");
   const sort = document.getElementById("librarySort");
+  const shelfStatus = document.getElementById("libraryBookshelfStatus");
+  const favorites = document.getElementById("libraryFavorites");
   const count = document.getElementById("libraryResultCount");
   const empty = document.getElementById("libraryEmpty");
   const reset = document.getElementById("libraryReset");
@@ -281,10 +310,33 @@ permalink: /library/
     genre.append(option);
   });
 
-  const editionsFor = card => {
-    try { return JSON.parse(card.querySelector(".volume-data")?.textContent || "[]").flatMap(volume => volume.languages || ["English"]); }
-    catch (error) { return ["English"]; }
+  const volumesFor = card => {
+    try { return JSON.parse(card.querySelector(".volume-data")?.textContent || "[]"); }
+    catch (error) { return []; }
   };
+  const editionsFor = card => volumesFor(card).flatMap(volume => volume.languages || ["English"]);
+  const pathsFor = card => volumesFor(card).map(volume => volume.path || volume.url).filter(Boolean);
+  const renderBookshelfSummary = card => {
+    if (!bookshelf) return;
+    let summary = card.querySelector(".series-bookshelf-summary");
+    if (!summary) {
+      summary = document.createElement("div");
+      summary.className = "series-bookshelf-summary";
+      card.append(summary);
+    }
+    const state = bookshelf.summary(pathsFor(card));
+    const parts = [];
+    if (state.counts["currently-reading"]) parts.push(state.counts["currently-reading"] + " currently reading");
+    if (state.counts["want-to-read"]) parts.push(state.counts["want-to-read"] + " want to read");
+    if (state.counts.completed) parts.push(state.counts.completed + " completed");
+    if (state.favorites) parts.push(state.favorites + (state.favorites === 1 ? " favorite" : " favorites"));
+    summary.textContent = parts.length ? parts.join(" · ") : "Not yet on your bookshelf";
+  };
+  cards.forEach(renderBookshelfSummary);
+  document.addEventListener("tidewritten:bookshelf-change", () => {
+    cards.forEach(renderBookshelfSummary);
+    applyFilters();
+  });
   const applyFilters = () => {
     const query = search.value.trim().toLocaleLowerCase();
     let visible = 0;
@@ -296,10 +348,14 @@ permalink: /library/
         .map(value => value.trim().toLocaleLowerCase())
         .filter(Boolean);
       const languages = editionsFor(card).map(value => value.toLocaleLowerCase());
+      const bookRecords = pathsFor(card).map(path => bookshelf ? bookshelf.get(path) : { status: null, favorite: false });
+      const matchesShelfStatus = !shelfStatus.value || bookRecords.some(record => record.status === shelfStatus.value);
+      const matchesFavorites = favorites.value !== "favorites" || bookRecords.some(record => record.favorite);
       const matches = (!query || text.includes(query))
         && (!genre.value || genres.includes(genre.value))
         && (!status.value || card.dataset.status === status.value)
-        && (!language.value || languages.includes(language.value));
+        && (!language.value || languages.includes(language.value))
+        && matchesShelfStatus && matchesFavorites;
       card.hidden = !matches;
       if (matches) visible++;
     });
@@ -324,14 +380,15 @@ permalink: /library/
       if (sort.value === "updated") {
         return latestContentUpdate(b)-latestContentUpdate(a) || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
       }
+      if (sort.value === "title-desc") return b.dataset.seriesName.localeCompare(a.dataset.seriesName);
       return a.dataset.seriesName.localeCompare(b.dataset.seriesName);
     });
     sorted.forEach(card => grid.append(card));
   };
-  [search,genre,status,language].forEach(control => control.addEventListener(control === search ? "input" : "change",applyFilters));
+  [search,genre,status,language,shelfStatus,favorites].forEach(control => control.addEventListener(control === search ? "input" : "change",applyFilters));
   sort.addEventListener("change",sortCards);
   reset.addEventListener("click",() => {
-    search.value = ""; genre.value = ""; status.value = ""; language.value = ""; sort.value = "title";
+    search.value = ""; genre.value = ""; status.value = ""; language.value = ""; shelfStatus.value = ""; favorites.value = ""; sort.value = "title";
     sortCards(); applyFilters(); search.focus();
   });
   applyFilters();
@@ -369,6 +426,8 @@ permalink: /library/
       description.textContent = card.querySelector("h3")?.textContent.trim() || "Select a volume";
       options.replaceChildren();
       volumes.forEach(volume => {
+        const row = document.createElement("div");
+        row.className = "volume-option-row";
         const option = document.createElement("a");
         option.className = "volume-option";
         option.href = volume.url;
@@ -409,7 +468,14 @@ permalink: /library/
           copy.append(synopsis);
         }
         option.append(copy);
-        options.append(option);
+        row.append(option);
+        if (bookshelf && volume.path) {
+          const controls = document.createElement("div");
+          controls.className = "volume-option-bookshelf";
+          controls.append(bookshelf.makeStatusControl(volume.path, volume.title), bookshelf.makeFavoriteButton(volume.path));
+          row.append(controls);
+        }
+        options.append(row);
       });
       if (typeof dialog.showModal === "function") {
         card.setAttribute("aria-expanded", "true");

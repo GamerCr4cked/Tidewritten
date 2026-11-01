@@ -97,6 +97,18 @@
     .volume-number{margin:0 auto;color:var(--muted);font-family:"DM Sans",sans-serif;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.title-divider{display:flex;align-items:center;justify-content:center;gap:13px;width:min(230px,55%);margin:19px auto 17px;color:var(--accent);font-size:20px;line-height:1}.title-divider::before,.title-divider::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--accent))}.title-divider::after{background:linear-gradient(90deg,var(--accent),transparent)}.book-title{max-width:620px;margin:0 auto 12px;color:var(--accent);font-family:"Literata",Georgia,serif;font-size:clamp(17px,2.5vw,22px);font-weight:500;letter-spacing:.015em}
     .tagline{max-width:620px;margin:0 auto;color:#b4c5ce;font-family:"Literata",serif;font-size:clamp(17px,2.4vw,21px);font-style:italic}
     .hero-rule{width:72px;height:1px;background:var(--accent);margin:30px auto 0;opacity:.8}
+    .reader-bookshelf{max-width:760px;margin:0 auto 22px;padding:15px 18px;border:1px solid var(--line);border-radius:14px;background:color-mix(in srgb,var(--panel) 58%,transparent)}
+    .reader-bookshelf-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+    .reader-bookshelf-heading strong{color:var(--accent);font-size:12px;letter-spacing:.04em}
+    .reader-bookshelf-heading span,.reader-bookshelf-note{color:var(--muted);font-size:11px}
+    .reader-bookshelf-controls{display:flex;align-items:end;gap:10px;flex-wrap:wrap}
+    .reader-bookshelf .bookshelf-status-control{display:grid;gap:5px;color:var(--muted);font-size:11px}
+    .reader-bookshelf select{min-height:38px;padding:7px 10px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font:inherit}
+    .reader-bookshelf .bookshelf-favorite{min-height:38px;padding:7px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font:600 12px "DM Sans",sans-serif;cursor:pointer}
+    .reader-bookshelf .bookshelf-favorite[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-subtle)}
+    .reader-bookshelf-note{margin:9px 0 0;line-height:1.5}
+    .reader-bookshelf-unavailable{margin:8px 0 0;color:#d5a66d;font-size:11px}
+    @media(max-width:600px){.reader-bookshelf{padding:13px}.reader-bookshelf-heading{align-items:flex-start;flex-direction:column;gap:3px}}
     .volume-introduction{display:grid;grid-template-columns:minmax(110px,168px) minmax(0,1fr);align-items:start;gap:26px;max-width:760px;margin:0 auto 48px;padding:22px;border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--panel) 62%,transparent)}
     .volume-introduction.no-cover{grid-template-columns:minmax(0,1fr)}
     .volume-introduction[hidden],.author-note-section[hidden]{display:none}
@@ -272,6 +284,12 @@
   </section>
 
   <main class="reader-shell">
+    <section class="reader-bookshelf" id="readerBookshelf" data-bookshelf-path="{{ original_story_url | relative_url }}" aria-label="Personal bookshelf">
+      <div class="reader-bookshelf-heading"><strong>My Bookshelf</strong><span>Saved only in this browser</span></div>
+      <div class="reader-bookshelf-controls" id="readerBookshelfControls"></div>
+      <p class="reader-bookshelf-note">Your reading status and favorites stay in this browser profile. They are not synced across devices.</p>
+      <p class="reader-bookshelf-unavailable" id="readerBookshelfUnavailable" hidden>Bookshelf storage is unavailable or contains unreadable data. Existing data has been left untouched.</p>
+    </section>
     <div class="volume-note">{{ page.genre | escape }} <span aria-hidden="true">·</span> {{ page.reading_note | default: "A light-novel edition" | escape }}</div>
     <section class="volume-introduction{% unless page.cover_image %} no-cover{% endunless %}" id="volumeIntroduction" aria-label="Volume introduction" hidden>
       {% if page.cover_image %}
@@ -306,8 +324,17 @@
     <div class="endnote"><div class="end-mark">End of Volume {{ page.volume }}</div><p>{{ page.closing_note | default: "End of volume." | escape }}</p></div>
   </main>
   <footer class="footer">Tidewritten · Light novels and original stories.</footer>
+  <script src="{{ '/assets/js/bookshelf.js' | relative_url }}"></script>
   <script>
     (() => {
+      const bookshelfPanel = document.getElementById("readerBookshelf");
+      if (bookshelfPanel && window.TidewrittenBookshelf) {
+        const bookshelf = window.TidewrittenBookshelf;
+        const controls = document.getElementById("readerBookshelfControls");
+        const path = bookshelfPanel.dataset.bookshelfPath;
+        controls.append(bookshelf.makeStatusControl(path, document.title.replace(" | Tidewritten", "")), bookshelf.makeFavoriteButton(path));
+        document.getElementById("readerBookshelfUnavailable").hidden = bookshelf.writable;
+      }
       const root = document.documentElement;
       const themeButton = document.getElementById("themeToggle");
     // Language menus are separate from the mobile reader-controls dropdown.
