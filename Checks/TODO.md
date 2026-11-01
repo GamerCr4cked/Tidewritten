@@ -56,7 +56,8 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Remove the primary-hover media-query gate from pointer listeners.
 - [x] Add CSS `:hover` expansion as a fallback alongside pointer-state expansion.
 - [x] Keep keyboard focus expansion and touch-first tap-to-expand behavior.
-- [ ] Owner browser QA: verify desktop hover expands without navigation, Continue reading opens the saved volume, keyboard focus works, and touch first tap expands before the second tap navigates.
+- [x] Remove the touch-device click interceptor so Continue reading navigates on its first activation.
+- [ ] Owner browser QA: verify desktop hover expands without navigation, one click on Continue reading opens the saved volume, keyboard activation works, and one tap on the compact touch launcher opens the saved volume.
 
 ### 7.2 — Library improvements
 
