@@ -51,6 +51,13 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Add homepage width containment without changing browser zoom or scaling the design.
 - [ ] Owner browser QA: confirm no horizontal page scroll at 100% zoom; verify Bookshelf navigation, saved-volume links, filters, and empty states at desktop/mobile widths and both themes.
 
+### 7.1 follow-up — Reading-record hover interaction
+
+- [x] Remove the primary-hover media-query gate from pointer listeners.
+- [x] Add CSS `:hover` expansion as a fallback alongside pointer-state expansion.
+- [x] Keep keyboard focus expansion and touch-first tap-to-expand behavior.
+- [ ] Owner browser QA: verify desktop hover expands without navigation, Continue reading opens the saved volume, keyboard focus works, and touch first tap expands before the second tap navigates.
+
 ### 7.2 — Library improvements
 
 - [ ] Inspect and refine the existing Library search and genre, publication-status, and available-edition filters; preserve their current correct behaviour.
