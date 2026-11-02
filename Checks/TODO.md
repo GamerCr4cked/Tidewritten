@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. **Phase 7.2 — Library Improvements is complete.** Its implementation is merged, the GitHub Pages build and deployment succeeded for commit `28ed0be5659be13df3b3b20ea77953d060fe310a`, and the owner confirmed rendered-browser QA passed on 2026-11-02. Phase 7.3 — Story Presentation Improvements is being implemented on `feature/phase-7-3-story-presentation`; shared-reader and metadata-fallback changes are complete in the branch, with build and rendered-browser QA pending.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. **Phase 7.2 — Library Improvements is complete.** Its implementation is merged, the GitHub Pages build and deployment succeeded for commit `28ed0be5659be13df3b3b20ea77953d060fe310a`, and the owner confirmed rendered-browser QA passed on 2026-11-02. **Phase 7.3 — Story Presentation Improvements is implemented, merged, and deployed.** GitHub Pages build and deployment succeeded for commit `0a5c05ca1c356a04891f99f599ae265a1d549222` (workflow run [#509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078)). Owner-reported rendered-browser QA remains pending.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -112,7 +112,16 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - Existing reading controls and story markup are preserved; rendered obstruction checks remain pending.
 - Both themes, responsive layouts, keyboard/touch operation, reduced motion, and navigation require owner-reported rendered-browser QA.
 
-**Implementation status:** Shared-reader source changes are complete in the feature branch. The catalogue audit confirmed all 10 series descriptions and all 17 canonical volume synopses already exist; those authored fields were preserved. The reader now reuses the canonical series description across all volumes, resolves localized metadata first and canonical English metadata as fallback (including direct translation-page visits), and places volume information before bookshelf actions and story content. No story files, author notes, or unapproved illustrations were added. Static source assertions passed for canonical page/series lookups, localized and English fallbacks, reader information order, cover failure fallback, and unchanged story/translation files. The GitHub Pages build and rendered-browser QA remain pending and must be recorded separately.
+**Owner browser QA still required**
+- [ ] Open Volume 1, Volume 2, and Volume 3 in multi-volume series; confirm the series description stays consistent and the volume synopsis changes appropriately.
+- [ ] Open English, Hinglish, and Banglish editions directly; confirm localized metadata takes priority and missing localized fields use the canonical English fallback.
+- [ ] Switch languages in place and confirm the current chapter, approximate scroll position, canonical URL, and reader preferences remain intact.
+- [ ] Check cover loading and fallback behaviour, including a blocked/missing cover; verify there is no broken-image icon or empty cover gap.
+- [ ] Check the information card and bookshelf controls at desktop, tablet, and mobile widths in both themes; ensure reader controls do not cover story text.
+- [ ] Test keyboard and touch operation, reduced motion, previous/next navigation, and the existing reader controls.
+- [ ] Confirm volumes without optional illustrations or author notes render without empty sections or blank spacing.
+
+**Implementation status:** Complete, merged, and deployed. The catalogue audit confirmed all 10 series descriptions and all 17 canonical volume synopses already exist; those authored fields were preserved. The reader now reuses the canonical series description across all volumes, resolves localized metadata first and canonical English metadata as fallback (including direct translation-page visits), and places volume information before bookshelf actions and story content. No story files, translations, author notes, or unapproved illustrations were changed or added. Static source assertions passed. GitHub Pages build and deployment succeeded for merge commit `0a5c05ca1c356a04891f99f599ae265a1d549222` in [workflow run #509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078). Owner-reported rendered-browser QA remains pending.
 
 ### Phase 7 final verification
 
