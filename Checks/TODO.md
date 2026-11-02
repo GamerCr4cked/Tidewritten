@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. Phase 7.2 — Library Improvements is implemented and merged; the GitHub Pages Jekyll build and deployment succeeded for implementation commit `28ed0be5659be13df3b3b20ea77953d060fe310a`. Rendered-browser QA remains pending. Phase 7.3 — Story Presentation Improvements is upcoming.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. **Phase 7.2 — Library Improvements is complete.** Its implementation is merged, the GitHub Pages build and deployment succeeded for commit `28ed0be5659be13df3b3b20ea77953d060fe310a`, and the owner confirmed rendered-browser QA passed on 2026-11-02. Phase 7.3 — Story Presentation Improvements is next.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -78,21 +78,21 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Correct publication-status classification: only explicitly identified single-volume standalone works receive **Standalone**; **Completed** requires final-volume metadata or an identity-defined complete volume count. Unknown remains **Status not set**.
 
 **Acceptance checks**
-- [ ] Search, filters, sorting, and bookshelf filters work together in rendered-browser testing.
+- [x] Owner-confirmed rendered-browser QA (2026-11-02): search, filters, sorting, and bookshelf filters work together.
 - [x] Translations remain editions of canonical volumes, not separate series/cards (10 canonical series, 17 English volumes, and 17 matching editions in each translation language).
 - [x] Series with mixed volume statuses are represented as per-volume counts; publication status is not inferred from an incomplete catalogue count.
 - [x] Existing genre vocabulary and exact English/translation genre metadata matches, publication-status rules, canonical routes, and volume navigation pass source/metadata inspection.
-- [ ] Desktop, tablet, and mobile layouts remain clear and keyboard accessible in rendered-browser testing.
+- [x] Owner-confirmed rendered-browser QA (2026-11-02): desktop, tablet, and mobile layouts, both themes, keyboard operation, and volume-chooser focus behaviour passed.
 
-**Implementation status:** Source changes and catalogue metadata audit are complete. Static source assertions pass. The GitHub Pages Jekyll build and deployment succeeded for merge commit `28ed0be5659be13df3b3b20ea77953d060fe310a`; owner-reported rendered-browser QA remains pending. Record it separately before closing 7.2.
+**Implementation status:** Complete. Source changes, catalogue metadata audit, static source assertions, and the GitHub Pages Jekyll build/deployment succeeded for merge commit `28ed0be5659be13df3b3b20ea77953d060fe310a`. The owner confirmed rendered-browser QA passed on 2026-11-02. This is owner-reported QA, not an independently performed browser session.
 
-**Owner browser QA still required**
-- [ ] Search by series name, volume title, and synopsis; verify unrelated card labels do not produce matches.
-- [ ] Combine genre, publication status, available edition, reading status, favorites, search, and sorting.
-- [ ] Verify A–Z/Z–A ordering and volume-count sorting.
-- [ ] Verify mixed per-volume status/favorite summaries update immediately after changing a volume in the chooser.
-- [ ] Confirm Prismat displays **Status not set**, standalone novels remain **Standalone**, and the completed trilogy/final-volume series remain **Completed**.
-- [ ] Check the Library at desktop, tablet, and mobile widths in both themes; test keyboard operation and focus return for the volume chooser.
+**Owner browser QA — passed (2026-11-02; owner-reported, not independently performed)**
+- [x] Search by series name, volume title, and synopsis; unrelated card labels do not produce matches.
+- [x] Combined genre, publication status, available edition, reading status, favorites, search, and sorting.
+- [x] A–Z/Z–A ordering and volume-count sorting.
+- [x] Mixed per-volume status/favorite summaries update immediately after changing a volume in the chooser.
+- [x] Prismat displays **Status not set**, standalone novels remain **Standalone**, and the completed trilogy/final-volume series remain **Completed**.
+- [x] Library checked at desktop, tablet, and mobile widths in both themes; keyboard operation and focus return for the volume chooser passed.
 
 ### 7.3 — Story presentation improvements
 
