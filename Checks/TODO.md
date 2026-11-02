@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. **Phase 7.2 — Library Improvements is complete.** Its implementation is merged, the GitHub Pages build and deployment succeeded for commit `28ed0be5659be13df3b3b20ea77953d060fe310a`, and the owner confirmed rendered-browser QA passed on 2026-11-02. Phase 7.3 — Story Presentation Improvements is next.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. **Phase 7.2 — Library Improvements is complete.** Its implementation is merged, the GitHub Pages build and deployment succeeded for commit `28ed0be5659be13df3b3b20ea77953d060fe310a`, and the owner confirmed rendered-browser QA passed on 2026-11-02. Phase 7.3 — Story Presentation Improvements is being implemented on `feature/phase-7-3-story-presentation`; shared-reader and metadata-fallback changes are complete in the branch, with build and rendered-browser QA pending.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -96,21 +96,23 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 ### 7.3 — Story presentation improvements
 
-- [ ] Review and refine the existing shared reader presentation rather than creating a second reader.
-- [ ] Improve the hierarchy and presentation of series descriptions, volume introductions/synopses, cover art, and optional metadata.
-- [ ] Keep story text primary and preserve the established light-novel reading experience.
-- [ ] Add optional chapter illustrations or a supplementary gallery only when approved assets, accurate alt text, and captions are available.
-- [ ] Validate every image path and any chapter-relative placement against real chapter IDs; use a supplementary gallery if placement cannot be verified.
-- [ ] Ensure missing metadata and failed optional images fall back cleanly to existing CSS artwork/text-only presentation.
-- [ ] Localize presentation metadata when translated copy exists, with the established English fallback otherwise.
-- [ ] Preserve story prose, original chapter titles, IDs, translation mappings, canonical URLs, reading position, progress, statistics, and reader preferences.
+- [x] Refine the existing shared reader presentation; no parallel reader was introduced.
+- [x] Audit and preserve all 10 existing series descriptions and 17 volume synopses; refine the introduction hierarchy, typography, and reading order.
+- [x] Keep story text primary and preserve the established light-novel reading experience.
+- [x] Keep illustration support optional; no illustration assets were supplied or invented, so no gallery content was added.
+- [x] Preserve strict illustration path checks and exact chapter-ID placement validation, with supplementary-gallery fallback for unmatched placements.
+- [x] Resolve canonical English presentation metadata for all editions and retain CSS cover/text fallbacks for missing or failed assets.
+- [x] Prefer localized metadata when present and use canonical English metadata as fallback, including direct translation-page visits.
+- [x] Preserve story prose, original chapter titles, IDs, translation mappings, canonical URLs, reading position, progress, statistics, and reader preferences.
 
 **Acceptance checks**
-- Existing volumes without optional metadata render correctly.
-- No broken-image icons, blank cover regions, invented author notes, or unapproved artwork.
-- Reader hierarchy remains consistent across English, Hinglish, and Banglish.
-- Reading controls do not obstruct story text.
-- Both themes, responsive layouts, keyboard/touch operation, reduced motion, and navigation are checked.
+- Existing volumes without optional metadata render correctly (source-level fallback checks passed; rendered QA pending).
+- No broken-image icons or blank cover regions are introduced by the fallback implementation; no author notes or unapproved artwork were added (rendered QA pending).
+- Reader hierarchy and canonical metadata fallback are consistent by shared-layout source inspection across English, Hinglish, and Banglish (rendered QA pending).
+- Existing reading controls and story markup are preserved; rendered obstruction checks remain pending.
+- Both themes, responsive layouts, keyboard/touch operation, reduced motion, and navigation require owner-reported rendered-browser QA.
+
+**Implementation status:** Shared-reader source changes are complete in the feature branch. The catalogue audit confirmed all 10 series descriptions and all 17 canonical volume synopses already exist; those authored fields were preserved. The reader now reuses the canonical series description across all volumes, resolves localized metadata first and canonical English metadata as fallback (including direct translation-page visits), and places volume information before bookshelf actions and story content. No story files, author notes, or unapproved illustrations were added. Static source assertions passed for canonical page/series lookups, localized and English fallbacks, reader information order, cover failure fallback, and unchanged story/translation files. The GitHub Pages build and rendered-browser QA remain pending and must be recorded separately.
 
 ### Phase 7 final verification
 
