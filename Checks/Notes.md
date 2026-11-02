@@ -1,6 +1,6 @@
 # Tidewritten — Project Notes & Working Rules
 
-_Last updated: 2026-11-01_
+_Last updated: 2026-11-02_
 
 This is the reference for maintaining Tidewritten. A newer, explicit task-specific instruction from the site owner takes precedence for that task. The current action list lives in [TODO.md](TODO.md); detailed QA evidence belongs in the dedicated reports.
 
@@ -114,15 +114,20 @@ The reader associates editions by the common filename base, with translation_of 
 - Use the same genre labels and capitalization everywhere; separate multiple genres with the middle dot (·). Keep each volume's classifications specific to its actual story.
 - Translation editions must mirror the matching English volume's genre metadata exactly; translations do not define separate Library genres.
 - The Library genre filter must compare complete normalized genre labels, not substring matches, so one genre cannot accidentally match part of another.
+- The Library search index is built from canonical series names, volume book titles/titles, synopses, taglines, and series descriptions. Exclude interface labels, volume-control text, serialized metadata, and browser-local bookshelf summaries from search matching.
+- Title sorting uses an English-locale, case-insensitive, numeric-aware comparison. Volume-count and recency sorts use the series title as a deterministic tie-breaker.
+- Derive available edition filters from translation pages mapped through `translation_of`; use their `language_label` values and do not assume an edition exists.
+- Bookshelf status and favorite filters match a series when at least one of its canonical volumes matches. Series-card summaries count each volume by reading status and count favorites independently; hide the summary when no volume has a saved status or favorite.
+- Publication status is **Standalone** only when a single-volume entry's source metadata explicitly identifies it as standalone. Mark a series **Completed** only when a volume's source metadata identifies a final volume or the series identity explicitly defines its complete volume count (for example, a three-volume Trilogy). Otherwise show **Status not set**; never infer standalone/completion merely from the currently published volume count.
 - Use one CSS-built cover artwork per canonical series card; do not create cover entries for translation editions. Each series should have a distinct visual treatment, while the series title remains available as normal text outside the decorative artwork.
 - `content_updated` is optional canonical-volume front matter in ISO `YYYY-MM-DD` format. Set it only when the story content itself is meaningfully updated. Do not infer it from filename changes, bulk commits, translation metadata, genre edits, formatting-only maintenance, or build/deployment dates. The Library's Recently updated sort must remain disabled until at least one trustworthy date exists; for a series, use the newest dated volume. Never fabricate update dates.
 - Library multi-volume cards must remain keyboard-operable as buttons (Enter/Space), announce their dialog relationship and expanded state, move focus into the volume chooser, and return focus to the invoking card when the chooser closes. Keep tap targets at least 44px where practical and preserve responsive single-column layouts on narrow screens.
 
 - Keep the catalogue series-based; translations must not become independent Library cards or volumes.
-- Build the Library search and filters from canonical English series/volume metadata.
-- Derive available edition filters from translation pages mapped through `translation_of`; do not assume an edition exists.
-- Show a completed status only when the source metadata identifies a final volume or the series identity explicitly defines its complete volume count. Use “Status not set” when publication status is unknown; do not label unknown series as ongoing.
-- Do not expose “recently updated” sorting based on the bulk filename-standardization commit timestamp. Add explicit, maintained content-update metadata before presenting update recency to readers.
+- Build the Library search and filters from canonical English series/volume metadata, with the focused search-index fields defined above.
+- Derive available edition filters from translation pages mapped through `translation_of`; use each matching edition's `language_label`.
+- Apply the explicit standalone/final-volume/known-complete-count rules above; otherwise display “Status not set”.
+- Keep Recently Updated disabled while no trustworthy `content_updated` metadata exists. Never use bulk commit timestamps as story-update dates.
 
 ## 7. Page titles, navigation, chapter titles, and links
 
