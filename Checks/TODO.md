@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. The owner confirmed all 7.1 functionality and browser-QA items on 2026-11-01. Phase 7.2 and 7.3 remain upcoming.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. Phase 7.2 — Library Improvements is now in implementation/verification; rendered-browser QA and the GitHub Pages build remain pending. Phase 7.3 — Story Presentation Improvements is upcoming.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
