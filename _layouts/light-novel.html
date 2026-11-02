@@ -59,7 +59,6 @@
     .reader-settings-grid{display:grid;gap:8px;padding:10px 2px 2px}
     .reader-settings-text-size{grid-column:1/-1;display:grid;gap:6px;padding:4px 0}
     .reader-settings-text-size .tool-buttons{margin-top:0}
-    .reader-settings-text-size .reset-row{margin-top:0}
     .reader-settings-grid label{display:grid;gap:4px;color:var(--muted);font-size:10px;font-weight:600}
     .reader-settings-grid select{width:100%;min-width:0;min-height:32px;padding:5px 7px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:500 11px "DM Sans",sans-serif}
     .reader-settings-grid select option{background-color:var(--panel);color:var(--text)}
@@ -235,7 +234,6 @@
       <div class="reader-settings-grid">
         <label>Reader theme<select data-reader-pref="theme"><option value="ocean">Ocean</option><option value="midnight">Midnight</option><option value="pearl">Pearl</option></select></label>
         <label>Accent color<input type="color" data-reader-pref="accent" value="#8edbd4" aria-label="Choose accent color"></label>
-        <label>Story font<select data-reader-pref="font"><option value="literata">Literata</option><option value="georgia">Georgia</option><option value="system">System serif</option></select></label>
         <label>Line spacing<select data-reader-pref="line"><option value="1.7">Compact</option><option value="1.85">Comfortable</option><option value="1.95">Default</option><option value="2.15">Relaxed</option></select></label>
         <label>Reading width<select data-reader-pref="width"><option value="640">Narrow</option><option value="720">Default</option><option value="820">Wide</option><option value="920">Extra wide</option></select></label>
         <div class="reader-settings-text-size">
@@ -244,9 +242,8 @@
             <button type="button" id="larger" aria-label="Increase text size" title="Increase text size">A+</button>
             <button type="button" id="smaller" aria-label="Decrease text size" title="Decrease text size">A−</button>
           </div>
-          <div class="reset-row"><button type="button" id="reset" aria-label="Reset text size" title="Reset text size">Reset</button></div>
         </div>
-        <button class="reader-settings-reset" type="button" data-reader-reset>Reset appearance</button>
+        <button class="reader-settings-reset" type="button" data-reader-reset aria-label="Reset all reader settings" title="Reset all reader settings">Reset all</button>
       </div>
     </details>
     <div class="panel-divider"></div>
@@ -273,15 +270,13 @@
         <div class="reader-settings-grid">
           <label>Reader theme<select data-reader-pref="theme"><option value="ocean">Ocean</option><option value="midnight">Midnight</option><option value="pearl">Pearl</option></select></label>
           <label>Accent color<input type="color" data-reader-pref="accent" value="#8edbd4" aria-label="Choose accent color"></label>
-          <label>Story font<select data-reader-pref="font"><option value="literata">Literata</option><option value="georgia">Georgia</option><option value="system">System serif</option></select></label>
           <label>Line spacing<select data-reader-pref="line"><option value="1.7">Compact</option><option value="1.85">Comfortable</option><option value="1.95">Default</option><option value="2.15">Relaxed</option></select></label>
           <label>Reading width<select data-reader-pref="width"><option value="640">Narrow</option><option value="720">Default</option><option value="820">Wide</option><option value="920">Extra wide</option></select></label>
           <div class="reader-settings-text-size">
             <div class="text-size-label">Text size</div>
             <div class="tool-buttons"><button type="button" id="mobileLarger" aria-label="Increase text size">A+</button><button type="button" id="mobileSmaller" aria-label="Decrease text size">A−</button></div>
-            <div class="reset-row"><button type="button" id="mobileReset" aria-label="Reset text size">Reset</button></div>
           </div>
-          <button class="reader-settings-reset" type="button" data-reader-reset>Reset appearance</button>
+          <button class="reader-settings-reset" type="button" data-reader-reset aria-label="Reset all reader settings" title="Reset all reader settings">Reset all</button>
         </div>
       </details>
       <div class="reading-progress"><div class="progress-label"><span>Reading progress</span><span class="reading-percentage" id="mobileReadingPercentage">0%</span></div><div class="progress-track" aria-hidden="true"><div class="progress-fill" id="mobileReadingProgressFill"></div></div></div>
@@ -622,15 +617,13 @@
       paintTheme();
       themeButton.addEventListener("click", () => { const light = root.getAttribute("data-theme") === "light"; root.setAttribute("data-theme", light ? "dark" : "light"); localStorage.setItem("theme", light ? "dark" : "light"); paintTheme(); if (typeof applyReaderPreferences === "function") applyReaderPreferences(readerPreferences); });
       const readerPreferenceKey = "tidewritten-reader-preferences-v1";
-      const defaultReaderPreferences = { theme: "ocean", accent: "default", font: "literata", line: "1.95", width: "720" };
+      const defaultReaderPreferences = { theme: "ocean", accent: "default", line: "1.95", width: "720" };
       const readerPreferenceOptions = {
         theme: ["ocean", "midnight", "pearl"],
-        font: ["literata", "georgia", "system"],
         line: ["1.7", "1.85", "1.95", "2.15"],
         width: ["640", "720", "820", "920"]
       };
       const defaultAccents = { ocean: { dark: "#8edbd4", light: "#087f91" }, midnight: { dark: "#a8b9ff", light: "#536fc4" }, pearl: { dark: "#e6bd79", light: "#9b6d2e" } };
-      const readerFonts = { literata: '"Literata",Georgia,serif', georgia: 'Georgia,"Times New Roman",serif', system: 'ui-serif,Georgia,serif' };
       const preferenceControls = Array.from(document.querySelectorAll("[data-reader-pref]"));
       const validAccent = value => /^#[0-9a-f]{6}$/i.test(value);
       const parseHexColor = value => {
@@ -671,7 +664,6 @@
         root.setAttribute("data-reader-theme", preferences.theme);
         if (preferences.accent === "default") { root.style.removeProperty("--accent"); root.style.removeProperty("--accent-subtle"); }
         else { const readableAccent = accentWithReadableContrast(preferences.accent); root.style.setProperty("--accent", readableAccent); root.style.setProperty("--accent-subtle", "color-mix(in srgb," + readableAccent + " 13%,transparent)"); }
-        root.style.setProperty("--reader-font-family", readerFonts[preferences.font]);
         root.style.setProperty("--reader-line-height", preferences.line);
         root.style.setProperty("--measure", preferences.width + "px");
         syncPreferenceControls(preferences);
@@ -701,19 +693,19 @@
         applyReaderPreferences(readerPreferences);
         saveReaderPreferences(readerPreferences);
       }));
+      const key = "tidewritten-reader-size";
+      let size = Number(localStorage.getItem(key)) || 19;
+      const apply = () => { size = Math.max(16, Math.min(25, size)); root.style.setProperty("--reader-size", size + "px"); localStorage.setItem(key, String(size)); };
       document.querySelectorAll("[data-reader-reset]").forEach(button => button.addEventListener("click", () => {
         readerPreferences = { ...defaultReaderPreferences };
         applyReaderPreferences(readerPreferences);
         saveReaderPreferences(readerPreferences);
+        size = 19;
+        apply();
       }));
-
-      const key = "tidewritten-reader-size";
-      let size = Number(localStorage.getItem(key)) || 19;
-      const apply = () => { size = Math.max(16, Math.min(25, size)); root.style.setProperty("--reader-size", size + "px"); localStorage.setItem(key, String(size)); };
       const changeSize = delta => { size += delta; apply(); };
       ["larger","mobileLarger"].forEach(id => document.getElementById(id).addEventListener("click", () => changeSize(1)));
       ["smaller","mobileSmaller"].forEach(id => document.getElementById(id).addEventListener("click", () => changeSize(-1)));
-      ["reset","mobileReset"].forEach(id => document.getElementById(id).addEventListener("click", () => { size = 19; apply(); }));
       apply();
       const progressKey = "tidewritten-reading-progress-v1";
       // Phase 4 reading statistics are stored separately from reader preferences.
