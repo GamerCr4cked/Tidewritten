@@ -15,6 +15,12 @@ Phase 7 combines the next three improvements into one milestone:
 
 Estimated effort: approximately **5–9 focused development days**, plus owner review and any revisions. This is an estimate, not a deadline.
 
+## Original story development
+
+- [x] Create the central story-planning brief at [Checks/Story-Projects/Untitled-RomCom-Light-Novel.md](Story-Projects/Untitled-RomCom-Light-Novel.md), recording established decisions, provisional character concepts, unresolved questions, and continuity notes.
+- [ ] Continue developing the original Japanese high-school romantic-comedy light novel from the story brief. Finalize the cast, opening festival incident, family logistics, central conflicts, and natural volume structure before drafting manuscripts.
+- [ ] Choose the final title and develop the complete story outline; no fixed volume count is set.
+
 ## Active roadmap
 
 ## Phase 7 — Personal Reading Experience
