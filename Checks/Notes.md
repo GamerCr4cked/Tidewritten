@@ -326,6 +326,16 @@ Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library imp
 - Localize reader-facing metadata when matching translated copy exists; otherwise use the established English fallback. Do not alter story prose, chapter titles, IDs, translation mappings, canonical URLs, or reader preference keys as incidental presentation work.
 - Preserve reading position, theme, language, text size, appearance preferences, progress, statistics, and previous/next navigation.
 
+### Phase 7.3 implementation record
+
+- **Status:** Implementation merged and deployed on 2026-11-02. PR [#76](https://github.com/GamerCr4cked/Tidewritten/pull/76), merge commit `0a5c05ca1c356a04891f99f599ae265a1d549222`.
+- GitHub Pages build and deployment both succeeded in workflow [#509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078).
+- Changed files: `_layouts/light-novel.html`, `Checks/Notes.md`, and `Checks/TODO.md`. No story or translation files were changed.
+- Catalogue inspection confirmed all 10 canonical series descriptions and all 17 English volume synopses already existed; the authored metadata and the 17 approved cover assets were preserved.
+- The shared reader resolves canonical Volume 1 series descriptions for later volumes and resolves edition-local presentation metadata before canonical English fallback. This works for direct translation-page visits as well as in-place language switching.
+- Source assertions passed for canonical lookups, localized/English fallback wiring, presentation order, cover error fallback, and preservation of story/translation files.
+- **Rendered-browser QA remains owner-pending.** Do not describe it as passed until the owner confirms the desktop/tablet/mobile, theme, direct-edition, fallback, keyboard/touch, and reader-control checks in TODO.md.
+
 ### Phase 7 completion gate
 
 Do not mark Phase 7 complete until all three workstreams are implemented and reviewed. Verify local persistence and migration/failure behaviour, canonical volume identity across all editions, Library search/filter/sort and card grouping, optional-asset fallbacks, keyboard/touch accessibility, reduced motion, responsive layouts, both themes, canonical navigation, and the relevant GitHub Pages workflow. Record rendered-browser QA separately from source inspection and build results.
