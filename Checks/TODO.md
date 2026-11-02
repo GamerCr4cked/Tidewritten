@@ -17,8 +17,9 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 ## Original story development
 
-- [x] Create the central story-planning brief at [Checks/Story-Projects/Untitled-RomCom-Light-Novel.md](Story-Projects/Untitled-RomCom-Light-Novel.md), recording established decisions, provisional character concepts, unresolved questions, and continuity notes.
-- [ ] Continue developing the original Japanese high-school romantic-comedy light novel from the story brief. Finalize the cast, opening festival incident, family logistics, central conflicts, and natural volume structure before drafting manuscripts.
+- [x] Create and maintain the central story-planning brief at [Checks/Story-Projects/Untitled-RomCom-Light-Novel.md](Story-Projects/Untitled-RomCom-Light-Novel.md), recording owner-confirmed decisions, provisional concepts, unresolved questions, and continuity notes.
+- [x] Record the current core direction: comedy-led tone and themes; protagonist's peaceful-final-year outlook; four heroine roles and hidden endgame; and the clarified multi-marriage family history and sibling dynamics.
+- [ ] Continue developing the original Japanese high-school romantic-comedy light novel from the story brief. Finalize remaining character identities/backgrounds, the opening festival incident, tutoring logistics, family mystery, central conflicts, and natural volume structure before drafting manuscripts.
 - [ ] Choose the final title and develop the complete story outline; no fixed volume count is set.
 
 ## Active roadmap
