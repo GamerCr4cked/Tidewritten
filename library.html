@@ -319,6 +319,7 @@ permalink: /library/
         <a class="series-card" href="{{ first_volume.url | relative_url }}" data-series-name="{{ series_group.name | escape }}" data-search="{{ series_search_text | strip_newlines | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}">
       {% else %}
         <div class="series-card" data-volume-series role="button" tabindex="0" aria-haspopup="dialog" aria-controls="volumeDialog" aria-expanded="false" data-series-name="{{ series_group.name | escape }}" data-search="{{ series_search_text | strip_newlines | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}">
+      {% endif %}
           {% assign art_class = "art-words" %}
           {% if series_group.name contains "Before the Feelings Fade" %}{% assign art_class = "art-before-feelings" %}
           {% elsif series_group.name contains "Little Bird" %}{% assign art_class = "art-little-bird" %}
