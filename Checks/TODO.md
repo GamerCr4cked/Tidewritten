@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. Phase 7.2 — Library Improvements is implemented and merged; the GitHub Pages Jekyll build passed for the merge commit, while deployment completion and rendered-browser QA remain pending. Phase 7.3 — Story Presentation Improvements is upcoming.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. Phase 7.2 — Library Improvements is implemented and merged; the GitHub Pages Jekyll build and deployment succeeded for implementation commit `28ed0be5659be13df3b3b20ea77953d060fe310a`. Rendered-browser QA remains pending. Phase 7.3 — Story Presentation Improvements is upcoming.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -84,7 +84,7 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Existing genre vocabulary and exact English/translation genre metadata matches, publication-status rules, canonical routes, and volume navigation pass source/metadata inspection.
 - [ ] Desktop, tablet, and mobile layouts remain clear and keyboard accessible in rendered-browser testing.
 
-**Implementation status:** Source changes and catalogue metadata audit are complete. Static source assertions pass. The GitHub Pages Jekyll build passed for merge commit `28ed0be5659be13df3b3b20ea77953d060fe310a`; deployment completion and owner-reported rendered-browser QA remain pending. Record them separately before closing 7.2.
+**Implementation status:** Source changes and catalogue metadata audit are complete. Static source assertions pass. The GitHub Pages Jekyll build and deployment succeeded for merge commit `28ed0be5659be13df3b3b20ea77953d060fe310a`; owner-reported rendered-browser QA remains pending. Record it separately before closing 7.2.
 
 **Owner browser QA still required**
 - [ ] Search by series name, volume title, and synopsis; verify unrelated card labels do not produce matches.
