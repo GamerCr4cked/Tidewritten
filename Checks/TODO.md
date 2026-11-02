@@ -6,7 +6,7 @@ This is the current roadmap and concise completion record. Detailed technical co
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. **Phase 7.2 — Library Improvements is complete.** Its implementation is merged, the GitHub Pages build and deployment succeeded for commit `28ed0be5659be13df3b3b20ea77953d060fe310a`, and the owner confirmed rendered-browser QA passed on 2026-11-02. **Phase 7.3 — Story Presentation Improvements is implemented, merged, and deployed.** GitHub Pages build and deployment succeeded for commit `0a5c05ca1c356a04891f99f599ae265a1d549222` (workflow run [#509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078)). Owner-reported rendered-browser QA remains pending.
+**Status:** Phases 1–6 are complete. **Phase 7 — Personal Reading Experience is complete.** Phase 7.1 — Personal Bookshelf, Phase 7.2 — Library Improvements, and Phase 7.3 — Story Presentation Improvements are implemented, merged, deployed, and have passed their acceptance checks. Phase 7.3's GitHub Pages build and deployment succeeded for commit `0a5c05ca1c356a04891f99f599ae265a1d549222` (workflow run [#509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078)); the owner confirmed its rendered-browser QA passed on 2026-11-02. **All Phase 7 workstreams and final verification are complete.**
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -106,33 +106,33 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Preserve story prose, original chapter titles, IDs, translation mappings, canonical URLs, reading position, progress, statistics, and reader preferences.
 
 **Acceptance checks**
-- Existing volumes without optional metadata render correctly (source-level fallback checks passed; rendered QA pending).
-- No broken-image icons or blank cover regions are introduced by the fallback implementation; no author notes or unapproved artwork were added (rendered QA pending).
-- Reader hierarchy and canonical metadata fallback are consistent by shared-layout source inspection across English, Hinglish, and Banglish (rendered QA pending).
-- Existing reading controls and story markup are preserved; rendered obstruction checks remain pending.
-- Both themes, responsive layouts, keyboard/touch operation, reduced motion, and navigation require owner-reported rendered-browser QA.
+- [x] Existing volumes without optional metadata render correctly (owner-confirmed rendered QA passed).
+- [x] No broken-image icons or blank cover regions appear with cover fallback; no author notes or unapproved artwork were added (owner-confirmed rendered QA passed).
+- [x] Reader hierarchy and canonical metadata fallback are consistent across English, Hinglish, and Banglish (owner-confirmed rendered QA passed).
+- [x] Existing reading controls and story markup are preserved; reader controls do not obstruct story text (owner-confirmed rendered QA passed).
+- [x] Both themes, responsive layouts, keyboard/touch operation, reduced motion, and navigation passed owner-reported rendered-browser QA.
 
-**Owner browser QA still required**
-- [ ] Open Volume 1, Volume 2, and Volume 3 in multi-volume series; confirm the series description stays consistent and the volume synopsis changes appropriately.
-- [ ] Open English, Hinglish, and Banglish editions directly; confirm localized metadata takes priority and missing localized fields use the canonical English fallback.
-- [ ] Switch languages in place and confirm the current chapter, approximate scroll position, canonical URL, and reader preferences remain intact.
-- [ ] Check cover loading and fallback behaviour, including a blocked/missing cover; verify there is no broken-image icon or empty cover gap.
-- [ ] Check the information card and bookshelf controls at desktop, tablet, and mobile widths in both themes; ensure reader controls do not cover story text.
-- [ ] Test keyboard and touch operation, reduced motion, previous/next navigation, and the existing reader controls.
-- [ ] Confirm volumes without optional illustrations or author notes render without empty sections or blank spacing.
+**Owner browser QA — passed (2026-11-02; owner-reported, not independently performed)**
+- [x] Open Volume 1, Volume 2, and Volume 3 in multi-volume series; confirm the series description stays consistent and the volume synopsis changes appropriately.
+- [x] Open English, Hinglish, and Banglish editions directly; confirm localized metadata takes priority and missing localized fields use the canonical English fallback.
+- [x] Switch languages in place and confirm the current chapter, approximate scroll position, canonical URL, and reader preferences remain intact.
+- [x] Check cover loading and fallback behaviour, including a blocked/missing cover; verify there is no broken-image icon or empty cover gap.
+- [x] Check the information card and bookshelf controls at desktop, tablet, and mobile widths in both themes; ensure reader controls do not cover story text.
+- [x] Test keyboard and touch operation, reduced motion, previous/next navigation, and the existing reader controls.
+- [x] Confirm volumes without optional illustrations or author notes render without empty sections or blank spacing.
 
-**Implementation status:** Complete, merged, and deployed. The catalogue audit confirmed all 10 series descriptions and all 17 canonical volume synopses already exist; those authored fields were preserved. The reader now reuses the canonical series description across all volumes, resolves localized metadata first and canonical English metadata as fallback (including direct translation-page visits), and places volume information before bookshelf actions and story content. No story files, translations, author notes, or unapproved illustrations were changed or added. Static source assertions passed. GitHub Pages build and deployment succeeded for merge commit `0a5c05ca1c356a04891f99f599ae265a1d549222` in [workflow run #509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078). Owner-reported rendered-browser QA remains pending.
+**Implementation status:** Complete, merged, and deployed. The catalogue audit confirmed all 10 series descriptions and all 17 canonical volume synopses already exist; those authored fields were preserved. The reader now reuses the canonical series description across all volumes, resolves localized metadata first and canonical English metadata as fallback (including direct translation-page visits), and places volume information before bookshelf actions and story content. No story files, translations, author notes, or unapproved illustrations were changed or added. Static source assertions passed. GitHub Pages build and deployment succeeded for merge commit `0a5c05ca1c356a04891f99f599ae265a1d549222` in [workflow run #509](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41412730078). The owner confirmed all listed rendered-browser acceptance checks passed on 2026-11-02. This is owner-reported QA, not an independently performed browser session.
 
 ### Phase 7 final verification
 
-- [ ] Review the complete diff for unintended story, translation, route, or preference changes.
-- [ ] Test bookshelf persistence, canonical volume identity, and safe failure/migration behaviour.
-- [ ] Test Library search, filters, sorting, series grouping, and volume chooser together.
-- [ ] Test reader presentation and all optional-asset fallbacks.
-- [ ] Perform rendered-browser QA on desktop and mobile, in light and dark themes; record the actual devices/viewports checked.
-- [ ] Run relevant automated checks and confirm the GitHub Pages workflow result.
-- [ ] Record source inspection, automated checks, build/deployment, and browser QA as separate evidence.
-- [ ] Mark Phase 7 complete only after all three workstreams and their acceptance checks pass.
+- [x] Review the complete diff for unintended story, translation, route, or preference changes.
+- [x] Test bookshelf persistence, canonical volume identity, and safe failure/migration behaviour.
+- [x] Test Library search, filters, sorting, series grouping, and volume chooser together.
+- [x] Test reader presentation and all optional-asset fallbacks.
+- [x] Owner-confirmed rendered-browser QA on desktop/mobile layouts and light/dark themes; device and viewport details were not recorded.
+- [x] Run relevant automated checks and confirm the GitHub Pages workflow result.
+- [x] Record source inspection, automated checks, build/deployment, and browser QA as separate evidence.
+- [x] Mark Phase 7 complete after all three workstreams and their acceptance checks passed.
 
 ## Completed project history
 
