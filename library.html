@@ -296,23 +296,29 @@ permalink: /library/
       {% assign first_volume = volumes | first %}
       {% assign volume_count = volumes | size %}
       {% assign series_status = "unspecified" %}
-      {% if volume_count == 1 %}
-        {% assign series_status = "standalone" %}
-      {% else %}
-        {% for status_volume in volumes %}
-          {% if status_volume.reading_note contains "Final volume" %}
-            {% assign series_status = "completed" %}
-          {% endif %}
-        {% endfor %}
-        {% if series_group.name contains "Meet Again Trilogy" and volume_count >= 3 %}
-          {% assign series_status = "completed" %}
+      {% assign has_final_volume = false %}
+      {% for status_volume in volumes %}
+        {% assign status_note = status_volume.reading_note | default: "" | downcase %}
+        {% if status_note contains "final volume" %}
+          {% assign has_final_volume = true %}
+        {% endif %}
+      {% endfor %}
+      {% if has_final_volume %}
+        {% assign series_status = "completed" %}
+      {% elsif series_group.name contains "Trilogy" and volume_count >= 3 %}
+        {% assign series_status = "completed" %}
+      {% elsif volume_count == 1 %}
+        {% assign standalone_note = first_volume.reading_note | default: "" | downcase %}
+        {% if standalone_note contains "standalone" %}
+          {% assign series_status = "standalone" %}
         {% endif %}
       {% endif %}
       {% assign series_genres = volumes | map: "genre" | join: " | " %}
+      {% capture series_search_text %}{{ series_group.name }} {{ first_volume.series_description }} {{ first_volume.tagline }} {% for search_volume in volumes %}{{ search_volume.book_title }} {{ search_volume.title }} {{ search_volume.synopsis }} {{ search_volume.tagline }} {% endfor %}{% endcapture %}
       {% if volume_count == 1 %}
-        <a class="series-card" href="{{ first_volume.url | relative_url }}" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Read {{ series_group.name | escape }}">
+        <a class="series-card" href="{{ first_volume.url | relative_url }}" data-series-name="{{ series_group.name | escape }}" data-search="{{ series_search_text | strip_newlines | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}">
       {% else %}
-        <div class="series-card" data-volume-series role="button" tabindex="0" aria-haspopup="dialog" aria-controls="volumeDialog" aria-expanded="false" data-series-name="{{ series_group.name | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}" aria-label="Choose a volume from {{ series_group.name | escape }}">
+        <div class="series-card" data-volume-series role="button" tabindex="0" aria-haspopup="dialog" aria-controls="volumeDialog" aria-expanded="false" data-series-name="{{ series_group.name | escape }}" data-search="{{ series_search_text | strip_newlines | escape }}" data-genres="{{ series_genres | escape }}" data-status="{{ series_status }}">
       {% endif %}
           {% assign art_class = "art-words" %}
           {% if series_group.name contains "Before the Feelings Fade" %}{% assign art_class = "art-before-feelings" %}
@@ -336,7 +342,7 @@ permalink: /library/
           <div class="series-art {{ art_class }}{% if series_cover_volume %} has-cover{% endif %}" aria-hidden="true">{% if series_cover_volume %}<img class="series-art-image" src="{{ series_cover_volume.cover_image | relative_url | escape }}" alt="" loading="lazy" decoding="async">{% endif %}<div class="series-art-fallback"><span class="art-orb"></span><span class="art-horizon"></span><span class="art-symbol"></span><span class="art-detail"></span><span class="art-cover-copy"><small>Tidewritten · Series edition</small><strong>{{ series_group.name | escape }}</strong></span></div></div>
           <div class="series-badges">
             <span class="series-badge">{{ first_volume.genre | default: "Light Novel" | split: "·" | first | strip | escape }}</span>
-            <span class="series-badge muted">{{ volume_count }} Volumes</span>
+            <span class="series-badge muted">{{ volume_count }} Volume{% unless volume_count == 1 %}s{% endunless %}</span>
             <span class="series-badge muted">{% case series_status %}{% when "completed" %}Completed{% when "standalone" %}Standalone{% else %}Status not set{% endcase %}</span>
           </div>
           <h3>{{ series_group.name | escape }}</h3>
@@ -363,7 +369,7 @@ permalink: /library/
 
   <p class="library-empty" id="libraryEmpty" role="status" aria-live="polite" hidden>No series match these search and filter settings. Try changing a filter or clearing your search.</p>
   <div class="library-note"><strong>Browse by series and volume.</strong> Select a series to open its available edition or choose a specific volume. Edition filters reflect translations currently published for each volume. Reading status and favorites are saved only in this browser profile; they are not synced across devices.</div><p class="library-empty" id="bookshelfUnavailable" role="status" hidden>Bookshelf storage is unavailable or contains unreadable data. Existing data has been left untouched.</p>
-</div></div>
+</div>
 <script src="{{ '/assets/js/bookshelf.js' | relative_url }}"></script>
 <script>
 (() => {
@@ -419,31 +425,33 @@ permalink: /library/
     if (state.counts["want-to-read"]) parts.push(state.counts["want-to-read"] + " want to read");
     if (state.counts.completed) parts.push(state.counts.completed + " completed");
     if (state.favorites) parts.push(state.favorites + (state.favorites === 1 ? " favorite" : " favorites"));
-    summary.textContent = parts.length ? parts.join(" · ") : "Not yet on your bookshelf";
+    summary.hidden = parts.length === 0;
+    summary.textContent = parts.join(" · ");
   };
   cards.forEach(renderBookshelfSummary);
   document.addEventListener("tidewritten:bookshelf-change", () => {
     cards.forEach(renderBookshelfSummary);
     applyFilters();
   });
+  const normalizeSearch = value => String(value || "").normalize("NFKC").replace(/\s+/g, " ").trim().toLocaleLowerCase("en");
   const applyFilters = () => {
-    const query = search.value.trim().toLocaleLowerCase();
+    const query = normalizeSearch(search.value);
     let visible = 0;
     cards.forEach(card => {
-      const text = [card.dataset.seriesName, card.textContent].join(" ").toLocaleLowerCase();
+      const searchableText = normalizeSearch(card.dataset.search || card.dataset.seriesName);
       const genres = (card.dataset.genres || "")
         .split(" | ")
         .flatMap(group => group.split(" · "))
-        .map(value => value.trim().toLocaleLowerCase())
+        .map(normalizeSearch)
         .filter(Boolean);
-      const languages = editionsFor(card).map(value => value.toLocaleLowerCase());
+      const languages = editionsFor(card).map(normalizeSearch);
       const bookRecords = pathsFor(card).map(path => bookshelf ? bookshelf.get(path) : { status: null, favorite: false });
       const matchesShelfStatus = !shelfStatus.value || bookRecords.some(record => record.status === shelfStatus.value);
       const matchesFavorites = favorites.value !== "favorites" || bookRecords.some(record => record.favorite);
-      const matches = (!query || text.includes(query))
-        && (!genre.value || genres.includes(genre.value))
+      const matches = (!query || searchableText.includes(query))
+        && (!genre.value || genres.includes(normalizeSearch(genre.value)))
         && (!status.value || card.dataset.status === status.value)
-        && (!language.value || languages.includes(language.value))
+        && (!language.value || languages.includes(normalizeSearch(language.value)))
         && matchesShelfStatus && matchesFavorites;
       card.hidden = !matches;
       if (matches) visible++;
@@ -459,18 +467,19 @@ permalink: /library/
       return dates.length ? Math.max(...dates) : 0;
     } catch (error) { return 0; }
   };
+  const compareSeriesNames = (a, b) => (a.dataset.seriesName || "").localeCompare(b.dataset.seriesName || "", "en", { sensitivity: "base", numeric: true });
   const sortCards = () => {
     const sorted = [...cards].sort((a,b) => {
       if (sort.value === "volumes") {
-        const av = Number((a.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
-        const bv = Number((b.querySelector(".series-card-foot span")?.textContent.match(/\d+/) || [0])[0]);
-        return bv-av || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
+        const av = volumesFor(a).length;
+        const bv = volumesFor(b).length;
+        return bv-av || compareSeriesNames(a, b);
       }
       if (sort.value === "updated") {
-        return latestContentUpdate(b)-latestContentUpdate(a) || a.dataset.seriesName.localeCompare(b.dataset.seriesName);
+        return latestContentUpdate(b)-latestContentUpdate(a) || compareSeriesNames(a, b);
       }
-      if (sort.value === "title-desc") return b.dataset.seriesName.localeCompare(a.dataset.seriesName);
-      return a.dataset.seriesName.localeCompare(b.dataset.seriesName);
+      if (sort.value === "title-desc") return compareSeriesNames(b, a);
+      return compareSeriesNames(a, b);
     });
     sorted.forEach(card => grid.append(card));
   };
@@ -480,6 +489,7 @@ permalink: /library/
     search.value = ""; genre.value = ""; status.value = ""; language.value = ""; shelfStatus.value = ""; favorites.value = ""; sort.value = "title";
     sortCards(); applyFilters(); search.focus();
   });
+  sortCards();
   applyFilters();
 
   const dialog = document.getElementById("volumeDialog");

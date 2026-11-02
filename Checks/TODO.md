@@ -1,12 +1,12 @@
 # Tidewritten — TODO
 
-_Last reviewed: 2026-11-01_
+_Last reviewed: 2026-11-02_
 
 This is the current roadmap and concise completion record. Detailed technical conventions live in [Notes.md](Notes.md), and the root [Instructions.txt](../Instructions.txt) defines the project workflow.
 
 ## Current status
 
-**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. The owner confirmed all 7.1 functionality and browser-QA items on 2026-11-01. Phase 7.2 and 7.3 remain upcoming.
+**Status:** Phases 1–6 are complete. Phase 7 — Personal Reading Experience is in progress. **Phase 7.1 — Personal Bookshelf is complete**, including its follow-up work. Phase 7.2 — Library Improvements is now in implementation/verification; rendered-browser QA and the GitHub Pages build remain pending. Phase 7.3 — Story Presentation Improvements is upcoming.
 
 Phase 7 combines the next three improvements into one milestone:
 1. Personal Bookshelf.
@@ -68,20 +68,31 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 ### 7.2 — Library improvements
 
-- [ ] Inspect and refine the existing Library search and genre, publication-status, and available-edition filters; preserve their current correct behaviour.
-- [ ] Add useful deterministic title sorting (A–Z and Z–A).
-- [ ] Add bookshelf-status and favorite discovery/filtering where it fits the existing Library layout.
-- [ ] Show concise reading-state information on series cards without misrepresenting series containing volumes with different statuses.
-- [ ] Keep one Library card per canonical series, with the existing volume chooser for multi-volume series and direct opening for single-volume series.
-- [ ] Preserve accessible volume selection, keyboard operation, focus handling, and responsive layouts.
-- [ ] Keep Recently Updated disabled until trustworthy content_updated metadata exists. Do not invent dates or popularity rankings.
+- [x] Audit and refine Library search plus genre, publication-status, and available-edition filters; search now indexes canonical series/volume titles and descriptive metadata rather than interface text or saved bookshelf summaries.
+- [x] Add deterministic, English-locale A–Z and Z–A series-title sorting, with stable tie-breaks for volume-count and recency sorting.
+- [x] Preserve and verify bookshelf-status and favorite filters; each matches a series when at least one canonical volume matches.
+- [x] Refine per-series reading summaries to count volume statuses and favorites independently, and hide the summary when nothing is saved.
+- [x] Preserve one Library card per canonical series, the multi-volume chooser, and direct opening for single-volume series.
+- [x] Preserve keyboard volume selection, dialog semantics, focus movement/restoration, and narrow-screen layout rules in source.
+- [x] Keep Recently Updated disabled because no canonical volume currently supplies trustworthy `content_updated` metadata; do not invent dates or popularity rankings.
+- [x] Correct publication-status classification: only explicitly identified single-volume standalone works receive **Standalone**; **Completed** requires final-volume metadata or an identity-defined complete volume count. Unknown remains **Status not set**.
 
 **Acceptance checks**
-- Search, filters, sorting, and bookshelf filters work together without conflicting results.
-- Translations never appear as separate series/cards.
-- Series with mixed volume statuses are represented accurately.
-- Existing genre vocabulary, publication-status rules, canonical routes, and volume navigation remain intact.
-- Desktop, tablet, and mobile layouts remain clear and keyboard accessible.
+- [ ] Search, filters, sorting, and bookshelf filters work together in rendered-browser testing.
+- [x] Translations remain editions of canonical volumes, not separate series/cards (10 canonical series, 17 English volumes, and 17 matching editions in each translation language).
+- [x] Series with mixed volume statuses are represented as per-volume counts; publication status is not inferred from an incomplete catalogue count.
+- [x] Existing genre vocabulary and exact English/translation genre metadata matches, publication-status rules, canonical routes, and volume navigation pass source/metadata inspection.
+- [ ] Desktop, tablet, and mobile layouts remain clear and keyboard accessible in rendered-browser testing.
+
+**Implementation status:** Source changes and catalogue metadata audit are complete. Static source assertions pass. GitHub Pages build/deployment and owner-reported rendered-browser QA remain pending; record them separately before closing 7.2.
+
+**Owner browser QA still required**
+- [ ] Search by series name, volume title, and synopsis; verify unrelated card labels do not produce matches.
+- [ ] Combine genre, publication status, available edition, reading status, favorites, search, and sorting.
+- [ ] Verify A–Z/Z–A ordering and volume-count sorting.
+- [ ] Verify mixed per-volume status/favorite summaries update immediately after changing a volume in the chooser.
+- [ ] Confirm Prismat displays **Status not set**, standalone novels remain **Standalone**, and the completed trilogy/final-volume series remain **Completed**.
+- [ ] Check the Library at desktop, tablet, and mobile widths in both themes; test keyboard operation and focus return for the volume chooser.
 
 ### 7.3 — Story presentation improvements
 
