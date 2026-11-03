@@ -73,8 +73,6 @@ Do not write him as emotionless, universally competent, secretly perfect, or ind
 - He has no particular expectations for the year and is not actively seeking romance, popularity, or a dramatic school experience.
 - He has not seriously planned what he will do after graduation. He takes things day by day.
 
-### Not yet decided
-
 ### Identity and visual design — established
 
 - **Name:** Itsuki Kurose (黒瀬 樹).
@@ -153,9 +151,8 @@ The biological father from the first marriage is remembered as a combination of 
 - Sometimes she stays for roughly two days or an entire weekend.
 - She has her own school life and should not exist solely as a device to introduce the protagonist's classmates.
 
-### Sister's identity and visual design — established
+### Sister's visual design — established
 
-- **Name:** Nanami Kurose (黒瀬 七海).
 - **Appearance:** Long warm-brown hair and amber eyes; her overall appearance is gentle and sweet, which contrasts with her quick wit and sharp tongue.
 
 ### Sister's personality and sibling bond — established
@@ -224,6 +221,7 @@ Current concept:
 - **Name:** Akari Fujisaki (藤崎 あかり).
 - **Appearance:** Long dark reddish-brown hair and soft rose-brown eyes; graceful overall appearance and a naturally friendly smile.
 - She is very popular at school and widely considered beautiful.
+- She genuinely enjoys socializing, having friends, and being part of the school's lively social environment; do not portray her as secretly resenting her popularity.
 - She is cheerful, sociable, expressive, and friendly.
 - She is one of the genuine romantic possibilities in the story, but **she is not the eventual heroine**. Her connection with Itsuki must still be meaningful and fully developed; do not treat her as a disposable false lead.
 - She has academic difficulties despite making an effort. This does not mean she is unintelligent.
@@ -238,6 +236,8 @@ Current concept:
 - She comes from a wealthy, well-known family.
 - Her family is warm and supportive; do not portray them as automatically cold, abusive, or controlling.
 - Her family's public profile creates pressure for her to maintain a particular image, which helps explain her sensitivity about school gossip and reputation.
+- Her family has a particular future in mind for her, but she is not yet sure whether she wants that future; the exact plan and career remain undecided.
+- She has a few close, trusted friends as well as a wider network across school, and she enjoys moving between different social groups.
 - Keep the supportive family dynamic and public-image pressure in balance rather than treating them as contradictory.
 
 ### Still open
@@ -253,7 +253,7 @@ Current concept:
 
 There are four important female characters in the planned central cast. They must have independent lives, personalities, motivations, and character arcs. They are not merely romantic options. Their chemistry with the protagonist should develop through believable shared experiences; avoid instant attraction and artificial competition.
 
-The following foundations are owner-confirmed. Names, visual designs, personal goals, and many scene-level details remain open for later development.
+The following foundations, names, and visual designs are owner-confirmed. Some personal goals, supporting relationships, and scene-level details remain open for later development.
 
 ### Mio Kanzaki — the rumour investigator / eventual heroine
 
@@ -271,6 +271,7 @@ The following foundations are owner-confirmed. Names, visual designs, personal g
 - Her parents are often busy, so she has learned to spend time alone and entertain herself. This is a busy-but-independent household, not an established claim that her parents are uncaring.
 - Her relationship with the protagonist develops into a quiet understanding. They do not need many words to feel comfortable around each other, and neither pressures the other to fill silences.
 - She becomes one of his closest and most dependable friends. Their calm friendship should feel distinct from the more energetic relationships around him.
+- The quiet understanding between them is central: she does not pressure him to speak, and he is comfortable sharing silence with her.
 - Her curiosity about the rumour is the starting point, not her entire personality or narrative purpose.
 
 #### Romantic and story direction
@@ -294,6 +295,7 @@ Still open: her personal goals, specific family details, and the events that gra
 - Their families remain exceptionally close; each child has long been treated as part of the other's family.
 - They were once extremely close, but gradually drifted apart as they grew older. They still occasionally talk and retain some comfort and familiarity, although they are no longer as close as they used to be.
 - Her core personality is **warm but a little awkward** around him now. She is kind and caring, but sometimes unsure how to act after the distance that developed between them.
+- She has no previous romantic experience and has not seriously considered pursuing romance before the story begins.
 - Their old familiarity occasionally returns without either of them deliberately trying to recreate the past.
 - She remembers him from before he became quieter and more withdrawn. Their shared history lets her recognize sides of him that newer acquaintances have not seen.
 - She has **no previous romantic experience** and has not seriously considered romance before the story begins. This does not predetermine whether or how her feelings may change later.
@@ -323,7 +325,9 @@ Still open: the specific cause of their gradual distance, personal goals, and th
 - At school she is a well-known troublemaker, recognized for her playful antics and tendency to get involved in amusing situations.
 - Her family is strict. At home, however, she is very well-behaved. Her family has no idea how mischievous she is at school and believes the well-behaved side they see at home.
 - Her academic performance is poor. Her playful nature often gets in the way of studying, and teachers regularly complain about her school performance. This does not mean she is unintelligent.
+- Her family has high expectations around her behaviour, studies, and responsibilities. She is genuinely well-behaved at home; the mischievous school side is not an act she puts on for her family.
 - She gradually develops genuine romantic feelings for the protagonist. At first she treats him as an ordinary close friend; the change in her feelings happens over time rather than being present from the start.
+- As her feelings grow, her usual confidence and teasing become less dependable when she has to deal with her own emotions.
 
 #### Relationship and story direction
 
