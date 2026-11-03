@@ -7,7 +7,7 @@
 **Volume:** 1 of 5  
 **Target length:** Approximately 30,000–32,000 words of story prose, with the final length determined by the complete narrative rather than padding.
 
-> **Continuity note for the author:** The Story Bible fixes Volume 1 to April–June, but also places the cultural festival in early autumn while requiring the festival rumour to end Volume 1. To preserve the five-volume calendar and the explicit Volume 1 ending, this manuscript currently places the festival on the final weekend of June. This is a transparent working resolution of that internal conflict, not a silent change to the Story Bible. The owner can revise it later if desired.
+> **Continuity note for the author:** Volume 1 runs from April through June. The cultural festival takes place in late June, near the end of the volume. This timing was explicitly confirmed by the owner on 2026-11-03 and is now canonical in the Story Bible.
 
 ---
 
