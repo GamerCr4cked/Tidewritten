@@ -42,7 +42,7 @@ This is a full-volume structure, not a short opening sample. The eighteen chapte
 - **The Version Akari Knows** — Akari's friendships, study effort, and relationship with public attention.
 - **The Joke That Lands** — Riko's home expectations and her own effort with schoolwork.
 - **A Page Out of Order** — Mio's quiet hobby of observing small mysteries, including the limits of her assumptions.
-- Itsuki-centred side scenes deepen the origin of his friendship with Riko, ordinary school sports, his relationship with Nanami's father, the family home he no longer lives in, his study-support role, and his friendships with Riko and Ayane.
+- Itsuki-centred side scenes deepen the origin of his friendship with Riko, ordinary school sports, his relationship with Nanami's father, the family home he no longer lives in, his study-support role, his friendships with Riko and Ayane, and Nanami's familiar overnight visits.
 
 # Prologue — The Last Day of Nothing
 
@@ -387,6 +387,8 @@ April 1.
 The last day before his final year began.
 
 He turned off the kitchen light.
+
+---
 
 ---
 
@@ -844,6 +846,8 @@ For an eighteenth birthday, it was enough.
 
 ---
 
+---
+
 # Chapter Two — The People Who Don't Need Invitations
 
 Riko had a talent for appearing in places where she had not been invited.
@@ -1210,6 +1214,8 @@ He decided not to mention that to anyone.
 
 ---
 
+---
+
 # Interlude VIII — The Answer in the Margin
 
 Riko arrived at the library with a workbook and an expression of deep suspicion.
@@ -1422,6 +1428,8 @@ He decided that was probably worth it.
 
 ---
 
+---
+
 # Side Scene — The First Time Riko Sat Down
 
 Itsuki did not remember deciding to become friends with Riko Tachibana.
@@ -1567,6 +1575,8 @@ He still did not know exactly when it had become friendship.
 Riko had never explained it.
 
 He had stopped trying to find out.
+
+---
 
 ---
 
@@ -1749,6 +1759,8 @@ She laughed.
 The light changed.
 
 They crossed together.
+
+---
 
 ---
 
@@ -2044,6 +2056,8 @@ The train arrived before he reached one.
 
 ---
 
+---
+
 # Interlude V — The House He Doesn't Live In
 
 The envelope arrived on a Thursday.
@@ -2173,6 +2187,8 @@ Then he typed:
 *Thanks for signing the form.*
 
 He put the phone away and waited for the light to change.
+
+---
 
 ---
 
@@ -2391,6 +2407,8 @@ Those things belonged to Akari's day, not his.
 For now, they were students in the same school who happened to pass each other in the corridor.
 
 That was enough.
+
+---
 
 ---
 
@@ -2670,6 +2688,8 @@ She only had to find it.
 
 ---
 
+---
+
 # Chapter Five — A Quiet Seat by the Window
 
 The library was the quietest place in the school, provided nobody had decided to whisper.
@@ -2761,6 +2781,8 @@ She used a mechanical pencil with a blue grip.
 It was not a particularly useful fact.
 
 He suspected he would forget it by tomorrow.
+
+---
 
 ---
 
@@ -2908,6 +2930,8 @@ That was why she liked asking questions.
 
 ---
 
+---
+
 # Side Scene — The Library's Closing Bell
 
 The library closed fifteen minutes early on the last Thursday of May.
@@ -3009,6 +3033,8 @@ He only remembered that Mio had said she liked things that did not quite make se
 At the time, it sounded like a hobby.
 
 He did not yet know that a rumour would soon give her something to investigate.
+
+---
 
 ---
 
@@ -3286,6 +3312,8 @@ He left the pencil mark.
 
 ---
 
+---
+
 # Side Scene — The River After School
 
 Nanami suggested the walk on a Thursday.
@@ -3480,6 +3508,150 @@ He finished it anyway.
 
 ---
 
+---
+
+# Side Scene — The Futon by the Window
+
+Nanami stayed over on the second Saturday of June.
+
+She had told her father in advance, brought a change of clothes, and arrived with a bag that looked large enough for a week.
+
+Itsuki opened the door.
+
+“Are you moving in?”
+
+“No.”
+
+“That's disappointing. I was going to rent the cupboard.”
+
+She stepped inside and removed her shoes.
+
+“You don't have a cupboard big enough for my things.”
+
+“I have a drawer.”
+
+“That's worse.”
+
+He took the bag from her and placed it beside the sofa.
+
+Nanami looked around the apartment.
+
+“Did you clean?”
+
+“I live here.”
+
+“That's not an answer.”
+
+“It's the one I have.”
+
+She smiled.
+
+They spent the afternoon doing ordinary things. Nanami worked on her school notes at the low table. Itsuki cooked rice and warmed the leftovers from the previous evening. They watched half of a variety show while eating, mostly because Nanami wanted to see whether a comedian could finish a challenge without dropping the food.
+
+He could not.
+
+Nanami declared the result predictable.
+
+After dinner, she checked her phone and sent a message to her father.
+
+*I'm staying at Itsuki's tonight. I'll be home tomorrow after lunch.*
+
+A reply arrived a few minutes later.
+
+*All right. Tell him I said hello. Don't forget your project folder.*
+
+Nanami showed Itsuki the message.
+
+“He says hello.”
+
+“Hello.”
+
+“He can't hear you.”
+
+“Then the message has been delivered.”
+
+She shook her head.
+
+Itsuki opened the closet and took out the spare futon. He spread it on the floor in the separate sleeping area, leaving enough room for the sliding partition to close. Nanami placed her folded clothes beside it.
+
+“You can use the pillow from the top shelf,” he said.
+
+“I know.”
+
+“Blanket's in the blue cover.”
+
+“I know.”
+
+“Don't leave the window open all night.”
+
+Nanami looked at him.
+
+“Are you finished?”
+
+“Probably.”
+
+“Good.”
+
+She sat on the futon and tested the pillow.
+
+“It's comfortable.”
+
+“It's a futon.”
+
+“That's not a review.”
+
+“It's the one I have.”
+
+She laughed.
+
+Later, when the television was off and the apartment had settled into its night-time quiet, Nanami stood near the balcony door.
+
+“It's nice here,” she said.
+
+“It's the same as yesterday.”
+
+“I know.”
+
+She looked out at the lights along the street.
+
+“Sometimes I like having a place where nothing changes for a little while.”
+
+Itsuki leaned against the kitchen counter.
+
+“You can come here when you want.”
+
+“I know.”
+
+“And you don't have to bring half your room.”
+
+“I didn't.”
+
+He looked at the bag.
+
+She followed his gaze.
+
+“It's a small bag.”
+
+“It's larger than the rice cooker.”
+
+“Your rice cooker is tiny.”
+
+“It's efficient.”
+
+Nanami smiled.
+
+She went to bed a little later, on the separate futon, with the sliding partition partly closed. Itsuki turned off the living-room light and checked the door lock.
+
+The apartment was quiet.
+
+He could hear Nanami turning a page in her book.
+
+It was an ordinary sound.
+
+He went to bed.
+
+---
+
 # Interlude I — A Different School Bell
 
 Hoshimiya East High School had a different morning rhythm.
@@ -3662,6 +3834,8 @@ She did not know whether the project would be good.
 
 But she was looking forward to it.
 
+
+---
 
 ---
 
@@ -3862,6 +4036,8 @@ Nanami did not push.
 The train arrived.
 
 They got on together.
+
+---
 
 ---
 
@@ -4127,6 +4303,8 @@ Still, he found himself hoping he would remember to say yes when she asked.
 
 ---
 
+---
+
 # Interlude IX — Lunch on the Second Floor
 
 Ayane asked him on a Wednesday.
@@ -4312,6 +4490,8 @@ He had not expected lunch to feel different.
 It had not been especially exciting. They had eaten, talked, and returned to class.
 
 But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
 
 ---
 
@@ -4553,6 +4733,8 @@ And he had somewhere to be.
 
 ---
 
+---
+
 # Interlude VII — The Shape of an Explanation
 
 The study-support board was placed beside the classroom door.
@@ -4663,6 +4845,8 @@ He had not thought of it as anything worth noticing. He had simply written down 
 But if it helped someone else, that was fine.
 
 He put the marker back in the tray.
+
+---
 
 ---
 
@@ -4877,6 +5061,8 @@ Riko took it and slid into her seat.
 The joke had landed.
 
 The work was still hers.
+
+---
 
 ---
 
@@ -5198,6 +5384,8 @@ The school year continued.
 
 ---
 
+---
+
 # Chapter Ten — Before the Doors Open
 
 The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
@@ -5502,6 +5690,8 @@ For once, he hoped the weather would stay clear.
 
 ---
 
+---
+
 # Chapter Eleven — The Morning Everyone Was Busy
 
 The festival opened at ten.
@@ -5747,6 +5937,8 @@ The noise from the main hall grew louder.
 He adjusted his glasses and headed toward the stairs.
 
 He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
 
 ---
 
@@ -6061,6 +6253,8 @@ And the photograph, taken just as they stepped through the corridor, showed only
 It was not a lie.
 
 It was simply not the truth.
+
+---
 
 ---
 
@@ -6532,6 +6726,8 @@ Then she drew a small line between them and left the rest of the page blank.
 
 ---
 
+---
+
 # Chapter Fourteen — The Simplest Explanation
 
 By Tuesday morning, the rumour had acquired a title.
@@ -6873,6 +7069,8 @@ But at least it was a different question.
 
 ---
 
+---
+
 # Chapter Fifteen — The Account That Doesn't Match
 
 Mio did not ask Akari about the rumour immediately.
@@ -7114,6 +7312,8 @@ Itsuki looked at her.
 She smiled again, and the conversation returned to its usual rhythm.
 
 But he kept thinking about what she had said.
+
+---
 
 ---
 
@@ -7369,6 +7569,8 @@ And for the first time since the festival, Itsuki thought that perhaps he should
 
 ---
 
+---
+
 # Chapter Seventeen — The Angle of a Photograph
 
 Mio found the photographer on Thursday.
@@ -7604,6 +7806,8 @@ He walked toward the gate.
 He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
+
+---
 
 ---
 
@@ -7937,6 +8141,8 @@ It was a start.
 
 ---
 
+---
+
 # Epilogue — The First Version
 
 Mio waited until Itsuki had left before opening her notebook again.
@@ -8021,149 +8227,7 @@ Then, beneath it:
 - Mio is observant but fallible. Before the rumour, she and Itsuki have exchanged only a few words in the library.
 - Nanami has her own school life, friend Yui, and a library-exchange responsibility at Hoshimiya East High School.
 - Itsuki's apartment is modest, maintained by him, and supported by his mother. The second husband remains a respectful, caring presence in his life.
-- Itsuki and Nanami are maternal half-siblings; all their affectionate scenes are clearly familial.
+- Itsuki and Nanami are maternal half-siblings; all their affectionate scenes are clearly familial. Nanami sleeps on a separate futon when staying over.
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
-
-
-# Side Scene — The Futon by the Window
-
-Nanami stayed over on the second Saturday of June.
-
-She had told her father in advance, brought a change of clothes, and arrived with a bag that looked large enough for a week.
-
-Itsuki opened the door.
-
-“Are you moving in?”
-
-“No.”
-
-“That's disappointing. I was going to rent the cupboard.”
-
-She stepped inside and removed her shoes.
-
-“You don't have a cupboard big enough for my things.”
-
-“I have a drawer.”
-
-“That's worse.”
-
-He took the bag from her and placed it beside the sofa.
-
-Nanami looked around the apartment.
-
-“Did you clean?”
-
-“I live here.”
-
-“That's not an answer.”
-
-“It's the one I have.”
-
-She smiled.
-
-They spent the afternoon doing ordinary things. Nanami worked on her school notes at the low table. Itsuki cooked rice and warmed the leftovers from the previous evening. They watched half of a variety show while eating, mostly because Nanami wanted to see whether a comedian could finish a challenge without dropping the food.
-
-He could not.
-
-Nanami declared the result predictable.
-
-After dinner, she checked her phone and sent a message to her father.
-
-*I'm staying at Itsuki's tonight. I'll be home tomorrow after lunch.*
-
-A reply arrived a few minutes later.
-
-*All right. Tell him I said hello. Don't forget your project folder.*
-
-Nanami showed Itsuki the message.
-
-“He says hello.”
-
-“Hello.”
-
-“He can't hear you.”
-
-“Then the message has been delivered.”
-
-She shook her head.
-
-Itsuki opened the closet and took out the spare futon. He spread it on the floor in the separate sleeping area, leaving enough room for the sliding partition to close. Nanami placed her folded clothes beside it.
-
-“You can use the pillow from the top shelf,” he said.
-
-“I know.”
-
-“Blanket's in the blue cover.”
-
-“I know.”
-
-“Don't leave the window open all night.”
-
-Nanami looked at him.
-
-“Are you finished?”
-
-“Probably.”
-
-“Good.”
-
-She sat on the futon and tested the pillow.
-
-“It's comfortable.”
-
-“It's a futon.”
-
-“That's not a review.”
-
-“It's the one I have.”
-
-She laughed.
-
-Later, when the television was off and the apartment had settled into its night-time quiet, Nanami stood near the balcony door.
-
-“It's nice here,” she said.
-
-“It's the same as yesterday.”
-
-“I know.”
-
-She looked out at the lights along the street.
-
-“Sometimes I like having a place where nothing changes for a little while.”
-
-Itsuki leaned against the kitchen counter.
-
-“You can come here when you want.”
-
-“I know.”
-
-“And you don't have to bring half your room.”
-
-“I didn't.”
-
-He looked at the bag.
-
-She followed his gaze.
-
-“It's a small bag.”
-
-“It's larger than the rice cooker.”
-
-“Your rice cooker is tiny.”
-
-“It's efficient.”
-
-Nanami smiled.
-
-She went to bed a little later, on the separate futon, with the sliding partition partly closed. Itsuki turned off the living-room light and checked the door lock.
-
-The apartment was quiet.
-
-He could hear Nanami turning a page in her book.
-
-It was an ordinary sound.
-
-He went to bed.
-
