@@ -3562,3 +3562,850 @@ It was not a lie.
 
 It was simply not the truth.
 
+
+
+# Chapter Thirteen — Everyone Saw Something
+
+The first version of the story began before the festival ended.
+
+It started near the side entrance, where two students were comparing photographs on a phone.
+
+“Isn't that Fujisaki?”
+
+“Yeah.”
+
+“Who's the guy?”
+
+“I don't know. Maybe from 3-B?”
+
+The photograph showed Akari walking beside a boy with dark hair and glasses. He was carrying a large display board. She was holding a stack of papers. They were close enough that the corridor seemed narrow around them.
+
+The image had been taken at the exact moment the two stepped out of the service passage.
+
+It did not show what had happened before.
+
+One student zoomed in.
+
+“Looks like they're together.”
+
+“They're just carrying stuff.”
+
+“Maybe.”
+
+The phone changed hands.
+
+By the time the two students reached the gym, the photograph had been shown to three more people.
+
+None of them had seen the trolley.
+
+None of them had seen Akari lose her footing.
+
+None of them knew that the board belonged to a café display.
+
+They had seen a photograph.
+
+That was enough to begin.
+
+***
+
+Itsuki did not hear about it until the following morning.
+
+He arrived at school at his usual time. The weather had cooled overnight, and the air carried the smell of wet pavement. The festival banners still hung along the entrance, though a few had begun to curl at the edges.
+
+He changed his shoes and walked toward the stairs.
+
+Two students near the notice board stopped talking when he passed.
+
+He noticed.
+
+He did not care.
+
+At least, that was what he told himself.
+
+In Class 3-B, Riko was already seated. She had a paper cup of tea and a packet of biscuits on her desk.
+
+“Morning,” Itsuki said.
+
+“Good morning.”
+
+She sounded unusually polite.
+
+He stopped.
+
+“What?”
+
+“Nothing.”
+
+“You're smiling.”
+
+“Am I not allowed?”
+
+“You're usually smiling when you're about to say something.”
+
+Riko leaned back.
+
+“Did you have a good festival?”
+
+“It was fine.”
+
+“Anything interesting happen?”
+
+“No.”
+
+She tilted her head.
+
+“Nothing at all?”
+
+“I carried a board.”
+
+Riko's eyes brightened.
+
+Itsuki looked at her.
+
+“Why?”
+
+She took a biscuit.
+
+“Just asking.”
+
+He sat down.
+
+A few minutes later, Miyake came over.
+
+“Kurose.”
+
+“Yeah?”
+
+“Were you with Fujisaki yesterday?”
+
+Itsuki looked up from his notebook.
+
+“For a few minutes.”
+
+Miyake grinned.
+
+“Really?”
+
+“I helped her carry a display board.”
+
+“That's what I heard.”
+
+“Then why are you asking?”
+
+“People are talking.”
+
+“About a board?”
+
+Miyake laughed.
+
+“Not exactly.”
+
+Riko made a small sound beside him.
+
+Itsuki turned.
+
+She was looking at the window.
+
+“What's funny?” he asked.
+
+“Nothing.”
+
+Miyake pulled out his phone.
+
+“Someone took a picture.”
+
+He showed it to Itsuki.
+
+The photograph was familiar. It showed the side passage, Akari beside him, and the display board in his hands. The angle made the corridor look narrower than it was. Akari's head was turned toward him. Itsuki's face was partly hidden by the board.
+
+It looked like a moment that belonged to a different conversation.
+
+“That's the picture?” Itsuki asked.
+
+“Yeah.”
+
+“It's a picture of us carrying something.”
+
+Miyake shrugged.
+
+“People are saying you two are dating.”
+
+Itsuki stared at him.
+
+Then he looked at the picture again.
+
+“No.”
+
+Miyake laughed.
+
+“That's your answer?”
+
+“It's the correct one.”
+
+“Maybe you should tell them.”
+
+“Who?”
+
+“Everyone.”
+
+Itsuki returned the phone.
+
+“Everyone can read the picture.”
+
+Miyake looked unconvinced.
+
+Riko finally turned toward them.
+
+“Maybe they can't.”
+
+Itsuki looked at her.
+
+She smiled.
+
+He decided not to ask.
+
+***
+
+Akari heard about the rumour during the first break.
+
+A girl from her class approached her with a phone in hand.
+
+“Akari, is this true?”
+
+Akari looked at the screen.
+
+The photograph.
+
+Her stomach tightened—not because of the boy in it, but because she recognised exactly how the image would look to someone who had not been there.
+
+“It's not what it looks like,” she said.
+
+The girl smiled.
+
+“So there is something to explain?”
+
+“No. I mean, there is an explanation. He helped me carry a display board.”
+
+“Who is he?”
+
+“Kurose. From 3-B.”
+
+“Are you close?”
+
+“No.”
+
+The answer came too quickly.
+
+Her friend raised an eyebrow.
+
+Akari realised how it sounded.
+
+“We're not dating,” she said. “We barely know each other.”
+
+“Okay, okay.”
+
+The girl lifted both hands.
+
+“I was just asking.”
+
+Akari smiled, but the conversation had already begun to feel like a room with too many people in it.
+
+She spent the rest of the break answering similar questions.
+
+Some were harmless. Some were teasing. One student asked whether the two had been meeting secretly before the festival.
+
+Akari said no.
+
+The student asked why she looked so serious.
+
+Akari did not know how to answer that without making it worse.
+
+***
+
+The rumour changed shape during lunch.
+
+In one class, someone said Akari had been seen leaving the service corridor with a boy.
+
+In another, someone said the boy had carried her belongings.
+
+A third version claimed that the photograph had been taken after the two had argued.
+
+By the end of the day, a student from the first-year class had heard that they had been dating since the previous term.
+
+No one could explain where that version had come from.
+
+Itsuki heard three versions before the final bell.
+
+He corrected the first.
+
+He ignored the second.
+
+He did not hear the third until Riko mentioned it while they were packing their bags.
+
+“Apparently, you've been dating since last term.”
+
+Itsuki looked at her.
+
+“That's impressive. I wasn't informed.”
+
+“You should ask Fujisaki.”
+
+“Why?”
+
+“She might know.”
+
+“I doubt it.”
+
+Riko laughed.
+
+“You're handling this very calmly.”
+
+“It's not real.”
+
+“Rumours don't need to be real.”
+
+He closed his bag.
+
+“Then they can be unreal somewhere else.”
+
+Riko's smile faded a little.
+
+“That's not how school works.”
+
+Itsuki looked toward the classroom door.
+
+Students were leaving in groups. A few glanced toward him before looking away.
+
+He had never liked being noticed.
+
+Now he understood why.
+
+***
+
+Ayane approached him near the shoe lockers.
+
+“Itsuki.”
+
+He turned.
+
+“Fujimoto.”
+
+She looked uncertain.
+
+“Can I ask you something?”
+
+“Sure.”
+
+“Are you and Fujisaki...?”
+
+“No.”
+
+The answer came out before she finished.
+
+Ayane blinked.
+
+“Okay.”
+
+“It's a rumour.”
+
+“I thought so.”
+
+He adjusted the strap of his bag.
+
+“Why?”
+
+“People were talking in class. I didn't know if it was true.”
+
+“It's not.”
+
+Ayane nodded.
+
+“I'm glad you told me.”
+
+There was no accusation in her voice. Still, Itsuki felt the odd weight of having to explain something that had not happened.
+
+Ayane hesitated.
+
+“Are you okay?”
+
+“Yeah.”
+
+“Really?”
+
+“It's annoying.”
+
+She smiled faintly.
+
+“I can imagine.”
+
+They walked toward the gate together.
+
+At the crossing, Ayane stopped.
+
+“See you tomorrow.”
+
+“See you.”
+
+Itsuki watched her go, then continued toward the station.
+
+He had corrected the story once.
+
+It had not changed anything.
+
+***
+
+Mio Kanzaki heard the rumour from a conversation she had not intended to listen to.
+
+Two students were standing near the library return desk. One said Akari had been seen with a boy from another class. The other said the photograph proved it.
+
+Mio did not look up from her book.
+
+“Which boy?” the first student asked.
+
+“Kurose, I think.”
+
+“Which Kurose?”
+
+“I don't know. The quiet one.”
+
+The second student laughed.
+
+Mio turned a page.
+
+She knew the name.
+
+She had seen Kurose Itsuki in the library, usually at one of the tables near the windows. He was not particularly difficult to recognise. His hair was dark and slightly untidy, and he wore glasses with gently rounded corners. He returned books on time.
+
+That was all she knew about him.
+
+The students moved away.
+
+Mio closed her book.
+
+A rumour about two people dating was not especially unusual. It became interesting only when the details failed to agree.
+
+She had heard one version in which Akari had been carrying the board.
+
+Another in which the boy had carried her bag.
+
+A third in which they had left the corridor together after arguing.
+
+Those could all have been parts of the same event.
+
+Or they could have been different events forced into one story.
+
+Mio took out her notebook.
+
+She wrote two names.
+
+Akari Fujisaki.
+
+Itsuki Kurose.
+
+Then she drew a small line between them and left the rest of the page blank.
+
+---
+
+# Chapter Fourteen — The Simplest Explanation
+
+By Tuesday morning, the rumour had acquired a title.
+
+“Fujisaki and Kurose.”
+
+It was not a particularly imaginative title, but people seemed satisfied with it.
+
+Itsuki discovered this when he entered the classroom and found Riko writing the names on the corner of her notebook.
+
+He stopped beside her desk.
+
+“Don't.”
+
+She looked up.
+
+“Good morning to you too.”
+
+“Erase it.”
+
+“Why?”
+
+“Because it's wrong.”
+
+“It's a notebook, not a public record.”
+
+“Then it doesn't need to be there.”
+
+Riko drew a small line through the names.
+
+“There. History has been corrected.”
+
+Itsuki went to his seat.
+
+Miyake approached a few minutes later.
+
+“Hey, Kurose. Have you talked to Fujisaki?”
+
+“No.”
+
+“Not even about the rumour?”
+
+“No.”
+
+“Maybe you should.”
+
+“Why?”
+
+“So people know.”
+
+“They already know.”
+
+Miyake shrugged.
+
+“Some people don't believe you.”
+
+“That's their problem.”
+
+The answer came out more sharply than Itsuki intended.
+
+Miyake raised his hands.
+
+“Okay. I was just asking.”
+
+He returned to his desk.
+
+Riko watched Itsuki put away his notebook.
+
+“You're annoyed.”
+
+“I'm fine.”
+
+“That's not the same thing.”
+
+He did not answer.
+
+She leaned forward.
+
+“You know, if you ignore it completely, people might think you're hiding something.”
+
+“If I explain it, they'll ask more questions.”
+
+“Probably.”
+
+“Then I'd rather not.”
+
+Riko considered that.
+
+“That's a terrible strategy.”
+
+“It's the only one I have.”
+
+She did not tease him again.
+
+***
+
+Akari chose a different strategy.
+
+During the morning break, she spoke to two classmates who had been repeating the rumour.
+
+“It's not true,” she said. “Kurose helped me with the display board because I had a problem in the corridor. That's all.”
+
+One of them nodded.
+
+“Okay.”
+
+The other smiled.
+
+“You don't have to explain so much.”
+
+Akari paused.
+
+“I know. I just wanted to make sure.”
+
+“Sure.”
+
+The conversation ended.
+
+It should have helped.
+
+Instead, someone nearby asked why she was so concerned about making sure everyone understood.
+
+Akari felt her smile tighten.
+
+She had not wanted to make a scene. She had wanted to stop one.
+
+The two goals were apparently not compatible.
+
+At lunch, she sat with her usual friends. They spoke about the festival, the photographs, and the next round of assessments. Akari joined the conversation, laughed at the right moments, and answered when someone asked about her weekend.
+
+She was not unhappy with her friends.
+
+She was tired of having to manage the story around them.
+
+One of her closest classmates, Saki, waited until the others had gone to buy drinks.
+
+“Are you really okay?” she asked.
+
+Akari looked at her.
+
+“I'm fine.”
+
+Saki raised an eyebrow.
+
+“You've said that about twelve times.”
+
+“Because it's true.”
+
+“Then stop saying it like you're trying to convince the room.”
+
+Akari looked down at her lunch.
+
+Saki did not press.
+
+After a moment, Akari let out a breath.
+
+“I just don't want this following me around.”
+
+“I know.”
+
+“And I don't want Kurose dragged into it. He looked like he wanted to disappear.”
+
+Saki smiled a little.
+
+“Maybe he always looks like that.”
+
+Akari laughed despite herself.
+
+“That's not helpful.”
+
+“I'm trying.”
+
+The bell rang.
+
+They returned to class.
+
+***
+
+The rumour reached the teachers by the end of the week.
+
+Not because anyone had formally complained, but because two students had asked whether the school had a rule about taking photographs of other students without permission.
+
+Mr. Hasegawa mentioned it during homeroom.
+
+“Be considerate when taking pictures at school events,” he said. “A photograph can be shared without context, and that can cause problems for people who never agreed to be part of it.”
+
+Itsuki looked at the blackboard.
+
+Riko looked at him.
+
+He did not look back.
+
+After class, Mr. Hasegawa asked him to stay for a moment.
+
+“Has the festival photograph caused trouble?”
+
+Itsuki considered giving the simplest answer.
+
+“A little.”
+
+“Have you spoken to Fujisaki?”
+
+“Not since the festival.”
+
+“Do you want me to intervene?”
+
+“No.”
+
+Mr. Hasegawa nodded.
+
+“Then let me know if it becomes difficult to manage. You don't have to handle every situation alone.”
+
+“Thank you.”
+
+Itsuki returned to the corridor.
+
+He was not sure what he was supposed to do with that advice.
+
+***
+
+Mio spent her lunch break in the library.
+
+She had made a list of the versions she had heard.
+
+1. Akari and a boy left the service corridor together.
+2. The boy carried a display board.
+3. Akari was carrying the board.
+4. They had been arguing.
+5. They had been dating since the previous term.
+6. The photograph showed them meeting secretly.
+
+The list did not make sense.
+
+Some details contradicted one another. Others seemed to have been added because the first version was too ordinary to hold anyone's attention.
+
+Mio looked at the photograph on her phone.
+
+It showed the two students leaving the side passage. The boy's face was partly hidden. Akari was looking toward him, but her expression could have meant several things.
+
+A photograph was a fixed moment.
+
+People were not.
+
+She opened her notebook and wrote a question beneath the list.
+
+*What happened before this?*
+
+The answer would probably be simple.
+
+That did not mean she could assume it.
+
+***
+
+On Friday afternoon, Itsuki went to the library to return a book.
+
+The room was quiet. Sunlight fell across the tables, and the air smelled faintly of paper and floor polish. A few students were studying near the windows.
+
+Mio sat at her usual seat.
+
+She had a notebook open and a mechanical pencil in her hand.
+
+Itsuki returned his book at the desk. When he turned, she was looking toward him.
+
+“Kurose?”
+
+He stopped.
+
+“Yeah?”
+
+“Could I ask you something?”
+
+Her voice was quiet, but there was no hesitation in it.
+
+Itsuki glanced at the notebook.
+
+“About what?”
+
+“The festival.”
+
+He waited.
+
+“Specifically, the photograph of you and Fujisaki.”
+
+He looked at her for a moment.
+
+Then he sighed.
+
+“Of course.”
+
+Mio tilted her head slightly.
+
+“Is that a bad time?”
+
+“Not really.”
+
+“Good.”
+
+She closed the notebook, leaving one finger between the pages.
+
+“I've heard several versions of what happened. They don't fit together.”
+
+“That's because most of them are wrong.”
+
+“Which parts?”
+
+Itsuki considered the question.
+
+He could have said all of it.
+
+He could have told her to ask Akari.
+
+Instead, he looked at the chair opposite her.
+
+“Do you have a minute?”
+
+Mio moved her notebook aside.
+
+“Yes.”
+
+He sat down.
+
+The rumour had taken a week to become something everyone seemed to know. It had taken less than a minute for someone to ask what actually happened.
+
+Itsuki was not sure whether that was progress.
+
+But at least it was a different question.
+
+---
+
+# Epilogue — The First Version
+
+Mio waited until Itsuki had left before opening her notebook again.
+
+He had not told her everything.
+
+He had explained the crowd bottleneck, the fallen papers, and the display board. He had described the side corridor and the replacement stand. He had not seemed interested in the photograph itself, except to say that it showed only the last part of the incident.
+
+That was useful.
+
+It meant the photograph was not the beginning of the story.
+
+Mio wrote down the sequence as he had described it.
+
+A practical problem in Akari's class.
+
+A damaged display stand.
+
+A crowded corridor.
+
+A minor loss of balance.
+
+A student from another class helping carry the board.
+
+A request to keep the incident quiet.
+
+She drew a line beneath the notes.
+
+The details were ordinary. That was what made the rumour strange. The story had grown larger without gaining anything reliable.
+
+She turned to a clean page.
+
+There were still questions.
+
+Who had taken the photograph?
+
+Who had seen the first part of the incident?
+
+Why had the accounts changed?
+
+And why had Akari been so quick to deny something that, according to Itsuki, had never been anything more than an awkward moment?
+
+Mio tapped the pencil against the paper.
+
+She could have asked Akari directly.
+
+She probably should have.
+
+But she wanted to understand the order in which the story had changed. If she asked too broadly, people would simply repeat what they had heard.
+
+She needed the first version.
+
+Outside, the last students were leaving the school. The light beyond the windows had turned soft and gold.
+
+Mio closed her notebook.
+
+The rumour itself was not important.
+
+At least, that was what she told herself.
+
+She was curious about the people inside it.
+
+And there was one person she had not yet understood.
+
+Kurose Itsuki.
+
+For the first time, she wrote his name at the top of a new page.
+
+**Investigation — Festival Rumour.**
+
+Then, beneath it:
+
+**Start with what actually happened.**
+
