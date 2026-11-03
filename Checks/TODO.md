@@ -1,6 +1,6 @@
 # Tidewritten — TODO
 
-_Last reviewed: 2026-11-02_
+_Last reviewed: 2026-11-03_
 
 This is the current roadmap and concise completion record. Detailed technical conventions live in [Notes.md](Notes.md), and the root [Instructions.txt](../Instructions.txt) defines the project workflow.
 
@@ -19,6 +19,7 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 - [x] Create and maintain the central story-planning brief at [Checks/Story-Projects/Untitled-RomCom-Light-Novel.md](Story-Projects/Untitled-RomCom-Light-Novel.md), recording owner-confirmed decisions, provisional concepts, unresolved questions, and continuity notes.
 - [x] Record the current core direction: comedy-led tone and themes; protagonist's peaceful-final-year outlook; four heroine roles and hidden endgame; and the clarified multi-marriage family history and sibling dynamics.
+- [x] Update the rumour investigator, childhood friend, and teasing girl's owner-confirmed character foundations, including their personalities, family/social context, and relationship direction where decided.
 - [ ] Continue developing the original Japanese high-school romantic-comedy light novel from the story brief. Finalize remaining character identities/backgrounds, the opening festival incident, tutoring logistics, family mystery, central conflicts, and natural volume structure before drafting manuscripts.
 - [ ] Choose the final title and develop the complete story outline; no fixed volume count is set.
 
