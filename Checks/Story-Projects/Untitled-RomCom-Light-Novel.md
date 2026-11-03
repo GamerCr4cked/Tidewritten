@@ -87,12 +87,13 @@ Nanami attends nearby Hoshimiya East High School and is a second-year student. T
 
 ### 2.4 Calendar and ages
 
-The story opens in April, at the beginning of the Japanese school year.
+The story opens on **April 1**, during the final days of spring break, just before the new Japanese school year begins.
 
-- Itsuki is 17 at the opening and turns 18 during the school year.
-- Nanami is 15 at the opening and turns 16 later in the year.
-- Their birthdays are exactly two calendar years apart. Itsuki's birthday is **January 18**; Nanami's is **January 18**, two years later.
-- Itsuki is in third year; Nanami is in second year at a different school.
+- Itsuki is 17 at the opening and turns 18 the next day.
+- Nanami turns 16 on the opening day.
+- Itsuki's birthday is **April 2, 2008**; Nanami's birthday is **April 1, 2010**. Their age gap is one day short of two years.
+- These dates intentionally reconcile the Japanese April 2–April 1 school-year cutoff: Itsuki is in third year and Nanami is in second year at a different school.
+- The new school year begins in the first week of April; the main story then runs through the following March.
 - The five-volume story runs from April through the following March, ending with graduation and a short spring transition.
 
 These dates are continuity anchors. Do not create contradictions in school year, age, birthday, or season.
@@ -104,7 +105,7 @@ These dates are continuity anchors. Do not create contradictions in school year,
 ### Identity
 
 - Male, third-year student at Hoshimiya Municipal High School.
-- 17 at the beginning of the story; turns 18 in January.
+- 17 at the beginning of the story; turns 18 on April 2, the day after the opening.
 - Introverted, quiet, observant, and not socially active.
 - Wants a peaceful final year and to graduate without unnecessary trouble.
 - Has not seriously planned his post-graduation future and tends to take life one day at a time.
@@ -336,7 +337,7 @@ The tutoring is a meaningful strand of Volume 2 and the early middle of the seri
 | 1 | The Rumour That Started It All | April–June | Establish Itsuki's ordinary routine, family life, existing friendships, and the first changes in his final year. Build toward the cultural-festival rumour and end with Mio choosing to investigate. |
 | 2 | A Summer That Wouldn't Stay Quiet | July–September | Follow the consequences of the rumour, Akari's private tutoring, summer routines, and the first deeper connections. Let the cast expand naturally; end with the rumour losing importance as relationships become real. |
 | 3 | The Things We Didn't Say | October–December | Explore old familiarity and new trust. Ayane's history, Riko's changing feelings, Mio and Itsuki's quiet friendship, and Akari's independent choices all receive meaningful development. |
-| 4 | The Distance Between Yesterday and Tomorrow | January–February | Bring family history and post-graduation uncertainty closer to the surface. Itsuki's birthday, Nanami's family feelings, the mother's lie, and the characters' future choices create the emotional centre. |
+| 4 | The Distance Between Yesterday and Tomorrow | January–February | Bring family history and post-graduation uncertainty closer to the surface. Nanami's family feelings, the mother's lie, and the characters' future choices create the emotional centre. |
 | 5 | Before the Ordinary Ends | March | Resolve the final school year, relationships, and family truth. Allow the romantic direction to become clear through earned choices. End with graduation and a brief spring epilogue that gives the story a complete, hopeful conclusion. |
 
 ### Volume 1 — The Rumour That Started It All
@@ -392,7 +393,7 @@ The tutoring is a meaningful strand of Volume 2 and the early middle of the seri
 
 **Purpose:** Bring family and future into the foreground without abandoning comedy or school life.
 
-- Itsuki's 18th birthday falls on April 2, the day after the opening. Keep the small birthday moment understated and character-led, not a grand symbolic event.
+- Volume 1 includes Itsuki's 18th birthday on April 2. Keep the small birthday moment understated and character-led, not a grand symbolic event.
 - Graduation and post-school plans become unavoidable. Itsuki has to confront the fact that not choosing a future is itself a choice.
 - Nanami's discomfort with the changed family arrangement becomes more visible. Itsuki supports her while recognising that he cannot solve every feeling for her.
 - The second husband's new relationship is handled with maturity. Nanami can accept his girlfriend without instantly considering her family.
