@@ -759,3 +759,636 @@ He decided to count that as a success.
 - Nanami and Itsuki's relationship is explicitly sibling-like.
 - The mother’s fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - Akari and Mio have not yet formed meaningful relationships with Itsuki.
+
+
+# Chapter Two — The People Who Don't Need Invitations
+
+Riko had a talent for appearing in places where she had not been invited.
+
+It was not that she ignored invitations. She simply treated their absence as a technicality.
+
+At 3:18 p.m., Itsuki discovered her sitting on the low wall beside the school bicycle parking area, eating a melon bread she had apparently acquired from somewhere.
+
+He stopped.
+
+She looked up.
+
+“Good afternoon.”
+
+“School ended twenty minutes ago.”
+
+“Then you're late.”
+
+“For what?”
+
+“Your appointment.”
+
+“I don't have one.”
+
+“That's why you're late.”
+
+Itsuki considered walking away. Riko lifted the second melon bread from the paper bag and held it out.
+
+He stopped considering.
+
+“Bribery,” he said.
+
+“Hospitality.”
+
+“There's a difference.”
+
+“Not when it works.”
+
+He accepted the bread.
+
+The afternoon sun had warmed the concrete wall. Students moved past them in small groups, their voices drifting toward the main gate. A baseball club member jogged across the field with a bag over one shoulder. Somewhere behind the gym, someone was practising the same brass passage repeatedly, each attempt ending at the same uncertain note.
+
+Riko swung one leg.
+
+“Are you going straight home?”
+
+“Yes.”
+
+“That's boring.”
+
+“It's a destination, not a performance.”
+
+“Come to the shopping street with me.”
+
+“Why?”
+
+“I need to buy something.”
+
+“You can buy it without me.”
+
+“I could.”
+
+“Then I don't see the difficulty.”
+
+She looked at him as if he had disappointed her personally.
+
+“It's a heavy thing.”
+
+“What is it?”
+
+“I don't know yet.”
+
+“That sounds difficult.”
+
+“Exactly. I need a second opinion.”
+
+Itsuki took a bite of the bread. It was sweet enough to qualify as a small argument against his usual preference for plain food.
+
+“What are you buying?”
+
+“Something for the classroom.”
+
+“You don't have a classroom assignment.”
+
+“I might.”
+
+“That's not how assignments work.”
+
+“Not with that attitude.”
+
+He should have gone home. There were dishes in the sink from breakfast, laundry to bring in, and an English workbook he had promised himself he would finish before the weekend. None of those tasks was urgent.
+
+That was how Riko won most of their arguments. She did not need a convincing reason. She only needed the alternative to be slightly less interesting.
+
+“Fine,” he said.
+
+Riko hopped down from the wall.
+
+“Excellent. You're learning to live.”
+
+“I was doing that before I met you.”
+
+“Debatable.”
+
+They walked toward the station district.
+
+The shopping street was narrow, with low buildings and shopfronts that had accumulated their own histories. A stationery store displayed notebooks in the window. The florist had buckets of pale flowers arranged outside. A small café had placed two chairs beneath its awning, though no one was sitting in them. At the far end, the road widened near a crossing where the traffic light took an unreasonable amount of time to change.
+
+Riko stopped outside the stationery store.
+
+“Pens,” she announced.
+
+“You brought me here for pens?”
+
+“I said I needed to buy something.”
+
+“You said it was heavy.”
+
+“The decision is heavy.”
+
+Itsuki looked at the store window. A display of coloured markers stood beside a stack of poster paper.
+
+“Get black.”
+
+“Why?”
+
+“Because you use black.”
+
+“That's a very narrow view of the world.”
+
+“It's a pen.”
+
+Riko opened the door.
+
+A small bell rang above them. Inside, the shop smelled of paper and plastic packaging. The owner greeted them from behind the counter. Riko answered brightly, then wandered toward the display shelves.
+
+She picked up a set of pastel markers, put them down, chose a pack of black pens, then returned to the markers.
+
+Itsuki stood near the notebooks.
+
+“You're not helping,” she said.
+
+“You haven't asked for help.”
+
+“I'm asking now.”
+
+“Buy the pens.”
+
+“What if I regret it?”
+
+“Then you'll have several pens to regret.”
+
+She laughed, but she bought the markers.
+
+At the counter, she also picked up a pack of plain sticky notes. Itsuki noticed the corner of a folded worksheet sticking out of her bag.
+
+“Homework?” he asked.
+
+“Evidence of an unfortunate system.”
+
+“Math?”
+
+“Don't say it like that.”
+
+“Like what?”
+
+“Like you know.”
+
+He looked at the worksheet. There were several problems marked in red, not all of them wrong.
+
+“You missed the negative sign here.”
+
+Riko followed his finger.
+
+“That's a decorative mark.”
+
+“It's part of the equation.”
+
+“It's ruining the composition.”
+
+“It's a minus sign.”
+
+“Exactly. Very negative.”
+
+He returned the worksheet.
+
+Riko paid, thanked the shop owner, and stepped outside. She walked a little more slowly than before, turning the packet of markers over in her hands.
+
+“You could ask Hasegawa-sensei for help,” Itsuki said.
+
+“I could.”
+
+“You don't have to pretend the work is impossible.”
+
+“I don't.”
+
+“You just called the minus sign decorative.”
+
+“That's because it is.”
+
+He did not press the point. Riko was not stupid. She could understand the material when she wanted to, but she often lost patience halfway through a problem and decided the problem had personally offended her.
+
+They stopped at a vending machine near the corner. Riko bought a canned peach drink. Itsuki chose tea.
+
+“Are you going to help with the study board?” she asked.
+
+“Maybe.”
+
+“You should.”
+
+“Why?”
+
+“Because you're good at explaining things.”
+
+“I've explained one minus sign.”
+
+“And I understood it.”
+
+“You've rejected it.”
+
+“Understanding and acceptance are different.”
+
+Itsuki opened his tea.
+
+Riko looked down the street. A group of younger students passed, their bags bouncing against their backs. One of them called to a friend across the pavement. The friend waved both arms.
+
+“Do you ever think about what you'll do after graduation?” Riko asked.
+
+“Not often.”
+
+“Why not?”
+
+“Because it's April.”
+
+“That's not an answer.”
+
+“It's the current month.”
+
+She rolled her eyes.
+
+“You're impossible.”
+
+“I've been told.”
+
+“By me.”
+
+“Frequently.”
+
+Riko took a sip from her drink. Her expression had gone thoughtful, though she did not seem unhappy.
+
+“My parents already have a plan for me,” she said.
+
+Itsuki glanced at her.
+
+“School?”
+
+“Everything. School, grades, what I should do after. They have a list.”
+
+“Do you agree with it?”
+
+“Sometimes.”
+
+“And when you don't?”
+
+She smiled.
+
+“Then I come to school and become a public nuisance.”
+
+“That seems unrelated.”
+
+“It's very related.”
+
+She said it lightly. Itsuki did not ask what she meant. There were parts of Riko's life he knew only in outline. She was lively at school, quick with a joke, and almost impossible to embarrass. Her family was strict, she had once mentioned. That was all.
+
+A phone vibrated in her pocket.
+
+Riko checked the screen. Her expression changed—not dramatically, but enough for Itsuki to notice. The smile settled into something more polite.
+
+“It's my mother,” she said.
+
+She answered.
+
+“Hello, Mom. Yes, I'm on my way. I bought the things for school. No, I haven't forgotten the workbook. I'll be home before dinner.”
+
+Her voice was softer than the one she used with him. She listened, gave a few short replies, and promised to send a message when she reached the station.
+
+When the call ended, she returned the phone to her pocket.
+
+“Everything all right?” Itsuki asked.
+
+“Of course.”
+
+“You sound different.”
+
+“Do I?”
+
+“A little.”
+
+Riko shrugged.
+
+“That's because I have a phone voice.”
+
+“An entire voice?”
+
+“Several. You're only familiar with the one I use to bother you.”
+
+“I suspected there were others.”
+
+She nudged his shoulder with hers.
+
+“Don't sound so disappointed.”
+
+They continued toward the station. At the crossing, Riko waited beside him while the signal stayed red.
+
+“Thanks for coming,” she said.
+
+“You bought pens.”
+
+“And you provided emotional support.”
+
+“I corrected a minus sign.”
+
+“Exactly. You were there for me.”
+
+The light changed.
+
+Riko crossed first, waving without looking back. Itsuki followed at a more ordinary pace.
+
+At the station entrance, they separated. She went toward the bus stop; he headed for the local train platform.
+
+His phone buzzed before he reached the ticket gate.
+
+A message from Riko.
+
+*Don't forget your birthday cake tomorrow. You owe me a slice.*
+
+Itsuki typed back.
+
+*You already ate the cake.*
+
+*That was Nanami's cake. I'm talking about yours.*
+
+*I don't have one.*
+
+*Then buy one.*
+
+He put the phone away.
+
+It was possible, he thought, that the final year would be less quiet than he had planned.
+
+He decided not to mention that to anyone.
+
+---
+
+# Chapter Three — A Familiar Name on the Attendance Sheet
+
+The first family gathering of the new school year was not meant to be a celebration.
+
+Itsuki knew this because his mother had said so three times.
+
+“It's just dinner,” she had told him over the phone. “Ayane's parents are coming, and I thought it would be nice if you joined us.”
+
+“Why?”
+
+“Because we haven't all eaten together in a while.”
+
+“We ate together at New Year's.”
+
+“That was three months ago.”
+
+“Nanami used the same argument yesterday.”
+
+His mother had gone quiet for half a second.
+
+“Then perhaps she's right.”
+
+Itsuki had considered refusing. He did not dislike Ayane's parents. He had known them for most of his life, and they had always treated him kindly. The difficulty was not the people. It was the place.
+
+His mother's current home was a house he had never chosen to live in, shared with a man he had never chosen to call family. The third husband was polite. He asked about school, offered food, and made an effort to include Itsuki in conversations. Itsuki understood that those were decent things to do.
+
+He also understood that politeness did not create closeness by itself.
+
+His mother had eventually suggested that dinner could be held at the Fujimotos' house instead. Itsuki agreed.
+
+So on Saturday evening, he took the train two stops north and walked through a residential neighbourhood where the houses stood close together behind low fences. The air smelled faintly of cut grass and cooking oil. A child was riding a small bicycle in circles at the end of the street.
+
+The Fujimoto house looked much as he remembered it. The front garden had changed; a row of potted herbs now stood beside the steps. The wind chime near the entrance was the same one that had been there when he was in primary school.
+
+Ayane opened the door.
+
+“Itsuki.”
+
+“Evening.”
+
+She wore a soft yellow cardigan over a simple dress. Her hair was tucked behind one ear, and she looked as if she had been about to go back to the kitchen.
+
+“You came.”
+
+“Your mother invited me.”
+
+Ayane smiled. “I know. I just wasn't sure if you would.”
+
+There was no accusation in it. That made it harder to answer.
+
+“Your house is close,” he said.
+
+“That's true.”
+
+She stepped aside to let him in.
+
+The familiar smell of the entranceway reached him first: wood polish, laundry detergent, and something simmering in the kitchen. His shoes found their old place beside the cabinet without him having to think about it.
+
+Ayane noticed.
+
+“You still remember.”
+
+“It's the only place the shoes fit.”
+
+She laughed.
+
+The living room was already occupied. Ayane's father stood near the table, talking with Itsuki's mother. Her mother was bringing dishes from the kitchen. The third husband had not come; Itsuki's mother had said he had a work commitment. Itsuki was relieved, though he did not say so.
+
+His mother turned when he entered.
+
+“Itsuki. Thank you for coming.”
+
+“Hello.”
+
+She looked at him for a moment, as if checking whether he seemed well. Then she reached up and adjusted the collar of his jacket.
+
+“You've grown your hair out.”
+
+“It's the same length.”
+
+“It looks longer.”
+
+“Maybe the collar is different.”
+
+She lowered her hand.
+
+“Have you been eating properly?”
+
+“Yes.”
+
+“Really?”
+
+“Most days.”
+
+His mother sighed. Ayane's father laughed from the table.
+
+“He's always been like that. If you ask him whether he's eaten, he'll tell you the number of meals rather than what they were.”
+
+“That's useful information,” Itsuki said.
+
+“It isn't,” his mother replied.
+
+Dinner was warm and ordinary. Ayane's mother had made grilled fish, rice, miso soup, and a small dish of vegetables. They talked about the new school year, the neighbourhood, and a relative who had recently moved closer to the station. Itsuki answered when asked and otherwise listened.
+
+Ayane sat across from him.
+
+She had become more comfortable speaking with the adults than he remembered. She helped her mother serve food, asked about Itsuki's school, and laughed at her father's jokes. When she spoke to Itsuki directly, however, she still paused a little before each question.
+
+“Are you in the same class as Riko?” she asked.
+
+“Yeah.”
+
+“She's the one who always teases you, right?”
+
+“That's one description.”
+
+“I remember her from the sports festival last year.”
+
+“She was probably causing trouble.”
+
+Ayane smiled. “Probably.”
+
+“She's not as bad as people say,” Itsuki added.
+
+He was not sure why he said it. Riko was capable of defending herself. She would probably have found it funny that he was doing so.
+
+Ayane looked at him with a small expression of surprise.
+
+“You sound close.”
+
+“We're friends.”
+
+“That's good.”
+
+The conversation moved on.
+
+After dinner, Ayane's mother asked them to bring a box of old photo albums from the storage room. Itsuki followed Ayane down the hall.
+
+The storage room was narrow and cool. A cardboard box sat on the lower shelf, marked with a faded label. Ayane crouched and pulled it forward.
+
+“Careful,” Itsuki said. “It's heavier than it looks.”
+
+“I know. We put the albums in last year.”
+
+“You could have asked your father.”
+
+“He's talking to your mother.”
+
+“Then you could have asked me.”
+
+She glanced at him.
+
+“I did.”
+
+He looked at the box.
+
+“Fair.”
+
+They lifted it together and carried it to the living room. Ayane set it on the low table and opened the lid.
+
+Inside were several albums, envelopes of printed photographs, and a small stack of school drawings. Ayane picked up the top album.
+
+“This one is from primary school.”
+
+Itsuki sat beside the table.
+
+The first few pages showed a class trip, a sports day, and a summer festival. There were photographs of children in hats, children holding paper fans, children standing in rows with expressions of forced patience.
+
+Then Ayane turned a page.
+
+Itsuki was there.
+
+He was younger, his hair shorter, his expression less carefully blank. He stood beside Ayane beneath a cherry tree. Both of them held paper cups. Ayane was laughing at something outside the frame.
+
+“I remember that day,” she said.
+
+“I don't.”
+
+“You spilled juice on your shirt.”
+
+“That sounds familiar.”
+
+“You said the stain looked like a map.”
+
+“I might have been right.”
+
+“You were very proud of it.”
+
+“I was seven.”
+
+Ayane laughed.
+
+The next photograph showed them sitting on the floor of the Fujimoto living room, surrounded by building blocks. Itsuki had one hand on a half-finished tower. Ayane was leaning toward him, holding a piece that did not seem to fit anywhere.
+
+“We used to play here all the time,” she said.
+
+“Your house had more space.”
+
+“Your apartment was smaller.”
+
+“We didn't live in the apartment then.”
+
+“I know.”
+
+She turned another page.
+
+There were more photographs. A school trip. A birthday party. A rainy afternoon with several children gathered around a board game. Their families appeared in the background, smiling at the camera.
+
+Itsuki recognised the people, but the moments came back only in fragments.
+
+A smell. A voice. A colour.
+
+He remembered being close to Ayane. He did not remember the exact day they had stopped being close.
+
+Perhaps there had not been one.
+
+“Do you ever miss it?” Ayane asked.
+
+He looked at her.
+
+“The old days?”
+
+She nodded.
+
+“Sometimes.”
+
+“Me too.”
+
+She closed the album carefully.
+
+“I thought maybe we could talk more this year,” she said. “Since we're in the same class.”
+
+“That's fine.”
+
+Ayane's expression softened, but she did not look entirely satisfied.
+
+“Not because we have to,” she added. “I just thought it might be nice.”
+
+Itsuki understood the difference. He was not sure he knew how to respond to it.
+
+“Yeah,” he said. “It might.”
+
+It was not a promise. It was not a rejection.
+
+For now, it was honest.
+
+They carried the albums back to the living room. Their parents had moved to the kitchen, where Itsuki's mother was helping clear the dishes. Ayane returned the box to the table.
+
+When Itsuki left later that evening, Ayane walked him to the front door.
+
+“See you at school,” she said.
+
+“See you.”
+
+She hesitated, then smiled.
+
+“And happy birthday, by the way. I didn't get to say it on Wednesday.”
+
+“Thanks.”
+
+“I hope it was good.”
+
+“It was ordinary.”
+
+“That's not necessarily bad.”
+
+“No,” he said. “I suppose not.”
+
+He stepped outside.
+
+The wind chime moved once behind him, making a small glass sound.
+
+On the walk back to the station, he thought about the photographs. The children in them seemed familiar, but not quite like people he knew now. He wondered whether Ayane felt the same way.
+
+He did not have an answer.
+
+The train arrived before he reached one.
