@@ -5,7 +5,7 @@
 **Canonical edition:** English  
 **Series:** After the Ordinary  
 **Volume:** 1 of 5  
-**Target length:** Approximately 50,000–60,000 words, adjusted to the needs of the complete story rather than padded to hit a number.
+**Target length:** Approximately 30,000–32,000 words of story prose, with the final length determined by the complete narrative rather than padding.
 
 > **Continuity note for the author:** The Story Bible fixes Volume 1 to April–June, but also places the cultural festival in early autumn while requiring the festival rumour to end Volume 1. To preserve the five-volume calendar and the explicit Volume 1 ending, this manuscript currently places the festival on the final weekend of June. This is a transparent working resolution of that internal conflict, not a silent change to the Story Bible. The owner can revise it later if desired.
 
@@ -42,7 +42,7 @@ This is a full-volume structure, not a short opening sample. The eighteen chapte
 - **The Version Akari Knows** — Akari's friendships, study effort, and relationship with public attention.
 - **The Joke That Lands** — Riko's home expectations and her own effort with schoolwork.
 - **A Page Out of Order** — Mio's quiet hobby of observing small mysteries, including the limits of her assumptions.
-- Itsuki-centred side scenes deepen the family home situation, his relationship with Nanami's father, his study-support role, and his friendships with Riko and Ayane.
+- Itsuki-centred side scenes deepen the origin of his friendship with Riko, ordinary school sports, his relationship with Nanami's father, the family home he no longer lives in, his study-support role, and his friendships with Riko and Ayane.
 
 # Prologue — The Last Day of Nothing
 
@@ -385,6 +385,8 @@ April 1.
 The last day before his final year began.
 
 He turned off the kitchen light.
+
+---
 
 ---
 
@@ -832,6 +834,8 @@ For an eighteenth birthday, it was enough.
 
 ---
 
+---
+
 # Chapter Two — The People Who Don't Need Invitations
 
 Riko had a talent for appearing in places where she had not been invited.
@@ -1194,6 +1198,8 @@ He decided not to mention that to anyone.
 
 ---
 
+---
+
 # Interlude VIII — The Answer in the Margin
 
 Riko arrived at the library with a workbook and an expression of deep suspicion.
@@ -1402,6 +1408,8 @@ He decided that was probably worth it.
 
 ---
 
+---
+
 # Side Scene — The First Time Riko Sat Down
 
 Itsuki did not remember deciding to become friends with Riko Tachibana.
@@ -1549,6 +1557,184 @@ Riko had never explained it.
 He had stopped trying to find out.
 
 ---
+
+---
+
+---
+
+# Side Scene — The Last Game Before Rain
+
+Physical education was scheduled for the final period on Friday.
+
+The sky had been clear in the morning, but by the time Class 3-B reached the sports field, clouds had gathered over the western side of Hoshimiya. Mr. Hasegawa had checked the weather app twice and decided they had enough time for one short activity.
+
+“Badminton,” he announced.
+
+Riko looked at the rackets.
+
+“Excellent.”
+
+Itsuki looked at the sky.
+
+“It's going to rain.”
+
+“That's not the spirit.”
+
+“It's a weather forecast.”
+
+The class divided into pairs. Itsuki ended up with Miyake, who played for the school team and had volunteered to help keep the matches moving. Riko paired with Emi.
+
+The first few minutes were uneventful.
+
+Itsuki returned the shuttlecock when it came within reach. He was not especially good, but he understood where he was supposed to stand and did not swing at empty air. Miyake did most of the work.
+
+“Nice,” Miyake said after Itsuki returned a shot over the net.
+
+“Thanks.”
+
+“You play sometimes?”
+
+“Not really.”
+
+“You're better than you think.”
+
+“That's probably because you keep sending it to me.”
+
+Miyake laughed.
+
+On the next court, Riko had decided that the rules were flexible.
+
+She served too high, missed the return, and then claimed the wind had interfered with the shuttlecock's intentions.
+
+Emi looked at her.
+
+“It's indoors.”
+
+“Air conditioning.”
+
+“It's off.”
+
+“Then it's a personal problem.”
+
+The teacher blew the whistle.
+
+“Tachibana. Focus.”
+
+“I am focused.”
+
+“On the game.”
+
+“Of course.”
+
+Riko served again.
+
+The shuttlecock hit the net and fell back onto her side.
+
+She stared at it.
+
+“Betrayal.”
+
+Itsuki looked away before he laughed.
+
+The first drops of rain began during the second round. The teacher called the class back toward the building before the field became slippery. Students collected the rackets and carried them to the equipment room.
+
+Riko walked beside Itsuki.
+
+“You laughed.”
+
+“No.”
+
+“I heard it.”
+
+“You heard the rain.”
+
+“The rain doesn't sound like that.”
+
+“Maybe it was laughing too.”
+
+She nudged his arm.
+
+“You're getting worse.”
+
+“I'm improving.”
+
+They returned the equipment and went back to the classroom to collect their bags. The rain grew heavier against the windows.
+
+Miyake stopped beside Itsuki's desk.
+
+“You should join the badminton club.”
+
+“No.”
+
+“You'd get better.”
+
+“I'd have to attend practice.”
+
+“That's usually how clubs work.”
+
+“Then it's not for me.”
+
+Miyake laughed and left.
+
+Riko leaned against the desk.
+
+“You're allergic to commitments.”
+
+“Only unnecessary ones.”
+
+“That's a dangerous philosophy.”
+
+“It's kept me alive.”
+
+She grinned.
+
+The final bell rang.
+
+Outside, the rain had settled into a steady shower. Itsuki took out his umbrella. Riko checked her bag and frowned.
+
+“Forgot yours?” he asked.
+
+“Again.”
+
+“That's twice.”
+
+“Don't count.”
+
+He opened the umbrella.
+
+Riko stepped under it.
+
+“You're very kind.”
+
+“I'm preventing you from getting sick and missing class.”
+
+“Still kind.”
+
+“Don't tell anyone.”
+
+She smiled.
+
+They walked toward the station, arguing about whether badminton counted as a sport if one of the players was actively negotiating with the shuttlecock.
+
+By the time they reached the crossing, the rain had begun to ease.
+
+Itsuki looked at the sky.
+
+Riko looked at him.
+
+“Don't say I told you so.”
+
+“I wasn't going to.”
+
+“You were thinking it.”
+
+“Maybe.”
+
+She laughed.
+
+The light changed.
+
+They crossed together.
 
 ---
 
@@ -1838,6 +2024,8 @@ The train arrived before he reached one.
 
 ---
 
+---
+
 # Interlude V — The House He Doesn't Live In
 
 The envelope arrived on a Thursday.
@@ -1967,6 +2155,8 @@ Then he typed:
 *Thanks for signing the form.*
 
 He put the phone away and waited for the light to change.
+
+---
 
 ---
 
@@ -2181,6 +2371,8 @@ Those things belonged to Akari's day, not his.
 For now, they were students in the same school who happened to pass each other in the corridor.
 
 That was enough.
+
+---
 
 ---
 
@@ -2452,6 +2644,8 @@ She only had to find it.
 
 ---
 
+---
+
 # Chapter Five — A Quiet Seat by the Window
 
 The library was the quietest place in the school, provided nobody had decided to whisper.
@@ -2543,6 +2737,8 @@ She used a mechanical pencil with a blue grip.
 It was not a particularly useful fact.
 
 He suspected he would forget it by tomorrow.
+
+---
 
 ---
 
@@ -2682,6 +2878,8 @@ That was why she liked asking questions.
 
 ---
 
+---
+
 # Side Scene — The Library's Closing Bell
 
 The library closed fifteen minutes early on the last Thursday of May.
@@ -2783,6 +2981,8 @@ He only remembered that Mio had said she liked things that did not quite make se
 At the time, it sounded like a hobby.
 
 He did not yet know that a rumour would soon give her something to investigate.
+
+---
 
 ---
 
@@ -3052,6 +3252,8 @@ He left the pencil mark.
 
 ---
 
+---
+
 # Interlude I — A Different School Bell
 
 Hoshimiya East High School had a different morning rhythm.
@@ -3234,6 +3436,8 @@ She did not know whether the project would be good.
 
 But she was looking forward to it.
 
+
+---
 
 ---
 
@@ -3428,6 +3632,8 @@ Nanami did not push.
 The train arrived.
 
 They got on together.
+
+---
 
 ---
 
@@ -3685,6 +3891,8 @@ Still, he found himself hoping he would remember to say yes when she asked.
 
 ---
 
+---
+
 # Interlude IX — Lunch on the Second Floor
 
 Ayane asked him on a Wednesday.
@@ -3870,6 +4078,8 @@ He had not expected lunch to feel different.
 It had not been especially exciting. They had eaten, talked, and returned to class.
 
 But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
 
 ---
 
@@ -4103,6 +4313,8 @@ And he had somewhere to be.
 
 ---
 
+---
+
 # Interlude VII — The Shape of an Explanation
 
 The study-support board was placed beside the classroom door.
@@ -4213,6 +4425,8 @@ He had not thought of it as anything worth noticing. He had simply written down 
 But if it helped someone else, that was fine.
 
 He put the marker back in the tray.
+
+---
 
 ---
 
@@ -4423,6 +4637,8 @@ Riko took it and slid into her seat.
 The joke had landed.
 
 The work was still hers.
+
+---
 
 ---
 
@@ -4736,6 +4952,8 @@ The school year continued.
 
 ---
 
+---
+
 # Chapter Ten — Before the Doors Open
 
 The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
@@ -5036,6 +5254,8 @@ For once, he hoped the weather would stay clear.
 
 ---
 
+---
+
 # Chapter Eleven — The Morning Everyone Was Busy
 
 The festival opened at ten.
@@ -5281,6 +5501,8 @@ The noise from the main hall grew louder.
 He adjusted his glasses and headed toward the stairs.
 
 He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
 
 ---
 
@@ -5591,6 +5813,8 @@ And the photograph, taken just as they stepped through the corridor, showed only
 It was not a lie.
 
 It was simply not the truth.
+
+---
 
 ---
 
@@ -6050,6 +6274,8 @@ Then she drew a small line between them and left the rest of the page blank.
 
 ---
 
+---
+
 # Chapter Fourteen — The Simplest Explanation
 
 By Tuesday morning, the rumour had acquired a title.
@@ -6387,6 +6613,8 @@ But at least it was a different question.
 
 ---
 
+---
+
 # Chapter Fifteen — The Account That Doesn't Match
 
 Mio did not ask Akari about the rumour immediately.
@@ -6637,6 +6865,8 @@ But he kept thinking about what she had said.
 
 ---
 
+---
+
 # Chapter Sixteen — A Question Worth Answering
 
 Mio returned to the library the next afternoon.
@@ -6868,6 +7098,8 @@ Not really.
 But there was now someone asking a different question.
 
 And for the first time since the festival, Itsuki thought that perhaps he should answer it.
+
+---
 
 ---
 
@@ -7110,6 +7342,8 @@ He walked toward the gate.
 He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
+
+---
 
 ---
 
@@ -7435,6 +7669,8 @@ It was a start.
 
 ---
 
+---
+
 # Epilogue — The First Version
 
 Mio waited until Itsuki had left before opening her notebook again.
@@ -7523,178 +7759,3 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
-
-
-# Side Scene — The Last Game Before Rain
-
-Physical education was scheduled for the final period on Friday.
-
-The sky had been clear in the morning, but by the time Class 3-B reached the sports field, clouds had gathered over the western side of Hoshimiya. Mr. Hasegawa had checked the weather app twice and decided they had enough time for one short activity.
-
-“Badminton,” he announced.
-
-Riko looked at the rackets.
-
-“Excellent.”
-
-Itsuki looked at the sky.
-
-“It's going to rain.”
-
-“That's not the spirit.”
-
-“It's a weather forecast.”
-
-The class divided into pairs. Itsuki ended up with Miyake, who played for the school team and had volunteered to help keep the matches moving. Riko paired with Emi.
-
-The first few minutes were uneventful.
-
-Itsuki returned the shuttlecock when it came within reach. He was not especially good, but he understood where he was supposed to stand and did not swing at empty air. Miyake did most of the work.
-
-“Nice,” Miyake said after Itsuki returned a shot over the net.
-
-“Thanks.”
-
-“You play sometimes?”
-
-“Not really.”
-
-“You're better than you think.”
-
-“That's probably because you keep sending it to me.”
-
-Miyake laughed.
-
-On the next court, Riko had decided that the rules were flexible.
-
-She served too high, missed the return, and then claimed the wind had interfered with the shuttlecock's intentions.
-
-Emi looked at her.
-
-“It's indoors.”
-
-“Air conditioning.”
-
-“It's off.”
-
-“Then it's a personal problem.”
-
-The teacher blew the whistle.
-
-“Tachibana. Focus.”
-
-“I am focused.”
-
-“On the game.”
-
-“Of course.”
-
-Riko served again.
-
-The shuttlecock hit the net and fell back onto her side.
-
-She stared at it.
-
-“Betrayal.”
-
-Itsuki looked away before he laughed.
-
-The first drops of rain began during the second round. The teacher called the class back toward the building before the field became slippery. Students collected the rackets and carried them to the equipment room.
-
-Riko walked beside Itsuki.
-
-“You laughed.”
-
-“No.”
-
-“I heard it.”
-
-“You heard the rain.”
-
-“The rain doesn't sound like that.”
-
-“Maybe it was laughing too.”
-
-She nudged his arm.
-
-“You're getting worse.”
-
-“I'm improving.”
-
-They returned the equipment and went back to the classroom to collect their bags. The rain grew heavier against the windows.
-
-Miyake stopped beside Itsuki's desk.
-
-“You should join the badminton club.”
-
-“No.”
-
-“You'd get better.”
-
-“I'd have to attend practice.”
-
-“That's usually how clubs work.”
-
-“Then it's not for me.”
-
-Miyake laughed and left.
-
-Riko leaned against the desk.
-
-“You're allergic to commitments.”
-
-“Only unnecessary ones.”
-
-“That's a dangerous philosophy.”
-
-“It's kept me alive.”
-
-She grinned.
-
-The final bell rang.
-
-Outside, the rain had settled into a steady shower. Itsuki took out his umbrella. Riko checked her bag and frowned.
-
-“Forgot yours?” he asked.
-
-“Again.”
-
-“That's twice.”
-
-“Don't count.”
-
-He opened the umbrella.
-
-Riko stepped under it.
-
-“You're very kind.”
-
-“I'm preventing you from getting sick and missing class.”
-
-“Still kind.”
-
-“Don't tell anyone.”
-
-She smiled.
-
-They walked toward the station, arguing about whether badminton counted as a sport if one of the players was actively negotiating with the shuttlecock.
-
-By the time they reached the crossing, the rain had begun to ease.
-
-Itsuki looked at the sky.
-
-Riko looked at him.
-
-“Don't say I told you so.”
-
-“I wasn't going to.”
-
-“You were thinking it.”
-
-“Maybe.”
-
-She laughed.
-
-The light changed.
-
-They crossed together.
