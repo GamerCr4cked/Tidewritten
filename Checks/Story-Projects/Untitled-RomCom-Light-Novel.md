@@ -392,7 +392,7 @@ The tutoring is a meaningful strand of Volume 2 and the early middle of the seri
 
 **Purpose:** Bring family and future into the foreground without abandoning comedy or school life.
 
-- Itsuki turns 18 in January. The birthday is understated and character-led, not a grand symbolic event.
+- Itsuki's birthday falls just after the opening of the school year in April. The small birthday moment is understated and character-led, not a grand symbolic event.
 - Graduation and post-school plans become unavoidable. Itsuki has to confront the fact that not choosing a future is itself a choice.
 - Nanami's discomfort with the changed family arrangement becomes more visible. Itsuki supports her while recognising that he cannot solve every feeling for her.
 - The second husband's new relationship is handled with maturity. Nanami can accept his girlfriend without instantly considering her family.
@@ -610,7 +610,7 @@ This section records decisions that future edits must preserve unless the owner 
 - The series has a fixed, complete length of **five volumes**. This replaces the earlier no-fixed-volume-limit direction.
 - The five volumes cover one Japanese school year, April through March, with a short spring epilogue.
 - Hoshimiya is the fictional city; Hoshimiya Municipal High School is the main school; Nanami attends Hoshimiya East High School.
-- Itsuki's birthday is January 18; Nanami's is January 18 two years later.
+- Itsuki's birthday is April 2, 2008; Nanami's is April 1, 2010. The dates keep them in adjacent high-school grades under the Japanese school-year cutoff while leaving them almost exactly two years apart in age.
 - Itsuki lives alone in a modest apartment arranged and supported by his mother, with occasional school-related support from the second husband.
 - The mother's true reason for leaving the second husband is emotional distance and her desire to reclaim her identity; she fabricated the cheating story because she was ashamed to explain that no single villain existed. The second husband did not cheat.
 - Ayane and Itsuki drifted apart gradually as their routines and social circles changed; there was no betrayal or dramatic falling-out.
