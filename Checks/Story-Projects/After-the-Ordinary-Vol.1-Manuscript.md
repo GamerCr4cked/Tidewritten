@@ -394,6 +394,8 @@ He turned off the kitchen light.
 
 ---
 
+---
+
 # Chapter One — A Perfectly Ordinary Start
 
 Itsuki turned eighteen at 12:00 a.m.
@@ -828,6 +830,8 @@ For an eighteenth birthday, it was enough.
 
 ---
 
+---
+
 # Chapter Two — The People Who Don't Need Invitations
 
 Riko had a talent for appearing in places where she had not been invited.
@@ -1188,6 +1192,8 @@ He decided not to mention that to anyone.
 
 ---
 
+---
+
 # Interlude VIII — The Answer in the Margin
 
 Riko arrived at the library with a workbook and an expression of deep suspicion.
@@ -1389,6 +1395,158 @@ Still, Riko had left with a workbook she could actually use.
 He decided that was probably worth it.
 
 ---
+
+---
+
+---
+
+---
+
+# Side Scene — The First Time Riko Sat Down
+
+Itsuki did not remember deciding to become friends with Riko Tachibana.
+
+He remembered the first time she spoke to him.
+
+It had been late in the previous school year, on a day when the classroom was too warm and the afternoon lesson had been cancelled because a teacher was absent. Most students had gone to the courtyard. A few stayed behind to finish assignments.
+
+Itsuki had been sitting near the window, reading.
+
+He preferred the classroom when it was almost empty. The silence was not complete, but it was predictable. A chair moved. Someone turned a page. A door opened somewhere down the corridor. None of it required a response.
+
+Then someone pulled out the chair opposite him.
+
+“Is this seat taken?”
+
+Itsuki looked up.
+
+A girl with short brown hair stood beside the desk. She had a bright, curious expression and a notebook tucked beneath one arm.
+
+“It's a classroom,” he said.
+
+She blinked.
+
+“That's not an answer.”
+
+“Then no.”
+
+She sat down.
+
+He returned to his book.
+
+For a minute, she said nothing.
+
+Then she leaned forward.
+
+“What are you reading?”
+
+He showed her the cover.
+
+She tilted her head.
+
+“Is it interesting?”
+
+“Sometimes.”
+
+“That's another terrible answer.”
+
+“It's a collection of essays.”
+
+“I know what it is. I asked if it was interesting.”
+
+“Some of them.”
+
+She stared at him.
+
+Then she laughed.
+
+“Do you always talk like that?”
+
+“Like what?”
+
+“Like every sentence costs money.”
+
+Itsuki turned a page.
+
+“Only when I'm saving.”
+
+She laughed again.
+
+He looked at her over the top of the book.
+
+“What?”
+
+“Nothing. You're funny.”
+
+“I wasn't trying to be.”
+
+“That's why it's funny.”
+
+She introduced herself as Riko Tachibana. She was in another class, though he had seen her around school. She had a reputation for making teachers sigh and classmates laugh. Itsuki knew that much.
+
+He did not know why she had chosen his table.
+
+“Are you always alone?” she asked.
+
+“Usually.”
+
+“Do you like it?”
+
+“Yes.”
+
+“Then why are you talking to me?”
+
+He considered that.
+
+“You sat down.”
+
+Riko smiled.
+
+“Fair.”
+
+She opened her notebook and began drawing something in the margin. Itsuki returned to his reading.
+
+After a few minutes, she pushed the notebook toward him.
+
+It was a drawing of a small fish wearing glasses.
+
+Itsuki looked at it.
+
+“That's you,” she said.
+
+“I don't look like a fish.”
+
+“You have the same expression.”
+
+“Fish don't wear glasses.”
+
+“This one does.”
+
+He pushed the notebook back.
+
+“It's inaccurate.”
+
+“Then I need a better reference.”
+
+She stayed until the bell rang.
+
+The next day, she sat at the same table.
+
+The day after that, she did it again.
+
+Eventually, Itsuki stopped asking why.
+
+He had not invited her.
+
+She had not asked him to become her friend.
+
+It had happened through repeated small decisions: a chair pulled out, a question asked, a joke that did not need an answer, a conversation that continued because neither of them had a reason to leave.
+
+He still did not know exactly when it had become friendship.
+
+Riko had never explained it.
+
+He had stopped trying to find out.
 
 ---
 
@@ -1678,6 +1836,8 @@ The train arrived before he reached one.
 
 ---
 
+---
+
 # Interlude V — The House He Doesn't Live In
 
 The envelope arrived on a Thursday.
@@ -1807,6 +1967,8 @@ Then he typed:
 *Thanks for signing the form.*
 
 He put the phone away and waited for the light to change.
+
+---
 
 ---
 
@@ -2019,6 +2181,8 @@ Those things belonged to Akari's day, not his.
 For now, they were students in the same school who happened to pass each other in the corridor.
 
 That was enough.
+
+---
 
 ---
 
@@ -2286,6 +2450,8 @@ She only had to find it.
 
 ---
 
+---
+
 # Chapter Five — A Quiet Seat by the Window
 
 The library was the quietest place in the school, provided nobody had decided to whisper.
@@ -2377,6 +2543,8 @@ She used a mechanical pencil with a blue grip.
 It was not a particularly useful fact.
 
 He suspected he would forget it by tomorrow.
+
+---
 
 ---
 
@@ -2509,6 +2677,112 @@ That was why she liked asking questions.
 ---
 
 ---
+
+---
+
+---
+
+# Side Scene — The Library's Closing Bell
+
+The library closed fifteen minutes early on the last Thursday of May.
+
+A notice had been placed near the entrance, explaining that the staff needed to inspect the heating system before the weekend. Most students had already left by the time Itsuki finished his assignment.
+
+He packed his notebook and returned the reference book to the desk.
+
+Mio Kanzaki was still at the window table.
+
+She had two books open and a small notebook beside them. The afternoon light had shifted across the table, leaving one page in shadow.
+
+The librarian approached her.
+
+“Sorry, Kanzaki. We're closing early today.”
+
+Mio looked up.
+
+“Already?”
+
+“Just for today.”
+
+She checked the clock.
+
+“I see. I'll put these away.”
+
+Itsuki stepped aside to let her pass.
+
+Mio gathered her books and carried them to the desk. One of the books was heavier than the other, and she shifted it against her arm before placing it on the counter.
+
+The librarian stamped the returns.
+
+“Thank you.”
+
+Mio nodded.
+
+Itsuki waited until she had moved away before placing his own book on the counter.
+
+Outside, the corridor was nearly empty.
+
+He walked toward the stairs.
+
+Mio came out a moment later, holding her notebook against her chest. She paused near the window, looking at the sports field.
+
+The badminton nets had been taken down. A few students were collecting shuttlecocks from the edge of the court.
+
+Itsuki passed her.
+
+“Library's closed,” he said.
+
+She looked at him.
+
+“I noticed.”
+
+“Just checking.”
+
+A small pause.
+
+“Do you come here often?” she asked.
+
+“Sometimes.”
+
+“I thought so.”
+
+He looked at her notebook.
+
+“Studying?”
+
+“Not exactly.”
+
+She seemed to consider whether to explain.
+
+Then she said, “I like keeping track of small things.”
+
+“Like what?”
+
+“Things that don't quite make sense.”
+
+Itsuki glanced toward the sports field.
+
+“That's a lot of things.”
+
+“Yes.”
+
+She closed the notebook.
+
+He nodded.
+
+“Good luck.”
+
+“Thank you.”
+
+They went down the stairs in different directions.
+
+Itsuki did not think much about the conversation.
+
+He only remembered that Mio had said she liked things that did not quite make sense.
+
+At the time, it sounded like a hobby.
+
+He did not yet know that a rumour would soon give her something to investigate.
 
 ---
 
@@ -2776,6 +3050,8 @@ He left the pencil mark.
 
 ---
 
+---
+
 # Interlude I — A Different School Bell
 
 Hoshimiya East High School had a different morning rhythm.
@@ -2958,6 +3234,8 @@ She did not know whether the project would be good.
 
 But she was looking forward to it.
 
+
+---
 
 ---
 
@@ -3150,6 +3428,8 @@ Nanami did not push.
 The train arrived.
 
 They got on together.
+
+---
 
 ---
 
@@ -3403,6 +3683,8 @@ Still, he found himself hoping he would remember to say yes when she asked.
 
 ---
 
+---
+
 # Interlude IX — Lunch on the Second Floor
 
 Ayane asked him on a Wednesday.
@@ -3588,6 +3870,8 @@ He had not expected lunch to feel different.
 It had not been especially exciting. They had eaten, talked, and returned to class.
 
 But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
 
 ---
 
@@ -3817,6 +4101,8 @@ And he had somewhere to be.
 
 ---
 
+---
+
 # Interlude VII — The Shape of an Explanation
 
 The study-support board was placed beside the classroom door.
@@ -3927,6 +4213,8 @@ He had not thought of it as anything worth noticing. He had simply written down 
 But if it helped someone else, that was fine.
 
 He put the marker back in the tray.
+
+---
 
 ---
 
@@ -4135,6 +4423,8 @@ Riko took it and slid into her seat.
 The joke had landed.
 
 The work was still hers.
+
+---
 
 ---
 
@@ -4444,6 +4734,8 @@ The school year continued.
 
 ---
 
+---
+
 # Chapter Ten — Before the Doors Open
 
 The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
@@ -4742,6 +5034,8 @@ For once, he hoped the weather would stay clear.
 
 ---
 
+---
+
 # Chapter Eleven — The Morning Everyone Was Busy
 
 The festival opened at ten.
@@ -4987,6 +5281,8 @@ The noise from the main hall grew louder.
 He adjusted his glasses and headed toward the stairs.
 
 He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
 
 ---
 
@@ -5295,6 +5591,8 @@ And the photograph, taken just as they stepped through the corridor, showed only
 It was not a lie.
 
 It was simply not the truth.
+
+---
 
 ---
 
@@ -5750,6 +6048,8 @@ Then she drew a small line between them and left the rest of the page blank.
 
 ---
 
+---
+
 # Chapter Fourteen — The Simplest Explanation
 
 By Tuesday morning, the rumour had acquired a title.
@@ -6085,6 +6385,8 @@ But at least it was a different question.
 
 ---
 
+---
+
 # Chapter Fifteen — The Account That Doesn't Match
 
 Mio did not ask Akari about the rumour immediately.
@@ -6333,6 +6635,8 @@ But he kept thinking about what she had said.
 
 ---
 
+---
+
 # Chapter Sixteen — A Question Worth Answering
 
 Mio returned to the library the next afternoon.
@@ -6564,6 +6868,8 @@ Not really.
 But there was now someone asking a different question.
 
 And for the first time since the festival, Itsuki thought that perhaps he should answer it.
+
+---
 
 ---
 
@@ -6804,6 +7110,8 @@ He walked toward the gate.
 He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
+
+---
 
 ---
 
@@ -7125,6 +7433,8 @@ It was a start.
 
 ---
 
+---
+
 # Epilogue — The First Version
 
 Mio waited until Itsuki had left before opening her notebook again.
@@ -7203,7 +7513,7 @@ Then, beneath it:
 
 - Story opens April 1, 2026. Nanami turns 16; Itsuki turns 18 on April 2, 2026.
 - Itsuki is in Class 3-B at Hoshimiya Municipal High School.
-- Riko is already Itsuki's friend and is in the same class; their teasing is familiar and platonic at the opening.
+- Riko is already Itsuki's friend and is in the same class; their teasing is familiar and platonic at the opening. A short flashback shows how their friendship began.
 - Ayane is also in Class 3-B. Their families remain close, while the teenagers have gradually drifted apart without a betrayal or dramatic falling-out.
 - Akari is genuinely sociable and popular. She and Itsuki have only brief, ordinary interactions before the festival incident.
 - Mio is observant but fallible. Before the rumour, she and Itsuki have exchanged only a few words in the library.
@@ -7213,255 +7523,3 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
-
-
-# Side Scene — The First Time Riko Sat Down
-
-Itsuki did not remember deciding to become friends with Riko Tachibana.
-
-He remembered the first time she spoke to him.
-
-It had been late in the previous school year, on a day when the classroom was too warm and the afternoon lesson had been cancelled because a teacher was absent. Most students had gone to the courtyard. A few stayed behind to finish assignments.
-
-Itsuki had been sitting near the window, reading.
-
-He preferred the classroom when it was almost empty. The silence was not complete, but it was predictable. A chair moved. Someone turned a page. A door opened somewhere down the corridor. None of it required a response.
-
-Then someone pulled out the chair opposite him.
-
-“Is this seat taken?”
-
-Itsuki looked up.
-
-A girl with short brown hair stood beside the desk. She had a bright, curious expression and a notebook tucked beneath one arm.
-
-“It's a classroom,” he said.
-
-She blinked.
-
-“That's not an answer.”
-
-“Then no.”
-
-She sat down.
-
-He returned to his book.
-
-For a minute, she said nothing.
-
-Then she leaned forward.
-
-“What are you reading?”
-
-He showed her the cover.
-
-She tilted her head.
-
-“Is it interesting?”
-
-“Sometimes.”
-
-“That's another terrible answer.”
-
-“It's a collection of essays.”
-
-“I know what it is. I asked if it was interesting.”
-
-“Some of them.”
-
-She stared at him.
-
-Then she laughed.
-
-“Do you always talk like that?”
-
-“Like what?”
-
-“Like every sentence costs money.”
-
-Itsuki turned a page.
-
-“Only when I'm saving.”
-
-She laughed again.
-
-He looked at her over the top of the book.
-
-“What?”
-
-“Nothing. You're funny.”
-
-“I wasn't trying to be.”
-
-“That's why it's funny.”
-
-She introduced herself as Riko Tachibana. She was in another class, though he had seen her around school. She had a reputation for making teachers sigh and classmates laugh. Itsuki knew that much.
-
-He did not know why she had chosen his table.
-
-“Are you always alone?” she asked.
-
-“Usually.”
-
-“Do you like it?”
-
-“Yes.”
-
-“Then why are you talking to me?”
-
-He considered that.
-
-“You sat down.”
-
-Riko smiled.
-
-“Fair.”
-
-She opened her notebook and began drawing something in the margin. Itsuki returned to his reading.
-
-After a few minutes, she pushed the notebook toward him.
-
-It was a drawing of a small fish wearing glasses.
-
-Itsuki looked at it.
-
-“That's you,” she said.
-
-“I don't look like a fish.”
-
-“You have the same expression.”
-
-“Fish don't wear glasses.”
-
-“This one does.”
-
-He pushed the notebook back.
-
-“It's inaccurate.”
-
-“Then I need a better reference.”
-
-She stayed until the bell rang.
-
-The next day, she sat at the same table.
-
-The day after that, she did it again.
-
-Eventually, Itsuki stopped asking why.
-
-He had not invited her.
-
-She had not asked him to become her friend.
-
-It had happened through repeated small decisions: a chair pulled out, a question asked, a joke that did not need an answer, a conversation that continued because neither of them had a reason to leave.
-
-He still did not know exactly when it had become friendship.
-
-Riko had never explained it.
-
-He had stopped trying to find out.
-
----
-
-# Side Scene — The Library's Closing Bell
-
-The library closed fifteen minutes early on the last Thursday of May.
-
-A notice had been placed near the entrance, explaining that the staff needed to inspect the heating system before the weekend. Most students had already left by the time Itsuki finished his assignment.
-
-He packed his notebook and returned the reference book to the desk.
-
-Mio Kanzaki was still at the window table.
-
-She had two books open and a small notebook beside them. The afternoon light had shifted across the table, leaving one page in shadow.
-
-The librarian approached her.
-
-“Sorry, Kanzaki. We're closing early today.”
-
-Mio looked up.
-
-“Already?”
-
-“Just for today.”
-
-She checked the clock.
-
-“I see. I'll put these away.”
-
-Itsuki stepped aside to let her pass.
-
-Mio gathered her books and carried them to the desk. One of the books was heavier than the other, and she shifted it against her arm before placing it on the counter.
-
-The librarian stamped the returns.
-
-“Thank you.”
-
-Mio nodded.
-
-Itsuki waited until she had moved away before placing his own book on the counter.
-
-Outside, the corridor was nearly empty.
-
-He walked toward the stairs.
-
-Mio came out a moment later, holding her notebook against her chest. She paused near the window, looking at the sports field.
-
-The badminton nets had been taken down. A few students were collecting shuttlecocks from the edge of the court.
-
-Itsuki passed her.
-
-“Library's closed,” he said.
-
-She looked at him.
-
-“I noticed.”
-
-“Just checking.”
-
-A small pause.
-
-“Do you come here often?” she asked.
-
-“Sometimes.”
-
-“I thought so.”
-
-He looked at her notebook.
-
-“Studying?”
-
-“Not exactly.”
-
-She seemed to consider whether to explain.
-
-Then she said, “I like keeping track of small things.”
-
-“Like what?”
-
-“Things that don't quite make sense.”
-
-Itsuki glanced toward the sports field.
-
-“That's a lot of things.”
-
-“Yes.”
-
-She closed the notebook.
-
-He nodded.
-
-“Good luck.”
-
-“Thank you.”
-
-They went down the stairs in different directions.
-
-Itsuki did not think much about the conversation.
-
-He only remembered that Mio had said she liked things that did not quite make sense.
-
-At the time, it sounded like a hobby.
-
-He did not yet know that a rumour would soon give her something to investigate.
-
