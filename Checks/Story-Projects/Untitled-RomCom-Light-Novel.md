@@ -629,5 +629,5 @@ This section records decisions that future edits must preserve unless the owner 
 
 **Planning:** Final story bible and Volume 1 chapter outline complete.  
 **Current production:** The English Volume 1 manuscript and its canonical HTML reader page have been drafted. Editorial and continuity revision remains outstanding.  
-**Publication:** The page is on the unpublished `writing/after-the-ordinary-vol1` branch. It is not live; no translations or cover asset have been created for this series.  
+**Publication:** The canonical English reader page is published at `/book/After-the-Ordinary-Vol.1/`. The GitHub Pages build and deployment succeeded for merge commit `7a024568df2e3e8e012ec3ce40d0c13699d8971d` (workflow run [#521](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41662407519)). Editorial and continuity revision remains outstanding; no translations or cover asset have been created for this series.  
 **Owner approval:** The title, five-volume direction, and late-June Volume 1 festival timeline are confirmed. The late-June decision replaces the earlier early-autumn note; any later explicit owner instruction takes precedence.
