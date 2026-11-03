@@ -414,6 +414,8 @@ At 6:40, his alarm answered with a cheerful electronic melody that sounded incre
 
 He turned it off.
 
+The bathroom mirror offered no evidence that he had become an adult. His ash-black hair fell in slightly messy layers below his ears, with the longer side strands brushing their edges and a soft fringe that never stayed where he put it. He reached for his glasses on the shelf and settled the thin charcoal frames against his face. They were somewhere between round and square, with gently curved corners. His eyes looked greyish-dark in the morning light. He was lean and about average height; nothing about him had changed overnight.
+
 The first day of April was cold enough that he wore a light jacket over his shirt. He made toast, boiled water for tea, and checked his school bag. His timetable was still pinned to the refrigerator, though the date had changed.
 
 A message waited on his phone.
@@ -640,7 +642,7 @@ Ayane Fujimoto.
 
 She was in the same class.
 
-Itsuki found her near the window after lunch. She was speaking with two girls, her shoulder-length black hair tucked behind one ear. When she turned and noticed him, her expression brightened with recognition.
+Itsuki found her near the window after lunch. She was speaking with two girls, her shoulder-length black hair and side-swept bangs framing a warm expression. Her reddish-brown eyes brightened with recognition when she turned and noticed him.
 
 “It'suki.”
 
@@ -2188,7 +2190,7 @@ Akari Fujisaki arrived at school with three people talking to her.
 
 This was not unusual.
 
-Itsuki had seen her in the corridor before, usually surrounded by classmates or being stopped by someone who wanted to ask a question. She was easy to recognise even from a distance: long dark reddish-brown hair, a friendly smile, and the sort of relaxed posture that made it look as if she had never once worried about where to put her hands.
+Itsuki had seen her in the corridor before, usually surrounded by classmates or being stopped by someone who wanted to ask a question. She was easy to recognise even from a distance: long dark reddish-brown hair, soft rose-brown eyes, a friendly smile, and the sort of relaxed posture that made it look as if she had never once worried about where to put her hands.
 
 He knew her name because everyone knew her name.
 
@@ -2680,7 +2682,7 @@ A chair moved softly near the windows.
 
 He glanced over.
 
-A girl sat at the far table, one hand resting beside an open notebook. Her hair was long and dark enough to appear almost blue where the afternoon light touched it. She wore a simple cardigan over her uniform and had arranged her books in a neat line.
+A girl sat at the far table, one hand resting beside an open notebook. Her long midnight-blue hair fell over one shoulder, appearing almost black where it was away from the light. Her muted blue-grey eyes were fixed on the page. She wore a simple, understated cardigan over her uniform and had arranged her books in a neat line.
 
 Mio Kanzaki.
 
