@@ -6570,3 +6570,241 @@ The answer was there somewhere.
 
 She only had to find it.
 
+
+
+# Chapter Seventeen — The Angle of a Photograph
+
+Mio found the photographer on Thursday.
+
+The student's name was Hina Morita. She was in 2-B and had been helping the festival committee take photographs for the school archive. Mio recognised her from the library, where she sometimes borrowed books about photography.
+
+Hina was surprised when Mio approached her.
+
+“Did I do something?”
+
+“No,” Mio said. “I wanted to ask about a photograph from the festival.”
+
+Hina's expression changed.
+
+“The one of Fujisaki and Kurose?”
+
+“Yes.”
+
+“Oh.”
+
+She looked toward the courtyard.
+
+“I didn't mean to cause trouble.”
+
+“I know.”
+
+Hina seemed relieved, though not entirely.
+
+“I was taking pictures of the festival. They came through the side passage, and I took one because the display board looked nice. I didn't know people would start talking.”
+
+“Did you see what happened before they came out?”
+
+“No. I was near the corner. I heard someone say sorry, then they came through.”
+
+“Did you know they were together?”
+
+Hina shook her head.
+
+“I thought they were carrying something for the café.”
+
+Mio wrote that down.
+
+“Who showed the picture to the other students?”
+
+“I sent it to the committee group. Someone asked for the photos, and I shared a few. I didn't send it to everyone.”
+
+“Do you remember who downloaded it?”
+
+Hina thought.
+
+“Maybe Kota. He was helping with the archive too.”
+
+“Could you tell him I might ask him about it?”
+
+“Sure.”
+
+Mio closed her notebook.
+
+“Thank you.”
+
+Hina looked at her.
+
+“Are you trying to prove they aren't dating?”
+
+“I'm trying to find out what happened.”
+
+“Isn't that the same thing?”
+
+“Not exactly.”
+
+Hina considered that, then nodded.
+
+Mio left.
+
+She found Kota near the gym after lunch. He was carrying a stack of folded chairs and looked surprised when she asked him to stop.
+
+“Did you see the photograph?” she asked.
+
+“Which one?”
+
+“The festival photo of Fujisaki and Kurose.”
+
+“Oh. Yeah.”
+
+“Where did you get it?”
+
+“Hina sent it to the committee group. I saw it there.”
+
+“Did you see them in person?”
+
+Kota shook his head.
+
+“No. I was near the gym. I heard someone say Fujisaki had been helped by a boy from another class, but I didn't see it.”
+
+“Who told you?”
+
+“I don't remember. Maybe one of the students from 2-C.”
+
+“Did they say what happened?”
+
+“Not really. Just that they were together.”
+
+Mio wrote down the answer.
+
+Kota shifted the chairs.
+
+“Is this for something official?”
+
+“No.”
+
+“Then why are you asking?”
+
+“Because the story doesn't fit.”
+
+Kota laughed once.
+
+“That's rumours for you.”
+
+“Maybe.”
+
+She closed the notebook.
+
+“Thank you.”
+
+As she walked back toward the library, Mio reviewed the notes.
+
+Hina had seen the photograph being taken, but not the incident.
+
+Kota had seen the photograph, but not the two students.
+
+The person who had first said they were together remained unknown.
+
+The story had moved from one person to another, losing its original context each time.
+
+Mio stopped near the stairwell.
+
+She had expected the investigation to become easier once she found the photographer.
+
+Instead, she had discovered another gap.
+
+She looked down at the page.
+
+There were more names now.
+
+But the first version was still missing.
+
+***
+
+At the library, Itsuki was returning a book.
+
+Mio approached the desk after he had finished.
+
+“I spoke to the student who took the photograph.”
+
+He glanced at her.
+
+“And?”
+
+“She didn't see what happened before you came out of the corridor. She thought you were carrying the display board.”
+
+“That's what I was doing.”
+
+“She also said she sent the picture to the festival committee group. Someone else shared it.”
+
+Itsuki looked toward the window.
+
+“So it spread.”
+
+“Yes.”
+
+“That's unfortunate.”
+
+Mio nodded.
+
+“I don't think anyone intended to create the rumour.”
+
+“Does that make it better?”
+
+“No.”
+
+He seemed to consider that answer.
+
+Mio continued.
+
+“I still don't know who first said you were dating.”
+
+“Maybe no one.”
+
+“Someone must have said it.”
+
+“People can decide things without asking.”
+
+Mio looked at him.
+
+That was true.
+
+She wrote it down.
+
+Itsuki noticed.
+
+“Are you writing everything I say?”
+
+“Only the useful parts.”
+
+“That's worse.”
+
+Mio's expression barely changed, but the corners of her mouth moved.
+
+“I'll try to be selective.”
+
+He nodded.
+
+For a moment, they stood in the quiet between the library shelves.
+
+Then Mio closed her notebook.
+
+“I'll keep looking.”
+
+Itsuki adjusted his glasses.
+
+“Good luck.”
+
+“Thank you.”
+
+She returned to her seat by the window.
+
+Itsuki left the library.
+
+Outside, the school grounds were almost empty. The festival decorations had been taken down, and the ordinary timetable had returned. The class notice board displayed the next round of assessments.
+
+He walked toward the gate.
+
+He still wanted the rumour to disappear.
+
+But he no longer expected it to do so on its own.
+
