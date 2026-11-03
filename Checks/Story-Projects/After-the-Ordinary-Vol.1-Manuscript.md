@@ -7213,3 +7213,255 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
+
+
+# Side Scene — The First Time Riko Sat Down
+
+Itsuki did not remember deciding to become friends with Riko Tachibana.
+
+He remembered the first time she spoke to him.
+
+It had been late in the previous school year, on a day when the classroom was too warm and the afternoon lesson had been cancelled because a teacher was absent. Most students had gone to the courtyard. A few stayed behind to finish assignments.
+
+Itsuki had been sitting near the window, reading.
+
+He preferred the classroom when it was almost empty. The silence was not complete, but it was predictable. A chair moved. Someone turned a page. A door opened somewhere down the corridor. None of it required a response.
+
+Then someone pulled out the chair opposite him.
+
+“Is this seat taken?”
+
+Itsuki looked up.
+
+A girl with short brown hair stood beside the desk. She had a bright, curious expression and a notebook tucked beneath one arm.
+
+“It's a classroom,” he said.
+
+She blinked.
+
+“That's not an answer.”
+
+“Then no.”
+
+She sat down.
+
+He returned to his book.
+
+For a minute, she said nothing.
+
+Then she leaned forward.
+
+“What are you reading?”
+
+He showed her the cover.
+
+She tilted her head.
+
+“Is it interesting?”
+
+“Sometimes.”
+
+“That's another terrible answer.”
+
+“It's a collection of essays.”
+
+“I know what it is. I asked if it was interesting.”
+
+“Some of them.”
+
+She stared at him.
+
+Then she laughed.
+
+“Do you always talk like that?”
+
+“Like what?”
+
+“Like every sentence costs money.”
+
+Itsuki turned a page.
+
+“Only when I'm saving.”
+
+She laughed again.
+
+He looked at her over the top of the book.
+
+“What?”
+
+“Nothing. You're funny.”
+
+“I wasn't trying to be.”
+
+“That's why it's funny.”
+
+She introduced herself as Riko Tachibana. She was in another class, though he had seen her around school. She had a reputation for making teachers sigh and classmates laugh. Itsuki knew that much.
+
+He did not know why she had chosen his table.
+
+“Are you always alone?” she asked.
+
+“Usually.”
+
+“Do you like it?”
+
+“Yes.”
+
+“Then why are you talking to me?”
+
+He considered that.
+
+“You sat down.”
+
+Riko smiled.
+
+“Fair.”
+
+She opened her notebook and began drawing something in the margin. Itsuki returned to his reading.
+
+After a few minutes, she pushed the notebook toward him.
+
+It was a drawing of a small fish wearing glasses.
+
+Itsuki looked at it.
+
+“That's you,” she said.
+
+“I don't look like a fish.”
+
+“You have the same expression.”
+
+“Fish don't wear glasses.”
+
+“This one does.”
+
+He pushed the notebook back.
+
+“It's inaccurate.”
+
+“Then I need a better reference.”
+
+She stayed until the bell rang.
+
+The next day, she sat at the same table.
+
+The day after that, she did it again.
+
+Eventually, Itsuki stopped asking why.
+
+He had not invited her.
+
+She had not asked him to become her friend.
+
+It had happened through repeated small decisions: a chair pulled out, a question asked, a joke that did not need an answer, a conversation that continued because neither of them had a reason to leave.
+
+He still did not know exactly when it had become friendship.
+
+Riko had never explained it.
+
+He had stopped trying to find out.
+
+---
+
+# Side Scene — The Library's Closing Bell
+
+The library closed fifteen minutes early on the last Thursday of May.
+
+A notice had been placed near the entrance, explaining that the staff needed to inspect the heating system before the weekend. Most students had already left by the time Itsuki finished his assignment.
+
+He packed his notebook and returned the reference book to the desk.
+
+Mio Kanzaki was still at the window table.
+
+She had two books open and a small notebook beside them. The afternoon light had shifted across the table, leaving one page in shadow.
+
+The librarian approached her.
+
+“Sorry, Kanzaki. We're closing early today.”
+
+Mio looked up.
+
+“Already?”
+
+“Just for today.”
+
+She checked the clock.
+
+“I see. I'll put these away.”
+
+Itsuki stepped aside to let her pass.
+
+Mio gathered her books and carried them to the desk. One of the books was heavier than the other, and she shifted it against her arm before placing it on the counter.
+
+The librarian stamped the returns.
+
+“Thank you.”
+
+Mio nodded.
+
+Itsuki waited until she had moved away before placing his own book on the counter.
+
+Outside, the corridor was nearly empty.
+
+He walked toward the stairs.
+
+Mio came out a moment later, holding her notebook against her chest. She paused near the window, looking at the sports field.
+
+The badminton nets had been taken down. A few students were collecting shuttlecocks from the edge of the court.
+
+Itsuki passed her.
+
+“Library's closed,” he said.
+
+She looked at him.
+
+“I noticed.”
+
+“Just checking.”
+
+A small pause.
+
+“Do you come here often?” she asked.
+
+“Sometimes.”
+
+“I thought so.”
+
+He looked at her notebook.
+
+“Studying?”
+
+“Not exactly.”
+
+She seemed to consider whether to explain.
+
+Then she said, “I like keeping track of small things.”
+
+“Like what?”
+
+“Things that don't quite make sense.”
+
+Itsuki glanced toward the sports field.
+
+“That's a lot of things.”
+
+“Yes.”
+
+She closed the notebook.
+
+He nodded.
+
+“Good luck.”
+
+“Thank you.”
+
+They went down the stairs in different directions.
+
+Itsuki did not think much about the conversation.
+
+He only remembered that Mio had said she liked things that did not quite make sense.
+
+At the time, it sounded like a hobby.
+
+He did not yet know that a rumour would soon give her something to investigate.
+
