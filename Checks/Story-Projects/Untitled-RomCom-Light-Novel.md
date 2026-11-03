@@ -233,33 +233,72 @@ Current concept:
 
 There are four important female characters in the planned central cast. They must have independent lives, personalities, motivations, and character arcs. They are not merely romantic options. Their chemistry with the protagonist should develop through believable shared experiences; avoid instant attraction and artificial competition.
 
-The following are **provisional character roles**, not finalized characters.
+The following foundations are owner-confirmed. Names, visual designs, personal goals, and many scene-level details remain open for later development.
 
 ### Girl 2 — the rumour investigator / eventual close friend
 
-- Initially approaches the protagonist because she is curious about the festival rumour and wants to find out whether it is true.
-- The owner selected the direction where this curiosity eventually develops into one of the protagonist's closest friendships.
-- She can be curious and somewhat nosy, with room to tease him and discover his more sarcastic/playful side.
-- Her relationship with him is expected to become primarily a close friendship, with less romantic emphasis than the other girls. However, all four girls should retain some genuine romantic possibility or ambiguity at points in the story; do not make her a purely functional gossip device.
-- Do not make her a one-note gossip or an exposition device.
+#### Established foundation
 
-Still open: her name, design, personality details, personal goals, background, and exact relationship arc.
+- She initially approaches the protagonist because she is curious about the cultural-festival rumour and wants to find out whether it is true.
+- Her school reputation is low-profile; most students barely notice her, while she quietly notices a great deal about the people around her.
+- Her core personality is **reserved and mysterious**. She tends to keep her thoughts to herself and can be difficult to read.
+- She enjoys observing people and understanding their behaviour, almost like solving small everyday mysteries.
+- Her parents are often busy, so she has learned to spend time alone and entertain herself. This is a busy-but-independent household, not an established claim that her parents are uncaring.
+- Her relationship with the protagonist develops into a quiet understanding. They do not need many words to feel comfortable around each other, and neither pressures the other to fill silences.
+- She becomes one of his closest and most dependable friends. Their calm friendship should feel distinct from the more energetic relationships around him.
+- Her curiosity about the rumour is the starting point, not her entire personality or narrative purpose.
+
+#### Romantic and story direction
+
+- Her role is expected to emphasize close friendship more than romance, but she should not be reduced to a functional gossip investigator.
+- The wider romantic structure allows all four girls some genuine romantic possibility or ambiguity at points in the story. The timing and importance of her feelings, if any, remain open.
+- She may naturally notice and draw out the protagonist's sarcastic or playful side as their trust develops, without losing her reserved nature.
+
+Still open: name, visual design, personal goals, specific family details, and the exact progression of her relationship with the protagonist.
 
 ### Girl 3 — the childhood friend
 
-- She already knows the protagonist and has history with him.
-- She can recognize sides of him that newer acquaintances do not initially see.
-- Her perspective can reveal how he changes as he becomes closer to other people.
+#### Established foundation
 
-Still open: whether they remained close or gradually drifted apart before the story begins; their shared history; her name, design, personality, goals, and arc. A possible period of drifting apart was suggested but has **not** been chosen.
+- She and the protagonist have known each other since **early childhood**. Their families were already exceptionally close, and the two children practically grew up together.
+- Their families remain exceptionally close; each child has long been treated as part of the other's family.
+- They were once extremely close, but gradually drifted apart as they grew older. They still occasionally talk and retain some comfort and familiarity, although they are no longer as close as they used to be.
+- Her core personality is **warm but a little awkward** around him now. She is kind and caring, but sometimes unsure how to act after the distance that developed between them.
+- Their old familiarity occasionally returns without either of them deliberately trying to recreate the past.
+- She remembers him from before he became quieter and more withdrawn. Their shared history lets her recognize sides of him that newer acquaintances have not seen.
+- She has **no previous romantic experience** and has not seriously considered romance before the story begins. This does not predetermine whether or how her feelings may change later.
+
+#### Relationship and story direction
+
+- Their bond should carry familiarity, nostalgia, and a little awkwardness rather than treating them as strangers or instantly restoring their childhood closeness.
+- Family gatherings and the long-standing connection between their households provide natural opportunities for interaction.
+- The exact reason they drifted apart is not yet decided. Do not invent a definitive cause as established canon.
+
+Still open: name, visual design, the specific cause of their gradual distance, personal goals, and the exact arc through which their friendship changes.
 
 ### Girl 4 — the teasing girl
 
-- A combination of mischievous/playful and confident/perceptive: she enjoys joking around and provoking the protagonist, while also being good at noticing and reading his reactions.
-- Over time, she notices and helps bring out his more playful side.
-- She must have motivations and a life beyond teasing him or serving as a romantic option.
+#### Established foundation
 
-Still open: her name, design, exact personality, background, goals, and relationship arc.
+- She is already friends with the protagonist when the story begins. She is not a stranger who only enters his life after the festival.
+- She approached him first because his quiet, reserved personality caught her interest. Their friendship developed through her continued attempts to talk to him.
+- She considers him a close friend, while he sometimes wonders how someone so mischievous ended up becoming his friend.
+- Her personality combines **mischievous playfulness, confidence, and perceptiveness**. She enjoys joking around, provoking reactions, and reading the small changes in people's expressions.
+- She is one of the people who can bring out the protagonist's more sarcastic, playful, and mischievous side. He tolerates her antics more than he would from most people and sometimes plays along.
+- At school she is a well-known troublemaker, recognized for her playful antics and tendency to get involved in amusing situations.
+- Her family is strict. At home, however, she is very well-behaved. Her family has no idea how mischievous she is at school and believes the well-behaved side they see at home.
+- Her academic performance is poor. Her playful nature often gets in the way of studying, and teachers regularly complain about her school performance. This does not mean she is unintelligent.
+- She gradually develops genuine romantic feelings for the protagonist. At first she treats him as an ordinary close friend; the change in her feelings happens over time rather than being present from the start.
+
+#### Relationship and story direction
+
+- Her confidence and teasing can become less reliable when she begins to recognize her own feelings. The girl who is comfortable provoking others may find her own emotions harder to handle.
+- Her family should not automatically be portrayed as villainous simply because they are strict.
+- Her wider friend group is intentionally **left flexible**. Do not force her into a fixed clique at the planning stage; let recurring friendships and the school's social circle form naturally during the story.
+- She must have motivations, relationships, and a life beyond teasing the protagonist or serving as a romantic option.
+- Her family must not discover her school reputation by default; any eventual discovery should be a deliberate story event, not an assumed fact.
+
+Still open: name, visual design, personal goals, the precise nature of her family expectations, and the events through which her romantic feelings develop.
 
 ---
 
@@ -330,8 +369,8 @@ These are intentionally unresolved. Work through them gradually; ask the owner o
 7. What exactly happens at the cultural festival to start the rumour?
 8. Why does the popular girl want the rumour contained?
 9. Why does she choose the protagonist as her tutor?
-10. What are the names, designs, backgrounds, and personal goals of all four girls?
-11. What exactly caused the childhood friend and protagonist to drift apart, and what shared history shaped their bond?
+10. What are the names, visual designs, and personal goals of all four girls?
+11. What exactly caused the childhood friend and protagonist to drift apart, and how will their long-standing family connection shape their renewed friendship?
 12. What are the protagonist's hobbies, interests, flaws, and post-graduation plans?
 13. What are the schools' names, locations, and recurring inter-school connections?
 14. What is the final romantic direction, and what emotional events make it earned?
@@ -352,4 +391,7 @@ These are intentionally unresolved. Work through them gradually; ask the owner o
 - The four-girl central cast and reader uncertainty are desired. The owner has privately confirmed that the popular girl from the festival rumour is the eventual heroine; this must remain hidden from readers during the early story.
 - The childhood friend and protagonist were once very close but have drifted apart; the teasing girl combines mischievous playfulness with confidence and perceptiveness.
 - The popular girl comes from a warm, supportive, wealthy, well-known family and feels pressure to maintain her public image.
+- The rumour investigator's foundation was clarified: reserved and mysterious, a low-profile observer with a quiet hobby of understanding people's behaviour; she comes from a busy but independent household and develops a quiet, dependable understanding with the protagonist.
+- The childhood friend's foundation was established: she and the protagonist have known each other since early childhood, their families are exceptionally close, they gradually drifted apart after once being very close, she is warm but slightly awkward around him, and she has no previous romantic experience.
+- The teasing girl's foundation was established: she was already friends with the protagonist and approached him first; she is a school-known mischievous troublemaker but very well-behaved at home, where her strict family does not know her school reputation; she is a poor student and gradually develops genuine feelings for him. Her wider friend group is intentionally left flexible.
 - The story's tone is comedy-led with gradually deepening emotional material, built around unexpected connections, closeness, and growing up.
