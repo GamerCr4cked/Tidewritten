@@ -17,11 +17,13 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 ## Original story development
 
-- [x] Create and maintain the central story-planning brief at [Checks/Story-Projects/Untitled-RomCom-Light-Novel.md](Story-Projects/Untitled-RomCom-Light-Novel.md), recording owner-confirmed decisions, provisional concepts, unresolved questions, and continuity notes.
-- [x] Record the current core direction: comedy-led tone and themes; protagonist's peaceful-final-year outlook; four heroine roles and hidden endgame; and the clarified multi-marriage family history and sibling dynamics.
-- [x] Update the rumour investigator, childhood friend, and teasing girl's owner-confirmed character foundations, including their personalities, family/social context, and relationship direction where decided.
-- [ ] Continue developing the original Japanese high-school romantic-comedy light novel from the story brief. Finalize remaining character identities/backgrounds, the opening festival incident, tutoring logistics, family mystery, central conflicts, and natural volume structure before drafting manuscripts.
-- [ ] Choose the final title and develop the complete story outline; no fixed volume count is set.
+- [x] Create and maintain the central story-planning brief at [Checks/Story-Projects/Untitled-RomCom-Light-Novel.md](Story-Projects/Untitled-RomCom-Light-Novel.md); finalized as the authoritative **After the Ordinary — Final Story Bible**.
+- [x] Finalize the official title: **After the Ordinary**.
+- [x] Fix the complete series length at **five volumes**, covering one Japanese school year from April through March, plus a short spring epilogue.
+- [x] Consolidate the core premise, themes, tone, narrative style, setting, school calendar, protagonist, four central girls, sibling/family continuity, festival rumour, tutoring arrangement, and relationship progression.
+- [x] Resolve the previously open story-planning decisions at the concept level, including the family mystery and reveal, living arrangement, Ayane's gradual drift from Itsuki, and the five-volume arc structure.
+- [ ] Develop a chapter-by-chapter outline for Volume 1.
+- [ ] Draft and revise the English manuscript for Volume 1 before beginning translation work.
 
 ## Active roadmap
 
