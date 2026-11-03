@@ -451,7 +451,7 @@ Established playful friendship → deeper reliance → subtle change in her feel
 
 ### Itsuki and Nanami
 
-Affectionate sibling routine → occasional family tension → mutual support through the divorce truth → more mature understanding of their separate lives. Their relationship is familial, protective, and enduring.
+Affectionate half sister routine → occasional family tension → mutual support through the divorce truth → more mature understanding of their separate lives. Their relationship is much more then sister, protective, and enduring. and also teasing romantically, don't like other girls to aproch her brother. always try to be with him.
 
 **Romantic rules**
 - Itsuki never ranks the girls or treats them as a competition.
