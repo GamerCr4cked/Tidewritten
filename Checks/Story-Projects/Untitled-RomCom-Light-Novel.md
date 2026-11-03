@@ -373,7 +373,7 @@ These are intentionally unresolved. Work through them gradually; ask the owner o
 11. What exactly caused the childhood friend and protagonist to drift apart, and how will their long-standing family connection shape their renewed friendship?
 12. What are the protagonist's hobbies, interests, flaws, and post-graduation plans?
 13. What are the schools' names, locations, and recurring inter-school connections?
-14. What is the final romantic direction, and what emotional events make it earned?
+14. What emotional events and relationship progression will make the popular girl's eventual pairing with the protagonist feel earned?
 15. What is the natural volume/chapter structure once the central plot and character arcs are developed?
 
 ---
