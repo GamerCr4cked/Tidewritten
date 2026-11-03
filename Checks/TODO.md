@@ -22,8 +22,10 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Fix the complete series length at **five volumes**, covering one Japanese school year from April through March, plus a short spring epilogue.
 - [x] Consolidate the core premise, themes, tone, narrative style, setting, school calendar, protagonist, four central girls, sibling/family continuity, festival rumour, tutoring arrangement, and relationship progression.
 - [x] Resolve the previously open story-planning decisions at the concept level, including the family mystery and reveal, living arrangement, Ayane's gradual drift from Itsuki, and the five-volume arc structure.
-- [ ] Develop a chapter-by-chapter outline for Volume 1.
-- [ ] Draft and revise the English manuscript for Volume 1 before beginning translation work.
+- [x] Develop a chapter-by-chapter outline for Volume 1.
+- [ ] Complete the editorial and continuity revision of the English manuscript for Volume 1 before beginning translation work.
+
+**Current Volume 1 work:** The complete English narrative is now formatted as the canonical reader page at `stories/After-the-Ordinary-Vol.1-English.html` on branch `writing/after-the-ordinary-vol1` (18 core chapters, Prologue, Epilogue, 9 interludes, 5 side scenes; approximately 30,653 words of prose). The private Markdown working manuscript remains at `Checks/Story-Projects/After-the-Ordinary-Vol.1-Manuscript.md` as an editorial source. The HTML conversion has passed source-structure checks; final editorial and continuity revision remains pending. The festival-timeline conflict is resolved: the owner confirmed late June on 2026-11-03, and the Story Bible now records late June as canon. Volume 1 remains April–June. The owner explicitly directed publication of Volume 1 on 2026-11-03. The HTML page is being prepared for publication without marking the separate editorial and continuity revision as complete; that review remains an outstanding follow-up. No translations have been created.
 
 ## Active roadmap
 
