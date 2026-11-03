@@ -25,7 +25,7 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 - [x] Develop a chapter-by-chapter outline for Volume 1.
 - [ ] Complete the editorial and continuity revision of the English manuscript for Volume 1 before beginning translation work.
 
-**Current Volume 1 work:** The full narrative sequence is being maintained privately at `Checks/Story-Projects/After-the-Ordinary-Vol.1-Manuscript.md` on branch `writing/after-the-ordinary-vol1` (18 chapters, Prologue, Epilogue, supporting scenes; approximately 31,000 story words). The story arc is written through the beginning of Mio's investigation. A continuity conflict remains flagged: the Bible places the festival in early autumn but also requires Volume 1 to cover April–June and end with the festival rumour. The working manuscript uses late June to preserve the fixed volume schedule; this must be confirmed before publication. No public story page or translation edition has been created.
+**Current Volume 1 work:** The full narrative sequence is being maintained privately at `Checks/Story-Projects/After-the-Ordinary-Vol.1-Manuscript.md` on branch `writing/after-the-ordinary-vol1` (18 chapters, Prologue, Epilogue, supporting scenes; approximately 31,000 story words). The complete narrative reaches the Volume 1 epilogue after Mio begins investigating the rumour. A continuity conflict remains flagged: the Bible places the festival in early autumn but also requires Volume 1 to cover April–June and end with the festival rumour. The working manuscript uses late June to preserve the fixed volume schedule; this must be confirmed before publication. No public story page or translation edition has been created.
 
 ## Active roadmap
 
