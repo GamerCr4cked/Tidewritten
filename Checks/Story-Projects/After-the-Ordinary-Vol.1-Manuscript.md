@@ -6808,3 +6808,317 @@ He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
 
+
+
+# Chapter Eighteen — The Last Week of June
+
+The week after the festival was quieter.
+
+Not quiet, exactly. The school still had its usual noise: chairs scraping across floors, teachers calling students back into classrooms, club members moving equipment, and someone practising a trumpet in a room that was not designed for music.
+
+But the festival had ended.
+
+The decorations were gone. The corridors had returned to their normal width. The storage rooms had been locked, and the committee notice board had been replaced by the schedule for the next round of assessments.
+
+The school looked ordinary again.
+
+Itsuki was not sure why that felt reassuring.
+
+On Monday morning, Riko dropped into the seat beside his desk.
+
+“Congratulations.”
+
+“For what?”
+
+“Surviving the festival.”
+
+“I was not in danger.”
+
+“You were in a rumour.”
+
+“That's not a physical condition.”
+
+“Tell that to your reputation.”
+
+Itsuki opened his notebook.
+
+Riko leaned closer.
+
+“Have you heard the latest?”
+
+“No.”
+
+“Good. Then I won't tell you.”
+
+“Thank you.”
+
+She grinned.
+
+The rumour had not disappeared. It had simply become less interesting to the people who had started it. A few students still looked at Itsuki when he passed. Someone from another class asked whether he and Akari were going to the same university, which was an impressive amount of future planning for a relationship that did not exist.
+
+Itsuki had answered that he had not decided on a university.
+
+The student had looked disappointed.
+
+Riko found the story hilarious.
+
+***
+
+At lunch, Ayane approached his desk.
+
+“Are you free?”
+
+“Now?”
+
+“After school. I need to return a book to the library.”
+
+“Okay.”
+
+“Would you walk with me?”
+
+“Sure.”
+
+Riko looked up from her lunch.
+
+“Another committee meeting?”
+
+“Something like that,” Ayane said.
+
+Riko smiled.
+
+“Have fun.”
+
+Itsuki packed his lunch container.
+
+“Don't start.”
+
+“I haven't started.”
+
+“That's what worries me.”
+
+Ayane laughed.
+
+They met after the final lesson and walked to the library together. Ayane returned her book, then asked whether Itsuki wanted to stop by the small bakery near the station.
+
+He agreed.
+
+They bought two drinks and sat at a table near the window. The bakery was busy, but the corner seat was free.
+
+Ayane talked about the neighbourhood event her family was helping organise. Itsuki listened and asked a few questions. She had been asked to help with the children's activity table, and she was trying to decide whether to prepare a simple craft or a small quiz.
+
+“Which would you prefer?” she asked.
+
+“Something that doesn't require cleaning up glitter.”
+
+Ayane laughed.
+
+“That's probably sensible.”
+
+“Glitter gets everywhere.”
+
+“You sound experienced.”
+
+“I've seen it.”
+
+She smiled.
+
+They talked about school for a while. The conversation did not feel as careful as it had at the start of the year. There were still pauses, but neither seemed in a hurry to fill them.
+
+When they left, Ayane walked with him to the station entrance.
+
+“Thanks for coming.”
+
+“Sure.”
+
+“Let's do it again.”
+
+“Okay.”
+
+She smiled.
+
+This time, he did not have to think about the answer.
+
+***
+
+Akari found him outside the staff room on Wednesday.
+
+“Kurose?”
+
+He turned.
+
+“Fujisaki.”
+
+She held a small folder against her chest.
+
+“Do you have a minute?”
+
+“Sure.”
+
+They stepped aside so that a group of students could pass.
+
+“I wanted to thank you,” she said.
+
+“For what?”
+
+“For helping me at the festival. I know I already said it, but I didn't get a chance to say it properly.”
+
+“You don't have to.”
+
+“I know. I wanted to.”
+
+Itsuki nodded.
+
+Akari looked down at the folder.
+
+“The rumour has been annoying.”
+
+“I noticed.”
+
+She smiled faintly.
+
+“I think it's starting to fade.”
+
+“Good.”
+
+“I also wanted to say that you don't have to explain anything on my behalf. If someone asks, you can just tell them it's not true.”
+
+“I already do.”
+
+“Right.”
+
+She seemed relieved.
+
+For a moment, neither spoke.
+
+Then Akari glanced toward the classroom corridor.
+
+“I hope the rest of your year is quieter.”
+
+“Me too.”
+
+She laughed.
+
+“That's a very honest answer.”
+
+“I try.”
+
+Akari gave him a small wave and returned to her class.
+
+Itsuki watched her go.
+
+She was not the girl from the rumour.
+
+She was simply Akari Fujisaki, who had asked him to carry a board and had thanked him twice.
+
+He hoped people would eventually remember that.
+
+***
+
+That evening, Nanami sent him a photograph of the library exchange display.
+
+The paper cat had been placed beside a picture book, wearing its tiny school cap. The river and park were drawn in blue and green. The display was neat, colourful, and slightly crowded.
+
+*Finished,* she wrote.
+
+Itsuki replied:
+
+*Looks good.*
+
+*Only good?*
+
+*Very good.*
+
+*Better.*
+
+A second message arrived.
+
+*Yui says the cat needs a name.*
+
+*Cat.*
+
+*We already discussed this.*
+
+*Then the problem is solved.*
+
+*You're impossible.*
+
+He put the phone down.
+
+A few minutes later, it rang.
+
+Nanami.
+
+“Hello?”
+
+“Are you busy?”
+
+“No.”
+
+“Good. I wanted to tell you that Dad said we can borrow the old picture books until the end of term.”
+
+“He helped?”
+
+“He did. He also said you should come see the display.”
+
+“I'll see.”
+
+“That's not a yes.”
+
+“It's not a no.”
+
+Nanami sighed.
+
+“Fine. I'll send you the date.”
+
+“Okay.”
+
+There was a pause.
+
+Then she said, “Are you doing anything for the start of summer break?”
+
+“Not yet.”
+
+“Good. You can help me with the book return.”
+
+“That's not a holiday plan.”
+
+“It is now.”
+
+He looked toward the calendar on the refrigerator.
+
+The last week of June was almost over.
+
+July was waiting on the other side.
+
+“I'll think about it,” he said.
+
+Nanami laughed.
+
+“That's all I wanted.”
+
+The call ended.
+
+Itsuki returned to the kitchen and filled the kettle.
+
+He had not made plans for summer.
+
+He had not decided what he would do after graduation.
+
+He had not found a way to stop people from talking about a photograph.
+
+But there were things he could do tomorrow.
+
+He could go to school.
+
+He could help Nanami return the books.
+
+He could have lunch with Ayane again.
+
+He could answer Riko when she asked a question, even if the question was usually unreasonable.
+
+And if Mio asked him something about the festival, he could answer that too.
+
+It was not a plan for the future.
+
+It was a start.
+
