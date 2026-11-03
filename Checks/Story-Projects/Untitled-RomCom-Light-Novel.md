@@ -325,7 +325,7 @@ A possible long-form progression discussed:
 - Later story: allow feelings and relationships to become more complicated, resolve personal conflicts, and make the eventual romantic direction emotionally convincing.
 - Ending: resolve the central relationships and major character threads with a complete conclusion.
 
-This is not a fixed volume-by-volume outline. No final heroine, final pairing, volume count, or ending scene has been selected.
+This is not a fixed volume-by-volume outline. The popular girl is the owner-confirmed eventual heroine, but that remains an author-side continuity fact rather than an early reader-facing reveal. The exact relationship progression, volume count, and ending scene have not been selected.
 
 ---
 
