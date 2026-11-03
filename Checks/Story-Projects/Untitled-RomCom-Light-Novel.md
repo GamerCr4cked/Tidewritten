@@ -1,435 +1,630 @@
-# Original Light-Novel Project — Story Development File
+# After the Ordinary — Final Story Bible
 
-> **Working title:** Not decided  
-> **Project status:** Core cast and major relationship foundations established; opening-arc development next  
-> **Continuity rule:** This document records owner-confirmed decisions and labels ideas that remain provisional. Do not silently turn open questions or illustrative examples into canon.
+> **Official title:** After the Ordinary  
+> **Japanese title rendering (working):** ありふれた日々の、その先へ  
+> **Format:** Original Japanese high-school romantic-comedy light novel  
+> **Fixed length:** **5 volumes — complete series**  
+> **Primary setting:** Hoshimiya, a fictional commuter city in Japan  
+> **Main school:** Hoshimiya Municipal High School  
+> **Status:** Core canon and five-volume architecture finalized; ready for detailed chapter outlining and manuscript drafting.
 
-This is the central planning record for the original Japanese high-school romantic-comedy light novel being developed for Tidewritten. It should be updated as decisions are made. The story is inspired by the broad genre mixture and multi-character romantic uncertainty the owner enjoys in works such as *Rent-A-Girlfriend*, but it must have its own premise, characters, scenes, dialogue, conflicts, and resolution. Do not copy another work's plot or character designs.
+This is the authoritative creative and continuity document for *After the Ordinary*. Owner-confirmed foundations are preserved; remaining connective details and story decisions have now been selected by the assistant as requested. Unless the owner explicitly changes something, treat the decisions in this document as canon. Do not reopen settled choices through minor questionnaires.
+
+The work may draw on broad romantic-comedy and ensemble light-novel conventions, but its plot, characters, scenes, dialogue, conflicts, and resolution must remain original. Do not reproduce distinctive material from existing works.
 
 ---
 
-## 1. Core direction
+## 1. Series identity
 
-### Confirmed direction
+### 1.1 Premise
 
-- An original, Japanese-style high-school light novel.
-- Set in Japan, primarily around the protagonist's high school, apartment, and nearby everyday locations.
-- A romantic comedy with school life, slice-of-life relationships, friendship, and gradual emotional development.
-- The central thematic combination is **Unexpected Connections**, **The Meaning of Being Close**, and **Growing Up Without Noticing**: small encounters change ordinary routines; people reveal sides of themselves through closeness; and the final school years gradually become meaningful memories.
-- The overall atmosphere is **comedy-led, with elements of balanced romance/drama and relaxed slice of life**. The opening should be light and funny; emotional depth should grow as readers become attached to the cast. Comedy remains part of the characters and story even in later, more emotional sections.
-- Use developed scenes, natural dialogue, distinct character voices, and readable long-form narrative paragraphs.
-- The story should have a complete, satisfying ending rather than an artificial cliffhanger designed only to force a continuation.
-- The owner initially considered five volumes, then decided that the story may need more room. **There is no fixed volume limit.** Let the story's natural scope determine the number of volumes; do not stretch it or rush it to meet a predetermined count.
+Itsuki Kurose wants one thing from his final year of high school: for it to pass quietly.
 
-### Working genre/tag direction
+He is not unpopular in any dramatic sense. He is simply easy to overlook: a quiet student who keeps to himself, does his work, and rarely volunteers an opinion. He has a small apartment, a familiar routine, and no particular plan for what comes after graduation.
 
-The intended mixture discussed so far includes:
+Then, during the school's cultural festival, a brief attempt to help Akari Fujisaki—the girl almost everyone knows—turns into a rumour that the two of them are secretly dating.
 
-- Comedy
-- Mild ecchi / non-explicit fanservice
-- Harem-style multi-heroine romantic uncertainty
+The rumour is built from fragments. Different students saw different moments, and every attempt to correct the story seems to make it more convincing. Akari wants the misunderstanding contained before it reaches people outside school. Itsuki would prefer to ignore it. Neither approach works.
+
+The situation brings Itsuki into contact with people he had only known at a distance: Akari, a quiet observer named Mio Kanzaki who is determined to understand how the rumour began, and the childhood friend he has gradually drifted away from. Meanwhile, Riko Tachibana—already an established nuisance in his daily routine—has no intention of letting him become boring just because his life has become complicated.
+
+As the school year moves forward, the rumour becomes less important than the connections it accidentally creates. Itsuki begins to discover that an ordinary day can matter to someone else, that being close to another person is not always the same as understanding them, and that growing up often happens before anyone notices.
+
+### 1.2 Logline
+
+A quiet third-year student trying to graduate without trouble becomes the centre of a school-wide dating rumour after an awkward cultural-festival incident with the school's most popular girl—and finds his carefully ordinary final year increasingly shaped by the people who start seeing him clearly.
+
+### 1.3 Core themes
+
+1. **Unexpected Connections** — Small encounters can change familiar routines and bring people into one another's lives.
+2. **The Meaning of Being Close** — Shared history, frequent contact, trust, and genuine understanding are different things.
+3. **Growing Up Without Noticing** — School, friendship, family, and romance change through everyday moments until the characters realise how much has changed.
+
+### 1.4 Genre and tone
+
+- Romantic Comedy
 - Romance
-- School Life
-- Shounen
 - Slice of Life
+- Coming-of-Age
+- School life as the primary setting and descriptive tag, not a separate genre label.
 
-These are working creative tags, not finalized Library metadata. Keep any fanservice mild and non-explicit. Final classification should reflect the completed story rather than being treated as a checklist that every volume must satisfy.
+The story is comedy-led. Its humour comes from character contrast, dry observations, awkward timing, teasing, social misunderstandings, and the gap between what people intend and what others assume. Romance and emotional drama deepen gradually. Comedy must remain part of the characters' lives even during serious arcs; it should not vanish whenever the story becomes emotional.
 
-### Inspiration and originality
+Keep romantic content age-appropriate and non-explicit. Use chemistry, emotional vulnerability, awkwardness, affection, and meaningful choices rather than explicit material.
 
-The owner likes the genre mixture and broad romantic-comedy scope of *Rent-A-Girlfriend*. Use that only as high-level inspiration for the desired reading experience. The new work must not reproduce its premise, plot structure, character identities, scenes, dialogue, or distinctive story devices.
+### 1.5 Narrative style
 
----
-
-## 2. Protagonist
-
-### Established personality
-
-The protagonist is male and begins the story as:
-
-- Introverted, quiet, and not particularly socially active.
-- Someone who takes responsibility when something genuinely needs to be done.
-- Often misunderstood because of his silence, expression, and tendency not to react.
-- Not especially fearless or confident; he simply does not spend much energy worrying about gossip.
-- More comfortable and expressive with people he trusts as the story progresses.
-- Increasingly playful around close friends: sarcastic, teasing, mischievous, and more talkative.
-- Still fundamentally introverted. His development is about becoming comfortable expressing himself, not turning into an extrovert.
-
-Do not write him as emotionless, universally competent, secretly perfect, or indifferent to everything. His low-key reaction to rumours is not proof that he is fearless or has no feelings.
-
-### Academic profile — established
-
-- Above-average student, but not a genius.
-- Understands concepts relatively quickly and can explain them well to others.
-- Not obsessed with grades, rankings, or academic competition.
-- **Favourite subject:** English.
-- **Weakest subject:** No particular weak subject.
-- **Study habit:** Studies only when necessary.
-- His ability should be shown naturally, not turned into a forced gimmick. Occasional English expressions or moments where he explains something may be used when they fit the scene.
-
-### Final-year outlook — established
-
-- He wants a **peaceful, uneventful final year** and would prefer to graduate without unnecessary trouble.
-- He has no particular expectations for the year and is not actively seeking romance, popularity, or a dramatic school experience.
-- He has not seriously planned what he will do after graduation. He takes things day by day.
-
-### Identity and visual design — established
-
-- **Name:** Itsuki Kurose (黒瀬 樹).
-- **School year:** Third-year high-school student.
-- **Build:** Lean, around average height.
-- **Hair:** Ash-black, layered, slightly messy, and long enough to extend below his ears. The sides partially cover his ears, with a soft fringe.
-- **Eyes:** Greyish-dark.
-- **Glasses:** Thin dark charcoal/black rounded-square frames, between circular and rectangular, with gently curved corners.
-- **Overall impression:** Reserved and a little distant at first glance, but not unfriendly.
-- He may absent-mindedly push his glasses back when thinking. Around people he trusts, he can sometimes adjust them with a straight face just before making a dry remark.
-
-### Still open
-
-- Exact age and birthday; class details beyond being a third-year student.
-- Hobbies, extracurricular activities, and wider friend group.
-- Exact practical arrangements for living alone.
-- Long-term ambitions and post-graduation plans; he has not seriously planned these yet.
-- Additional flaws and personal history to reveal naturally through the story.
+- Long-form Japanese light-novel prose in close third-person, primarily following Itsuki.
+- Use occasional short viewpoint shifts only when they add meaningful information or emotional perspective; do not turn the novel into a rotating character dossier.
+- Distinct narrative paragraphs and dialogue paragraphs. Avoid walls of text.
+- Dialogue should sound contemporary and character-specific, with natural pauses and subtext.
+- Itsuki's internal narration is dry, observant, understated, and occasionally sarcastic. His humour becomes more visible as he trusts people.
+- Emotional moments must arise from specific actions, shared history, consequences, or details. Avoid generic speeches that explain the theme to the reader.
+- Use recurring everyday motifs—commutes, convenience-store stops, school corridors, changing weather, borrowed objects, familiar seats, messages, and meals—only when they develop meaning naturally. Do not force symbolic repetition.
+- Preserve original chapter titles across any future language editions.
 
 ---
 
-## 3. Family and home life
+## 2. Setting and school calendar
 
-### Family structure — established
+### 2.1 Hoshimiya
 
-The protagonist and his younger sister share a mother but have different biological fathers.
+Hoshimiya is a fictional mid-sized Japanese commuter city: residential neighbourhoods, a modest shopping street, a station district, parks, small cafés, convenience stores, and train/bus routes connecting nearby schools. It is neither a famous tourist destination nor an isolated rural town.
 
-1. **First marriage:** Their mother was first married to the protagonist's biological father. He passed away. The protagonist is the child of this marriage.
-2. **Second marriage:** Their mother later married a businessman. He is the younger sister's biological father, not the protagonist's. The protagonist nevertheless has a generally good relationship with him, including after the divorce.
-3. **Third marriage:** Their mother later left her second husband and married a third man. The protagonist dislikes this third husband and refuses to become close to him.
+The city should feel lived-in rather than presented as a travel brochure. Recurring locations are introduced through what the characters do there.
 
-The biological father from the first marriage is remembered as a combination of gentle, caring, and reserved qualities, alongside a cheerful and playful side. Do not reduce him to a single personality trait or assume details about how old the protagonist was when he passed away.
+### 2.2 Hoshimiya Municipal High School
 
-### The mother and the two later marriages — established, with a central mystery
+Itsuki, Akari, Mio, Ayane, and Riko attend Hoshimiya Municipal High School. They are all third-year students, though they do not share the same class.
 
-- The mother genuinely cares about both children.
-- She wants to visit the protagonist and maintain a relationship with him.
-- The protagonist tells her not to visit or disturb him because he dislikes her third husband and does not want that man brought into his personal space.
-- The mother believes that, with enough time, her son will eventually accept her third husband and her new family.
-- The mother left her second husband, the younger sister's biological father, and later married her third husband.
-- She **fabricated the explanation that her second husband was cheating on her** as the reason for leaving him. The exact way she presented this claim, and her real motive for leaving, are not yet established.
-- **The protagonist does not know the real reason his mother left her second husband.** He must not be written as already knowing about the fabricated cheating explanation.
-- Do not invent the mother's motive or reveal the truth prematurely. This is a family-history mystery to develop deliberately.
+The school has ordinary clubs, committees, class events, exams, sports activities, and a cultural festival. Its student population is large enough for rumours to spread beyond one class, but small enough that recurring faces and reputations matter.
 
-### The mother's second husband — the younger sister's biological father
+The cultural festival takes place in early autumn, during the first half of the school year. The opening volume establishes the cast and daily routines before the festival incident becomes the central catalyst.
 
-- He is a businessman.
-- He is not the protagonist's biological father, but the protagonist has a generally good relationship with him despite the divorce.
-- The younger sister still loves him as her father. Her feelings about the separation are complicated, and their relationship has changed, but she has not stopped caring about him.
-- After the mother left, he began dating another woman.
-- When he brings his girlfriend home, the younger sister sometimes visits her brother and stays at his apartment.
-- The sister feels uncomfortable with the girlfriend, but does not hate her. She accepts that her father is in a relationship while not considering the girlfriend to be family.
-- Do not turn the second husband or his girlfriend into villains without a story reason.
+### 2.3 Nanami's school
 
-### The mother's third husband — the protagonist's stepfather
+Nanami attends nearby Hoshimiya East High School and is a second-year student. The schools occasionally meet through inter-school events, shared facilities, and local student activities. Their connection should create natural opportunities for the siblings to cross paths with each other's school lives without making every character attend the same event.
 
-- He tries to build a relationship with the protagonist.
-- The protagonist refuses his attempts and dislikes him; he keeps his distance rather than seeking arguments.
-- The protagonist's reluctance to visit his mother is tied to not wanting to be around this third husband.
-- The mother hopes time will change his attitude, but the story should not assume that she is correct.
+### 2.4 Calendar and ages
 
-### Protagonist's living arrangement — established at concept level
+The story opens in April, at the beginning of the Japanese school year.
 
-- The protagonist lives alone in an apartment.
-- The arrangement came about because of the family's circumstances; he gradually became accustomed to living independently.
-- The exact legal/practical arrangements, who pays for the apartment, and how the move was organized remain undecided. Do not invent these as established facts.
+- Itsuki is 17 at the opening and turns 18 during the school year.
+- Nanami is 15 at the opening and turns 16 later in the year.
+- Their birthdays are exactly two calendar years apart. Itsuki's birthday is **January 18**; Nanami's is **January 18**, two years later.
+- Itsuki is in third year; Nanami is in second year at a different school.
+- The five-volume story runs from April through the following March, ending with graduation and a short spring transition.
 
-### Younger sister — established
-
-- **Name:** Nanami Kurose (黒瀬 七海).
-- She is two years younger than her brother.
-- She attends a **different, nearby high school**.
-- She is in her **second year of high school**, while he is in his **third year**.
-- Their schools eventually connect through inter-school activities or events, allowing their school lives to overlap naturally.
-- She visits her brother at his apartment around two or three times a week.
-- Sometimes she stays for roughly two days or an entire weekend.
-- She has her own school life and should not exist solely as a device to introduce the protagonist's classmates.
-
-### Sister's visual design — established
-
-- **Appearance:** Long warm-brown hair and amber eyes; her overall appearance is gentle and sweet, which contrasts with her quick wit and sharp tongue.
-
-### Sister's personality and sibling bond — established
-
-A combination of caring and sharp-tongued:
-
-- Caring, thoughtful, and genuinely concerned about her brother.
-- Notices small details about him that other people may miss.
-- Quick-witted and sarcastic; she can answer him sharply.
-- Often gets into playful arguments with him.
-- Protective when she feels he is being mistreated.
-- Very affectionate and attached to her older brother, while keeping the relationship clearly familial and sibling-like.
-- Their bond should feel lived-in: everyday teasing, little acts of care, occasional disagreements, and trust.
-
-### Sister's vulnerable moments — established
-
-- When staying at her brother's apartment, she normally sleeps on a separate futon.
-- Occasionally, memories of their mother make her emotional, and she has trouble sleeping.
-- On those nights, she may go to her brother, hug him, and quietly cry in his arms.
-- He comforts her gently, helps her feel safe and settled, and stays with her until she can sleep comfortably.
-- These moments are occasional and meaningful, not her constant state. Most of the time she remains lively, sarcastic, playful, and caring.
-- Write these scenes as affectionate sibling comfort, never as romantic or sexual tension.
-
-### Not yet decided / handle carefully
-
-- Exact ages and birthdays; reconcile the stated two-year age gap with the one-grade difference when the calendar is set.
-- Practical details of the apartment and financial support.
-- The mother's real motive for leaving her second husband, and how/when the truth is revealed.
-- The third husband's personality and the history behind the protagonist's dislike.
-- The second husband's girlfriend's personality and how she behaves around the sister.
-- The mother's current household details and how her third husband fits into family visits.
-- Whether other relatives are involved.
-
-Do not collapse the mother's second husband and third husband into one person. The second husband is the younger sister's biological father and a businessman with whom the protagonist has a good relationship. The third husband is the man the protagonist dislikes and refuses to get close to.
-
-## 4. The opening incident and first relationship
-
-### Festival rumour — chosen concept
-
-The opening romantic-comedy situation combines a misunderstood rumour with an accidental public moment at the school's cultural festival.
-
-Current concept:
-
-1. During the cultural festival, the protagonist gets caught in an unexpected situation with a popular girl.
-2. Several students witness different parts of what happened.
-3. Those partial observations are misinterpreted or combined into a rumour that the two are secretly dating.
-4. They are not dating.
-5. They attempt to deny or clarify the rumour, but their explanations are misunderstood and make the rumour spread further.
-6. The protagonist does not react strongly to the gossip because he does not want to waste energy on it.
-7. The popular girl has her own reasons for wanting the rumour contained.
-8. The incident gives them a reason to interact again. Later, she learns that he is academically capable and asks him to tutor her.
-
-### Important guardrails
-
-- Do not make them fake-date from the beginning. The selected direction is that they deny the rumour, and their explanations accidentally make things worse.
-- The exact festival incident, what each witness sees, the rumour's wording, and the reasons the girl wants it contained are still open.
-- The tutoring arrangement is an approved connection idea. The popular girl wants it kept private because of her reputation and the way classmates might interpret her being tutored by an ordinary, relatively unnoticed boy. The exact academic issue, tutoring logistics, and how the arrangement develops remain open.
-- The tutoring must feel plausible and arise naturally from their circumstances, not exist only to force the leads together.
+These dates are continuity anchors. Do not create contradictions in school year, age, birthday, or season.
 
 ---
 
-## 5. The popular girl
+## 3. Main character — Itsuki Kurose (黒瀬 樹)
 
-### Identity and established concept
+### Identity
 
-- **Name:** Akari Fujisaki (藤崎 あかり).
-- **Appearance:** Long dark reddish-brown hair and soft rose-brown eyes; graceful overall appearance and a naturally friendly smile.
-- She is very popular at school and widely considered beautiful.
-- She genuinely enjoys socializing, having friends, and being part of the school's lively social environment; do not portray her as secretly resenting her popularity.
-- She is cheerful, sociable, expressive, and friendly.
-- She is one of the genuine romantic possibilities in the story, but **she is not the eventual heroine**. Her connection with Itsuki must still be meaningful and fully developed; do not treat her as a disposable false lead.
-- She has academic difficulties despite making an effort. This does not mean she is unintelligent.
-- Her academic profile is now more precisely established: she works hard and wants to improve, but struggles to understand certain subjects and retain what she studies. She is not lazy or careless.
-- She later asks the protagonist for tutoring after discovering that he is academically capable.
-- She knows who the protagonist is because they attend the same school, but before the festival incident she has paid little attention to him.
-- Her initial impression is that he is an ordinary, quiet, relatively unremarkable student. She may underestimate him or find him uninteresting at first; her view changes as she discovers his ability and personality.
-- She is concerned about her reputation and does not want classmates to know she is being tutored by an ordinary, unnoticed boy. This is a key reason she wants the tutoring kept private.
+- Male, third-year student at Hoshimiya Municipal High School.
+- 17 at the beginning of the story; turns 18 in January.
+- Introverted, quiet, observant, and not socially active.
+- Wants a peaceful final year and to graduate without unnecessary trouble.
+- Has not seriously planned his post-graduation future and tends to take life one day at a time.
 
-### Family background — established
+### Personality and behaviour
 
-- She comes from a wealthy, well-known family.
-- Her family is warm and supportive; do not portray them as automatically cold, abusive, or controlling.
-- Her family's public profile creates pressure for her to maintain a particular image, which helps explain her sensitivity about school gossip and reputation.
-- Her family has a particular future in mind for her, but she is not yet sure whether she wants that future; the exact plan and career remain undecided.
-- She has a few close, trusted friends as well as a wider network across school, and she enjoys moving between different social groups.
-- Keep the supportive family dynamic and public-image pressure in balance rather than treating them as contradictory.
+Itsuki is not fearless, cold, secretly charismatic, or universally misunderstood. He simply does not spend much energy on gossip or attention that does not matter to him. His quietness can be mistaken for indifference, confidence, or disapproval.
 
-### Still open
+He takes responsibility when something genuinely needs doing, even if he would rather not be involved. He is more considerate than he appears, but rarely announces it.
 
-- Exact class, hobbies, ambitions, and private life.
-- The specific subjects/topics she struggles with and the precise goals she sets for herself.
-- The precise festival incident and the exact wording/spread of the rumour.
-- Why she chooses the protagonist as her tutor rather than someone else, beyond the established discovery of his academic ability and her desire for secrecy.
-- Her full emotional arc and the pacing of her romantic feelings.
+With people he trusts, he becomes more expressive and playful. His humour is dry and understated; he can be sarcastic, teasing, and occasionally mischievous. This side should emerge gradually and differently with each person. He remains introverted even as he grows more comfortable.
 
+### Academic profile
 
-## 6. The other three important girls
+- Above-average student, not a genius.
+- Understands concepts quickly and can explain them clearly.
+- Favourite subject: English.
+- No designated weakest subject.
+- Studies when necessary rather than obsessing over grades or rankings.
+- His academic ability is noticeable when someone works with him, not because he constantly displays it.
 
-There are four important female characters in the planned central cast. They must have independent lives, personalities, motivations, and character arcs. They are not merely romantic options. Their chemistry with the protagonist should develop through believable shared experiences; avoid instant attraction and artificial competition.
+### Appearance
 
-The following foundations, names, and visual designs are owner-confirmed. Some personal goals, supporting relationships, and scene-level details remain open for later development.
+- Ash-black, layered, slightly messy hair extending below his ears.
+- Side hair partially covers his ears; soft fringe.
+- Rounded-square glasses, between circular and rectangular, with gently curved corners and thin dark charcoal/black frames.
+- Greyish-dark eyes and a calm, reserved expression.
+- Lean build and average height.
+- Sometimes pushes his glasses back when thinking; may adjust them with a straight face while teasing someone.
 
-### Mio Kanzaki — the rumour investigator / eventual heroine
+**Visual continuity:** Do not remove the glasses or shorten his hair above the ears in future descriptions or illustrations.
 
-#### Identity and visual design — established
+### Living arrangement
 
-- **Name:** Mio Kanzaki (神崎 澪).
-- **Appearance:** Long midnight-blue hair and muted blue-grey eyes. Her style is understated, and her calm expression can make her difficult to read.
+Itsuki lives alone in a small, ordinary apartment within a manageable commute of school. It is modest but comfortable, with a compact kitchen, a small living space, and enough room for a separate sleeping area. It should feel like a real place maintained by a teenager who has learned to look after himself, not an implausibly luxurious bachelor apartment.
 
-#### Established foundation
+The arrangement exists because he does not want to live in his mother's current household with her third husband. His mother remains his legal guardian and arranged the apartment with his agreement. She covers the essential rent and household costs. Itsuki handles daily chores and routine expenses within a reasonable allowance; he is not secretly wealthy or fully financially independent.
 
-- She initially approaches the protagonist because she is curious about the cultural-festival rumour and wants to find out whether it is true.
-- Her school reputation is low-profile; most students barely notice her, while she quietly notices a great deal about the people around her.
-- Her core personality is **reserved and mysterious**. She tends to keep her thoughts to herself and can be difficult to read.
-- She enjoys observing people and understanding their behaviour, almost like solving small everyday mysteries.
-- Her parents are often busy, so she has learned to spend time alone and entertain herself. This is a busy-but-independent household, not an established claim that her parents are uncaring.
-- Her relationship with the protagonist develops into a quiet understanding. They do not need many words to feel comfortable around each other, and neither pressures the other to fill silences.
-- She becomes one of his closest and most dependable friends. Their calm friendship should feel distinct from the more energetic relationships around him.
-- The quiet understanding between them is central: she does not pressure him to speak, and he is comfortable sharing silence with her.
-- Her curiosity about the rumour is the starting point, not her entire personality or narrative purpose.
+His former stepfather—the businessman who is Nanami's biological father—occasionally helps with school-related expenses out of care and long-standing affection, not as a condition or leverage. Itsuki accepts this support with respect, though he does not want to be treated as helpless.
 
-#### Romantic and story direction
+The apartment is a setting for independence, quiet routines, visits from Nanami, and occasional friends. It must not become a device for implausible or inappropriate situations.
 
-- Her relationship with Itsuki begins with curiosity, develops through trust and friendship, and gradually becomes romantic. **Mio is the eventual heroine and endgame partner.** This is an author-side continuity fact: keep the outcome uncertain to readers until the relationship has earned it.
-- The wider romantic structure allows all four girls some genuine romantic possibility or ambiguity at points in the story. The timing and importance of her feelings, if any, remain open.
-- She may naturally notice and draw out the protagonist's sarcastic or playful side as their trust develops, without losing her reserved nature.
+### Character arc
 
-Still open: her personal goals, specific family details, and the events that gradually deepen her relationship with Itsuki.
-
-### Ayane Fujimoto — the childhood friend
-
-#### Identity and visual design — established
-
-- **Name:** Ayane Fujimoto (藤本 彩音).
-- **Appearance:** Shoulder-length black hair, side-swept bangs, and reddish-brown eyes; her expression is generally warm.
-
-#### Established foundation
-
-- She and the protagonist have known each other since **early childhood**. Their families were already exceptionally close, and the two children practically grew up together.
-- Their families remain exceptionally close; each child has long been treated as part of the other's family.
-- They were once extremely close, but gradually drifted apart as they grew older. They still occasionally talk and retain some comfort and familiarity, although they are no longer as close as they used to be.
-- Her core personality is **warm but a little awkward** around him now. She is kind and caring, but sometimes unsure how to act after the distance that developed between them.
-- Their old familiarity occasionally returns without either of them deliberately trying to recreate the past.
-- She remembers him from before he became quieter and more withdrawn. Their shared history lets her recognize sides of him that newer acquaintances have not seen.
-- She has **no previous romantic experience** and has not seriously considered romance before the story begins. This does not predetermine whether or how her feelings may change later.
-
-#### Relationship and story direction
-
-- Their bond should carry familiarity, nostalgia, and a little awkwardness rather than treating them as strangers or instantly restoring their childhood closeness.
-- Family gatherings and the long-standing connection between their households provide natural opportunities for interaction.
-- The exact reason they drifted apart is not yet decided. Do not invent a definitive cause as established canon.
-
-Still open: the specific cause of their gradual distance, personal goals, and the exact arc through which their friendship changes.
-
-### Riko Tachibana — the teasing girl
-
-#### Identity and visual design — established
-
-- **Name:** Riko Tachibana (橘 莉子).
-- **Appearance:** Short caramel-brown hair and golden-brown eyes, with a cheeky grin and a lively, expressive presence.
-
-#### Established foundation
-
-- She is already friends with the protagonist when the story begins. She is not a stranger who only enters his life after the festival.
-- She approached him first because his quiet, reserved personality caught her interest. Their friendship developed through her continued attempts to talk to him.
-- She considers him a close friend, while he sometimes wonders how someone so mischievous ended up becoming his friend.
-- Her personality combines **mischievous playfulness, confidence, and perceptiveness**. She enjoys joking around, provoking reactions, and reading the small changes in people's expressions.
-- She is one of the people who can bring out the protagonist's more sarcastic, playful, and mischievous side. He tolerates her antics more than he would from most people and sometimes plays along.
-- At school she is a well-known troublemaker, recognized for her playful antics and tendency to get involved in amusing situations.
-- Her family is strict. At home, however, she is very well-behaved. Her family has no idea how mischievous she is at school and believes the well-behaved side they see at home.
-- Her academic performance is poor. Her playful nature often gets in the way of studying, and teachers regularly complain about her school performance. This does not mean she is unintelligent.
-- Her family has high expectations around her behaviour, studies, and responsibilities. She is genuinely well-behaved at home; the mischievous school side is not an act she puts on for her family.
-- She gradually develops genuine romantic feelings for the protagonist. At first she treats him as an ordinary close friend; the change in her feelings happens over time rather than being present from the start.
-- As her feelings grow, her usual confidence and teasing become less dependable when she has to deal with her own emotions.
-
-#### Relationship and story direction
-
-- Her confidence and teasing can become less reliable when she begins to recognize her own feelings. The girl who is comfortable provoking others may find her own emotions harder to handle.
-- Her family should not automatically be portrayed as villainous simply because they are strict.
-- Her wider friend group is intentionally **left flexible**. Do not force her into a fixed clique at the planning stage; let recurring friendships and the school's social circle form naturally during the story.
-- She must have motivations, relationships, and a life beyond teasing the protagonist or serving as a romantic option.
-- Her family must not discover her school reputation by default; any eventual discovery should be a deliberate story event, not an assumed fact.
-
-Still open: personal goals, the precise nature of her family expectations, and the events through which her romantic feelings develop.
+Itsuki begins by treating peace as the absence of involvement. Through the year, he learns that avoiding every complication can also mean avoiding people who matter. He does not become an extrovert or a completely different person. His growth is the ability to choose when to show up, communicate what he feels, and make a future-facing decision rather than drifting indefinitely.
 
 ---
 
-## 7. Romantic structure and reader uncertainty
+## 4. Family and home life
 
-### Owner's intended experience
+### 4.1 Family history
 
-- At first, the story should look like an ordinary school romance.
-- Other girls should enter gradually rather than all appearing at once.
-- Readers should remain uncertain about which girl will ultimately become the protagonist's partner.
-- The protagonist should not think of the girls as contestants or explicitly rank them as romantic candidates. He should build genuine relationships naturally.
-- There should be no automatic instant attraction.
-- The different relationships should have distinct chemistry and emotional foundations.
-- The final romantic choice must be earned and make sense in hindsight.
-- The owner has privately confirmed that **Mio Kanzaki, the rumour investigator, is the eventual heroine and endgame partner**. Akari Fujisaki, the popular girl from the festival rumour, is a major romantic possibility but is not the endgame. Keep Mio's eventual role as behind-the-scenes continuity, not an early reader-facing reveal.
-- All four girls should have some genuine romantic possibility, but their feelings, timing, and importance can differ. Do not force equal romantic weight merely to mislead readers. The uncertainty should come from well-developed, believable relationships.
+Itsuki's mother was first married to his biological father. His father died when Itsuki was young. His mother later married a second man, a businessman who became Nanami's biological father. Itsuki and Nanami share their mother but have different biological fathers.
 
-### Broad pacing idea — provisional
+The second marriage eventually ended. The mother later married a third man. Itsuki dislikes the third husband and refuses to build a relationship with him. The third husband has tried to approach him, but Itsuki maintains distance rather than creating constant arguments.
 
-A possible long-form progression discussed:
+Itsuki generally respects and has a good relationship with the second husband. The divorce did not erase the affection and trust built during their years as a family.
 
-- Early story: establish the protagonist, festival rumour, tutoring, and the first relationship; introduce other characters gradually.
-- Middle story: deepen friendships and individual character arcs, explore school life and family dynamics, and give different relationships meaningful turning points.
-- Later story: allow feelings and relationships to become more complicated, resolve personal conflicts, and make the eventual romantic direction emotionally convincing.
-- Ending: resolve the central relationships and major character threads with a complete conclusion.
+### 4.2 The mother
 
-This is not a fixed volume-by-volume outline. Mio is the owner-confirmed eventual heroine, but that remains an author-side continuity fact rather than an early reader-facing reveal. The exact relationship progression, volume count, and ending scene have not been selected.
+The mother cares about both children and wants to remain involved in their lives. She hopes Itsuki will eventually accept her current household, but she must learn that repeated visits and pressure do not automatically create closeness.
 
----
+She told the children that her second husband had been cheating, but that explanation was fabricated. Itsuki believes the explanation he was given; he does **not** know the truth at the beginning.
 
-## 8. Tone and storytelling principles
+**Canonical truth behind the divorce:** The second husband did not cheat. Over time, the marriage had become emotionally distant. The mother felt that she had lost her own sense of identity inside a life that looked stable from the outside. She wanted to leave, but could not bear the thought that her children might see her as the person who ended a good family without a single clear villain. She invented the cheating explanation because it gave them a simple reason to accept and because she was ashamed to admit that she had chosen to leave an imperfect but not abusive marriage.
 
-- Lead with comedy and everyday school-life fun, while allowing romance and emotional depth to grow gradually. Keep relaxed slice-of-life scenes alongside more dramatic turning points.
-- Carry the three agreed themes throughout: unexpected connections, the meaning of being close, and growing up without noticing.
-- Comedy should not disappear when the story becomes more emotional; the characters should retain their humour and familiar dynamics.
-- Let emotional moments emerge from character relationships and specific events; do not rely on generic dramatic speeches.
-- Give the protagonist and each important girl a distinct voice.
-- Use the sister and family situation for both lighter everyday scenes and meaningful emotional development.
-- Keep misunderstandings plausible and avoid repeating the same rumour gag until it becomes tiring.
-- Avoid making the protagonist universally admired or making every girl revolve around him.
-- Do not use contrived romantic rivalry as a substitute for character development.
-- Let the story breathe across as many volumes as it genuinely needs, while maintaining forward movement and a satisfying complete ending.
+This is not a justification for the lie. It is a human explanation for a harmful decision. The eventual reveal should allow Itsuki to feel betrayed and confused while also recognising that adults can make selfish, frightened, and complicated choices. Do not turn the mother into a villain or the second husband into a flawless saint.
 
----
+The truth is revealed late in the series, after the family relationships have had room to develop. It should change how Itsuki understands the past, not retroactively invalidate every memory.
 
-## 9. Tidewritten publication and manuscript considerations
+### 4.3 The second husband — Nanami's biological father
 
-These are project-level publishing considerations, not decisions about the plot:
+He is a businessman, composed and responsible, but not emotionally absent. He genuinely cares for Nanami and still considers Itsuki family in the ways that matter. He does not demand that Itsuki call him father or take sides in the divorce.
 
-- The work is intended for Tidewritten as an original light-novel series.
-- The website's English interface and canonical English story pages remain separate from any later Hinglish and Banglish editions.
-- When manuscripts are eventually prepared for the site, preserve long-form light-novel formatting: distinct narrative paragraphs, readable dialogue paragraphs, scene breaks, and original chapter titles.
-- If translations are commissioned later, follow the repository's established translation rules in Checks/Notes.md: modern natural Hinglish and Banglish, original character names and chapter titles, comparison against the English source, and two-chapter batches for substantial translations.
-- Do not create story pages, translation files, cover art, or public metadata until the owner requests that implementation stage and the necessary story information/assets are ready.
+After the separation, he eventually begins dating again. His girlfriend is kind and considerate, but she does not attempt to replace the children's mother. Nanami accepts the relationship without hostility, while not treating the girlfriend as a new parent or immediate family member.
 
----
+When Nanami feels uncomfortable staying at her father's home while he is spending time with his girlfriend, she sometimes visits Itsuki instead. She is not rejecting her father; she is adjusting to a family arrangement that no longer feels exactly like home.
 
-## 10. Open development questions
+### 4.4 The third husband
 
-The major cast identities and visual foundations are now established. The remaining questions are deliberately narrower and should be developed organically; do not interrupt the process with minor questionnaires. The assistant should invent ordinary supporting details, scene-level events, and connective tissue when drafting, while preserving the confirmed foundations.
+He is not to be written as a cartoon villain. He is polite and makes genuine attempts to get along with Itsuki, but he underestimates how much his presence represents a change Itsuki never asked for. He wants the household to feel unified and sometimes pushes too hard.
 
-1. What is the working/final title?
-2. What are Itsuki's exact age and birthday, and what calendar details reconcile the siblings' stated age gap and school years?
-3. What are the practical/legal arrangements that allow Itsuki to live alone, and who supports the apartment financially?
-4. What was the mother's real reason for leaving her second husband, and how/when should that truth be revealed?
-5. What are the remaining details of the mother's current household, the third husband's history, and the second husband's girlfriend?
-6. What exactly happens at the cultural festival, what does each witness see, and why does Akari want the rumour contained?
-7. What academic subject or goal leads Akari to choose Itsuki as her private tutor, and how does the arrangement work?
-8. What caused Itsuki and Ayane to gradually drift apart?
-9. What are the schools' names, locations, and recurring inter-school connections?
-10. What personal goals and conflicts will shape each girl's independent arc, especially Mio's gradual movement from curiosity to trust, friendship, and love?
-11. What is the natural volume/chapter structure once the central plot and character arcs are developed?
+Itsuki's dislike is rooted in the circumstances and in the third husband's inability to respect the boundary Itsuki has set—not in a secret abusive backstory. Their relationship remains tense but civil. Any improvement must come through changed behaviour and respect, not a forced reconciliation.
 
-No further decisions are needed before the assistant can begin developing the opening outline and supporting cast.
+### 4.5 Nanami Kurose (黒瀬 七海)
+
+- Itsuki's younger maternal half-sister.
+- Two years younger; second-year student at Hoshimiya East High School.
+- Long warm-brown hair and amber eyes; gentle, sweet appearance.
+- Caring, thoughtful, observant, quick-witted, sarcastic, playfully argumentative, and protective.
+- Affectionate and attached to Itsuki in a clearly familial sibling relationship.
+- Visits his apartment two or three times a week and sometimes stays for part of a weekend.
+- Sleeps on a separate futon when staying.
+- Notices small changes in Itsuki's mood and routines, often before he acknowledges them himself.
+
+Nanami's usual presence is lively and teasing. She is not constantly sad or dependent. Occasionally, memories of her mother and the changes in the family make it difficult for her to sleep. On those nights she may quietly come to Itsuki, hug him, and cry. He comforts her without making a speech, staying with her until she settles. These are occasional, meaningful sibling moments—not a repeated melodramatic device.
+
+Nanami has her own school life, friends, responsibilities, and goals. She is not merely a messenger between schools or a source of exposition about the family.
+
+### 4.6 Itsuki's biological father
+
+Itsuki's biological father is remembered as a combination of gentleness, care, reserve, cheerfulness, and playful humour. Do not reduce him to a single trait or invent detailed memories before the story has earned them. The memories that do appear should feel specific, age-appropriate, and emotionally grounded.
 
 ---
 
-## 11. Continuity and change log
+## 5. The four central girls
 
-- The initial five-volume idea was revised. The owner chose **no fixed volume limit**; let the story's natural scope determine its length.
-- The protagonist's academic profile was explicitly established: favourite subject English, no particular weakest subject, studies only when necessary. He wants a peaceful final year and has not planned his post-graduation future.
-- The family structure was clarified: the protagonist is the child of the mother's first marriage; his younger sister is the child of her second marriage to a businessman. Their mother later left that second husband and married a third man. The protagonist has a good relationship with the second husband but dislikes the third husband, who tries to get close to him.
-- The mother fabricated a cheating explanation for leaving her second husband, but the protagonist does not know the real reason. She still cares for both children and hopes her son will eventually accept her third husband.
-- The sister's personality was established as caring and sharp-tongued, with a very affectionate sibling bond with her brother. Occasional nighttime comfort scenes are part of their family dynamic when memories of their mother make her upset.
-- The sister attends a different but nearby high school, is in second year while her brother is in third year, and their schools eventually connect.
-- The opening incident direction was chosen: a cultural-festival misunderstanding creates a secret-dating rumour, and attempts to deny it make things worse.
-- The popular girl later asks the protagonist for tutoring; the exact reason and logistics remain open.
-- The four-girl central cast and reader uncertainty are desired. The owner has privately confirmed that Mio Kanzaki, the rumour investigator, is the eventual heroine; Akari Fujisaki remains a major romantic possibility but is not the endgame. This must remain hidden from readers during the early story.
-- The childhood friend and protagonist were once very close but have drifted apart; the teasing girl combines mischievous playfulness with confidence and perceptiveness.
-- The popular girl, Akari Fujisaki, comes from a warm, supportive, wealthy, well-known family and feels pressure to maintain her public image.
-- The rumour investigator's foundation was clarified: reserved and mysterious, a low-profile observer with a quiet hobby of understanding people's behaviour; she comes from a busy but independent household and develops a quiet, dependable understanding with the protagonist.
-- The core cast's identities and visual designs were confirmed: Itsuki Kurose (ash-black hair extending below the ears, rounded-square dark glasses, greyish-dark eyes); Nanami Kurose (long warm-brown hair, amber eyes); Akari Fujisaki (long dark reddish-brown hair, rose-brown eyes); Mio Kanzaki (long midnight-blue hair, blue-grey eyes); Ayane Fujimoto (shoulder-length black hair, side-swept bangs, reddish-brown eyes); and Riko Tachibana (short caramel-brown hair, golden-brown eyes).
-- The heroine decision was explicitly corrected: Mio Kanzaki is the eventual heroine/endgame, not Akari. Akari remains a substantial romantic possibility. Keep this author-side fact hidden from readers until earned.
-- The childhood friend's foundation was established: she and the protagonist have known each other since early childhood, their families are exceptionally close, they gradually drifted apart after once being very close, she is warm but slightly awkward around him, and she has no previous romantic experience.
-- The teasing girl's foundation was established: she was already friends with the protagonist and approached him first; she is a school-known mischievous troublemaker but very well-behaved at home, where her strict family does not know her school reputation; she is a poor student and gradually develops genuine feelings for him. Her wider friend group is intentionally left flexible.
-- The story's tone is comedy-led with gradually deepening emotional material, built around unexpected connections, closeness, and growing up.
+All four girls have lives and motivations beyond romance. They should not be written as contestants, and Itsuki must not rank them. Their relationships with him have distinct emotional textures. The reader should be able to believe that more than one relationship could become important without the story artificially forcing equal romantic weight.
+
+### 5.1 Akari Fujisaki (藤崎 あかり) — the popular girl
+
+**Appearance:** Long dark reddish-brown hair, soft rose-brown eyes, graceful presence, and a friendly smile.
+
+**Personality:** Cheerful, sociable, expressive, friendly, and genuinely enjoys being popular. She likes meeting people and moving between social groups; she does not secretly hate attention.
+
+**School and academics:** A third-year student with a strong social presence. She works hard and wants to improve academically, but struggles to understand and retain certain subjects. She is not unintelligent, lazy, or careless.
+
+**Family:** Wealthy and well-known, but warm and supportive. Their public profile creates pressure to maintain an image. Her family has a particular future in mind for her, but she is uncertain whether it is what she wants. The exact career path is not central to the opening arc.
+
+**Opening relationship:** Before the festival, she knows Itsuki's face and name but has had no meaningful interaction with him. She does not initially find him especially interesting. Her view changes after she discovers his academic ability and sees how he behaves away from the crowd.
+
+**Tutoring:** She asks Itsuki for private tutoring because she wants to improve before important school assessments and discovers that he can explain difficult material clearly. She insists on privacy because she worries classmates will learn that she is being tutored by an ordinary, unnoticed boy. The arrangement is not fake dating and must not become a contrived secret-couple contract.
+
+**Romantic role:** A genuine romantic possibility with meaningful chemistry and her own emotional arc. She is not the endgame partner. Do not make her a disposable false lead or reduce her to the rumour.
+
+**Independent arc:** Akari gradually distinguishes the image she maintains from the decisions she actually wants to make. Her growth is not rejecting popularity; it is learning that she can enjoy her social life while making choices that are genuinely hers.
+
+### 5.2 Mio Kanzaki (神崎 澪) — the rumour investigator and eventual heroine
+
+**Appearance:** Long midnight-blue hair, muted blue-grey eyes, understated style, calm and slightly unreadable expression.
+
+**Personality:** Reserved, observant, mysterious, and difficult to read. She keeps her thoughts to herself and is comfortable spending time alone.
+
+**Background:** Her parents are often busy. She has learned to entertain herself and developed a quiet hobby of observing people and understanding their behaviour, treating small everyday mysteries as puzzles. Her family is busy, not uncaring.
+
+**Opening relationship:** She approaches Itsuki because she is curious about the cultural-festival rumour and wants to understand what actually happened. Her curiosity is the entry point, not her whole personality.
+
+**Relationship with Itsuki:** Their friendship grows through trust, consistency, and comfortable silence. Neither pressures the other to fill every pause. Mio understands that Itsuki's quietness is not an invitation to interrogate him, while Itsuki does not treat her reserve as something he must fix. She becomes one of the people he can rely on.
+
+**Romantic role:** **Mio is the eventual heroine and endgame partner.** This is a private continuity fact for planning. Do not signal the outcome too early or make her obviously destined from the first appearance. The relationship must develop from curiosity to trust, friendship, and eventually love. The final choice should feel earned and clear in hindsight.
+
+**Independent arc:** Mio learns that observing people from a distance is not the same as allowing herself to be known. She has to choose when to step out from behind her quiet curiosity and risk being emotionally involved.
+
+### 5.3 Ayane Fujimoto (藤本 彩音) — the childhood friend
+
+**Appearance:** Shoulder-length black hair, side-swept bangs, reddish-brown eyes, and a warm expression.
+
+**Personality:** Kind, caring, warm, and a little awkward around Itsuki now. She remembers their old closeness but is unsure how to behave after the distance that developed.
+
+**History:** They have known each other since early childhood. Their families are exceptionally close and have long treated each other's children as part of the family. Itsuki and Ayane were once extremely close, then gradually drifted apart as they grew older. They still talk occasionally and retain familiarity, but they are not instantly as close as they used to be.
+
+**Reason for the distance:** As they entered adolescence, their routines and social circles changed. Ayane became more involved in school and family responsibilities while Itsuki grew quieter and increasingly self-contained. Neither deliberately rejected the other; they both assumed the other was busy and became accustomed to not reaching out. This gradual mutual drift—not a betrayal or dramatic falling-out—is the canonical cause.
+
+**Romantic role:** A genuine possibility that grows out of shared history and renewed understanding. She has no previous romantic experience and has not seriously considered romance before the story begins. Do not make her feelings automatic simply because she is the childhood friend.
+
+**Independent arc:** Ayane learns that nostalgia cannot restore a relationship by itself. If she wants to be close to Itsuki again, she must get to know who he is now rather than only remembering who he used to be.
+
+### 5.4 Riko Tachibana (橘 莉子) — the teasing friend
+
+**Appearance:** Short caramel-brown hair, golden-brown eyes, cheeky grin, lively and expressive presence.
+
+**Personality:** Mischievous, playful, confident, perceptive, and good at reading reactions. She enjoys provoking Itsuki because he responds with dry humour rather than the reactions she gets from most people.
+
+**Existing relationship:** Riko and Itsuki are already friends at the start. She approached him first because his quiet personality caught her interest. She considers him a close friend; Itsuki sometimes wonders how they became friends in the first place.
+
+**School reputation:** A well-known troublemaker whose antics entertain classmates and exasperate teachers. Her academic performance is poor because she often lets her playful impulses distract her from studying; she is not unintelligent.
+
+**Family:** Strict, with high expectations for behaviour, studies, and responsibilities. At home Riko is genuinely well-behaved, and her family does not know how mischievous she is at school. Neither side is fake. Her family is not automatically abusive or villainous.
+
+**Romantic role:** She gradually realises that her feelings for Itsuki have changed. The realisation unsettles her because teasing is easy when she has nothing personal at stake. Her feelings should develop slowly from friendship, not exist fully formed at the opening.
+
+**Independent arc:** Riko has to learn when humour helps and when it prevents her from being honest. Her school reputation and home expectations eventually create a situation where she must decide how much of herself she is willing to let each side see. Her friend group remains flexible and should emerge naturally.
+
+---
+
+## 6. Opening catalyst — the cultural-festival rumour
+
+The festival incident is the story's initial engine, not the entire plot.
+
+### 6.1 What happens
+
+During the cultural festival, Akari becomes separated from her class group while trying to resolve a practical problem connected to their class activity. Itsuki is helping with an unrelated errand nearby. A sudden crowd bottleneck and a minor mishap leave Akari temporarily unable to return to her group without drawing attention.
+
+Itsuki helps her get out of the congestion and carries an item she cannot manage while she regains her footing. At a quiet service corridor, Akari asks him to keep the situation discreet because she does not want her classmates to turn a small embarrassment into another story about her. He agrees without making a fuss.
+
+Several students witness fragments: one sees Itsuki holding Akari's belongings; another sees them leaving the corridor together; another hears Akari thank him in a tone that sounds intimate without hearing the context. A photo taken from a poor angle catches them standing close. None of the witnesses sees the whole interaction.
+
+By the next school day, the fragments have become a rumour that Itsuki and Akari are secretly dating. The story changes as it spreads. Some students assume they have been together for months; others claim the festival was when they were caught.
+
+### 6.2 Why denial makes it worse
+
+Akari tries to deny the rumour too quickly and too publicly, making people wonder why she cares so much. Itsuki gives short, literal answers that sound evasive. When they are asked separately, their descriptions of the event differ because they noticed different details. The differences are harmless but become fuel for speculation.
+
+The story should not rely on endless repetitions of the same gag. The rumour changes the characters' behaviour and creates consequences, then gradually loses its grip as more important relationships take shape.
+
+### 6.3 Mio's investigation
+
+Mio notices that the rumour's details do not fit together. She approaches Itsuki with specific questions, not because she is a gossip but because the inconsistency interests her. She wants to reconstruct what happened. Her investigation reveals the partial-witness structure and gives her a reason to spend time with Itsuki.
+
+Mio should not instantly solve everything. Her observations are sharp but incomplete; she has to learn to ask people directly rather than assume she can understand them from a distance.
+
+### 6.4 Akari's reason for privacy
+
+Akari is concerned about the effect of gossip on her public image and family expectations. She does not want a harmless incident to become a story that follows her beyond school. She also dislikes the idea that Itsuki will be dragged into attention he never wanted. Her desire to contain the rumour is understandable, even when her methods make it worse.
+
+---
+
+## 7. Tutoring arrangement
+
+Akari later asks Itsuki to tutor her privately after a short interaction makes her realise he can explain material she has struggled with. The request is practical, not romantic at first.
+
+- The tutoring focuses on English reading and a second subject selected to match the actual exam arc; Itsuki is especially good at explaining concepts step by step.
+- Sessions take place in a quiet public study room at the city library or another ordinary supervised study space, with occasional school-library sessions when schedules allow.
+- They agree on a regular schedule and clear academic goals.
+- Akari wants the arrangement kept private because of her reputation concerns. Itsuki agrees because he dislikes attention, not because he is participating in a fake relationship.
+- The sessions gradually reveal different sides of both characters: Akari's effort and frustration, Itsuki's patience, and the way their assumptions about each other change.
+- Tutoring must not be used as an excuse to make Akari helpless or Itsuki unrealistically brilliant. She works hard; he explains well; progress takes effort.
+
+The tutoring is a meaningful strand of Volume 2 and the early middle of the series, then changes naturally as Akari becomes more independent.
+
+---
+
+## 8. Five-volume series plan — fixed
+
+**The series is exactly five volumes.** The five-volume structure is selected to cover one complete third-year school cycle from April to March, with each volume having its own emotional centre and forward movement. Do not add a sixth volume or stretch the ending. Individual volume lengths and chapter counts may vary according to the material.
+
+| Volume | Working subtitle | Main period | Narrative purpose |
+|---|---|---|---|
+| 1 | The Rumour That Started It All | April–June | Establish Itsuki's ordinary routine, family life, existing friendships, and the first changes in his final year. Build toward the cultural-festival rumour and end with Mio choosing to investigate. |
+| 2 | A Summer That Wouldn't Stay Quiet | July–September | Follow the consequences of the rumour, Akari's private tutoring, summer routines, and the first deeper connections. Let the cast expand naturally; end with the rumour losing importance as relationships become real. |
+| 3 | The Things We Didn't Say | October–December | Explore old familiarity and new trust. Ayane's history, Riko's changing feelings, Mio and Itsuki's quiet friendship, and Akari's independent choices all receive meaningful development. |
+| 4 | The Distance Between Yesterday and Tomorrow | January–February | Bring family history and post-graduation uncertainty closer to the surface. Itsuki's birthday, Nanami's family feelings, the mother's lie, and the characters' future choices create the emotional centre. |
+| 5 | Before the Ordinary Ends | March | Resolve the final school year, relationships, and family truth. Allow the romantic direction to become clear through earned choices. End with graduation and a brief spring epilogue that gives the story a complete, hopeful conclusion. |
+
+### Volume 1 — The Rumour That Started It All
+
+**Purpose:** Make readers enjoy the ordinary world before it changes.
+
+- Open with Itsuki's routine, his preference for quiet, and his dry internal observations.
+- Establish Nanami's visits and their affectionate, sarcastic sibling dynamic.
+- Show Riko as an existing friend whose teasing draws out Itsuki's humour.
+- Reintroduce Ayane through the families' longstanding connection and the awkward distance between her and Itsuki.
+- Introduce Akari through school life and her popularity without making her instantly interested in Itsuki.
+- Let the school year and class dynamics breathe before the festival.
+- The cultural-festival incident occurs in the latter part of the volume. Partial witnesses create the dating rumour.
+- Attempts to deny the rumour make it spread further, but do not let it dominate every chapter.
+- Mio approaches Itsuki with observations that reveal the story does not add up.
+- End with the beginning of Mio's investigation and Itsuki realising that ignoring the rumour will not make it disappear.
+
+**Emotional movement:** Itsuki's quiet routine is disrupted; he does not yet understand that some of the new connections may matter.
+
+### Volume 2 — A Summer That Wouldn't Stay Quiet
+
+**Purpose:** Turn accidental contact into chosen contact.
+
+- Continue the consequences of the rumour without repeating the same misunderstanding.
+- Akari asks Itsuki for private tutoring after recognising his ability to explain difficult material.
+- Their sessions create a new, more honest dynamic. Akari's effort and insecurity are shown without undermining her confidence or popularity.
+- Mio follows the remaining inconsistencies in the rumour, but begins to spend time with Itsuki for reasons beyond the puzzle.
+- Summer break creates opportunities for everyday scenes: study sessions, local events, errands, and time with friends.
+- Nanami's school life and her relationship with both households receive independent attention.
+- Ayane and Itsuki share an experience that briefly restores their old ease, then realise that familiarity alone cannot solve the distance between them.
+- Riko's antics remain a source of comedy, while small moments hint that she values Itsuki more deeply than she admits.
+- End with the rumour becoming old news. What remains is the fact that several people have become part of Itsuki's everyday life.
+
+**Emotional movement:** Itsuki begins to recognise the difference between being pulled into a situation and choosing to stay involved.
+
+### Volume 3 — The Things We Didn't Say
+
+**Purpose:** Deepen the ensemble and make every relationship distinct.
+
+- The autumn school term brings academic pressure, school events, and decisions about life after graduation.
+- Ayane's shared history with Itsuki becomes more important. Their gradual drift is explored through present-day behaviour and a few carefully placed memories, not a single melodramatic flashback.
+- Riko faces a school-related consequence of her poor academic performance and has to decide whether to take responsibility. Itsuki helps without becoming her rescuer.
+- Riko begins to notice that her feelings are changing, but her first response is to hide behind jokes.
+- Akari starts making independent decisions about her future rather than simply following the path her family expects. Her friendship with Itsuki remains meaningful even as tutoring becomes less central.
+- Mio and Itsuki develop a quiet, dependable friendship. They share small routines and learn to trust each other with things they do not tell everyone.
+- Mio's observational habit is challenged when she misreads a situation involving someone she cares about. She must communicate rather than merely infer.
+- Nanami's inter-school activities connect her world to Itsuki's without turning her into a plot courier.
+- End with the cast facing the approaching end of the school year and recognising that some ordinary routines will not last forever.
+
+**Emotional movement:** The characters begin to understand that closeness requires honesty and participation, not just history, proximity, or observation.
+
+### Volume 4 — The Distance Between Yesterday and Tomorrow
+
+**Purpose:** Bring family and future into the foreground without abandoning comedy or school life.
+
+- Itsuki turns 18 in January. The birthday is understated and character-led, not a grand symbolic event.
+- Graduation and post-school plans become unavoidable. Itsuki has to confront the fact that not choosing a future is itself a choice.
+- Nanami's discomfort with the changed family arrangement becomes more visible. Itsuki supports her while recognising that he cannot solve every feeling for her.
+- The second husband's new relationship is handled with maturity. Nanami can accept his girlfriend without instantly considering her family.
+- The mother tries to reconnect with Itsuki. Her attempts create tension because she wants progress faster than he can offer it.
+- The truth about the fabricated cheating story begins to surface through inconsistencies and an honest conversation with the second husband. Do not reveal it through a contrived overheard phone call or villain monologue.
+- Itsuki learns that the marriage ended because the adults had grown distant and his mother was afraid to admit she wanted to leave. The second husband confirms that he did not cheat.
+- Itsuki feels betrayed by the lie. The story allows him time to process it and does not force immediate forgiveness.
+- Akari faces a concrete choice about the future her family has imagined for her.
+- Ayane and Riko each face the consequences of their own emotional growth; neither exists solely to react to Itsuki.
+- Mio becomes an increasingly important source of quiet support, but the story must not turn her into a therapist or make her the only person capable of understanding him.
+- End with Itsuki deciding to stop postponing every future-facing choice.
+
+**Emotional movement:** Itsuki begins to distinguish independence from emotional avoidance. The family truth complicates his understanding of the past without destroying the good memories.
+
+### Volume 5 — Before the Ordinary Ends
+
+**Purpose:** Give the school year, ensemble relationships, and central romance a complete ending.
+
+- March brings final exams, graduation preparations, last school events, and the small rituals that become meaningful because they are ending.
+- Resolve the major character arcs without giving every character an identical or perfectly symmetrical romantic outcome.
+- Akari makes a decision about her future that belongs to her. Her connection with Itsuki remains important even though it is not endgame.
+- Ayane accepts that their childhood closeness cannot simply be restored; she can still build a new friendship with Itsuki.
+- Riko finds a way to be more honest without losing her humour or lively personality. Her feelings are treated with respect, not as a joke.
+- Nanami and Itsuki reach a more settled understanding of their family situation. Their sibling bond remains an enduring part of both lives.
+- Itsuki and his mother have an honest conversation. Forgiveness is not treated as an obligation or an instant reset. They can begin rebuilding trust while acknowledging what cannot be undone.
+- Itsuki's post-graduation direction is modest but deliberate. He does not need an implausibly grand dream; he needs to make a choice that reflects what he has learned.
+- Itsuki and Mio's relationship moves from quiet trust and friendship into a clear mutual romantic choice. The decision should arise from their accumulated shared experiences and the ways they have learned to be honest with each other—not a sudden confession triggered by jealousy or a competition.
+- The other girls are allowed dignity, agency, and futures beyond the central romance. Do not frame the ending as Itsuki awarding a winner.
+- Graduation is emotionally meaningful but not melodramatic. The story closes its main school-year arc.
+- A short spring epilogue shows the characters beginning the next stage of life. It confirms that the ordinary days did not become meaningless when school ended.
+
+**Emotional movement:** Itsuki chooses connection and a direction for his life. The ending should feel complete, warm, and earned.
+
+---
+
+## 9. Relationship progression and romantic continuity
+
+### Itsuki and Akari
+
+Distance and assumptions → reluctant cooperation → private tutoring → mutual respect → genuine friendship and emotional possibility → Akari's independent choice. Their relationship matters even though it does not become the final romance.
+
+### Itsuki and Mio
+
+Curiosity about the rumour → repeated conversations → comfortable silence → trust → dependable friendship → emotional honesty → mutual romantic choice. This is the endgame relationship, but it must not be telegraphed as inevitable from the first meeting.
+
+### Itsuki and Ayane
+
+Childhood familiarity → awkward present-day contact → shared memories → recognition that they have changed → renewed friendship built in the present. Her history with him matters, but it does not guarantee romance.
+
+### Itsuki and Riko
+
+Established playful friendship → deeper reliance → subtle change in her feelings → difficulty hiding vulnerability → honest acceptance and a future beyond the crush. Keep their humour alive.
+
+### Itsuki and Nanami
+
+Affectionate sibling routine → occasional family tension → mutual support through the divorce truth → more mature understanding of their separate lives. Their relationship is familial, protective, and enduring.
+
+**Romantic rules**
+- Itsuki never ranks the girls or treats them as a competition.
+- Do not manufacture jealousy scenes simply to create drama.
+- Do not make every girl confess to Itsuki.
+- Do not make Mio perfect or uniquely qualified to heal him.
+- Do not make the other girls disposable once the endgame becomes clear.
+- Let readers debate the likely romantic direction because the relationships are genuinely compelling.
+- The final choice must feel emotionally inevitable in hindsight, not obvious in advance.
+
+---
+
+## 10. Supporting cast and recurring school life
+
+Supporting characters should be introduced when the story needs them, not as a large cast list in the opening chapters.
+
+Use a small number of recurring classmates, club members, teachers, and family acquaintances. Give each a recognisable voice and a reason to recur. Their roles can include:
+- Akari's close friends, who know her social side and occasionally challenge her assumptions.
+- Classmates who witnessed different fragments of the festival incident.
+- A teacher who notices Itsuki's academic ability and Riko's inconsistent performance.
+- A librarian or study-room supervisor who provides a grounded recurring location for tutoring.
+- Ayane's family, whose closeness with the Kurose family creates natural gatherings.
+- Nanami's school friends, who give her a life outside Itsuki's apartment.
+
+Names, designs, and minor histories for supporting characters may be created during outlining and drafting. Do not interrupt the owner for approval of ordinary supporting details. Avoid introducing characters who exist only to deliver exposition.
+
+---
+
+## 11. Continuity rules and prohibited shortcuts
+
+### Preserve these facts
+
+- Official title: **After the Ordinary**.
+- Fixed series length: **five volumes**.
+- Itsuki Kurose is the protagonist; Mio Kanzaki is the eventual heroine/endgame.
+- Akari is a major romantic possibility, not the endgame.
+- Itsuki and Nanami are maternal half-siblings, two years apart.
+- Itsuki's biological father died; the second husband is Nanami's biological father and a respected former stepfather to Itsuki.
+- The mother fabricated the cheating story; the second husband did not cheat. Itsuki does not know this until the late-series reveal.
+- Itsuki dislikes the third husband and maintains distance; do not force a sudden reconciliation.
+- Nanami's visits and occasional emotional nights are sibling/family moments.
+- Ayane and Itsuki drifted apart gradually, not through a dramatic betrayal.
+- Riko and Itsuki are already friends at the opening.
+- Akari and Itsuki are not dating; there is no fake-dating arrangement.
+- The festival rumour is caused by partial observations and misinterpretation.
+- Comedy remains present throughout the series.
+
+### Avoid
+
+- Making Itsuki secretly the smartest, strongest, richest, or most admired student.
+- Making all four girls instantly attracted to him.
+- Turning the story into a constant harem competition.
+- Repeating the same rumour misunderstanding as the only source of comedy.
+- Treating Akari as shallow or disposable.
+- Making Mio an all-knowing detective who never misreads anyone.
+- Making Ayane's childhood-friend status an automatic romantic claim.
+- Making Riko's teasing her only personality trait.
+- Making Nanami constantly distressed or emotionally dependent.
+- Making the mother a villain, the second husband flawless, or the third husband a caricature.
+- Resolving family conflict through one speech or instant forgiveness.
+- Stretching the story beyond five volumes or rushing the ending to hit a volume count.
+- Borrowing distinctive plot devices, character designs, scenes, or dialogue from other works.
+
+---
+
+## 12. Tidewritten manuscript and publication plan
+
+The work is intended for Tidewritten as an original light-novel series.
+
+### Canonical series identity
+
+- Series title: **After the Ordinary**
+- Series slug: `after-the-ordinary`
+- Planned volume count: **5**
+- English is the canonical source edition.
+- Hinglish and Banglish editions may be added after the English manuscripts are complete and checked.
+- Do not create public story pages, translation files, cover art, or publication metadata until the owner requests the implementation stage and the relevant manuscript/assets are ready.
+
+### Planned repository paths
+
+Use the established Tidewritten story architecture:
+
+- English manuscripts: `stories/After-the-Ordinary-Vol.N-English.html`
+- Hinglish editions: `translation/hinglish/After-the-Ordinary-Vol.N-RomanizedHindi.html`
+- Banglish editions: `translation/banglish/After-the-Ordinary-Vol.N-RomanizedBangla.html`
+
+Canonical reader routes should follow the site's existing slug convention and trailing-slash rule:
+
+- `/book/After-the-Ordinary-Vol.1/`
+- `/book/After-the-Ordinary-Vol.2/`
+- `/book/After-the-Ordinary-Vol.3/`
+- `/book/After-the-Ordinary-Vol.4/`
+- `/book/After-the-Ordinary-Vol.5/`
+
+Before creating pages, inspect current site conventions and confirm the generated routes from front matter rather than assuming filenames alone determine URLs.
+
+### Metadata direction
+
+- Series name: After the Ordinary
+- Volume labels: Volume 1 through Volume 5
+- Series status: Planned; later mark Completed only when all five volumes are published and the final-volume metadata is explicit.
+- Genres: Romantic Comedy · Romance · Slice of Life · Coming-of-Age
+- Setting descriptors may include Japanese high school, final school year, and Hoshimiya; do not add these as genres.
+- Each volume receives its own concise synopsis once its manuscript outline is stable.
+- Do not invent `content_updated` dates.
+- Use a consistent canonical cover path for all editions of a volume. Covers are optional until approved assets are supplied.
+- Preserve chapter IDs, original chapter titles, semantic paragraph markup, scene breaks, and end matter.
+
+### Translation workflow
+
+When translations are requested:
+- Translate from the matching completed English volume.
+- Use modern, natural conversational Hinglish and Banglish in Latin script; keep the two styles distinct.
+- Preserve character names and original chapter/section titles.
+- Preserve story meaning, tone, dialogue turns, scene order, links, and IDs.
+- Use two-chapter batches for substantial translation work, compare against English, and separately check prologues/interludes/epilogues/afterwords.
+- Do not publish a translation edition until its completeness and mapping have been checked.
+
+---
+
+## 13. Drafting workflow and completion criteria
+
+### Before drafting each volume
+
+1. Create a volume outline with a clear beginning, middle, climax, and emotional resolution.
+2. Track which characters appear and what changes in their relationships.
+3. Check continuity against this story bible and the previous volume's ending.
+4. Ensure the volume advances the year and the central character arcs.
+5. Avoid adding subplots that do not affect character, theme, or forward movement.
+
+### While drafting
+
+- Write in chapter-sized units with consistent viewpoint and chronology.
+- Keep scenes grounded in specific locations, actions, and character intentions.
+- Balance comedy, romance, and slice-of-life pacing.
+- Give every important character meaningful agency.
+- Keep emotional scenes earned and allow quiet aftermath rather than immediately explaining their meaning.
+- Do not pad chapters with repetitive internal monologue or redundant misunderstandings.
+
+### Before a volume is considered complete
+
+- The planned chapter sequence is complete.
+- Every scene has a clear purpose or meaningful character texture.
+- Character voices remain distinct.
+- Timeline, ages, school year, family relationships, and previous events are consistent.
+- The volume's central conflict receives a satisfying resolution while the series arc continues.
+- Chapter titles, IDs, anchors, and navigation are checked.
+- HTML uses semantic paragraphs and preserves long-form reading presentation.
+- The volume's synopsis and metadata accurately reflect the manuscript.
+- The English source is reviewed before translation begins.
+
+---
+
+## 14. Canonical decisions and revision log
+
+This section records decisions that future edits must preserve unless the owner explicitly revises them.
+
+- The official title was finalized as **After the Ordinary**.
+- The series has a fixed, complete length of **five volumes**. This replaces the earlier no-fixed-volume-limit direction.
+- The five volumes cover one Japanese school year, April through March, with a short spring epilogue.
+- Hoshimiya is the fictional city; Hoshimiya Municipal High School is the main school; Nanami attends Hoshimiya East High School.
+- Itsuki's birthday is January 18; Nanami's is January 18 two years later.
+- Itsuki lives alone in a modest apartment arranged and supported by his mother, with occasional school-related support from the second husband.
+- The mother's true reason for leaving the second husband is emotional distance and her desire to reclaim her identity; she fabricated the cheating story because she was ashamed to explain that no single villain existed. The second husband did not cheat.
+- Ayane and Itsuki drifted apart gradually as their routines and social circles changed; there was no betrayal or dramatic falling-out.
+- The cultural-festival rumour comes from several partial witnesses who misinterpret an ordinary act of help.
+- Akari's private tutoring is practical and academically motivated, not fake dating.
+- The five-volume arcs, relationship progression, late family reveal, and ending direction are established in Section 8.
+- The final romantic relationship is Itsuki and Mio, earned through a gradual progression from curiosity to trust, friendship, and love. This remains an author-side continuity fact until the story earns its reveal.
+- The previous working brief's open questions are now resolved at the planning level. Minor supporting details and chapter-level events should be invented during outlining and drafting without further owner questionnaires.
+
+---
+
+## 15. Current production status
+
+**Planning:** Final story bible complete.  
+**Next creative task:** Build a chapter-by-chapter outline for Volume 1, then draft the English manuscript.  
+**Publication:** Not yet created. No public story pages, translation editions, or cover assets have been generated by this planning update.  
+**Owner approval:** The title and fixed five-volume direction are final. This document records the assistant-selected connective decisions requested by the owner; any later owner instruction takes precedence.
