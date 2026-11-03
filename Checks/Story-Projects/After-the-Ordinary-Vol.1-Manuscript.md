@@ -1708,3 +1708,719 @@ He suspected he would forget it by tomorrow.
 - Itsuki's apartment is modest, maintained by him, and supported by his mother.
 - Nanami and Itsuki's relationship is explicitly sibling-like.
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
+
+
+# Chapter Six — A City Made of Small Errands
+
+Itsuki's apartment was close enough to school that he could walk if he felt like it and far enough away that he usually took the train.
+
+The distinction mattered mostly in bad weather.
+
+On Saturday morning, he walked to the shopping street with a list in his pocket. Rice, detergent, eggs, dish soap. He had written the list the previous night and folded it twice. The handwriting was neat. The order was not.
+
+He bought rice first because it was heavy, then detergent because the store had a discount, then eggs because he had nearly forgotten them. At the small vegetable shop, the owner asked whether he was cooking for one.
+
+“Usually.”
+
+“You should eat more vegetables.”
+
+“I do.”
+
+The owner looked at the instant curry packet in his basket.
+
+Itsuki looked at it too.
+
+“Sometimes,” he amended.
+
+The owner added two carrots to the bag.
+
+He paid for them.
+
+On the way home, he stopped at the convenience store near the station. A new poster advertised a spring campaign. Someone had drawn a small smile on the corner of the display card. It was probably a staff member. It was probably against the rules.
+
+Itsuki bought tea and a rice ball.
+
+Outside, he found a message from Nanami.
+
+*Are you home?*
+
+He typed back.
+
+*Almost.*
+
+*Good. I'm coming over.*
+
+*You could have asked first.*
+
+*I did. You answered.*
+
+He looked at the message.
+
+It was technically true.
+
+By the time he reached the apartment, Nanami was waiting outside the entrance with a tote bag over one shoulder. She wore her school cardigan, though it was Saturday, and had tied her long hair loosely behind her neck.
+
+“Hello,” she said.
+
+“You're early.”
+
+“You're slow.”
+
+“I carried groceries.”
+
+“That's a weak excuse.”
+
+She took the lighter bag from his hand and followed him inside.
+
+The first thing she did was open the refrigerator.
+
+“Carrots.”
+
+“Observant.”
+
+“Eggs.”
+
+“Very observant.”
+
+“Rice.”
+
+“I'm impressed.”
+
+She turned to him. “You're eating properly.”
+
+“Apparently.”
+
+“Who threatened you?”
+
+“The vegetable shop owner.”
+
+Nanami laughed.
+
+She unpacked her tote bag. Inside were two notebooks, a small pencil case, and a folder with the Hoshimiya East High School emblem printed on the front.
+
+“School work?” Itsuki asked.
+
+“Some of it. We have an inter-school activity next month.”
+
+“What kind?”
+
+“Library exchange. We're helping sort donated books and prepare a reading corner for the younger students.”
+
+“Sounds useful.”
+
+“It is. Also, my friend Yui volunteered me for the display team.”
+
+“Did you want to do that?”
+
+“I don't mind. She's good at making things, and I'm better at keeping the list organised.”
+
+Nanami took a notebook from the folder and opened it to a page covered in small, tidy handwriting. There were columns for tasks, names, and dates.
+
+Itsuki glanced at it.
+
+“You made a schedule.”
+
+“Someone has to.”
+
+“I'm proud.”
+
+“You sound surprised.”
+
+“I've seen your room.”
+
+“My room is organised.”
+
+“Your desk is a different country.”
+
+“It's a creative territory.”
+
+He put the groceries away while she continued explaining the activity. Yui had suggested a theme based on local stories and old picture books. Another student wanted to include a small display about the history of the neighbourhood. Their teacher had approved both ideas, which meant Nanami now had to make sure the two groups did not order the same supplies.
+
+“Do you like it?” he asked.
+
+“It's fine.”
+
+“That's not an answer.”
+
+She gave him a look.
+
+“You've been spending too much time with me.”
+
+“It's possible.”
+
+Nanami closed the notebook.
+
+“I like having something to organise. And Yui gets excited about things. It's difficult to say no when she's already made a drawing.”
+
+“Then don't say no.”
+
+“That's not how it works.”
+
+“Why not?”
+
+“Because she looks at me like I've betrayed the future of literature.”
+
+Itsuki considered that.
+
+“Serious responsibility.”
+
+“Exactly.”
+
+They made lunch together. Nanami chopped the carrots while Itsuki prepared rice and warmed the curry. She complained that he cut the onions too thick. He told her that the onions had not filed a complaint.
+
+They ate at the low table.
+
+After lunch, Nanami spread her school notes across the floor. Itsuki sat at the other end with his English workbook. For a while, the only sounds were turning pages and the occasional scratch of pencil against paper.
+
+“Do you remember the old library near the east station?” Nanami asked.
+
+“The one with the blue sign?”
+
+“Yeah. Our school is borrowing some of their picture books for the activity.”
+
+“I remember it.”
+
+“Dad used to take me there.”
+
+Itsuki looked up.
+
+Nanami kept her eyes on her notebook.
+
+“He said he might help us get a few of the older books if the library approves. He knows someone on the committee.”
+
+“That sounds like him.”
+
+“He asked if you wanted to come too.”
+
+Itsuki turned a page.
+
+“When?”
+
+“He didn't say. He just asked.”
+
+“I'll see.”
+
+Nanami nodded. She did not press him.
+
+That was one of the things Itsuki appreciated about her. She could be persistent about small matters, but she usually knew when a question was not ready for an answer.
+
+A little later, she stood and walked to the window.
+
+“It's warmer today.”
+
+“Not by much.”
+
+“Still.”
+
+She watched a bicycle pass below. Itsuki returned to his workbook.
+
+“Are you going to stay for dinner?” he asked.
+
+Nanami looked over her shoulder.
+
+“Do you want me to?”
+
+“There's enough curry.”
+
+“That's not what I asked.”
+
+He considered it.
+
+“Sure.”
+
+She smiled and returned to her notes.
+
+The afternoon passed without anything important happening. Nanami worked on her schedule. Itsuki finished his English exercises. They argued about whether a certain sentence in the textbook was badly written. Nanami won by finding a more confusing sentence on the next page.
+
+When evening came, she helped wash the dishes and folded the tea towels. Before leaving, she checked that she had packed every notebook.
+
+At the door, she paused.
+
+“Dad said he'll call tomorrow.”
+
+“I know.”
+
+“You can answer if you want.”
+
+“I know.”
+
+“Okay.”
+
+She slipped on her shoes.
+
+“See you Tuesday?”
+
+“Probably.”
+
+“That's a terrible way to say yes.”
+
+“It's a realistic way.”
+
+Nanami shook her head and left.
+
+Itsuki locked the door.
+
+The apartment was quiet again, but the afternoon had left small signs of another person: a pencil mark on the corner of the table, a notebook indentation on the cushion, and one carrot peel he had missed near the sink.
+
+He cleaned the carrot peel.
+
+He left the pencil mark.
+
+---
+
+# Chapter Seven — The Things We Don't Ask Twice
+
+Rain began during the last period on Monday.
+
+It tapped against the classroom windows while Mr. Hasegawa explained the week's schedule. By the time the final bell rang, the sports field had darkened and the path beside the gym was shining with water.
+
+Itsuki had brought an umbrella.
+
+Riko had not.
+
+She stood near the shoe lockers, looking outside with an expression of deep personal betrayal.
+
+“Forgot yours?” Itsuki asked.
+
+“I was optimistic.”
+
+“About the weather?”
+
+“About the world.”
+
+He opened his umbrella.
+
+Riko looked at it.
+
+“Are you offering?”
+
+“No.”
+
+“Good. I wouldn't want to accept.”
+
+She stepped under it.
+
+Itsuki glanced at her.
+
+“You just accepted.”
+
+“I changed my mind.”
+
+They walked toward the station together. Riko lived in the opposite direction from the bus stop, but she had decided that the first part of the route was shared territory. She talked about a teacher who had assigned an essay over the weekend and a classmate who had written the title at the bottom of the page.
+
+At the crossing, they separated.
+
+“Don't catch a cold,” Riko said.
+
+“Try not to lose your homework.”
+
+“No promises.”
+
+She ran toward the bus stop.
+
+Itsuki continued along the pavement.
+
+Near the entrance to the shopping street, he saw Ayane standing beneath the awning of a closed flower shop. She held a transparent umbrella in one hand and a paper bag in the other. A few drops of rain had caught in her hair.
+
+“Itsuki?”
+
+He stopped.
+
+“Fujimoto.”
+
+“Are you going to the station?”
+
+“Yeah.”
+
+“Me too.”
+
+They started walking in the same direction.
+
+Ayane held her umbrella slightly higher to avoid brushing his. They had walked this route together many times as children. Back then, they had usually been carrying something from one house to the other: a lunch container, a forgotten textbook, a toy, a bag of sweets. They had rarely needed to decide who walked beside whom.
+
+Now they were careful not to step too close.
+
+“Do you still take the train from here?” she asked.
+
+“Most days.”
+
+“I thought you might walk.”
+
+“Only when the weather is good.”
+
+She looked at the rain.
+
+“Not today, then.”
+
+“Probably not.”
+
+They passed the florist. A row of buckets stood inside the window, their flowers bright against the grey afternoon.
+
+Ayane glanced at the paper bag she was carrying.
+
+“My mother asked me to bring this to your mother.”
+
+“What is it?”
+
+“Some food containers. She borrowed them last week.”
+
+“Right.”
+
+“She said she'd return them at the next family gathering, but then she remembered your mother might need them.”
+
+“That's how containers work.”
+
+Ayane laughed.
+
+The conversation loosened a little.
+
+They reached the narrow lane that connected the shopping street to the station road. A small playground stood behind a low fence. The swing chains moved slightly in the wind, though no one was there.
+
+Ayane slowed.
+
+“Do you remember this place?”
+
+Itsuki looked through the fence.
+
+“Yeah.”
+
+“We used to come here after school.”
+
+“Your mother used to bring snacks.”
+
+“And you always wanted the same one.”
+
+“Which one?”
+
+“Those little fish-shaped biscuits.”
+
+“Taiyaki?”
+
+“No. The small ones in the packet.”
+
+“That's not helpful.”
+
+“You called them tiny fish.”
+
+“That seems accurate.”
+
+Ayane smiled.
+
+“I remember you used to line them up before eating them.”
+
+Itsuki looked at her.
+
+“I did?”
+
+“Every time.”
+
+“I don't remember that.”
+
+“You were very particular.”
+
+“Maybe I was hungry.”
+
+“Maybe.”
+
+They stood beneath their umbrellas for a moment, watching the rain collect in the shallow dips of the playground path.
+
+“I used to think we'd always come here,” Ayane said.
+
+Itsuki followed her gaze.
+
+“Kids think things like that.”
+
+“Do they?”
+
+“Probably.”
+
+She nodded, but did not seem convinced.
+
+“I don't think we stopped being friends because anything happened,” she said. “We just got busy. Then it became normal not to call.”
+
+Itsuki adjusted the umbrella handle.
+
+“Yeah.”
+
+“I wasn't sure if you wanted me to.”
+
+He looked at her.
+
+“Call?”
+
+“Or talk more. I didn't know if you preferred being left alone.”
+
+“I usually do.”
+
+Ayane smiled faintly.
+
+“I know.”
+
+“Not always.”
+
+She looked up.
+
+Itsuki realised he had said more than he intended. He could have left it there, but the rain made the silence feel too noticeable.
+
+“I don't mind talking,” he said. “I just don't always know what to say.”
+
+Ayane's expression softened.
+
+“That's okay.”
+
+A train announcement sounded from the station.
+
+They continued walking.
+
+At the entrance, Ayane stopped beside the ticket machines.
+
+“Thanks for walking with me.”
+
+“We were going the same way.”
+
+“Still.”
+
+She shifted the paper bag to her other hand.
+
+“Maybe we could have lunch together sometime. At school.”
+
+“Sure.”
+
+“Really?”
+
+“It's lunch. I usually eat.”
+
+Ayane laughed.
+
+“Right. I'll ask you later.”
+
+She went through the gate.
+
+Itsuki watched her disappear into the crowd, then tapped his travel card against the reader.
+
+The train was three minutes away.
+
+He stood on the platform and listened to the rain against the roof.
+
+He had not promised anything significant. Lunch was lunch. A conversation was a conversation. There was no reason to treat either as a turning point.
+
+Still, he found himself hoping he would remember to say yes when she asked.
+
+---
+
+# Chapter Eight — A Test with Too Many Questions
+
+The first English assessment of the year was scheduled for Friday.
+
+It was not a major exam. Mr. Hasegawa called it a diagnostic test, which meant the school wanted to know what students remembered before the real work began.
+
+Itsuki finished the reading section with twelve minutes left.
+
+He checked his answers once, corrected a careless article, and turned the page over.
+
+Across the room, Riko was staring at question fourteen.
+
+She had been staring at question fourteen for some time.
+
+When the bell rang, she put her pencil down with the careful movement of someone leaving a dangerous object behind.
+
+“How was it?” Itsuki asked as they left the classroom.
+
+“Unfair.”
+
+“Which part?”
+
+“All of it.”
+
+“That's broad.”
+
+“It's a broad injustice.”
+
+He glanced at the worksheet in her hand.
+
+“You missed the second passage?”
+
+“I read it.”
+
+“Then?”
+
+“I disagreed with it.”
+
+“It's a reading test.”
+
+“Exactly. They should test whether the passage is worth reading.”
+
+He did not answer.
+
+Riko folded the paper and slipped it into her bag.
+
+“Don't look at me like that.”
+
+“Like what?”
+
+“Like you're about to explain the answer.”
+
+“I wasn't.”
+
+“You were thinking about it.”
+
+“Maybe.”
+
+“Keep your thoughts to yourself.”
+
+They reached the corridor outside the staff room. A few students were waiting to ask about their scores. Mr. Hasegawa stood near the door, speaking with another teacher.
+
+“Ah, Kurose,” he called when he saw Itsuki. “A moment?”
+
+Itsuki stopped.
+
+Riko leaned toward him.
+
+“Good luck with your promotion.”
+
+“Go to class.”
+
+“Cruel.”
+
+She walked away.
+
+Mr. Hasegawa held out a paper.
+
+“You did well. Your answers are accurate, and your explanation for the final question is particularly clear.”
+
+Itsuki looked at the page. A red mark circled the paragraph he had written.
+
+“Thank you.”
+
+“Would you mind if I used this as an example for the class? I'll remove your name.”
+
+“That's fine.”
+
+“Good. It may help some students see how to support an answer with the passage rather than guessing from the wording.”
+
+Itsuki nodded.
+
+Mr. Hasegawa placed the paper on his folder.
+
+“By the way, Fujisaki from 3-A asked whether the school has any peer-support sessions for English. I told her we'd look into it.”
+
+Itsuki did not know why the teacher had mentioned that.
+
+“Okay.”
+
+“She seems to be putting in effort. Some students have a good ear for language but struggle with reading structure. It can be frustrating.”
+
+“Yeah.”
+
+Mr. Hasegawa smiled.
+
+“Enjoy the rest of your day.”
+
+Itsuki returned to class.
+
+He did not think much about the conversation.
+
+At lunch, the class representative announced that the diagnostic results would be returned the following week. Riko asked whether the school would provide emotional compensation for low scores. The representative said no.
+
+After lessons, Itsuki went to the library to return his essay collection.
+
+Akari was there.
+
+She stood near the reference shelves with a notebook open in one hand. Her expression was focused, and the usual group around her was absent. She read a paragraph, frowned, then tried again.
+
+Itsuki approached the desk.
+
+The librarian was sorting returned books. He placed his book on the counter and waited.
+
+Akari looked up at the sound.
+
+“Sorry,” she said, stepping aside.
+
+“It's fine.”
+
+She glanced at the book in his hand.
+
+“Are you returning that?”
+
+“Yeah.”
+
+“Was it good?”
+
+“Some of it.”
+
+“That's a very strong review.”
+
+“It's a collection.”
+
+She smiled.
+
+“Fair enough.”
+
+The librarian stamped the return date. Itsuki moved away from the desk.
+
+As he passed the reference shelves, he noticed that Akari's notebook contained a list of vocabulary words. Several had been underlined twice. She was not wasting time.
+
+“Do you know what 'subsequently' means?” she asked suddenly.
+
+Itsuki stopped.
+
+“After that. Something happens later as a result of what came before.”
+
+“That's what I thought.”
+
+She looked at the sentence in the book.
+
+“Then why does it sound wrong here?”
+
+He read the paragraph from a respectful distance.
+
+“The sentence is using it to connect two events, but the second one isn't really a consequence. It's just the next event.”
+
+Akari looked at the page again.
+
+“So it's not the word. It's the relationship between the sentences.”
+
+“Right.”
+
+She considered that, then made a small note.
+
+“Thanks.”
+
+“Sure.”
+
+There was no dramatic change in her expression. She did not suddenly look at him as if she had discovered a hidden genius. She simply understood the sentence better than she had a minute earlier.
+
+“Are you in 3-B?” she asked.
+
+“Yeah.”
+
+“I thought so. I'm Akari Fujisaki.”
+
+“I know.”
+
+Her smile turned a little amused.
+
+“Of course. Everyone knows everyone here.”
+
+“Not everyone.”
+
+“Maybe not.”
+
+She closed her notebook.
+
+“Thanks again, Kurose.”
+
+He nodded and left.
+
+Outside the library, the late-afternoon light fell across the corridor floor. Itsuki adjusted his glasses and headed for the stairs.
+
+He had answered a question.
+
+That was all.
+
+He did not know that Akari would remember the explanation later, when she was trying to understand why a paragraph refused to make sense. He did not know that she would begin to notice how patiently he listened when someone asked him something. And he certainly did not know that, a few weeks from now, she would consider asking him for help again.
+
+For now, she was simply a classmate from 3-A.
+
+And he had somewhere to be.
+
