@@ -4409,3 +4409,305 @@ Then, beneath it:
 
 **Start with what actually happened.**
 
+
+
+# Interlude I — A Different School Bell
+
+Hoshimiya East High School had a different morning rhythm.
+
+The main building stood closer to the river than Hoshimiya Municipal High, and the path from the station passed a row of small shops that opened early. Students arrived in clusters, some carrying club equipment, others stopping at the bakery near the crossing. The bell rang five minutes earlier than the one at Itsuki's school.
+
+Nanami knew this because she had once been late by exactly four minutes.
+
+She had not repeated the mistake.
+
+“Nanami!”
+
+Yui waved from the bicycle racks.
+
+Nanami hurried over, holding the strap of her bag.
+
+“Morning.”
+
+“You're early.”
+
+“I'm on time.”
+
+“That's early for you.”
+
+“I was always on time.”
+
+“You were late once.”
+
+“One time.”
+
+“It was memorable.”
+
+“It was raining.”
+
+“You blamed the rain.”
+
+“It was raining.”
+
+Yui laughed and fell into step beside her.
+
+They were in different classes but had joined the library exchange committee together. Yui liked drawing and making displays. Nanami liked lists, schedules, and making sure the people who liked drawing remembered that glue had to dry before anyone moved the paper.
+
+Their teacher had given them a small project: prepare a reading corner for a group of younger students who would visit the school library during the following month. They would borrow picture books from the old east-station library, arrange a few tables, and make a display about stories set in familiar places.
+
+Yui had already drawn a sketch of the display.
+
+It included a river, a train, a row of houses, and a cat sitting on a wall.
+
+Nanami had asked why the cat was there.
+
+“Because every town needs a cat,” Yui had said.
+
+Nanami had written *cat decoration — optional* on the supply list.
+
+Yui had crossed out *optional*.
+
+Now they walked toward the classroom, discussing whether the display should use blue paper or pale green.
+
+“Blue,” Yui said.
+
+“Green.”
+
+“Blue looks like the river.”
+
+“Green looks like the park.”
+
+“We can draw the river and the park.”
+
+“That means two colours.”
+
+“Exactly.”
+
+Nanami looked at her.
+
+“You're making the budget complicated.”
+
+“I'm making the display beautiful.”
+
+“Those are not the same thing.”
+
+Yui smiled.
+
+“You always say that.”
+
+“Because it's true.”
+
+They reached the classroom before the bell. Nanami placed her bag beside her desk and took out the folder. The supply list had grown to two pages. She checked the names of the students who had agreed to help and marked the tasks that still needed someone.
+
+Her friend leaned over.
+
+“You really like organising things.”
+
+“I like knowing what's supposed to happen.”
+
+“Same thing.”
+
+“Not exactly.”
+
+Yui looked at the page.
+
+“You put yourself down for the book return.”
+
+“Someone has to carry the boxes.”
+
+“I can do that.”
+
+“You're making the display.”
+
+“I can do both.”
+
+“You'll forget one.”
+
+Yui placed a hand over her chest.
+
+“That's hurtful.”
+
+“It's accurate.”
+
+They laughed.
+
+During lunch, Nanami received a message from her father.
+
+*How is the library project going? I spoke to the committee member at the east-station branch. They can lend you the picture books if your teacher sends the request this week.*
+
+Nanami typed back.
+
+*We have a list ready. I'll ask the teacher to send it.*
+
+A moment later, another message appeared.
+
+*Good. Are you coming home this weekend?*
+
+She looked at the screen.
+
+Her father's house was still her home. She knew that. Her room was there, her school books were there, and her father still remembered which foods she disliked. But the house had changed. Sometimes, when he had plans with his girlfriend, Nanami felt as if she were visiting a place where everyone else already knew what the evening would look like.
+
+It was not anyone's fault.
+
+That did not make it comfortable every time.
+
+She replied:
+
+*Maybe Saturday. I'll let you know.*
+
+Her father sent a simple thumbs-up.
+
+Nanami put the phone away.
+
+Yui returned with two cartons of milk.
+
+“Everything okay?”
+
+“Yeah.”
+
+“You look like you're doing maths.”
+
+“I'm thinking.”
+
+“That's worse.”
+
+Nanami smiled.
+
+“It's fine.”
+
+Yui did not ask again. She sat beside her and began drawing the cat for the reading-corner display.
+
+Nanami watched the pencil move.
+
+The cat was wearing a tiny school cap.
+
+“That's not necessary,” she said.
+
+“It is now.”
+
+Nanami opened her notebook and added one more line to the supply list.
+
+*Small paper cat — one.*
+
+She did not know whether the project would be good.
+
+But she was looking forward to it.
+
+---
+
+# Interlude II — The Version Akari Knows
+
+Akari Fujisaki liked the sound of a busy classroom.
+
+It meant people were talking. It meant someone had brought something to share, someone else had a story, and there was always a chance that a quiet corner would turn into a conversation if she crossed the room at the right moment.
+
+She liked being known.
+
+There was no secret resentment beneath it. She enjoyed meeting people, remembering names, and finding out what other classes were doing. She liked the way a school event could bring students together who might otherwise never speak.
+
+What she did not enjoy was being expected to know what everyone wanted.
+
+That was a different kind of attention.
+
+“Akari, can you check the menu again?”
+
+She looked up from her notebook.
+
+Saki stood beside her desk, holding a printed sheet.
+
+“Sure.”
+
+“Do you think the prices are okay?”
+
+Akari read through the list.
+
+“Tea is fine. The juice might be a little expensive.”
+
+“That's what I thought.”
+
+“We can lower it by ten yen.”
+
+Saki nodded and made a note.
+
+“Thanks.”
+
+Another classmate approached before Saki had taken two steps.
+
+“Akari, do you know who has the spare tablecloths?”
+
+“I think they're in the committee room. I'll ask.”
+
+“Could you?”
+
+“Of course.”
+
+The classmate thanked her and hurried away.
+
+Akari closed her notebook.
+
+She had not been elected to anything. She had simply offered to help when the class started planning its festival activity. People tended to ask her questions because she usually knew who to ask next.
+
+She liked that.
+
+She also sometimes wished someone else would make the decision.
+
+After school, she went to the library.
+
+The English passage she had been working on was still open in her notebook. She had copied three sentences from the textbook and written their meanings underneath. The first two made sense. The third seemed to change direction halfway through.
+
+She read it again.
+
+Then again.
+
+The words were familiar. She knew what each one meant. Together, they refused to become a sentence she could understand.
+
+Akari pressed her pencil against the page.
+
+“Why?”
+
+The librarian looked up.
+
+“Everything all right?”
+
+“Sorry. Yes.”
+
+She lowered her voice.
+
+The problem was not that she disliked studying. She wanted to improve. She had a good memory for conversations, names, and small details. She could remember what a classmate had said weeks earlier and notice when a friend was having a difficult day.
+
+But written passages did not always stay in her head.
+
+She could read a paragraph and understand it, then reach the questions and forget which sentence had supported which answer. When she tried to memorise the structure, it became worse.
+
+She did not want to ask her friends for help again.
+
+They were kind, but they had already spent time explaining the same things. Akari disliked feeling as if she were taking more than she gave.
+
+Her phone vibrated.
+
+A message from her mother.
+
+*Your father and I will be home late. There is food in the refrigerator. Don't wait for us.*
+
+Akari replied with a small heart.
+
+She packed her books and left the library.
+
+At home, the entrance hall was quiet. Her family's house was large enough that one person could move through it without seeing anyone else. The kitchen was clean. A vase of flowers stood on the dining table, replaced every few days by someone who knew what colours her mother liked.
+
+Akari changed out of her uniform and returned to her room.
+
+On her desk was a brochure her parents had given her earlier in the month. It listed several universities and possible programmes. Her family had not demanded that she choose one immediately. They had asked her to think about the options and tell them what interested her.
+
+They wanted her to have choices.
+
+Sometimes, that made it harder to admit that she did not know which one she wanted.
+
+She placed the brochure beneath her notebook.
+
+Then she opened the English passage again.
+
+She would understand it eventually.
+
+She always did, if she kept trying.
+
