@@ -746,6 +746,82 @@ A perfectly ordinary start.
 
 He decided to count that as a success.
 
+When he returned to the apartment that evening, a small paper bag was hanging from the doorknob.
+
+Itsuki stopped in the corridor.
+
+There was no name on it, but the handwriting on the folded note was familiar.
+
+*You said you didn't want anything. I decided not to listen. Happy birthday again.*
+
+Inside the bag was a mechanical pencil, a packet of refills, and a small pudding from the convenience store near Nanami's school. The pencil was plain black, with a comfortable grip and no unnecessary decoration.
+
+He turned it over once.
+
+His phone rang.
+
+“Hello?”
+
+“Happy birthday, Itsuki.”
+
+The voice was calm and familiar. Itsuki leaned one shoulder against the wall.
+
+“Thanks.”
+
+“Eighteen.”
+
+“Apparently.”
+
+A quiet laugh came through the speaker.
+
+“Your mother told me you had orientation today. How was it?”
+
+“Normal.”
+
+“That's good.”
+
+There was a pause. Neither of them was particularly skilled at making phone calls last longer than necessary, but the silence between them was not uncomfortable.
+
+“Nanami said she was going to see you yesterday,” the man said.
+
+“She brought dinner.”
+
+“Did you have enough?”
+
+“More than enough.”
+
+“Good. She's been busy with the new school year.”
+
+“She told me about the library project.”
+
+“She sounded excited about it.”
+
+“She made a schedule.”
+
+“Then it must be serious.”
+
+Itsuki looked at the mechanical pencil in his hand.
+
+“Thanks for calling.”
+
+“Of course. If you want to come over this weekend, I'll be home on Sunday.”
+
+“I'll see.”
+
+“That's fine. No pressure.”
+
+The call ended a minute later.
+
+Itsuki put the pencil on the table beside his English workbook. He opened the pudding, ate it standing at the kitchen counter, and washed the spoon immediately.
+
+The day had not changed much.
+
+He was still in the same apartment. The same timetable was pinned to the refrigerator. The same school bag sat beside the chair.
+
+But there was a new pencil on the table, and two people had remembered the date without needing to be reminded.
+
+For an eighteenth birthday, it was enough.
+
 ---
 
 ## Drafting continuity ledger
