@@ -398,6 +398,8 @@ He turned off the kitchen light.
 
 ---
 
+---
+
 # Chapter One — A Perfectly Ordinary Start
 
 Itsuki turned eighteen at 12:00 a.m.
@@ -836,6 +838,8 @@ For an eighteenth birthday, it was enough.
 
 ---
 
+---
+
 # Chapter Two — The People Who Don't Need Invitations
 
 Riko had a talent for appearing in places where she had not been invited.
@@ -1200,6 +1204,8 @@ He decided not to mention that to anyone.
 
 ---
 
+---
+
 # Interlude VIII — The Answer in the Margin
 
 Riko arrived at the library with a workbook and an expression of deep suspicion.
@@ -1410,6 +1416,8 @@ He decided that was probably worth it.
 
 ---
 
+---
+
 # Side Scene — The First Time Riko Sat Down
 
 Itsuki did not remember deciding to become friends with Riko Tachibana.
@@ -1555,6 +1563,8 @@ He still did not know exactly when it had become friendship.
 Riko had never explained it.
 
 He had stopped trying to find out.
+
+---
 
 ---
 
@@ -1735,6 +1745,8 @@ She laughed.
 The light changed.
 
 They crossed together.
+
+---
 
 ---
 
@@ -2026,6 +2038,8 @@ The train arrived before he reached one.
 
 ---
 
+---
+
 # Interlude V — The House He Doesn't Live In
 
 The envelope arrived on a Thursday.
@@ -2155,6 +2169,8 @@ Then he typed:
 *Thanks for signing the form.*
 
 He put the phone away and waited for the light to change.
+
+---
 
 ---
 
@@ -2371,6 +2387,8 @@ Those things belonged to Akari's day, not his.
 For now, they were students in the same school who happened to pass each other in the corridor.
 
 That was enough.
+
+---
 
 ---
 
@@ -2646,6 +2664,8 @@ She only had to find it.
 
 ---
 
+---
+
 # Chapter Five — A Quiet Seat by the Window
 
 The library was the quietest place in the school, provided nobody had decided to whisper.
@@ -2737,6 +2757,8 @@ She used a mechanical pencil with a blue grip.
 It was not a particularly useful fact.
 
 He suspected he would forget it by tomorrow.
+
+---
 
 ---
 
@@ -2880,6 +2902,8 @@ That was why she liked asking questions.
 
 ---
 
+---
+
 # Side Scene — The Library's Closing Bell
 
 The library closed fifteen minutes early on the last Thursday of May.
@@ -2981,6 +3005,8 @@ He only remembered that Mio had said she liked things that did not quite make se
 At the time, it sounded like a hobby.
 
 He did not yet know that a rumour would soon give her something to investigate.
+
+---
 
 ---
 
@@ -3254,6 +3280,202 @@ He left the pencil mark.
 
 ---
 
+---
+
+# Side Scene — The River After School
+
+Nanami suggested the walk on a Thursday.
+
+Itsuki had been on his way home when she called and asked whether he was near the east station. He was two stops away.
+
+“Why?”
+
+“Because I'm here.”
+
+“That explains where you are.”
+
+“Can you come?”
+
+He looked at the train display.
+
+“I'm on my way home.”
+
+“Your home isn't going anywhere.”
+
+“Neither is the station.”
+
+“Please?”
+
+He sighed.
+
+“Ten minutes.”
+
+She was waiting beside the river path when he arrived. Her school bag rested against the railing, and she was holding a paper cup from the bakery near the crossing.
+
+“You came.”
+
+“You sounded like you had a reason.”
+
+“I do.”
+
+She handed him a second cup.
+
+Itsuki looked inside.
+
+“Tea?”
+
+“It's warm.”
+
+“It's June.”
+
+“It's not that warm.”
+
+He took it anyway.
+
+They walked along the path beside the river. The water moved slowly beneath the bridge, reflecting the buildings and the pale afternoon sky. A cyclist passed them, followed by a woman walking a small dog. The dog stopped to inspect a fallen leaf.
+
+Nanami watched it.
+
+“That's a serious investigation.”
+
+“Maybe it found something.”
+
+“Like what?”
+
+“A leaf.”
+
+She laughed.
+
+They walked a little farther.
+
+Nanami told him about the library project. The reading corner had been set up, and the younger students had liked the picture books. Yui's paper cat had become the most popular part of the display.
+
+“Of course it did,” Itsuki said.
+
+“She named it.”
+
+“Cat?”
+
+“Professor Whiskers.”
+
+“That's worse.”
+
+“It's better.”
+
+“It's longer.”
+
+Nanami smiled.
+
+They stopped near the bridge. The school buildings were visible beyond the trees, and a train moved along the elevated track in the distance.
+
+“Yui wants to join the art club next term,” Nanami said. “I might help with the library committee again.”
+
+“Sounds good.”
+
+“I like having something to do.”
+
+“Then keep doing it.”
+
+She looked at him.
+
+“That's your advice?”
+
+“It's practical.”
+
+“Very inspiring.”
+
+“I try.”
+
+Nanami leaned against the railing.
+
+“Do you ever wish you went to my school?”
+
+“No.”
+
+“Not even a little?”
+
+“I'd have to learn a new timetable.”
+
+“You'd survive.”
+
+“That's not the point.”
+
+She smiled.
+
+A breeze moved through the trees.
+
+For a moment, they watched the river without speaking.
+
+Then Nanami said, “I'm glad you have your apartment.”
+
+Itsuki glanced at her.
+
+“Why?”
+
+“Because you seem comfortable there.”
+
+He looked toward the path.
+
+“It's quiet.”
+
+“I know.”
+
+She took a sip from her cup.
+
+“Sometimes I like coming over because it's quiet too.”
+
+“You can come whenever you want.”
+
+“I know.”
+
+“And you don't have to ask every time.”
+
+“I know that too.”
+
+Nanami turned toward him.
+
+“Then why do you keep saying it?”
+
+“Because you keep asking.”
+
+She laughed.
+
+They started walking again.
+
+At the station, Nanami checked her phone.
+
+“Dad's waiting at home.”
+
+“Then go.”
+
+“I will.”
+
+She adjusted the strap of her bag.
+
+“Thanks for coming.”
+
+“Sure.”
+
+“Next time, we'll walk farther.”
+
+“Maybe.”
+
+“That's a yes.”
+
+“It's a realistic maybe.”
+
+Nanami shook her head and headed toward the ticket gate.
+
+Itsuki watched until she disappeared into the crowd.
+
+Then he took the train home.
+
+The tea had gone lukewarm.
+
+He finished it anyway.
+
+---
+
 # Interlude I — A Different School Bell
 
 Hoshimiya East High School had a different morning rhythm.
@@ -3436,6 +3658,8 @@ She did not know whether the project would be good.
 
 But she was looking forward to it.
 
+
+---
 
 ---
 
@@ -3632,6 +3856,8 @@ Nanami did not push.
 The train arrived.
 
 They got on together.
+
+---
 
 ---
 
@@ -3893,6 +4119,8 @@ Still, he found himself hoping he would remember to say yes when she asked.
 
 ---
 
+---
+
 # Interlude IX — Lunch on the Second Floor
 
 Ayane asked him on a Wednesday.
@@ -4078,6 +4306,8 @@ He had not expected lunch to feel different.
 It had not been especially exciting. They had eaten, talked, and returned to class.
 
 But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
 
 ---
 
@@ -4315,6 +4545,8 @@ And he had somewhere to be.
 
 ---
 
+---
+
 # Interlude VII — The Shape of an Explanation
 
 The study-support board was placed beside the classroom door.
@@ -4425,6 +4657,8 @@ He had not thought of it as anything worth noticing. He had simply written down 
 But if it helped someone else, that was fine.
 
 He put the marker back in the tray.
+
+---
 
 ---
 
@@ -4637,6 +4871,8 @@ Riko took it and slid into her seat.
 The joke had landed.
 
 The work was still hers.
+
+---
 
 ---
 
@@ -4954,6 +5190,8 @@ The school year continued.
 
 ---
 
+---
+
 # Chapter Ten — Before the Doors Open
 
 The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
@@ -5256,6 +5494,8 @@ For once, he hoped the weather would stay clear.
 
 ---
 
+---
+
 # Chapter Eleven — The Morning Everyone Was Busy
 
 The festival opened at ten.
@@ -5501,6 +5741,8 @@ The noise from the main hall grew louder.
 He adjusted his glasses and headed toward the stairs.
 
 He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
 
 ---
 
@@ -5813,6 +6055,8 @@ And the photograph, taken just as they stepped through the corridor, showed only
 It was not a lie.
 
 It was simply not the truth.
+
+---
 
 ---
 
@@ -6276,6 +6520,8 @@ Then she drew a small line between them and left the rest of the page blank.
 
 ---
 
+---
+
 # Chapter Fourteen — The Simplest Explanation
 
 By Tuesday morning, the rumour had acquired a title.
@@ -6615,6 +6861,8 @@ But at least it was a different question.
 
 ---
 
+---
+
 # Chapter Fifteen — The Account That Doesn't Match
 
 Mio did not ask Akari about the rumour immediately.
@@ -6867,6 +7115,8 @@ But he kept thinking about what she had said.
 
 ---
 
+---
+
 # Chapter Sixteen — A Question Worth Answering
 
 Mio returned to the library the next afternoon.
@@ -7098,6 +7348,8 @@ Not really.
 But there was now someone asking a different question.
 
 And for the first time since the festival, Itsuki thought that perhaps he should answer it.
+
+---
 
 ---
 
@@ -7342,6 +7594,8 @@ He walked toward the gate.
 He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
+
+---
 
 ---
 
@@ -7671,6 +7925,8 @@ It was a start.
 
 ---
 
+---
+
 # Epilogue — The First Version
 
 Mio waited until Itsuki had left before opening her notebook again.
@@ -7759,196 +8015,3 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
-
-
-# Side Scene — The River After School
-
-Nanami suggested the walk on a Thursday.
-
-Itsuki had been on his way home when she called and asked whether he was near the east station. He was two stops away.
-
-“Why?”
-
-“Because I'm here.”
-
-“That explains where you are.”
-
-“Can you come?”
-
-He looked at the train display.
-
-“I'm on my way home.”
-
-“Your home isn't going anywhere.”
-
-“Neither is the station.”
-
-“Please?”
-
-He sighed.
-
-“Ten minutes.”
-
-She was waiting beside the river path when he arrived. Her school bag rested against the railing, and she was holding a paper cup from the bakery near the crossing.
-
-“You came.”
-
-“You sounded like you had a reason.”
-
-“I do.”
-
-She handed him a second cup.
-
-Itsuki looked inside.
-
-“Tea?”
-
-“It's warm.”
-
-“It's June.”
-
-“It's not that warm.”
-
-He took it anyway.
-
-They walked along the path beside the river. The water moved slowly beneath the bridge, reflecting the buildings and the pale afternoon sky. A cyclist passed them, followed by a woman walking a small dog. The dog stopped to inspect a fallen leaf.
-
-Nanami watched it.
-
-“That's a serious investigation.”
-
-“Maybe it found something.”
-
-“Like what?”
-
-“A leaf.”
-
-She laughed.
-
-They walked a little farther.
-
-Nanami told him about the library project. The reading corner had been set up, and the younger students had liked the picture books. Yui's paper cat had become the most popular part of the display.
-
-“Of course it did,” Itsuki said.
-
-“She named it.”
-
-“Cat?”
-
-“Professor Whiskers.”
-
-“That's worse.”
-
-“It's better.”
-
-“It's longer.”
-
-Nanami smiled.
-
-They stopped near the bridge. The school buildings were visible beyond the trees, and a train moved along the elevated track in the distance.
-
-“Yui wants to join the art club next term,” Nanami said. “I might help with the library committee again.”
-
-“Sounds good.”
-
-“I like having something to do.”
-
-“Then keep doing it.”
-
-She looked at him.
-
-“That's your advice?”
-
-“It's practical.”
-
-“Very inspiring.”
-
-“I try.”
-
-Nanami leaned against the railing.
-
-“Do you ever wish you went to my school?”
-
-“No.”
-
-“Not even a little?”
-
-“I'd have to learn a new timetable.”
-
-“You'd survive.”
-
-“That's not the point.”
-
-She smiled.
-
-A breeze moved through the trees.
-
-For a moment, they watched the river without speaking.
-
-Then Nanami said, “I'm glad you have your apartment.”
-
-Itsuki glanced at her.
-
-“Why?”
-
-“Because you seem comfortable there.”
-
-He looked toward the path.
-
-“It's quiet.”
-
-“I know.”
-
-She took a sip from her cup.
-
-“Sometimes I like coming over because it's quiet too.”
-
-“You can come whenever you want.”
-
-“I know.”
-
-“And you don't have to ask every time.”
-
-“I know that too.”
-
-Nanami turned toward him.
-
-“Then why do you keep saying it?”
-
-“Because you keep asking.”
-
-She laughed.
-
-They started walking again.
-
-At the station, Nanami checked her phone.
-
-“Dad's waiting at home.”
-
-“Then go.”
-
-“I will.”
-
-She adjusted the strap of her bag.
-
-“Thanks for coming.”
-
-“Sure.”
-
-“Next time, we'll walk farther.”
-
-“Maybe.”
-
-“That's a yes.”
-
-“It's a realistic maybe.”
-
-Nanami shook her head and headed toward the ticket gate.
-
-Itsuki watched until she disappeared into the crowd.
-
-Then he took the train home.
-
-The tea had gone lukewarm.
-
-He finished it anyway.
