@@ -2424,3 +2424,591 @@ For now, she was simply a classmate from 3-A.
 
 And he had somewhere to be.
 
+
+
+# Chapter Nine — The Committee Nobody Wanted
+
+By the middle of May, the school had developed a new sound.
+
+It was the sound of people asking where the forms were.
+
+The first-year welcome event had passed, the class photographs had been taken, and the teachers had begun using the phrase “the first term is moving quickly” with increasing confidence. The school corridors were no longer full of students who looked lost. Everyone had found a route between classrooms, a preferred vending machine, and at least one place where they could sit without being asked to move.
+
+Itsuki had found a place near the library windows.
+
+Riko had found three places where she was not supposed to sit.
+
+The school festival was still more than a month away, but preparation had begun in the form of a committee notice pinned beside the staff room. Each class would choose an activity, submit a plan, and assign students to the work. The notice included a list of approved options and a reminder that food preparation required supervision.
+
+Riko read it over Itsuki's shoulder.
+
+“Let's do a haunted house.”
+
+“No.”
+
+“You haven't heard the proposal.”
+
+“I heard the first three words.”
+
+“That's enough to make an informed decision.”
+
+“Then we're done.”
+
+She leaned closer to the paper.
+
+“What about a café?”
+
+“Someone will spill something.”
+
+“That's why we have towels.”
+
+“What about a quiz room?”
+
+“People will complain.”
+
+“A game booth?”
+
+“People will cheat.”
+
+Riko turned to him.
+
+“You're very good at finding problems.”
+
+“Thank you.”
+
+“It's not a compliment.”
+
+“I'll accept it anyway.”
+
+Their class representative, Emi Naruse, approached with a clipboard.
+
+“Have either of you decided what you'd like to help with?”
+
+Riko pointed at Itsuki.
+
+“He's our risk-assessment department.”
+
+“I didn't agree to that.”
+
+“You're doing a good job.”
+
+Emi looked between them, then wrote something on her clipboard.
+
+“I'll put you down for general preparation.”
+
+Itsuki watched the pen move.
+
+“That's not a role.”
+
+“It is now,” Riko said.
+
+Emi smiled apologetically. “We need people who can help move things, check supplies, and keep track of the schedule. You don't have to decide the actual activity yet.”
+
+Itsuki considered asking to be removed.
+
+Then he saw the stack of forms in Emi's arms and the way she was trying to keep them from sliding onto the floor.
+
+“Fine,” he said. “I can help with the schedule.”
+
+“Thank you.”
+
+Riko gave him a pleased look.
+
+“You're growing.”
+
+“I'm being exploited.”
+
+“Those are not mutually exclusive.”
+
+The class eventually voted for a small café with a display of local photographs and a corner for simple games. It was not the most original idea, but it was manageable. Emi would coordinate the plan. Riko volunteered to handle decorations, which worried Itsuki more than the budget.
+
+“What?” she said when he mentioned it.
+
+“Nothing.”
+
+“Your face says something.”
+
+“My face is neutral.”
+
+“Your face is filing a complaint.”
+
+She had already begun sketching ideas in the corner of her notebook. Most involved paper lanterns, coloured signs, or something that looked suspiciously like a cardboard monster.
+
+Itsuki pointed at the monster.
+
+“What is that?”
+
+“A mascot.”
+
+“For a café?”
+
+“It's a hungry customer.”
+
+“That's not reassuring.”
+
+“People like honesty.”
+
+Across the room, Ayane was discussing the class activity with Emi. She had been assigned to help organise the display board and had already made a list of students who could bring photographs of the neighbourhood. When she noticed Itsuki looking, she gave him a small wave.
+
+He returned it.
+
+Riko noticed.
+
+“Fujimoto's helping with the display.”
+
+“I can see that.”
+
+“You could help her.”
+
+“I am helping the class.”
+
+“That's not what I meant.”
+
+Itsuki looked at her.
+
+Riko smiled innocently.
+
+He returned to the schedule.
+
+The following week, the class began collecting ideas for the display. Ayane brought a folder of photographs from the local community centre. Most showed familiar streets: the station before its renovation, the shopping street during a summer event, the river path in winter. She explained where each picture had been taken and asked whether the class could use copies.
+
+Itsuki recognised the small playground near the shopping street.
+
+“That one hasn't changed much,” he said.
+
+Ayane followed his gaze.
+
+“No. The swings are newer.”
+
+“The fence is the same.”
+
+“I think so.”
+
+They stood beside the display board while other students arranged the photographs.
+
+“Do you want to help choose the captions?” she asked.
+
+“Sure.”
+
+They worked through the folder. Ayane wrote the first draft of each caption. Itsuki checked dates and spelling. They disagreed about whether one photograph showed the old station entrance or the bus terminal. A student from another class settled the question by recognising the sign in the background.
+
+It was not a particularly meaningful afternoon.
+
+That was why it went well.
+
+By the time they finished, the display board had begun to look like something people might actually stop to read. Ayane thanked him, then asked whether he would be at school early the next morning.
+
+“Probably.”
+
+“Could you help me carry the remaining boards?”
+
+“Sure.”
+
+She smiled.
+
+“Thanks.”
+
+Riko appeared at his elbow.
+
+“Look at you. Becoming indispensable.”
+
+“I carried cardboard.”
+
+“Every great career begins somewhere.”
+
+Itsuki took the schedule from her.
+
+“Your decorations are missing a materials list.”
+
+Riko blinked.
+
+Then she snatched the paper back.
+
+“That's classified.”
+
+“It's blank.”
+
+“Classified blank.”
+
+The preparations continued.
+
+By the end of May, the class had chosen its colour scheme, submitted the activity plan, and received approval from the teacher in charge. The café would use a simple menu, the display would feature photographs of Hoshimiya, and the game corner would have a ring toss and a small prize table.
+
+Riko's cardboard mascot had been rejected.
+
+She claimed this was censorship.
+
+Itsuki considered it an improvement.
+
+One afternoon, as they were packing the display materials, Emi asked Itsuki to take a folder to the committee office.
+
+“It's just the updated schedule,” she said. “Could you hand it to Fujisaki from 3-A? She's helping coordinate the shared equipment list.”
+
+Itsuki looked at the folder.
+
+“Why me?”
+
+“Because you're going that way.”
+
+He was not.
+
+But the committee office was on the same floor as the library, and arguing would take longer than walking.
+
+He took the folder.
+
+The office door was open. Akari stood beside a table covered with forms and supply lists. Two other students were comparing the number of extension cords needed for the classrooms.
+
+“Excuse me,” Itsuki said.
+
+Akari turned.
+
+“Oh, hello.”
+
+He held out the folder.
+
+“From 3-B. The updated schedule.”
+
+“Thank you.”
+
+She accepted it and opened the cover.
+
+“Emi sent this?”
+
+“Yeah.”
+
+Akari checked the first page, then nodded.
+
+“That's much clearer. The previous version had two classes listed for the same storage room.”
+
+“That's probably why she changed it.”
+
+“Could you tell her thanks?”
+
+“Sure.”
+
+Akari looked up.
+
+“Kurose, right?”
+
+He nodded.
+
+“Thanks for bringing it over.”
+
+“No problem.”
+
+He left.
+
+It was the second time they had spoken for more than a few words. Neither of them seemed to think that made it important.
+
+Outside the office, the corridor was crowded with students carrying supplies. Itsuki moved aside to let a group pass.
+
+A familiar voice called his name.
+
+“Hey.”
+
+Mio Kanzaki stood near the library entrance, holding two books against her chest. Her long midnight-blue hair fell over one shoulder. She gave a small nod.
+
+Itsuki nodded back.
+
+“Hi.”
+
+She walked past him toward the office.
+
+That was all.
+
+The school year continued.
+
+---
+
+# Chapter Ten — Before the Doors Open
+
+The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
+
+By Thursday, the classrooms were warm before the first lesson. Students opened the windows, then complained when the wind carried in dust from the sports field. The school had placed extra water dispensers near the gym, and teachers reminded everyone to take breaks during festival preparation.
+
+Itsuki's class had been assigned the old home-economics room for storage. The room contained folding tables, spare chairs, and a collection of items that nobody had used in years. A faded poster about food hygiene still hung beside the sink.
+
+Riko stood in the doorway, looking around.
+
+“It's perfect.”
+
+“It's dusty.”
+
+“Perfectly dusty.”
+
+“That's not a feature.”
+
+She walked toward a stack of cardboard boxes.
+
+“Where do you want these?”
+
+“Not there.”
+
+“Helpful.”
+
+“Near the wall. The shelves are unstable.”
+
+Riko looked at the shelves.
+
+“They seem fine.”
+
+“Last year, one of them tilted.”
+
+“Did it fall?”
+
+“No.”
+
+“Then it was successful.”
+
+Itsuki moved the boxes himself.
+
+They had spent the morning preparing the class display. Ayane was checking the photograph captions. Emi was updating the equipment schedule. Riko was decorating the café signs with coloured paper. Itsuki had been asked to make a list of supplies and confirm that the class had enough extension cords, tape, and tablecloths.
+
+It was not difficult work.
+
+It was, however, the kind of work that became more complicated when several people tried to do it at once.
+
+“Where's the blue tape?” Emi asked.
+
+“On the table,” Itsuki said.
+
+“That's green.”
+
+“Then the blue tape is not on the table.”
+
+Riko held up a roll.
+
+“Found it.”
+
+“Where was it?”
+
+“Under the table.”
+
+Itsuki looked at her.
+
+She smiled.
+
+He returned to the list.
+
+At lunch, Ayane brought over a tray of sandwiches from the staff room. The teacher supervising the festival had asked the class to eat before the afternoon preparation period began.
+
+“There's enough for everyone,” she said.
+
+Riko took one.
+
+“Fujimoto, you're saving our lives.”
+
+“It's just lunch.”
+
+“Exactly. The foundation of civilisation.”
+
+Itsuki took a sandwich.
+
+Ayane sat beside Emi and began talking about the display. She had found a photograph of the river path taken in early spring. The image showed the water reflecting the pale sky, with a row of bicycles parked along the embankment.
+
+“Maybe we should put this near the entrance,” she said. “It's one of the places people recognise.”
+
+Emi nodded.
+
+“Good idea.”
+
+Riko leaned over the photograph.
+
+“Can we put a monster in the river?”
+
+“No,” Itsuki said.
+
+“You haven't heard the concept.”
+
+“I've heard enough.”
+
+Ayane laughed.
+
+The afternoon was busier. Students from other classes moved through the corridor carrying decorations and equipment. The festival committee had placed signs near the stairs to direct people toward the correct rooms. A teacher reminded everyone not to block the emergency exits.
+
+Akari appeared in the doorway shortly after two.
+
+She was carrying a clipboard and speaking to another student. Her class was preparing a café as well, though with a different theme. The two classes shared a storage area for some of the tables and display boards.
+
+“Sorry to interrupt,” she said. “Has anyone seen the spare folding sign stands?”
+
+Itsuki checked the supply list.
+
+“We have two in the storage room.”
+
+“Are they available?”
+
+“I think so. They're not assigned to our class.”
+
+Akari looked relieved.
+
+“Could I borrow them for a few hours? We need to put the menu boards near the entrance.”
+
+“Ask Emi,” Itsuki said. “She's handling the schedule.”
+
+“Right. Thank you.”
+
+Emi came over and confirmed that the stands were free. Akari thanked her, then asked two students to help carry them.
+
+Before leaving, she glanced at the class display.
+
+“These photographs look nice.”
+
+Ayane smiled.
+
+“Thanks. They're from around Hoshimiya.”
+
+“I like the river one.”
+
+“That's my favourite too.”
+
+Akari leaned closer to look at the caption.
+
+“It's strange how familiar places look different in photographs.”
+
+Ayane nodded.
+
+“Sometimes you notice things you usually walk past.”
+
+Akari smiled.
+
+“That's a good way to put it.”
+
+She left with the sign stands.
+
+Riko watched her go.
+
+“She's nice.”
+
+“You said that already,” Itsuki replied.
+
+“I can say it twice.”
+
+“You can say anything twice.”
+
+“That's the spirit.”
+
+The final preparations continued into the evening. The class tested the lights, arranged the tables, and placed the display board near the entrance. Itsuki checked the extension cords and marked their locations on the schedule. Riko taped a paper lantern to the wall, stepped back, and decided it was crooked.
+
+“It is crooked,” Itsuki said.
+
+“I know.”
+
+“Then fix it.”
+
+“I'm evaluating.”
+
+“From that angle?”
+
+“Art requires perspective.”
+
+He reached up and straightened it.
+
+Riko looked offended.
+
+“You've ruined the process.”
+
+“The lantern is straight.”
+
+“That's not the point.”
+
+By the time they finished, the classroom looked different. The desks had been moved to the sides. The café counter stood near the back wall, and the local photographs formed a line along the entrance. The game corner occupied the far side, with a ring toss and a small table of prizes.
+
+The cardboard mascot had not returned.
+
+Riko had placed a tiny paper version beside the prize table.
+
+Itsuki decided not to comment.
+
+At the end of the day, the teacher in charge reminded them to arrive early the next morning. The festival would open at ten. Students were to wear their class shirts, keep the corridors clear, and report any problems to the committee.
+
+“Get enough sleep,” she said. “Tomorrow will be busy.”
+
+Riko raised a hand.
+
+“What if we get too much sleep and miss it?”
+
+“Then I will call your parents.”
+
+Riko lowered her hand.
+
+“Understood.”
+
+Itsuki packed his bag.
+
+Outside, the sky had turned a deep blue. The air smelled of warm pavement and the faint sweetness of the trees along the road. Students were leaving in groups, talking about their plans for the next day.
+
+Riko walked beside him to the gate.
+
+“Are you excited?”
+
+“About what?”
+
+“The festival.”
+
+“It's a school event.”
+
+“That's not an answer.”
+
+“It's the answer I have.”
+
+She smiled.
+
+“You really don't know how to enjoy anything in advance.”
+
+“I'll enjoy it when it's over.”
+
+“That's a terrible attitude.”
+
+“It's efficient.”
+
+Riko shook her head.
+
+At the gate, they separated. She headed toward the bus stop, and Itsuki walked to the station.
+
+His phone buzzed.
+
+A message from Nanami.
+
+*Are you going to the festival tomorrow?*
+
+He typed back.
+
+*I have to help with the class booth.*
+
+*Then I'll come.*
+
+*You have your own school.*
+
+*It's Saturday.*
+
+*You still have things to do.*
+
+*I can do them later.*
+
+He considered replying, then put the phone away.
+
+A second message arrived.
+
+*I'll bring Yui if she's free.*
+
+Itsuki looked at the screen.
+
+*Don't make me responsible for your friends.*
+
+*You're already responsible for me.*
+
+He sighed.
+
+That was not a legally recognised arrangement.
+
+At home, he set his alarm for the next morning and placed his festival shirt over the back of a chair. He checked the schedule one last time, then left it on the table.
+
+The day ahead was likely to be loud.
+
+There would be visitors, questions, misplaced supplies, and Riko.
+
+He turned off the light.
+
+For once, he hoped the weather would stay clear.
+
