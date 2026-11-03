@@ -7759,3 +7759,196 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
+
+
+# Side Scene — The River After School
+
+Nanami suggested the walk on a Thursday.
+
+Itsuki had been on his way home when she called and asked whether he was near the east station. He was two stops away.
+
+“Why?”
+
+“Because I'm here.”
+
+“That explains where you are.”
+
+“Can you come?”
+
+He looked at the train display.
+
+“I'm on my way home.”
+
+“Your home isn't going anywhere.”
+
+“Neither is the station.”
+
+“Please?”
+
+He sighed.
+
+“Ten minutes.”
+
+She was waiting beside the river path when he arrived. Her school bag rested against the railing, and she was holding a paper cup from the bakery near the crossing.
+
+“You came.”
+
+“You sounded like you had a reason.”
+
+“I do.”
+
+She handed him a second cup.
+
+Itsuki looked inside.
+
+“Tea?”
+
+“It's warm.”
+
+“It's June.”
+
+“It's not that warm.”
+
+He took it anyway.
+
+They walked along the path beside the river. The water moved slowly beneath the bridge, reflecting the buildings and the pale afternoon sky. A cyclist passed them, followed by a woman walking a small dog. The dog stopped to inspect a fallen leaf.
+
+Nanami watched it.
+
+“That's a serious investigation.”
+
+“Maybe it found something.”
+
+“Like what?”
+
+“A leaf.”
+
+She laughed.
+
+They walked a little farther.
+
+Nanami told him about the library project. The reading corner had been set up, and the younger students had liked the picture books. Yui's paper cat had become the most popular part of the display.
+
+“Of course it did,” Itsuki said.
+
+“She named it.”
+
+“Cat?”
+
+“Professor Whiskers.”
+
+“That's worse.”
+
+“It's better.”
+
+“It's longer.”
+
+Nanami smiled.
+
+They stopped near the bridge. The school buildings were visible beyond the trees, and a train moved along the elevated track in the distance.
+
+“Yui wants to join the art club next term,” Nanami said. “I might help with the library committee again.”
+
+“Sounds good.”
+
+“I like having something to do.”
+
+“Then keep doing it.”
+
+She looked at him.
+
+“That's your advice?”
+
+“It's practical.”
+
+“Very inspiring.”
+
+“I try.”
+
+Nanami leaned against the railing.
+
+“Do you ever wish you went to my school?”
+
+“No.”
+
+“Not even a little?”
+
+“I'd have to learn a new timetable.”
+
+“You'd survive.”
+
+“That's not the point.”
+
+She smiled.
+
+A breeze moved through the trees.
+
+For a moment, they watched the river without speaking.
+
+Then Nanami said, “I'm glad you have your apartment.”
+
+Itsuki glanced at her.
+
+“Why?”
+
+“Because you seem comfortable there.”
+
+He looked toward the path.
+
+“It's quiet.”
+
+“I know.”
+
+She took a sip from her cup.
+
+“Sometimes I like coming over because it's quiet too.”
+
+“You can come whenever you want.”
+
+“I know.”
+
+“And you don't have to ask every time.”
+
+“I know that too.”
+
+Nanami turned toward him.
+
+“Then why do you keep saying it?”
+
+“Because you keep asking.”
+
+She laughed.
+
+They started walking again.
+
+At the station, Nanami checked her phone.
+
+“Dad's waiting at home.”
+
+“Then go.”
+
+“I will.”
+
+She adjusted the strap of her bag.
+
+“Thanks for coming.”
+
+“Sure.”
+
+“Next time, we'll walk farther.”
+
+“Maybe.”
+
+“That's a yes.”
+
+“It's a realistic maybe.”
+
+Nanami shook her head and headed toward the ticket gate.
+
+Itsuki watched until she disappeared into the crowd.
+
+Then he took the train home.
+
+The tea had gone lukewarm.
+
+He finished it anyway.
