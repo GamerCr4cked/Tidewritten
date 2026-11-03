@@ -6042,3 +6042,531 @@ But there was now someone asking a different question.
 
 And for the first time since the festival, Itsuki thought that perhaps he should answer it.
 
+
+
+# Interlude VIII — The Answer in the Margin
+
+Riko arrived at the library with a workbook and an expression of deep suspicion.
+
+Itsuki looked up from his notes.
+
+“What's wrong?”
+
+“Everything.”
+
+“Specific.”
+
+She dropped into the chair opposite him and placed the workbook on the table.
+
+“I need help.”
+
+Itsuki looked at the cover.
+
+“Mathematics?”
+
+“Don't say it like that.”
+
+“Like what?”
+
+“Like you're announcing a diagnosis.”
+
+He closed his notebook.
+
+“Which question?”
+
+Riko opened the workbook to a page marked with two sticky notes. Several problems had been attempted. Some had been crossed out. One had a small drawing of a skull beside it.
+
+“Question seven.”
+
+He read it.
+
+“It's not difficult.”
+
+Riko leaned back.
+
+“That's a cruel thing to say to someone asking for help.”
+
+“I didn't say it was easy.”
+
+“You said it wasn't difficult.”
+
+“Those are different.”
+
+“Not to me.”
+
+Itsuki turned the workbook toward himself.
+
+“First, what do you know?”
+
+“Very little.”
+
+“That's not useful.”
+
+“Then ask a better question.”
+
+He pointed to the first line.
+
+“What's the value they're asking you to find?”
+
+Riko read it.
+
+“The missing angle.”
+
+“Good. What information do they give you?”
+
+She scanned the diagram.
+
+“Two angles.”
+
+“And?”
+
+“A triangle.”
+
+“That's a start.”
+
+“It's a very triangular triangle.”
+
+He waited.
+
+Riko sighed and looked at the diagram again.
+
+“The angles add up to one hundred and eighty degrees.”
+
+“Right. So what do you do?”
+
+“Subtract the two we know.”
+
+“Exactly.”
+
+She wrote the equation.
+
+For a few minutes, the table was quiet. Riko worked through the numbers, stopping twice to check the diagram. Her first answer was wrong because she had copied one value incorrectly. The second was right.
+
+She looked at the page.
+
+“That's it?”
+
+“That's it.”
+
+“That's annoyingly simple.”
+
+“Most of the question is noticing what information matters.”
+
+Riko tapped the pencil against the workbook.
+
+“I hate when the answer is obvious after someone explains it.”
+
+“Then remember the explanation.”
+
+“That's even worse.”
+
+Itsuki returned the workbook.
+
+She did not close it.
+
+Instead, she turned to the next question.
+
+“Can you check this one too?”
+
+He nodded.
+
+They worked through three more problems. Riko made two mistakes, corrected one without help, and asked him to explain the other. Itsuki showed her where the diagram gave the necessary information.
+
+He did not solve every problem for her.
+
+That seemed to annoy her.
+
+It also seemed to help.
+
+When they finished, Riko closed the workbook.
+
+“I'm going to become a mathematician.”
+
+“That's unlikely.”
+
+“I'm going to become a mathematician who hates mathematics.”
+
+“More believable.”
+
+She smiled.
+
+“Thanks.”
+
+“Sure.”
+
+Riko packed her things, then paused.
+
+“Do you ever get tired of explaining things?”
+
+“Sometimes.”
+
+“Then why do it?”
+
+He considered the question.
+
+“Because you asked.”
+
+She looked at him for a moment.
+
+Then her usual grin returned.
+
+“That's almost nice.”
+
+“Don't tell anyone.”
+
+“Your secret is safe.”
+
+She stood and returned the workbook to her bag.
+
+At the door, she turned.
+
+“Same time next week?”
+
+“If I have time.”
+
+“Good. I'll assume yes.”
+
+“That's not what I said.”
+
+“It's close enough.”
+
+She left before he could correct her.
+
+Itsuki looked at the empty chair.
+
+He had planned to finish two pages of his own work.
+
+He had finished one.
+
+It was not an efficient afternoon.
+
+Still, Riko had left with a workbook she could actually use.
+
+He decided that was probably worth it.
+
+---
+
+# Interlude IX — Lunch on the Second Floor
+
+Ayane asked him on a Wednesday.
+
+“Would you like to have lunch together?”
+
+Itsuki looked up from his desk.
+
+Riko, who was sitting on the chair beside his, immediately became interested.
+
+“Together?” she repeated.
+
+Ayane glanced at her.
+
+“If that's okay.”
+
+“Of course,” Riko said. “I'm very supportive.”
+
+Itsuki looked at her.
+
+“You don't have to come.”
+
+“I wasn't invited.”
+
+“Then why are you answering?”
+
+“Because I'm supportive.”
+
+Ayane laughed.
+
+“Maybe another time, Riko.”
+
+Riko placed a hand over her heart.
+
+“Rejected by the committee.”
+
+Itsuki packed his lunch.
+
+Ayane waited near the classroom door. They went to the second-floor terrace, where a few students were eating beneath the shade of the overhang. The school had placed several benches there, but most were occupied.
+
+They found a quiet corner near the railing.
+
+The view was mostly rooftops and the sports field. A line of trees marked the edge of the school grounds. Beyond them, the station district rose in low buildings and signs.
+
+Ayane opened her lunch box.
+
+“I made too much rice.”
+
+“That's a common problem.”
+
+“Would you like some?”
+
+“I'm fine.”
+
+She smiled.
+
+“Still the same.”
+
+Itsuki looked at her.
+
+“Do you remember when we used to trade lunch?”
+
+“Sometimes.”
+
+“You always wanted the fried egg.”
+
+“You always wanted the pickled vegetables.”
+
+“Because you didn't like them.”
+
+“I didn't dislike them.”
+
+“You gave them to me every time.”
+
+“That was generosity.”
+
+Ayane laughed.
+
+The conversation moved more easily than it had during their first few days in the same class. They talked about teachers, classmates, and the new schedule. Ayane told him about a neighbourhood event her family helped organise. Itsuki told her about the library committee.
+
+“You chose the library?” she asked.
+
+“Yeah.”
+
+“That makes sense.”
+
+“Why?”
+
+“You always liked quiet places.”
+
+“I still do.”
+
+She nodded.
+
+“I thought so.”
+
+They ate for a while.
+
+A breeze moved across the terrace, lifting the corner of a napkin. Itsuki caught it before it fell.
+
+Ayane watched him.
+
+“You still notice small things.”
+
+“It's a napkin.”
+
+“You used to notice when I forgot things.”
+
+“You forgot things often.”
+
+“That's true.”
+
+She looked out toward the field.
+
+“I used to think you remembered everything.”
+
+“I don't.”
+
+“I know that now.”
+
+There was a small pause.
+
+Ayane closed her lunch box.
+
+“I don't want us to only talk about the past,” she said. “I like remembering it. But I don't want to make you feel like you have to be the person you were when we were children.”
+
+Itsuki looked at her.
+
+“I'm not.”
+
+“I know.”
+
+She smiled.
+
+“That's why I wanted to have lunch.”
+
+He considered that.
+
+“Then we can do it again.”
+
+Ayane's expression brightened.
+
+“Really?”
+
+“Unless you change your mind.”
+
+“I won't.”
+
+The bell rang.
+
+They gathered their things and returned to class.
+
+At the door, Ayane said, “Thanks for lunch.”
+
+“You brought your own.”
+
+“I meant the company.”
+
+Itsuki nodded.
+
+“Sure.”
+
+She went to her seat.
+
+Riko leaned over the back of her chair as he passed.
+
+“Supportive committee approves.”
+
+“Go to class.”
+
+“I'm already in class.”
+
+“Then be quiet.”
+
+Riko grinned.
+
+The afternoon lesson began.
+
+Itsuki opened his notebook.
+
+He had not expected lunch to feel different.
+
+It had not been especially exciting. They had eaten, talked, and returned to class.
+
+But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
+
+# Interlude X — A Room Full of Names
+
+Akari liked the festival committee room.
+
+It was crowded, usually too warm, and full of people who needed something. Someone was always looking for a form, a supply list, or a teacher who had apparently disappeared at the exact moment they were needed.
+
+She liked being useful.
+
+She also liked being the person people waved to when they entered.
+
+“Akari, can you check this?”
+
+She looked up from the clipboard.
+
+“Sure.”
+
+Saki placed a printed menu beside her.
+
+“We changed the drink prices. Does this look better?”
+
+Akari checked the numbers.
+
+“Yes. That's clearer.”
+
+“Good.”
+
+Saki pulled out a chair.
+
+“You've been here every day this week.”
+
+“So have you.”
+
+“I have an excuse. I'm in charge of the decorations.”
+
+“And I'm helping with the shared equipment.”
+
+“That's not an excuse. That's a trap.”
+
+Akari laughed.
+
+A student from another class appeared at the door.
+
+“Fujisaki, do you know if the committee has approved the extra table?”
+
+“I'll check.”
+
+“Thanks.”
+
+The student left.
+
+Saki watched Akari write a note.
+
+“You know you can say no.”
+
+Akari looked up.
+
+“I know.”
+
+“Do you?”
+
+“Yes.”
+
+Saki gave her a doubtful expression.
+
+Akari smiled.
+
+“I like helping.”
+
+“I know that too.”
+
+“Then what's the problem?”
+
+“Nothing. I just don't want you to end up doing everyone else's work.”
+
+Akari looked at the clipboard.
+
+She had written down six tasks that did not technically belong to her. She had also agreed to help two classmates after school and promised to check the equipment list before the weekend.
+
+It was a lot.
+
+But she liked the people asking.
+
+She liked knowing that someone could rely on her.
+
+“It's fine,” she said.
+
+Saki did not argue.
+
+Instead, she reached over and took the clipboard.
+
+“Then I'll handle the table request.”
+
+Akari blinked.
+
+“You don't have to.”
+
+“I know.”
+
+Saki smiled.
+
+“That's why I'm doing it.”
+
+Akari laughed.
+
+They finished the menu list together.
+
+When the committee room began to empty, Akari packed her things and checked her phone. Her mother had sent a message asking whether she would be home for dinner. Akari replied that she would.
+
+She looked at the time.
+
+There was still enough time to visit the library.
+
+The English passage was waiting.
+
+She did not want to think about it.
+
+She went anyway.
+
+At the library, she chose the table near the reference shelves. She read the same paragraph three times and still could not decide which sentence supported the answer.
+
+She wrote a note in the margin.
+
+*Read the question first.*
+
+Then she underlined it.
+
+She had heard that advice before.
+
+It had not become easier just because she knew it.
+
+Akari took a breath and started again.
+
+The answer was there somewhere.
+
+She only had to find it.
+
