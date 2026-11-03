@@ -4711,3 +4711,333 @@ She would understand it eventually.
 
 She always did, if she kept trying.
 
+
+
+# Interlude III — The Joke That Lands
+
+Riko Tachibana was a well-behaved daughter.
+
+At home, she put her shoes away properly, greeted her parents, washed her hands before dinner, and answered questions without making a performance out of it.
+
+Her school friends would have found the information difficult to believe.
+
+She arrived home at 6:12 p.m. and placed her bag beside the cabinet.
+
+“I'm home.”
+
+“Welcome back,” her mother called from the kitchen. “Dinner will be ready soon.”
+
+Riko changed into house clothes and washed her hands. When she returned, her father was at the dining table reading through a document. He looked up.
+
+“How was school?”
+
+“Fine.”
+
+“Any tests?”
+
+“English and mathematics.”
+
+“How did they go?”
+
+“English was fine.”
+
+“And mathematics?”
+
+Riko took a glass from the cupboard.
+
+“Mathematics happened.”
+
+Her father lowered the document.
+
+“That doesn't tell me anything.”
+
+“It tells you the subject was present.”
+
+Her mother glanced toward them from the kitchen.
+
+“Riko.”
+
+“Sorry.”
+
+She sat down.
+
+Her father did not sound angry. He rarely raised his voice. He simply wanted to know what she was doing, whether she was keeping up, and whether she had thought about the next step after graduation. The questions were reasonable.
+
+They were also frequent.
+
+Riko took out the test paper from her bag.
+
+Her score was not disastrous. It was not good, either. She had understood most of the questions, but had lost marks through careless mistakes and two problems she had abandoned halfway through.
+
+Her father read it.
+
+“You can do better than this.”
+
+“I know.”
+
+“Then you need to spend more time on it.”
+
+“I will.”
+
+He returned the paper.
+
+“Let's make a study schedule for next week.”
+
+Riko nodded.
+
+Her mother set dinner on the table. The conversation moved to groceries, a relative's visit, and whether the family needed to replace the rice cooker. Riko listened and answered when asked. She helped clear the dishes after dinner and wiped the table.
+
+Later, she sat at her desk.
+
+Her room was neat. The textbooks were arranged by subject. A small calendar hung beside the desk, with school deadlines marked in different colours. She opened the mathematics workbook and began with the first question.
+
+The first few went well.
+
+Then she reached a problem that required three steps.
+
+She read it twice.
+
+The answer did not come.
+
+Riko tapped her pencil against the page.
+
+At school, she could make a joke when she did not understand something. She could turn a wrong answer into a performance, make the people around her laugh, and move on before anyone had time to look too closely.
+
+At home, she could not do that.
+
+She had to sit with the problem.
+
+She tried again.
+
+The second attempt was wrong.
+
+She erased it.
+
+The third attempt was closer.
+
+Her phone lit up beside the workbook.
+
+A message from Itsuki.
+
+*You left your worksheet in the classroom.*
+
+Riko looked at the screen.
+
+She typed:
+
+*Keep it. It's a historical document.*
+
+His reply came a minute later.
+
+*It's folded in half.*
+
+*Preservation damage.*
+
+*I'll put it on your desk tomorrow.*
+
+She smiled.
+
+*Thanks.*
+
+Then, after a moment, she added:
+
+*Did you understand question fourteen?*
+
+His answer arrived quickly.
+
+*Yes.*
+
+She stared at the word.
+
+Then she typed:
+
+*I hate you.*
+
+*That's not a question.*
+
+Riko laughed quietly.
+
+Her mother called from the hallway.
+
+“Everything okay?”
+
+“Yes.”
+
+“Don't stay up too late.”
+
+“I won't.”
+
+She returned to the workbook.
+
+The problem still looked unpleasant.
+
+But she tried it once more.
+
+***
+
+At school the next morning, Riko arrived with the worksheet completed.
+
+Itsuki looked at it when she placed it on his desk.
+
+“You did it.”
+
+“Unfortunately.”
+
+“Question fourteen?”
+
+“Especially question fourteen.”
+
+He checked the working.
+
+“You used the wrong sign here.”
+
+Riko leaned over.
+
+“It's decorative.”
+
+“Again?”
+
+“It's a recurring design choice.”
+
+He pointed to the next line.
+
+“You got the answer right anyway.”
+
+“See? Artistic freedom.”
+
+“Don't tell the teacher.”
+
+She grinned.
+
+Itsuki returned the paper.
+
+Riko took it and slid into her seat.
+
+The joke had landed.
+
+The work was still hers.
+
+---
+
+# Interlude IV — A Page Out of Order
+
+Mio Kanzaki liked small mysteries.
+
+Not the kind that required a detective agency or a dramatic confession. She preferred the ordinary ones: a book returned to the wrong shelf, a classroom window left open when everyone remembered closing it, a familiar umbrella that appeared in the lost-property box twice in one week.
+
+Most of the time, the answer was simple.
+
+That was part of the appeal.
+
+On a Wednesday afternoon, she found a library book on the return cart with a bookmark sticking out from the middle.
+
+The bookmark was a narrow strip of pale green paper. Someone had written a date on it.
+
+April 18.
+
+Mio checked the borrowing label.
+
+The book had been returned two days late.
+
+She looked toward the library desk.
+
+“Did someone leave this?”
+
+The librarian glanced over.
+
+“Probably. You can put it in the lost-property tray.”
+
+Mio took the bookmark out and examined it.
+
+There was no name.
+
+She placed it beside the book and returned both to the desk.
+
+The next afternoon, the bookmark was gone.
+
+The book was still on the shelf.
+
+Mio noticed because she remembered the green paper.
+
+She checked the return cart. Nothing.
+
+Then she looked at the desk, where a small envelope had appeared beside the librarian's stamp.
+
+The envelope was pale green.
+
+Mio stared at it for a moment.
+
+She had an idea.
+
+She asked the librarian whether anyone had come looking for a lost bookmark.
+
+“A student from 2-A, I think,” the librarian said. “She left it in a book and came back yesterday.”
+
+Mio nodded.
+
+The mystery was solved.
+
+It was also less interesting than she had hoped.
+
+She returned to her seat near the window.
+
+Her phone vibrated.
+
+A message from her mother.
+
+*Your father and I will be late again. Dinner is in the refrigerator. There's fruit on the counter. Please remember to lock the balcony door.*
+
+Mio replied:
+
+*Okay. Have a good evening.*
+
+A second message arrived.
+
+*How was school?*
+
+Mio looked at the empty page in her notebook.
+
+*Normal. I found a lost bookmark.*
+
+Her mother sent a smiling face.
+
+*Good detective work.*
+
+Mio smiled faintly and put the phone away.
+
+Her parents were often busy. Their work schedules did not always match, and there were weeks when dinner was a matter of leaving food in the refrigerator and sending a message. They still asked about her day. They remembered her favourite tea. Her father had recently repaired the loose hinge on her desk drawer without being asked.
+
+She did not think of them as uncaring.
+
+She simply had a lot of time to herself.
+
+Sometimes that time became reading.
+
+Sometimes it became observation.
+
+Sometimes it became a puzzle.
+
+She opened her notebook and wrote:
+
+*The person who left the bookmark returned for it.*
+
+Then she crossed out the sentence.
+
+It was not a useful mystery.
+
+Outside, the badminton club was packing away its equipment. A student stood near the gate, looking through her bag. Another approached and held out a folded umbrella.
+
+Mio watched them.
+
+She thought the first student had forgotten the umbrella.
+
+Then the second student said something, and the first shook her head. They both laughed.
+
+Mio looked away.
+
+She had been wrong.
+
+It happened more often than people thought.
+
+That was why she liked asking questions.
+
