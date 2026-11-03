@@ -90,6 +90,8 @@ Itsuki closed the door.
 
 The apartment was modest: a narrow entrance, a compact kitchen, a living space barely large enough for a low table and two people to sit comfortably, and a separate sleeping area divided by a sliding partition. It was clean because Itsuki disliked searching for things more than he disliked cleaning. A drying rack stood near the balcony door. Two mugs were upside down beside the sink. A school timetable was pinned to the refrigerator with a magnet shaped like a blue fish.
 
+His mother had arranged the apartment with his agreement and covered the rent and basic household costs. His allowance was meant for groceries, transport, and ordinary expenses; he handled the cooking, cleaning, laundry, and the small decisions that made the place his. It was independence with a safety net, which he considered a reasonable arrangement.
+
 Nanami glanced around.
 
 “You cleaned.”
@@ -3767,6 +3769,8 @@ Itsuki adjusted his grip.
 
 They placed the crate in the back seat.
 
+Earlier that term, their father had quietly covered the cost of a set of school reference books Itsuki needed. He had told him to treat it as help, not a debt, and had not brought it up again. Itsuki remembered that more clearly than the amount.
+
 Their father looked at him.
 
 “How is school?”
@@ -6100,6 +6104,10 @@ One student zoomed in.
 
 The phone changed hands.
 
+A third student, Nao, had been waiting near the side hall for a friend. She had not seen the board or the crowd. She had only heard Akari say “Thank you” in a quiet voice, then turned to see her standing beside a boy from another class. Later, when she repeated the moment, she described the tone as private. She did not mean to imply anything. The people listening supplied the implication themselves.
+
+Another student remembered seeing Itsuki carry the display board, but had not seen Akari lose her footing or ask him to keep the incident quiet. Hina's photograph showed the two of them leaving the corridor. Three fragments, none of them false, were already becoming one story.
+
 By the time the two students reached the gym, the photograph had been shown to three more people.
 
 None of them had seen the trolley.
@@ -8017,3 +8025,145 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
+
+
+# Side Scene — The Futon by the Window
+
+Nanami stayed over on the second Saturday of June.
+
+She had told her father in advance, brought a change of clothes, and arrived with a bag that looked large enough for a week.
+
+Itsuki opened the door.
+
+“Are you moving in?”
+
+“No.”
+
+“That's disappointing. I was going to rent the cupboard.”
+
+She stepped inside and removed her shoes.
+
+“You don't have a cupboard big enough for my things.”
+
+“I have a drawer.”
+
+“That's worse.”
+
+He took the bag from her and placed it beside the sofa.
+
+Nanami looked around the apartment.
+
+“Did you clean?”
+
+“I live here.”
+
+“That's not an answer.”
+
+“It's the one I have.”
+
+She smiled.
+
+They spent the afternoon doing ordinary things. Nanami worked on her school notes at the low table. Itsuki cooked rice and warmed the leftovers from the previous evening. They watched half of a variety show while eating, mostly because Nanami wanted to see whether a comedian could finish a challenge without dropping the food.
+
+He could not.
+
+Nanami declared the result predictable.
+
+After dinner, she checked her phone and sent a message to her father.
+
+*I'm staying at Itsuki's tonight. I'll be home tomorrow after lunch.*
+
+A reply arrived a few minutes later.
+
+*All right. Tell him I said hello. Don't forget your project folder.*
+
+Nanami showed Itsuki the message.
+
+“He says hello.”
+
+“Hello.”
+
+“He can't hear you.”
+
+“Then the message has been delivered.”
+
+She shook her head.
+
+Itsuki opened the closet and took out the spare futon. He spread it on the floor in the separate sleeping area, leaving enough room for the sliding partition to close. Nanami placed her folded clothes beside it.
+
+“You can use the pillow from the top shelf,” he said.
+
+“I know.”
+
+“Blanket's in the blue cover.”
+
+“I know.”
+
+“Don't leave the window open all night.”
+
+Nanami looked at him.
+
+“Are you finished?”
+
+“Probably.”
+
+“Good.”
+
+She sat on the futon and tested the pillow.
+
+“It's comfortable.”
+
+“It's a futon.”
+
+“That's not a review.”
+
+“It's the one I have.”
+
+She laughed.
+
+Later, when the television was off and the apartment had settled into its night-time quiet, Nanami stood near the balcony door.
+
+“It's nice here,” she said.
+
+“It's the same as yesterday.”
+
+“I know.”
+
+She looked out at the lights along the street.
+
+“Sometimes I like having a place where nothing changes for a little while.”
+
+Itsuki leaned against the kitchen counter.
+
+“You can come here when you want.”
+
+“I know.”
+
+“And you don't have to bring half your room.”
+
+“I didn't.”
+
+He looked at the bag.
+
+She followed his gaze.
+
+“It's a small bag.”
+
+“It's larger than the rice cooker.”
+
+“Your rice cooker is tiny.”
+
+“It's efficient.”
+
+Nanami smiled.
+
+She went to bed a little later, on the separate futon, with the sliding partition partly closed. Itsuki turned off the living-room light and checked the door lock.
+
+The apartment was quiet.
+
+He could hear Nanami turning a page in her book.
+
+It was an ordinary sound.
+
+He went to bed.
+
