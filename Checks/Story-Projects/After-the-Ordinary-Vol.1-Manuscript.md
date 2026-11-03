@@ -5127,3 +5127,440 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
+
+
+# Interlude V — The House He Doesn't Live In
+
+The envelope arrived on a Thursday.
+
+Itsuki found it in the mailbox downstairs, tucked between a supermarket flyer and a notice about the building's water inspection. His name was written on the front in his mother's handwriting.
+
+Inside was a school document he had forgotten to ask her to sign.
+
+There was also a note.
+
+*If you have time, come by this weekend. I made too much curry.*
+
+Itsuki read it twice.
+
+He could have signed the document himself. The form required a guardian's confirmation, not a special ceremony. He could also have asked his mother to meet him at the station.
+
+Instead, he sent a message.
+
+*I'll come by Saturday to pick it up.*
+
+Her reply arrived a few minutes later.
+
+*I'll be here.*
+
+The house looked the same when he arrived.
+
+The entryway was clean. A pair of shoes stood beside the cabinet, aligned with the wall. The living room curtains were open, and a small plant sat near the window. Itsuki could hear the television from the kitchen.
+
+His mother opened the door.
+
+“Thank you for coming.”
+
+“I needed the form.”
+
+“I know. Come in.”
+
+He removed his shoes and placed them beside the cabinet.
+
+His stepfather appeared from the living room.
+
+“Itsuki. Good to see you.”
+
+“Hello.”
+
+The man wore a pale shirt with the sleeves rolled to his elbows. He had been working at home, judging by the laptop on the table and the documents stacked beside it.
+
+“Would you like something to drink?”
+
+“No, thank you.”
+
+“There's tea.”
+
+“I'm fine.”
+
+The man nodded. He did not insist.
+
+His mother brought the envelope from the kitchen and handed it over.
+
+“I signed it. You only need to return it to school.”
+
+“Thanks.”
+
+“Have you eaten?”
+
+“Not yet.”
+
+“Then stay for lunch.”
+
+Itsuki glanced toward the kitchen.
+
+“I have food at home.”
+
+“You can eat here too.”
+
+“I don't want to trouble you.”
+
+His mother looked as if she wanted to say something else. The third husband spoke first.
+
+“There's enough for everyone. But if you have plans, that's fine.”
+
+Itsuki nodded.
+
+“Thank you.”
+
+He did not stay.
+
+At the door, his mother touched his sleeve.
+
+“You can come over whenever you want.”
+
+“I know.”
+
+“I mean it.”
+
+“I know.”
+
+She let go.
+
+The third husband stood a little behind her.
+
+“Take care on the way back.”
+
+“I will.”
+
+Outside, the air was cool. Itsuki walked toward the station with the signed form inside his bag.
+
+He did not dislike the house because it was unpleasant.
+
+That was the difficult part.
+
+The third husband was polite. He made an effort. He did not shout or demand that Itsuki call him anything. He simply kept trying to make the place feel like a home they all shared.
+
+Itsuki did not want that.
+
+He could be civil without pretending otherwise.
+
+At the crossing, his phone vibrated.
+
+A message from his mother.
+
+*I'm glad you came.*
+
+Itsuki looked at the screen for a moment.
+
+Then he typed:
+
+*Thanks for signing the form.*
+
+He put the phone away and waited for the light to change.
+
+---
+
+# Interlude VI — A Book for the Other School
+
+The old library near the east station had a blue sign and a narrow entrance.
+
+Nanami remembered the place as larger than it looked now. When she was younger, she had spent entire afternoons there with her father, choosing picture books and sitting at a low table near the window. The children's section had been moved to the back, but the shelves were still arranged in the same order.
+
+Itsuki arrived a few minutes after she did.
+
+“You're late,” Nanami said.
+
+“I'm on time.”
+
+“Dad's been here for ten minutes.”
+
+“Then I'm ten minutes late for Dad.”
+
+Her father stood beside the entrance desk, holding a paper cup of coffee. He wore a dark jacket and carried a slim work bag. He looked composed, as usual, though his tie was loosened slightly.
+
+“It'suki,” he said.
+
+“Hello.”
+
+“Thank you for coming.”
+
+Nanami held up the folder.
+
+“We brought the request.”
+
+“Good. The librarian has already checked the list.”
+
+They spoke with the librarian for a few minutes. The school wanted to borrow a small collection of picture books and local-history books for the reading corner. The library could lend them, provided the school completed the forms and returned everything by the end of the term.
+
+Nanami asked several questions about the dates.
+
+Itsuki listened while their father checked the paperwork.
+
+“You've made a careful list,” he said to Nanami.
+
+“I had to. Yui keeps adding things.”
+
+“Is that the friend who draws?”
+
+“That's her.”
+
+“Then the display will probably look good.”
+
+Nanami smiled.
+
+After the paperwork was settled, the librarian led them to the children's section. Nanami moved along the shelves, checking titles against her list. Itsuki carried the empty crate. Their father helped the librarian identify which books were suitable for the younger students.
+
+At one point, Nanami found an old picture book she remembered.
+
+“This one.”
+
+Itsuki looked at the cover.
+
+A small illustration showed a train crossing a bridge beside a river.
+
+“You used to borrow that.”
+
+“I know.”
+
+“You made me read it.”
+
+“You liked it.”
+
+“I tolerated it.”
+
+“You asked for it twice.”
+
+“I was being polite.”
+
+Their father smiled.
+
+“I remember that. You both wanted the same book.”
+
+Nanami turned toward him.
+
+“See?”
+
+Itsuki lifted the crate.
+
+“Are we finished?”
+
+“Almost,” their father said.
+
+They checked out the books and carried them to the car. The crate was heavier than it looked. Itsuki took one side, their father the other.
+
+“You don't have to carry that,” the older man said.
+
+“It's fine.”
+
+“I know. I was only offering.”
+
+Itsuki adjusted his grip.
+
+They placed the crate in the back seat.
+
+Their father looked at him.
+
+“How is school?”
+
+“Normal.”
+
+“Are the classes difficult?”
+
+“Not particularly.”
+
+“Have you thought about what you might do after graduation?”
+
+“Not yet.”
+
+His father nodded.
+
+“You don't need to decide everything immediately. But it may help to look at a few options before the year gets busy.”
+
+“I know.”
+
+“Good.”
+
+There was no lecture. No comparison with other students. No suggestion that Itsuki owed him a plan.
+
+Nanami came out of the library carrying the folder.
+
+“Are you two finished having a serious conversation?”
+
+“We weren't having one,” Itsuki said.
+
+“That's what makes it serious.”
+
+Their father laughed.
+
+They went to a small restaurant near the station for lunch. Nanami ordered a set meal. Itsuki chose soba. Their father checked his phone once, replied to a message, and put it away.
+
+For most of the meal, they talked about Nanami's project.
+
+She explained the reading-corner layout and Yui's insistence on including a paper cat. Their father asked whether the school needed any additional materials. Nanami said they had enough.
+
+When lunch was over, he paid.
+
+“You don't have to,” Itsuki said.
+
+“I invited you.”
+
+“I can pay for mine.”
+
+“I know.”
+
+Their father looked at him calmly.
+
+“Let me this time.”
+
+Itsuki did not argue.
+
+At the station, Nanami hugged their father goodbye. Itsuki bowed his head.
+
+“Take care,” the older man said.
+
+“You too.”
+
+“I'll call next week.”
+
+“Okay.”
+
+Their father watched them walk toward the ticket gates.
+
+Nanami was quiet until they reached the platform.
+
+“He still worries about you.”
+
+“I know.”
+
+“He asks about you when I'm there.”
+
+“I know.”
+
+She looked at him.
+
+“You could visit more.”
+
+Itsuki watched the train display.
+
+“I'll see.”
+
+Nanami did not push.
+
+The train arrived.
+
+They got on together.
+
+---
+
+# Interlude VII — The Shape of an Explanation
+
+The study-support board was placed beside the classroom door.
+
+Itsuki had expected it to be a single sheet of paper.
+
+Instead, Mr. Hasegawa had given him a small section of the notice board and asked him to prepare an example that would help students understand how to answer reading questions.
+
+“You don't have to write a lesson,” the teacher had said. “Just show the steps you use.”
+
+Itsuki had spent twenty minutes deciding what those steps were.
+
+He eventually wrote four lines:
+
+1. Read the question first.
+2. Find the sentence that answers it.
+3. Check the sentence before and after.
+4. Explain the connection in your own words.
+
+Underneath, he added a short example from a passage about public transport.
+
+The board was not particularly attractive.
+
+Riko examined it during the break.
+
+“Very exciting.”
+
+“Thank you.”
+
+“Where's the mascot?”
+
+“Rejected.”
+
+“Oppression.”
+
+Emi stopped beside them.
+
+“I think it's helpful,” she said.
+
+“That's because you read it,” Riko replied.
+
+Emi ignored her and looked at the example.
+
+“I always forget to check the sentence before.”
+
+“That's where the context usually is,” Itsuki said.
+
+“Could you explain this part?”
+
+He pointed to the paragraph.
+
+“The question asks why the city changed the bus route. The answer isn't in one sentence. The first sentence gives the problem, and the next one explains the change. You need both.”
+
+Emi read it again.
+
+“Oh. I see.”
+
+Riko leaned over.
+
+“So the answer is that the bus was lonely?”
+
+“No,” Itsuki said.
+
+“That's what I got.”
+
+“Then you should read it again.”
+
+She made a face.
+
+Emi laughed.
+
+A few minutes later, Mr. Hasegawa came by to check the board.
+
+“Good work, Kurose.”
+
+“It's simple.”
+
+“Simple is useful.”
+
+The teacher looked at Emi.
+
+“Did it help?”
+
+“Yes. I understood the example.”
+
+“Good. That's what matters.”
+
+He moved on.
+
+Itsuki returned to his seat.
+
+Riko tapped the corner of the board.
+
+“You know, if you keep doing things like this, people might start asking you for help.”
+
+“That would be unfortunate.”
+
+“You could charge.”
+
+“Then nobody would ask.”
+
+“Exactly. A business plan.”
+
+Itsuki looked at the board.
+
+He had not thought of it as anything worth noticing. He had simply written down the steps he used when a passage became confusing.
+
+But if it helped someone else, that was fine.
+
+He put the marker back in the tray.
+
