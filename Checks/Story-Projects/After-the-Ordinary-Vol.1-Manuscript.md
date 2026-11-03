@@ -1392,3 +1392,319 @@ On the walk back to the station, he thought about the photographs. The children 
 He did not have an answer.
 
 The train arrived before he reached one.
+
+
+# Chapter Four — The Girl Everyone Seems to Know
+
+Akari Fujisaki arrived at school with three people talking to her.
+
+This was not unusual.
+
+Itsuki had seen her in the corridor before, usually surrounded by classmates or being stopped by someone who wanted to ask a question. She was easy to recognise even from a distance: long dark reddish-brown hair, a friendly smile, and the sort of relaxed posture that made it look as if she had never once worried about where to put her hands.
+
+He knew her name because everyone knew her name.
+
+That was not the same as knowing her.
+
+On Thursday morning, she stood near the shoe lockers, listening to a girl from another class explain something with great urgency. Akari nodded, asked a question, and laughed at the answer. When another student approached, she turned to include him in the conversation without making the first girl feel dismissed.
+
+It looked effortless.
+
+Itsuki suspected it wasn't.
+
+He changed his indoor shoes and headed upstairs.
+
+“Morning, Kurose.”
+
+The voice belonged to Miyake, who was carrying a sports bag over one shoulder.
+
+“Morning.”
+
+“You know Fujisaki?”
+
+Itsuki followed his glance toward the shoe lockers.
+
+“Not really.”
+
+“She's in 3-A, right? I heard she's helping with the welcome event.”
+
+“Maybe.”
+
+Miyake looked at him.
+
+“You don't know much.”
+
+“That's why I said maybe.”
+
+Miyake laughed and continued toward the stairs.
+
+Itsuki entered Class 3-B. Riko was already at her desk, drawing something in the margin of a worksheet.
+
+“Is that a cat?” he asked.
+
+“It's a teacher.”
+
+“Which one?”
+
+“I'm still deciding.”
+
+The drawing had pointed ears and a very displeased expression.
+
+Itsuki sat down.
+
+“Ambitious.”
+
+“Thank you.”
+
+The morning lessons passed without incident. During the break before lunch, the class representative announced that the student committee would be collecting suggestions for the spring welcome event. The event was a small school tradition for new first-year students: club displays, a guided tour, and a short performance in the gym.
+
+Riko raised her hand.
+
+“Can we suggest cancelling it?”
+
+“No,” the representative said.
+
+“Can we suggest cancelling the suggestion box?”
+
+“No.”
+
+“It's a hostile system.”
+
+Itsuki continued writing the date at the top of his notes.
+
+Across the courtyard, the welcome-event committee had gathered near the main entrance. Akari stood with two other students, holding a clipboard. She listened while one of them pointed toward the gym, then checked a list and made a note.
+
+A first-year student approached them, looking uncertain. Akari stepped forward and spoke to her. The girl relaxed almost immediately.
+
+Itsuki looked away.
+
+There was nothing particularly interesting about someone being kind to a nervous student. It was simply the sort of thing that happened at school.
+
+At lunch, Riko sat on the edge of his desk.
+
+“Do you have plans after school?”
+
+“Homework.”
+
+“That's not a plan.”
+
+“It's a scheduled activity.”
+
+“Come help me carry something.”
+
+“What?”
+
+“Something.”
+
+“Is it heavy?”
+
+“Probably.”
+
+“Then ask someone stronger.”
+
+“I'm asking someone more available.”
+
+“I'm not available.”
+
+Riko looked at his empty lunch box.
+
+“You're finished eating.”
+
+“That's unrelated.”
+
+She slid off the desk.
+
+“Fine. I'll ask Miyake.”
+
+“Good.”
+
+She walked away, then turned around.
+
+“Unless you're scared.”
+
+Itsuki looked at her.
+
+“Of carrying something?”
+
+“Of being useful.”
+
+“That's a serious accusation.”
+
+“I know.”
+
+He went after her.
+
+They ended up helping the class representative move a box of event leaflets from the staff room to the student committee office. It was not heavy. Riko had exaggerated, which was a common feature of her requests.
+
+The corridor outside the office was busy. Students passed carrying poster boards, stacks of paper, and a bundle of extension cords. A teacher asked them to keep the walkway clear.
+
+Akari came out of the office with a clipboard tucked under one arm.
+
+“Sorry—could you let me through?”
+
+Riko stepped aside.
+
+“Of course.”
+
+Akari smiled at her. “Thanks.”
+
+Her eyes moved briefly to Itsuki.
+
+“Thank you.”
+
+He nodded.
+
+That was all.
+
+She continued down the corridor with another committee member. Riko watched her go.
+
+“She's nice,” she said.
+
+“Seems so.”
+
+“Everyone likes her.”
+
+“Probably.”
+
+“Do you think she knows everyone?”
+
+“Not everyone.”
+
+“Maybe she has a list.”
+
+“Maybe.”
+
+Riko turned to him. “You really have no curiosity.”
+
+“I have some.”
+
+“About?”
+
+“Whether the box is going to be put down.”
+
+Riko laughed and took the other side of it.
+
+They carried the leaflets into the office.
+
+Later that afternoon, Itsuki saw Akari again near the courtyard. She was speaking with a teacher, pointing to a page on her clipboard. The teacher nodded, then gave her another sheet. Akari looked at it, asked something, and wrote down the answer.
+
+She seemed busy.
+
+That was the only impression Itsuki took away.
+
+He did not know that she had spent the previous evening reviewing a set of English questions until the words began to blur together. He did not know that she had asked her older cousin for advice about a future she was not sure she wanted. He did not know that being liked by so many people could make it difficult to say no to any of them.
+
+Those things belonged to Akari's day, not his.
+
+For now, they were students in the same school who happened to pass each other in the corridor.
+
+That was enough.
+
+---
+
+# Chapter Five — A Quiet Seat by the Window
+
+The library was the quietest place in the school, provided nobody had decided to whisper.
+
+Itsuki preferred it to the classroom after lessons. The room was on the second floor of the old building, with tall windows facing the residential streets beyond the sports field. The shelves were arranged in a way that suggested several generations of librarians had disagreed about where books belonged. A small sign near the entrance asked students to return borrowed materials to the desk rather than reshelve them.
+
+Itsuki approved of the sign.
+
+He returned a book on modern Japanese history and checked the English section for a collection of short essays. He had not planned to borrow anything. He simply liked having something to read that did not come with a test date.
+
+A chair moved softly near the windows.
+
+He glanced over.
+
+A girl sat at the far table, one hand resting beside an open notebook. Her hair was long and dark enough to appear almost blue where the afternoon light touched it. She wore a simple cardigan over her uniform and had arranged her books in a neat line.
+
+Mio Kanzaki.
+
+Itsuki knew the name from the class list. She was in 3-C. He had seen her in the library once or twice, usually alone.
+
+She was reading.
+
+That was not remarkable. It was a library.
+
+He selected a book and moved toward the desk.
+
+As he passed, he noticed that her notebook contained a small diagram. Several names were written in the margin, connected by lines. It looked like a family tree, or perhaps an outline for a history assignment.
+
+Mio turned a page.
+
+Itsuki kept walking.
+
+At the desk, the librarian stamped the date inside the book.
+
+“Back in two weeks,” she said.
+
+“Thank you.”
+
+He left the library.
+
+The corridor outside was warmer than the room. Students were leaving in groups, and the noise from the courtyard had grown louder. Itsuki adjusted the strap of his bag and headed downstairs.
+
+He did not think about Mio again until the following Tuesday.
+
+He had stayed after class to finish a worksheet. When he reached the library, the same seat by the window was occupied.
+
+Mio was not reading this time. She was looking out at the sports field, where a group of students were practising badminton under the late-afternoon sun. Her notebook lay open beside her, but she did not appear to be writing.
+
+Itsuki chose a seat two tables away.
+
+He worked through the first page of his English assignment. The passage was about urban planning, a subject he found more interesting than the questions made it seem. He underlined a sentence, wrote a short explanation, and checked the next paragraph.
+
+A chair scraped softly.
+
+He looked up.
+
+Mio had stood and was returning a book to the shelf. She moved carefully, making sure the spine lined up with the others. Then she took another book from the shelf and returned to her seat.
+
+No conversation.
+
+No greeting.
+
+A perfectly ordinary library afternoon.
+
+When Itsuki finished, he closed his notebook and packed his things. As he passed the window table, Mio's pencil rolled off the edge.
+
+It stopped near his shoe.
+
+He picked it up and placed it on the corner of her desk.
+
+“Thanks,” she said.
+
+Her voice was quiet, but clear.
+
+“Sure.”
+
+That was the entirety of their conversation.
+
+He left.
+
+Outside, the sky had begun to turn pale gold. A train passed somewhere beyond the school buildings, its sound briefly rising above the traffic.
+
+Itsuki walked toward the station.
+
+He had learned one thing about Kanzaki Mio.
+
+She used a mechanical pencil with a blue grip.
+
+It was not a particularly useful fact.
+
+He suspected he would forget it by tomorrow.
+
+---
+
+## Drafting continuity ledger — updated
+
+- Opening date: April 1, 2026. Nanami turns 16.
+- Itsuki turns 18 on April 2, 2026.
+- Itsuki is in Class 3-B at Hoshimiya Municipal High School.
+- Riko is already Itsuki's friend and is in the same class; their teasing is established as familiar, not a new attraction.
+- Ayane is also in Class 3-B; their families remain close, while the two teenagers are awkward after gradually drifting apart.
+- Akari is introduced as genuinely sociable and popular; she and Itsuki have only exchanged brief, ordinary courtesies.
+- Mio is introduced through library routines; she and Itsuki have exchanged only a brief thanks after he returned her pencil.
+- Itsuki's apartment is modest, maintained by him, and supported by his mother.
+- Nanami and Itsuki's relationship is explicitly sibling-like.
+- The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
