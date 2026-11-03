@@ -1,7 +1,7 @@
 # After the Ordinary — Volume 1
 ## The Rumour That Started It All
 
-**Manuscript status:** In progress; publication prose is being written chapter by chapter.  
+**Manuscript status:** The complete narrative now reaches the Volume 1 epilogue. Final editorial revision, continuity verification, and publication formatting remain pending.  
 **Canonical edition:** English  
 **Series:** After the Ordinary  
 **Volume:** 1 of 5  
