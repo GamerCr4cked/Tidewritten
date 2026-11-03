@@ -42,6 +42,8 @@ A quiet third-year student trying to graduate without trouble becomes the centre
 
 ### 1.4 Genre and tone
 
+- Ecchi
+- Harem
 - Romantic Comedy
 - Romance
 - Slice of Life
