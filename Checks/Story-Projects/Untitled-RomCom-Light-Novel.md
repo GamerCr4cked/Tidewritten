@@ -295,7 +295,6 @@ Still open: her personal goals, specific family details, and the events that gra
 - Their families remain exceptionally close; each child has long been treated as part of the other's family.
 - They were once extremely close, but gradually drifted apart as they grew older. They still occasionally talk and retain some comfort and familiarity, although they are no longer as close as they used to be.
 - Her core personality is **warm but a little awkward** around him now. She is kind and caring, but sometimes unsure how to act after the distance that developed between them.
-- She has no previous romantic experience and has not seriously considered pursuing romance before the story begins.
 - Their old familiarity occasionally returns without either of them deliberately trying to recreate the past.
 - She remembers him from before he became quieter and more withdrawn. Their shared history lets her recognize sides of him that newer acquaintances have not seen.
 - She has **no previous romantic experience** and has not seriously considered romance before the story begins. This does not predetermine whether or how her feelings may change later.
