@@ -7523,3 +7523,178 @@ Then, beneath it:
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
 - The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
+
+
+# Side Scene — The Last Game Before Rain
+
+Physical education was scheduled for the final period on Friday.
+
+The sky had been clear in the morning, but by the time Class 3-B reached the sports field, clouds had gathered over the western side of Hoshimiya. Mr. Hasegawa had checked the weather app twice and decided they had enough time for one short activity.
+
+“Badminton,” he announced.
+
+Riko looked at the rackets.
+
+“Excellent.”
+
+Itsuki looked at the sky.
+
+“It's going to rain.”
+
+“That's not the spirit.”
+
+“It's a weather forecast.”
+
+The class divided into pairs. Itsuki ended up with Miyake, who played for the school team and had volunteered to help keep the matches moving. Riko paired with Emi.
+
+The first few minutes were uneventful.
+
+Itsuki returned the shuttlecock when it came within reach. He was not especially good, but he understood where he was supposed to stand and did not swing at empty air. Miyake did most of the work.
+
+“Nice,” Miyake said after Itsuki returned a shot over the net.
+
+“Thanks.”
+
+“You play sometimes?”
+
+“Not really.”
+
+“You're better than you think.”
+
+“That's probably because you keep sending it to me.”
+
+Miyake laughed.
+
+On the next court, Riko had decided that the rules were flexible.
+
+She served too high, missed the return, and then claimed the wind had interfered with the shuttlecock's intentions.
+
+Emi looked at her.
+
+“It's indoors.”
+
+“Air conditioning.”
+
+“It's off.”
+
+“Then it's a personal problem.”
+
+The teacher blew the whistle.
+
+“Tachibana. Focus.”
+
+“I am focused.”
+
+“On the game.”
+
+“Of course.”
+
+Riko served again.
+
+The shuttlecock hit the net and fell back onto her side.
+
+She stared at it.
+
+“Betrayal.”
+
+Itsuki looked away before he laughed.
+
+The first drops of rain began during the second round. The teacher called the class back toward the building before the field became slippery. Students collected the rackets and carried them to the equipment room.
+
+Riko walked beside Itsuki.
+
+“You laughed.”
+
+“No.”
+
+“I heard it.”
+
+“You heard the rain.”
+
+“The rain doesn't sound like that.”
+
+“Maybe it was laughing too.”
+
+She nudged his arm.
+
+“You're getting worse.”
+
+“I'm improving.”
+
+They returned the equipment and went back to the classroom to collect their bags. The rain grew heavier against the windows.
+
+Miyake stopped beside Itsuki's desk.
+
+“You should join the badminton club.”
+
+“No.”
+
+“You'd get better.”
+
+“I'd have to attend practice.”
+
+“That's usually how clubs work.”
+
+“Then it's not for me.”
+
+Miyake laughed and left.
+
+Riko leaned against the desk.
+
+“You're allergic to commitments.”
+
+“Only unnecessary ones.”
+
+“That's a dangerous philosophy.”
+
+“It's kept me alive.”
+
+She grinned.
+
+The final bell rang.
+
+Outside, the rain had settled into a steady shower. Itsuki took out his umbrella. Riko checked her bag and frowned.
+
+“Forgot yours?” he asked.
+
+“Again.”
+
+“That's twice.”
+
+“Don't count.”
+
+He opened the umbrella.
+
+Riko stepped under it.
+
+“You're very kind.”
+
+“I'm preventing you from getting sick and missing class.”
+
+“Still kind.”
+
+“Don't tell anyone.”
+
+She smiled.
+
+They walked toward the station, arguing about whether badminton counted as a sport if one of the players was actively negotiating with the shuttlecock.
+
+By the time they reached the crossing, the rain had begun to ease.
+
+Itsuki looked at the sky.
+
+Riko looked at him.
+
+“Don't say I told you so.”
+
+“I wasn't going to.”
+
+“You were thinking it.”
+
+“Maybe.”
+
+She laughed.
+
+The light changed.
+
+They crossed together.
