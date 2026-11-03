@@ -8230,4 +8230,4 @@ Then, beneath it:
 - Itsuki and Nanami are maternal half-siblings; all their affectionate scenes are clearly familial. Nanami sleeps on a separate futon when staying over.
 - The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
 - The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
-- The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
+- The cultural festival takes place in late June, as confirmed by the owner on 2026-11-03. This is consistent with the April–June Volume 1 timeline in the Story Bible.
