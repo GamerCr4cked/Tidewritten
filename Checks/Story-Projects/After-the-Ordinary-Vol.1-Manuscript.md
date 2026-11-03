@@ -5564,3 +5564,481 @@ But if it helped someone else, that was fine.
 
 He put the marker back in the tray.
 
+
+
+# Chapter Fifteen — The Account That Doesn't Match
+
+Mio did not ask Akari about the rumour immediately.
+
+She waited until the lunch crowd had thinned and the corridor outside 3-A was quiet. Akari was standing near the windows with Saki, checking a message on her phone. When Saki went back into the classroom, Mio approached.
+
+“Fujisaki?”
+
+Akari looked up.
+
+“Yes?”
+
+“Could I ask you something about the cultural festival?”
+
+Akari's expression changed slightly.
+
+“About the rumour?”
+
+“Yes.”
+
+For a moment, Akari looked as if she might say no. Then she put her phone away.
+
+“What do you want to know?”
+
+“I've heard several versions of what happened near the service corridor. I wanted to ask what you remember.”
+
+Akari glanced toward the classroom door.
+
+“It's not very interesting.”
+
+“That's possible.”
+
+The answer seemed to catch her off guard.
+
+Mio continued.
+
+“I don't want to repeat the rumour. I want to know which parts are accurate.”
+
+Akari studied her for a moment.
+
+“You're Kanzaki, right? From 3-C?”
+
+Mio nodded.
+
+“I've seen you in the library.”
+
+“That's me.”
+
+Akari looked down the corridor again.
+
+“I was carrying a display board. The stand broke, and I dropped some of the menus. The corridor was crowded. Kurose helped me get through to the side hall.”
+
+“Did you know him before that?”
+
+“Not really. I'd spoken to him once or twice about the festival schedule.”
+
+“Did he carry your bag?”
+
+“No. He carried the board.”
+
+“Did you leave the corridor together?”
+
+“We walked to the replacement stand. It was only a short distance.”
+
+“Were you arguing?”
+
+Akari blinked.
+
+“No.”
+
+Mio wrote something in her notebook.
+
+Akari watched the pencil move.
+
+“Why are you asking all these questions?”
+
+“Because the accounts don't match.”
+
+“People are making things up.”
+
+“Some of them. Others might be remembering different parts.”
+
+Akari folded her arms.
+
+“I don't want this becoming a bigger thing.”
+
+“I understand.”
+
+“Do you?”
+
+Mio looked up.
+
+“I think I do. But I shouldn't assume.”
+
+Akari's expression softened slightly.
+
+“I just don't want people outside school hearing about it. My family knows a lot of people. Something small can turn into a story that follows you.”
+
+Mio nodded.
+
+“Then I'll be careful.”
+
+Akari studied her again.
+
+“You're not going to write about it somewhere?”
+
+“No.”
+
+“Or tell people what I said?”
+
+“Only if you want me to.”
+
+Akari let out a breath.
+
+“Thank you.”
+
+Mio closed her notebook.
+
+“One more question. Why did you ask Kurose to keep it quiet?”
+
+Akari looked away.
+
+“Because I knew people would make it into something. I didn't want him dragged into it.”
+
+Mio nodded.
+
+That answer was different from the one she had expected.
+
+She had thought Akari might be worried about her own reputation. That was part of it, perhaps, but not all of it.
+
+“Thank you,” Mio said.
+
+Akari gave a small smile.
+
+“Are you investigating this?”
+
+“I'm trying to understand it.”
+
+“That's a very careful way to say yes.”
+
+Mio considered that.
+
+“Maybe.”
+
+Akari laughed quietly.
+
+“Good luck, then.”
+
+They parted.
+
+Mio walked toward the library.
+
+She had learned that Akari's account and Itsuki's account matched in the important parts. They differed in small details: Akari remembered the board's corner catching against the wall; Itsuki remembered the trolley stopping. Both remembered the crowd, the loose papers, and the side passage.
+
+Neither described anything romantic.
+
+The rumour had added that part later.
+
+Mio opened her notebook.
+
+She wrote:
+
+*Akari did not know Itsuki well before the festival.*
+
+Then:
+
+*She asked him to keep the incident private because she did not want the story to spread beyond school—and because she did not want him involved.*
+
+Mio paused.
+
+The second line mattered.
+
+She underlined it once.
+
+***
+
+The rumour did not disappear after Mio spoke to Akari.
+
+If anything, it became more complicated.
+
+A student from 2-C claimed to have seen Akari and Itsuki speaking near the library weeks earlier. The student had actually seen Akari speaking to a teacher, with Itsuki returning a book in the background.
+
+Another student said the photograph had been taken before the festival opened. It had been taken after lunch.
+
+Someone else insisted that the two had left the school together.
+
+They had not.
+
+Itsuki heard the last version from Riko.
+
+“Apparently, you and Fujisaki took the same train.”
+
+“We didn't.”
+
+“Maybe you missed it.”
+
+“I didn't.”
+
+“Maybe she did.”
+
+“Then she took a different train.”
+
+Riko rested her chin on her hand.
+
+“You're making this very difficult.”
+
+“Good.”
+
+She watched him for a moment.
+
+“Do you know why people keep talking?”
+
+“Because they have nothing better to do.”
+
+“Some of them are bored. Some are curious. Some just like having a story.”
+
+“Then they can find another one.”
+
+“Maybe they will.”
+
+Itsuki looked at the classroom window.
+
+Riko's voice softened.
+
+“But until they do, you're going to have to live with it.”
+
+He did not answer.
+
+She tapped the corner of his notebook.
+
+“Don't let it make you disappear.”
+
+Itsuki looked at her.
+
+“I wasn't planning to.”
+
+“Good.”
+
+She smiled again, and the conversation returned to its usual rhythm.
+
+But he kept thinking about what she had said.
+
+---
+
+# Chapter Sixteen — A Question Worth Answering
+
+Mio returned to the library the next afternoon.
+
+Itsuki was at the table near the windows, working through an English passage. He had chosen the seat because it was quiet, not because he expected anyone to approach him.
+
+Mio stopped beside the table.
+
+“Is this seat taken?”
+
+He looked at the empty chair.
+
+“No.”
+
+She sat down.
+
+For a few minutes, neither spoke. Mio opened her notebook. Itsuki finished the paragraph he was reading and placed a small mark beside the final question.
+
+“You spoke to Akari,” he said.
+
+Mio looked up.
+
+“Yes.”
+
+“Did she tell you the same thing?”
+
+“Mostly.”
+
+“Then that's probably it.”
+
+“Probably.”
+
+He closed the book.
+
+Mio turned her notebook so he could see the page. It contained a short list of events, written in neat handwriting.
+
+“Could I check a few details?”
+
+Itsuki looked at the list.
+
+“Do I have to?”
+
+“No.”
+
+He considered that.
+
+“Then ask.”
+
+Mio nodded.
+
+She asked about the order of events: whether he had been carrying the extension cord before he met Akari, whether the crowd was moving toward the gym or away from it, whether the board had already been damaged, and whether he had seen the students with the camera.
+
+Itsuki answered what he remembered.
+
+When he did not remember, he said so.
+
+Mio did not try to fill the gaps.
+
+After a while, she closed the notebook.
+
+“Thank you.”
+
+“Is that enough?”
+
+“For now.”
+
+He leaned back.
+
+“Why are you interested?”
+
+Mio looked toward the window.
+
+“Because the story keeps changing.”
+
+“People do that.”
+
+“I know.”
+
+“Then why bother?”
+
+She was quiet for a moment.
+
+“Because everyone is talking as if they saw the whole thing. But no one did.”
+
+Itsuki glanced at the notebook.
+
+“You're trying to find out who saw what.”
+
+“Yes.”
+
+“And then?”
+
+“I don't know yet.”
+
+“That sounds like a lot of work for something that doesn't matter.”
+
+Mio looked at him.
+
+“Doesn't it matter to you?”
+
+He considered the question.
+
+“It matters because people keep asking me about it. The actual incident doesn't.”
+
+“That's fair.”
+
+She rested her pencil on the notebook.
+
+“I think the incident was ordinary. The rumour isn't.”
+
+Itsuki looked at her.
+
+It was the first time someone had said it that way.
+
+He did not know whether it was a useful distinction.
+
+But it was a distinction.
+
+Mio continued.
+
+“I don't think I can solve it by listening to the same people repeat the same story. I need to speak to the people who were there.”
+
+“Then speak to them.”
+
+“I will.”
+
+She closed the notebook and stood.
+
+Itsuki returned to his book.
+
+Mio paused beside the table.
+
+“One more thing.”
+
+He looked up.
+
+“If someone asks you about the photograph, you don't have to explain everything. You can tell them to ask me.”
+
+“Why would I do that?”
+
+“Because I'm going to ask the witnesses what they actually saw.”
+
+“That doesn't sound like it will make people stop talking.”
+
+“It might make them talk about something more accurate.”
+
+He considered that.
+
+“Good luck.”
+
+“Thank you.”
+
+She left.
+
+Itsuki watched her cross the library and disappear through the door.
+
+He looked down at his English passage.
+
+The same sentence was still waiting for him.
+
+He read it once.
+
+Then again.
+
+The meaning had not changed, but his attention had.
+
+***
+
+At the end of the day, the school was quieter than it had been during the festival. The banners had been removed, the display boards returned to storage, and the corridors were beginning to look ordinary again.
+
+Itsuki walked past the notice board.
+
+The photograph was no longer there. It had never been officially posted, but someone had printed a copy and taped it beneath the festival schedule. A teacher had removed it that morning.
+
+The empty patch of tape remained.
+
+He stopped for a moment.
+
+A rumour could survive without a photograph. It could survive without the people who started it. It could survive by becoming a thing people remembered differently.
+
+Itsuki had thought that ignoring it would make it disappear.
+
+That had not worked.
+
+He took out his phone and opened the message thread with Riko.
+
+*Did you leave your worksheet in the classroom again?*
+
+Her reply came almost immediately.
+
+*No. Why?*
+
+*Just checking.*
+
+*You're becoming responsible. It's worrying.*
+
+He put the phone away.
+
+Then he opened the message thread with Nanami.
+
+*How's the library project?*
+
+A few seconds passed.
+
+*Good. The cat is finished.*
+
+*Congratulations.*
+
+*Yui says it needs a name.*
+
+*Call it Cat.*
+
+*You have no imagination.*
+
+Itsuki smiled faintly.
+
+He put the phone away and continued toward the station.
+
+At the far end of the corridor, Mio stood beside the library door, speaking with a student he did not recognise. She had her notebook open and was listening carefully.
+
+She noticed him passing and gave a small nod.
+
+He returned it.
+
+Nothing had changed.
+
+Not really.
+
+But there was now someone asking a different question.
+
+And for the first time since the festival, Itsuki thought that perhaps he should answer it.
+
