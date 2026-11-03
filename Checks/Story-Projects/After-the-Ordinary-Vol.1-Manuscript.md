@@ -392,6 +392,8 @@ He turned off the kitchen light.
 
 ---
 
+---
+
 # Chapter One — A Perfectly Ordinary Start
 
 Itsuki turned eighteen at 12:00 a.m.
@@ -824,6 +826,8 @@ For an eighteenth birthday, it was enough.
 
 ---
 
+---
+
 # Chapter Two — The People Who Don't Need Invitations
 
 Riko had a talent for appearing in places where she had not been invited.
@@ -1182,6 +1186,8 @@ He decided not to mention that to anyone.
 
 ---
 
+---
+
 # Interlude VIII — The Answer in the Margin
 
 Riko arrived at the library with a workbook and an expression of deep suspicion.
@@ -1381,6 +1387,8 @@ It was not an efficient afternoon.
 Still, Riko had left with a workbook she could actually use.
 
 He decided that was probably worth it.
+
+---
 
 ---
 
@@ -1668,6 +1676,8 @@ The train arrived before he reached one.
 
 ---
 
+---
+
 # Interlude V — The House He Doesn't Live In
 
 The envelope arrived on a Thursday.
@@ -1797,6 +1807,8 @@ Then he typed:
 *Thanks for signing the form.*
 
 He put the phone away and waited for the light to change.
+
+---
 
 ---
 
@@ -2007,6 +2019,8 @@ Those things belonged to Akari's day, not his.
 For now, they were students in the same school who happened to pass each other in the corridor.
 
 That was enough.
+
+---
 
 ---
 
@@ -2270,6 +2284,8 @@ She only had to find it.
 
 ---
 
+---
+
 # Chapter Five — A Quiet Seat by the Window
 
 The library was the quietest place in the school, provided nobody had decided to whisper.
@@ -2361,6 +2377,8 @@ She used a mechanical pencil with a blue grip.
 It was not a particularly useful fact.
 
 He suspected he would forget it by tomorrow.
+
+---
 
 ---
 
@@ -2487,6 +2505,8 @@ She had been wrong.
 It happened more often than people thought.
 
 That was why she liked asking questions.
+
+---
 
 ---
 
@@ -2754,129 +2774,190 @@ He left the pencil mark.
 
 ---
 
-# Interlude IV — A Page Out of Order
-
-Mio Kanzaki liked small mysteries.
-
-Not the kind that required a detective agency or a dramatic confession. She preferred the ordinary ones: a book returned to the wrong shelf, a classroom window left open when everyone remembered closing it, a familiar umbrella that appeared in the lost-property box twice in one week.
-
-Most of the time, the answer was simple.
-
-That was part of the appeal.
-
-On a Wednesday afternoon, she found a library book on the return cart with a bookmark sticking out from the middle.
-
-The bookmark was a narrow strip of pale green paper. Someone had written a date on it.
-
-April 18.
-
-Mio checked the borrowing label.
-
-The book had been returned two days late.
-
-She looked toward the library desk.
-
-“Did someone leave this?”
-
-The librarian glanced over.
-
-“Probably. You can put it in the lost-property tray.”
-
-Mio took the bookmark out and examined it.
-
-There was no name.
-
-She placed it beside the book and returned both to the desk.
-
-The next afternoon, the bookmark was gone.
-
-The book was still on the shelf.
-
-Mio noticed because she remembered the green paper.
-
-She checked the return cart. Nothing.
-
-Then she looked at the desk, where a small envelope had appeared beside the librarian's stamp.
-
-The envelope was pale green.
-
-Mio stared at it for a moment.
-
-She had an idea.
-
-She asked the librarian whether anyone had come looking for a lost bookmark.
-
-“A student from 2-A, I think,” the librarian said. “She left it in a book and came back yesterday.”
-
-Mio nodded.
-
-The mystery was solved.
-
-It was also less interesting than she had hoped.
-
-She returned to her seat near the window.
-
-Her phone vibrated.
-
-A message from her mother.
-
-*Your father and I will be late again. Dinner is in the refrigerator. There's fruit on the counter. Please remember to lock the balcony door.*
-
-Mio replied:
-
-*Okay. Have a good evening.*
-
-A second message arrived.
-
-*How was school?*
-
-Mio looked at the empty page in her notebook.
-
-*Normal. I found a lost bookmark.*
-
-Her mother sent a smiling face.
-
-*Good detective work.*
-
-Mio smiled faintly and put the phone away.
-
-Her parents were often busy. Their work schedules did not always match, and there were weeks when dinner was a matter of leaving food in the refrigerator and sending a message. They still asked about her day. They remembered her favourite tea. Her father had recently repaired the loose hinge on her desk drawer without being asked.
-
-She did not think of them as uncaring.
-
-She simply had a lot of time to herself.
-
-Sometimes that time became reading.
-
-Sometimes it became observation.
-
-Sometimes it became a puzzle.
-
-She opened her notebook and wrote:
-
-*The person who left the bookmark returned for it.*
-
-Then she crossed out the sentence.
-
-It was not a useful mystery.
-
-Outside, the badminton club was packing away its equipment. A student stood near the gate, looking through her bag. Another approached and held out a folded umbrella.
-
-Mio watched them.
-
-She thought the first student had forgotten the umbrella.
-
-Then the second student said something, and the first shook her head. They both laughed.
-
-Mio looked away.
-
-She had been wrong.
-
-It happened more often than people thought.
-
-That was why she liked asking questions.
-
 ---
+
+# Interlude I — A Different School Bell
+
+Hoshimiya East High School had a different morning rhythm.
+
+The main building stood closer to the river than Hoshimiya Municipal High, and the path from the station passed a row of small shops that opened early. Students arrived in clusters, some carrying club equipment, others stopping at the bakery near the crossing. The bell rang five minutes earlier than the one at Itsuki's school.
+
+Nanami knew this because she had once been late by exactly four minutes.
+
+She had not repeated the mistake.
+
+“Nanami!”
+
+Yui waved from the bicycle racks.
+
+Nanami hurried over, holding the strap of her bag.
+
+“Morning.”
+
+“You're early.”
+
+“I'm on time.”
+
+“That's early for you.”
+
+“I was always on time.”
+
+“You were late once.”
+
+“One time.”
+
+“It was memorable.”
+
+“It was raining.”
+
+“You blamed the rain.”
+
+“It was raining.”
+
+Yui laughed and fell into step beside her.
+
+They were in different classes but had joined the library exchange committee together. Yui liked drawing and making displays. Nanami liked lists, schedules, and making sure the people who liked drawing remembered that glue had to dry before anyone moved the paper.
+
+Their teacher had given them a small project: prepare a reading corner for a group of younger students who would visit the school library during the following month. They would borrow picture books from the old east-station library, arrange a few tables, and make a display about stories set in familiar places.
+
+Yui had already drawn a sketch of the display.
+
+It included a river, a train, a row of houses, and a cat sitting on a wall.
+
+Nanami had asked why the cat was there.
+
+“Because every town needs a cat,” Yui had said.
+
+Nanami had written *cat decoration — optional* on the supply list.
+
+Yui had crossed out *optional*.
+
+Now they walked toward the classroom, discussing whether the display should use blue paper or pale green.
+
+“Blue,” Yui said.
+
+“Green.”
+
+“Blue looks like the river.”
+
+“Green looks like the park.”
+
+“We can draw the river and the park.”
+
+“That means two colours.”
+
+“Exactly.”
+
+Nanami looked at her.
+
+“You're making the budget complicated.”
+
+“I'm making the display beautiful.”
+
+“Those are not the same thing.”
+
+Yui smiled.
+
+“You always say that.”
+
+“Because it's true.”
+
+They reached the classroom before the bell. Nanami placed her bag beside her desk and took out the folder. The supply list had grown to two pages. She checked the names of the students who had agreed to help and marked the tasks that still needed someone.
+
+Her friend leaned over.
+
+“You really like organising things.”
+
+“I like knowing what's supposed to happen.”
+
+“Same thing.”
+
+“Not exactly.”
+
+Yui looked at the page.
+
+“You put yourself down for the book return.”
+
+“Someone has to carry the boxes.”
+
+“I can do that.”
+
+“You're making the display.”
+
+“I can do both.”
+
+“You'll forget one.”
+
+Yui placed a hand over her chest.
+
+“That's hurtful.”
+
+“It's accurate.”
+
+They laughed.
+
+During lunch, Nanami received a message from her father.
+
+*How is the library project going? I spoke to the committee member at the east-station branch. They can lend you the picture books if your teacher sends the request this week.*
+
+Nanami typed back.
+
+*We have a list ready. I'll ask the teacher to send it.*
+
+A moment later, another message appeared.
+
+*Good. Are you coming home this weekend?*
+
+She looked at the screen.
+
+Her father's house was still her home. She knew that. Her room was there, her school books were there, and her father still remembered which foods she disliked. But the house had changed. Sometimes, when he had plans with his girlfriend, Nanami felt as if she were visiting a place where everyone else already knew what the evening would look like.
+
+It was not anyone's fault.
+
+That did not make it comfortable every time.
+
+She replied:
+
+*Maybe Saturday. I'll let you know.*
+
+Her father sent a simple thumbs-up.
+
+Nanami put the phone away.
+
+Yui returned with two cartons of milk.
+
+“Everything okay?”
+
+“Yeah.”
+
+“You look like you're doing maths.”
+
+“I'm thinking.”
+
+“That's worse.”
+
+Nanami smiled.
+
+“It's fine.”
+
+Yui did not ask again. She sat beside her and began drawing the cat for the reading-corner display.
+
+Nanami watched the pencil move.
+
+The cat was wearing a tiny school cap.
+
+“That's not necessary,” she said.
+
+“It is now.”
+
+Nanami opened her notebook and added one more line to the supply list.
+
+*Small paper cat — one.*
+
+She did not know whether the project would be good.
+
+But she was looking forward to it.
+
 
 ---
 
@@ -3069,6 +3150,8 @@ Nanami did not push.
 The train arrived.
 
 They got on together.
+
+---
 
 ---
 
@@ -3318,6 +3401,8 @@ Still, he found himself hoping he would remember to say yes when she asked.
 
 ---
 
+---
+
 # Interlude IX — Lunch on the Second Floor
 
 Ayane asked him on a Wednesday.
@@ -3503,6 +3588,8 @@ He had not expected lunch to feel different.
 It had not been especially exciting. They had eaten, talked, and returned to class.
 
 But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
 
 ---
 
@@ -3728,6 +3815,8 @@ And he had somewhere to be.
 
 ---
 
+---
+
 # Interlude VII — The Shape of an Explanation
 
 The study-support board was placed beside the classroom door.
@@ -3838,6 +3927,8 @@ He had not thought of it as anything worth noticing. He had simply written down 
 But if it helped someone else, that was fine.
 
 He put the marker back in the tray.
+
+---
 
 ---
 
@@ -4044,6 +4135,8 @@ Riko took it and slid into her seat.
 The joke had landed.
 
 The work was still hers.
+
+---
 
 ---
 
@@ -4349,6 +4442,8 @@ The school year continued.
 
 ---
 
+---
+
 # Chapter Ten — Before the Doors Open
 
 The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
@@ -4645,6 +4740,8 @@ For once, he hoped the weather would stay clear.
 
 ---
 
+---
+
 # Chapter Eleven — The Morning Everyone Was Busy
 
 The festival opened at ten.
@@ -4890,6 +4987,8 @@ The noise from the main hall grew louder.
 He adjusted his glasses and headed toward the stairs.
 
 He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
 
 ---
 
@@ -5196,6 +5295,8 @@ And the photograph, taken just as they stepped through the corridor, showed only
 It was not a lie.
 
 It was simply not the truth.
+
+---
 
 ---
 
@@ -5647,6 +5748,8 @@ Then she drew a small line between them and left the rest of the page blank.
 
 ---
 
+---
+
 # Chapter Fourteen — The Simplest Explanation
 
 By Tuesday morning, the rumour had acquired a title.
@@ -5980,6 +6083,8 @@ But at least it was a different question.
 
 ---
 
+---
+
 # Chapter Fifteen — The Account That Doesn't Match
 
 Mio did not ask Akari about the rumour immediately.
@@ -6226,6 +6331,8 @@ But he kept thinking about what she had said.
 
 ---
 
+---
+
 # Chapter Sixteen — A Question Worth Answering
 
 Mio returned to the library the next afternoon.
@@ -6457,6 +6564,8 @@ Not really.
 But there was now someone asking a different question.
 
 And for the first time since the festival, Itsuki thought that perhaps he should answer it.
+
+---
 
 ---
 
@@ -6695,6 +6804,8 @@ He walked toward the gate.
 He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
+
+---
 
 ---
 
@@ -7009,6 +7120,8 @@ And if Mio asked him something about the festival, he could answer that too.
 It was not a plan for the future.
 
 It was a start.
+
+---
 
 ---
 
