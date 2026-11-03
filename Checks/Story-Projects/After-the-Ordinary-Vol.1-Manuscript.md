@@ -13,42 +13,36 @@
 
 ## Volume 1 — Chapter plan
 
-The volume is designed as a substantial, complete first instalment: Itsuki's ordinary life is established before the catalyst; the ensemble is introduced through recurring situations rather than character-list exposition; the festival incident arrives late enough to matter; and the volume closes with Mio choosing to investigate. The rumour begins here, but it does not resolve the series' larger emotional arcs.
+This is a full-volume structure, not a short opening sample. The eighteen chapters carry the main narrative from April 1 through the final week of June. Additional scenes are placed between chapters where they deepen a character or relationship without interrupting the central progression.
 
-1. **Prologue — The Last Day of Nothing**  
-   April 1. Nanami's sixteenth birthday, Itsuki's quiet apartment, the siblings' ordinary rhythm, and the small difference between a place to stay and a place that feels like home.
-2. **Chapter One — A Perfectly Ordinary Start**  
-   April 2. Itsuki turns eighteen, begins his final school year, and tries to keep the day unremarkable. A brief exchange with a teacher establishes his ability to explain English without making him a prodigy.
-3. **Chapter Two — The People Who Don't Need Invitations**  
-   Riko's established friendship with Itsuki, their dry back-and-forth, and the first hints of the different face she shows at home.
-4. **Chapter Three — A Familiar Name on the Attendance Sheet**  
-   The new class arrangement brings Ayane back into Itsuki's daily orbit. Their families' closeness is shown through an ordinary shared meal, while the awkwardness between the two teenagers remains unresolved.
-5. **Chapter Four — The Girl Everyone Seems to Know**  
-   Akari's social life is shown from the outside and then from within her own class. She is friendly, busy, and comfortable with attention; Itsuki remains a name she recognises, not a romantic interest.
-6. **Chapter Five — A Quiet Seat by the Window**  
-   Mio appears through school and library routines. Itsuki notices her quiet habits, but they do not yet become close.
-7. **Chapter Six — A City Made of Small Errands**  
-   Itsuki's commute, apartment chores, convenience-store routines, and Nanami's separate school life give Hoshimiya texture. The siblings' father remains a present, respectful part of their lives.
-8. **Chapter Seven — The Things We Don't Ask Twice**  
-   Itsuki and Ayane attempt to recover an old ease during a family errand. They discover that remembering the same childhood does not mean they experienced it in the same way.
-9. **Chapter Eight — A Test with Too Many Questions**  
-   School assessments expose Akari's effort and frustration without turning her into a helpless student. Itsuki's calm explanation of a difficult English passage is noticed, but Akari does not immediately seek him out.
-10. **Chapter Nine — The Committee Nobody Wanted**  
-    Festival preparations begin. Riko's mischief, Akari's class responsibilities, and Itsuki's habit of accepting practical tasks bring the cast into the same spaces without forcing instant intimacy.
-11. **Chapter Ten — Before the Doors Open**  
-    The festival's final preparations. Small problems accumulate; Akari is separated from her group while trying to solve one. Itsuki is nearby on an unrelated errand.
-12. **Chapter Eleven — The Corridor Between Crowds**  
-    The ordinary act of help: a crowd bottleneck, a minor mishap, an awkward moment, and Itsuki carrying an item while Akari regains her footing. Neither treats it as romantic.
-13. **Chapter Twelve — Everyone Saw Something**  
-    Several students witness fragments. Their accounts differ honestly, and a poorly angled photograph gives the fragments a shape none of them deserves.
-14. **Chapter Thirteen — The Simplest Explanation**  
-    The rumour spreads. Akari tries to contain it publicly; Itsuki gives literal answers that sound evasive. The comedy comes from character and timing, while the rumour begins to have real social consequences.
-15. **Chapter Fourteen — A Question with No Easy Answer**  
-    Riko, Ayane, and Akari respond in their own ways. Mio notices contradictions and approaches Itsuki with specific questions. She does not solve the mystery; she decides to investigate it.
-16. **Epilogue — The First Version**  
-    The school day ends with the rumour still alive. Itsuki realises that ignoring something does not always make it disappear. Mio begins arranging the fragments into a timeline.
+1. **Prologue — The Last Day of Nothing** — Nanami's sixteenth birthday, Itsuki's apartment, and the siblings' ordinary rhythm.
+2. **Chapter One — A Perfectly Ordinary Start** — Itsuki turns eighteen, begins his final school year, and meets the familiar faces in his new class.
+3. **Chapter Two — The People Who Don't Need Invitations** — Riko's established friendship with Itsuki and their teasing dynamic.
+4. **Chapter Three — A Familiar Name on the Attendance Sheet** — Ayane and Itsuki reconnect through school and a family gathering.
+5. **Chapter Four — The Girl Everyone Seems to Know** — Akari's social presence and the distance between being recognised and being known.
+6. **Chapter Five — A Quiet Seat by the Window** — Mio appears through ordinary library routines; no instant bond is forced.
+7. **Chapter Six — A City Made of Small Errands** — Hoshimiya, Itsuki's apartment, Nanami's visits, and the small routines that make a life.
+8. **Chapter Seven — The Things We Don't Ask Twice** — Itsuki and Ayane revisit a familiar route and acknowledge their gradual drift.
+9. **Chapter Eight — A Test with Too Many Questions** — Academic pressure, Akari's effort, and Itsuki's ability to explain without being a prodigy.
+10. **Chapter Nine — The Committee Nobody Wanted** — Class responsibilities and the first practical preparations for the festival.
+11. **Chapter Ten — Before the Doors Open** — Final preparations, shared spaces, and the ordinary problems before the event.
+12. **Chapter Eleven — The Morning Everyone Was Busy** — Festival day, the class booth, Nanami's visit, and the school at its busiest.
+13. **Chapter Twelve — The Corridor Between Crowds** — The incident with Akari and Itsuki, shown as a brief act of practical help.
+14. **Chapter Thirteen — Everyone Saw Something** — Partial witnesses and the photograph begin to turn fragments into a rumour.
+15. **Chapter Fourteen — The Simplest Explanation** — Denials, speculation, and the first consequences of the rumour.
+16. **Chapter Fifteen — The Account That Doesn't Match** — Mio asks Akari directly and learns that the rumour's versions do not fit.
+17. **Chapter Sixteen — A Question Worth Answering** — Mio and Itsuki compare accounts; he begins to see that ignoring the rumour will not make it disappear.
+18. **Chapter Seventeen — The Angle of a Photograph** — Mio speaks to the photographer and another witness, discovering how little anyone actually saw.
+19. **Chapter Eighteen — The Last Week of June** — The school returns to routine; the rumour loses some attention, while the new connections remain.
+20. **Epilogue — The First Version** — Mio chooses to continue the investigation, setting up Volume 2 without resolving the series arc.
 
----
+### Additional character scenes
+
+- **A Different School Bell** — Nanami's school life, friendship with Yui, and library-exchange responsibility.
+- **The Version Akari Knows** — Akari's friendships, study effort, and relationship with public attention.
+- **The Joke That Lands** — Riko's home expectations and her own effort with schoolwork.
+- **A Page Out of Order** — Mio's quiet hobby of observing small mysteries, including the limits of her assumptions.
+- Itsuki-centred side scenes deepen the family home situation, his relationship with Nanami's father, his study-support role, and his friendships with Riko and Ayane.
 
 # Prologue — The Last Day of Nothing
 
@@ -391,6 +385,8 @@ April 1.
 The last day before his final year began.
 
 He turned off the kitchen light.
+
+---
 
 ---
 
@@ -826,6 +822,8 @@ For an eighteenth birthday, it was enough.
 
 ---
 
+---
+
 # Chapter Two — The People Who Don't Need Invitations
 
 Riko had a talent for appearing in places where she had not been invited.
@@ -1182,6 +1180,212 @@ He decided not to mention that to anyone.
 
 ---
 
+---
+
+# Interlude VIII — The Answer in the Margin
+
+Riko arrived at the library with a workbook and an expression of deep suspicion.
+
+Itsuki looked up from his notes.
+
+“What's wrong?”
+
+“Everything.”
+
+“Specific.”
+
+She dropped into the chair opposite him and placed the workbook on the table.
+
+“I need help.”
+
+Itsuki looked at the cover.
+
+“Mathematics?”
+
+“Don't say it like that.”
+
+“Like what?”
+
+“Like you're announcing a diagnosis.”
+
+He closed his notebook.
+
+“Which question?”
+
+Riko opened the workbook to a page marked with two sticky notes. Several problems had been attempted. Some had been crossed out. One had a small drawing of a skull beside it.
+
+“Question seven.”
+
+He read it.
+
+“It's not difficult.”
+
+Riko leaned back.
+
+“That's a cruel thing to say to someone asking for help.”
+
+“I didn't say it was easy.”
+
+“You said it wasn't difficult.”
+
+“Those are different.”
+
+“Not to me.”
+
+Itsuki turned the workbook toward himself.
+
+“First, what do you know?”
+
+“Very little.”
+
+“That's not useful.”
+
+“Then ask a better question.”
+
+He pointed to the first line.
+
+“What's the value they're asking you to find?”
+
+Riko read it.
+
+“The missing angle.”
+
+“Good. What information do they give you?”
+
+She scanned the diagram.
+
+“Two angles.”
+
+“And?”
+
+“A triangle.”
+
+“That's a start.”
+
+“It's a very triangular triangle.”
+
+He waited.
+
+Riko sighed and looked at the diagram again.
+
+“The angles add up to one hundred and eighty degrees.”
+
+“Right. So what do you do?”
+
+“Subtract the two we know.”
+
+“Exactly.”
+
+She wrote the equation.
+
+For a few minutes, the table was quiet. Riko worked through the numbers, stopping twice to check the diagram. Her first answer was wrong because she had copied one value incorrectly. The second was right.
+
+She looked at the page.
+
+“That's it?”
+
+“That's it.”
+
+“That's annoyingly simple.”
+
+“Most of the question is noticing what information matters.”
+
+Riko tapped the pencil against the workbook.
+
+“I hate when the answer is obvious after someone explains it.”
+
+“Then remember the explanation.”
+
+“That's even worse.”
+
+Itsuki returned the workbook.
+
+She did not close it.
+
+Instead, she turned to the next question.
+
+“Can you check this one too?”
+
+He nodded.
+
+They worked through three more problems. Riko made two mistakes, corrected one without help, and asked him to explain the other. Itsuki showed her where the diagram gave the necessary information.
+
+He did not solve every problem for her.
+
+That seemed to annoy her.
+
+It also seemed to help.
+
+When they finished, Riko closed the workbook.
+
+“I'm going to become a mathematician.”
+
+“That's unlikely.”
+
+“I'm going to become a mathematician who hates mathematics.”
+
+“More believable.”
+
+She smiled.
+
+“Thanks.”
+
+“Sure.”
+
+Riko packed her things, then paused.
+
+“Do you ever get tired of explaining things?”
+
+“Sometimes.”
+
+“Then why do it?”
+
+He considered the question.
+
+“Because you asked.”
+
+She looked at him for a moment.
+
+Then her usual grin returned.
+
+“That's almost nice.”
+
+“Don't tell anyone.”
+
+“Your secret is safe.”
+
+She stood and returned the workbook to her bag.
+
+At the door, she turned.
+
+“Same time next week?”
+
+“If I have time.”
+
+“Good. I'll assume yes.”
+
+“That's not what I said.”
+
+“It's close enough.”
+
+She left before he could correct her.
+
+Itsuki looked at the empty chair.
+
+He had planned to finish two pages of his own work.
+
+He had finished one.
+
+It was not an efficient afternoon.
+
+Still, Riko had left with a workbook she could actually use.
+
+He decided that was probably worth it.
+
+---
+
+---
+
 # Chapter Three — A Familiar Name on the Attendance Sheet
 
 The first family gathering of the new school year was not meant to be a celebration.
@@ -1462,6 +1666,142 @@ The train arrived before he reached one.
 
 ---
 
+---
+
+# Interlude V — The House He Doesn't Live In
+
+The envelope arrived on a Thursday.
+
+Itsuki found it in the mailbox downstairs, tucked between a supermarket flyer and a notice about the building's water inspection. His name was written on the front in his mother's handwriting.
+
+Inside was a school document he had forgotten to ask her to sign.
+
+There was also a note.
+
+*If you have time, come by this weekend. I made too much curry.*
+
+Itsuki read it twice.
+
+He could have signed the document himself. The form required a guardian's confirmation, not a special ceremony. He could also have asked his mother to meet him at the station.
+
+Instead, he sent a message.
+
+*I'll come by Saturday to pick it up.*
+
+Her reply arrived a few minutes later.
+
+*I'll be here.*
+
+The house looked the same when he arrived.
+
+The entryway was clean. A pair of shoes stood beside the cabinet, aligned with the wall. The living room curtains were open, and a small plant sat near the window. Itsuki could hear the television from the kitchen.
+
+His mother opened the door.
+
+“Thank you for coming.”
+
+“I needed the form.”
+
+“I know. Come in.”
+
+He removed his shoes and placed them beside the cabinet.
+
+His stepfather appeared from the living room.
+
+“Itsuki. Good to see you.”
+
+“Hello.”
+
+The man wore a pale shirt with the sleeves rolled to his elbows. He had been working at home, judging by the laptop on the table and the documents stacked beside it.
+
+“Would you like something to drink?”
+
+“No, thank you.”
+
+“There's tea.”
+
+“I'm fine.”
+
+The man nodded. He did not insist.
+
+His mother brought the envelope from the kitchen and handed it over.
+
+“I signed it. You only need to return it to school.”
+
+“Thanks.”
+
+“Have you eaten?”
+
+“Not yet.”
+
+“Then stay for lunch.”
+
+Itsuki glanced toward the kitchen.
+
+“I have food at home.”
+
+“You can eat here too.”
+
+“I don't want to trouble you.”
+
+His mother looked as if she wanted to say something else. The third husband spoke first.
+
+“There's enough for everyone. But if you have plans, that's fine.”
+
+Itsuki nodded.
+
+“Thank you.”
+
+He did not stay.
+
+At the door, his mother touched his sleeve.
+
+“You can come over whenever you want.”
+
+“I know.”
+
+“I mean it.”
+
+“I know.”
+
+She let go.
+
+The third husband stood a little behind her.
+
+“Take care on the way back.”
+
+“I will.”
+
+Outside, the air was cool. Itsuki walked toward the station with the signed form inside his bag.
+
+He did not dislike the house because it was unpleasant.
+
+That was the difficult part.
+
+The third husband was polite. He made an effort. He did not shout or demand that Itsuki call him anything. He simply kept trying to make the place feel like a home they all shared.
+
+Itsuki did not want that.
+
+He could be civil without pretending otherwise.
+
+At the crossing, his phone vibrated.
+
+A message from his mother.
+
+*I'm glad you came.*
+
+Itsuki looked at the screen for a moment.
+
+Then he typed:
+
+*Thanks for signing the form.*
+
+He put the phone away and waited for the light to change.
+
+---
+
+---
+
 # Chapter Four — The Girl Everyone Seems to Know
 
 Akari Fujisaki arrived at school with three people talking to her.
@@ -1672,6 +2012,264 @@ That was enough.
 
 ---
 
+---
+
+# Interlude II — The Version Akari Knows
+
+Akari Fujisaki liked the sound of a busy classroom.
+
+It meant people were talking. It meant someone had brought something to share, someone else had a story, and there was always a chance that a quiet corner would turn into a conversation if she crossed the room at the right moment.
+
+She liked being known.
+
+There was no secret resentment beneath it. She enjoyed meeting people, remembering names, and finding out what other classes were doing. She liked the way a school event could bring students together who might otherwise never speak.
+
+What she did not enjoy was being expected to know what everyone wanted.
+
+That was a different kind of attention.
+
+“Akari, can you check the menu again?”
+
+She looked up from her notebook.
+
+Saki stood beside her desk, holding a printed sheet.
+
+“Sure.”
+
+“Do you think the prices are okay?”
+
+Akari read through the list.
+
+“Tea is fine. The juice might be a little expensive.”
+
+“That's what I thought.”
+
+“We can lower it by ten yen.”
+
+Saki nodded and made a note.
+
+“Thanks.”
+
+Another classmate approached before Saki had taken two steps.
+
+“Akari, do you know who has the spare tablecloths?”
+
+“I think they're in the committee room. I'll ask.”
+
+“Could you?”
+
+“Of course.”
+
+The classmate thanked her and hurried away.
+
+Akari closed her notebook.
+
+She had not been elected to anything. She had simply offered to help when the class started planning its festival activity. People tended to ask her questions because she usually knew who to ask next.
+
+She liked that.
+
+She also sometimes wished someone else would make the decision.
+
+After school, she went to the library.
+
+The English passage she had been working on was still open in her notebook. She had copied three sentences from the textbook and written their meanings underneath. The first two made sense. The third seemed to change direction halfway through.
+
+She read it again.
+
+Then again.
+
+The words were familiar. She knew what each one meant. Together, they refused to become a sentence she could understand.
+
+Akari pressed her pencil against the page.
+
+“Why?”
+
+The librarian looked up.
+
+“Everything all right?”
+
+“Sorry. Yes.”
+
+She lowered her voice.
+
+The problem was not that she disliked studying. She wanted to improve. She had a good memory for conversations, names, and small details. She could remember what a classmate had said weeks earlier and notice when a friend was having a difficult day.
+
+But written passages did not always stay in her head.
+
+She could read a paragraph and understand it, then reach the questions and forget which sentence had supported which answer. When she tried to memorise the structure, it became worse.
+
+She did not want to ask her friends for help again.
+
+They were kind, but they had already spent time explaining the same things. Akari disliked feeling as if she were taking more than she gave.
+
+Her phone vibrated.
+
+A message from her mother.
+
+*Your father and I will be home late. There is food in the refrigerator. Don't wait for us.*
+
+Akari replied with a small heart.
+
+She packed her books and left the library.
+
+At home, the entrance hall was quiet. Her family's house was large enough that one person could move through it without seeing anyone else. The kitchen was clean. A vase of flowers stood on the dining table, replaced every few days by someone who knew what colours her mother liked.
+
+Akari changed out of her uniform and returned to her room.
+
+On her desk was a brochure her parents had given her earlier in the month. It listed several universities and possible programmes. Her family had not demanded that she choose one immediately. They had asked her to think about the options and tell them what interested her.
+
+They wanted her to have choices.
+
+Sometimes, that made it harder to admit that she did not know which one she wanted.
+
+She placed the brochure beneath her notebook.
+
+Then she opened the English passage again.
+
+She would understand it eventually.
+
+She always did, if she kept trying.
+
+---
+
+---
+
+Akari liked the festival committee room.
+
+It was crowded, usually too warm, and full of people who needed something. Someone was always looking for a form, a supply list, or a teacher who had apparently disappeared at the exact moment they were needed.
+
+She liked being useful.
+
+She also liked being the person people waved to when they entered.
+
+“Akari, can you check this?”
+
+She looked up from the clipboard.
+
+“Sure.”
+
+Saki placed a printed menu beside her.
+
+“We changed the drink prices. Does this look better?”
+
+Akari checked the numbers.
+
+“Yes. That's clearer.”
+
+“Good.”
+
+Saki pulled out a chair.
+
+“You've been here every day this week.”
+
+“So have you.”
+
+“I have an excuse. I'm in charge of the decorations.”
+
+“And I'm helping with the shared equipment.”
+
+“That's not an excuse. That's a trap.”
+
+Akari laughed.
+
+A student from another class appeared at the door.
+
+“Fujisaki, do you know if the committee has approved the extra table?”
+
+“I'll check.”
+
+“Thanks.”
+
+The student left.
+
+Saki watched Akari write a note.
+
+“You know you can say no.”
+
+Akari looked up.
+
+“I know.”
+
+“Do you?”
+
+“Yes.”
+
+Saki gave her a doubtful expression.
+
+Akari smiled.
+
+“I like helping.”
+
+“I know that too.”
+
+“Then what's the problem?”
+
+“Nothing. I just don't want you to end up doing everyone else's work.”
+
+Akari looked at the clipboard.
+
+She had written down six tasks that did not technically belong to her. She had also agreed to help two classmates after school and promised to check the equipment list before the weekend.
+
+It was a lot.
+
+But she liked the people asking.
+
+She liked knowing that someone could rely on her.
+
+“It's fine,” she said.
+
+Saki did not argue.
+
+Instead, she reached over and took the clipboard.
+
+“Then I'll handle the table request.”
+
+Akari blinked.
+
+“You don't have to.”
+
+“I know.”
+
+Saki smiled.
+
+“That's why I'm doing it.”
+
+Akari laughed.
+
+They finished the menu list together.
+
+When the committee room began to empty, Akari packed her things and checked her phone. Her mother had sent a message asking whether she would be home for dinner. Akari replied that she would.
+
+She looked at the time.
+
+There was still enough time to visit the library.
+
+The English passage was waiting.
+
+She did not want to think about it.
+
+She went anyway.
+
+At the library, she chose the table near the reference shelves. She read the same paragraph three times and still could not decide which sentence supported the answer.
+
+She wrote a note in the margin.
+
+*Read the question first.*
+
+Then she underlined it.
+
+She had heard that advice before.
+
+It had not become easier just because she knew it.
+
+Akari took a breath and started again.
+
+The answer was there somewhere.
+
+She only had to find it.
+
+---
+
 # Chapter Five — A Quiet Seat by the Window
 
 The library was the quietest place in the school, provided nobody had decided to whisper.
@@ -1763,6 +2361,8 @@ She used a mechanical pencil with a blue grip.
 It was not a particularly useful fact.
 
 He suspected he would forget it by tomorrow.
+
+---
 
 ---
 
@@ -1887,6 +2487,8 @@ She had been wrong.
 It happened more often than people thought.
 
 That was why she liked asking questions.
+
+---
 
 ---
 
@@ -2150,187 +2752,323 @@ He left the pencil mark.
 
 ---
 
-# Interlude I — A Different School Bell
+---
 
-Hoshimiya East High School had a different morning rhythm.
+# Interlude IV — A Page Out of Order
 
-The main building stood closer to the river than Hoshimiya Municipal High, and the path from the station passed a row of small shops that opened early. Students arrived in clusters, some carrying club equipment, others stopping at the bakery near the crossing. The bell rang five minutes earlier than the one at Itsuki's school.
+Mio Kanzaki liked small mysteries.
 
-Nanami knew this because she had once been late by exactly four minutes.
+Not the kind that required a detective agency or a dramatic confession. She preferred the ordinary ones: a book returned to the wrong shelf, a classroom window left open when everyone remembered closing it, a familiar umbrella that appeared in the lost-property box twice in one week.
 
-She had not repeated the mistake.
+Most of the time, the answer was simple.
 
-“Nanami!”
+That was part of the appeal.
 
-Yui waved from the bicycle racks.
+On a Wednesday afternoon, she found a library book on the return cart with a bookmark sticking out from the middle.
 
-Nanami hurried over, holding the strap of her bag.
+The bookmark was a narrow strip of pale green paper. Someone had written a date on it.
 
-“Morning.”
+April 18.
 
-“You're early.”
+Mio checked the borrowing label.
+
+The book had been returned two days late.
+
+She looked toward the library desk.
+
+“Did someone leave this?”
+
+The librarian glanced over.
+
+“Probably. You can put it in the lost-property tray.”
+
+Mio took the bookmark out and examined it.
+
+There was no name.
+
+She placed it beside the book and returned both to the desk.
+
+The next afternoon, the bookmark was gone.
+
+The book was still on the shelf.
+
+Mio noticed because she remembered the green paper.
+
+She checked the return cart. Nothing.
+
+Then she looked at the desk, where a small envelope had appeared beside the librarian's stamp.
+
+The envelope was pale green.
+
+Mio stared at it for a moment.
+
+She had an idea.
+
+She asked the librarian whether anyone had come looking for a lost bookmark.
+
+“A student from 2-A, I think,” the librarian said. “She left it in a book and came back yesterday.”
+
+Mio nodded.
+
+The mystery was solved.
+
+It was also less interesting than she had hoped.
+
+She returned to her seat near the window.
+
+Her phone vibrated.
+
+A message from her mother.
+
+*Your father and I will be late again. Dinner is in the refrigerator. There's fruit on the counter. Please remember to lock the balcony door.*
+
+Mio replied:
+
+*Okay. Have a good evening.*
+
+A second message arrived.
+
+*How was school?*
+
+Mio looked at the empty page in her notebook.
+
+*Normal. I found a lost bookmark.*
+
+Her mother sent a smiling face.
+
+*Good detective work.*
+
+Mio smiled faintly and put the phone away.
+
+Her parents were often busy. Their work schedules did not always match, and there were weeks when dinner was a matter of leaving food in the refrigerator and sending a message. They still asked about her day. They remembered her favourite tea. Her father had recently repaired the loose hinge on her desk drawer without being asked.
+
+She did not think of them as uncaring.
+
+She simply had a lot of time to herself.
+
+Sometimes that time became reading.
+
+Sometimes it became observation.
+
+Sometimes it became a puzzle.
+
+She opened her notebook and wrote:
+
+*The person who left the bookmark returned for it.*
+
+Then she crossed out the sentence.
+
+It was not a useful mystery.
+
+Outside, the badminton club was packing away its equipment. A student stood near the gate, looking through her bag. Another approached and held out a folded umbrella.
+
+Mio watched them.
+
+She thought the first student had forgotten the umbrella.
+
+Then the second student said something, and the first shook her head. They both laughed.
+
+Mio looked away.
+
+She had been wrong.
+
+It happened more often than people thought.
+
+That was why she liked asking questions.
+
+---
+
+---
+
+# Interlude VI — A Book for the Other School
+
+The old library near the east station had a blue sign and a narrow entrance.
+
+Nanami remembered the place as larger than it looked now. When she was younger, she had spent entire afternoons there with her father, choosing picture books and sitting at a low table near the window. The children's section had been moved to the back, but the shelves were still arranged in the same order.
+
+Itsuki arrived a few minutes after she did.
+
+“You're late,” Nanami said.
 
 “I'm on time.”
 
-“That's early for you.”
+“Dad's been here for ten minutes.”
 
-“I was always on time.”
+“Then I'm ten minutes late for Dad.”
 
-“You were late once.”
+Her father stood beside the entrance desk, holding a paper cup of coffee. He wore a dark jacket and carried a slim work bag. He looked composed, as usual, though his tie was loosened slightly.
 
-“One time.”
+“It'suki,” he said.
 
-“It was memorable.”
+“Hello.”
 
-“It was raining.”
+“Thank you for coming.”
 
-“You blamed the rain.”
+Nanami held up the folder.
 
-“It was raining.”
+“We brought the request.”
 
-Yui laughed and fell into step beside her.
+“Good. The librarian has already checked the list.”
 
-They were in different classes but had joined the library exchange committee together. Yui liked drawing and making displays. Nanami liked lists, schedules, and making sure the people who liked drawing remembered that glue had to dry before anyone moved the paper.
+They spoke with the librarian for a few minutes. The school wanted to borrow a small collection of picture books and local-history books for the reading corner. The library could lend them, provided the school completed the forms and returned everything by the end of the term.
 
-Their teacher had given them a small project: prepare a reading corner for a group of younger students who would visit the school library during the following month. They would borrow picture books from the old east-station library, arrange a few tables, and make a display about stories set in familiar places.
+Nanami asked several questions about the dates.
 
-Yui had already drawn a sketch of the display.
+Itsuki listened while their father checked the paperwork.
 
-It included a river, a train, a row of houses, and a cat sitting on a wall.
+“You've made a careful list,” he said to Nanami.
 
-Nanami had asked why the cat was there.
+“I had to. Yui keeps adding things.”
 
-“Because every town needs a cat,” Yui had said.
+“Is that the friend who draws?”
 
-Nanami had written *cat decoration — optional* on the supply list.
+“That's her.”
 
-Yui had crossed out *optional*.
-
-Now they walked toward the classroom, discussing whether the display should use blue paper or pale green.
-
-“Blue,” Yui said.
-
-“Green.”
-
-“Blue looks like the river.”
-
-“Green looks like the park.”
-
-“We can draw the river and the park.”
-
-“That means two colours.”
-
-“Exactly.”
-
-Nanami looked at her.
-
-“You're making the budget complicated.”
-
-“I'm making the display beautiful.”
-
-“Those are not the same thing.”
-
-Yui smiled.
-
-“You always say that.”
-
-“Because it's true.”
-
-They reached the classroom before the bell. Nanami placed her bag beside her desk and took out the folder. The supply list had grown to two pages. She checked the names of the students who had agreed to help and marked the tasks that still needed someone.
-
-Her friend leaned over.
-
-“You really like organising things.”
-
-“I like knowing what's supposed to happen.”
-
-“Same thing.”
-
-“Not exactly.”
-
-Yui looked at the page.
-
-“You put yourself down for the book return.”
-
-“Someone has to carry the boxes.”
-
-“I can do that.”
-
-“You're making the display.”
-
-“I can do both.”
-
-“You'll forget one.”
-
-Yui placed a hand over her chest.
-
-“That's hurtful.”
-
-“It's accurate.”
-
-They laughed.
-
-During lunch, Nanami received a message from her father.
-
-*How is the library project going? I spoke to the committee member at the east-station branch. They can lend you the picture books if your teacher sends the request this week.*
-
-Nanami typed back.
-
-*We have a list ready. I'll ask the teacher to send it.*
-
-A moment later, another message appeared.
-
-*Good. Are you coming home this weekend?*
-
-She looked at the screen.
-
-Her father's house was still her home. She knew that. Her room was there, her school books were there, and her father still remembered which foods she disliked. But the house had changed. Sometimes, when he had plans with his girlfriend, Nanami felt as if she were visiting a place where everyone else already knew what the evening would look like.
-
-It was not anyone's fault.
-
-That did not make it comfortable every time.
-
-She replied:
-
-*Maybe Saturday. I'll let you know.*
-
-Her father sent a simple thumbs-up.
-
-Nanami put the phone away.
-
-Yui returned with two cartons of milk.
-
-“Everything okay?”
-
-“Yeah.”
-
-“You look like you're doing maths.”
-
-“I'm thinking.”
-
-“That's worse.”
+“Then the display will probably look good.”
 
 Nanami smiled.
 
+After the paperwork was settled, the librarian led them to the children's section. Nanami moved along the shelves, checking titles against her list. Itsuki carried the empty crate. Their father helped the librarian identify which books were suitable for the younger students.
+
+At one point, Nanami found an old picture book she remembered.
+
+“This one.”
+
+Itsuki looked at the cover.
+
+A small illustration showed a train crossing a bridge beside a river.
+
+“You used to borrow that.”
+
+“I know.”
+
+“You made me read it.”
+
+“You liked it.”
+
+“I tolerated it.”
+
+“You asked for it twice.”
+
+“I was being polite.”
+
+Their father smiled.
+
+“I remember that. You both wanted the same book.”
+
+Nanami turned toward him.
+
+“See?”
+
+Itsuki lifted the crate.
+
+“Are we finished?”
+
+“Almost,” their father said.
+
+They checked out the books and carried them to the car. The crate was heavier than it looked. Itsuki took one side, their father the other.
+
+“You don't have to carry that,” the older man said.
+
 “It's fine.”
 
-Yui did not ask again. She sat beside her and began drawing the cat for the reading-corner display.
+“I know. I was only offering.”
 
-Nanami watched the pencil move.
+Itsuki adjusted his grip.
 
-The cat was wearing a tiny school cap.
+They placed the crate in the back seat.
 
-“That's not necessary,” she said.
+Their father looked at him.
 
-“It is now.”
+“How is school?”
 
-Nanami opened her notebook and added one more line to the supply list.
+“Normal.”
 
-*Small paper cat — one.*
+“Are the classes difficult?”
 
-She did not know whether the project would be good.
+“Not particularly.”
 
-But she was looking forward to it.
+“Have you thought about what you might do after graduation?”
+
+“Not yet.”
+
+His father nodded.
+
+“You don't need to decide everything immediately. But it may help to look at a few options before the year gets busy.”
+
+“I know.”
+
+“Good.”
+
+There was no lecture. No comparison with other students. No suggestion that Itsuki owed him a plan.
+
+Nanami came out of the library carrying the folder.
+
+“Are you two finished having a serious conversation?”
+
+“We weren't having one,” Itsuki said.
+
+“That's what makes it serious.”
+
+Their father laughed.
+
+They went to a small restaurant near the station for lunch. Nanami ordered a set meal. Itsuki chose soba. Their father checked his phone once, replied to a message, and put it away.
+
+For most of the meal, they talked about Nanami's project.
+
+She explained the reading-corner layout and Yui's insistence on including a paper cat. Their father asked whether the school needed any additional materials. Nanami said they had enough.
+
+When lunch was over, he paid.
+
+“You don't have to,” Itsuki said.
+
+“I invited you.”
+
+“I can pay for mine.”
+
+“I know.”
+
+Their father looked at him calmly.
+
+“Let me this time.”
+
+Itsuki did not argue.
+
+At the station, Nanami hugged their father goodbye. Itsuki bowed his head.
+
+“Take care,” the older man said.
+
+“You too.”
+
+“I'll call next week.”
+
+“Okay.”
+
+Their father watched them walk toward the ticket gates.
+
+Nanami was quiet until they reached the platform.
+
+“He still worries about you.”
+
+“I know.”
+
+“He asks about you when I'm there.”
+
+“I know.”
+
+She looked at him.
+
+“You could visit more.”
+
+Itsuki watched the train display.
+
+“I'll see.”
+
+Nanami did not push.
+
+The train arrived.
+
+They got on together.
 
 ---
 
@@ -2578,6 +3316,198 @@ Still, he found himself hoping he would remember to say yes when she asked.
 
 ---
 
+---
+
+# Interlude IX — Lunch on the Second Floor
+
+Ayane asked him on a Wednesday.
+
+“Would you like to have lunch together?”
+
+Itsuki looked up from his desk.
+
+Riko, who was sitting on the chair beside his, immediately became interested.
+
+“Together?” she repeated.
+
+Ayane glanced at her.
+
+“If that's okay.”
+
+“Of course,” Riko said. “I'm very supportive.”
+
+Itsuki looked at her.
+
+“You don't have to come.”
+
+“I wasn't invited.”
+
+“Then why are you answering?”
+
+“Because I'm supportive.”
+
+Ayane laughed.
+
+“Maybe another time, Riko.”
+
+Riko placed a hand over her heart.
+
+“Rejected by the committee.”
+
+Itsuki packed his lunch.
+
+Ayane waited near the classroom door. They went to the second-floor terrace, where a few students were eating beneath the shade of the overhang. The school had placed several benches there, but most were occupied.
+
+They found a quiet corner near the railing.
+
+The view was mostly rooftops and the sports field. A line of trees marked the edge of the school grounds. Beyond them, the station district rose in low buildings and signs.
+
+Ayane opened her lunch box.
+
+“I made too much rice.”
+
+“That's a common problem.”
+
+“Would you like some?”
+
+“I'm fine.”
+
+She smiled.
+
+“Still the same.”
+
+Itsuki looked at her.
+
+“Do you remember when we used to trade lunch?”
+
+“Sometimes.”
+
+“You always wanted the fried egg.”
+
+“You always wanted the pickled vegetables.”
+
+“Because you didn't like them.”
+
+“I didn't dislike them.”
+
+“You gave them to me every time.”
+
+“That was generosity.”
+
+Ayane laughed.
+
+The conversation moved more easily than it had during their first few days in the same class. They talked about teachers, classmates, and the new schedule. Ayane told him about a neighbourhood event her family helped organise. Itsuki told her about the library committee.
+
+“You chose the library?” she asked.
+
+“Yeah.”
+
+“That makes sense.”
+
+“Why?”
+
+“You always liked quiet places.”
+
+“I still do.”
+
+She nodded.
+
+“I thought so.”
+
+They ate for a while.
+
+A breeze moved across the terrace, lifting the corner of a napkin. Itsuki caught it before it fell.
+
+Ayane watched him.
+
+“You still notice small things.”
+
+“It's a napkin.”
+
+“You used to notice when I forgot things.”
+
+“You forgot things often.”
+
+“That's true.”
+
+She looked out toward the field.
+
+“I used to think you remembered everything.”
+
+“I don't.”
+
+“I know that now.”
+
+There was a small pause.
+
+Ayane closed her lunch box.
+
+“I don't want us to only talk about the past,” she said. “I like remembering it. But I don't want to make you feel like you have to be the person you were when we were children.”
+
+Itsuki looked at her.
+
+“I'm not.”
+
+“I know.”
+
+She smiled.
+
+“That's why I wanted to have lunch.”
+
+He considered that.
+
+“Then we can do it again.”
+
+Ayane's expression brightened.
+
+“Really?”
+
+“Unless you change your mind.”
+
+“I won't.”
+
+The bell rang.
+
+They gathered their things and returned to class.
+
+At the door, Ayane said, “Thanks for lunch.”
+
+“You brought your own.”
+
+“I meant the company.”
+
+Itsuki nodded.
+
+“Sure.”
+
+She went to her seat.
+
+Riko leaned over the back of her chair as he passed.
+
+“Supportive committee approves.”
+
+“Go to class.”
+
+“I'm already in class.”
+
+“Then be quiet.”
+
+Riko grinned.
+
+The afternoon lesson began.
+
+Itsuki opened his notebook.
+
+He had not expected lunch to feel different.
+
+It had not been especially exciting. They had eaten, talked, and returned to class.
+
+But the next time Ayane asked, he knew he would say yes without needing to think about it.
+
+---
+
+---
+
 # Chapter Eight — A Test with Too Many Questions
 
 The first English assessment of the year was scheduled for Friday.
@@ -2796,121 +3726,118 @@ And he had somewhere to be.
 
 ---
 
-# Interlude II — The Version Akari Knows
+---
 
-Akari Fujisaki liked the sound of a busy classroom.
+# Interlude VII — The Shape of an Explanation
 
-It meant people were talking. It meant someone had brought something to share, someone else had a story, and there was always a chance that a quiet corner would turn into a conversation if she crossed the room at the right moment.
+The study-support board was placed beside the classroom door.
 
-She liked being known.
+Itsuki had expected it to be a single sheet of paper.
 
-There was no secret resentment beneath it. She enjoyed meeting people, remembering names, and finding out what other classes were doing. She liked the way a school event could bring students together who might otherwise never speak.
+Instead, Mr. Hasegawa had given him a small section of the notice board and asked him to prepare an example that would help students understand how to answer reading questions.
 
-What she did not enjoy was being expected to know what everyone wanted.
+“You don't have to write a lesson,” the teacher had said. “Just show the steps you use.”
 
-That was a different kind of attention.
+Itsuki had spent twenty minutes deciding what those steps were.
 
-“Akari, can you check the menu again?”
+He eventually wrote four lines:
 
-She looked up from her notebook.
+1. Read the question first.
+2. Find the sentence that answers it.
+3. Check the sentence before and after.
+4. Explain the connection in your own words.
 
-Saki stood beside her desk, holding a printed sheet.
+Underneath, he added a short example from a passage about public transport.
 
-“Sure.”
+The board was not particularly attractive.
 
-“Do you think the prices are okay?”
+Riko examined it during the break.
 
-Akari read through the list.
+“Very exciting.”
 
-“Tea is fine. The juice might be a little expensive.”
+“Thank you.”
 
-“That's what I thought.”
+“Where's the mascot?”
 
-“We can lower it by ten yen.”
+“Rejected.”
 
-Saki nodded and made a note.
+“Oppression.”
 
-“Thanks.”
+Emi stopped beside them.
 
-Another classmate approached before Saki had taken two steps.
+“I think it's helpful,” she said.
 
-“Akari, do you know who has the spare tablecloths?”
+“That's because you read it,” Riko replied.
 
-“I think they're in the committee room. I'll ask.”
+Emi ignored her and looked at the example.
 
-“Could you?”
+“I always forget to check the sentence before.”
 
-“Of course.”
+“That's where the context usually is,” Itsuki said.
 
-The classmate thanked her and hurried away.
+“Could you explain this part?”
 
-Akari closed her notebook.
+He pointed to the paragraph.
 
-She had not been elected to anything. She had simply offered to help when the class started planning its festival activity. People tended to ask her questions because she usually knew who to ask next.
+“The question asks why the city changed the bus route. The answer isn't in one sentence. The first sentence gives the problem, and the next one explains the change. You need both.”
 
-She liked that.
+Emi read it again.
 
-She also sometimes wished someone else would make the decision.
+“Oh. I see.”
 
-After school, she went to the library.
+Riko leaned over.
 
-The English passage she had been working on was still open in her notebook. She had copied three sentences from the textbook and written their meanings underneath. The first two made sense. The third seemed to change direction halfway through.
+“So the answer is that the bus was lonely?”
 
-She read it again.
+“No,” Itsuki said.
 
-Then again.
+“That's what I got.”
 
-The words were familiar. She knew what each one meant. Together, they refused to become a sentence she could understand.
+“Then you should read it again.”
 
-Akari pressed her pencil against the page.
+She made a face.
 
-“Why?”
+Emi laughed.
 
-The librarian looked up.
+A few minutes later, Mr. Hasegawa came by to check the board.
 
-“Everything all right?”
+“Good work, Kurose.”
 
-“Sorry. Yes.”
+“It's simple.”
 
-She lowered her voice.
+“Simple is useful.”
 
-The problem was not that she disliked studying. She wanted to improve. She had a good memory for conversations, names, and small details. She could remember what a classmate had said weeks earlier and notice when a friend was having a difficult day.
+The teacher looked at Emi.
 
-But written passages did not always stay in her head.
+“Did it help?”
 
-She could read a paragraph and understand it, then reach the questions and forget which sentence had supported which answer. When she tried to memorise the structure, it became worse.
+“Yes. I understood the example.”
 
-She did not want to ask her friends for help again.
+“Good. That's what matters.”
 
-They were kind, but they had already spent time explaining the same things. Akari disliked feeling as if she were taking more than she gave.
+He moved on.
 
-Her phone vibrated.
+Itsuki returned to his seat.
 
-A message from her mother.
+Riko tapped the corner of the board.
 
-*Your father and I will be home late. There is food in the refrigerator. Don't wait for us.*
+“You know, if you keep doing things like this, people might start asking you for help.”
 
-Akari replied with a small heart.
+“That would be unfortunate.”
 
-She packed her books and left the library.
+“You could charge.”
 
-At home, the entrance hall was quiet. Her family's house was large enough that one person could move through it without seeing anyone else. The kitchen was clean. A vase of flowers stood on the dining table, replaced every few days by someone who knew what colours her mother liked.
+“Then nobody would ask.”
 
-Akari changed out of her uniform and returned to her room.
+“Exactly. A business plan.”
 
-On her desk was a brochure her parents had given her earlier in the month. It listed several universities and possible programmes. Her family had not demanded that she choose one immediately. They had asked her to think about the options and tell them what interested her.
+Itsuki looked at the board.
 
-They wanted her to have choices.
+He had not thought of it as anything worth noticing. He had simply written down the steps he used when a passage became confusing.
 
-Sometimes, that made it harder to admit that she did not know which one she wanted.
+But if it helped someone else, that was fine.
 
-She placed the brochure beneath her notebook.
-
-Then she opened the English passage again.
-
-She would understand it eventually.
-
-She always did, if she kept trying.
+He put the marker back in the tray.
 
 ---
 
@@ -3117,6 +4044,8 @@ Riko took it and slid into her seat.
 The joke had landed.
 
 The work was still hers.
+
+---
 
 ---
 
@@ -3418,6 +4347,8 @@ The school year continued.
 
 ---
 
+---
+
 # Chapter Ten — Before the Doors Open
 
 The final week of June arrived with a heat that seemed to have been waiting behind the calendar.
@@ -3712,6 +4643,8 @@ For once, he hoped the weather would stay clear.
 
 ---
 
+---
+
 # Chapter Eleven — The Morning Everyone Was Busy
 
 The festival opened at ten.
@@ -3957,6 +4890,8 @@ The noise from the main hall grew louder.
 He adjusted his glasses and headed toward the stairs.
 
 He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
 
 ---
 
@@ -4261,6 +5196,8 @@ And the photograph, taken just as they stepped through the corridor, showed only
 It was not a lie.
 
 It was simply not the truth.
+
+---
 
 ---
 
@@ -4708,6 +5645,8 @@ Then she drew a small line between them and left the rest of the page blank.
 
 ---
 
+---
+
 # Chapter Fourteen — The Simplest Explanation
 
 By Tuesday morning, the rumour had acquired a title.
@@ -5039,532 +5978,7 @@ But at least it was a different question.
 
 ---
 
-# Epilogue — The First Version
-
-Mio waited until Itsuki had left before opening her notebook again.
-
-He had not told her everything.
-
-He had explained the crowd bottleneck, the fallen papers, and the display board. He had described the side corridor and the replacement stand. He had not seemed interested in the photograph itself, except to say that it showed only the last part of the incident.
-
-That was useful.
-
-It meant the photograph was not the beginning of the story.
-
-Mio wrote down the sequence as he had described it.
-
-A practical problem in Akari's class.
-
-A damaged display stand.
-
-A crowded corridor.
-
-A minor loss of balance.
-
-A student from another class helping carry the board.
-
-A request to keep the incident quiet.
-
-She drew a line beneath the notes.
-
-The details were ordinary. That was what made the rumour strange. The story had grown larger without gaining anything reliable.
-
-She turned to a clean page.
-
-There were still questions.
-
-Who had taken the photograph?
-
-Who had seen the first part of the incident?
-
-Why had the accounts changed?
-
-And why had Akari been so quick to deny something that, according to Itsuki, had never been anything more than an awkward moment?
-
-Mio tapped the pencil against the paper.
-
-She could have asked Akari directly.
-
-She probably should have.
-
-But she wanted to understand the order in which the story had changed. If she asked too broadly, people would simply repeat what they had heard.
-
-She needed the first version.
-
-Outside, the last students were leaving the school. The light beyond the windows had turned soft and gold.
-
-Mio closed her notebook.
-
-The rumour itself was not important.
-
-At least, that was what she told herself.
-
-She was curious about the people inside it.
-
-And there was one person she had not yet understood.
-
-Kurose Itsuki.
-
-For the first time, she wrote his name at the top of a new page.
-
-**Investigation — Festival Rumour.**
-
-Then, beneath it:
-
-**Start with what actually happened.**
-
-## Consolidated continuity ledger
-
-- Story opens April 1, 2026. Nanami turns 16; Itsuki turns 18 on April 2, 2026.
-- Itsuki is in Class 3-B at Hoshimiya Municipal High School.
-- Riko is already Itsuki's friend and is in the same class; their teasing is familiar and platonic at the opening.
-- Ayane is also in Class 3-B. Their families remain close, while the teenagers have gradually drifted apart without a betrayal or dramatic falling-out.
-- Akari is genuinely sociable and popular. She and Itsuki have only brief, ordinary interactions before the festival incident.
-- Mio is observant but fallible. Before the rumour, she and Itsuki have exchanged only a few words in the library.
-- Nanami has her own school life, friend Yui, and a library-exchange responsibility at Hoshimiya East High School.
-- Itsuki's apartment is modest, maintained by him, and supported by his mother. The second husband remains a respectful, caring presence in his life.
-- Itsuki and Nanami are maternal half-siblings; all their affectionate scenes are clearly familial.
-- The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
-- The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
-- The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
-
-
-# Interlude V — The House He Doesn't Live In
-
-The envelope arrived on a Thursday.
-
-Itsuki found it in the mailbox downstairs, tucked between a supermarket flyer and a notice about the building's water inspection. His name was written on the front in his mother's handwriting.
-
-Inside was a school document he had forgotten to ask her to sign.
-
-There was also a note.
-
-*If you have time, come by this weekend. I made too much curry.*
-
-Itsuki read it twice.
-
-He could have signed the document himself. The form required a guardian's confirmation, not a special ceremony. He could also have asked his mother to meet him at the station.
-
-Instead, he sent a message.
-
-*I'll come by Saturday to pick it up.*
-
-Her reply arrived a few minutes later.
-
-*I'll be here.*
-
-The house looked the same when he arrived.
-
-The entryway was clean. A pair of shoes stood beside the cabinet, aligned with the wall. The living room curtains were open, and a small plant sat near the window. Itsuki could hear the television from the kitchen.
-
-His mother opened the door.
-
-“Thank you for coming.”
-
-“I needed the form.”
-
-“I know. Come in.”
-
-He removed his shoes and placed them beside the cabinet.
-
-His stepfather appeared from the living room.
-
-“Itsuki. Good to see you.”
-
-“Hello.”
-
-The man wore a pale shirt with the sleeves rolled to his elbows. He had been working at home, judging by the laptop on the table and the documents stacked beside it.
-
-“Would you like something to drink?”
-
-“No, thank you.”
-
-“There's tea.”
-
-“I'm fine.”
-
-The man nodded. He did not insist.
-
-His mother brought the envelope from the kitchen and handed it over.
-
-“I signed it. You only need to return it to school.”
-
-“Thanks.”
-
-“Have you eaten?”
-
-“Not yet.”
-
-“Then stay for lunch.”
-
-Itsuki glanced toward the kitchen.
-
-“I have food at home.”
-
-“You can eat here too.”
-
-“I don't want to trouble you.”
-
-His mother looked as if she wanted to say something else. The third husband spoke first.
-
-“There's enough for everyone. But if you have plans, that's fine.”
-
-Itsuki nodded.
-
-“Thank you.”
-
-He did not stay.
-
-At the door, his mother touched his sleeve.
-
-“You can come over whenever you want.”
-
-“I know.”
-
-“I mean it.”
-
-“I know.”
-
-She let go.
-
-The third husband stood a little behind her.
-
-“Take care on the way back.”
-
-“I will.”
-
-Outside, the air was cool. Itsuki walked toward the station with the signed form inside his bag.
-
-He did not dislike the house because it was unpleasant.
-
-That was the difficult part.
-
-The third husband was polite. He made an effort. He did not shout or demand that Itsuki call him anything. He simply kept trying to make the place feel like a home they all shared.
-
-Itsuki did not want that.
-
-He could be civil without pretending otherwise.
-
-At the crossing, his phone vibrated.
-
-A message from his mother.
-
-*I'm glad you came.*
-
-Itsuki looked at the screen for a moment.
-
-Then he typed:
-
-*Thanks for signing the form.*
-
-He put the phone away and waited for the light to change.
-
 ---
-
-# Interlude VI — A Book for the Other School
-
-The old library near the east station had a blue sign and a narrow entrance.
-
-Nanami remembered the place as larger than it looked now. When she was younger, she had spent entire afternoons there with her father, choosing picture books and sitting at a low table near the window. The children's section had been moved to the back, but the shelves were still arranged in the same order.
-
-Itsuki arrived a few minutes after she did.
-
-“You're late,” Nanami said.
-
-“I'm on time.”
-
-“Dad's been here for ten minutes.”
-
-“Then I'm ten minutes late for Dad.”
-
-Her father stood beside the entrance desk, holding a paper cup of coffee. He wore a dark jacket and carried a slim work bag. He looked composed, as usual, though his tie was loosened slightly.
-
-“It'suki,” he said.
-
-“Hello.”
-
-“Thank you for coming.”
-
-Nanami held up the folder.
-
-“We brought the request.”
-
-“Good. The librarian has already checked the list.”
-
-They spoke with the librarian for a few minutes. The school wanted to borrow a small collection of picture books and local-history books for the reading corner. The library could lend them, provided the school completed the forms and returned everything by the end of the term.
-
-Nanami asked several questions about the dates.
-
-Itsuki listened while their father checked the paperwork.
-
-“You've made a careful list,” he said to Nanami.
-
-“I had to. Yui keeps adding things.”
-
-“Is that the friend who draws?”
-
-“That's her.”
-
-“Then the display will probably look good.”
-
-Nanami smiled.
-
-After the paperwork was settled, the librarian led them to the children's section. Nanami moved along the shelves, checking titles against her list. Itsuki carried the empty crate. Their father helped the librarian identify which books were suitable for the younger students.
-
-At one point, Nanami found an old picture book she remembered.
-
-“This one.”
-
-Itsuki looked at the cover.
-
-A small illustration showed a train crossing a bridge beside a river.
-
-“You used to borrow that.”
-
-“I know.”
-
-“You made me read it.”
-
-“You liked it.”
-
-“I tolerated it.”
-
-“You asked for it twice.”
-
-“I was being polite.”
-
-Their father smiled.
-
-“I remember that. You both wanted the same book.”
-
-Nanami turned toward him.
-
-“See?”
-
-Itsuki lifted the crate.
-
-“Are we finished?”
-
-“Almost,” their father said.
-
-They checked out the books and carried them to the car. The crate was heavier than it looked. Itsuki took one side, their father the other.
-
-“You don't have to carry that,” the older man said.
-
-“It's fine.”
-
-“I know. I was only offering.”
-
-Itsuki adjusted his grip.
-
-They placed the crate in the back seat.
-
-Their father looked at him.
-
-“How is school?”
-
-“Normal.”
-
-“Are the classes difficult?”
-
-“Not particularly.”
-
-“Have you thought about what you might do after graduation?”
-
-“Not yet.”
-
-His father nodded.
-
-“You don't need to decide everything immediately. But it may help to look at a few options before the year gets busy.”
-
-“I know.”
-
-“Good.”
-
-There was no lecture. No comparison with other students. No suggestion that Itsuki owed him a plan.
-
-Nanami came out of the library carrying the folder.
-
-“Are you two finished having a serious conversation?”
-
-“We weren't having one,” Itsuki said.
-
-“That's what makes it serious.”
-
-Their father laughed.
-
-They went to a small restaurant near the station for lunch. Nanami ordered a set meal. Itsuki chose soba. Their father checked his phone once, replied to a message, and put it away.
-
-For most of the meal, they talked about Nanami's project.
-
-She explained the reading-corner layout and Yui's insistence on including a paper cat. Their father asked whether the school needed any additional materials. Nanami said they had enough.
-
-When lunch was over, he paid.
-
-“You don't have to,” Itsuki said.
-
-“I invited you.”
-
-“I can pay for mine.”
-
-“I know.”
-
-Their father looked at him calmly.
-
-“Let me this time.”
-
-Itsuki did not argue.
-
-At the station, Nanami hugged their father goodbye. Itsuki bowed his head.
-
-“Take care,” the older man said.
-
-“You too.”
-
-“I'll call next week.”
-
-“Okay.”
-
-Their father watched them walk toward the ticket gates.
-
-Nanami was quiet until they reached the platform.
-
-“He still worries about you.”
-
-“I know.”
-
-“He asks about you when I'm there.”
-
-“I know.”
-
-She looked at him.
-
-“You could visit more.”
-
-Itsuki watched the train display.
-
-“I'll see.”
-
-Nanami did not push.
-
-The train arrived.
-
-They got on together.
-
----
-
-# Interlude VII — The Shape of an Explanation
-
-The study-support board was placed beside the classroom door.
-
-Itsuki had expected it to be a single sheet of paper.
-
-Instead, Mr. Hasegawa had given him a small section of the notice board and asked him to prepare an example that would help students understand how to answer reading questions.
-
-“You don't have to write a lesson,” the teacher had said. “Just show the steps you use.”
-
-Itsuki had spent twenty minutes deciding what those steps were.
-
-He eventually wrote four lines:
-
-1. Read the question first.
-2. Find the sentence that answers it.
-3. Check the sentence before and after.
-4. Explain the connection in your own words.
-
-Underneath, he added a short example from a passage about public transport.
-
-The board was not particularly attractive.
-
-Riko examined it during the break.
-
-“Very exciting.”
-
-“Thank you.”
-
-“Where's the mascot?”
-
-“Rejected.”
-
-“Oppression.”
-
-Emi stopped beside them.
-
-“I think it's helpful,” she said.
-
-“That's because you read it,” Riko replied.
-
-Emi ignored her and looked at the example.
-
-“I always forget to check the sentence before.”
-
-“That's where the context usually is,” Itsuki said.
-
-“Could you explain this part?”
-
-He pointed to the paragraph.
-
-“The question asks why the city changed the bus route. The answer isn't in one sentence. The first sentence gives the problem, and the next one explains the change. You need both.”
-
-Emi read it again.
-
-“Oh. I see.”
-
-Riko leaned over.
-
-“So the answer is that the bus was lonely?”
-
-“No,” Itsuki said.
-
-“That's what I got.”
-
-“Then you should read it again.”
-
-She made a face.
-
-Emi laughed.
-
-A few minutes later, Mr. Hasegawa came by to check the board.
-
-“Good work, Kurose.”
-
-“It's simple.”
-
-“Simple is useful.”
-
-The teacher looked at Emi.
-
-“Did it help?”
-
-“Yes. I understood the example.”
-
-“Good. That's what matters.”
-
-He moved on.
-
-Itsuki returned to his seat.
-
-Riko tapped the corner of the board.
-
-“You know, if you keep doing things like this, people might start asking you for help.”
-
-“That would be unfortunate.”
-
-“You could charge.”
-
-“Then nobody would ask.”
-
-“Exactly. A business plan.”
-
-Itsuki looked at the board.
-
-He had not thought of it as anything worth noticing. He had simply written down the steps he used when a passage became confusing.
-
-But if it helped someone else, that was fine.
-
-He put the marker back in the tray.
-
-
 
 # Chapter Fifteen — The Account That Doesn't Match
 
@@ -5810,6 +6224,8 @@ But he kept thinking about what she had said.
 
 ---
 
+---
+
 # Chapter Sixteen — A Question Worth Answering
 
 Mio returned to the library the next afternoon.
@@ -6042,535 +6458,7 @@ But there was now someone asking a different question.
 
 And for the first time since the festival, Itsuki thought that perhaps he should answer it.
 
-
-
-# Interlude VIII — The Answer in the Margin
-
-Riko arrived at the library with a workbook and an expression of deep suspicion.
-
-Itsuki looked up from his notes.
-
-“What's wrong?”
-
-“Everything.”
-
-“Specific.”
-
-She dropped into the chair opposite him and placed the workbook on the table.
-
-“I need help.”
-
-Itsuki looked at the cover.
-
-“Mathematics?”
-
-“Don't say it like that.”
-
-“Like what?”
-
-“Like you're announcing a diagnosis.”
-
-He closed his notebook.
-
-“Which question?”
-
-Riko opened the workbook to a page marked with two sticky notes. Several problems had been attempted. Some had been crossed out. One had a small drawing of a skull beside it.
-
-“Question seven.”
-
-He read it.
-
-“It's not difficult.”
-
-Riko leaned back.
-
-“That's a cruel thing to say to someone asking for help.”
-
-“I didn't say it was easy.”
-
-“You said it wasn't difficult.”
-
-“Those are different.”
-
-“Not to me.”
-
-Itsuki turned the workbook toward himself.
-
-“First, what do you know?”
-
-“Very little.”
-
-“That's not useful.”
-
-“Then ask a better question.”
-
-He pointed to the first line.
-
-“What's the value they're asking you to find?”
-
-Riko read it.
-
-“The missing angle.”
-
-“Good. What information do they give you?”
-
-She scanned the diagram.
-
-“Two angles.”
-
-“And?”
-
-“A triangle.”
-
-“That's a start.”
-
-“It's a very triangular triangle.”
-
-He waited.
-
-Riko sighed and looked at the diagram again.
-
-“The angles add up to one hundred and eighty degrees.”
-
-“Right. So what do you do?”
-
-“Subtract the two we know.”
-
-“Exactly.”
-
-She wrote the equation.
-
-For a few minutes, the table was quiet. Riko worked through the numbers, stopping twice to check the diagram. Her first answer was wrong because she had copied one value incorrectly. The second was right.
-
-She looked at the page.
-
-“That's it?”
-
-“That's it.”
-
-“That's annoyingly simple.”
-
-“Most of the question is noticing what information matters.”
-
-Riko tapped the pencil against the workbook.
-
-“I hate when the answer is obvious after someone explains it.”
-
-“Then remember the explanation.”
-
-“That's even worse.”
-
-Itsuki returned the workbook.
-
-She did not close it.
-
-Instead, she turned to the next question.
-
-“Can you check this one too?”
-
-He nodded.
-
-They worked through three more problems. Riko made two mistakes, corrected one without help, and asked him to explain the other. Itsuki showed her where the diagram gave the necessary information.
-
-He did not solve every problem for her.
-
-That seemed to annoy her.
-
-It also seemed to help.
-
-When they finished, Riko closed the workbook.
-
-“I'm going to become a mathematician.”
-
-“That's unlikely.”
-
-“I'm going to become a mathematician who hates mathematics.”
-
-“More believable.”
-
-She smiled.
-
-“Thanks.”
-
-“Sure.”
-
-Riko packed her things, then paused.
-
-“Do you ever get tired of explaining things?”
-
-“Sometimes.”
-
-“Then why do it?”
-
-He considered the question.
-
-“Because you asked.”
-
-She looked at him for a moment.
-
-Then her usual grin returned.
-
-“That's almost nice.”
-
-“Don't tell anyone.”
-
-“Your secret is safe.”
-
-She stood and returned the workbook to her bag.
-
-At the door, she turned.
-
-“Same time next week?”
-
-“If I have time.”
-
-“Good. I'll assume yes.”
-
-“That's not what I said.”
-
-“It's close enough.”
-
-She left before he could correct her.
-
-Itsuki looked at the empty chair.
-
-He had planned to finish two pages of his own work.
-
-He had finished one.
-
-It was not an efficient afternoon.
-
-Still, Riko had left with a workbook she could actually use.
-
-He decided that was probably worth it.
-
 ---
-
-# Interlude IX — Lunch on the Second Floor
-
-Ayane asked him on a Wednesday.
-
-“Would you like to have lunch together?”
-
-Itsuki looked up from his desk.
-
-Riko, who was sitting on the chair beside his, immediately became interested.
-
-“Together?” she repeated.
-
-Ayane glanced at her.
-
-“If that's okay.”
-
-“Of course,” Riko said. “I'm very supportive.”
-
-Itsuki looked at her.
-
-“You don't have to come.”
-
-“I wasn't invited.”
-
-“Then why are you answering?”
-
-“Because I'm supportive.”
-
-Ayane laughed.
-
-“Maybe another time, Riko.”
-
-Riko placed a hand over her heart.
-
-“Rejected by the committee.”
-
-Itsuki packed his lunch.
-
-Ayane waited near the classroom door. They went to the second-floor terrace, where a few students were eating beneath the shade of the overhang. The school had placed several benches there, but most were occupied.
-
-They found a quiet corner near the railing.
-
-The view was mostly rooftops and the sports field. A line of trees marked the edge of the school grounds. Beyond them, the station district rose in low buildings and signs.
-
-Ayane opened her lunch box.
-
-“I made too much rice.”
-
-“That's a common problem.”
-
-“Would you like some?”
-
-“I'm fine.”
-
-She smiled.
-
-“Still the same.”
-
-Itsuki looked at her.
-
-“Do you remember when we used to trade lunch?”
-
-“Sometimes.”
-
-“You always wanted the fried egg.”
-
-“You always wanted the pickled vegetables.”
-
-“Because you didn't like them.”
-
-“I didn't dislike them.”
-
-“You gave them to me every time.”
-
-“That was generosity.”
-
-Ayane laughed.
-
-The conversation moved more easily than it had during their first few days in the same class. They talked about teachers, classmates, and the new schedule. Ayane told him about a neighbourhood event her family helped organise. Itsuki told her about the library committee.
-
-“You chose the library?” she asked.
-
-“Yeah.”
-
-“That makes sense.”
-
-“Why?”
-
-“You always liked quiet places.”
-
-“I still do.”
-
-She nodded.
-
-“I thought so.”
-
-They ate for a while.
-
-A breeze moved across the terrace, lifting the corner of a napkin. Itsuki caught it before it fell.
-
-Ayane watched him.
-
-“You still notice small things.”
-
-“It's a napkin.”
-
-“You used to notice when I forgot things.”
-
-“You forgot things often.”
-
-“That's true.”
-
-She looked out toward the field.
-
-“I used to think you remembered everything.”
-
-“I don't.”
-
-“I know that now.”
-
-There was a small pause.
-
-Ayane closed her lunch box.
-
-“I don't want us to only talk about the past,” she said. “I like remembering it. But I don't want to make you feel like you have to be the person you were when we were children.”
-
-Itsuki looked at her.
-
-“I'm not.”
-
-“I know.”
-
-She smiled.
-
-“That's why I wanted to have lunch.”
-
-He considered that.
-
-“Then we can do it again.”
-
-Ayane's expression brightened.
-
-“Really?”
-
-“Unless you change your mind.”
-
-“I won't.”
-
-The bell rang.
-
-They gathered their things and returned to class.
-
-At the door, Ayane said, “Thanks for lunch.”
-
-“You brought your own.”
-
-“I meant the company.”
-
-Itsuki nodded.
-
-“Sure.”
-
-She went to her seat.
-
-Riko leaned over the back of her chair as he passed.
-
-“Supportive committee approves.”
-
-“Go to class.”
-
-“I'm already in class.”
-
-“Then be quiet.”
-
-Riko grinned.
-
-The afternoon lesson began.
-
-Itsuki opened his notebook.
-
-He had not expected lunch to feel different.
-
-It had not been especially exciting. They had eaten, talked, and returned to class.
-
-But the next time Ayane asked, he knew he would say yes without needing to think about it.
-
----
-
-# Interlude X — A Room Full of Names
-
-Akari liked the festival committee room.
-
-It was crowded, usually too warm, and full of people who needed something. Someone was always looking for a form, a supply list, or a teacher who had apparently disappeared at the exact moment they were needed.
-
-She liked being useful.
-
-She also liked being the person people waved to when they entered.
-
-“Akari, can you check this?”
-
-She looked up from the clipboard.
-
-“Sure.”
-
-Saki placed a printed menu beside her.
-
-“We changed the drink prices. Does this look better?”
-
-Akari checked the numbers.
-
-“Yes. That's clearer.”
-
-“Good.”
-
-Saki pulled out a chair.
-
-“You've been here every day this week.”
-
-“So have you.”
-
-“I have an excuse. I'm in charge of the decorations.”
-
-“And I'm helping with the shared equipment.”
-
-“That's not an excuse. That's a trap.”
-
-Akari laughed.
-
-A student from another class appeared at the door.
-
-“Fujisaki, do you know if the committee has approved the extra table?”
-
-“I'll check.”
-
-“Thanks.”
-
-The student left.
-
-Saki watched Akari write a note.
-
-“You know you can say no.”
-
-Akari looked up.
-
-“I know.”
-
-“Do you?”
-
-“Yes.”
-
-Saki gave her a doubtful expression.
-
-Akari smiled.
-
-“I like helping.”
-
-“I know that too.”
-
-“Then what's the problem?”
-
-“Nothing. I just don't want you to end up doing everyone else's work.”
-
-Akari looked at the clipboard.
-
-She had written down six tasks that did not technically belong to her. She had also agreed to help two classmates after school and promised to check the equipment list before the weekend.
-
-It was a lot.
-
-But she liked the people asking.
-
-She liked knowing that someone could rely on her.
-
-“It's fine,” she said.
-
-Saki did not argue.
-
-Instead, she reached over and took the clipboard.
-
-“Then I'll handle the table request.”
-
-Akari blinked.
-
-“You don't have to.”
-
-“I know.”
-
-Saki smiled.
-
-“That's why I'm doing it.”
-
-Akari laughed.
-
-They finished the menu list together.
-
-When the committee room began to empty, Akari packed her things and checked her phone. Her mother had sent a message asking whether she would be home for dinner. Akari replied that she would.
-
-She looked at the time.
-
-There was still enough time to visit the library.
-
-The English passage was waiting.
-
-She did not want to think about it.
-
-She went anyway.
-
-At the library, she chose the table near the reference shelves. She read the same paragraph three times and still could not decide which sentence supported the answer.
-
-She wrote a note in the margin.
-
-*Read the question first.*
-
-Then she underlined it.
-
-She had heard that advice before.
-
-It had not become easier just because she knew it.
-
-Akari took a breath and started again.
-
-The answer was there somewhere.
-
-She only had to find it.
-
-
 
 # Chapter Seventeen — The Angle of a Photograph
 
@@ -6808,7 +6696,7 @@ He still wanted the rumour to disappear.
 
 But he no longer expected it to do so on its own.
 
-
+---
 
 # Chapter Eighteen — The Last Week of June
 
@@ -7122,3 +7010,93 @@ It was not a plan for the future.
 
 It was a start.
 
+---
+
+# Epilogue — The First Version
+
+Mio waited until Itsuki had left before opening her notebook again.
+
+He had not told her everything.
+
+He had explained the crowd bottleneck, the fallen papers, and the display board. He had described the side corridor and the replacement stand. He had not seemed interested in the photograph itself, except to say that it showed only the last part of the incident.
+
+That was useful.
+
+It meant the photograph was not the beginning of the story.
+
+Mio wrote down the sequence as he had described it.
+
+A practical problem in Akari's class.
+
+A damaged display stand.
+
+A crowded corridor.
+
+A minor loss of balance.
+
+A student from another class helping carry the board.
+
+A request to keep the incident quiet.
+
+She drew a line beneath the notes.
+
+The details were ordinary. That was what made the rumour strange. The story had grown larger without gaining anything reliable.
+
+She turned to a clean page.
+
+There were still questions.
+
+Who had taken the photograph?
+
+Who had seen the first part of the incident?
+
+Why had the accounts changed?
+
+And why had Akari been so quick to deny something that, according to Itsuki, had never been anything more than an awkward moment?
+
+Mio tapped the pencil against the paper.
+
+She could have asked Akari directly.
+
+She probably should have.
+
+But she wanted to understand the order in which the story had changed. If she asked too broadly, people would simply repeat what they had heard.
+
+She needed the first version.
+
+Outside, the last students were leaving the school. The light beyond the windows had turned soft and gold.
+
+Mio closed her notebook.
+
+The rumour itself was not important.
+
+At least, that was what she told herself.
+
+She was curious about the people inside it.
+
+And there was one person she had not yet understood.
+
+Kurose Itsuki.
+
+For the first time, she wrote his name at the top of a new page.
+
+**Investigation — Festival Rumour.**
+
+Then, beneath it:
+
+**Start with what actually happened.**
+
+## Consolidated continuity ledger
+
+- Story opens April 1, 2026. Nanami turns 16; Itsuki turns 18 on April 2, 2026.
+- Itsuki is in Class 3-B at Hoshimiya Municipal High School.
+- Riko is already Itsuki's friend and is in the same class; their teasing is familiar and platonic at the opening.
+- Ayane is also in Class 3-B. Their families remain close, while the teenagers have gradually drifted apart without a betrayal or dramatic falling-out.
+- Akari is genuinely sociable and popular. She and Itsuki have only brief, ordinary interactions before the festival incident.
+- Mio is observant but fallible. Before the rumour, she and Itsuki have exchanged only a few words in the library.
+- Nanami has her own school life, friend Yui, and a library-exchange responsibility at Hoshimiya East High School.
+- Itsuki's apartment is modest, maintained by him, and supported by his mother. The second husband remains a respectful, caring presence in his life.
+- Itsuki and Nanami are maternal half-siblings; all their affectionate scenes are clearly familial.
+- The mother's fabricated explanation for the second divorce has not been disclosed to Itsuki.
+- The festival rumour comes from partial witnesses and an out-of-context photograph, not a secret relationship or staged dating arrangement.
+- The current working timeline places the cultural festival in late June to preserve the fixed April–June Volume 1 period. The Story Bible's conflicting “early autumn” sentence remains flagged for owner confirmation.
