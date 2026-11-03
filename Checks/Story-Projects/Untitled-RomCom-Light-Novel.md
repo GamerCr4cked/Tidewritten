@@ -1,7 +1,7 @@
 # Original Light-Novel Project — Story Development File
 
 > **Working title:** Not decided  
-> **Project status:** Early concept development  
+> **Project status:** Core cast and major relationship foundations established; opening-arc development next  
 > **Continuity rule:** This document records owner-confirmed decisions and labels ideas that remain provisional. Do not silently turn open questions or illustrative examples into canon.
 
 This is the central planning record for the original Japanese high-school romantic-comedy light novel being developed for Tidewritten. It should be updated as decisions are made. The story is inspired by the broad genre mixture and multi-character romantic uncertainty the owner enjoys in works such as *Rent-A-Girlfriend*, but it must have its own premise, characters, scenes, dialogue, conflicts, and resolution. Do not copy another work's plot or character designs.
@@ -73,14 +73,24 @@ Do not write him as emotionless, universally competent, secretly perfect, or ind
 - He has no particular expectations for the year and is not actively seeking romance, popularity, or a dramatic school experience.
 - He has not seriously planned what he will do after graduation. He takes things day by day.
 
-### Not yet decided
+### Identity and visual design — established
 
-- Name and nickname.
-- Exact age, birthday, and class details beyond being a third-year high-school student.
-- Appearance, hairstyle, clothing, and other visual design.
+- **Name:** Itsuki Kurose (黒瀬 樹).
+- **School year:** Third-year high-school student.
+- **Build:** Lean, around average height.
+- **Hair:** Ash-black, layered, slightly messy, and long enough to extend below his ears. The sides partially cover his ears, with a soft fringe.
+- **Eyes:** Greyish-dark.
+- **Glasses:** Thin dark charcoal/black rounded-square frames, between circular and rectangular, with gently curved corners.
+- **Overall impression:** Reserved and a little distant at first glance, but not unfriendly.
+- He may absent-mindedly push his glasses back when thinking. Around people he trusts, he can sometimes adjust them with a straight face just before making a dry remark.
+
+### Still open
+
+- Exact age and birthday; class details beyond being a third-year student.
 - Hobbies, extracurricular activities, and wider friend group.
-- Exact reason and arrangements for living alone.
-- Long-term ambitions, post-graduation plans, and personal flaws beyond those already described.
+- Exact practical arrangements for living alone.
+- Long-term ambitions and post-graduation plans; he has not seriously planned these yet.
+- Additional flaws and personal history to reveal naturally through the story.
 
 ---
 
@@ -132,6 +142,7 @@ The biological father from the first marriage is remembered as a combination of 
 
 ### Younger sister — established
 
+- **Name:** Nanami Kurose (黒瀬 七海).
 - She is two years younger than her brother.
 - She attends a **different, nearby high school**.
 - She is in her **second year of high school**, while he is in his **third year**.
@@ -139,6 +150,10 @@ The biological father from the first marriage is remembered as a combination of 
 - She visits her brother at his apartment around two or three times a week.
 - Sometimes she stays for roughly two days or an entire weekend.
 - She has her own school life and should not exist solely as a device to introduce the protagonist's classmates.
+
+### Sister's visual design — established
+
+- **Appearance:** Long warm-brown hair and amber eyes; her overall appearance is gentle and sweet, which contrasts with her quick wit and sharp tongue.
 
 ### Sister's personality and sibling bond — established
 
@@ -201,13 +216,16 @@ Current concept:
 
 ## 5. The popular girl
 
-### Established concept
+### Identity and established concept
 
+- **Name:** Akari Fujisaki (藤崎 あかり).
+- **Appearance:** Long dark reddish-brown hair and soft rose-brown eyes; graceful overall appearance and a naturally friendly smile.
 - She is very popular at school and widely considered beautiful.
+- She genuinely enjoys socializing, having friends, and being part of the school's lively social environment; do not portray her as secretly resenting her popularity.
 - She is cheerful, sociable, expressive, and friendly.
-- She is one of the possible romantic heroines. She is also the **owner-confirmed eventual romantic partner** of the protagonist; this is an author-side continuity fact, not something to reveal or telegraph to readers early.
+- She is one of the genuine romantic possibilities in the story, but **she is not the eventual heroine**. Her connection with Itsuki must still be meaningful and fully developed; do not treat her as a disposable false lead.
 - She has academic difficulties despite making an effort. This does not mean she is unintelligent.
-- Her academic profile combines three traits: she is easily distracted, naturally carefree, and secretly hardworking.
+- Her academic profile is now more precisely established: she works hard and wants to improve, but struggles to understand certain subjects and retain what she studies. She is not lazy or careless.
 - She later asks the protagonist for tutoring after discovering that he is academically capable.
 - She knows who the protagonist is because they attend the same school, but before the festival incident she has paid little attention to him.
 - Her initial impression is that he is an ordinary, quiet, relatively unremarkable student. She may underestimate him or find him uninteresting at first; her view changes as she discovers his ability and personality.
@@ -218,12 +236,14 @@ Current concept:
 - She comes from a wealthy, well-known family.
 - Her family is warm and supportive; do not portray them as automatically cold, abusive, or controlling.
 - Her family's public profile creates pressure for her to maintain a particular image, which helps explain her sensitivity about school gossip and reputation.
+- Her family has a particular future in mind for her, but she is not yet sure whether she wants that future; the exact plan and career remain undecided.
+- She has a few close, trusted friends as well as a wider network across school, and she enjoys moving between different social groups.
 - Keep the supportive family dynamic and public-image pressure in balance rather than treating them as contradictory.
 
-### Not yet decided
+### Still open
 
-- Name, appearance, class, hobbies, ambitions, and private life.
-- Exact reason for her academic difficulties and what she wants to achieve.
+- Exact class, hobbies, ambitions, and private life.
+- The specific subjects/topics she struggles with and the precise goals she sets for herself.
 - The precise festival incident and the exact wording/spread of the rumour.
 - Why she chooses the protagonist as her tutor rather than someone else, beyond the established discovery of his academic ability and her desire for secrecy.
 - Her full emotional arc and the pacing of her romantic feelings.
@@ -233,9 +253,14 @@ Current concept:
 
 There are four important female characters in the planned central cast. They must have independent lives, personalities, motivations, and character arcs. They are not merely romantic options. Their chemistry with the protagonist should develop through believable shared experiences; avoid instant attraction and artificial competition.
 
-The following foundations are owner-confirmed. Names, visual designs, personal goals, and many scene-level details remain open for later development.
+The following foundations, names, and visual designs are owner-confirmed. Some personal goals, supporting relationships, and scene-level details remain open for later development.
 
-### Girl 2 — the rumour investigator / eventual close friend
+### Mio Kanzaki — the rumour investigator / eventual heroine
+
+#### Identity and visual design — established
+
+- **Name:** Mio Kanzaki (神崎 澪).
+- **Appearance:** Long midnight-blue hair and muted blue-grey eyes. Her style is understated, and her calm expression can make her difficult to read.
 
 #### Established foundation
 
@@ -246,17 +271,23 @@ The following foundations are owner-confirmed. Names, visual designs, personal g
 - Her parents are often busy, so she has learned to spend time alone and entertain herself. This is a busy-but-independent household, not an established claim that her parents are uncaring.
 - Her relationship with the protagonist develops into a quiet understanding. They do not need many words to feel comfortable around each other, and neither pressures the other to fill silences.
 - She becomes one of his closest and most dependable friends. Their calm friendship should feel distinct from the more energetic relationships around him.
+- The quiet understanding between them is central: she does not pressure him to speak, and he is comfortable sharing silence with her.
 - Her curiosity about the rumour is the starting point, not her entire personality or narrative purpose.
 
 #### Romantic and story direction
 
-- Her role is expected to emphasize close friendship more than romance, but she should not be reduced to a functional gossip investigator.
+- Her relationship with Itsuki begins with curiosity, develops through trust and friendship, and gradually becomes romantic. **Mio is the eventual heroine and endgame partner.** This is an author-side continuity fact: keep the outcome uncertain to readers until the relationship has earned it.
 - The wider romantic structure allows all four girls some genuine romantic possibility or ambiguity at points in the story. The timing and importance of her feelings, if any, remain open.
 - She may naturally notice and draw out the protagonist's sarcastic or playful side as their trust develops, without losing her reserved nature.
 
-Still open: name, visual design, personal goals, specific family details, and the exact progression of her relationship with the protagonist.
+Still open: her personal goals, specific family details, and the events that gradually deepen her relationship with Itsuki.
 
-### Girl 3 — the childhood friend
+### Ayane Fujimoto — the childhood friend
+
+#### Identity and visual design — established
+
+- **Name:** Ayane Fujimoto (藤本 彩音).
+- **Appearance:** Shoulder-length black hair, side-swept bangs, and reddish-brown eyes; her expression is generally warm.
 
 #### Established foundation
 
@@ -274,9 +305,14 @@ Still open: name, visual design, personal goals, specific family details, and th
 - Family gatherings and the long-standing connection between their households provide natural opportunities for interaction.
 - The exact reason they drifted apart is not yet decided. Do not invent a definitive cause as established canon.
 
-Still open: name, visual design, the specific cause of their gradual distance, personal goals, and the exact arc through which their friendship changes.
+Still open: the specific cause of their gradual distance, personal goals, and the exact arc through which their friendship changes.
 
-### Girl 4 — the teasing girl
+### Riko Tachibana — the teasing girl
+
+#### Identity and visual design — established
+
+- **Name:** Riko Tachibana (橘 莉子).
+- **Appearance:** Short caramel-brown hair and golden-brown eyes, with a cheeky grin and a lively, expressive presence.
 
 #### Established foundation
 
@@ -288,7 +324,9 @@ Still open: name, visual design, the specific cause of their gradual distance, p
 - At school she is a well-known troublemaker, recognized for her playful antics and tendency to get involved in amusing situations.
 - Her family is strict. At home, however, she is very well-behaved. Her family has no idea how mischievous she is at school and believes the well-behaved side they see at home.
 - Her academic performance is poor. Her playful nature often gets in the way of studying, and teachers regularly complain about her school performance. This does not mean she is unintelligent.
+- Her family has high expectations around her behaviour, studies, and responsibilities. She is genuinely well-behaved at home; the mischievous school side is not an act she puts on for her family.
 - She gradually develops genuine romantic feelings for the protagonist. At first she treats him as an ordinary close friend; the change in her feelings happens over time rather than being present from the start.
+- As her feelings grow, her usual confidence and teasing become less dependable when she has to deal with her own emotions.
 
 #### Relationship and story direction
 
@@ -298,7 +336,7 @@ Still open: name, visual design, the specific cause of their gradual distance, p
 - She must have motivations, relationships, and a life beyond teasing the protagonist or serving as a romantic option.
 - Her family must not discover her school reputation by default; any eventual discovery should be a deliberate story event, not an assumed fact.
 
-Still open: name, visual design, personal goals, the precise nature of her family expectations, and the events through which her romantic feelings develop.
+Still open: personal goals, the precise nature of her family expectations, and the events through which her romantic feelings develop.
 
 ---
 
@@ -313,7 +351,7 @@ Still open: name, visual design, personal goals, the precise nature of her famil
 - There should be no automatic instant attraction.
 - The different relationships should have distinct chemistry and emotional foundations.
 - The final romantic choice must be earned and make sense in hindsight.
-- The owner has privately confirmed that the popular girl from the festival rumour is the eventual heroine who wins the protagonist's heart. **Keep this as behind-the-scenes continuity, not an early reader-facing reveal.** Do not make the story obvious through disproportionate focus or contrived clues.
+- The owner has privately confirmed that **Mio Kanzaki, the rumour investigator, is the eventual heroine and endgame partner**. Akari Fujisaki, the popular girl from the festival rumour, is a major romantic possibility but is not the endgame. Keep Mio's eventual role as behind-the-scenes continuity, not an early reader-facing reveal.
 - All four girls should have some genuine romantic possibility, but their feelings, timing, and importance can differ. Do not force equal romantic weight merely to mislead readers. The uncertainty should come from well-developed, believable relationships.
 
 ### Broad pacing idea — provisional
@@ -325,7 +363,7 @@ A possible long-form progression discussed:
 - Later story: allow feelings and relationships to become more complicated, resolve personal conflicts, and make the eventual romantic direction emotionally convincing.
 - Ending: resolve the central relationships and major character threads with a complete conclusion.
 
-This is not a fixed volume-by-volume outline. The popular girl is the owner-confirmed eventual heroine, but that remains an author-side continuity fact rather than an early reader-facing reveal. The exact relationship progression, volume count, and ending scene have not been selected.
+This is not a fixed volume-by-volume outline. Mio is the owner-confirmed eventual heroine, but that remains an author-side continuity fact rather than an early reader-facing reveal. The exact relationship progression, volume count, and ending scene have not been selected.
 
 ---
 
@@ -358,23 +396,21 @@ These are project-level publishing considerations, not decisions about the plot:
 
 ## 10. Open development questions
 
-These are intentionally unresolved. Work through them gradually; ask the owner one focused question at a time rather than presenting a large questionnaire.
+The major cast identities and visual foundations are now established. The remaining questions are deliberately narrower and should be developed organically; do not interrupt the process with minor questionnaires. The assistant should invent ordinary supporting details, scene-level events, and connective tissue when drafting, while preserving the confirmed foundations.
 
 1. What is the working/final title?
-2. What is the protagonist's name, exact age, birthday, and visual design?
-3. Why does he live alone, and what are the practical family arrangements?
-4. What are the sister's name, exact age/birthday, and visual design?
-5. What was the mother's real reason for leaving her second husband, and how/when should that truth be revealed? What are the remaining details of her current household?
-6. What is the father's girlfriend like, and how does the sister feel about her?
-7. What exactly happens at the cultural festival to start the rumour?
-8. Why does the popular girl want the rumour contained?
-9. Why does she choose the protagonist as her tutor?
-10. What are the names, visual designs, and personal goals of all four girls?
-11. What exactly caused the childhood friend and protagonist to drift apart, and how will their long-standing family connection shape their renewed friendship?
-12. What are the protagonist's hobbies, interests, flaws, and post-graduation plans?
-13. What are the schools' names, locations, and recurring inter-school connections?
-14. What emotional events and relationship progression will make the popular girl's eventual pairing with the protagonist feel earned?
-15. What is the natural volume/chapter structure once the central plot and character arcs are developed?
+2. What are Itsuki's exact age and birthday, and what calendar details reconcile the siblings' stated age gap and school years?
+3. What are the practical/legal arrangements that allow Itsuki to live alone, and who supports the apartment financially?
+4. What was the mother's real reason for leaving her second husband, and how/when should that truth be revealed?
+5. What are the remaining details of the mother's current household, the third husband's history, and the second husband's girlfriend?
+6. What exactly happens at the cultural festival, what does each witness see, and why does Akari want the rumour contained?
+7. What academic subject or goal leads Akari to choose Itsuki as her private tutor, and how does the arrangement work?
+8. What caused Itsuki and Ayane to gradually drift apart?
+9. What are the schools' names, locations, and recurring inter-school connections?
+10. What personal goals and conflicts will shape each girl's independent arc, especially Mio's gradual movement from curiosity to trust, friendship, and love?
+11. What is the natural volume/chapter structure once the central plot and character arcs are developed?
+
+No further decisions are needed before the assistant can begin developing the opening outline and supporting cast.
 
 ---
 
@@ -388,10 +424,12 @@ These are intentionally unresolved. Work through them gradually; ask the owner o
 - The sister attends a different but nearby high school, is in second year while her brother is in third year, and their schools eventually connect.
 - The opening incident direction was chosen: a cultural-festival misunderstanding creates a secret-dating rumour, and attempts to deny it make things worse.
 - The popular girl later asks the protagonist for tutoring; the exact reason and logistics remain open.
-- The four-girl central cast and reader uncertainty are desired. The owner has privately confirmed that the popular girl from the festival rumour is the eventual heroine; this must remain hidden from readers during the early story.
+- The four-girl central cast and reader uncertainty are desired. The owner has privately confirmed that Mio Kanzaki, the rumour investigator, is the eventual heroine; Akari Fujisaki remains a major romantic possibility but is not the endgame. This must remain hidden from readers during the early story.
 - The childhood friend and protagonist were once very close but have drifted apart; the teasing girl combines mischievous playfulness with confidence and perceptiveness.
-- The popular girl comes from a warm, supportive, wealthy, well-known family and feels pressure to maintain her public image.
+- The popular girl, Akari Fujisaki, comes from a warm, supportive, wealthy, well-known family and feels pressure to maintain her public image.
 - The rumour investigator's foundation was clarified: reserved and mysterious, a low-profile observer with a quiet hobby of understanding people's behaviour; she comes from a busy but independent household and develops a quiet, dependable understanding with the protagonist.
+- The core cast's identities and visual designs were confirmed: Itsuki Kurose (ash-black hair extending below the ears, rounded-square dark glasses, greyish-dark eyes); Nanami Kurose (long warm-brown hair, amber eyes); Akari Fujisaki (long dark reddish-brown hair, rose-brown eyes); Mio Kanzaki (long midnight-blue hair, blue-grey eyes); Ayane Fujimoto (shoulder-length black hair, side-swept bangs, reddish-brown eyes); and Riko Tachibana (short caramel-brown hair, golden-brown eyes).
+- The heroine decision was explicitly corrected: Mio Kanzaki is the eventual heroine/endgame, not Akari. Akari remains a substantial romantic possibility. Keep this author-side fact hidden from readers until earned.
 - The childhood friend's foundation was established: she and the protagonist have known each other since early childhood, their families are exceptionally close, they gradually drifted apart after once being very close, she is warm but slightly awkward around him, and she has no previous romantic experience.
 - The teasing girl's foundation was established: she was already friends with the protagonist and approached him first; she is a school-known mischievous troublemaker but very well-behaved at home, where her strict family does not know her school reputation; she is a poor student and gradually develops genuine feelings for him. Her wider friend group is intentionally left flexible.
 - The story's tone is comedy-led with gradually deepening emotional material, built around unexpected connections, closeness, and growing up.
