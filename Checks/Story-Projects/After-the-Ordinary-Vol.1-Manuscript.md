@@ -3012,3 +3012,553 @@ He turned off the light.
 
 For once, he hoped the weather would stay clear.
 
+
+
+# Chapter Eleven — The Morning Everyone Was Busy
+
+The festival opened at ten.
+
+At 9:42, the class had already misplaced the price list.
+
+At 9:45, Riko found it beneath the prize table.
+
+At 9:47, Emi discovered that the printed menu had the wrong price for tea.
+
+At 9:50, Itsuki was asked to find another roll of tape.
+
+He found two.
+
+At 9:53, the teacher in charge inspected the room and reminded them that the emergency exit must remain clear.
+
+At 9:56, Riko moved the cardboard mascot three centimetres to the left.
+
+At 9:58, Itsuki moved it back.
+
+“Why?” she demanded.
+
+“Because it was blocking the sign.”
+
+“It's a mascot. It needs visibility.”
+
+“The sign needs visibility.”
+
+“It's a very competitive world.”
+
+At 10:00, the doors opened.
+
+Students and visitors began moving through the school. The first wave was mostly parents and younger siblings, followed by groups of students from nearby schools. The corridors filled with voices, footsteps, and the occasional announcement from the gymnasium.
+
+Itsuki took his place near the counter.
+
+His assigned task was to keep track of the supply box and answer questions about the display. He was not required to sell food, which suited him. Riko had volunteered for the counter because she liked talking to people. Emi managed the cash box. Ayane guided visitors through the photographs and explained where each image had been taken.
+
+For the first half hour, everything worked.
+
+The café served tea, juice, and a small selection of packaged snacks. The game corner attracted more people than expected, mostly because Riko had decided that the ring toss needed a dramatic commentary.
+
+“Three attempts,” she told a first-year student. “One chance to become a legend.”
+
+“It's a ring toss,” Itsuki said.
+
+“Don't undermine the legend.”
+
+The student laughed and tried again.
+
+A little after eleven, Itsuki saw Nanami near the entrance.
+
+She was accompanied by a girl with short hair and a bright yellow tote bag. Nanami wore a light blouse and a dark skirt, her warm-brown hair falling neatly over her shoulders. She looked around the room, found Itsuki, and raised a hand.
+
+He went to meet her.
+
+“You came.”
+
+“I said I would.”
+
+“People say things.”
+
+“People who don't keep their promises are unreliable.”
+
+The girl beside her bowed slightly.
+
+“Hello. I'm Yui.”
+
+“Itsuki.”
+
+“Nanami's told me about you.”
+
+Itsuki looked at his sister.
+
+Nanami smiled with suspicious innocence.
+
+“Only good things.”
+
+“That's unlikely.”
+
+Yui laughed.
+
+Nanami glanced around the room.
+
+“This is your class?”
+
+“Yeah.”
+
+“It's nice.”
+
+“Thanks.”
+
+“Where's the food?”
+
+“Counter.”
+
+“Then we're going there.”
+
+She walked off before he could answer.
+
+Yui gave him an apologetic smile and followed.
+
+At the counter, Riko greeted them with the enthusiasm of someone who had been waiting for new victims.
+
+“Welcome! What can I get you?”
+
+“Tea,” Nanami said.
+
+“Two,” Yui added.
+
+Riko looked at Itsuki.
+
+“Your sister?”
+
+“Unfortunately.”
+
+Nanami accepted the cups.
+
+“I'm his favourite person.”
+
+“That's not what he said.”
+
+“He doesn't say things.”
+
+Riko laughed.
+
+“Then I'll believe you.”
+
+Itsuki returned to the display.
+
+Nanami and Yui spent some time looking at the photographs. Ayane explained the river path and the old station entrance. Yui seemed especially interested in the picture of the shopping street during a summer event.
+
+“Is this the street near the east station?” she asked.
+
+“That's right,” Ayane said.
+
+“I go there sometimes. There's a bakery I like.”
+
+“Which one?”
+
+“The one with the strawberry cakes.”
+
+Nanami glanced toward Itsuki.
+
+“That's his favourite.”
+
+Itsuki looked at her.
+
+“Why are you telling people that?”
+
+“Because it's true.”
+
+Yui smiled. “I'll remember that.”
+
+“Please don't,” Itsuki said.
+
+The girls moved toward the game corner.
+
+For a while, the day was exactly what it was supposed to be: noisy, slightly disorganised, and full of small tasks. Itsuki restocked cups, answered questions, and helped a parent find the nearest restroom. Riko made a child laugh by pretending the ring toss had rejected his first attempt on artistic grounds. Ayane kept the display moving, making sure visitors did not crowd the entrance.
+
+Akari's class was on the same floor.
+
+Itsuki saw her several times through the open doorway of 3-A. She moved between the counter and the entrance, greeting visitors and helping her classmates. Her class had chosen a café theme as well, but theirs had a more elaborate menu and a set of decorative panels. Akari seemed comfortable in the middle of it all.
+
+At one point, she passed the 3-B doorway with a stack of paper cups.
+
+“Busy?” she asked.
+
+“Not too bad,” Itsuki said.
+
+“That's good. We're already out of the small plates.”
+
+“Good luck.”
+
+She smiled and continued down the corridor.
+
+Near noon, Nanami and Yui returned to the counter.
+
+“Your class is popular,” Nanami said.
+
+“It's a café.”
+
+“That's not an answer.”
+
+“It's the answer I have.”
+
+Yui looked toward the display.
+
+“Your sister's funny.”
+
+“She's aware.”
+
+Nanami took another cup of tea.
+
+“Are you coming to see our school activity next month?”
+
+“Maybe.”
+
+“That's not a yes.”
+
+“It's a realistic answer.”
+
+She narrowed her eyes.
+
+“I'm going to tell Dad you refused.”
+
+“He'll ask whether I have time.”
+
+“And what will you say?”
+
+“That I'll see.”
+
+Nanami sighed.
+
+“Both of you are impossible.”
+
+Yui laughed into her tea.
+
+They left after another few minutes. Nanami promised to send a message when they reached the station.
+
+Itsuki returned to his task.
+
+The afternoon grew busier. More visitors arrived, and the corridor outside the classrooms became crowded. The festival committee announced that the gym performance would begin in twenty minutes. Several classes started moving equipment at the same time.
+
+Emi asked Itsuki to take a spare extension cord to the committee room near the old home-economics area.
+
+“Can you bring this to the storage desk?” she said. “They've run out.”
+
+“Sure.”
+
+“Don't use the main stairs. They're busy.”
+
+He took the cord and left.
+
+The corridor near the storage rooms was quieter, though not empty. Students passed carrying signs, folded chairs, and boxes of supplies. A teacher stood near the corner, directing traffic toward the gym.
+
+Itsuki delivered the extension cord, signed the equipment sheet, and turned back.
+
+He had been away for less than ten minutes.
+
+The noise from the main hall grew louder.
+
+He adjusted his glasses and headed toward the stairs.
+
+He did not know that, a few metres away, Akari Fujisaki had just discovered that her class's replacement display board was missing.
+
+---
+
+# Chapter Twelve — The Corridor Between Crowds
+
+Akari had not planned to leave her class.
+
+She had planned to take the replacement menu board to the entrance, check that the sign stand was stable, and return before the next group of visitors arrived.
+
+The plan had been simple.
+
+Then the stand's lower support slipped.
+
+The board tilted, struck the edge of a nearby table, and slid sideways. Akari caught it before it fell, but the movement sent a stack of printed menus onto the floor.
+
+“Are you okay?” one of her classmates asked.
+
+“I'm fine. The board's fine.”
+
+The board was not fine. One corner had bent slightly, and the printed menu had come loose from its backing.
+
+Akari looked toward the entrance.
+
+The class had run out of spare stands. The committee room had another one, but the route was crowded. She asked a classmate to keep the counter running and carried the board toward the service corridor.
+
+She did not want to ask the teacher for help. The problem was small, and the teacher was already dealing with a sound-system issue in the gym.
+
+The corridor narrowed near the storage area.
+
+A group of students carrying folding chairs came through from the opposite direction. Akari stepped aside to let them pass. Someone behind her tried to move around a trolley, and the crowd compressed.
+
+The board caught against the wall.
+
+“Sorry,” she said, turning sideways.
+
+A student brushed past her shoulder. She shifted her grip, trying to keep the board from hitting anyone.
+
+The trolley moved again.
+
+One of its wheels caught against a raised strip of flooring. The person pushing it stopped suddenly. The students behind him did not.
+
+Akari's heel slipped.
+
+She caught the edge of the wall with her free hand. The board tilted, and a stack of menu sheets began sliding from beneath her arm.
+
+A hand caught the top corner.
+
+“Careful.”
+
+The voice was calm.
+
+Akari looked up.
+
+Kurose Itsuki.
+
+She recognised him from the other class. The quiet boy who had brought the updated schedule to the committee office. He was holding the board steady with one hand and gathering the loose sheets with the other.
+
+“Thanks,” she said.
+
+“Are you hurt?”
+
+“No. I just lost my footing.”
+
+The crowd moved around them.
+
+Itsuki looked toward the service corridor.
+
+“This way's blocked.”
+
+“I noticed.”
+
+“There should be another route through the side hall.”
+
+“I was trying to get there.”
+
+He nodded, as if that explained everything.
+
+The board was awkward to carry alone. Akari adjusted her grip, but the bent corner caught against the wall again.
+
+“I can take it,” Itsuki said.
+
+“It's okay. I can manage.”
+
+“You're holding the papers and the board.”
+
+“I'm aware.”
+
+He looked at the stack of menus, then at the corridor.
+
+“Which one do you want to drop?”
+
+Akari stared at him.
+
+Then she laughed once, despite herself.
+
+“The papers.”
+
+“Good choice.”
+
+He took the board.
+
+It was wider than it looked. Itsuki turned it carefully, keeping the bent corner away from the wall. Akari gathered the loose sheets and followed him toward the side hall.
+
+The corridor opened near the old music room. The crowd noise softened. A window stood open at the far end, letting in a warm breeze and the distant sound of the gym announcement.
+
+Akari stopped to straighten the papers.
+
+“Sorry,” she said. “I didn't mean to make you carry everything.”
+
+“It's fine.”
+
+“You were going somewhere.”
+
+“Back to my class.”
+
+“Then I interrupted you.”
+
+“I was already walking.”
+
+She looked at him, unsure whether he was being polite or simply stating a fact.
+
+His expression gave her no help.
+
+“Thanks,” she said again.
+
+He nodded.
+
+Akari checked the board. The corner had not bent further. The printed menu could be fixed with tape, and the stand could be replaced.
+
+“Could you hold this for a second?” she asked, offering him the papers.
+
+He took them.
+
+She crouched to retrieve a small roll of tape that had fallen from her bag. When she stood, the hallway seemed to tilt slightly—not from injury, but from the sudden rush of moving through the crowd and then stopping.
+
+Itsuki noticed.
+
+“Take a moment.”
+
+“I'm fine.”
+
+“I didn't say you weren't.”
+
+She looked at him.
+
+He was not smiling. He was not making a joke. He simply stood there, holding the papers, waiting for her to finish.
+
+Akari let out a breath.
+
+“Sorry. It's been a busy morning.”
+
+“Looks like it.”
+
+She adjusted the strap of her bag.
+
+“I'm Akari Fujisaki, by the way.”
+
+“I know.”
+
+“Right. Everyone knows everyone.”
+
+“Not everyone.”
+
+She smiled faintly.
+
+“You said that before.”
+
+“I did?”
+
+“At the committee office? Maybe not. I don't know.”
+
+Itsuki glanced at the board.
+
+“Should we get this to the stand?”
+
+“Yes. Thank you.”
+
+They walked toward the service entrance.
+
+At the far end of the corridor, two students from another class came around the corner. One was carrying a tray of paper cups. The other held a camera, apparently taking pictures for the school festival page.
+
+They saw Akari and Itsuki approaching together.
+
+The student with the tray slowed.
+
+“Fujisaki?”
+
+Akari turned.
+
+“Oh—hi.”
+
+The student looked at the board in Itsuki's hands, then at the papers Akari was carrying.
+
+“Are you moving the display?”
+
+“Just fixing the stand.”
+
+“Okay.”
+
+The camera lifted briefly.
+
+Itsuki did not notice.
+
+Akari did.
+
+She lowered her eyes and continued walking.
+
+The side entrance opened into a small covered passage between buildings. The replacement stand was stored against the wall. Itsuki set the board down while Akari checked the support.
+
+“That's better,” she said.
+
+“Good.”
+
+She taped the loose menu sheets back into place.
+
+“I'm sorry I dragged you into this.”
+
+“You didn't.”
+
+“You were helping.”
+
+“That's usually how it works.”
+
+Akari looked up.
+
+Then she laughed.
+
+It was not a loud laugh, but it was genuine.
+
+“Fair enough.”
+
+She picked up the board.
+
+Itsuki handed over the papers.
+
+“Do you need help carrying it back?”
+
+“No. I can manage now.”
+
+He nodded.
+
+“Then I'll go.”
+
+“Wait.”
+
+He stopped.
+
+Akari looked toward the main corridor, where the crowd was still moving.
+
+“Could you keep this quiet?”
+
+Itsuki glanced at her.
+
+“Keep what quiet?”
+
+“The whole thing. I don't want people making a story out of a broken sign and a crowded hallway.”
+
+He considered that.
+
+“Why would they?”
+
+Akari gave him a look.
+
+“You'd be surprised.”
+
+“I suppose.”
+
+“It's not a big deal. I just don't want it becoming one.”
+
+“Okay.”
+
+She seemed relieved.
+
+“Thank you.”
+
+Itsuki adjusted the strap of his bag.
+
+“Good luck with the festival.”
+
+“You too.”
+
+He left through the side corridor.
+
+Akari watched him go for a moment, then turned back toward her class.
+
+The incident had taken less than ten minutes.
+
+It should have been forgotten by the time the festival ended.
+
+But the two students with the camera had already started comparing what they had seen.
+
+One remembered Akari standing close to a boy from another class.
+
+The other remembered the board in his hands.
+
+Neither had seen the crowd, the slipping trolley, or the loose papers.
+
+And the photograph, taken just as they stepped through the corridor, showed only the two of them walking side by side.
+
+It was not a lie.
+
+It was simply not the truth.
+
