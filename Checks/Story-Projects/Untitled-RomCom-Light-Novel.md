@@ -392,7 +392,7 @@ The tutoring is a meaningful strand of Volume 2 and the early middle of the seri
 
 **Purpose:** Bring family and future into the foreground without abandoning comedy or school life.
 
-- Itsuki's birthday falls just after the opening of the school year in April. The small birthday moment is understated and character-led, not a grand symbolic event.
+- Itsuki's 18th birthday falls on April 2, the day after the opening. Keep the small birthday moment understated and character-led, not a grand symbolic event.
 - Graduation and post-school plans become unavoidable. Itsuki has to confront the fact that not choosing a future is itself a choice.
 - Nanami's discomfort with the changed family arrangement becomes more visible. Itsuki supports her while recognising that he cannot solve every feeling for her.
 - The second husband's new relationship is handled with maturity. Nanami can accept his girlfriend without instantly considering her family.
