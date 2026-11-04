@@ -1,6 +1,6 @@
 # Tidewritten — TODO
 
-_Last reviewed: 2026-11-03_
+_Last reviewed: 2026-11-04_
 
 This is the current roadmap and concise completion record. Detailed technical conventions live in [Notes.md](Notes.md), and the root [Instructions.txt](../Instructions.txt) defines the project workflow.
 
@@ -191,6 +191,7 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 20. Established project notes, QA records, and a maintained roadmap.
 21. Completed Phase 5 story presentation: 17 canonical volume covers are present and assigned; shared reader/Library fallbacks and localized metadata are integrated.
 22. Completed source/build and owner-reported presentation checks. The owner confirmed on 2026-11-01 that all 17 covers and the complete presentation work on the live site.
+23. Migrated the canonical public domain to `https://tidewritten.gcr4cked.dpdns.org/`; retained `https://www.tidewritten.gcr4cked.dpdns.org/` as the alternate hostname. The existing root `CNAME` already matched the primary hostname; `_config.yml`, the root redirect's canonical URL, and project instructions/notes were aligned with it.
 
 ## Verification record
 
