@@ -90,7 +90,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Direct visits to translation pages should normalize to the canonical English story URL while retaining the selected language view, as implemented.
 - Only expose language choices that actually exist for the current story/volume.
 
-## 6. Reader experience and visual design
+## 7. Reader experience and visual design
 
 - Preserve Tidewritten's cyan/aquatic visual identity and established design language.
 - Keep story text as the primary focus; do not introduce chat-bubble presentation or character-detail cards.
@@ -138,7 +138,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Apply the explicit standalone/final-volume/known-complete-count rules above; otherwise display “Status not set”.
 - Keep Recently Updated disabled while no trustworthy `content_updated` metadata exists. Never use bulk commit timestamps as story-update dates.
 
-## 7. Page titles, navigation, chapter titles, and links
+## 8. Page titles, navigation, chapter titles, and links
 
 - Browser document titles use the format `Page Name | Tidewritten` across standard pages and story-reader pages.
 - Keep page front-matter titles as the page name only; the shared layout appends the site name exactly once.
@@ -151,7 +151,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Preserve canonical /book/... story routes and verify internal links affected by a change.
 - The root redirect and generated homepage are separate responsibilities: index.html redirects / to /home/, while index.md generates /home/. Do not remove either without proving its role is replaced.
 
-## 8. GitHub and implementation workflow
+## 9. GitHub and implementation workflow
 
 1. Fetch the latest target-branch version of every file before editing; do not rely on stale copies.
 2. Make the smallest coherent change and leave unrelated user work untouched.
@@ -163,7 +163,7 @@ The reader associates editions by the common filename base, with translation_of 
 8. A successful build does not prove visual correctness. Distinguish source-level inspection, automated build, owner-reported browser QA, and independently performed browser QA.
 9. Do not invent commit hashes, PR status, workflow results, or test outcomes.
 
-## 9. QA acceptance criteria
+## 10. QA acceptance criteria
 
 ### Story and translation changes
 
@@ -184,7 +184,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Relevant Jekyll/GitHub Pages workflow is successful and its result is recorded.
 - Rendered-browser QA is recorded separately from source inspection and build status.
 
-## 10. TODO maintenance and reporting
+## 11. TODO maintenance and reporting
 
 - Checks/TODO.md is the current action list, not a chronological transcript of every task.
 - Keep completed work in a concise completion summary or a dedicated audit report; remove stale unchecked items when a later verified completion supersedes them.
@@ -193,7 +193,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Every task report should identify files inspected/changed, what was archived or retained if cleanup was requested, verification performed, unresolved checks, and relevant PR/workflow links.
 - State explicitly when browser testing was owner-reported or unavailable.
 
-## 11. Reading statistics (Phase 4)
+## 12. Reading statistics (Phase 4)
 
 - Store statistics separately under `tidewritten-reading-stats-v1`; do not mix them with reader appearance, theme, language, reading-position, or recent-history keys.
 - Statistics record version 2 contains aggregate active reading milliseconds, local-calendar-day activity totals, completed chapter records grouped by canonical volume path, completed-volume records, and per-chapter active reading milliseconds.
@@ -206,7 +206,7 @@ The reader associates editions by the common filename base, with translation_of 
 - The statistics dashboard explains these rules and provides a dedicated clear action. Do not present this as cross-device or account-synced data.
 
 
-## 12. Story presentation (Phase 5)
+## 13. Story presentation (Phase 5)
 
 - Follow the consolidated cover and illustration standards in Section 14 below for dimensions, asset paths, front matter, localization, accessibility, and verification.
 - Extend the existing CSS-built Library series art as a graceful fallback; do not create a second Library or separate translation cards.
@@ -222,7 +222,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Do not mark any Phase 5 feature complete until the shared rendering, fallback behaviour, asset checks, canonical navigation, language switching, accessibility, responsive layout, and required browser QA are verified.
 
 
-## 13. Current design-system reference
+## 14. Current design-system reference
 
 The shared site stylesheet is `assets/css/style.css`. Use existing CSS custom properties rather than introducing competing palettes.
 
@@ -243,7 +243,7 @@ The site shell uses DM Sans, Manrope, Inter, Playfair Display, and JetBrains Mon
 
 Use centered content columns, responsive side padding, consistent spacing, restrained radii/borders, clear keyboard focus, semantic landmarks, accessible names, sufficient contrast, and reduced-motion support. Practical minimum touch-target size is 44px where possible. Verify desktop, tablet, narrow mobile, and both themes when affected. Keep story text unobstructed.
 
-## 14. Story presentation and artwork standards
+## 15. Story presentation and artwork standards
 
 - The Library remains one card per canonical series. Its card uses the first available canonical volume cover; translations never become separate cards or volumes.
 - Multi-volume series retain the volume chooser with per-volume thumbnails; single-volume series open directly.
@@ -261,7 +261,7 @@ Use centered content columns, responsive side padding, consistent spacing, restr
 - Meaningful images need accurate localized alt text; decorative images use empty alt text. Essential text must not exist only inside an image. Use semantic figure/figcaption where appropriate and lazy-load below-the-fold illustrations.
 - Do not change canonical routes, chapter IDs, translation mappings, reading position, or reader preference keys when changing presentation.
 
-## 15. Current repository and verified project status
+## 16. Current repository and verified project status
 
 - Canonical English catalogue: 17 volumes across 10 series.
 - Published editions: 17 English, 17 Hinglish, and 17 Banglish story files (51 story/edition pages total).
@@ -274,7 +274,7 @@ Use centered content columns, responsive side padding, consistent spacing, restr
 - Optional illustration assets are not currently published; illustration support remains optional.
 - Detailed historical audit records are retained under `bin/Checks/` after the documentation consolidation. The only active Markdown files in `Checks/` are `TODO.md` and `Notes.md`.
 
-## 16. Documentation and cleanup policy
+## 17. Documentation and cleanup policy
 
 - `Checks/Notes.md` is the authoritative current rules and technical reference. `Checks/TODO.md` is the concise active roadmap and completion summary.
 - Keep only `Checks/TODO.md` and `Checks/Notes.md` as active Markdown documents directly inside `Checks/`. During an explicitly requested cleanup, archive other obsolete/superseded `.md` documents under `bin/Checks/`, preserving their relative paths.
@@ -284,7 +284,7 @@ Use centered content columns, responsive side padding, consistent spacing, restr
 - The repository is authoritative over conversation memory. Fetch latest files and branch state before editing; preserve owner changes; use a focused branch and PR.
 - **Default PR policy:** create a PR for substantial changes, review the complete diff, run the relevant checks/build/workflow, and merge it once those checks pass. The owner has explicitly delegated routine PR merging; do not wait for a separate approval or ask whether to merge.
 - Pause instead of merging only when the change is destructive/irreversible, materially ambiguous, has failing or unavailable required checks that cannot be responsibly assessed, or presents a security, privacy, or legal risk requiring owner direction.
-## 17. Personal Reading Experience (Phase 7)
+## 18. Personal Reading Experience (Phase 7)
 
 Phase 7 groups three owner-approved workstreams: Personal Bookshelf, Library improvements, and story presentation improvements.
 
