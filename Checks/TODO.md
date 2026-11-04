@@ -27,6 +27,15 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 **Current Volume 1 work:** The complete English narrative is now formatted as the canonical reader page at `stories/After-the-Ordinary-Vol.1-English.html` on branch `writing/after-the-ordinary-vol1` (18 core chapters, Prologue, Epilogue, 9 interludes, 5 side scenes; approximately 30,653 words of prose). The Markdown working manuscript remains at `Checks/Story-Projects/After-the-Ordinary-Vol.1-Manuscript.md` as the editorial source. The HTML conversion has passed source-structure checks; final editorial and continuity revision remains pending. The festival-timeline conflict is resolved: the owner confirmed late June on 2026-11-03, and the Story Bible now records late June as canon. Volume 1 remains April–June. The owner explicitly directed publication of Volume 1 on 2026-11-03. The canonical English page is published at `/book/After-the-Ordinary-Vol.1/`. GitHub Pages build and deployment succeeded for merge commit `7a024568df2e3e8e012ec3ce40d0c13699d8971d` (workflow run [#521](https://github.com/GamerCr4cked/Tidewritten/actions/runs/41662407519)). The separate editorial and continuity revision remains outstanding and has not been marked complete. No translations have been created.
 
+## After the Ordinary — Volume 2
+
+- [x] Create the canonical English HTML reader page at `stories/After-the-Ordinary-Vol.2-English.html` on branch `writing/after-the-ordinary-vol2`, with the canonical route `/book/After-the-Ordinary-Vol.2/`.
+- [ ] Complete editorial and continuity revision of the Volume 2 manuscript before translation work. Confirm the July–September timeline, Volume 1 continuity, chapter-to-chapter transitions, and the balance of the ensemble cast.
+- [ ] Review the manuscript's final length and chapter development against the intended light-novel volume standard.
+- [ ] After the English manuscript is reviewed and approved, plan any requested translations in two-chapter batches. No Volume 2 translations have been created.
+
+**Current Volume 2 draft:** The HTML manuscript contains a Prologue, 18 chapters, 3 interludes, and an Epilogue. It follows the approved outline and begins on July 1 immediately after Volume 1's late-June ending. Itsuki remains the primary viewpoint; Nanami and Itsuki are written strictly as siblings. The draft is a first manuscript, not yet editorially approved or translated.
+
 ## Active roadmap
 
 ## Phase 7 — Personal Reading Experience
