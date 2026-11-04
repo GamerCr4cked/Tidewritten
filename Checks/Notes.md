@@ -1,10 +1,18 @@
 # Tidewritten — Project Notes & Working Rules
 
-_Last updated: 2026-11-02_
+_Last updated: 2026-11-04_
 
 This is the reference for maintaining Tidewritten. A newer, explicit task-specific instruction from the site owner takes precedence for that task. The current action list lives in [TODO.md](TODO.md); detailed QA evidence belongs in the dedicated reports.
 
-## 1. Project overview and source-of-truth paths
+## 1. Canonical website domain
+
+- Primary public URL: `https://tidewritten.gcr4cked.dpdns.org/`.
+- Alternate `www` address: `https://www.tidewritten.gcr4cked.dpdns.org/`; the primary canonical hostname remains `tidewritten.gcr4cked.dpdns.org`.
+- GitHub Pages custom domain is stored in the root `CNAME` file and must remain aligned with the primary hostname.
+- Keep `url` in `_config.yml` and the absolute canonical URL in the root `index.html` aligned with the primary origin.
+- Prefer Jekyll `relative_url` for internal links so future domain changes do not require rewriting story routes or internal navigation.
+
+## 2. Project overview and source-of-truth paths
 
 | Path | Purpose |
 |---|---|
@@ -21,7 +29,7 @@ The Library is series-based. It lists canonical English series/volume entries, n
 
 The shared reader is _layouts/light-novel.html. When a problem affects multiple story pages, inspect the shared layout and its assets before editing individual story files.
 
-## 2. Protected folders and cleanup/archive policy
+## 3. Protected folders and cleanup/archive policy
 
 - During ordinary development, do not inspect, edit, rename, move, delete, or otherwise use anything under bin/.
 - During an explicitly requested repository-cleanup task, bin/ may be used **only as an archive destination** for files verified to be obsolete or unused.
@@ -31,7 +39,7 @@ The shared reader is _layouts/light-novel.html. When a problem affects multiple 
 - If a candidate's purpose or references are uncertain, leave it in place and document the uncertainty.
 - Archived files are not a source of truth for active story prose, translation audits, or new website content.
 
-## 3. Story content and HTML formatting
+## 4. Story content and HTML formatting
 
 - Preserve story wording, punctuation, spelling, names, language, chapter titles, and authorial intent unless the owner explicitly requests a content edit or translation.
 - A formatting-only task must not paraphrase, shorten, invent, or delete story prose.
@@ -43,7 +51,7 @@ The shared reader is _layouts/light-novel.html. When a problem affects multiple 
 - Do not force translated paragraph counts to match the English source mechanically. Compare scene sequence, dialogue turns, and meaning; language-specific paragraph grouping may be legitimate.
 - After formatting changes, inspect both source markup and the rendered reader. Source inspection alone does not establish visual correctness.
 
-## 4. Translation language, workflow, and naming
+## 5. Translation language, workflow, and naming
 
 ### Language and translation style
 
@@ -82,7 +90,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Direct visits to translation pages should normalize to the canonical English story URL while retaining the selected language view, as implemented.
 - Only expose language choices that actually exist for the current story/volume.
 
-## 5. Reader experience and visual design
+## 6. Reader experience and visual design
 
 - Preserve Tidewritten's cyan/aquatic visual identity and established design language.
 - Keep story text as the primary focus; do not introduce chat-bubble presentation or character-detail cards.
