@@ -1,7 +1,7 @@
 title: Tidewritten
 description: An independent light-novel catalogue and reading site, organized by series and volume.
 baseurl: ""
-url: "https://tidewritten.gc.run.place"
+url: "https://tidewritten.gcr4cked.dpdns.org"
 markdown: kramdown
 kramdown:
   input: GFM
