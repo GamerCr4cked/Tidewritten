@@ -3,7 +3,7 @@ Last updated: 2026-11-01
 
 PROJECT
 - Repository: GamerCr4cked/Tidewritten
-- Website: https://tidewritten.gc.run.place/
+- Website: https://tidewritten.gcr4cked.dpdns.org/
 - Default branch: main
 - Current source of truth: latest repository state, especially Checks/Notes.md and Checks/TODO.md.
 - This file is the assistant's project entry point. Detailed and current technical rules belong in Checks/Notes.md; current tasks belong in Checks/TODO.md.
