@@ -36,6 +36,17 @@ Estimated effort: approximately **5–9 focused development days**, plus owner r
 
 **Current Volume 2 draft:** The HTML manuscript contains a Prologue, 18 chapters, 3 interludes, and an Epilogue. It follows the approved outline and begins on July 1 immediately after Volume 1's late-June ending. Itsuki remains the primary viewpoint; Nanami and Itsuki are written strictly as siblings. The draft is a first manuscript, not yet editorially approved or translated.
 
+## After the Ordinary — Volumes 3–5 and series navigation
+
+- [x] Add the canonical English Volume 3, **The Things We Didn't Say**, at `/book/After-the-Ordinary-Vol.3/` (Prologue, 21 chapters, 4 interludes, Epilogue).
+- [x] Add the canonical English Volume 4, **The Distance Between Yesterday and Tomorrow**, at `/book/After-the-Ordinary-Vol.4/` (Prologue, 20 chapters, 4 interludes, Epilogue); merged through PR [#88](https://github.com/GamerCr4cked/Tidewritten/pull/88).
+- [x] Add the canonical English Volume 5, **Before the Ordinary Ends**, at `/book/After-the-Ordinary-Vol.5/` (Prologue, 18 chapters, 3 interludes, spring Epilogue); merged through PR [#89](https://github.com/GamerCr4cked/Tidewritten/pull/89).
+- [x] Verify that all five canonical English volumes use the same `series: "After the Ordinary"` metadata and sequential `volume: 1`–`5` values, with matching canonical routes.
+- [x] Confirm that the shared `_layouts/light-novel.html` automatically renders immediate Previous volume and Next volume links at the bottom of each volume, based on published canonical light-novel pages with the same series name and adjacent volume numbers. No hard-coded per-volume footer links are needed.
+- [ ] Complete the separately tracked editorial and continuity revisions for Volumes 1 and 2 before any translation work.
+
+**Volume 5 source review:** 18 sequential chapter IDs, 3 sequential interlude IDs, Prologue and spring Epilogue present; IDs are unique; paragraph opening/closing counts balance; no broken local anchors were found. The manuscript continues from Volume 4's February 28 epilogue and retains the canonical Volume 5 route. Source-level checks do not replace rendered-browser QA.
+
 ## Active roadmap
 
 ## Phase 7 — Personal Reading Experience
