@@ -90,7 +90,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Direct visits to translation pages should normalize to the canonical English story URL while retaining the selected language view, as implemented.
 - Only expose language choices that actually exist for the current story/volume.
 
-## 7. Reader experience and visual design
+## 6. Reader experience and visual design
 
 - Preserve Tidewritten's cyan/aquatic visual identity and established design language.
 - Keep story text as the primary focus; do not introduce chat-bubble presentation or character-detail cards.
@@ -116,7 +116,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Interactive controls inside the Translate and Customize dropdowns provide visible hover feedback using the active reader accent, including language choices, appearance selectors, the accent-color control, and Reset appearance.
 - Default accent colors are selected for contrast in each reader palette and light/dark mode. A user-selected custom accent persists when switching palette or mode.
 
-## 6. Library discovery controls
+## 7. Library discovery controls
 
 - Use a controlled genre vocabulary across canonical English volumes and their translations: **Romance**, **Romantic Comedy**, **Drama**, **Mystery**, **Science Fiction**, **Slice of Life**, and **Coming-of-Age**.
 - Genre metadata must contain only established genre/subgenre classifications from that vocabulary. Treat settings (for example, school, college, workplace, or online), character dynamics (roommates), plot devices (second chances), and mood descriptors (bittersweet, healing, heartbreak) as descriptive metadata, not separate genres.
