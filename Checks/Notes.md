@@ -94,6 +94,7 @@ The reader associates editions by the common filename base, with translation_of 
 - Preserve `/creator/`, `/reading-guide/`, and `/editorial/` as lightweight redirects to `/about/` so existing bookmarks and inbound links continue to work.
 - The current shared site color tokens and typography inventory are recorded in Section 13 below. Update this section when lasting design-system decisions change.
 - Maintain reading progress, save/restore, text-size controls, theme controls, edge fades, and previous/next volume navigation unless the owner requests a change.
+- The shared `_layouts/light-novel.html` generates bottom-of-volume Previous/Next links from published canonical light-novel pages: match the current page's `series`, exclude translations (`translation_of == nil`), sort by numeric `volume`, and link only to the immediately adjacent volume numbers. Keep each volume's `series`, `volume`, and canonical permalink metadata correct; do not hard-code per-volume footer links in story manuscripts.
 - Check desktop and mobile layouts, both themes, and touch interaction when a change can affect presentation.
 - Use meaningful heading order, accessible names, visible focus states, sufficient contrast, and reduced-motion support.
 - Avoid decorative changes that make reading harder or obscure text.
